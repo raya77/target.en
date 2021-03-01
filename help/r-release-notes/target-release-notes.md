@@ -9,7 +9,7 @@ feature: Release Notes
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: February 17, 2021**
+**Last Updated: March 1, 2021**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
@@ -25,17 +25,19 @@ This maintenance release contains the following enhancements, fixes, and changes
 
 The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-* Increased the allowable offer size:
+* Increased the allowable offer size (TGT-38304):
 
   |Type|Previous Limit|New Limit|
   | --- | --- | --- |
   |HTML|256 KB|1024 KB|
   |Visual offers from the Target UI|64 KB|1024 KB for each experience|
   |Via API|512 KB|1024 KB|
-   
+
+* [!UICONTROL Personalization Insights] reports for [!UICONTROL Auto-Target] (AT) and [!UICONTROL Automated Personalization] (AP) activities are now produced on a daily basis. You can choose a report providing [!UICONTROL Automated Segments] or [!UICONTROL Important Attributes] for the last 15, 30, and 60 days. The 45 and 90 day options have been removed to enable the other lookback window settings to run on a daily basis. (TGT-39472)
 * Fixed an issue that caused the current dependency to not display when customers click [!UICONTROL Edit Dependency] on an activity's [!UICONTROL Goals & Settings] page. (TGT-39340)
 * Fixed an issue when refreshing a workspace's [!UICONTROL Audience Library]. Before the refresh, the audiences for the currently selected workspace displayed. After the refresh, the [!UICONTROL Default Workspace] and its audiences displayed. The current workspace and its audiences now persist after the refresh. (TGT-38871) 
 * Fixed an issue when copying a [!UICONTROL Recommendations] activity and later editing the original activity by changing its criteria sequence. The change in the criteria sequence in the original activity was also incorrectly applied to the copied activity. (TGT-39155)
+* Fixed an issue that caused the incorrect number of products to display for [!UICONTROL Recommendations] exclusions. (TGT-39599)
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 
