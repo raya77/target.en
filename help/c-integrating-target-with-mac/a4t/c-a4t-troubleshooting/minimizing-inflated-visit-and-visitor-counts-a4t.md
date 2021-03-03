@@ -12,9 +12,9 @@ Information to help you minimize the effects of inflated Visit and Visitor count
 >[!IMPORTANT]
 >On November 14, 2016, Adobe Analytics changed the way some data is processed for customers using Analytics reporting for Target (A4T). These changes bring Adobe Target data into better alignment with the data model for Adobe Analytics . These changes were rolled out for all customers using A4T. These changes specifically address an issue where some customers have noticed an inflated visitor count when Target activities are running.
 >
->Note that this change is not retroactive. If your historical reports show inflated counts, and you would like to exclude them from your reports, you can create a virtual report suite, as explained below.
+>This change is not retroactive. If your historical reports show inflated counts, and you would like to exclude them from your reports, you can create a virtual report suite, as explained below.
 >
->Additionally, several JavaScript libraries have been updated to help minimize inflated counts. We recommend that you upgrade to the following library versions (or newer):
+>Also, several JavaScript libraries have been updated to help minimize inflated counts. Adobe recommends that you upgrade to the following library versions (or newer):
 >
 >* Experience Cloud Visitor ID Service: visitorAPI.js version 2.3.0 or later.
 >* Adobe Analytics: appMeasurement.js version 2.1.
@@ -24,21 +24,21 @@ Information to help you minimize the effects of inflated Visit and Visitor count
 
 ## What changed? {#section_9CCF45F5D66D48EBA88F3A178B27D986}
 
-When [!DNL Adobe Analytics] is used to measure [!DNL Target] activities (called A4T), [!DNL Analytics] collects additional data that is not available when there is no [!DNL Target] activity on the page. This is because the [!DNL Target] activity fires a call at the top of the page, but [!DNL Analytics] typically fires its data collection calls at the bottom of the page. In the implementation of A4T to date, we included this additional data whenever a [!DNL Target] activity was active. Going forward, we will include this additional data only when both the [!DNL Target] and [!DNL Analytics] tags have fired.
+When [!DNL Adobe Analytics] is used to measure [!DNL Target] activities (called A4T), [!DNL Analytics] collects extra data that is not available when there is no [!DNL Target] activity on the page. This is because the [!DNL Target] activity fires a call at the top of the page, but [!DNL Analytics] typically fires its data collection calls at the bottom of the page. In the implementation of A4T to date, Adobe includes this additional data whenever a [!DNL Target] activity was active. Going forward, Adobe includes this additional data only when both the [!DNL Target] and [!DNL Analytics] tags have fired.
 
 ## Why did Adobe make this change? {#section_92380A4BD69E4B8886692DD27540C92A}
 
-Adobe prides itself on data accuracy and quality. When the [!DNL Target] tag fires, but the [!DNL Analytics] tag does not, we are recording “partial data” (sometimes called "unstitched hits"), which would not be captured by [!DNL Analytics] were there no [!DNL Target] activity. Although including this partial data in [!DNL Analytics] reporting does provide additional information, it also creates inconsistency with historical data from periods when there were no [!DNL Target] activities running. This can cause problems for [!DNL Analytics] users who are analyzing trends over time. In the interest of ensuring data consistency in [!DNL Analytics], we will be excluding all partial data.
+Adobe prides itself on data accuracy and quality. When the [!DNL Target] tag fires, but the [!DNL Analytics] tag does not, Adobe records “partial data” (sometimes called "unstitched hits"), which would not be captured by [!DNL Analytics] were there no [!DNL Target] activity. Although including this partial data in [!DNL Analytics] reporting does provide additional information, it also creates inconsistency with historical data from periods when there were no [!DNL Target] activities running. This can cause problems for [!DNL Analytics] users who are analyzing trends over time. In the interest of ensuring data consistency in [!DNL Analytics], Adobe excludes all partial data.
 
 ## What contributes to partial data? {#section_C9C906BEAA7D44DAB9D3C03932A2FEB8}
 
-We have seen some customers with very high rates of partial data in [!DNL Analytics]. This can result from improper implementation, but there are legitimate causes as well.
+Adobe has seen some customers with high rates of partial data in [!DNL Analytics]. This can result from improper implementation, but there are legitimate causes as well.
 
 The identified causes of partial data include the following:
 
 * **Misaligned report suite IDs (Implementation):** The report suite specified during activity setup does not match the report suite on the page where the test is delivered. This looks like partial data because the data cannot be reconciled on [!DNL Analytics] servers. 
 * **Slow pages:** Because [!DNL Target] calls are at the top of the page and [!DNL Analytics] calls are typically at the bottom of the page, if the page loads slowly, it increases the likelihood of a visitor leaving the page after the [!DNL Target] call fires, but before the [!DNL Analytics] call. This can be especially problematic on mobile web sites where connections are often slower. 
-* **Page errors:** If there are JavaScript errors or other scenarios where each of the touchpoints do not fire (Experience Cloud ID service, Target, and Analytics), partial data will result. 
+* **Page errors:** If there are JavaScript errors or other scenarios where each of the touchpoints do not fire (Experience Cloud ID service, Target, and Analytics), partial data results. 
 * **Redirect offer(s) in [!DNL Target] activity:** For redirect offers in activities using A4T, your implementation must meet certain minimum requirements. In addition, there is important information that you need to know. For more information, see [Redirect Offers - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58).
 * **Old versions of the libraries:** Over the past year Adobe has made several improvements to our JavaScript libraries ( [!DNL appMeasurement.js], `at.js/mbox.js`, and `visitorAPI.js`) to make sure data is sent as efficiently as possible. To learn more about implementation requirements, see [Before You Implement](/help/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
 
