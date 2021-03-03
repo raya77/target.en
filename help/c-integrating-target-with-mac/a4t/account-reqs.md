@@ -32,9 +32,7 @@ For more information, see [Manage Experience Cloud users and products](https://e
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
-Configure access to the [!DNL Analytics] report suite:
-
-To use A4T on a given report suite, you must have access to that report suite. 
+To use A4T on a given report suite, you must have access to that report suite and grant access to the [!DNL Web Services Access] group. 
 
 1. In **[!UICONTROL Admin Console]**, click an [!DNL Analytics] product profile, then click the **[!UICONTROL Permissions]** tab. 
 
@@ -45,6 +43,11 @@ To use A4T on a given report suite, you must have access to that report suite.
    The following illustration is an example of a product profile that has access to all report suites:
 
    ![Admin Console Permission tab](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
+
+1. Configure access to the [!UICONTROL Web Services Access] group.
+
+   Access to the [!UICONTROL Web Services Access] group in [!DNL Analytics] is required to be able to use [!DNL Analytics] as the reporting source for [!DNL Target].
+
 
 ## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
 
