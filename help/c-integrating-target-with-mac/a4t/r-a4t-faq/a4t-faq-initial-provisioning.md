@@ -7,7 +7,7 @@ feature: Analytics for Target (A4T)
 
 # Initial provisioning - A4T FAQ{#initial-provisioning-a-t-faq}
 
-This topic contains answers to questions that are frequently asked about provisioning Analytics as the reporting source for Target (A4T).
+This topic contains answers to questions that are frequently asked about provisioning [!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T).
 
 ## How can I set up a multi-page A4T activity?
 
@@ -19,9 +19,9 @@ To implement a basic multi-page A4T use-case:
 
 ## How can I tell whether A4T is enabled on my Target account? {#section_4437D284448F4313BF953D4B6EDBACA6}
 
-Before a report suite can be selected when defining an Analytics activity, you need both an Analytics user account and a Target user account. Your user accounts must be configured as described in the documentation. See [User Permission Requirements](/help/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083) .
+Before a report suite can be selected when defining an Analytics activity, you need both an Analytics user account and a Target user account. Your user accounts must be configured as described in the documentation. See [User Permission Requirements](/help/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083).
 
-Once you are a member of one or more Experience Cloud groups that have access to Analytics and Target and you have access to all report suites, you should see the option to create an A/B test using Analytics under **[!UICONTROL Create Activity]**.
+After you are a member of one or more Experience Cloud groups that have access to Analytics and Target and you have access to all report suites, you should see the option to create an A/B test using Analytics under **[!UICONTROL Create Activity]**.
 
 If provisioning issues occur, check whether A4T is provisioned correctly.
 
@@ -29,13 +29,13 @@ If provisioning issues occur, check whether A4T is provisioned correctly.
 
 Check the following if any of these problems occur:
 
-* Make sure your Analytics and Target accounts are linked in the Experience Cloud. 
-* If you are using multiple Analytics company logins in the same Experience Cloud company, make sure that the last Analytics company you logged in to is the one that is tied to the Target account for the integration. 
+* Make sure that your Analytics and Target accounts are linked in the Experience Cloud. 
+* Some customers use multiple Analytics company logins in the same Experience Cloud company. If you use multiple logins, make sure that the last Analytics company you logged in to is the one that is tied to the Target account for the integration. 
 * If you have been logged in to the Experience Cloud for several hours, sometimes the Analytics session can expire. Log out and log back in to try again.
 
 ## Why don't I see Analytics options in Target? {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
-See "Why are my report suites not loading?" above. The root cause of this problem is the same.
+See "Why are my report suites not loading?" Above. The root cause of this problem is the same.
 
 ## Why don't I see A4T reports in Analytics? {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
 

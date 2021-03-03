@@ -7,7 +7,7 @@ feature: Analytics for Target (A4T)
 
 # Lift and confidence - A4T FAQ{#lift-and-confidence-a-t-faq}
 
-This topic contains answers to questions that are frequently asked about lift and confidence when using Analytics as the reporting source for Target (A4T).
+This topic contains answers to questions that are frequently asked about lift and confidence when using [!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T).
 
 ## Can I perform offline calculations for A4T? {#section_55B5B750E17D414CAECBEECE27B15D81}
 
@@ -23,18 +23,18 @@ The confidence level is the probability that the measured conversion rate differ
 
 ## Why can't I see lift and confidence on calculated metrics? {#lift-confidence}
 
-Calculated metrics are not currently supported in lift and confidence functions. This is due to the fact that Analytics calculates metrics at an aggregate-level, rather than at a visitor-level. Confidence, in particular, is a visitor-level calculation. 
+Calculated metrics are not currently supported in lift and confidence functions. Analytics calculates metrics at an aggregate-level, rather than at a visitor-level. Confidence, in particular, is a visitor-level calculation. 
 
-Non-calculated (standard) events are supported in lift and confidence. They become the numerator in the lift function; the numerator cannot be a calculation itself. The denominator is the normalizing metrics (impressions, visits, or visitors). Some examples of standard events include orders, revenue, activity conversions, custom events 1-1000, etc. This means that common optimization metrics, such as conversation rate (Orders/Visitor) and RPV (Revenue/Visitor) are supported in lift and confidence.
+Non-calculated (standard) events are supported in lift and confidence. They become the numerator in the lift function; the numerator cannot be a calculation itself. The denominator is the normalizing metrics (impressions, visits, or visitors). Some examples of standard events include orders, revenue, activity conversions, custom events 1-1000, and so on. Common optimization metrics, such as conversation rate (Orders/Visitor) and RPV (Revenue/Visitor) are supported in lift and confidence.
 
 Examples of unsupported metrics or use cases include:
 
 * Average Order Value (Revenue/Order, per Visitor). AOV is not supported because the numerator is a calculated metric. Instead, the recommendation is to consider the two influencing metrics of AOV - Revenue Per Visitors and Conversion Rate.
-* Calculated metrics that are the sum of standard events. For example, you might track ten different lead forms into ten separate events, and then add them together to get total lead submissions. A recommended method to track these events is to implement a single lead submission event in Analytics and then use an eVar to collect the type of lead form. Using this method requires fewer variables and ensures that you can use the single lead submission metric in lift and confidence functions.
+* Calculated metrics that are the sum of standard events. For example, you can track ten different lead forms into ten separate events, and then add them together to get total lead submissions. A recommended method to track these events is to implement a single lead submission event in Analytics and then use an eVar to collect the type of lead form. Using this method requires fewer variables and ensures that you can use the single lead submission metric in lift and confidence functions.
 
 ## How does A4T handle confidence calculations? {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
-A4T uses non-binary metric calculations with the sum of square data. The variance is calculated using the sum of squares data. Extreme orders are not taken into account. Additionally, the confidence calculation does not apply a Bonferroni correction for multiple offers.
+A4T uses non-binary metric calculations with the sum of square data. The variance is calculated using the sum of squares data. Extreme orders are not considered. Also, the confidence calculation does not apply a Bonferroni correction for multiple offers.
 
 ## Do lift and confidence work in Ad Hoc and Report Builder? If it's not native, can I do it in there myself? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
