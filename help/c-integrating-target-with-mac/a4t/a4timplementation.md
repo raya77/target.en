@@ -7,7 +7,7 @@ feature: Analytics for Target (A4T)
 
 # Analytics for Target implementation{#analytics-for-target-implementation}
 
-Several steps are required when implementing [!DNL Adobe Analytics] as the reporting source for [!DNL Target] (A4T).
+Several steps are required when implementing [!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T).
 
 ## Implementation steps {#section_73961BAD5BB4430A95E073DE5C026277}
 
@@ -23,13 +23,13 @@ User account requirements must be met before you can create an [!DNL Analytics]-
 
 ## Step 3: Implement the Experience Cloud Visitor ID service
 
-The visitor ID service lets you identify users across [!DNL Adobe Experience Cloud] solutions. You must implement or migrate to the required version of the Experience Cloud Visitor ID. For more information, see "Implementation Requirements" in [Before you implement](/help/c-integrating-target-with-mac/a4t/before-implement.md).
+The visitor ID service lets you identify users across [!DNL Adobe Experience Cloud] solutions. Implement or migrate to the required version of the Experience Cloud Visitor ID. For more information, see "Implementation Requirements" in [Before you implement](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
 See [Implement the Experience Cloud ID Service for Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html) in the *Experience Cloud Visitor ID Service* documentation.
 
 ## Step 4: Update AppMeasurement for JavaScript or s_code
 
-You must implement or migrate to the required version of appMeasurement.js. For more information, see "Implementation Requirements" in [Before you implement](/help/c-integrating-target-with-mac/a4t/before-implement.md).
+Implement or migrate to the required version of appMeasurement.js. For more information, see "Implementation Requirements" in [Before you implement](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
 For new implementations, see [JavaScript implementation overview](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html) in the *Analytics Implementation Guide*.
 
@@ -37,7 +37,7 @@ For a migration, see [Migrating to AppMeasurement for JavaScript](https://experi
 
 ## Step 5: Download and update at.js
 
-You must implement or migrate to the required version of at.js using your production account. No modifications are required on the code.
+Implement or migrate to the required version of at.js using your production account. No modifications are required on the code.
 
 For more information, see "Implementation Requirements" in [Before you implement](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
@@ -58,11 +58,11 @@ For at.js:
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
 
-It is essential that VisitorAPI.js is loaded before at.js. If you are updating an existing at.js or mbox.js file, make sure that you verify the load order.
+The VisitorAPI.js must be loaded before at.js. If you are updating an existing at.js or mbox.js file, make sure that you verify the load order.
 
-The way the out-of-the-box settings are configured for [!DNL Target] and [!DNL Analytics] integration from an implementation perspective is to use the SDID that is passed from the page to stitch the [!DNL Target] and [!DNL Analytics] request together on the backend automatically for you. 
+The default setting for [!DNL Target] and [!DNL Analytics] integration, from an implementation perspective, is to use the SDID that is passed from the page to stitch the [!DNL Target] and [!DNL Analytics] request together on the backend automatically. 
 
-However, if you want more control on how and when to send analytics data related to [!DNL Target] to [!DNL Analytics] for reporting purposes, and you do not want to opt-in to the default settings of having [!DNL Target] and [!DNL Analytics] automatically stitch the analytics data via the SDID, then you can set **analyticsLogging = client_side** via **window.targetGlobalSettings**. Note: any versions below 2.1 do not support this approach.
+You can control how and when to send analytics data related to [!DNL Target] to [!DNL Analytics] for reporting purposes. If you do not want to opt in to the default settings of having [!DNL Target] and [!DNL Analytics] automatically stitch the analytics data via the SDID, set **analyticsLogging = client_side** via **window.targetGlobalSettings**. Note: any versions below 2.1 do not support this approach.
 
 For example:
 
@@ -72,7 +72,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-This set up has a global effect, which means that every call made by at.js will have **analyticsLogging: "client_side"** sent within the [!DNL Target] requests and an analytics payload will be returned for every request. When this is set up, the format of the payload that is returned looks like the following:
+This set up has a global effect, which means that every call made by at.js has **analyticsLogging: "client_side"** sent within the [!DNL Target] requests and an analytics payload is returned for every request. When this option is set up, the format of the payload that is returned looks like the following:
 
 ```javascript
 "analytics": {
@@ -83,9 +83,9 @@ This set up has a global effect, which means that every call made by at.js will 
 }
 ```
 
-The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Note that, for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities you will also need to forward the sessionId. For more information, see [Analytics for Target (A4T) reporting](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) in the *Adobe Target SDKs* guide. 
+The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). For Auto-Allocate and Auto-Target activities, you must also forward the sessionId. For more information, see [Analytics for Target (A4T) reporting](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) in the *Adobe Target SDKs* guide. 
 
-If a global setting is not desired and a more on-demand approach is preferable, then you can use the at.js function [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) to achieve this by passing in **analyticsLogging: "client_side"**. The analytics payload will be returned for only this call and the [!DNL Target] backend will not forward the payload to [!DNL Analytics]. By pursuing this approach, every at.js [!DNL Target] request will not return the payload by default, but instead only when desired and specified. 
+If a global setting is not desired and a more on-demand approach is preferable, use the at.js function [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) by passing in **analyticsLogging: "client_side"**. The analytics payload is returned for this call only and the [!DNL Target] backend does not forward the payload to [!DNL Analytics]. By pursuing this approach, every at.js [!DNL Target] request returns the payload by default, but instead only when desired and specified. 
 
 For example:
 
@@ -147,17 +147,17 @@ The payload can then be forwarded to [!DNL Analytics] via the [Data Insertion AP
 
 Load your pages after you have updated the JavaScript libraries to confirm that the `mboxMCSDID` parameter values in [!DNL Target] calls match the `sdid` parameter value in the [!DNL Analytics] page-view call.
 
-This is especially important to confirm in Single Page Applications (SPAs) where the order of calls is not always predictable.
+It is especially important to confirm that these values match in Single Page Applications (SPAs) where the order of calls is not always predictable.
 
-**Note:** The matching of these values is required in order for A4T to function correctly.
+**Note:** The matching of these values is required for A4T to function correctly.
 
 ## Step 9: (Optional) Remove previous integration code
 
-We recommend that you remove the previous integration to simplify your implementation and eliminate the need to sort out discrepancies between the systems. You can remove any code you might have deployed for a previous SC to T&T integration, including `mboxLoadSCPlugin`.
+Adobe recommends that you remove the previous integration to simplify your implementation and eliminate the need to sort out discrepancies between the systems. You can remove any code you have deployed for a previous SC to T&T integration, including `mboxLoadSCPlugin`.
 
 ## Step 10: Enable the options for using Analytics as the reporting source for Target
 
-In [!DNL Target], click **[!UICONTROL Administation > Visual Experience Composer]** and choose either **[!UICONTROL Select per activity]** or **[!UICONTROL Adobe Analytics]** to enable the options.
+In [!DNL Target], click **[!UICONTROL Administration > Visual Experience Composer]** and choose either **[!UICONTROL Select per activity]** or **[!UICONTROL Adobe Analytics]** to enable the options.
 
 * **[!UICONTROL Select per activity]** lets you choose between [!DNL Target] and [!DNL Analytics] when creating each activity.
 * **[!UICONTROL Adobe Analytics]** sets [!DNL Analytics] as the reporting source for all activities that you create.
