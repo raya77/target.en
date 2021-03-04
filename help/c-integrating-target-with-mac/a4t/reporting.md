@@ -7,11 +7,11 @@ feature: Analytics for Target (A4T)
 
 # A4T reporting{#a-t-reporting}
 
-Using [!DNL Analytics] as your reporting source for [!DNL Target] (A4T) gives you access to [!DNL Analytics] reports for your [!DNL Target] activities.
+Using [!DNL Adobe Analytics] as your reporting source for [!DNL Adobe Target] (A4T) gives you access to [!DNL Analytics] reports for your [!DNL Target] activities.
 
  You can view reports for your activities in both [!DNL Analytics] and [!DNL Target].
 
-For reporting best practices using [!DNL Analytics] for [!DNL Target], [visit this Adobe Spark page](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
+For reporting best practices using [!DNL Analytics] for [!DNL Target], [visit this Adobe Spark Page](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
 
 ## Overview {#section_035A62D65608423285D8A5A54731E2C5}
 
@@ -59,7 +59,7 @@ When [!DNL Analytics] is used as the reporting source, reports in [!DNL Target] 
 
   Every metric is available, including any custom or calculated metrics that are built-in in [!DNL Analytics].
 
-  Be aware that any numbers that increase are shown as positives in the report, even when an increase is actually undesired. For example, even though you want a lower bounce rate, the higher bounce rate is shown as the winner with highest lift. Be aware of these and similar metrics, and whether you'd prefer to decrease or increase the numbers, when making decisions based on your reports.
+  Any numbers that increase are shown as positives in the report, even when an increase is undesired. For example, even though you want a lower bounce rate, the higher bounce rate is shown as the winner with highest lift. Be aware of these and similar metrics, and whether you'd prefer to decrease or increase the numbers, when making decisions based on your reports.
 
 You can apply the metric or audience to the report in [!DNL Target] after the activity has started, or even after the test has completed. You don't have to know exactly what you want to measure beforehand.
 

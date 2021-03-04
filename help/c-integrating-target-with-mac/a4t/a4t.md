@@ -17,11 +17,11 @@ The three primary benefits of using [!DNL Analytics] data in [!DNL Target] are:
 
 * Marketers can dynamically apply [!DNL Analytics] success metrics or reporting segments to [!DNL Target] activity reports at any time. It is not required to specify everything before running the activity. 
 * A single source of data eliminates the variance that occurs when collecting data in two separate systems. 
-* Your existing [!DNL Analytics] implementation collects all required data. There is no need to implement mboxes on pages for the sole purpose of collecting data for reports. Although, it is still recommended that you implement an order confirmation mbox for [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) activities.
+* Your existing [!DNL Analytics] implementation collects all required data. There is no need to implement mboxes on pages for the sole purpose of collecting data for reports. Adobe still recommends that you implement an order confirmation mbox for [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) activities.
 
 >[!IMPORTANT]
 >
->Before you can begin using A4T, you need to request that your account be provisioned for the integration. Use [this form](https://www.adobe.com/go/audiences) to request to be provisioned.
+>Before you can begin using A4T, you must request integration provisioning for your account. Use [this form](https://www.adobe.com/go/audiences) to request to be provisioned.
 >
 >The integration that enables [!DNL Analytics] as the data source for [!DNL Target] (A4T) represents the next generation of the Test&Target to SiteCatalyst plug-in. This plug-in has been deprecated, but is still supported for customers who already use it.
 
@@ -37,14 +37,14 @@ Keep the following points in mind when considering using A4T:
 
 * To use [!DNL Analytics] as the reporting source for [!DNL Target], both you and your company must have access to [!DNL Analytics] and to [!DNL Target]. [Contact your account representative](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) if you need either solution. 
 * The reporting source is set for each activity. [!DNL Target] continues to collect data to use in reporting and [!DNL Target] data is still available if you prefer to base an activity on data collected by [!DNL Target]. 
-* You must use one reporting source or the other. You cannot collect data for a single activity from both sources. 
+* Use one reporting source or the other. You cannot collect data for a single activity from both sources. 
 * When using A4T, all success metrics available to your activities are [!DNL Analytics] metrics. However, your goal metric can be based on an mbox call. For example, you can use Target's out-of-the-box click-tracking capabilities with A4T instead of having to implement [!DNL Analytics] click-tracking code. 
 * When viewing reporting of an A4T activity in the [!DNL Target] UI, you are viewing [!DNL Analytics] data. For example, if you use the [!UICONTROL Visitor] metric in [!DNL Target], you are using the [!DNL Analytics] [!UICONTROL Visitor] metric, not the [!DNL Target] [!UICONTROL Visitors] metric, which is now called [!UICONTROL Entrants]. This difference is especially important for basic traffic metrics ([!UICONTROL Visitors], [!UICONTROL Visits], [!UICONTROL Page Views]) and conversion metrics. 
 * Any existing [!DNL Target] activities continue to use [!DNL Target] data collection and are not affected by enabling A4T. 
 * Only one mbox-based metric is allowed when using [!DNL Analytics] as the reporting source. 
-* A server-to-server call from [!DNL Target] to [!DNL Analytics] sends activity and experience information to [!DNL Analytics]. This integration does not result in additional server calls for either [!DNL Target] or [!DNL Analytics]. 
+* A server-to-server call from [!DNL Target] to [!DNL Analytics] sends activity and experience information to [!DNL Analytics]. This integration does not result in more server calls for either [!DNL Target] or [!DNL Analytics]. 
 
-  In some situations, the classifications from [!DNL Target] to [!DNL Analytics] might fail and activities do not show data in [!DNL Analytics]. If this happens, see [Troubleshoot the Analytics and Target integration (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). You can also [contact Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) for further assistance.
+  In some situations, the classifications from [!DNL Target] to [!DNL Analytics] fail and activities do not show data in [!DNL Analytics]. See [Troubleshoot the Analytics and Target integration (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). You can also [contact Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) for further assistance.
 
 ## Supported activity types {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -56,12 +56,12 @@ The following table shows you which activity types support [!DNL Analytics] as t
 |A/B activity with Auto-Allocate|Yes|See [A4T support for Auto-Allocate and Auto-Target activities](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)|
 |A/B activity with Auto-Target|Yes|See [A4T support for Auto-Allocate and Auto-Target activities](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).|
 |Experience Targeting (XT)|Yes||
-|Multivariate test (MVT)|Yes|Requires mbox-based goal metric goal to get the [!UICONTROL Element Contribution] report.  The [!UICONTROL Element Contribution] report does not currently support [!DNL Analytics] metrics.|
+|Multivariate test (MVT)|Yes|Requires mbox-based goal metric goal to get the [!UICONTROL Element Contribution] report. The [!UICONTROL Element Contribution] report does not currently support [!DNL Analytics] metrics.|
 |Automated Personalization (AP) activity|No||
 |Recommendations activity|Yes||
-|Mobile App|Yes|Supported with the Mobile Services SDK, version 4.13.1 or later.  For more information, see the [Mobile Services documentation](https://experienceleague.adobe.com/docs/mobile-services/using/home.html).|
+|Mobile App|Yes|Supported with the Mobile Services SDK, version 4.13.1 or later. For more information, see the [Mobile Services documentation](https://experienceleague.adobe.com/docs/mobile-services/using/home.html).|
 |Email|No||
-|Server Side Delivery API|Yes|For more information, see [Server Side: implement Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).|
+|Server-Side Delivery API|Yes|For more information, see [Server Side: implement Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).|
 |NodeJS SDK|Yes|For more information, see [Server Side: implement Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).|
 |AEM 6.1 (or earlier) Cloud Service Integration|No||
 |AEM 6.2 (or later) Cloud Service Integration|Yes|For more information, see [Integrating with Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html) in the [!DNL Adobe Experience Manager] 6.2 documentation.|
@@ -79,7 +79,7 @@ To view A4T reports in [!DNL Target], click **[!UICONTROL Activities]**, click t
 >
 >You can use the [!UICONTROL Reporting Source] drop-down list at the top of the [!UICONTROL Activities] page to display only activities that use [!DNL Analytics] as the reporting source.
 
-You can toggle between the [!UICONTROL Table View] and [!UICONTROL Graph View] of the report by clicking the appropriate icon at the top right side of the report.
+You can toggle between the [!UICONTROL Table View] and [!UICONTROL Graph View] of the report by clicking the appropriate icon at the top-right side of the report.
 
 The following illustration shows the [!UICONTROL Graph View] of an A4T report with the [!UICONTROL Report Metric] drop-down list displaying the available [!DNL Analytics] goal metrics:
 
