@@ -5,7 +5,7 @@ title: Where Can I find Questions and Answers about Target Recommendations?
 feature: Recommendations
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Recommendations FAQ{#recommendations-faq}
+# ![PREMIUM](/help/assets/premium.png) Recommendations FAQ
 
 List of frequently asked questions (FAQs) about Adobe Target Recommendations activities.
 
@@ -155,7 +155,7 @@ Ensure that the audience has a unique name. If you gave the audience the same na
 
 There is no hard limit on the number of rows or file size for a feed's CSV file upload. However, as a best practice, we recommend limiting the CSV file size to 1 GB to avoid failures during the file upload process. If the size of the file exceeds 1 GB, it should ideally be split into multiple feed files. The maximum number of custom attribute columns is 100 and custom attributes are limited to 4096 characters. Additional limits on the length of required columns are available on the [Target Limitations page](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
-## Can I dynamically exclude an entity?
+## Can I dynamically exclude an entity? {#exclude}
 
 In the query string, you can pass entity IDs for entities that you want to exclude from your recommendations. For example, you might want to exclude items that are already in the shopping cart.
 
