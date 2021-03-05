@@ -5,9 +5,9 @@ title: Where Can I find Questions and Answers about Target Recommendations?
 feature: Recommendations
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Recommendations FAQ{#recommendations-faq}
+# ![PREMIUM](/help/assets/premium.png) Recommendations FAQ
 
-List of frequently asked questions (FAQs) about Adobe Target Recommendations activities.
+List of frequently asked questions (FAQs) about [!DNL Adobe Target] [!DNL Recommendations] activities.
 
 ## Why does Catalog Search not show the correct results when I search on a custom attribute with a numeric value?
 
@@ -15,7 +15,7 @@ When you perform a catalog search on a custom attribute with a numeric value, th
 
 Currently, there is no functionality available that allows customers to change the type of an attribute. To make a change, [open a customer issue](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) referencing the attributes that need the type changed from string to numeric.
 
-## How long will it take for updates to items in my catalog to be reflected on my site?
+## How long does it take for updates to items in my catalog to be reflected on my site?
 
 After importing a feed file, or after receiving entity updates via API or mbox, the following changes will be reflected in under 60 minutes:
 
@@ -29,11 +29,11 @@ The following changes are not reflected until the next algorithm run occurs (wit
 * Item attributes used in a promotion based on an attribute or collection associated with the activity.
 * Item category that the item appears in for a "Current Category" or "Favorite Category" in the Top Sellers or Most Viewed algorithm.
 * Ranking of recommended items when the attribute changed is a custom attribute that is used as the custom key for an algorithm.
-* Ranking of recommended items based on the changed attribute(s) when the recommendation logic is "Items with similar attributes," when "Content Similarity" weighting factors are used, or when "Attribute Weighting" factors are used.
+* Ranking of recommended items based on one or more changed attributes when the recommendation logic is "Items with similar attributes," when "Content Similarity" weighting factors are used, or when "Attribute Weighting" factors are used.
 
 >[!NOTE]
 >
->A feed file is considered imported when its status changes from "Importing Items" to "Preparing Search Index Updates". Updates may take more than 60 minutes to be reflected in the Catalog Search user interface; Catalog Search is up-to-date when the feed status changes to "Updates Completed". Even if Catalog Search is not yet up-to-date, your site will reflect updates on the timeframes listed above. The most recent Catalog Search index update time is displayed on the Catalog Search page.
+>A feed file is considered imported when its status changes from "Importing Items" to "Preparing Search Index Updates". Updates can take more than 60 minutes to be reflected in the Catalog Search user interface; Catalog Search is up to date when the feed status changes to "Updates Completed". Even if Catalog Search is not yet up to date, your site reflects updates on the timeframes listed above. The most recent Catalog Search index update time is displayed on the Catalog Search page.
 
 ## What should I do if special characters are breaking my array? {#section_D27214116EE443638A60887C7D1C534E}
 
@@ -52,11 +52,11 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 ## Why aren't all criteria, including custom criteria, available for selection when creating a Recommendations activity? {#section_B2265AC8B8A94E0298D495A05C5D817F}
 
-The available criteria is based on the current category. When you are creating recommendations offers, the algorithm picker displays criteria on the basis of category Id.
+The available criteria is based on the current category. When you are creating recommendations offers, the algorithm picker displays criteria based on category Id.
 
 If the location on which you're applying this criteria doesn't contain the category Id, certain criteria is not available in the algorithm picker.
 
-If you use a location where category Id is present in the mbox, the criterial picker will contain all applicable criteria.
+If you use a location where category Id is present in the mbox, the criteria picker contains all applicable criteria.
 
 Target has a [Filter Incompatible Criteria](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) setting to control intelligent filtering of the algorithm picker.
 
@@ -87,27 +87,27 @@ The following list contains special cases in which Target does not display the [
 
 Consider the following information if you see a collection go to zero that previously was not at zero:
 
-* You can re-save the collection and see if it updates the number. Note that by resaving, the collection will re-run all algorithms that are using that collection. 
+* You can resave the collection and see if it updates the number. By resaving, the collection reruns all algorithms that are using that collection. 
 * Are you looking at the right environment? Go to [!DNL /target/products.html#recsSettings] to double check (as shown below).
 
   ![](assets/product_catalog.png)
 
-* Is your index up to date? Go t o [!DNL /target/products.html#productSearch] and check how many hours old the index is (for example, “Indexed 3 hour(s) ago”). You can refresh the index as needed. 
+* Is your index up to date? Go t o [!DNL /target/products.html#productSearch] and check how many hours old the index is (for example, “Indexed 3 hours ago”). You can refresh the index as needed. 
 * Did you change something in the feed or the data layer that resulted in your entities no longer matching the collection rules? Make sure your CASE matches (case-sensitive). 
-* Did your feed run successfully? Did someone change the FTP directory, password, etc? 
-* Target does its best to make updates to the delivery (on the customer’s page/app) happen as quickly as possible. Yet, we also have to provide some representation in the UI for the marketer. We don’t necessarily delay delivery updates to wait for the UI updates to be in sync. You can use [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) to see what is in the system at the time a request comes in.
+* Did your feed run successfully? Did someone change the FTP directory, password, and so forth? 
+* Target does its best to make updates to the delivery (on the customer’s page/app) happen as quickly as possible. Yet, Target also has to provide some representation in the UI for the marketer. Target does not delay delivery updates to wait for the UI updates to be in sync. You can use [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) to see what is in the system at the time a request comes in.
 
 ## What's the difference between general Attribute Weighting and Content Similarity-specific attribute weighting? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
 Attribute weighting exists in two forms: "standard attribute weighting" and "content similarity attribute weighting."
 
-"Standard attribute weighting" applies to most, if not all, criteria types (not just Content Similarity).This type of weighting gives more weight to certain attribute values. In the following example, Nike products will get a bump in the output recommendations.
+"Standard attribute weighting" applies to most, if not all, criteria types (not just Content Similarity). This type of weighting gives more weight to certain attribute values. In the following example, Nike products get a bump in the output recommendations.
 
 ![](assets/attribute_weighting_example.png)
 
 "Content similarity attribute weighting” applies to Content Similarity criteria only.
 
-This type of weighting is more dynamic, and is based on the current “recommendation key” (the currently viewed item). In the following example (brand x 16), if a visitor were viewing Nike sneakers, that visitor is more likely to be recommended other Nike products (not necessarily only sneakers) rather than competitors’ sneakers. If a visitor were viewing Adidas sneakers, he or she is more likely to be recommended Adidas products.
+This type of weighting is more dynamic, and is based on the current “recommendation key” (the currently viewed item). In the following example (brand x 16), if a visitor were viewing Nike sneakers, that visitor is more likely to be recommended other Nike products (not necessarily only sneakers) rather than competitors’ sneakers. If a visitor is viewing Adidas sneakers, that visitor is more likely to be recommended Adidas products.
 
 ![](assets/content_similarity_example.png)
 
@@ -115,7 +115,7 @@ This type of weighting is more dynamic, and is based on the current “recommend
 
 Target sometimes cannot show recommendations due to the low number of available recommendations.
 
-The number of values generated per criteria is 3 times the number of entities specified in the design. Runtime filtering (for example, inventory, mbox attribute matching) is applied after the 3x values are generated, so it is possible end up with fewer than 3x values at delivery time. To mitigate this situation, increase the number of entities in the design by hiding additional entities.
+The number of values generated per criteria is three times the number of entities specified in the design. Runtime filtering (for example, inventory, mbox attribute matching) is applied after the 3x values are generated, so it is possible end up with fewer than 3x values at delivery time. To mitigate this situation, increase the number of entities in the design by hiding other entities.
 
 The following JavaScript can be used at the beginning of the design to increase the number of requested entities. In this example, the requested entity count would be 30 (3x10).
 
@@ -130,20 +130,20 @@ The following JavaScript can be used at the beginning of the design to increase 
 
 ## What is the size limit of an API call for insert/update products? Can I update 50,000 products in one call using the API instead of a feed? {#section_434FE1F187B7436AA39B7C14C7895168}
 
-Target imposes a 50 MB post limit at the application level; however, that is only when you pass the `application/x-www-form-urlencoded` content type header.
+Target imposes a 50-MB post limit at the application level; however, that is only when you pass the `application/x-www-form-urlencoded` content type header.
 
-You could certainly try to send 50,000 products in a single call. If it fails, you should break it up into batches. We usually recommend that customers break their calls into 5,000 or 10,000 product batches to decrease the likelihood of a timeout due to system load.
+You could certainly try to send 50,000 products in a single call. If it fails, you can break it up into batches. Adobe recommends that customers break their calls into 5,000 or 10,000 product batches to decrease the likelihood of a timeout due to system load.
 
-## Do I need to specify the mbox name when creating Recommendations criteria, promotions, or template testing rules? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
+## Must I specify the mbox name when creating Recommendations criteria, promotions, or template testing rules? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
 
 When creating a Recommendations criteria, promotions, or template testing rule based on an mbox parameter, `mboxParameter` no longer prompts you for `mboxName`. mbox name is now optional. This change lets you use parameters from multiple mboxes or reference a parameter that has not yet been recorded on the edge.
 
 To select the desired parameter:
 
-* While creating a new criteria, promotion, or template testing rule, select a parameter name from the list, start typing the first characters of the desired parameter name, or type the full name of the desired parameter name. 
+* While creating a criteria, promotion, or template testing rule, select a parameter name from the list. Start typing the first characters of the desired parameter name, or type the full name of the desired parameter name. 
 * If you remember the mbox name, but not the parameter name, use the checkbox to filter on a known mbox passing the desired parameter.
 
-Using either method, there is no link between the mbox and the parameter. The criteria, promotion, or template testing rule will work on the basis of parameter across all mboxes that pass that parameter.
+Using either method, there is no link between the mbox and the parameter. The criteria, promotion, or template testing rule works based on parameter across all mboxes that pass that parameter.
 
 If you edit an existing criteria, promotion, or template testing rule, the filtering criteria displays with the mbox name that was supplied during creation.
 
@@ -153,11 +153,11 @@ Ensure that the audience has a unique name. If you gave the audience the same na
 
 ## What is the maximum size of a CSV file for a feed upload? {#section_20F1AF4839A447B9889B246D6E873538}
 
-There is no hard limit on the number of rows or file size for a feed's CSV file upload. However, as a best practice, we recommend limiting the CSV file size to 1 GB to avoid failures during the file upload process. If the size of the file exceeds 1 GB, it should ideally be split into multiple feed files. The maximum number of custom attribute columns is 100 and custom attributes are limited to 4096 characters. Additional limits on the length of required columns are available on the [Target Limitations page](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
+There is no hard limit on the number of rows or file size for a feed's CSV file upload. However, as a best practice, Adobe recommends limiting the CSV file size to 1 GB to avoid failures during the file upload process. If the size of the file exceeds 1 GB, it can ideally be split into multiple feed files. The maximum number of custom attribute columns is 100 and custom attributes are limited to 4096 characters. Other limits on the length of required columns are available on the [Target Limitations page](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
-## Can I dynamically exclude an entity?
+## Can I dynamically exclude an entity? {#exclude}
 
-In the query string, you can pass entity IDs for entities that you want to exclude from your recommendations. For example, you might want to exclude items that are already in the shopping cart.
+In the query string, you can pass entity IDs for entities that you want to exclude from your recommendations. For example, you can exclude items that are already in the shopping cart.
 
 To enable the exclusion functionality, use the `excludedIds` mbox parameter. This parameter points to a list of comma-separated entity IDs. For example, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. The value is sent when requesting recommendations.
 
@@ -173,21 +173,21 @@ By default, this feature is enabled for newly created recommendations. Existing 
 
 ## What does the NO_CONTENT response sometimes returned in the Recommendations content trace mean?
 
-NO_CONTENT is returned when recommendations are unavailable for the requested algorithm and key combination. Generally speaking, this occurs when backups are disabled for the algorithm and one or more of the following is also true:
+NO_CONTENT is returned when recommendations are unavailable for the requested algorithm and key combination. Generally speaking, this situation occurs when backups are disabled for the algorithm and one or more of the following is also true:
 
 * Results are not yet ready. 
 
-  This typically occurs when first saving a newly-created activity or after configuration changes are made to the collection, criteria, or promotions used in the activity.
+  This situation typically occurs when first saving a newly created activity or after configuration changes are made to the collection, criteria, or promotions used in the activity.
   
 * Results are ready, but not yet cached at the nearest edge server, for the requested algorithm/key combination. 
 
-  The request just made will initiate a caching operation, so this should resolve itself after a few page reloads and/or a few minutes pass.
+  The request initiates a caching operation, so this issue should resolve itself after a few page reloads and/or a few minutes pass.
   
 * Results are ready, but not available for the provided key value.
 
-  This typically occurs when requesting recommendations for an item that was added to the catalog after the most recent algorithm run and will resolve itself after the next algorithm run.
+  This situation typically occurs when requesting recommendations for an item that was added to the catalog after the most recent algorithm run and will resolve itself after the next algorithm run.
   
 * Partial template rendering is disabled and not enough results are available to fill the template.
 
-  This typically occurs when you have a dynamic inclusion rule, which aggressively filters many items from the possible results. To avoid this, enable backups and do not apply the inclusion rule to backups, or use the criteria in sequence with a less-aggressively filtered criteria.
+  This situation typically occurs when you have a dynamic inclusion rule, which aggressively filters many items from the possible results. To avoid situation, enable backups and do not apply the inclusion rule to backups, or use the criteria in sequence with a less-aggressively filtered criteria.
  
