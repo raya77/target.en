@@ -46,7 +46,7 @@ Character limits and other limits (offer size, audiences, profiles, values, para
 
 ## categoryId parameter
 
-* **Limit**: 128 characters.
+* **Limit**: 250 characters.
 
 ## Customer attributes
 
