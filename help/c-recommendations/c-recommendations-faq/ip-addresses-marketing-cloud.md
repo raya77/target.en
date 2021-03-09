@@ -5,17 +5,17 @@ title: What IP Addresses Do Recommendations Feed-Processing Servers Use?
 feature: Recommendations
 ---
 
-# ![PREMIUM](/help/assets/premium.png) IP addresses used by Recommendations feed-processing servers{#ip-addresses-used-by-recommendations-feed-processing-servers}
+# ![PREMIUM](/help/assets/premium.png) IP addresses used by Recommendations feed-processing servers
 
-List of IP addresses used in Recommendations feed-processing servers located in the Oregon data center to help you configure your firewall to allow IP addresses originating from Adobe servers.
+List of IP addresses used in [!DNL Adobe Target] [!DNL Recommendations] feed-processing servers in the Oregon data center to help you configure your firewall to allow IP addresses originating from Adobe servers.
 
-[!DNL Target] [!UICONTROL Recommendations] activities use the following IP addresses located in the Oregon data center when accessing customers' FTP servers (be sure to check the link below for the most current information):
+[!DNL Target] [!UICONTROL Recommendations] activities use the following IP addresses in the Oregon data center when accessing customers' FTP servers (be sure to check the link below for the most current information):
 
 |  CIDR Notation  | Starting IP  | Ending IP  |
 |---|---|---|
 |  192.243.242.0/24  | 192.243.242.0  | 192.243.242.255  |
 
-[!DNL Target] [!UICONTROL Recommendations] APIs use the following IP addresses located in the Oregon data center (be sure to check the link below for the most current information):
+[!DNL Target] [!UICONTROL Recommendations] APIs use the following IP addresses in the Oregon data center (be sure to check the link below for the most current information):
 
 |  CIDR Notation  | Starting IP  | Ending IP  |
 |---|---|---|

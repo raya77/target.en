@@ -183,13 +183,13 @@ Character limits and other limits (offer size, audiences, profiles, values, para
 
 * **Recommended limit**: 50,000 total offers.
 
-### Offer size
+### Offer size {#offer-size}
 
 The following size limits apply to offers:
 
-* 256 KB for HTML offers. 
-* 64 KB for visual offers from the UI. 
-* 512 KB from the API.
+* 1024 KB for HTML offers. 
+* 1024 KB (for each experience) for visual offers from the UI. 
+* 1024 KB from the API.
 
   If you are using a global mbox, the limit is for the whole set of content returned for the page. Limiting offer size improves page load times. If the limit is exceeded, the following message appears:
 
