@@ -5,7 +5,7 @@ title: How Do I Use Entity Attributes?
 feature: Recommendations
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Entity attributes{#entity-attributes}
+# ![PREMIUM](/help/assets/premium.png) Entity attributes
 
 Use entity attributes to pass product or content information to [!DNL Adobe Target Recommendations].
 
@@ -74,7 +74,7 @@ Singe value only.
 
 This required parameter identifies the product. This alphanumeric ID must be the same across all [!DNL Adobe Experience Cloud] products that are used, including [!DNL Analytics], for the various products to recognize the item and share data about it.
 
-`entity.id` values must not contain slashes, ampersands, question marks, percentage symbols, commas, or other punctuation characters that require URL encoding when passed in a REST API call. Hyphens and underscores are permitted. Including invalid punctuation in an `entity.id` value causes some [!DNL Recommendations] functionality to fail.
+`entity.id` values must *not* contain slashes, ampersands, question marks, percentage symbols, commas, or other punctuation characters that require URL encoding when passed in a REST API call. Hyphens and underscores are permitted. Including invalid punctuation in an `entity.id` value causes some [!DNL Recommendations] functionality to fail.
 
 Example: `'entity.id=67833'`
 
@@ -167,6 +167,8 @@ Single-value only.
 Defines the price or value of the item.
 
 Example: `'entity.value=15.99'`
+
+entity.value supports decimal format only (for example, 15.99). The comma format (15,99) is not supported.
 
 ### entity.margin
 

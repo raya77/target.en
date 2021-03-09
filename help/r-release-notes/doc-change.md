@@ -7,14 +7,15 @@ feature: Release Notes
 
 # Documentation changes
 
-This page lists important changes made to the [!DNL Adobe Target] product documentation.
+This page lists significant changes made to the [!DNL Adobe Target] product documentation.
 
 ## Adobe Target Standard/Premium 21.2.1 (March 9, 2021)
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|March 9|[Limits](/help/r-troubleshooting-target/target-limits.md#offer-size)|Updated the allowable offer size limits.|
+|March 9|[Limits](/help/r-troubleshooting-target/target-limits.md#offer-size)|<ul><li>Updated the allowable offer size limits.</li><li>Corrected the character limit for the categoryId parameter.</li></ul>|
 ||[Allowlist Target edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)|Updated [!DNL Target] edge IP addresses.|
+||[Entity attributes](/help/c-recommendations/c-products/entity-attributes.md)|Added text to indicate that entity.value must be in decimal format (for example 15.99 instead of 15,99).|
 ||[Release Notes](/help/r-release-notes/release-notes.md): 21.2.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
 
 ## Adobe Target Standard/Premium 21.1.1 (January 19, 2021)
