@@ -21,12 +21,12 @@ List of egress IP addresses of [!DNL Target] edges. Allowlist these IPs if you p
 |Edge Location|Egress IP Addresses|
 | --- | --- |
 |Edge31 (Mumbai)|13.126.131.246<br>13.234.229.8|
-|Edge32 (Tokyo)|3.115.154.28<br>3.115.227.146
-|Edge34  (East Coast US)|34.232.149.249<br>52.21.139.93
-|Edge35 (West Coast US)|52.10.11.139<br>44.231.171.161
-|Edge36 (Sydney)|13.237.227.20<br>13.210.93.142
-|Edge37 (Ireland)|54.72.21.68<br>52.208.139.19
-|Edge38 (Singapore)|18.141.132.96<br>54.179.187.167
+|Edge32 (Tokyo)|3.115.154.28<br>3.115.227.146|
+|Edge34  (East Coast US)|34.232.149.249<br>52.21.139.93|
+|Edge35 (West Coast US)|52.10.11.139<br>44.231.171.161|
+|Edge36 (Sydney)|13.237.227.20<br>13.210.93.142|
+|Edge37 (Ireland)|54.72.21.68<br>52.208.139.19|
+|Edge38 (Singapore)|18.141.132.96<br>54.179.187.167|
 
 ## Target edge IP addresses
 
