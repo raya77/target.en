@@ -5,7 +5,7 @@ title: How Do I Use Entity Attributes?
 feature: Recommendations
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Entity attributes{#entity-attributes}
+# ![PREMIUM](/help/assets/premium.png) Entity attributes
 
 Use entity attributes to pass product or content information to [!DNL Adobe Target Recommendations].
 
@@ -167,6 +167,8 @@ Single-value only.
 Defines the price or value of the item.
 
 Example: `'entity.value=15.99'`
+
+entity.value supports decimal format only (for example, 15.99). The comma format (15,99) is not supported.
 
 ### entity.margin
 
