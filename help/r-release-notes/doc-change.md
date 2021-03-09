@@ -7,7 +7,7 @@ feature: Release Notes
 
 # Documentation changes
 
-This page lists changes made to the [!DNL Adobe Target] product documentation.
+This page lists significant changes made to the [!DNL Adobe Target] product documentation.
 
 ## Adobe Target Standard/Premium 21.2.1 (March 9, 2021)
 
