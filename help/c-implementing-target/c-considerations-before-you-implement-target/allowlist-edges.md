@@ -34,6 +34,7 @@ List of IP addresses of [!DNL Target] edges. Allowlist these IPs if you want to 
 
 |Edge Location|Domain|IP Addresses|
 | --- | --- | --- |
+||`CLIENTCODE.tt.omtrdc.net`<br>(where CLIENTCODE is your [!DNL Target] client ID)||
 |Edge31 (Mumbai)|`mboxedge31.tt.omtrdc.net`|15.207.157.131<br>15.206.8.201|
 |Edge32 (Tokyo)|`mboxedge32.tt.omtrdc.net`|54.199.66.101<br>54.64.93.37|
 |Edge34 (East Coast US)|`mboxedge34.tt.omtrdc.net`|3.225.56.36<br>3.230.207.249<br>34.198.55.51<br>52.3.14.12<br>52.21.222.93<br>52.55.235.132<br>52.70.52.52<br>54.165.204.89|
