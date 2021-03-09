@@ -22,7 +22,7 @@ List of egress IP addresses of [!DNL Target] edges. Allowlist these IPs if you p
 | --- | --- |
 |Edge31 (Mumbai)|13.126.131.246<br>13.234.229.8|
 |Edge32 (Tokyo)|3.115.154.28<br>3.115.227.146|
-|Edge34  (East Coast US)|34.232.149.249<br>52.21.139.93|
+|Edge34 (East Coast US)|34.232.149.249<br>52.21.139.93|
 |Edge35 (West Coast US)|52.10.11.139<br>44.231.171.161|
 |Edge36 (Sydney)|13.237.227.20<br>13.210.93.142|
 |Edge37 (Ireland)|54.72.21.68<br>52.208.139.19|
@@ -32,7 +32,7 @@ List of egress IP addresses of [!DNL Target] edges. Allowlist these IPs if you p
 
 List of IP addresses of [!DNL Target] edges. Allowlist these IPs if you want to make API calls to Target edges.
 
-|Edge Location|Domain|IP Addresses
+|Edge Location|Domain|IP Addresses|
 | --- | --- | --- |
 |Edge31 (Mumbai)|`mboxedge31.tt.omtrdc.net`|15.207.157.131<br>15.206.8.201|
 |Edge32 (Tokyo)|`mboxedge32.tt.omtrdc.net`|54.199.66.101<br>54.64.93.37|
