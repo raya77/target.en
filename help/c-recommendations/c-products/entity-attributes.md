@@ -1,6 +1,6 @@
 ---
 keywords: entity;entity attributes;pass information to Recommendations;behavioral data;data counter;define relative URL;display inventory level;define price;define profit margin;custom attributes
-description: Learn how to use entity attributes to pass product or content information to Adobe Target Recommendations.
+description: Learn how to use entity attributes to pass product or content information to Target Recommendations.
 title: How Do I Use Entity Attributes?
 feature: Recommendations
 ---
@@ -9,24 +9,22 @@ feature: Recommendations
 
 Use entity attributes to pass product or content information to [!DNL Adobe Target Recommendations].
 
+Entities refer to the items you want to recommend. Entities can include products, content (articles, slide shows, images, movies, and television shows), job listings, restaurants, and so forth.
+
 [!DNL Recommendations] sends the `productId` or `productPurchasedId` (referred to as `entity.id` in the code) that is used in the algorithms.
 
+Consider the following:
+
+* `entity.id` must match the `productPurchasedId` sent to the order confirmation page and the `productId` used in [!DNL Adobe Analytics] product reports.
+* Entity attribute values that you pass to [!DNL Recommendations] expire after 61 days. Adobe recommends that you pass the latest value of each entity attribute to [!DNL Recommendations] at least once per month for each item in your catalog.
+
+Most predefined parameters accept a single value only, with new values overwriting old values. The `categoryId` parameter can accept a comma-delimited list of values for each category containing that product. New `categoryId` values do not overwrite existing values but instead are appended during entity update (250-character limit).
+
+In general, the display information mbox looks like the following example if you are using at.js 1.*x* with `mboxCreate`. All entity parameter attributes are case-sensitive.
+
 >[!NOTE]
 >
->* `entity.id` must match the `productPurchasedId` sent to the order confirmation page and the `productId` used in Adobe Analytics product reports.
->
->* Provided entity attribute values expire after 61 days. This expiration means that you must ensure that the latest value of each entity attribute is passed to Target Recommendations at least once per month for each item in your catalog.
-
-Most predefined parameters accept only a single value, with new values overwriting old values. The `categoryId` parameter can accept a comma-delimited list of values for each category containing that product. New `categoryId` values do not overwrite existing values but instead are appended during entity update (250-character limit).
-
-In general, the display information mbox looks like the following example if you are using at.js 1.*x* with `mboxCreate`.
-
->[!NOTE]
->
->* If you are using at.js 2.*x*, `mboxCreate` (as used in the  following example) is no longer supported. To pass product or content information to Recommendations using at.js 2.*x*, use [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). For an example, see [Plan and implement Recommendations](/help/c-recommendations/plan-implement.md).
->
-
-All entity parameter attributes are case-sensitive.
+>* If you are using at.js 2.*x*, `mboxCreate` (as used in the  following example) is no longer supported. To pass product or content information to [!DNL Recommendations] using at.js 2.*x*, use [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). For an example, see [Plan and implement Recommendations](/help/c-recommendations/plan-implement.md).
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -74,7 +72,7 @@ Singe value only.
 
 This required parameter identifies the product. This alphanumeric ID must be the same across all [!DNL Adobe Experience Cloud] products that are used, including [!DNL Analytics], for the various products to recognize the item and share data about it.
 
-`entity.id` values must *not* contain slashes, ampersands, question marks, percentage symbols, commas, or other punctuation characters that require URL encoding when passed in a REST API call. Hyphens and underscores are permitted. Including invalid punctuation in an `entity.id` value causes some [!DNL Recommendations] functionality to fail.
+The `entity.id` values must *not* contain slashes, ampersands, question marks, percentage symbols, commas, or other punctuation characters that require URL encoding when passed in a REST API call. Hyphens and underscores are allowed. Including invalid punctuation in an `entity.id` value causes some [!DNL Recommendations] functionality to fail.
 
 Example: `'entity.id=67833'`
 
@@ -90,9 +88,9 @@ Example: `'entity.name=Giants& vs& Rockies& 5/12'`
 
 Supports multi-value (comma-delimited list).
 
-Category of the current page. The entity.categoryID can include multiple categories, such as a cardigans sub-subsection (i.e. womens, womens:sweaters, womens:sweaters:cardigans). Multiple categories must be separated by commas.
+Category of the current page. The entity.categoryID can include multiple categories, such as a cardigans sub-subsection (for example, womens, womens:sweaters, womens:sweaters:cardigans). Multiple categories must be separated by commas.
 
-`categoryId` is limited to 250 characters.
+The `categoryId` value is limited to 250 characters.
 
 >[!NOTE]
 >
@@ -104,7 +102,7 @@ Examples:
 * Example Category Page Sweaters: womens:sweaters
 * Example Category Page Cardigans: womens:sweaters:cardigans
 
-For category-based recommendations, a comma is used to separate category value. Any values separated by commas become categories. You can also define subcategories by using a different separator, such as a colon (:), to separate subcategories within the category value.
+For category-based recommendations, a comma separates category value. Any values separated by commas become categories. You can also define subcategories by using a different separator, such as a colon (:), to separate subcategories within the category value.
 
 For example, in the following code the Women's category is divided into several subcategories:
 
@@ -112,7 +110,7 @@ For example, in the following code the Women's category is divided into several 
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban’, 'entity.thumbnailUrl=...', 'entity.message=...', );
 ```
 
-For the mbox delivery, the longest attribute name is used for the key. If there is a tie, the last attribute is used. In the example above, the category key is Womens:Outerwear:Jackets:Caban .
+For the mbox delivery, the longest attribute name is used for the key. If there is a tie, the last attribute is used. In the example above, the category key is Womens:Outerwear:Jackets:Caban.
 
 ### entity.brand
 
@@ -142,7 +140,7 @@ Example: `'entity.thumbnailUrl=baseball/giants-tix/giants-136px.gif'`
 
 Single-value only.
 
-A message about the product that is displayed in the recommendation, such as "on sale" or "clearance." The message is typically more verbose than the product name. Use to define additional information to display with the product in the template.
+A message about the product that is displayed in the recommendation, such as "on sale" or "clearance." The message is typically more verbose than the product name. Use entity.message to define additional information to display with the product in the template.
 
 Example: `'entity.message=Family&nbsp;special'`
 
@@ -158,7 +156,7 @@ Example: `'entity.inventory=1'`
 
 Similarly, if you have a global exclusion rule with `entity.inventory` = 0 and `entity.inventory` is not set, [!DNL Target] evaluates this rule to be TRUE and excludes the product.
 
-**Known issue:** Product Search is inconsistent with delivery for not-set inventory value attributes. For example, for a rule with `entity.inventory` = 0 , Product Search does not display products where the inventory value is not set.
+**Known issue:** Product Search is inconsistent with delivery for inventory value attributes that are not set. For example, for a rule with `entity.inventory` = 0 , Product Search does not display products where the inventory value is not set.
 
 ### entity.value
 
@@ -199,9 +197,7 @@ Custom entity attributes support multiple values. See [Custom entity attributes]
 
 Example: `'entity.secondary=["band1",&nbsp;"band2"]'`
 
->[!NOTE]
->
->Multi-value custom entity attributes require valid JSON arrays. For correct syntax information, see Custom Entity Attributes.
+Multi-value custom entity attributes require valid JSON arrays. For correct syntax information, see [Custom Entity Attributes](/help/c-recommendations/c-products/custom-entity-attributes.md).
 
 ### entity.event.detailsOnly
 
@@ -218,6 +214,6 @@ mboxCreate('myMbox', 'profile.geo.city = new york', 'profile.geo.state = new yor
 mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 123', 'entity.inventory = 4' 'entity.event.detailsOnly=true' )
 ``` 
 
-## Related topics:
-
-* [Custom Entity Attributes](/help/c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322)
+>[!MORELIKETHIS]
+>
+>* [Custom Entity Attributes](/help/c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322)
