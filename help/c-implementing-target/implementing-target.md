@@ -8,6 +8,7 @@ role: Developer
 ---
 
 # Implement Target
+
 Before using [!DNL Adobe Target], you must implement it on your site. Before implementation, you should understand basic concepts, know how [!DNL Target] works and integrates with your infrastructure, and understand how visitors are tracked by the [!DNL Target] system.
 
 + [Before you implement](c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
