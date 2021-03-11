@@ -15,18 +15,18 @@ Use entity attributes to pass product or content information to [!DNL Adobe Targ
 >
 >* `entity.id` must match the `productPurchasedId` sent to the order confirmation page and the `productId` used in Adobe Analytics product reports.
 >
->* Provided entity attribute values expire after 61 days. This means that you should ensure that the latest value of each entity attribute is passed to Target Recommendations at least once per month for each item in your catalog.
+>* Provided entity attribute values expire after 61 days. This expiration means that you must ensure that the latest value of each entity attribute is passed to Target Recommendations at least once per month for each item in your catalog.
 
 Most predefined parameters accept only a single value, with new values overwriting old values. The `categoryId` parameter can accept a comma-delimited list of values for each category containing that product. New `categoryId` values do not overwrite existing values but instead are appended during entity update (250-character limit).
 
-In general, the display information mbox might look like the following example if you are using at.js 1.*x* with `mboxCreate`.
+In general, the display information mbox looks like the following example if you are using at.js 1.*x* with `mboxCreate`.
 
 >[!NOTE]
 >
->* If you are using at.js 2.*x*, `mboxCreate` (as used in the  following example) is no longer supported. To pass product or content information to Recommendations using at.js 2.*x*, use [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). For an example of this, see [Plan and implement Recommendations](/help/c-recommendations/plan-implement.md).
+>* If you are using at.js 2.*x*, `mboxCreate` (as used in the  following example) is no longer supported. To pass product or content information to Recommendations using at.js 2.*x*, use [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). For an example, see [Plan and implement Recommendations](/help/c-recommendations/plan-implement.md).
 >
 
-All entity parameter attributes are case sensitive.
+All entity parameter attributes are case-sensitive.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -90,7 +90,7 @@ Example: `'entity.name=Giants& vs& Rockies& 5/12'`
 
 Supports multi-value (comma-delimited list).
 
-Category of the current page. This can include multiple categories, such as a cardigans sub-subsection (i.e. womens, womens:sweaters, womens:sweaters:cardigans). Multiple categories should be separated by commas.
+Category of the current page. The entity.categoryID can include multiple categories, such as a cardigans sub-subsection (i.e. womens, womens:sweaters, womens:sweaters:cardigans). Multiple categories must be separated by commas.
 
 `categoryId` is limited to 250 characters.
 
@@ -106,7 +106,7 @@ Examples:
 
 For category-based recommendations, a comma is used to separate category value. Any values separated by commas become categories. You can also define subcategories by using a different separator, such as a colon (:), to separate subcategories within the category value.
 
-For example, in the following code the Womens category is divided into several subcategories:
+For example, in the following code the Women's category is divided into several subcategories:
 
 ```javascript
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban’, 'entity.thumbnailUrl=...', 'entity.message=...', );
@@ -154,11 +154,11 @@ Displays the inventory level of the item.
 
 Example: `'entity.inventory=1'`
 
-**Empty Inventory Attribute Handling:** For delivery, if you have an inclusion rule, collection rule, or criteria setting with `entity.inventory` > 0 or `entity.inventory` = 0 and the product has inventory not set, [!DNL Target] evaluates this to TRUE and includes products where the inventory is not set. This was done by default so that products with inventory that is not set show up in recommendation results.
+**Empty Inventory Attribute Handling:** For delivery, if you have an inclusion rule, collection rule, or criteria setting with `entity.inventory` > 0 or `entity.inventory` = 0 and the product has inventory not set, [!DNL Target] evaluates this value to TRUE and includes products where the inventory is not set. As a result, products with inventory that is not set display in recommendation results.
 
 Similarly, if you have a global exclusion rule with `entity.inventory` = 0 and `entity.inventory` is not set, [!DNL Target] evaluates this rule to be TRUE and excludes the product.
 
-**Known issue:** Product Search is inconsistent with delivery for not-set inventory value attributes. For example for a rule with `entity.inventory` = 0 , Product Search will not display products where the inventory value is not set.
+**Known issue:** Product Search is inconsistent with delivery for not-set inventory value attributes. For example, for a rule with `entity.inventory` = 0 , Product Search does not display products where the inventory value is not set.
 
 ### entity.value
 
@@ -182,12 +182,12 @@ Example: `'entity.margin=1.00'`
 
 Supports multi-value (JSON array).
 
-Define up to 100 custom variables that provide additional information about the item. You can specify any unused attribute name for each custom attribute. For example, you might create a custom attribute called `entity.genre` to define a book or movie. Or, a ticket vendor might create attributes for an event venue for a secondary performer, such as a visiting team in a sporting event or an opening act in a concert.
+Define up to 100 custom variables that provide additional information about the item. You can specify any unused attribute name for each custom attribute. For example, you can create a custom attribute called `entity.genre` to define a book or movie. A ticket vendor can create attributes for an event venue for a secondary performer, such as a visiting team in a sporting event or an opening act in a concert.
 
 Restrictions:
 
 * You cannot use predefined entity attribute names for custom entity attributes.
-* The attribute entity.environment is reserved by the system and cannot be used for custom entity attributes. Attempts to pass entity.environment using targetPageParams , feed, or API will be ignored.
+* The attribute entity.environment is reserved by the system and cannot be used for custom entity attributes. Attempts to pass entity.environment using targetPageParams, feed, or API are ignored.
 
 Examples:
 
@@ -211,7 +211,7 @@ Used to prevent an mbox call from incrementing behavioral data counters for an a
 
 Example: `'entity.event.detailsOnly=true'`
 
-In the examples below, the first mbox call will update the catalog and behavioral data. The second mbox call will update only the catalog.
+In the examples below, the first mbox call updates the catalog and behavioral data. The second mbox call updates only the catalog.
 
 ```javascript
 mboxCreate('myMbox', 'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 'entity.inventory = 4' )
