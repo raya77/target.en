@@ -5,13 +5,17 @@ title: Where Can I Find Answers to Questions About Target Reporting?
 feature: Reports
 ---
 
-# Reporting FAQ{#reporting-faq}
+# Reporting FAQ
 
-List of frequently asked questions about reporting in [!DNL Target].
+List of frequently asked questions about reporting in [!DNL Adobe Target].
 
-## How are the New Visitors and Returning Visitors metrics counted?
+## How are the New Visitors and Returning Visitors metrics counted? {#methodology}
 
-The following information explains how New Visitors and Returning Visitors are counted and provide examples of why the sum of these two segments don't always add up to the number of total visitors.
+A New Visitor's first visit lasts as long as the visitor is active on the site.
+If the user is inactive for 30 minutes or longer, the session is reset. Resetting the session means that this visitor becomes a Return Visitor upon the next visit or becoming active again after 30 minutes of inactivity. 
+If the visitor moves around the site every 29 minutes for an entire day, this visitor is counted as a New Visitor that entire day. The session was never reset because the visitor never went over the 30-minute threshold.  
+
+The following information explains in more detail how New Visitors and Returning Visitors are counted. Examples are also included explaining why the sum of these two segments doesn't always add up to the number of total visitors.
 
 ### New Visitors
 
@@ -23,14 +27,14 @@ A visitor is included in the New Visitors segment if one of the following condit
 
 ### Returning Visitors 
 
-The visitor is included in the Returning Visitors segment if the user previously visited the site, left for at least 30 minutes, and returned to the site again with the same cookies. As long as a visitor returns within their profile lifetime, they will be a returning visitor.
+The visitor is included in the Returning Visitors segment if the user previously visited the site, left for at least 30 minutes, and returned to the site again with the same cookies. As long as a visitor returns within their profile lifetime, this visitor a returning visitor.
 
-Suppose your profile lifetime is set for 14 days (the default). A visitor is included in the Returning Visitors segment if the following conditions are met:
+Suppose that your profile lifetime is set for 14 days (the default). A visitor is included in the Returning Visitors segment if the following conditions are met:
 
 * A visitor visits the site for the first time and is recorded as a New Visitor.
 * The visitor leaves the site, but returns six days later.
 
-Because the profile lifetime is set for 14 days, this visitor is included in the Returning Visitors segment. Note that if the visitor has deleted cookies within that six-day period, that visitor will be included in the New Visitors segment.
+Because the profile lifetime is set for 14 days, this visitor is included in the Returning Visitors segment. If the visitor has deleted cookies within that six-day period, that visitor is included in the New Visitors segment.
 
 ### Examples that explain discrepancies between metric counts 
 
@@ -47,9 +51,9 @@ This visitor is counted as a single visitor in the activity’s overall visitor 
 
 For example:
 
-A number of new visitors visit your site and are qualified for an activity. These new visitors are counted towards the New Visitors segment. All of these visitors also recorded a visit into that activity.
+Several new visitors visit your site and are qualified for an activity. These new visitors are counted towards the New Visitors segment. All of these visitors also recorded a visit into that activity.
 
-Some visitors hit the conversion metric, which was configured as "Increment Count & Keep User in Activity." Suppose some of these users hit the conversion metric multiple times, the conversion metric won't increase. Given that setup, however, some users might hit the conversion metric and then navigate back to the home page, qualifying into the activity again to record a new visit.
+Some visitors hit the conversion metric, which was configured as "Increment Count & Keep User in Activity." Suppose some of these users hit the conversion metric multiple times, the conversion metric does not increase. Given that setup, however, some users might hit the conversion metric and then navigate back to the home page, qualifying into the activity again to record a new visit.
 
 ## Why do my [!UICONTROL Experience Targeting] (XT) reports contain metrics for control experiences?
 
@@ -57,7 +61,7 @@ XT activities should always have a control experience. If you are using an XT ac
 
 ## Why are the number of visits lower in [!DNL Target] than in other [!DNL Adobe Experience Cloud] solutions? {#section_7E626FDB417E41B8B58BBF30FB207409}
 
-Metric numbers, for example visits, reported by [!DNL Target] will always be lower than the reported numbers in other [!DNL Experience Cloud] solutions for a number of reasons:
+Metric numbers, for example visits, reported by [!DNL Target] are always lower than the reported numbers in other [!DNL Experience Cloud] solutions for several reasons:
 
 * [!DNL Target] counts visits only for visitors that qualified for the activity. Other solutions count visits for visitors that display the page, regardless of which activity brought them to the page. 
 * There might be situations where different activities compete for the same location (mutually exclusive). As a result, visitors see different content on a web page, which affects the metric numbers reported by [!DNL Target].
@@ -89,11 +93,11 @@ For more information about environments, see [Hosts](/help/administrating-target
 
 ## Why is the traffic split between my experiences uneven in my A/B or MVT activity? {#uneven}
 
-For example, I set the traffic split to be 50/50 or 25/25/25/25 but I'm seeing a vastly different distribution between experiences in the reporting. There are a number of explainable reasons for uneven visitor counts in [!DNL Target] reporting:
+For example, I set the traffic split to be 50/50 or 25/25/25/25 but I'm seeing a vastly different distribution between experiences in the reporting. There are several explainable reasons for uneven visitor counts in [!DNL Target] reporting:
 
-* When a [!DNL Target] activity is first launched, the traffic distribution might be uneven because of the edge node architecture that [!DNL Target] uses to optimize experience delivery. The best practice is to give an activity some time to collect additional data and the distribution will normalize. For more information on [!DNL Adobe Target] architecture and Edge nodes, see [How Adobe Target works](/help/c-intro/how-target-works.md).
-* If you are in [!DNL Target] or [!DNL Analytics] and you're using the **[!UICONTROL Visits]** metric, remember that [!DNL Target] is a visitor-based system and the traffic distribution for an A/B or MVT test is assigned at the visitor level. Thus, if you examine activity results using the **[!UICONTROL Visits]** metric, the traffic distribution may appear uneven because certain visitors might have multiple visits. Visitors is the standard normalizing metric when evaluating activity performance.
-* The best practice for A/B and MVT tests is to keep traffic splits even. Changing the traffic distribution between experiences (say from 90/10 to 50/50) during a test can lead to uneven visitors across experiences. The lower traffic experience may never "catch up."
+* When a [!DNL Target] activity is first launched, the traffic distribution can be uneven because of the edge node architecture that [!DNL Target] uses to optimize experience delivery. The best practice is to give an activity some time to collect more data and the distribution will normalize. For more information on [!DNL Adobe Target] architecture and Edge nodes, see [How Adobe Target works](/help/c-intro/how-target-works.md).
+* If you are in [!DNL Target] or [!DNL Analytics] and you're using the **[!UICONTROL Visits]** metric, remember that [!DNL Target] is a visitor-based system and the traffic distribution for an A/B or MVT test is assigned at the visitor level. Thus, if you examine activity results using the **[!UICONTROL Visits]** metric, the traffic distribution might appear uneven because certain visitors might have multiple visits. Visitors is the standard normalizing metric when evaluating activity performance.
+* The best practice for A/B and MVT tests is to keep traffic splits even. Changing the traffic distribution between experiences (say from 90/10 to 50/50) during a test can lead to uneven visitors across experiences. The lower traffic experience might never "catch up."
 * If you are following the above best practices and the traffic split does not normalize over time, you should check the following:
 
   * Are you using the latest at.js library? For more information about the current version and associated release notes, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
