@@ -234,6 +234,18 @@ Passed in the page, not the URL. Parameters are used to pass data from your data
 
 Multivariate Testing (MVT) compares combinations of offers in elements on a page to determine which combination performs the best for a specific audience, and identifies which element most impacts the activity's success
 
+## N
+
+**New Visitor**
+
+A visitor is included in the New Visitors segment if one of the following conditions is met:
+
+* It is the visitor’s first time visiting the site.
+* It is the visitor's first time visiting the site since clearing cookies.
+* It is the visitor’s first time visiting the site since the [Visitor profile lifetime](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) has expired.
+
+For more information, see [How are the New Visitors and Returning Visitors metrics counted?](/help/c-reports/reporting-frequently-asked-questions.md#methodology) in Reporting Q&A. Contrast with "Returning Visitor" below.
+
 ## O {#section_A2C1A057EC87445CBDB535E80C371105}
 
 **objective**
@@ -271,6 +283,12 @@ Redirects a visitor to a different web page. Use this Redirector similarly to ho
 **referring URL parameter**
 
 Passes values to the destination page's mbox as referring URL parameters and values. Use these to target on the visitor's origin, for example.
+
+**Returning Visitor**
+
+The visitor is included in the Returning Visitors segment if the user previously visited the site, left for at least 30 minutes, and returned to the site again with the same cookies. As long as a visitor returns within their profile lifetime, this visitor a returning visitor.
+
+For more information, see [How are the New Visitors and Returning Visitors metrics counted](/help/c-reports/reporting-frequently-asked-questions.md#methodology) in Reporting Q&A. Contrast with "New Visitor" above.
 
 **role**
 
