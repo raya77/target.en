@@ -44,7 +44,7 @@ The [!DNL at.js] library is a new implementation library for [!DNL Adobe Target]
 
 **audience**
 
-A group of similar activity entrants who will see a targeted activity.  A group of people with the same characteristics, such as a new visitor, a returning visitor, or returning visitors from the Midwest. The Audience feature allows you to target different content and experiences to specific audiences to optimize your digital marketing by displaying the right messages to the right people at the right time. If a visitor is identified as part of a target audience, Target determines which experience to display, based on criteria defined during activity creation. 
+A group of similar activity entrants who will see a targeted activity.  A group of people with the same characteristics, such as a new visitor, a returning visitor, or help/c-integrating-target-with-mac/a4t/a4t-at-aa.mds from the Midwest. The Audience feature allows you to target different content and experiences to specific audiences to optimize your digital marketing by displaying the right messages to the right people at the right time. If a visitor is identified as part of a target audience, Target determines which experience to display, based on criteria defined during activity creation. 
 
 **Auto-Allocate**
 

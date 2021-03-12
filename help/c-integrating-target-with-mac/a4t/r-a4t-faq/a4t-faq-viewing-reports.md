@@ -46,7 +46,9 @@ When a visitor views a page that contains an activity, a variable is set for tha
 Consider the following:
 
 * The above metrics trigger when a user qualifies for an activity and content is returned from [!DNL Target]. This does not necessarily mean that the user saw the offer. If an activity experience is below the fold and the user does not scroll down the page, then the offer was served by [!DNL Target] but not seen by the user. 
-* [!UICONTROL Activity Impressions] (measured by [!DNL Target]) and [!UICONTROL Instances] (measured by [!DNL Analytics]) are equal, unless there are multiple mbox calls on the same page in the same activity. This causes multiple [!UICONTROL Activity Impressions] to be counted, but only a single [!UICONTROL Instance]. 
+* [!UICONTROL Activity Impressions] (measured by [!DNL Target]) and [!UICONTROL Instances] (measured by [!DNL Analytics]) are equal, unless there are multiple mbox calls on the same page in the same activity. This causes multiple [!UICONTROL Activity Impressions] to be counted, but only a single [!UICONTROL Instance].
+
+For more information, see [How to set up A4T reports in Analysis Workspace for Auto-Target activities](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) in *Adobe Target Tutorials*.
 
 ## Why are "activity impressions" and "activity conversions" higher in Analysis Workspace than Reports & Analytics? {#sametouch}
 
