@@ -89,3 +89,11 @@ Some limitations and notes apply to both [!UICONTROL Auto-Allocate] and [!UICONT
 * When using [!DNL Analytics] as the data source for an [!UICONTROL Auto-Target] activity, sessions end after six hours have elapsed. Conversions occurring after six hours are not counted.
 
 For more information, see [Attribution models and lookback windows](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) in the *Analytics Tools Guide*.
+
+## Tutorial: How to set up A4T reports in Analysis Workspace for Auto-Target activities {#tutorial}
+
+Although rich analysis capabilities are available in [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace], a few modifications to the default [!UICONTROL Analytics for Target] panel are required to correctly interpret Auto-Target activities. These modifications are required due to differences between experimentation activities (manual A/B and [!UICONTROL Auto-Allocate]) and personalization activities ([!UICONTROL Auto-Target]).
+
+This tutorial walks you through the recommended modifications for analyzing [!UICONTROL Auto-Target] activities in [!UICONTROL Workspace].
+
+For more information, see [How to set up A4T reports in Analysis Workspace for Auto-Target activities](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) in *Adobe Target Tutorials*.
