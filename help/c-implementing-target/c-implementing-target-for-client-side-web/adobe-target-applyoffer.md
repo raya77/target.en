@@ -8,7 +8,7 @@ role: Developer
 
 # adobe.target.applyOffer(options)
 
-This function is for applying the response content.
+This function is for applying the response content with [!DNL Adobe Target].
 
 >[!NOTE]
 >
@@ -19,8 +19,8 @@ The options parameter is mandatory and has the following structure:
 | Key | Type | Required | Description |
 |--- |--- |--- |--- |
 |mbox|String|Yes|Mbox name<br>With at.js 1.3.0 (and later) Target enforces that the mbox key is used. This key has been required in the past, but Target now enforces its use to ensure that Target has proper validation and customers are using the function correctly.|
-|selector|String or DOM Element|No|HTML element or CSS selector used to identify the HTML element where Target should place the offer content. If selector is not provided, Target assumes that the HTML element we should use is HTML HEAD.|
-|offer|Array|Yes|An array actions that should be applied to the element.|
+|selector|String or DOM Element|No|HTML element or CSS selector used to identify the HTML element where Target should place the offer content. If selector is not provided, Target assumes that the HTML element should use HTML HEAD.|
+|Offer|Array|Yes|An array actions that should be applied to the element.|
 
 ## Example {#section_D8D6A17B73DE4542937CDB687193A5CC}
 
