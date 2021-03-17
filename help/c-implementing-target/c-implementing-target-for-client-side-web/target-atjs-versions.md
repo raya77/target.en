@@ -70,6 +70,7 @@ This release of at.js includes the following enhancements and fixes:
 * Fixed an issue in which click tracking did not report conversions in Analytics for Target (A4T) when Adobe Analytics code was not present on page elements.
 * Improved performance when using both Experience Cloud ID Service (ECID) v4.4 and at.js 2.2 on your web pages.
 * Previously, the ECID made two blocking calls before at.js could fetch experiences. This has been reduced to a single call, which significantly improves performance.
+* Fixed incorrect prefetched view processing, where event tokens from default offers were not included in sent notifications.
 
   >[!NOTE]
   >
