@@ -113,6 +113,10 @@ Because both experiences were seen before the conversion, they both get “credi
 
 For more information, see [Conversion Variables (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) in the *Analytics Admin Guide*.
 
+## Why do I see more Impressions after my activity has been deactivated?
+
+A source of impressions to A4T activity report after deactivation ca be QA mode traffic. Target normally doesn't log such events, but Analytics doesn't have a way to know that impressions are coming from QA mode, and it logs them. When Target Activity Report is retrieved from Analytics it will have these impressions. This is working as designed, as clients need a way to check A4T report even when activity is not active using QA mode. 
+
 ## Why do Analytics and Analytics for Target (A4T) calculate numbers for the Unique Visitors metric differently? {#section_0C3B648AB54041F9A2AA839D51791883}
 
 When you run an A/B test, which uses the Students t-test (the confidence metric) to choose a winner of a test, one of the assumptions is that there is a fixed time horizon. The test isn’t statistically valid unless you are looking at that fixed sample size.
