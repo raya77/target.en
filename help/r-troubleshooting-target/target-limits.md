@@ -209,7 +209,7 @@ The following size limits apply to offers:
 
 ## Profile scripts
 
-* **Recommended limit of active profile scripts**: 300
+* **Recommended limit of active profile scripts (those that are enabled)**: 300
 
 * **Recommended limit of total profile scripts per account**: 2,000
 
