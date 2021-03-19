@@ -13,7 +13,8 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|March 12, 2021|[A4T support for Auto-Allocate and Auto-Target activities](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial)|Added the following new tutorial:<ul><li>How to set up A4T reports in Analysis Workspace for Auto-Target activities</li></ul>|
+|March 19|[View reports - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#deactivated)|Added following FAQ:<ul><li>Why do I continue to see more impressions after my activity has been deactivated?</li></ul>|
+|March 12|[A4T support for Auto-Allocate and Auto-Target activities](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial)|Added the following new tutorial:<ul><li>How to set up A4T reports in Analysis Workspace for Auto-Target activities</li></ul>|
 |March 9|[Limits](/help/r-troubleshooting-target/target-limits.md#offer-size)|<ul><li>Updated the allowable offer size limits.</li><li>Corrected the character limit for the categoryId parameter.</li></ul>|
 ||[Allowlist Target edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)|Updated [!DNL Target] edge IP addresses.|
 ||[Entity attributes](/help/c-recommendations/c-products/entity-attributes.md)|Added text to indicate that entity.value must be in decimal format (for example 15.99 instead of 15,99).|
