@@ -21,7 +21,7 @@ Activity QA lets you fully test your Target activities prior to launching them l
 
   >[!NOTE]
   >
-  >This is true for at.js implementations with version 2.*x* or later. For at.js 1.*x* and mbox.js implementations, this is true only if the visitor's browser doesn't block third-party cookies.
+  >This is true for at.js implementations with version 2.*x* or later. For at.js 1.*x* implementations, this is true only if the visitor's browser doesn't block third-party cookies.
 
 ## Accessing and Sharing a QA URL {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
@@ -51,7 +51,7 @@ Activity QA lets you fully test your Target activities prior to launching them l
 
    Each Activity Link URL (for Exp A, Exp B, etc.) lets you start the user journey from the corresponding experience. You can click the URL generated for an experience and then proceed with normal site browsing to see experiences on multiple pages (if multiple pages exist). Only one URL is generated per experience, even if the experience spans multiple pages (template testing or multi-page testing). 
    
-   You can navigate the site to see the other pages because the Activity QA is sticky. Note that this is true for at.js implementations with version 2.*x* or later. For at.js 1.*x* and mbox.js implementations, this is true only if the visitor's browser doesn't block third-party cookies.
+   You can navigate the site to see the other pages because the Activity QA is sticky. Note that this is true for at.js implementations with version 2.*x* or later. For at.js 1.*x* implementations, this is true only if the visitor's browser doesn't block third-party cookies.
 
 1. To see reports generated from Activity Link URLs, click the activity's **[!UICONTROL Reports]** page, click the **[!UICONTROL Settings]** icon (  ![](assets/icon_gear.png) ), then select **[!UICONTROL QA Mode]** from the **[!UICONTROL Environment]** drop-down list.
 
