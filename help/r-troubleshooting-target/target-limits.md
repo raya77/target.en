@@ -69,6 +69,8 @@ Character limits and other limits (offer size, audiences, profiles, values, para
 ### Number of entities
 
 * The maximum number of entities that can be referenced in a design, either hardcoded or via loops, is 99.
+* The recommended limit for best performance is to keep the catalog less than 1,000,000 items per environment and less than 10,000,000 items across all environments. 
+* The maximum limit is 10,000,000 items per environment and 100,000,000 items across all environments. If you have between 1,000,000 and 10,000,000 items per environment, performance of the [!UICONTROL Catalog Search] UI is impacted. [!DNL Target Recommendations], however, continues to produce and deliver recommendations.
 
 ### Entity custom attributes
 
