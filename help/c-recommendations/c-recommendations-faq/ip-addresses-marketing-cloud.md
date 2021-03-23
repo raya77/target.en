@@ -17,7 +17,7 @@ List of IP addresses used in [!DNL Adobe Target] [!DNL Recommendations] feed-pro
 | 44.232.167.82/32 |
 | 52.41.252.205/32 |
 
-[!DNL Target] [!UICONTROL Recommendations] APIs use the following IP addresses (be sure to check the link below for the most current information):
+[!DNL Target] [!UICONTROL Recommendations] APIs use the following IP addresses:
 
 | CIDR Notation |  
 |---|
@@ -27,4 +27,5 @@ List of IP addresses used in [!DNL Adobe Target] [!DNL Recommendations] feed-pro
 
 >[!NOTE]
 >
->These IP addresses were last updated on March 16, 2021. Previously, the servers accessing the FTP servers were in the 192.243.242.0/24 IP address CIDR block. The servers hosting Recommendations APIs were in the 192.243.224.0/20 IP address CIDR block.
+>These IP addresses were last updated on March 16, 2021. Previously, the servers accessing the FTP servers were in the 192.243.242.0/24 IP address CIDR block, and the servers hosting Recommendations APIs were in the 192.243.224.0/20 IP address CIDR block.
+
