@@ -9,7 +9,7 @@ feature: Recommendations
 
 List of IP addresses used in [!DNL Adobe Target] [!DNL Recommendations] feed-processing servers to help you configure your firewall to allow IP addresses originating from Adobe servers.
 
-[!DNL Target] [!UICONTROL Recommendations] activities use the following IP addresses when accessing customers' FTP servers (be sure to check the link below for the most current information):
+[!DNL Target] [!UICONTROL Recommendations] activities use the following IP addresses when accessing customers' FTP servers:
 
 | CIDR Notation |  
 |---|
@@ -17,7 +17,7 @@ List of IP addresses used in [!DNL Adobe Target] [!DNL Recommendations] feed-pro
 | 44.232.167.82/32 |
 | 52.41.252.205/32 |
 
-[!DNL Target] [!UICONTROL Recommendations] APIs use the following IP addresses (be sure to check the link below for the most current information):
+[!DNL Target] [!UICONTROL Recommendations] APIs use the following IP addresses:
 
 | CIDR Notation |  
 |---|
