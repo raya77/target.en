@@ -13,6 +13,10 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|March 22|[IP addresses used by Recommendations feed-processing servers](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)|Updated list of IP addresses.|
+||[Limits](/help/r-troubleshooting-target/target-limits.md)|Updated the "Number of entities" section under "Entities."|
+||[Geo](/help/c-target/c-audiences/c-target-rules/geo.md)|Added information about at.js 2.*x* under "How can I test my activities as if I'm a user coming from a different location?"|
+||[Release Notes](/help/r-release-notes/release-notes.md): 21.2.1|Added following section: <ul><li>IP address changes for Recommendations feed-processing servers (March 16, 2021)</li></ul>|
 |March 19|[View reports - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#deactivated)|Added following FAQ:<ul><li>Why do I continue to see more impressions after my activity has been deactivated?</li></ul>|
 |March 12|[A4T support for Auto-Allocate and Auto-Target activities](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial)|Added the following new tutorial:<ul><li>How to set up A4T reports in Analysis Workspace for Auto-Target activities</li></ul>|
 |March 9|[Limits](/help/r-troubleshooting-target/target-limits.md#offer-size)|<ul><li>Updated the allowable offer size limits.</li><li>Corrected the character limit for the categoryId parameter.</li></ul>|

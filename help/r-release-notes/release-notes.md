@@ -17,6 +17,10 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## IP address changes for Recommendations feed-processing servers (March 16, 2021)
+
+The [!DNL Target Recommendations] feed-processing server IP addresses were updated on March 16, 2021. For more information, see [IP addresses used by Recommendations feed-processing servers](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md).
+
 ## Target Standard/Premium 21.2.1 (March 9, 2021)
 
 This maintenance release contains the following enhancements, fixes, and changes.
