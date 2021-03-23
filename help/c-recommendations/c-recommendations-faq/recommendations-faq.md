@@ -19,45 +19,21 @@ Currently, there is no functionality available that allows customers to change t
 
 The time frame and results vary, depending on how the items are updated.
 
-### Item attributes updated via mbox or API
-
-* Recommendations are updated within 15 minutes.
-* Existing recommendations and item attributes are shown until updates are available.
-* Catalog Search is updated after catalog index (3-8 hours).
-
-### Item attributes updated via feed
-
-* Recommendations are updated after feed ingest (2-8 hours).
-* Existing recommendations and item attributes are shown until updates are available.
-* Catalog Search is updated after feed ingest (2-8 hours) and after subsequent catalog index (3-8 hours). Catalog Search is usually updated within 5-16 hours total.
-
-### Item deleted from the catalog via Target UI or API
-
-* Recommendations are updated within 15 minutes.
-* Existing recommendations and item attributes are shown until updates are available.
-* Catalog Search is updated after catalog index (3-8 hours).
-
-### Item added to the catalog via mbox or API
-
-* Recommendations are updated after algorithm run. Algorithm runs are scheduled every 12 hours for 1-2 day algorithms and every 24 hours for 7+ day algorithms. 
-* Existing recommendations are shown until updates are available if the added item is not a requested key.
-* Backup recommendations are shown until updates are available if the added item is a requested key.
-* Catalog Search is updated after catalog index (3-8 hours).
-
-### Item added to the catalog via feed
-
-* Recommendations are updated after the feed is ingested (2-8 hours). Subsequent algorithm runs are scheduled every 12 hours for 1-2 day algorithms and every 24 hours for 7+ day algorithms. Recommendations are usually updated within 2-32 hours total.
-* Existing recommendations are shown until updates are available if the added item is not a requested key.
-* Backup recommendations are shown until updates are available if the added item is a requested key.
-* Catalog Search is updated after feed ingest (2-8 hours) and after catalog index (3-8 hours). Catalog Search is usually updated within 5-16 hours total.
-
-### Additional changes
+|Source|Details|
+| --- | --- |
+|Item attributes updated via mbox or API|<ul><li>Recommendations are updated within 15 minutes.</li><li>Existing recommendations and item attributes are shown until updates are available.</li><li>Catalog Search is updated after catalog index (3-8 hours).</li></ul>|
+|Item attributes updated via feed|<ul><li>Recommendations are updated after feed ingest (2-8 hours).</li><li>Existing recommendations and item attributes are shown until updates are available.</li><li>Catalog Search is updated after feed ingest (2-8 hours) and after subsequent catalog index (3-8 hours). Catalog Search is usually updated within 5-16 hours total.</li></ul>|
+|Item deleted from the catalog via Target UI or API|<ul><li>Recommendations are updated within 15 minutes.</li><li>Existing recommendations and item attributes are shown until updates are available.</li><li>Catalog Search is updated after catalog index (3-8 hours).</li></ul>|
+|Item added to the catalog via mbox or API|<ul><li>Recommendations are updated after algorithm run. Algorithm runs are scheduled every 12 hours for 1-2 day algorithms and every 24 hours for 7+ day algorithms.</li><li>Existing recommendations are shown until updates are available if the added item is not a requested key.</li><li>Backup recommendations are shown until updates are available if the added item is a requested key.</li><li>Catalog Search is updated after catalog index (3-8 hours).</li></ul>|
+|Item added to the catalog via feed|<ul><li>Recommendations are updated after the feed is ingested (2-8 hours). Subsequent algorithm runs are scheduled every 12 hours for 1-2 day algorithms and every 24 hours for 7+ day algorithms. Recommendations are usually updated within 2-32 hours total.</li><li>Existing recommendations are shown until updates are available if the added item is not a requested key.</li><li>Backup recommendations are shown until updates are available if the added item is a requested key.</li><li>Catalog Search is updated after feed ingest (2-8 hours) and after catalog index (3-8 hours). Catalog Search is usually updated within 5-16 hours total.</li></ul>|
 
 After importing a feed file, or after receiving entity updates via API or mbox, the following changes are reflected in under 60 minutes:
 
-* Item attributes that are returned in the Design template.
-* Item attributes used in global exclusion rules that prevent the item from being included in returned recommendations.
-* Item attributes used in inclusion rules within the criteria that impact whether the item is included or excluded in returned recommendations.
+* If an item was previously excluded but should now be included, the item will be included on the next algorithm run (12-24 hours).
+
+  This occurs because Target applies exclusions both online and offline. When an item is newly excluded, the online exclusion applies quickly. When an item is newly included, the online exclusion goes away quickly but the offline exclusion doesn't go away until the next algorithm run.
+
+* If an item was previously included but should now be excluded, the item will be excluded per the "Item attributes updated..." time line discussed above depending on feed source (15 minutes via mbox/API or 12-24 hours via feed).
 
 The following changes are not reflected until the next algorithm run occurs (within 12-24 hrs):
 
