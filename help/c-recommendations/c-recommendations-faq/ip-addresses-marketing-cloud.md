@@ -11,19 +11,19 @@ List of IP addresses used in [!DNL Adobe Target] [!DNL Recommendations] feed-pro
 
 [!DNL Target] [!UICONTROL Recommendations] activities use the following IP addresses when accessing customers' FTP servers:
 
-| CIDR Notation |  
-|---|
-| 44.241.237.28/32 |
-| 44.232.167.82/32 |
-| 52.41.252.205/32 |
+44.241.237.28
+
+44.232.167.82
+
+52.41.252.205
 
 [!DNL Target] [!UICONTROL Recommendations] APIs use the following IP addresses:
 
-| CIDR Notation |  
-|---|
-| 44.241.237.28/32 |
-| 44.232.167.82/32 |
-| 52.41.252.205/32 |
+44.241.237.28
+
+44.232.167.82
+
+52.41.252.205
 
 >[!NOTE]
 >
