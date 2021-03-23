@@ -6,13 +6,13 @@ feature: Audiences
 solution: Target,Analytics
 ---
 
-# Geo{#geo}
+# Geo
 
-Use audiences to target users based on their geographical location, including their country, state/province, city, zip/postal code, DMA, or mobile carrier.
+Use audiences in [!DNL Adobe Target] to target users based on their geographical location, including their country, state/province, city, zip/postal code, DMA, or mobile carrier.
 
 Geo location parameters allow you to target activities and experiences based on your visitors' geography. You can include or exclude visitors based on their country, state/province, city, zip/postal code, latitude, longitude, DMA, or mobile carrier. This data is sent with each Target request and is based on the visitor's IP address. Select these parameters just like any targeting values.
 
-## Create an Audience with Geo Targeting {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
+## Create an Audience with geo targeting {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
 1. In the [!DNL Target] interface, click **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**. 
 1. Name the audience. 
@@ -43,7 +43,7 @@ The following illustration shows an audience that targets users accessing the ac
 
 ## Accuracy {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-The accuracy of geo targeting depends on several factors. WiFi connections are more accurate than cellular networks. When the visitor is using a cellular data connection, the accuracy of the geo-lookup can be affected by location, the provider's data relationship with [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), and other factors. Cell tower-based network connections might be less accurate than wired or WiFi connections. Also, a visitor's IP address might be mapped to his or her ISP location, which might not be the same as the visitor's actual location. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+The accuracy of geo targeting depends on several factors. WiFi connections are more accurate than cellular networks. When the visitor is using a cellular data connection, the accuracy of the geo-lookup can be affected by location, the provider's data relationship with [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), and other factors. Cell tower-based network connections might be less accurate than wired or WiFi connections. Also, a visitor's IP address might be mapped to the visitor's ISP location, which might not be the same as the visitor's actual location. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 The following table shows the accuracy of IP-based geographical information from [DigitalEnvoy](https://www.digitalelement.com/solutions/) for wired or WiFi Internet connections. DigitalEnvoy provides the most accurate data in the industry. Global accuracy is more than 99.9 percent at the country level and is up to 97 percent accurate at a city level. Accuracy information does not apply to cell tower-based networks.
 
@@ -109,11 +109,11 @@ For example, use:
 
 **How does geo targeting work for mobile devices?**
 
-The vast majority of mobile device users access content via WiFi, which means Target's IP-based geo targeting is as accurate as on a desktop. Cell tower-based connections might be less accurate because the visitor's IP address is based on the tower where the signal is being picked up. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+Most mobile device users access content via WiFi, which means Target's IP-based geo targeting is as accurate as on a desktop. Cell tower-based connections might be less accurate because the visitor's IP address is based on the tower where the signal is being picked up. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 **How does geo feature handle visitors from AOL?**
 
-Due to the way AOL proxies its traffic, we can only target them at a country level. For example, a campaign targeted to France will successfully target AOL users in France. But a campaign targeted to Paris will not successfully target AOL users in Paris. If your intent is to specifically target AOL users, you can set the region field to "aol." In fact, you can target US AOL users by specifying two targeting conditions: country exactly matches "united states" and region exactly matches "aol."
+Due to the way AOL proxies its traffic, [!DNL Target] can only target them at a country level. For example, a campaign targeted to France successfully targets AOL users in France. But a campaign targeted to Paris does not successfully target AOL users in Paris. If your intent is to specifically target AOL users, you can set the region field to "aol." In fact, you can target US AOL users by specifying two targeting conditions: country exactly matches "united states" and region exactly matches "aol."
 
 **What location granularity does geo targeting provide?**
 
@@ -126,15 +126,17 @@ Due to the way AOL proxies its traffic, we can only target them at a country lev
 
 **How can I test my activities as if I'm a user coming from a different location?**
 
-You can override your IP address with an IP address from a different location and use the `mboxOverride.browserIp url` parameter. So if your company is in the UK, but your global campaign targets visitors in Aukland, New Zealand, use this style of URL assuming that `60.234.0.39` is an IP address in Auckland:
+* **at.js 1.*x***: You can override your IP address with an IP address from a different location and use the `mboxOverride.browserIp url` parameter. So if your company is in the UK, but your global campaign targets visitors in Aukland, New Zealand, use this style of URL assuming that `60.234.0.39` is an IP address in Auckland:
 
-`https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
+  `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
 
-You'll need to clear your cookies before doing this.
+  Clear your cookies before doing testing the activity.
 
->[!NOTE]
->
->`mboxOverride.browserIp` is supported in at.js 1.j*x* only. This functionality is not supported in at.js 2.*x*.
+  >[!NOTE]
+  >
+  >`mboxOverride.browserIp` is supported in at.js 1.*x* only. This functionality is not supported in at.js 2.*x*.
+
+* **at.js 1.*x***: To override your IP address with at.js 2.*x*, install a browser extension/plugin (such as X-Forwarded-For Header for Chrome or Firefox). This extension lets you pass the x-forwarded-for header in your page requests. 
 
 **How are territories, such as Puerto Rico and Hong Kong, mapped into the geo-targeting structure?**
 
@@ -142,7 +144,7 @@ Puerto Rico, Hong Kong, and other territories are treated as separate "Country" 
 
 **Does [!DNL Target] capture (and store) information such as Zip Codes when activity is targeted with geo-location targeting capabilities?**
 
-No, [!DNL Target] uses geo data for the duration of the session only, then the data is discarded.
+No, [!DNL Target] uses geo data during the session only, then the data is discarded.
 
 ## Training video: Creating Audiences ![Tutorial badge](/help/assets/tutorial.png)
 
