@@ -15,6 +15,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 | --- | --- | --- |
 |March 23|[Release Notes](/help/r-release-notes/release-notes.md)|Added release notes for at.js version 2.4.1.|
 ||[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added release notes for at.js version 2.4.1.|
+||[Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)|Updated the following FAQ:<ul><li>How long does it take for updates to items in my catalog to be reflected on my site?</li></ul>|
 |March 22|[IP addresses used by Recommendations feed-processing servers](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)|Updated list of IP addresses.|
 ||[Limits](/help/r-troubleshooting-target/target-limits.md)|Updated the "Number of entities" section under "Entities."|
 ||[Geo](/help/c-target/c-audiences/c-target-rules/geo.md)|Added information about at.js 2.*x* under "How can I test my activities as if I'm a user coming from a different location?"|
