@@ -17,7 +17,43 @@ Currently, there is no functionality available that allows customers to change t
 
 ## How long does it take for updates to items in my catalog to be reflected on my site?
 
-After importing a feed file, or after receiving entity updates via API or mbox, the following changes will be reflected in under 60 minutes:
+The time frame and results vary, depending on how the items are updated.
+
+### Item attributes updated via mbox or API
+
+* Recommendations are updated within 15 minutes.
+* Existing recommendations and item attributes are shown until updates are available.
+* Catalog Search is updated after catalog index (3-8 hours).
+
+### Item attributes updated via feed
+
+* Recommendations are updated after feed ingest (2-8 hours).
+* Existing recommendations and item attributes are shown until updates are available.
+* Catalog Search is updated after feed ingest (2-8 hours) and after subsequent catalog index (3-8 hours). Catalog Search is usually updated within 5-16 hours total.
+
+### Item deleted from the catalog via Target UI or API
+
+* Recommendations are updated within 15 minutes.
+* Existing recommendations and item attributes are shown until updates are available.
+* Catalog Search is updated after catalog index (3-8 hours).
+
+### Item added to the catalog via mbox or API
+
+* Recommendations are updated after algorithm run. Algorithm runs are scheduled every 12 hours for 1-2 day algorithms and every 24 hours for 7+ day algorithms. 
+* Existing recommendations are shown until updates are available if the added item is not a requested key.
+* Backup recommendations are shown until updates are available if the added item is a requested key.
+* Catalog Search is updated after catalog index (3-8 hours).
+
+### Item added to the catalog via feed
+
+* Recommendations are updated after the feed is ingested (2-8 hours). Subsequent algorithm runs are scheduled every 12 hours for 1-2 day algorithms and every 24 hours for 7+ day algorithms. Recommendations are usually updated within 2-32 hours total.
+* Existing recommendations are shown until updates are available if the added item is not a requested key.
+* Backup recommendations are shown until updates are available if the added item is a requested key.
+* Catalog Search is updated after feed ingest (2-8 hours) and after catalog index (3-8 hours). Catalog Search is usually updated within 5-16 hours total.
+
+### Additional changes
+
+After importing a feed file, or after receiving entity updates via API or mbox, the following changes are reflected in under 60 minutes:
 
 * Item attributes that are returned in the Design template.
 * Item attributes used in global exclusion rules that prevent the item from being included in returned recommendations.
@@ -33,7 +69,7 @@ The following changes are not reflected until the next algorithm run occurs (wit
 
 >[!NOTE]
 >
->A feed file is considered imported when its status changes from "Importing Items" to "Preparing Search Index Updates". Updates can take more than 60 minutes to be reflected in the Catalog Search user interface; Catalog Search is up to date when the feed status changes to "Updates Completed". Even if Catalog Search is not yet up to date, your site reflects updates on the timeframes listed above. The most recent Catalog Search index update time is displayed on the Catalog Search page.
+>A feed file is considered imported when its status changes from "Importing Items" to "Preparing Search Index Updates". Updates can take more than 60 minutes to be reflected in the Catalog Search user interface; Catalog Search is up to date when the feed status changes to "Updates Completed". Even if Catalog Search is not yet up to date, your site reflects updates on the time frames listed above. The most recent Catalog Search index update time is displayed on the Catalog Search page.
 
 ## What should I do if special characters are breaking my array? {#section_D27214116EE443638A60887C7D1C534E}
 
