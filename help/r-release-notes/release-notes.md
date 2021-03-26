@@ -22,7 +22,7 @@ These release notes provide information about features, enhancements, and fixes 
 This release of at.js is a maintenance release and includes the following enhancements and fixes:
 
 * Fixed an issue with `targetPageParams` being included in mbox requests. `targetPageParams` should be included in `pageLoad` requests only. (TNT-40247)
-* Optimized window and document globals referencing in the [!DNL Adobe Experience Platform Launch] extension. (TNT-37124)
+* Fixed an issue with document and window global objects in the A[!DNL dobe Experience Platform Launch] extension by replacing the Platform Launch global object dependencies with direct references to them. (TNT-37124)
 
 ## IP address changes for Recommendations feed-processing servers (March 16, 2021)
 
