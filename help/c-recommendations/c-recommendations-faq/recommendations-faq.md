@@ -33,7 +33,7 @@ After importing a feed file, or after receiving entity updates via API or mbox, 
 
   This occurs because Target applies exclusions both online and offline. When an item is newly excluded, the online exclusion applies quickly. When an item is newly included, the online exclusion goes away quickly but the offline exclusion doesn't go away until the next algorithm run.
 
-* If an item was previously included but should now be excluded, the item will be excluded per the "Item attributes updated..." time line discussed above depending on feed source (15 minutes via mbox/API or 12-24 hours via feed).
+* If an item was previously included but should now be excluded, the item is excluded per the "Item attributes updated..." time line discussed above depending on feed source (15 minutes via mbox/API or 12-24 hours via feed).
 
 The following changes are not reflected until the next algorithm run occurs (within 12-24 hrs):
 
@@ -202,4 +202,19 @@ NO_CONTENT is returned when recommendations are unavailable for the requested al
 * Partial template rendering is disabled and not enough results are available to fill the template.
 
   This situation typically occurs when you have a dynamic inclusion rule, which aggressively filters many items from the possible results. To avoid situation, enable backups and do not apply the inclusion rule to backups, or use the criteria in sequence with a less-aggressively filtered criteria.
+
+## Do recommendations based on recently viewed items persist across multiple devices for a single visitor? {#persist-across-devices}
+
+When a visitor initiates a session, the session ID is tied to a single edge machine and a temporary profile cache is stored on this edge machine. Subsequent requests from the same session read this profile cache, including recently viewed items.
+
+When the session ends (generally, when it expires after 30 minutes of no activity), the session state, including recently viewed items, is then persisted to a more permanent profile storage in the same geographic edge.
+
+Subsequent sessions from different devices are then able to access these recently viewed items as long as the new session is linked to the customer profile via the same Marketing Cloud ID (MCID), Experience Cloud ID (ECID), or CustomerID/mbox3rdPartyId.
+
+If a visitor has two active sessions at the same time, recently viewed items on one device do not update the recently viewed items on the other device, unless the devices are forced to share the same session ID. There is a potential workaround for the issue, but [!DNL Target] does not directly support sharing a session ID across multiple devices. The customer must manage this ID sharing themselves.
+
+Note that this behavior still occurs if a visitor is active on one device and then becomes active on the other device a few minutes later. The first device's session does not expire for 30 minutes and there can be up to five minutes of delay before the profile state is written to the permanent state and processed. Allow 35 minutes for the session to expire and the profile to be stored when testing this behavior.
+
+If the visitor does not have two active sessions at the same time, recently viewed items on one device update the recently viewed items on the other device as long as the session has ended. Allow 35 minutes for the session to expire when testing this behavior.
+
  
