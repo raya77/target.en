@@ -9,21 +9,15 @@ feature: Recommendations
 
 List of IP addresses used in [!DNL Adobe Target] [!DNL Recommendations] feed-processing servers to help you configure your firewall to allow IP addresses originating from Adobe servers.
 
-[!DNL Target] [!UICONTROL Recommendations] activities use the following IP addresses when accessing customers' FTP servers:
+[!DNL Target] [!UICONTROL Recommendations] activities use the following AWS hosts when accessing customers' FTP servers:
 
-44.241.237.28
+| Location | Host |
+| --- | --- |
+| Oregon | `44.241.237.28` |
+| Oregon | `44.232.167.82` |
+| Oregon | `52.41.252.205` |
 
-44.232.167.82
-
-52.41.252.205
-
-[!DNL Target] [!UICONTROL Recommendations] APIs use the following IP addresses:
-
-44.241.237.28
-
-44.232.167.82
-
-52.41.252.205
+[!DNL Target] [!UICONTROL Recommendations] APIs also use the same AWS hosts.
 
 >[!NOTE]
 >
