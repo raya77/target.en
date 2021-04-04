@@ -3,8 +3,8 @@ keywords: recommendations design;create design;copy design
 description: Learn how to create an Adobe Target Recommendations design using a default design or by creating a custom design to best fit the layout of your page.
 title: How Do I Create a Design in Recommendations?
 feature: Recommendations
+exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 ---
-
 # ![PREMIUM](/help/assets/premium.png) Create a design {#create-a-design}
 
 A design defines how recommendations appear on a page.

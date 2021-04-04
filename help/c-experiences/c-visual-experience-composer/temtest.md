@@ -3,8 +3,8 @@ keywords: template testing;template;same experience on similar pages;template te
 description: Learn how to use the Adobe Target Visual Experience Composer (VEC) to include the same experience on multiple pages that are similarly structured or contain the same template elements.
 title: Can I Include the Same Experience on Similar Pages?
 feature: Experiences and Offers
+exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
 ---
-
 # Include the same experience on similar pages
 
 Use a page template in [!DNL Adobe Target] to provide structure to your pages, or if your pages contain similar elements, to test variations in similarly structured page elements or across your entire domain.

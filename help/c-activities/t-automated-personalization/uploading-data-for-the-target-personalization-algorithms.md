@@ -3,8 +3,8 @@ keywords: Automated Personalization;ap;upload data;offline data;personalization 
 description: Learn how to upload offline data, such as CRM information, when building personalization models in Adobe Target Automated Personalization (AP) activities.
 title: How Can I Upload Data for Personalization Algorithms?
 feature: Automated Personalization
+exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
 ---
-
 # Upload data for the Target personalization algorithms
 
 Offline data, such as CRM information or customer churn propensity scores, can be incredibly valuable when building personalization models in [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) activities.
@@ -23,4 +23,3 @@ The following list presents best practices for uploading data for Target's perso
 * Review what data Target automatically collects ( [Data Collection for Target's Personalization Algorithms](/help/c-activities/t-automated-personalization/ap-data.md)) so that you don’t send duplicate information. For example, Target uses IP addresses to determine visitors' ZIP codes. It is not necessary to pass this information as a separate variable. 
 * Do not pass multiple values in the same attribute/variable. If multiple variables are concatenated, Target’s personalization algorithms treat each string as a unique value, reducing the value of the information for personalization. 
 * Use a memorable and meaningful naming convention to make your [Personalization Insights Reports](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) more understandable.
-

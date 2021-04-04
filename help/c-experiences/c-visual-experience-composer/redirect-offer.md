@@ -3,8 +3,8 @@ kewords: redirect;redirect url;send to different page
 description: Learn how to use the Redirect to URL option in Adobe Target when you want to send the visitor to a different page rather than showing content on the same page.
 title: Can I Redirect a Page to a Different URL?
 feature: Visual Experience Composer (VEC)
+exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
 ---
-
 # Redirect to a URL
 
 Use the [!UICONTROL Redirect to URL] option in [!DNL Adobe Target] when you want to send the visitor to a different page rather than showing content on the same page.
@@ -46,4 +46,4 @@ To create a redirect offer:
    * Query 
    * mbox Parameter
 
-   Additional rules can be joined to the Activity URL with AND or OR. All rules you add are evaluated against each other with AND. 
+   Additional rules can be joined to the Activity URL with AND or OR. All rules you add are evaluated against each other with AND.

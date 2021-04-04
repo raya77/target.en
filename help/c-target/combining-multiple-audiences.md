@@ -3,8 +3,8 @@ keywords: audience;audience rules;combine audiences;exclusion;add exclusion;excl
 description: Learn how to combine multiple audiences (including Adobe Experience Cloud audiences and Target audiences) on the fly to create ad hoc audiences.
 title: Can I Combine Multiple Audiences to Create a New Audience?
 feature: Audiences
+exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
 ---
-
 # Combine multiple audiences{#combine-multiple-audiences}
 
 Combine multiple audiences (including Adobe Experience Cloud audiences and Target audiences) on the fly to create ad hoc audiences. You can also create exclusion rules and exclude audiences from a rule.

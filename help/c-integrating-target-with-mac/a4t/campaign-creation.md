@@ -3,8 +3,8 @@ keywords: a4t;A4T;Analytics as the reporting source for Target
 description: Learn how to configure an activity in Adobe Target that uses Adobe Analytics as the reporting source (A4T).
 title: How Do I Create an Activity that uses A4T?
 feature: Analytics for Target (A4T)
+exl-id: 6a09764a-8bf1-4f69-b871-fb23136f933e
 ---
-
 # Create an activity that uses Analytics as the reporting source
 
 You can configure an activity in [!DNL Adobe Target] to use [!DNL Adobe Analytics] as the reporting source (A4T).

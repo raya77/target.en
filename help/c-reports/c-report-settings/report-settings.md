@@ -3,8 +3,8 @@ keywords: Target;reports;report settings;preset;target preset;metric;audience;da
 description: Learn how to configure report settings in Adobe Target, including metrics, audiences, date ranges,  and more.
 title: How Do I Configure Report Settings?
 feature: Reports
+exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
 ---
-
 # Report settings{#report-settings}
 
 Information to help you set the elements you want to appear in your report in [!DNL Adobe Target]. Report settings can be saved for later use.
@@ -283,4 +283,3 @@ If you hover over one of the greyed experiences, a new grey plot line correspond
 Suppose you want to display the plot line for Experience R and you don't want to see the line for Experience P. You can click Experience P's name to deselect it and then click Experience R's name to select it, as shown below:
 
 ![](assets/graph_3.png)
-

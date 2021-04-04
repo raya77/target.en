@@ -3,8 +3,8 @@ keywords: welcome kit;target welcome kit;intro;introduction;getting started
 description: Where can I find ideas and inspiration for my testing and personalization activities using Adobe Target.
 title: Where Can I Find Inspiration for My Testing and Personalization Efforts?
 feature: Overview
+exl-id: ac4eb710-3f8b-417f-ad8a-ebe48771170d
 ---
-
 # Chapter 5: Inspiration for testing and personalization activities.
 
 These testing and personalization ideas, inspired by real activities run by our customers that have lifted conversion rates and revenue, are worth giving a try or using as inspiration for your own [!DNL Target] activities. Even if the idea isn’t an exact fit for your organization, with a little creativity and brainstorming, consider developing an activity based on the spirit of the test or personalization idea.

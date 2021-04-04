@@ -3,8 +3,8 @@ keywords: multi-page;journey testing;multipage activity
 description: Learn how to create a multipage activity in Adobe Target lets you create a story over multiple pages, with a design that is specific to each page.
 title: How Do I Create a Multipage Activity?
 feature: Visual Experience Composer (VEC)
+exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545
 ---
-
 # Multipage activity
 
 A multipage activity in [!DNL Adobe Target] lets you create a story over multiple pages, with a design that is specific to each page.
@@ -39,4 +39,3 @@ To add pages to a test:
    Use this menu to rename the pages, perform a redirect test from within the multipage activity or delete the page. 
 
 1. Use the Visual Experience Composer to design the way the offer looks on each page.
-

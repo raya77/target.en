@@ -3,8 +3,8 @@ keywords: analytics for target;a4t;analytics as the reporting source;analytics
 description: Learn how to use Analytics for Target (A4T). A4T provides access to Analytics reports for Target activities that use Analytics metrics and audience segments.
 title: How Do I Use Reporting in A4T?
 feature: Analytics for Target (A4T)
+exl-id: cab5dc5f-166a-468e-8382-ae734684afdd
 ---
-
 # A4T reporting{#a-t-reporting}
 
 Using [!DNL Adobe Analytics] as your reporting source for [!DNL Adobe Target] (A4T) gives you access to [!DNL Analytics] reports for your [!DNL Target] activities.
@@ -73,4 +73,4 @@ During activity creation, you must specify a goal for the activity on the [!UICO
 
 You can perform offline calculations for A4T, but it requires a step with data exports in [!DNL Analytics].
 
-For more information, see [Performing Offline Calculations for Analytics for Target (A4T)](/help/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B). 
+For more information, see [Performing Offline Calculations for Analytics for Target (A4T)](/help/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).

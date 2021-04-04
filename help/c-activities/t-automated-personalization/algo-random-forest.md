@@ -3,8 +3,8 @@ keywords: random forest;decision tree;ap;Automated Personalization
 description: Learn how Adobe Target uses the Random Forest algorithm in both Automated Personalization (AP) and Auto-Target activities.
 title: How Does Target Use the Random Forest Algorithm?
 feature: Automated Personalization
+exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 ---
-
 # ![PREMIUM](/help/assets/premium.png) Random Forest algorithm
 
 Target's main personalization algorithm used in both Automated Personalization and Auto-Target is Random Forest. Ensemble methods like Random Forest use multiple learning algorithms to obtain better predictive performance than could be obtained from any of the constituent learning algorithms. The Random Forest algorithm in Automated Personalization is a classification or regression method that operates by constructing a multitude of decision trees when it is being trained.
@@ -77,4 +77,4 @@ After Target has personalization models built to personalize your traffic, there
 
 The multi-arm bandit is how Target helps you meet this goal. The multi-arm bandit ensures the model is always "spending" a small fraction traffic to continue to learn throughout the life of the activity learning and to prevent over-exploitation of previously learned trends.
 
-In the data-science world, the multi-armed bandit (MAB) problem is a classic example of the exploration vs. exploitation dilemma in which a collection of one-armed bandits, each with unknown reward probability, is given. The key idea is to develop a strategy, which results in the arm with the highest success probability to be played so the total reward obtained is maximized. Multi-armed bandit is used in the system when for online scoring after the online models are built. This helps with online learning during exploration. The current multi-armed algorithm is epsilon (ε) greedy algorithm. In this algorithm, with probability 1- ε, the best arm is chosen. And, with probability ε, any other arm is randomly chosen. 
+In the data-science world, the multi-armed bandit (MAB) problem is a classic example of the exploration vs. exploitation dilemma in which a collection of one-armed bandits, each with unknown reward probability, is given. The key idea is to develop a strategy, which results in the arm with the highest success probability to be played so the total reward obtained is maximized. Multi-armed bandit is used in the system when for online scoring after the online models are built. This helps with online learning during exploration. The current multi-armed algorithm is epsilon (ε) greedy algorithm. In this algorithm, with probability 1- ε, the best arm is chosen. And, with probability ε, any other arm is randomly chosen.

@@ -3,8 +3,8 @@ keywords: responsive;mobile viewports;viewport;devices;mobile;responsive web des
 description: Mobile viewports help you see how your Adobe Target activities look on Screens of various sizes. Find a list of popular device viewport sizes and resolutions.
 title: How Do I Use Mobile Viewports for Responsive Experiences?
 feature: Visual Experience Composer (VEC)
+exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
 ---
-
 # Mobile viewports for responsive experiences
 
 Mobile viewports let you preview your [!DNL Adobe Target] activities on screens of various sizes.
@@ -174,4 +174,4 @@ The following demo video includes information about using the Visual Experience 
 
 This video includes information about setting up mobile viewports, beginning at 4:40 in the video.
 
->[!VIDEO](https://video.tv.adobe.com/v/17379) 
+>[!VIDEO](https://video.tv.adobe.com/v/17379)

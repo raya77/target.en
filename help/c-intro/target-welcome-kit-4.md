@@ -3,8 +3,8 @@ keywords: welcome kit;target welcome kit;intro;introduction;getting started
 description: Read tips from our panel of experts about using Adobe Target as part of your testing and personalization efforts.
 title: Where Can I Find Tips and Tricks for Using Target?
 feature: Overview
+exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
 ---
-
 # Chapter 4: Tips for using Target
 
 Based on our work with many [!DNL Target] users, we’ve observed ways that you can get more value from your [!DNL Target] solution. We’ve summarized those in the many tips we’ve included in this chapter. Although you might not be ready to use all of these ideas right away, hold on to this list. The more experience you get with the solution and the more your program matures, the more you’ll see how these tips can help you accomplish more with [!DNL Target].

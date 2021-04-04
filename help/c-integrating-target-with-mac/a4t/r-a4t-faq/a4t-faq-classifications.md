@@ -3,8 +3,8 @@ keywords: faq;frequently asked questions;analytics for target;a4T;classification
 description: Find answers to questions about classifications and using Analytics for Target (A4T). A4T lets you use Analytics reporting for Target activities.
 title: Where Can I Find Information About Classifications with A4T?
 feature: Analytics for Target (A4T)
+exl-id: 875f6c1c-1bda-40a9-96f2-d58c00d91d20
 ---
-
 # Classifications - A4T FAQ{#classifications-a-t-faq}
 
 This topic contains answers to questions that are frequently asked about classifications and using [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
@@ -24,4 +24,4 @@ The string format of the TNT variable is `activityID:experienceID:targettype|eve
 * Event = 3-32766 represents analytics success metric id.
 * Event = 32767 represents an activity conversion.
 
-You can import the classification file on a frequent basis from the UI using a [browser import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/browser-import.html) or an [FTP import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/import-file.html). You can also engage with Engineering Services to obtain the file as a lookup table along with a clickstream data feed. 
+You can import the classification file on a frequent basis from the UI using a [browser import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/browser-import.html) or an [FTP import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/import-file.html). You can also engage with Engineering Services to obtain the file as a lookup table along with a clickstream data feed.

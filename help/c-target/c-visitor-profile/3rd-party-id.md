@@ -3,8 +3,8 @@ keywords: mbox;mbox3rdPartyId;profile syncing;profile synch;PCID
 description: Learn how to use the mbox3rdPartyId, which is your organization's visitor ID, such as membership ID or your organization's loyalty program.
 title: How Do I Use Real-Time Profile Syncing for mbox3rdPartyId?
 feature: Audiences
+exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
 ---
-
 # Real-time profile syncing for mbox3rdPartyId{#real-time-profile-syncing-for-mbox-rdpartyid}
 
 The mbox3rdPartyId is your company's visitor ID, such as the membership ID for your company's loyalty program.

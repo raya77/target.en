@@ -3,8 +3,8 @@ keywords: email;ESP;email service provider;rawbox;delivery API;download-only tem
 description: Learn how to integrate email with Adobe Target Recommendations, including using the Target Delivery API, rawbox templates, and down-load only templates.
 title: How Do I Integrate Recommendations with Email?
 feature: Recommendations
+exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 ---
-
 # ![PREMIUM](/help/assets/premium.png) Integrate Recommendations with email{#integrate-recommendations-with-email}
 
 Information about the ways to integrate email with Recommendations.
@@ -132,4 +132,4 @@ Set up a recommendation as usual, but choose **download only** in the presentati
 
 With this option, the recommendations server cannot directly track the performance of a recommendation or split traffic across multiple algorithm/template combinations. Also, the recommendations are not tied to a visitor profile.
 
-For more information about the download API, see [Legacy APIs > Download](/help/assets/adobe-recommendations-classic.pdf). 
+For more information about the download API, see [Legacy APIs > Download](/help/assets/adobe-recommendations-classic.pdf).

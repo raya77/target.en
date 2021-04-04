@@ -3,8 +3,8 @@ keywords: Recommendations;settings;preferences;industry vertical;filter incompat
 description: Learn how to implement Recommendations activities in Adobe Target. Ensure that your implementation meets the necessary prerequisite requirements. 
 title: How Do I Implement Recommendations Activities?
 feature: Recommendations
+exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
 ---
-
 # ![PREMIUM](/help/assets/premium.png) Plan and implement Recommendations {#plan-and-implement-recommendations}
 
 What you need to know before creating a Recommendations activity.

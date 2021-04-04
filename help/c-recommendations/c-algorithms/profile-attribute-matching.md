@@ -3,8 +3,8 @@ keywords: inclusion rules;inclusion criteria;recommendations;promotion;promotion
 description: Learn how to filter dynamically in Adobe Target Recommendations by comparing items (entities) against a value in the user's profile.
 title: How Do I Filter by Profile Attribute Matching In Recommendations Activities?
 feature: Recommendations
+exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
 ---
-
 # ![PREMIUM](/help/assets/premium.png) Profile Attribute Matching
 
 Filter dynamically in [!DNL Adobe Target] [!DNL Recommendations] by comparing items (entities) against a value in the user's profile.

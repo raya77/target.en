@@ -4,8 +4,8 @@ description: Learn how to select an experience to be used as control while creat
 title: How Can I Use a Specific Experience as Control in an AP Activity?
 feature: Automated Personalization
 solution: Target,Analytics
+exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
 ---
-
 # ![PREMIUM](/help/assets/premium.png) Select the control for your Automated Personalization or Auto-Target activity
 
 You can select a randomly served experience or a specific experience to be used as control while creating an [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) or [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) (AT) activity.
@@ -45,4 +45,3 @@ Keep the following points in mind when using a specific experience as control:
   * Delete an experience
   * Remove a location or offer (AP only)
   * Exclude an experience, manually, via removing duplicate offers or via an exclusion group (AP only)
-  

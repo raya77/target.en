@@ -3,8 +3,8 @@ keywords: dynamic data;assets;data;offers;personalized offers;personal offers;to
 description: Learn how to pass dynamic data into Adobe Target Offers. Explore business cases that show why you might want to use dynamic offers and view examples and implementation information.
 title: How Do I Pass Dynamic Data into Offers?
 feature: Experiences and Offers
+exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
 ---
-
 # Pass dynamic data into offers
 
 You can dynamically display visitor information that is stored in the [!DNL Adobe Target] profile. Similarly, activity information (such as the name of the activity or the name of the experience) can also be used to create a single offer that dynamically returns personalized content based on the visitor's interests, past behavior, and overall profile.

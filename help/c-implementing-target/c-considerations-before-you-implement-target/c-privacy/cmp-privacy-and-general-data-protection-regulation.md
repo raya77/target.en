@@ -4,8 +4,8 @@ description: Learn about Target and the European Union General Data Protection R
 title: How Does Target Handle Privacy and Data Protection Regulations?
 feature: Privacy & Security
 role: Developer
+exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
 ---
-
 # Privacy and data protection regulations
 
 Information about the European Union's General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and other international privacy requirements, and how these regulations impact your organization and [!DNL Adobe Target].

@@ -3,8 +3,8 @@ keywords: visual experience composer options;experience composer options;experie
 description: Explore the options available in Adobe Target's Visual Experience Composer (VEC). Simply click an element to see which options are available for that element.
 title: How Do I Use the Visual Experience Composer (VEC) Options?
 feature: Visual Experience Composer (VEC)
+exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
 ---
-
 # Visual Experience Composer Options
 
 When you click a page element in the [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC), a menu shows the options that are available for that element type. In addition, a DOM path displays at the bottom of the page that lets you easily navigate through the page structure.

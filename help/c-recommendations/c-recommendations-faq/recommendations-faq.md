@@ -3,8 +3,8 @@ keywords: troubleshooting;frequently asked questions;FAQ;FAQs;recommendations;sp
 description: View a list of frequently asked questions and answers about Adobe Target Recommendations activities.
 title: Where Can I find Questions and Answers about Target Recommendations?
 feature: Recommendations
+exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 ---
-
 # ![PREMIUM](/help/assets/premium.png) Recommendations FAQ
 
 List of frequently asked questions (FAQs) about [!DNL Adobe Target] [!DNL Recommendations] activities.
@@ -216,5 +216,3 @@ If a visitor has two active sessions at the same time, recently viewed items on 
 Note that this behavior still occurs if a visitor is active on one device and then becomes active on the other device a few minutes later. The first device's session does not expire for 30 minutes and there can be up to five minutes of delay before the profile state is written to the permanent state and processed. Allow 35 minutes for the session to expire and the profile to be stored when testing this behavior.
 
 If the visitor does not have two active sessions at the same time, recently viewed items on one device update the recently viewed items on the other device as long as the session has ended. Allow 35 minutes for the session to expire when testing this behavior.
-
- 

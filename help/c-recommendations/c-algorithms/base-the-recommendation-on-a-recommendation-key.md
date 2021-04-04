@@ -4,8 +4,8 @@ description: Learn how to use recommendations based on keys that use visitor beh
 title: How Do I Base the Recommendation on a Recommendation Key?
 feature: Recommendations
 mini-toc-levels: 2
+exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
 ---
-
 # Base the recommendation on a recommendation key
 
 Recommendations based on keys use visitor behavior context to show relevant results in [!DNL Adobe Target] [!DNL Recommendations] activities. 

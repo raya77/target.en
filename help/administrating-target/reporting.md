@@ -4,8 +4,8 @@ description: Use Target or Adobe Analytics as the reporting source, specify the 
 title: How Do I Configure Reporting in Target?
 feature: Administration & Configuration
 role: Administrator
+exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
 ---
-
 # Configure reporting in Target
 
 Configure general settings to use in [!DNL Adobe Target] reporting that apply to your entire [!DNL Target] account.

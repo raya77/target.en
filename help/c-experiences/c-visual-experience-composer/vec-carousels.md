@@ -3,8 +3,8 @@ keywords: Visual Experience Composer;VEC;carousel
 description: Learn how to create a carousel that can be edited in the Adobe Target Visual Experience Composer (VEC).
 title: How Do I Create Carousels in the Visual Experience Composer?
 feature: Visual Experience Composer (VEC)
+exl-id: 50bc11d2-c9fc-4b53-8218-49842b59269a
 ---
-
 # Creating Carousels that Work in the Visual Experience Composer
 
 This topic shows how to create a carousel that can be edited in the [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC).
@@ -31,4 +31,4 @@ When you use the steps below, [!DNL Target] always knows that the selected slide
 
 1. Only update the classNames to hide others and show the next with timer/animation.
 
-   Never update the DOM structure using JavaScript. 
+   Never update the DOM structure using JavaScript.

@@ -3,8 +3,8 @@ keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq
 description: Learn how an Auto-Target activity in Target serves the most tailored experience to each visitor based on customer profiles and the behavior of similar visitors.
 title: What Is an Auto-Target Activity?
 feature: Auto-Target
+exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 ---
-
 # ![PREMIUM](/help/assets/premium.png) Auto-Target overview
 
 [!UICONTROL Auto-Target] activities in Adobe Target use advanced machine learning to select from multiple high-performing marketer-defined experiences to personalize content and drive conversions. Auto-Target serves the most tailored experience to each visitor based on his or her individual customer profile and the behavior of previous visitors with similar profiles. 

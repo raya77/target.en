@@ -4,8 +4,8 @@ description: Know the considerations you should address before implementing Adob
 title: What Should I Know Before Implementing?
 feature: Implementation
 role: Developer
+exl-id: e05394f3-fe81-47ee-9f7f-b73a6f9946b3
 ---
-
 # Before you implement
 
 Considerations you should address before you implement [!DNL Adobe Target].

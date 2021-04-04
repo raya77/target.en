@@ -3,8 +3,8 @@ keywords: Release notes
 description: View a list of features, enhancements, and fixes included in previous releases of Adobe Target.
 title: What Features Are Included in Previous Releases?
 feature: Release Notes
+exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 ---
-
 # Release notes for previous releases{#release-notes-for-previous-releases}
 
 Release notes for previous Target releases, including release notes for Target Standard/Premium, the Target platform, and the Target Javascript library (at.js). 

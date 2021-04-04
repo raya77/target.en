@@ -4,8 +4,8 @@ description: Learn how to  implement Adobe Target on your site. Set your global 
 title: How Do Implement Target on My Site?
 feature: Administration & Configuration
 role: Administrator
+exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
 ---
-
 # Implementation
 
 Before you start using [!DNL Adobe Target], you should implement it on your site, understand a few basic concepts and terms; be familiar with how [!DNL Target] works and integrates with your infrastructure; and understand how visitors are tracked by the [!DNL Target] system.

@@ -4,8 +4,8 @@ description: View a list of functions that can be used with the 1.x and 2.x vers
 title: What Functions Can I Use with at.js?
 feature: at.js
 role: Developer
+exl-id: a386e478-16f4-4bf6-9771-6b1e75f2e362
 ---
-
 # at.js functions{#at-js-functions}
 
 List of functions that can be used with the Adobe Target at.js JavaScript library. Click the links in the Function column for more information and examples.
@@ -26,4 +26,3 @@ List of functions that can be used with the Adobe Target at.js JavaScript librar
 |[registerExtension(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)<br>(at.js 1.x)|Provides a standard way to register a specific extension.<br>**Note:** This function is available for at.js versions 1.*x* only. This function was deprecated with the release of at.js 2.x. This function returns default content if used with at.js 2.x.|
 |[at.js custom events](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)|at.js custom events let you know when an mbox request or offer fails or succeeds.|
 |[adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)<br>(at.js 2.1.0)|This function sends a notification to Target edge when an experience is rendered without using `adobe.target.applyOffer()` or `adobe.target.applyOffers()`.<br>**Note**: This function has been introduced in at.js 2.1.0 and will be available for any versions above 2.1.0.|
-

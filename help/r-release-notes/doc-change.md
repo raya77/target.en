@@ -3,8 +3,8 @@ keywords: target documentation change log;documentation updates;new topics;edits
 description: Keep up to date with important additions and changes to the Adobe Target product documentation.
 title: Where Can I View Documentation Updates for Target?
 feature: Release Notes
+exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 ---
-
 # Documentation changes
 
 This page lists significant changes made to the [!DNL Adobe Target] product documentation.

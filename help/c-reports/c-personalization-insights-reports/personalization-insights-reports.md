@@ -3,8 +3,8 @@ keywords: Targeting;AP reports;automated personalization reports;auto-target;aut
 description: Learn how to use the specialized reports for Automated Personalization (AP) and Auto-Target (AT) activities - Automated Segments and Important Attributes.
 title: How Do I Use the Personalization Insights Reports?
 feature: Reports
+exl-id: 89295d95-f179-4277-ae63-453350e1bba8
 ---
-
 # ![PREMIUM](/help/assets/premium.png) Personalization Insights reports{#personalization-insights-reports}
 
 Two specialized reports are available to users of [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] (AT) activities: the [!UICONTROL Automated Segments] and [!UICONTROL Important Attributes] reports.

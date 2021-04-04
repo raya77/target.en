@@ -3,8 +3,8 @@ keywords: Targeting;analytics;tracking server;analytics for target;a4t
 description: Learn how to configure an activity in Adobe Target to use Adobe Analytics as the reporting source. This integration is called Analytics for Target (A4T).
 title: How Can I Use Analytics Data in Target?
 feature: Analytics for Target (A4T)
+exl-id: 85605ff9-c09a-4a1a-9784-bdacda377e1d
 ---
-
 # Using Analytics data
 
 You can configure an activity in [!DNL Adobe Target] to use [!DNL Adobe Analytics] as the reporting source (A4T).
@@ -31,4 +31,4 @@ You are required to select a success metric to uses as a goal for each test. You
 
 Setting a goal doesn't mean you can't use another metric when evaluating test results. The goal is, however, a reminder of the one thing you want to improve with the test.
 
-After a visitor completes your goal, that visitor is no longer included in the campaign. If the visitor re-enters your campaign after completing an activity, he or she is counted as a new visitor. 
+After a visitor completes your goal, that visitor is no longer included in the campaign. If the visitor re-enters your campaign after completing an activity, he or she is counted as a new visitor.

@@ -3,8 +3,8 @@ keywords: Overview and Reference;act
 description: Learn the basics of Adobe Target. This is a good place to become acquainted with Target, its activity types, and other features.
 title: How do I use Target?
 feature: Overview
+exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
 ---
-
 # Target key concepts{#target-key-concepts}
 
 Information about key concepts that will help you understand the features and capabilities of Adobe Target.

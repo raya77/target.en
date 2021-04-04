@@ -3,8 +3,8 @@ keywords: Recommendations
 description: Learn the implementation requirements for Analytics for Target (A4T) and what to consider before you implement this integration.
 title: What Should I Know Before Implementing A4T?
 feature: Analytics for Target (A4T)
+exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
 ---
-
 # Before you implement{#before-you-implement}
 
 Several changes occur in your data collection process when enabling [!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T).

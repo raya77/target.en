@@ -3,8 +3,8 @@ keywords: faq;frequently asked questions;analytics for target;a4t;provisioning;p
 description: Find answers to questions that are frequently asked about provisioning Analytics for Target (A4T), which lets you use Analytics reporting for Target activities.
 title: Where Can I Find Information about A4T Initial Provisioning?
 feature: Analytics for Target (A4T)
+exl-id: 4b098444-3e5b-45e3-b635-1857c2c8d183
 ---
-
 # Initial provisioning - A4T FAQ{#initial-provisioning-a-t-faq}
 
 This topic contains answers to questions that are frequently asked about provisioning [!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T).
@@ -43,4 +43,4 @@ See "Why are my report suites not loading?" above. The root cause of this proble
 
 ## Why are my reports in Target empty? {#section_3837104757464CB488C5A83014A669A1}
 
-See "Why are my report suites not loading?" above. The root cause of this problem is the same. 
+See "Why are my report suites not loading?" above. The root cause of this problem is the same.

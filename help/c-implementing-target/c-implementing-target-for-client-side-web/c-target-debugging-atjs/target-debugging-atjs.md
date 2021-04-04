@@ -4,8 +4,8 @@ description: Use the Adobe Experience Cloud Debugger to view your library config
 title: How Do I Debug at.Js with Adobe Experience Cloud Debugger?
 feature: at.js
 role: Developer
+exl-id: 764155e2-e55d-4637-8da3-44f70f3aa2a7
 ---
-
 # Debug at.js using the Adobe Experience Cloud Debugger{#debug-at-js-using-the-adobe-experience-cloud-debugger}
 
 Information about using the Adobe Experience Cloud Debugger extension, which makes it fast and easy to understand your Target implementation.
@@ -28,4 +28,4 @@ The following videos step you through the debugging process:
 
 ### Mbox Trace ![Overview badge](/help/assets/overview.png) {#section_FD3BC8019FA847209AB8BCA747C50211}
 
->[!VIDEO](https://video.tv.adobe.com/v/23113/) 
+>[!VIDEO](https://video.tv.adobe.com/v/23113/)

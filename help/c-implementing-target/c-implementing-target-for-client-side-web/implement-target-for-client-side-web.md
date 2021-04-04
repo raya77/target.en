@@ -4,8 +4,8 @@ description: Learn how to implement Adobe Target for client-side web using the A
 title: How Do I Implement Target for Client-Side Web
 feature: at.js
 role: Developer
+exl-id: 34c1e39b-acae-4547-b67f-584bcd59913f
 ---
-
 # Overview: implement Target for client-side web
 
 In a client-side implementation of [!DNL Adobe Target], [!DNL Target] delivers the experiences associated with an activity directly to the client browser. The browser decides which experience to display and displays it. With a client-side implementation, you can use a WYSIWYG editor, the [Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC), or a non-visual interface, the [Form-based Experience Composer](/help/c-experiences/form-experience-composer.md), to create your activity and personalization experiences.

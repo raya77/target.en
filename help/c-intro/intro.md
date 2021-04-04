@@ -4,8 +4,8 @@ description: Learn the basics of Adobe Target Standard and Adobe Target Premium.
 landing-page-description: Personalize your customers' experience to maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 title: What is Target?
 feature: Overview
+exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
 ---
-
 # Introduction to Target
 
 [!DNL Adobe Target] is the [!DNL Adobe Experience Cloud] solution that provides everything you need to tailor and personalize your customers' experiences. [!DNL Target] helps you maximize revenue on your web and mobile sites, apps, social media, and other digital channels.

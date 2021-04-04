@@ -3,8 +3,8 @@ keywords: Recommendations;offer
 description: Learn how to use Adobe Recommendations as an offer in A/B Tests (including Auto-Allocate and Auto-Target) and Experience Targeting (XT) activities.
 title: How Do I Use Recommendations as an Offer in Other Activity Types?
 feature: Recommendations
+exl-id: ec520555-b439-46a9-ab2d-f0981532bffb
 ---
-
 # ![PREMIUM](/help/assets/premium.png) Recommendations as an offer
 
 You can now include recommendations inside [!UICONTROL A/B Test] (including [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target]) and [!UICONTROL Experience Targeting] (XT) activities. 

@@ -3,8 +3,8 @@ keywords: audience;select audience;choose audience;Selectors
 description: The audience determines which site visitors are entered into your Adobe Target activity.
 title: How Do I Select an Audience in a Target A/B Activity?
 feature: A/B Tests
+exl-id: 281ae227-c593-4b71-ad12-865430b332be
 ---
-
 # Select audience
 
 The audience determines which site visitors are entered into your [!DNL Adobe Target] activity.
@@ -64,4 +64,4 @@ This video includes information about setting up audiences.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385)
 
-For detailed information, see [Audiences](/help/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271). 
+For detailed information, see [Audiences](/help/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).

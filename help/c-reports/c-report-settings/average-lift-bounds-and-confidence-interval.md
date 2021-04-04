@@ -3,8 +3,8 @@ keywords: Target;reports;report settings;environment;lift;lift bound;variance;co
 description: Learn how to interpret Adobe Target reports, that include data points and visualization representations to help you understand the lift bounds and confidence level of your activities.
 title: How Do I View Average Lift, Lift Bounds, and Confidence Interval?
 feature: Reports
+exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
 ---
-
 # Average Lift, Lift Bounds, and Confidence Interval
 
 Reports include several data points and visualization representations that help you understand the lift bounds and confidence level associated with your [!DNL Adobe Target] activity to help you more accurately determine a winner.

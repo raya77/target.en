@@ -3,8 +3,8 @@ keywords: content library;assets;annotate;copy;delete asset;download asset;edit 
 description: Learn how to manage code and image offers in the Adobe Target Offers library. Learn how to view an offer's details and how to edit, copy, move, or delete offers.
 title: How Do I Work with Content in the Offers Library?
 feature: Experiences and Offers
+exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
 ---
-
 # Work with content in the Asset library
 
 Information about the tasks you can perform on an asset in the Content Library in [!DNL Adobe Target] including annotating, copying, deleting, downloading, editing, sharing, and viewing properties.
@@ -84,4 +84,4 @@ This video includes information about managing content. (4:56)
 * Custom HTML Offers 
 * Custom HTML Offer in the Visual Experience Composer
 
->[!VIDEO](https://video.tv.adobe.com/v/17387) 
+>[!VIDEO](https://video.tv.adobe.com/v/17387)

@@ -3,8 +3,8 @@ keywords: activities;activity;activity types;edit activity;edit;draft
 description: Learn about the different ways you can edit an existing activity in Adobe Target, including saving an activity in draft form.
 title: How Do I Edit an Activity or Save As Draft?
 feature: Activities
+exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
 ---
-
 # Edit an activity or save as draft
 
 Information about the different ways you can edit an existing activity in [!DNL Adobe Target], including saving an activity in draft form.
@@ -98,4 +98,4 @@ Consider the following information when using the copy/edit functionality with w
 * When you copy an activity within same workspace, the first step of the creation flow of the newly copied activity opens in edit mode. 
 * When you copy an activity to a different workspace, the activity is copied to the other workspace without opening it in the activity creation flow. After the activity is copied successfully, a message displays indicating that the activity was copied successfully and includes a link to open the new activity.
 
-If your environment does not have the Enterprise User Permissions functionality enabled, all activities open in edit mode before copying. 
+If your environment does not have the Enterprise User Permissions functionality enabled, all activities open in edit mode before copying.

@@ -3,8 +3,8 @@ keywords: multiple audiences;experience versions;target experience versions
 description: Learn how to target versions of the same experience to different audiences in Adobe Target A/B activities.
 title: Can I Use Multiple Experience Versions in an A/B activity?
 feature: A/B Tests
+exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
 ---
-
 # Multiple experience audiences in an A/B Test
 
 You can target versions of the same experience to different audiences in [!DNL Adobe Target] A/B activities. You can set up multiple audiences for an experience in the Visual Experience Composer or in the Form-Based Experience Composer.
@@ -46,4 +46,3 @@ In this case, what you need are geo-specific versions of the experience, so you 
 * Choose mutually-exclusive audiences. If the activity was created in the VEC, If a visitor matches more than one audience, the content for each audience is returned, with the content for the audience listed last displaying on the page. 
 * Activity-entry audiences defined in the diagram are combined with the experience audiences using an AND condition. To enter the activity, a visitor must qualify for the activity audience, and one of the experience audiences. 
 * Add the same audiences as segments for reports. This helps you look at the test results at the high level of experience A vs B, and at the lower level of experience A vs B for just "browser lang ja_JP." This works only for Target-based reports, not Analytics-based reports.
-

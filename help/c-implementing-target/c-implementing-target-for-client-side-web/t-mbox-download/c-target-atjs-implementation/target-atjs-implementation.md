@@ -4,8 +4,8 @@ description: Learn how to migrate to at.js, the new implementation library for A
 title: How Do I Migrate from mbox.js to at.js?
 feature: at.js
 role: Developer
+exl-id: 1d95faeb-7caa-44d6-b637-a06db393e50e
 ---
-
 # Migrate from mbox.js to at.js
 
 The at.js library is a new implementation library for [!DNL Adobe Target] designed for both typical web implementations and single-page applications.
@@ -64,4 +64,4 @@ This video is a recording of " [Office Hours](/help/cmp-resources-and-contact-in
 * Debugging methodologies 
 * Known issues and future roadmap
 
->[!VIDEO](https://video.tv.adobe.com/v/22223/) 
+>[!VIDEO](https://video.tv.adobe.com/v/22223/)

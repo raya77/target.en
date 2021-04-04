@@ -3,8 +3,8 @@ keywords: Targeting;traffic sources;target traffic sources;target search engine;
 description: Learn how to create audiences in Adobe Target to target visitors based on the search engine or landing page that refers them to your site.
 title: Can I Target Visitors Based on Search Engine or Referring Site?
 feature: Audiences
+exl-id: 61902d29-36ea-4d9a-8650-f6f6690a545b
 ---
-
 # Traffic Sources{#traffic-sources}
 
 Create audiences to target visitors based on the search engine or landing page that refers them to your site.
@@ -43,4 +43,4 @@ This video includes information about using audience categories.
 * Create audiences 
 * Define audience categories
 
->[!VIDEO](https://video.tv.adobe.com/v/17392) 
+>[!VIDEO](https://video.tv.adobe.com/v/17392)

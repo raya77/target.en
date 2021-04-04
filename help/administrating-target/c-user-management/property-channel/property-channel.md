@@ -4,8 +4,8 @@ description: Learn how to create separate workspaces (product profiles) and then
 title: What Are Enterprise User Permissions and How Do I Use Them?
 feature: Administration & Configuration
 role: Administrator
+exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
 ---
-
 # ![PREMIUM](/help/assets/premium.png) Enterprise user permissions{#enterprise-user-permissions}
 
 Enterprise user permissions are a means of formal administering enterprise-wide user access to [!DNL Adobe Target]. Add users to [!DNL Target], assign permissions based on their roles, and create workspaces for teams based on different departments, global locations, channels, and other logical groupings. You can assign users the roles of [!UICONTROL Observer], [!UICONTROL Editor], or [!UICONTROL Approver].

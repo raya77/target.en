@@ -4,8 +4,8 @@ description: Learn how to configure the user account requirements necessary to c
 title: Which User Permission Requirements Are Needed for A4T?
 feature: Analytics for Target (A4T)
 solution: Target,Analytics
+exl-id: f56fc525-92da-4814-86c1-18b3a2765f37
 ---
-
 # User permission requirements
 
 Information about the user account requirements to create an [!DNL Adobe Analytics]-based activity in [!DNL Adobe Target] (A4T).

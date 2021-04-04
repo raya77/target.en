@@ -3,8 +3,8 @@ keywords: vec;visual experience composer; vec;iframe;extension;browser
 description: Discover why some websites might not open reliably in the Visual Experience Composer (VEC). The VEC Helper browser extension lets you load websites reliably within the VEC.
 title: How Do I Use the Visual Experience Composer (VEC) Helper Extension?
 feature: Visual Experience Composer (VEC)
+exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
 ---
-
 # Visual Experience Composer helper extension
 
 The [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper browser extension for Google Chrome lets you load websites reliably within the VEC to rapidly author and QA web experiences.
@@ -74,4 +74,3 @@ The VEC Helper browser extension for Chrome solves site-loading issues for which
   * If you attempt to load a website using the VEC that fails to load, a message displays suggesting that you install the VEC Helper browser extension.
   * If at.js is not yet implemented on the website, a message displays in the VEC suggesting that you install the extension.
   * If the extension is enabled and is powering the loading, messages display when the extension injects the at.js library (if necessary) or helps open the website reliably within the VEC.
-  

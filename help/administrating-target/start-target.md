@@ -4,8 +4,8 @@ description: Perform the first tasks Adobe Target administrators should take aft
 title: Where Do I Get Started Administering Target?
 feature: Administration & Configuration
 role: Administrator
+exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
 ---
-
 # Administrator first steps
 
 This article contains the first steps [!DNL Adobe Target] administrators should take after receiving the emailed invitation to the [!DNL Adobe Experience Cloud].

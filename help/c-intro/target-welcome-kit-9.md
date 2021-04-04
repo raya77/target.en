@@ -3,8 +3,8 @@ keywords: welcome kit;target welcome kit;intro;introduction;getting started
 description: You've create your first activity in Adobe Target. What's next? Use this article to find links to additional resouces, training tutorials, and how-to videos.
 title: Where Can I Find Additional Resources to More Effectively Use Target?
 feature: Overview
+exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
 ---
-
 # Chapter 9: Next steps and resources
 
 We’ve covered the basics of running your first activity. We hope that activity showed you and your company the incredible potential that using [!DNL Adobe Target] to optimize and personalize has for impacting the business bottom line. This is just a start. It’s time to think about what you’ll focus on for your second activity? Consider creating a prioritized list of activities you want to run. You’ll be surprised by just how quickly you see how activity by activity you improve the customer experience and drive business success.
@@ -40,4 +40,3 @@ We’ve compiled an organized list of valuable information to help you gain even
 * **Adobe Target Certification**: Achieve Adobe certified expert status with new Adobe Target exams. Schedule an exam here or training courses. See [Training and certification](/help/c-intro/training-and-certification.md).
 * **Adobe Target release notes**: Information about features, enhancements, and fixes for each [!DNL Target Standard] and [!DNL Target Premium] release. In addition, release notes for Target APIs, SDKs, the JavaScript library (at.js), and other platform changes are also included, when applicable. See [Target release notes (current)](/help/r-release-notes/release-notes.md).
 * **Adobe Target Newsletter**: Learn about product updates and future plans, personalization and optimization tips and tricks, customer successes, upcoming events, popular blog posts, and more. See [Target insider newsletter](/help/r-release-notes/target-insider-newsletter.md).
-

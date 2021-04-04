@@ -3,8 +3,8 @@ keywords: welcome kit;target welcome kit;intro;introduction;getting started
 description: Let's get started with your first activity in Adobe Target so you can obtain ROI on your investment.
 title: I Need to Create My Fist Activity in Target. Where Do I Start?
 feature: Overview
+exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
 ---
-
 # Chapter 7: Create and run your first Target activity
 
 So you’re ready to get started with your first activity in [!DNL Target]? Excellent. Let’s figure out an activity for your website, mobile site, or mobile app that’s not overly complex., but can provide quick ROI and get you excited about the potential of using [!DNL Target] to test and personalize. Depending on your organization and its focus, you might consider going one of three different routes with that first activity.

@@ -4,8 +4,8 @@ description: Learn how to use the targetPageParams function to pass additional t
 title: How Do I Pass Parameters to a Global mbox?
 feature: at.js
 role: Developer
+exl-id: 37d143af-83a8-48fd-91eb-58f21f8c7b94
 ---
-
 # Pass Parameters to a global mbox
 
 The JavaScript `targetPageParams` function is used to pass parameters to the global mbox in [!DNL Adobe Target]. This is needed in any scenario where additional targeting/context information is to be passed into [!DNL Target].

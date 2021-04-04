@@ -3,8 +3,8 @@ keywords: criteria;algorithm;industry vertical;page type;recommendation key;reco
 description: Learn how to create criteria that controls the content of your Adobe Recommendations activities to show the recommendations that are most appropriate for your activity.
 title: How Do I Create Criteria in Recommendations?
 feature: Recommendations
+exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
 ---
-
 # ![PREMIUM](/help/assets/premium.png) Create criteria{#create-criteria}
 
 Criteria in [!UICONTROL Adobe Target] [!UICONTROL Recommendations] control the content of your [!UICONTROL Recommendations] activities. Create criteria to show the recommendations that are most appropriate for your activity. These criteria use the visitor's actions to determine which content or products to display.

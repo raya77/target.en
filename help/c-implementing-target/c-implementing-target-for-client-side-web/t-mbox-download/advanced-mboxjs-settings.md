@@ -4,8 +4,8 @@ description: Learn about the legacy mbox.js implementation of Adobe Target. Migr
 title: How Do I Configure the Target mbox.js library?
 feature: at.js
 role: Developer
+exl-id: 17821e60-2692-49af-a225-764bd1b6aec1
 ---
-
 # Configure mbox.js
 
 Information to help you set several settings on the mbox.js Settings page.

@@ -4,8 +4,8 @@ description: Learn how to integrate Adobe Target with Adobe Dynamic Media Classi
 title: How Do I Configure the Dynamic Media Classic (Scene7) Integration?
 feature: Administration & Configuration
 role: Administrator
+exl-id: 315670ca-a4d1-4808-b3ec-f2ac195c281a
 ---
-
 # Dynamic Media Classic (formerly Scene7) configuration
 
 [!DNL Adobe Target] can be integrated with [!DNL Adobe Dynamic Media Classic] (formerly [!DNL Scene7]) to provide Digital Asset Management (DAM) in the [!UICONTROL Content Library].

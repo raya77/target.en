@@ -3,8 +3,8 @@ keywords: Experience Cloud;sign in;language;default ui language;default language
 description: Learn how to access Target from the Adobe Experience Cloud, set your default view, and change the language of the Target UI and documentation.
 title: How Do I Access Target From the Adobe Experience Cloud?
 feature: Overview
+exl-id: a5ac8d33-69c3-4e21-9f0f-baab430a6b76
 ---
-
 # Access Target from the Adobe Experience Cloud{#access-target-from-the-adobe-experience-cloud}
 
 Information about accessing [!DNL Adobe Target] from the [!DNL Adobe Experience Cloud], setting your default landing page, and changing the language of the [!DNL Target] user interface.
@@ -81,4 +81,4 @@ The [!DNL Target] documentation is available in the following languages:
 * Brazilian Portuguese
 * Chinese Simplified
 * Chinese Traditional
-* Korean 
+* Korean

@@ -4,8 +4,8 @@ description: View a list of hosts to help you allowlist Adobe Target edges (geog
 title: How Do I Allowlist Target Edge Nodes?
 feature: Privacy & Security
 role: Developer
+exl-id: 2d8399b9-eec8-40b0-8b35-2812f83ff4dc
 ---
-
 # Allowlist Target edge nodes
 
 Information and an up-to-date list of hosts to help you allowlist [!DNL Adobe Target] edges.
@@ -42,8 +42,3 @@ List of IP addresses of [!DNL Target] edges. Allowlist these IPs if you want to 
 |Edge36 (Sydney)|`mboxedge36.tt.omtrdc.net`|13.238.34.185<br>3.24.250.17<br>3.104.234.91<br>13.211.248.241|
 |Edge37 (Ireland)|`mboxedge37.tt.omtrdc.net`|52.212.193.208<br>52.19.133.54<br>52.51.251.137<br>34.252.156.174<br>52.213.168.74<br>34.252.166.160<br>52.18.150.20<br>18.203.205.32|
 |Edge38 (Singapore)|`mboxedge38.tt.omtrdc.net`|52.221.145.65<br>52.220.44.99<br>13.250.75.226<br>54.151.139.123|
-
-
-
-
-

@@ -4,8 +4,8 @@ description: Learn about the legacy mbox.js implementation of Adobe Target. Migr
 title: What Are Some Frequently Asked Questions about Target mbox.js?
 feature: at.js
 role: Developer
+exl-id: 0e207896-d45b-45f9-8556-6532fda72a45
 ---
-
 # mbox.js Frequently Asked Questions{#mbox-js-frequently-asked-questions}
 
 Answers to frequently asked questions about mbox.js.
@@ -42,4 +42,4 @@ HttpOnly can be set only via server-side code. Target cookies, such as mbox, are
 
 Secure can be set via JavaScript only when the page has been loaded via HTTPS. If the page initially loads via HTTP, JavaScript can't set this flag. In addition, if the Secure flag is used, the cookie will be available only on HTTPS pages.
 
-To ensure that Target can properly track users, and because the cookies are generated client-side, Target doesn't use either of these flags. 
+To ensure that Target can properly track users, and because the cookies are generated client-side, Target doesn't use either of these flags.

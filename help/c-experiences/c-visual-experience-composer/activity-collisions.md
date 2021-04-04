@@ -3,8 +3,8 @@ keywords: targeting;collisions;conflicts
 description: Collisions occur when multiple activities are set up to deliver content to the same page. Learn how to avoid collisions when using Adobe Target.
 title: How Can I Avoid Activity Collisions?
 feature: Visual Experience Composer (VEC)
+exl-id: 1af90dd1-69c9-41ec-8785-095dcc557b32
 ---
-
 # Activity collisions
 
 The [!UICONTROL Collisions] tab on the [!UICONTROL Activity Overview] page in [!DNL Adobe Target] lists activity collisions on your site.
@@ -22,4 +22,4 @@ The [!UICONTROL Collisions] list shows every [!DNL Target] scenario where the mb
 
 The list shows the status and priority of each potential collision, along with other information. You can use the status and priority to help you determine the likelihood of a collision occurring. For example, if there is a potential collision between two activities and one is inactive, there will be no actual collision unless the inactive activity is activated. If the potential collision is between two live activities with the same priority and the same audience, a collision will occur. You can change the priority or status to prevent the collision.
 
-If the audiences are different, there is still a potential collision because it's possible a particular visitor could belong to multiple audiences. 
+If the audiences are different, there is still a potential collision because it's possible a particular visitor could belong to multiple audiences.

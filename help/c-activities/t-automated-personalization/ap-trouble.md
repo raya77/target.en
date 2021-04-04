@@ -3,8 +3,8 @@ kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
 description: Explore potential challenges you might face while using Automated Personalization (AP) activities in Adobe Target, along with suggested solutions.
 title: How Do I Troubleshoot Automated Personalization?
 feature: Automated Personalization
+exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
 ---
-
 # ![PREMIUM](/help/assets/premium.png) Troubleshoot Automated Personalization{#troubleshoot-automated-personalization}
 
 Sometimes activities don't go as expected. Here are some potential challenges you might face while using Automated Personalization, and some suggested solutions.
@@ -51,4 +51,3 @@ For example, there is an activity with a conversion metric (C1) and an additiona
 
 * If you are not able to see the preview in the new tab (due to browser cache), try refreshing two or three times or copy the link and open it in new browser or new session. 
 * Regenerate the Experience URL links if you changed any content and share the new links with your teammates.
-

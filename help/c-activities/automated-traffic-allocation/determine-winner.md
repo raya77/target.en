@@ -3,8 +3,8 @@ keywords: automated traffic allocation;targeting;winner;statistical guarantee;co
 description: Learn how to interpret the results of an Auto-Allocate A/B activity in Adobe Target by examining important indicators, including lift and confidence.
 title: How Do I Interpret Auto-Allocate Reports?
 feature: Auto-Allocate
+exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
 ---
-
 # Interpret Auto-Allocate reports {#determine-a-winner}
 
 Interpret the results of an [!UICONTROL Auto-Allocate] A/B activity in [!UICONTROL Adobe Target] by examining important indicators, including lift and confidence.
@@ -69,4 +69,3 @@ Any of the following reasons describe why 0% displays in the report's [!UICONTRO
 
 * Auto-Allocate starts showing confidence only after the winning experience gathers 60% confidence. These confidence levels typically appear in about half the time that a normal A/B test would take to complete (although this is not guaranteed). To determine how long a normal A/B test would run, please use a [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html): plug control's conversion-rate in "Baseline conversion rate," "5%" for "Lift," and 95% for "Confidence." Typically, confidence starts showing after each experience has amassed at least 50% of the required samples per-experience. This will give you an idea of when confidence will start appearing. 
 * If the report is showing 0% across the board, it is likely too early into the activity.
-

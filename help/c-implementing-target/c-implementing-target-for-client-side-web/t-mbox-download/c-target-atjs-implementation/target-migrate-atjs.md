@@ -4,8 +4,8 @@ description: Learn how to migrate to at.js, the new implementation library for A
 title: How to Migrate to at.js from mbox.js
 feature: at.js
 role: Developer
+exl-id: d612ca74-521b-437e-aa9a-b1065e460d45
 ---
-
 # How to Migrate to at.js from mbox.js
 
 Migrating from mbox.js to at.js in [!DNL Adobe Target] is a straightforward process.
@@ -114,4 +114,4 @@ Use the following steps to migrate from [!DNL mbox.js] to [!DNL at.js] and to ch
 
   For more information about how to use the code editor to do this, see [Code Editor](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5). 
 
-* Because all mboxes are now asynchronous, they won't block page rendering or return in the order in which they fired. For more information, see "Asynchronous Considerations" in [at.js Limitations](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE). 
+* Because all mboxes are now asynchronous, they won't block page rendering or return in the order in which they fired. For more information, see "Asynchronous Considerations" in [at.js Limitations](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE).

@@ -3,8 +3,8 @@ keywords: A/B;activity metrics;metrics;set metrics;goal metric;activity settings
 description: Learn how to specify metrics in an Adobe Target A/B activity to determine when a visit is successful, such as Conversion, Revenue, and Engagement.
 title: How Do I Set Goal Metrics in an A/B Activity?
 feature: A/B Tests
+exl-id: 9e9e8787-c0cd-4aab-bd2d-0e9591e0a07d
 ---
-
 # Set metrics
 
 Use metrics in an [!DNL Adobe Target] A/B activity to determine when a visit is successful.
@@ -56,4 +56,4 @@ This video includes information about working with success metrics.
 * Understand and build Conversion, Revenue, and Engagement metrics 
 * Build a click-tracking metric 
 
->[!VIDEO](https://video.tv.adobe.com/v/17380) 
+>[!VIDEO](https://video.tv.adobe.com/v/17380)

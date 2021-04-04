@@ -3,8 +3,8 @@ keywords: Targeting;experience targeting;xt;landing page;landing page campaign
 description: Learn how to use Experience Targeting (XT) activities in Adobe Target to deliver content to a specific audience based on a set of marketer-defined rules and criteria.
 title: What Is an Experience Targeting (XT) Activity?
 feature: Experience Targeting
+exl-id: 416d8941-d4de-487f-8fd2-27806b73a63c
 ---
-
 # Experience Targeting
 
 Experience Targeting (XT) delivers content to a specific audience based on a set of marketer-defined rules and criteria.
@@ -43,4 +43,4 @@ This video explains the activity types available in Target Standard/Premium. Exp
 * Select the appropriate activity type to achieve your goals 
 * Describe the three-step guided workflow that applies to all activity types
 
->[!VIDEO](https://video.tv.adobe.com/v/17386) 
+>[!VIDEO](https://video.tv.adobe.com/v/17386)

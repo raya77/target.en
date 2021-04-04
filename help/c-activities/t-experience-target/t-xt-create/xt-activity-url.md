@@ -3,8 +3,8 @@ keywords: Experience Targeting;xt;activity url;url
 description: Learn how to specify the Activity URL that determines the page that is used in the test and that opens when the Experience Targeting activity is designed using Adobe Target.
 title: What Is the Activity URL In an Experience Targeting (XT) Activity?
 feature: Experience Targeting
+exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
 ---
-
 # Activity URL in Experience Targeting (XT) activities
 
 The [!UICONTROL Activity URL] determines the page that is used in the [!DNL Adobe Target] [!UICONTROL Experience Targeting] (XT) activity, and that opens in the [!UICONTROL Visual Experience Composer] (VEC) or [!UICONTROL Form-Based Experience Composer] when the activity is designed.

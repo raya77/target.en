@@ -4,8 +4,8 @@ description: View sample code to help you learn how to create locations and succ
 title: How Do I Create Target Locations and Success Metrics in an iOS app?
 feature: Implement Mobile
 role: Developer
+exl-id: c2f05478-b019-47a7-b1a5-3783929e6732
 ---
-
 # iOS - create a Target location and success metric{#ios-create-a-target-location-and-success-metric}
 
 To use Target in your mobile app, create a location and success metric.
@@ -77,4 +77,4 @@ To create a Target location in your app and make a request, there are two primar
 
 1. Build the app.
 
-   Step Result After you have successfully created a target location and tagged a success metric, create an A/B test. The activity can be created using the form-based experience composer. 
+   Step Result After you have successfully created a target location and tagged a success metric, create an A/B test. The activity can be created using the form-based experience composer.

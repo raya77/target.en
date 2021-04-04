@@ -4,8 +4,8 @@ description: Know the considerations you should address before implementing Adob
 title: How Should I Prepare to Implement Target?
 feature: Implementation
 role: Developer
+exl-id: f365f417-2750-46f7-b2ff-0f5b82747b4e
 ---
-
 # Prepare to implement Target
 
 There are tasks you should complete and information you should gather when preparing to implement [!DNL Adobe Target].

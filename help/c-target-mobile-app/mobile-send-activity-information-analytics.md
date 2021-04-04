@@ -4,8 +4,8 @@ description: Learn how to send Adobe Target mobile app activity information to A
 title: Can I Send Mobile App Activity Information to Analytics?
 feature: Implement Mobile
 role: Developer
+exl-id: 33812f14-320f-40c3-8234-d6006fb4d6bc
 ---
-
 # Send activity information to Adobe Analytics{#send-activity-information-to-adobe-analytics}
 
 This section describes how to send [!DNL Target] mobile app activity information to Adobe [!DNL Analytics] for post hoc segmentation.
@@ -67,4 +67,3 @@ This section describes how to send [!DNL Target] mobile app activity information
    >[!NOTE]
    >
    >`&&tnt`is a reserved event key in the mobile SDK. The post-classification of the `tntVal` variable in [!DNL Analytics] works in the same way in the mobile SDK as it does on the web (JavaScript). After the information is processed in [!DNL Analytics], you should see activity and experience names in the [!DNL Analytics] interface.
-

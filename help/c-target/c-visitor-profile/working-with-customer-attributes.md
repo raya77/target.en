@@ -3,8 +3,8 @@ keywords: customer relationship management;customer record service;crs;crm;mbox3
 description: Learn how to use enterprise customer data from a customer relationship management (CRM) database for content targeting in Adobe Target.
 title: What Are Customer Attributes and How Do I Use Them?
 feature: Audiences
+exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
 ---
-
 # Customer attributes
 
 Information about using enterprise customer data from Customer Relationship Management (CRM) databases for content targeting in [!DNL Adobe Target] by using customer attributes in the [!DNL Adobe Enterprise Cloud People] service.
@@ -181,4 +181,4 @@ If you cannot find Customer Attributes data in Target, ensure that the import oc
 
 This video shows you how to import offline CRM, help desk, point-of-sale, and other marketing data into the [!DNL Experience Cloud People] service and associate it with visitors using their known IDs.
 
->[!VIDEO](https://video.tv.adobe.com/v/17802t1/) 
+>[!VIDEO](https://video.tv.adobe.com/v/17802t1/)

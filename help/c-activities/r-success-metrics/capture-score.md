@@ -3,8 +3,8 @@ keywords: capture score;score
 description: Learn about the Capture Score engagement metric in Adobe Target that calculates an aggregated score based on the value assigned to pages visited on the site.
 title: What Is the Capture Score metric?
 feature: Success Metrics
+exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4
 ---
-
 # Capture Score
 
 The Capture Score engagement metric in [!DNL Adobe Target] calculates an aggregated score based on the value assigned to pages visited on the site, from the point the visitor first sees the campaign's first display [!DNL Target] request.
@@ -53,4 +53,4 @@ You can combine the two methods, but this might result in a higher score than ex
 
 The counter starts with the first display request, not the entry request. For example, if you enter the activity on the homepage which doesn't have a display request, then link to catalog page containing a display request, the counter begins when you move to the catalog page.
 
-You can also pass in negative values on certain pages that cost you money or are not good for a visitor to see. The negative values affect the overall score as well. This technique can be used on a page that visitors reach from an advertisement, so you know how much the CPC was. Or, for example, it can be used for a support or contact page, where you know that visitors might call or request assistance from this page. 
+You can also pass in negative values on certain pages that cost you money or are not good for a visitor to see. The negative values affect the overall score as well. This technique can be used on a page that visitors reach from an advertisement, so you know how much the CPC was. Or, for example, it can be used for a support or contact page, where you know that visitors might call or request assistance from this page.

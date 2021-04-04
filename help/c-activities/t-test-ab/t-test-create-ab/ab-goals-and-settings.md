@@ -3,8 +3,8 @@ keywords: activity settings;A/B goals and settings;reporting settings;goal metri
 description: Learn how to use the Goals and Settings page in Adobe Target to specify information about the goals of an A/B activity.
 title: How Do I Specify Goals and Settings in a Target A/B Activity?
 feature: A/B Tests
+exl-id: 6c970289-a897-46bc-a8d2-ba8c045abe12
 ---
-
 # Goals and settings
 
 The Goals and Settings page in [!DNL Adobe Target] is where you enter information about the goals of the test.

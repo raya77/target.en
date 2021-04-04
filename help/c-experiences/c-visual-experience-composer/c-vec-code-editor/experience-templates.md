@@ -3,8 +3,8 @@ keywords: experience template;custom code;banner;lightbox;carousel;countdown;rib
 description: Learn how to use Experience Templates, which are pre-coded samples with configurable inputs to be used to execute common marketer use-cases in Adobe Target.
 title: Which Experience Templates Are Avaialble in Target?
 feature: Visual Experience Composer (VEC)
+exl-id: 83bee583-656f-47d4-8892-e41b6629696f
 ---
-
 # Experience Templates
 
 Information about [!DNL Adobe Target] Experience Templates for use in custom code. [!DNL Target] Experience Templates are pre-coded samples with configurable inputs to be used to execute common marketer use-cases.
@@ -60,4 +60,3 @@ The [Lightbox experience template](https://github.com/Adobe-Marketing-Cloud/targ
 The [Ribbon experience template](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/ribbon) is a 100% width ribbon that inserts at the very top of the web page, typically used to indicate a flash sale, free shipping, safety or weather event, or other important announcement.
 
 ![](assets/exp-template-ribbon.png)
-

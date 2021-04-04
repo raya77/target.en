@@ -3,8 +3,8 @@ keywords: css selector;custom code;code editor;Mobile Web Experience Editor
 description: Learn how to use the Modifications panel in Adobe Target to view page modifications and to add additional modifications (CSS Selector, Mbox, and Custom Code).
 title: What Modifications Can I Make to My Page?
 feature: Visual Experience Composer (VEC)
+exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
 ---
-
 # Modifications{#modifications}
 
 Information about the Modifications page in [!DNL Adobe Target] that lets you view modifications to your page and add additional modifications (CSS Selector, Mbox, and Custom Code).
@@ -250,4 +250,4 @@ Currently, undo is not supported for edit and delete actions from the Modificati
 
 **Custom code does not produce the expected results in Internet Explorer 8.**
 
-Target no longer supports IE8. 
+Target no longer supports IE8.

@@ -3,8 +3,8 @@ keywords: recommendations Classic
 description: Download a PDF of the legacy Adobe Recommendations Classic documentation.
 title: Where Can I Find Documentation for Adobe Recommendations Classic?
 feature: Recommendations
+exl-id: e59fbf51-0c2d-4ec3-941d-d10633ce8a28
 ---
-
 # Recommendations Classic documentation
 
 [!DNL Recommendations Classic] automatically displays products or content that might interest your customers based on previous user activity on your website.

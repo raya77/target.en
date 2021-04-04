@@ -4,8 +4,8 @@ description: Learn how to customize a global mbox for at.js on the Administratio
 title: How Do I Customize a Global mbox?
 feature: at.js
 role: Developer
+exl-id: 6d3eab89-818c-405c-81af-90dfbede7390
 ---
-
 # Customize a Global mbox
 
 Information to help you customize a global mbox for at.js.
@@ -33,4 +33,3 @@ Information to help you customize a global mbox for at.js.
    >[!IMPORTANT]
    >
    >When you save, all activities in your account sync with this mbox. If this mbox is not on your site, all activities will stop functioning.
-

@@ -4,8 +4,8 @@ description: Learn how Adobe Target complies with applicable data privacy laws i
 title: How Does Target Handle Privacy Issues?
 feature: Privacy & Security
 role: Developer
+exl-id: fb632923-fa36-4553-88a6-f27860472eb6
 ---
-
 # Privacy
 
 [!DNL Adobe Target] has enabled processes and settings that allow you to use [!DNL Target] in compliance with applicable data privacy laws.

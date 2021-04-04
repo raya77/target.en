@@ -3,8 +3,8 @@ keywords: Recommendations;offer;preview;launch;status;criteria;algorithm
 description: Learn how to preview your Adobe Target Recommendations activity to ensure results are available before launching the activity. 
 title: How Do I Preview and Launch a Recommendations Activity?
 feature: Recommendations
+exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
 ---
-
 # Preview and launch your Recommendations activity
 
 After you’ve created your [!UICONTROL Recommendations], [!UICONTROL A/B Test], or [!UICONTROL Experience Targeting] (XT) activity containing [Recommendations offers](/help/c-recommendations/recommendations-as-an-offer.md), you’ll want to preview your recommendations to ensure that results are available before launching the activity. [!DNL Target Recommendations] offers multiple ways to preview your recommendations.

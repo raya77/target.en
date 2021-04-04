@@ -4,8 +4,8 @@ description: Learn how to use Redirectors in email implementations, similarly to
 title: How Do I Work with Redirectors?
 feature: Implement Email
 role: Developer
+exl-id: 1e7b99e4-857b-4d0f-afbd-2c5ce6bf0557
 ---
-
 # Work with redirectors{#work-with-redirectors}
 
 Use a Redirector similarly to how you use an mbox in your tests.

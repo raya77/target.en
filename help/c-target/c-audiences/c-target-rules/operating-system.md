@@ -3,8 +3,8 @@ keywords: Targeting;target operating system;operating system;target os;os;target
 description: Learn how to target visitors who use a certain operating system (Linux, Macintosh, or Windows).
 title: Can I Target Visitors Based on Operating System?
 feature: Audiences
+exl-id: 0d6b6b1c-5c00-49f5-ae2b-c70eb3f713fc
 ---
-
 # Operating System{#operating-system}
 
 You can target visitors who use a certain operating system.
@@ -32,4 +32,4 @@ This video includes information about using audience categories.
 * Create audiences 
 * Define audience categories
 
->[!VIDEO](https://video.tv.adobe.com/v/17392) 
+>[!VIDEO](https://video.tv.adobe.com/v/17392)

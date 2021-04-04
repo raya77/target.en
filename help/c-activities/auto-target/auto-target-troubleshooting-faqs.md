@@ -3,8 +3,8 @@ keywords: auto-target;targeting;traffic allocation;frequently asked questions;fa
 description: Explore troubleshooting topics and Frequently Asked Questions about Auto-Target activities in Adobe Target.
 title: How Can I Troubleshoot Auto-Target Activities?
 feature: Auto-Target
+exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 ---
-
 # ![PREMIUM](/help/assets/premium.png) Auto-Target troubleshooting and FAQs
 
 Troubleshooting and Frequently Asked Questions (FAQs) about [!UICONTROL Auto-Target] in [!DNL Adobe Target].
@@ -142,4 +142,3 @@ This is expected.
 In an [!UICONTROL Auto-Target] activity, once a conversion metric (whether optimization goal or post goal) is converted, the user is released from the experience and the activity is restarted.
 
 For example, there is an activity with a conversion metric (C1) and an additional metric (A1). A1 is dependent on C1. When a visitor enters the activity for the first time, and the criteria for converting A1 and C1 are not converted, metric A1 is not converted due to the success metric dependency. If the visitor converts C1 and then converts A1, A1 is still not converted because as soon as C1 is converted, the visitor is released.
-

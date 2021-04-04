@@ -4,8 +4,8 @@ description: Learn how Target uses the TLS (Transport Layer Security) protocol t
 title: How Does Target Use TLS to Provide Security?
 feature: Privacy & Security
 role: Developer
+exl-id: 964a642a-830a-4556-a92a-d300670cd2fa
 ---
-
 # TLS (Transport Layer Security) encryption changes{#tls-transport-layer-security-encryption-changes}
 
 Information about changes to how [!DNL Adobe] and [!DNL Adobe Target] use TLS (Transport Layer Security) to maintain the highest security standards and promote the safety of customer data.

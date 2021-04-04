@@ -4,8 +4,8 @@ description: Manage exclusions in Adobe Target Automated Personalization (AP) ac
 title: How Do I Manage Exclusions in Automated Personalization Activities?
 feature: Automated Personalization
 solution: Target,Analytics
+exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
 ---
-
 # ![Premium badge](/help/assets/premium.png) Manage exclusions
 
 Manage exclusions by creating exclusion groups, excluding duplicate offers, excluding specific experiences, and excluding default content in [!UICONTROL Automated Personalization] (AP) activities in [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) activities. 

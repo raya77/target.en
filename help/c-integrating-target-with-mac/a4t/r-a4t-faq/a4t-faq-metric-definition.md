@@ -3,8 +3,8 @@ keywords: faq;frequently asked questions;analytics for target;a4T;metric;metric 
 description: Find answers to questions about metric definitions and using Analytics for Target (A4T). A4T lets you use Analytics reporting with Adobe Target activities.
 title: Where Can I Find Information About Metric Definitions with A4T?
 feature: Analytics for Target (A4T)
+exl-id: 97442622-ba6d-46f8-bfac-72638875d889
 ---
-
 # Metric definitions - A4T FAQ
 
 This topic contains answers to questions that are frequently asked about metric definitions and using [!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T).
@@ -29,4 +29,4 @@ Calculated metrics let you create custom metrics that are derived from segments 
 
 ## Does A4T attribute conversions to multiple campaigns? {#section_7F15C727206440CD86B3A8CE77087DF9}
 
-Yes, using the "Full Allocation" setting. 
+Yes, using the "Full Allocation" setting.

@@ -4,8 +4,8 @@ description: Learn how to use single- and multi-value custom entity attributes t
 title: How Do I Use Custom Entity Attributes?
 feature: Recommendations
 mini-toc-levels: 3
+exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
 ---
-
 # ![PREMIUM](/help/assets/premium.png) Custom entity attributes{#custom-entity-attributes}
 
 Use single- and multi-value custom entity attributes in [!DNL Adobe Target Recommendations] to define additional information about items in your catalog.

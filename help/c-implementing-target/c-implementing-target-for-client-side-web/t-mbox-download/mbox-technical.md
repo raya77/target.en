@@ -4,8 +4,8 @@ description: Learn about the legacy mbox.js implementation of Adobe Target. Migr
 title: What does the Target mbox.js Library Do?
 feature: at.js
 role: Developer
+exl-id: 62f0cbd2-17f0-43f4-98d3-ea39f314525e
 ---
-
 # What mbox.js does{#what-mbox-js-does}
 
 Information to help your technical staff understand the mbox.js implementation and how it might affect your site.
@@ -47,4 +47,4 @@ When you use the [!UICONTROL Visual Experience Composer] to set up an experience
 
 If you are implementing Target in an Angular site or in any Single-Page Application (SPA), you should use the at.js library instead of mbox.js.
 
-For more information, see [at.js Implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17). 
+For more information, see [at.js Implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17).

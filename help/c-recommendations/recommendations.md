@@ -3,8 +3,8 @@ keywords: Recommendations;Recommendations criteria;recommendations algorithms;re
 description: Learn about Recommendations activities in Adobe Target that automatically display content that might interest your customers based on previous user activity or other algorithms.
 title: What is Target Recommendations?
 feature: Recommendations
+exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
 ---
-
 # ![PREMIUM](/help/assets/premium.png) Recommendations{#recommendations}
 
 [!DNL Adobe Target Recommendations] activities automatically display products, services, or content that might interest your visitors based on previous user activity, preferences, or other criteria. [!DNL Target Recommendations] helps direct visitor to relevant items they might otherwise not know about. [!DNL Recommendations] lets you provide your visitors with relevant content at the right time and in the right place.

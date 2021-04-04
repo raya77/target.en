@@ -3,8 +3,8 @@ keywords: automated personalization;ap;audiences;ensemble;random forest;residual
 description: Learn how to create an Automated Personalization (AP) activity in Adobe Target using the Visual Experience Composer (VEC).
 title: How Do I Create an Automated Personalization Activity?
 feature: Automated Personalization
+exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 ---
-
 # ![PREMIUM](/help/assets/premium.png) Create an Automated Personalization activity
 
 The [!UICONTROL Automated Personalization] (AP) activity workflow in [!DNL Adobe Target] varies from the workflow of the other activity types.
@@ -158,4 +158,4 @@ The [!UICONTROL Automated Personalization] (AP) activity workflow in [!DNL Adobe
 
 After you click **[!UICONTROL Create]**, the Activity Summary appears. Click **Preview Experiences** to preview how your experiences will look when delivered. A pop-up appears that you can use to view and share links to your AP experiences on your site to get a "true preview" of the experiences outside of Target's Visual Experience Composer. You must share the links from the message to share the preview. Clicking a link and then copying the URL directly from the page won't work because the URL contains a parameter that only displays the page correctly when you access the page from the link in the message. 
 
-For information about reporting, see [Automated Personalization Reports](/help/c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A). 
+For information about reporting, see [Automated Personalization Reports](/help/c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A).

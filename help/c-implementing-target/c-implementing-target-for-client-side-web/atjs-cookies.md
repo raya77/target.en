@@ -4,8 +4,8 @@ description: Details about how Adobe Target at.js 2.x and at.js 1.x handle cooki
 title: at.js Cookies
 feature: at.js
 role: Developer
+exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
 ---
-
 # at.js cookies {#at-js-cookies}
 
 Information about at.js 2.x and at.js 1.*x* cookie behavior.

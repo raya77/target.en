@@ -3,8 +3,8 @@ keywords: catalog search;catalog;search;exclusion;collection;filter
 description: Learn how to use the Recommendations Catalog Search to locate products or content, create collections or exclusions, remove items from your catalog, and more.
 title: How Do I Use the Recommendations Catalog Search?
 feature: Recommendations
+exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
 ---
-
 # ![PREMIUM](/help/assets/premium.png) Catalog Search
 
 The [!UICONTROL Catalog Search] page in [!DNL Adobe Recommendations] helps you locate the products or content in your catalog. The most basic task you can perform on this page is to search for an item. In addition, you can change the environment, save search results to collections or exclusions, add filter facets, and modify columns in the table, add new search facets, and more.
@@ -167,4 +167,3 @@ You can temporarily modify the active columns on the [!UICONTROL Catalog Search]
    You can also click the delete icon ( x ) next to the column you want to move from the active to inactive section.
 
 Keep in mind that any changes you make apply to the current session only.
-

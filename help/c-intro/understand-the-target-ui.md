@@ -3,8 +3,8 @@ keywords: target user interface;user interface;ui
 description: Familiarize yourself with the user interface and find links to more in-depth information to help you get the most out of Target.
 title: How Do I Use the Target UI?
 feature: Overview
+exl-id: ce4c72b2-b635-406b-9830-650816445a64
 ---
-
 # Understand the Target UI
 
 The user interface is arranged in a logical and user-friendly format to help you get the most out of [!DNL Adobe Target]. The following brief overview will help you get familiarized with [!DNL Target] and provides links for more in-depth information and step-by-step instructions.

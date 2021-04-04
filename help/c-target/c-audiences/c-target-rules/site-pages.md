@@ -3,8 +3,8 @@ keywords: site pages;target site pages;targeting;current page;target current pag
 description: Learn how to target visitors using Adobe Target who are on a specific page on your site.
 title: Can I Target Visitors Based on Site Pages?
 feature: Audiences
+exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
 ---
-
 # Site Pages{#site-pages}
 
 You can target visitors who are on a specific page on your site.
@@ -141,4 +141,4 @@ This video includes information about using audience categories.
 * Create audiences 
 * Define audience categories
 
->[!VIDEO](https://video.tv.adobe.com/v/17392) 
+>[!VIDEO](https://video.tv.adobe.com/v/17392)

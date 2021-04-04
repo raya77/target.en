@@ -3,8 +3,8 @@ keywords: Create A/B;A/B test;A/B activity;new a/b activity;create a/b
 description: Learn how to use the Visual Experience Composer (VEC) in Adobe Target to create your A/B Test activity directly on a Target-enabled page.
 title: How Do I Create an A/B Test?
 feature: A/B Tests
+exl-id: 76002873-0b7c-44a8-8e89-8ad28b63eccb
 ---
-
 # Create an A/B Test
 
 Use the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] to create your [!UICONTROL A/B Test] activity directly on a [!DNL Target]-enabled page and to modify portions of the page within [!DNL Target].

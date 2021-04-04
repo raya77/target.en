@@ -3,8 +3,8 @@ keywords: reports;auto-target;auto target;AT;report
 description: Learn how to interpret the Auto-Target Summary report in Adobe Target. You can switch to the Automated Segments and Important Attributes reports from this report.
 title: How Do I Use the Auto-Target Summary Report?
 feature: Reports
+exl-id: 098fcc0e-8e17-4898-ab2f-ec74472562ff
 ---
-
 # ![PREMIUM](/help/assets/premium.png) Auto-Target Summary report{#auto-target-summary-report}
 
 Information about how to interpret the [!UICONTROL Auto-Target Summary] reports in [!DNL Adobe Target].

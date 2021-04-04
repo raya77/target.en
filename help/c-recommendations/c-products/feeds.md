@@ -3,8 +3,8 @@ keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics clas
 description: Learn how feeds import entities into Adobe Target Recommendations using CSV files, the Google Product Search feed format, and Analytics product classifications.
 title: How Do I Use Feeds in Target Recommendations?
 feature: Recommendations
+exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 ---
-
 # ![PREMIUM](/help/assets/premium.png) Feeds{#feeds}
 
 Use feeds to get entities imported into [!DNL Adobe Target Recommendations]. Entities can be sent using CSV files, the Google Product Search feed format, and Adobe Analytics product classifications.

@@ -3,8 +3,8 @@ keywords: create auto-allocate;A/B test;auto-allocate activity;new a/b activity;
 description: Learn how to use the Visual Experience Composer (VEC) in Adobe Target to create an Auto-Allocate A/B Test activity directly on a Target-enabled page.
 title: How Do I Create an Auto-Allocate Activity?
 feature: Auto-Allocate
+exl-id: 30bc95e0-4f5e-4d1f-bad2-7b20b8f3c7d2
 ---
-
 # Create an Auto-Allocate activity
 
 Use the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] to create your [!UICONTROL Auto-Allocate] [!UICONTROL A/B Test] activity directly on a [!DNL Target]-enabled page and to modify portions of the page within [!DNL Target].

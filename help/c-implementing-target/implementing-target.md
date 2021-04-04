@@ -5,8 +5,8 @@ landing-page-description: Before you start using Adobe Target, you should implem
 title: How Do I Implement Target?
 feature: Implementation
 role: Developer
+exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
 ---
-
 # Implement Target
 
 Before you start using [!DNL Adobe Target], you must implement it on your site. Become familiar with basic concepts and terms, know how [!DNL Target] integrates with your infrastructure, and understand how visitors are tracked by the [!DNL Target] system.

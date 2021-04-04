@@ -3,8 +3,8 @@ keywords: A4T;Adobe Analytics;Analytics-based activity;Analytics report suite;re
 description: Follow the steps required to implement Analytics for Target (A4T) in your Adobe Target and Adobe Analytics solutions.
 title: How do I Implement Analytics for Target (A4T)?
 feature: Analytics for Target (A4T)
+exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
 ---
-
 # Analytics for Target implementation{#analytics-for-target-implementation}
 
 Several steps are required when implementing [!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T).
@@ -161,4 +161,3 @@ In [!DNL Target], click **[!UICONTROL Administration > Visual Experience Compose
 
 * **[!UICONTROL Select per activity]** lets you choose between [!DNL Target] and [!DNL Analytics] when creating each activity.
 * **[!UICONTROL Adobe Analytics]** sets [!DNL Analytics] as the reporting source for all activities that you create.
-

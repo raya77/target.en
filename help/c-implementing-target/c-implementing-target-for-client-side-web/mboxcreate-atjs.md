@@ -4,8 +4,8 @@ description: Use the mboxCreate() function for the Adobe Target at.js JavaScript
 title: How Do I Use the mboxCreate() Function?
 feature: at.js
 role: Developer
+exl-id: 821ad97a-345a-4e56-9be6-ab1c7d3a651d
 ---
-
 # mboxCreate(mbox,params) - at.js 1.x {#reference_E68805FE86C64792B2066DB17B253D74}
 
 Executes a request and applies the offer to the closest DIV with mboxDefault class name.

@@ -3,8 +3,8 @@ keywords: welcome kit;target welcome kit;intro;introduction;getting started
 description: Ust the Executive Summary Results template to help you communicate your successes with your Adobe Target activities.
 title: How Can I Share the Results of My Target Actities with My Organization?
 feature: Overview
+exl-id: 35dd83d6-30fd-4568-a59e-b5748b192eb9
 ---
-
 # Chapter 8: Communicate your activity results
 
 If you run an activity and have amazing results, you need to share those results with the organization. Maybe you just acquired more customers, increased revenue, saved money by reducing call center calls, or raised the average order value. Show stakeholders what you can accomplish for the business by optimizing and personalizing with [!DNL Target].

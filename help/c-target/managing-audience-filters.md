@@ -3,8 +3,8 @@ keywords: Targeting;audience filter;audiences;filter
 description: Learn how to use audience filters in Adobe Target to view data from groups of visitors who share a specific characteristic or set of characteristics.
 title: Can I Use Audience Filters for Reporting?
 feature: Audiences
+exl-id: af8dae97-4b10-4edb-a0e6-0d8daf2f0d22
 ---
-
 # Audience filters for reporting{#audience-filters-for-reporting}
 
 Audience filters (or audiences) are groups of visitors who share a specific characteristic or set of characteristics.
@@ -31,4 +31,3 @@ The following sections provide more information about setting up and reporting o
 |Combine multiple audiences, if necessary.|[Combine Multiple Audiences](/help/c-target/combining-multiple-audiences.md)|
 |Apply audiences on the activity's  Goals & Settings page.|A/B Test: [Goals and Settings](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization:  [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>Experience Targeting: [Goals and Settings](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)<br>Multivariate Test:  [Goals and Settings](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)<br>Recommendations: [Recommendations activity settings](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>Activity Settings: [Activity Settings](/help/c-activities/activity-settings.md)|
 |View reports with information about your audience filters.|[Report settings](/help/c-reports/c-report-settings/report-settings.md)|
-

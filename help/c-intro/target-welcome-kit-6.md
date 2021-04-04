@@ -3,8 +3,8 @@ keywords: welcome kit;target welcome kit;intro;introduction;getting started
 description: Learn from others' mistakes so that you don't make the same ones when using Adobe Target as part of your testing and personalization strategy.
 title: What are Common Mistakes When Using Target and How Can I Avoid Them?
 feature: Overview
+exl-id: 17f379bd-81d7-4f4e-b08d-aee42fe5e81f
 ---
-
 # Chapter 6: Easily avoidable pitfalls
 
 The good thing about starting your optimization and personalization program now is that people who have been doing it for a while have already uncovered many of the mistakes that are easy to make. By knowing about these pitfalls, you can easily avoid them or remedy them. 

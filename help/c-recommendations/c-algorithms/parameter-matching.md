@@ -3,8 +3,8 @@ keywords: inclusion rules;inclusion criteria;recommendations;promotion;promotion
 description: Learn how to filter dynamically in Adobe Target Recommendations by comparing items (entities) against a value in the request (API or mbox).
 title: How Do I Filter by Parameter Matching In Recommendations Activities?
 feature: Recommendations
+exl-id: 9ec161b9-1b37-4475-b508-af676126c817
 ---
-
 # ![PREMIUM](/help/assets/premium.png) Parameter Matching
 
 Filter dynamically by comparing items (entities) against a value in the request (API or mbox).

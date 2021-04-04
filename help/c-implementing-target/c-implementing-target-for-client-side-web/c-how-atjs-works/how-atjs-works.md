@@ -4,8 +4,8 @@ description: Learn how the Target at.js JavaScript library functions, including 
 title: How Does the at.js Javascript Library Work?
 feature: at.js
 role: Developer
+exl-id: 2193c02a-2a85-4ae1-bfbd-40fa7b87f0a0
 ---
-
 # How at.js works
 
 To implement [!DNL Adobe Target] client-side, you must use the at.js JavaScript library. 

@@ -3,8 +3,8 @@ keywords: creating custom criteria;algorithms;criteria;recommendations criteria;
 description: Learn how to upload a CSV file to customize your recommendations in Adobe Target Recommendations.
 title: How Do I Upload Custom Criteria in Recommendations?
 feature: Recommendations
+exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
 ---
-
 # ![PREMIUM](/help/assets/premium.png) Upload custom criteria{#upload-custom-criteria}
 
 Upload a CSV file to customize your recommendations.

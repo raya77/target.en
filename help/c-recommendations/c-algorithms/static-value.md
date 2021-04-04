@@ -3,8 +3,8 @@ keywords: inclusion rules;inclusion criteria;recommendations;promotion;promotion
 description: Learn how to manually enter one or more static values to filter using inclusion rules in Adobe Target Recommendations.
 title: How Do I Filter By Static Values In Recommendations Activities?
 feature: Recommendations
+exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
 ---
-
 # ![PREMIUM](/help/assets/premium.png) Static Filter
 
 Manually enter one or more static values to filter using inclusion rules in [!DNL Adobe Target] [!DNL Recommendations].
@@ -22,4 +22,3 @@ You can create as many inclusion rules as necessary. The inclusion rules are joi
 To create an inclusion rule with static values to recommend content with an MPA rating of "G" or "PG" only (exclude "R" and "NC17" content), you could create the following filtering rules "movie-rating equals g-rated" and "movie-rating equal pg-rated", as shown below.
 
 ![movie-rating example](/help/c-recommendations/c-algorithms/assets/movies.png)
-

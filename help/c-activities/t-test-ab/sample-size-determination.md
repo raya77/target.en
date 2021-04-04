@@ -3,8 +3,8 @@ keywords: AB;A/B;AB...n;sample size;sample size calculator;auto-allocate;auto al
 description: Learn how long to run an A/B test. A successful A/B test in Adobe Target requires enough visitors (sample size) to improve your conversion rate.
 title: How Long Should I Run an A/B Test?
 feature: A/B Tests
+exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
 ---
-
 # How long should you run an A/B Test?
 
 A successful [!UICONTROL A/B Test] activity in [!DNL Adobe Target] requires enough visitors (sample size) to improve your conversion rate. How do you know how long to run an A/B test? This article contains information about [!UICONTROL Auto-Allocate] activities and the [!UICONTROL Adobe Target] Sample Size Calculator to help you ensure that your activity has enough visitors to achieve your goals.

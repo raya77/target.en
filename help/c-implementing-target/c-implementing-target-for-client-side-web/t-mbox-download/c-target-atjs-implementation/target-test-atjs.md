@@ -4,8 +4,8 @@ description: Learn about the legacy mbox.js implementation of Adobe Target. Migr
 title: How Do I Deploy at.js to a Non-Production Environment?
 feature: at.js
 role: Developer
+exl-id: 607b2b5b-bb2a-4443-abc0-452b421fc009
 ---
-
 # Deploy at.js to a non-production environment
 
 Information about the techniques to safely deploy at.js to a non-production environment.

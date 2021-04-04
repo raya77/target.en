@@ -3,8 +3,8 @@ keywords: priority;experience create;priority;experience;audience;experience;swi
 description: Learn how visitors can switch between experiences in an Adobe Target Experience Targeting (XT) activity as their profiles evolve.
 title: Can Visitors Switch Experiences in an Experience Targeting Activity?
 feature: Experience Targeting
+exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
 ---
-
 # Switching experiences in Experience Targeting
 
 Information about the how visitors can switch between experiences in an Experience Targeting (XT) activity as their profiles evolve.
@@ -65,4 +65,3 @@ To leverage these capabilities in [!DNL Target], it is important to understand t
   This is important to keep in mind in scenarios where a visitor might qualify for more than one of your audiences. For example, if you have two experiences: one targeted to "United States" and one targeted to "New York," a visitor located in New York would qualify for both audiences. Therefore, you must ensure that the "New York" experience is defined before the "United States" experience in the Target UI. This ensures that the more targeted "New York" experience has the higher priority, as shown in the following example:
 
   ![Priority NY > US](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-new.png)
-

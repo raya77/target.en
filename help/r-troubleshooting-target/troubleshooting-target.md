@@ -3,8 +3,8 @@ keywords: troubleshoot target;troubleshooting target
 description: Review a list of topics to help you resolve issues in Adobe Target, including troubleshooting topics, frequently asked questions (FAQs), and other helpful topics.
 title: How do I Troubleshoot Target?
 feature: Troubleshooting
+exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 ---
-
 # Troubleshoot Target
 
 List of topics to help you resolve issues in [!DNL Adobe Target], including troubleshooting topics, frequently asked questions (FAQs), and other helpful topics.

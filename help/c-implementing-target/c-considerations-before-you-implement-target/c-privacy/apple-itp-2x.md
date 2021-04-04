@@ -4,8 +4,8 @@ description: Learn about Adobe Target and the impact of the Apple Intelligent Tr
 title: How Does Target Handle Apple ITP Support?
 feature: Privacy & Security
 role: Developer
+exl-id: 05a62be5-ccfb-4d5c-b511-35023b95e567
 ---
-
 # Apple Intelligent Tracking Prevention (ITP) 2.x
 
 Information about [!DNL Adobe Target] support for Apple’s ITP 2.x via the Experience Cloud ID (ECID) library 4.3.

@@ -4,8 +4,8 @@ description: Set up Adobe Target, including preferences, implementation, user ma
 title: How Do I Administer Target?
 feature: Administration & Configuration
 role: Administrator
+exl-id: 89023213-b109-4d07-af4e-4b8da481806d
 ---
-
 # Administer Target Overview{#administer-target}
 
 Information to help you administer [!DNL Adobe Target], including configuration settings for the Visual Experience Composer (VEC), reporting, Scene7 configuration, implementation, hosts, environments, response tokens, and users.

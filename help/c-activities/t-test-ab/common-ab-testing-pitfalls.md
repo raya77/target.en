@@ -3,8 +3,8 @@ keywords: AB;A/B;AB...n;mistakes;pitfalls;mistake;pitfall;significance;winner;st
 description: Learn how to avoid the most common pitfalls and mistakes that companies make when performing A/B testing in Adobe Target and other testing solutions.
 title: How Do I Avoid Common A/B Testing Mistakes?
 feature: A/B Tests
+exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
 ---
-
 # Ten common A/B testing pitfalls and how to avoid them
 
 A/B testing in [!DNL Adobe Target] forms the backbone of most digital marketing optimization programs, helping marketers offer optimized and targeted experiences to their visitors and customers. This section outlines ten of the most significant pitfalls that companies fall prey to when performing A/B testing. It also includes ways to avoid them, so your company can achieve greater ROI through its testing efforts and have greater confidence in its reported A/B test results.
@@ -166,4 +166,3 @@ The steps below help you avoid these pitfalls and focus on achieving better resu
 * Calculate the sample size (number of visitors) before the test is started. 
 * Wait for the calculated sample size to be reached before stopping the test. 
 * Adjust the confidence level when doing post-test segmentation or evaluating more than one alternative—for example, by using the Bonferroni correction.
-

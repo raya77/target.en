@@ -4,8 +4,8 @@ description: Learn how to use environments in Adobe Target to organize your site
 title: What are Environments and How Do I Use Them?
 feature: Administration & Configuration
 role: Administrator
+exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
 ---
-
 # Environments
 
 Organize your sites and pre-production environments for easy management and separated reporting.

@@ -3,8 +3,8 @@ keywords: welcome kit;target welcome kit;intro;introduction;getting started
 description: Learn six steps that outline a proven process for improving your testing and personalization ideas before creating activities in Adobe Target.
 title: How Can I Develop My Testing and Personalization Ideas?
 feature: Overview
+exl-id: 1f1af086-70bf-43ab-80aa-36d98d8d8d8f
 ---
-
 # Chapter 3: Develop your testing and personalization ideas
 
 For your first activity, you might test something super simple like changing the color or copy on a call to action button. Just to get your feet wet. Longer term, though, you’ll want to establish a formal, repeatable process for coming up with ideas for testing and personalization activities that helps mature your optimization and personalization program. The following six steps outline a proven process for doing just that, along with details about what to do at each step.

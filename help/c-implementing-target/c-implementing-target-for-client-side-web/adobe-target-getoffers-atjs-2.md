@@ -4,8 +4,8 @@ description: Use the adobe.target.getOffers() function and its options for the A
 title: How Do I Use the adobe.target.getOffers() Function?
 feature: at.js
 role: Developer
+exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
 ---
-
 # adobe.target.getOffers(options) - at.js 2.x
 
 This function lets you retrieve multiple offers by passing in multiple mboxes. Additionally, multiple offers can be retrieved for all views in active activities.

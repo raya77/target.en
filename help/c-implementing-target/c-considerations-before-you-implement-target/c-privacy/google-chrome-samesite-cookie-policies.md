@@ -4,8 +4,8 @@ description: Discover how Adobe Target handles the SameSite IETF standard introd
 title: How Does Target Handle Google's Samesite Cookie Policies?
 feature: Privacy & Security
 role: Developer
+exl-id: 5abd2065-3692-4a6d-9ac9-6d416604c2d2
 ---
-
 # Google Chrome SameSite cookie policies
 
 Google will begin to impose new cookie policies by default for users beginning with Chrome 80, which is slated to be released in early 2020. This article explains all you need to know about the new SameSite cookie policies, how [!DNL Adobe Target] supports these policies, and how you can use [!DNL Target] to comply with Google Chrome’s new SameSite Cookie Policies.

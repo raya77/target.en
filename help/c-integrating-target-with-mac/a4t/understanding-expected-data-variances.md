@@ -3,8 +3,8 @@ keywords: data variances;analytics;differences;variance;a4t;analytics for target
 description: Learn about the expected data variances between Adobe Target and Analytics when not using Analytics for Target (A4T), which eliminates data variance altogether.
 title: What Is the Expected Data Variance between Analytics and A4T?
 feature: Analytics for Target (A4T)
+exl-id: 9e63f309-8ec1-4ed5-a1f9-6c3098a7b8f6
 ---
-
 # Expected data variances between Adobe Target and Adobe Analytics when using and not using A4T
 
 Information about expected data variances between [!DNL Target] and Adobe [!DNL Analytics] when *using* and *not* using Analytics as the Reporting Source (A4T). A4T significantly reduces data variance.

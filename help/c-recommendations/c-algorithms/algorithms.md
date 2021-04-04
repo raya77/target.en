@@ -3,8 +3,8 @@ keywords: recommendations;recommendations activity;criteria;algorithm;recommenda
 description: Learn how to use criteria in Adobe Target Recommendations. Criteria are rules that determine which content to recommend based on a predetermined set of visitor behaviors.
 title: How Do I Use Criteria in Target Recommendations?
 feature: Recommendations
+exl-id: a6e4c857-f991-4293-9d33-8d7c2ca5dade
 ---
-
 # ![PREMIUM](/help/assets/premium.png) Criteria
 
 Criteria in [!DNL Adobe Target] are rules that determine which products or content to recommend based on a predetermined set of visitor behaviors. Criteria can be based on popular trends, a visitor's current and past behaviors, or similar products and content. You can test multiple recommendation types against each other by adding multiple criteria.

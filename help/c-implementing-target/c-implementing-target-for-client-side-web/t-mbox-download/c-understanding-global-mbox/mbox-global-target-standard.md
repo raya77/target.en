@@ -4,8 +4,8 @@ description: Learn how to use a legacy global mbox for your Adobe Target activit
 title: Can I Use a Global mbox from a Legacy Implementation?
 feature: at.js
 role: Developer
+exl-id: 1eb6836b-6b3c-4494-af67-cd72a4f357e2
 ---
-
 # Use a Global mbox from a legacy implementation
 
 By default, [!DNL Target] creates a global mbox called target-global-mbox, which is used to run activities created in [!DNL Target]. However, if you have already created a global mbox on your pages for your legacy implementations, you can use that mbox for your [!DNL Target] activities.
@@ -38,4 +38,4 @@ The following FAQs can be used to troubleshoot your global mbox implementation:
 
 ### Why is the global mbox not loading, or why is there latency in loading the global mbox when the page loads?
 
-Make sure the at.js reference is the first JavaScript call on the page. For other solutions to this problem, see [Global mbox Frequently Asked Questions](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md). 
+Make sure the at.js reference is the first JavaScript call on the page. For other solutions to this problem, see [Global mbox Frequently Asked Questions](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md).

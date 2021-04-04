@@ -4,8 +4,8 @@ description: Learn how to use Adobe Target for mobile app optimization and perso
 title: Can I use Target with Mobile Apps?
 feature: Implement Mobile
 role: Developer
+exl-id: a0521ef9-b3f9-4e21-ab60-22a3d9c15576
 ---
-
 # Target for mobile apps{#target-for-mobile-apps}
 
 Adobe Target helps test, personalize, and optimize mobile app experiences based on user behavior and mobile context. You can deliver interactions that engage and convert through iterative testing as well as rules-based and AI-powered personalization.

@@ -3,8 +3,8 @@ keywords: activities list;activities;activity;activity types;edit activity;activ
 description: Learn how activities in Adobe Target let you personalize content to specific audiences and test page designs
 title: How Can I Personalize Content and Test Page Designs with Target?
 feature: Activities
+exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 ---
-
 # Activities
 
 Activities in [!DNL Adobe Target] let you personalize content to specific audiences and test page designs.

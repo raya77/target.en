@@ -3,8 +3,8 @@ keywords: partial data;partial-data;A4T;discrepancies;analytics for target;orpha
 description: Learn how to minimize the effects of inflated Visit and Visitor counts when using Analytics for Target (A4t). Learn what "partial data" is and how to reduce it.
 title: How Do I Minimize Inflated Visit and Visitor Counts in A4T?
 feature: Analytics for Target (A4T)
+exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
 ---
-
 # Minimizing inflated visit and visitor counts in A4T{#minimizing-inflated-visit-and-visitor-counts-in-a-t}
 
 Information to help you minimize the effects of inflated Visit and Visitor counts when using [!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T).
@@ -92,4 +92,4 @@ To minimize these "orphaned" hits, you can create a [virtual report suite](https
 
 ## What does this mean for my [!DNL Target] reporting? {#section_AAD354C722BE46D4875507F0FCBA5E36}
 
-Once this change occurs, you might see a decrease in new visitors and visits to live tests because [!DNL Adobe] does not process incoming partial data. Conversions and hits to other [!DNL Analytics] metrics will not change. 
+Once this change occurs, you might see a decrease in new visitors and visits to live tests because [!DNL Adobe] does not process incoming partial data. Conversions and hits to other [!DNL Analytics] metrics will not change.

@@ -3,8 +3,8 @@ keywords: Targeting;target library;library
 description: Learn about targeting visitors using pre-built legacy audiences. Best practice is to use the newer audience categories for improved performance.
 title: Can I Target Visitors Based on Pre-built Targeting Rules?
 feature: Audiences
+exl-id: 7d7b7768-8da4-4c0d-9362-7c1bd6602b61
 ---
-
 # Target Library{#target-library}
 
 Target users based on pre-built targeting rules.
@@ -35,4 +35,4 @@ This video includes information about using audience categories.
 * Create audiences 
 * Define audience categories
 
->[!VIDEO](https://video.tv.adobe.com/v/17392) 
+>[!VIDEO](https://video.tv.adobe.com/v/17392)

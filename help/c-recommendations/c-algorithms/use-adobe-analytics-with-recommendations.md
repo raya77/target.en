@@ -3,8 +3,8 @@ keywords: behavioral data source;analytics;recommendations;criteria;product vari
 description: Learn how to use Adobe Analytics as the behavioral data source to use the view-based and/or purchase-based behavioral data from Analytics in Target Recommendations.
 title: How Do I Use Adobe Analytics with Target Recommendations?
 feature: Recommendations
+exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
 ---
-
 # Use Adobe Analytics with Recommendations
 
 Using [!DNL Adobe Analytics] as the behavioral data source lets clients use the view-based and/or purchase-based behavioral data from [!DNL Analytics] in [!DNL Adobe Target] recommendations activities. This feature is especially helpful in situations where the [!DNL Target Recommendations] setup is new and [!DNL Analytics] has a lot of historical data to leverage.
@@ -81,4 +81,3 @@ Yes, those two values are still required. The rest of the attributes can be pass
 ### Can I use dynamic inclusion rules, such as entity parameter matches profile attributes using the [!DNL Analytics] feed approach?
 
 Yes, you can. The method is similar when using [!DNL Target] stand-alone. In this case,however, you must be mindful about the timing factor. The entity variables that are supposed to match with the profile variables are dependent on the data layer that might appear much later on the page.
-

@@ -4,8 +4,8 @@ description: Learn how to use on-device decisioning to cache your Target A/B and
 title: What is On-Device Decisioning?
 feature: Implement Server-side
 role: Developer
+exl-id: ae782511-6f32-4123-be76-838584e05b39
 ---
-
 # On-device decisioning
 
 On-device decisioning provides the ability to cache your [!DNL Adobe Target] [!UICONTROL A/B Test] and [!UICONTROL Experience Targeting] (XT) activities on your server and perform in-memory decisioning at near-zero latency, without blocking network requests to the [!DNL Adobe Target] Edge Network.

@@ -3,8 +3,8 @@ keywords: promotions;front promotions;back promotions;promotions type;list of it
 description: Learn how to add promoted items and control their placement in your Adobe Target Recommendations designs. You can add static and dynamic promotions.
 title: How Do I Add Promotions in Recommendations Designs?
 feature: Recommendations
+exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
 ---
-
 # ![PREMIUM](/help/assets/premium.png) Add promotions
 
 Add promoted items and control their placement in your Adobe Target Recommendations designs. You can add static and dynamic promotions.
@@ -72,4 +72,4 @@ You can promote specific items, dynamically promote items, promote items based o
 
 1. Click **[!UICONTROL Save]**.
 
-Promotions are applied to all experiences in the activity. 
+Promotions are applied to all experiences in the activity.

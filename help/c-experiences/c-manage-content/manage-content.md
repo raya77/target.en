@@ -3,8 +3,8 @@ keywords: content;assets;manage content;offers;manage assets;enter selection mod
 description: Learn how to manage code and image offers by using the Offers library in Adobe Target.
 title: How Do I Manage Code and Image Offers?
 feature: Experiences and Offers
+exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
 ---
-
 # Offers
 
 Use the [!UICONTROL Offers] library in [!DNL Adobe Target] to manage your code offer and image offer content.

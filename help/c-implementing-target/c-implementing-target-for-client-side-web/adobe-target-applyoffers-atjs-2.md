@@ -4,8 +4,8 @@ description: Use the adobe.target.applyOffers() function for the Adobe Target at
 title: How Do I Use the adobe.target.applyOffers()  Function?
 feature: at.js
 role: Developer
+exl-id: a6f4c755-e5a0-4228-90f3-0f9d3b092cd8
 ---
-
 # adobe.target.applyOffers(options) - at.js 2.x
 
 This function lets you apply more than one offer that was retrieved by `adobe.target.getOffers()`.

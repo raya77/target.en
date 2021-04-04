@@ -3,8 +3,8 @@ keywords: experience;visual experience composer;enhanced experience composer;for
 description: Learn more about the Adobe Experience Composers - Visual Experience Composer (VEC), Form-Based Experience Composer, and the Single Page Visual Experience Composer.
 title: Which Experience Composers Does Target Offer?
 feature: Experiences and Offers
+exl-id: 83daca9f-c154-487e-83cd-e458d50cece2
 ---
-
 # Experiences and offers
 
 An experience in [!DNL Adobe Target] determines which content displays when the visitor meets the audience criteria for an activity.

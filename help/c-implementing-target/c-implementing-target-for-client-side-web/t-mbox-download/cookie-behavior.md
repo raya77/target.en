@@ -4,8 +4,8 @@ description: Learn about the legacy mbox.js implementation of Adobe Target. Migr
 title: Where Can I Find Information About mbox.js Cookies?
 feature: at.js
 role: Developer
+exl-id: 1c4e5b0b-8ae4-4526-aea0-318a33f4d247
 ---
-
 # mbox.js cookies{#mbox-js-cookies}
 
 The cookie behavior depends on whether it is a first-party cookie, a third-party cookie with a first-party cookie, or a third-party cookie alone.

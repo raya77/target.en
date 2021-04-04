@@ -4,8 +4,8 @@ description: Learn how to add users to Adobe Target; create workspaces, user gro
 title: How Do I Configure Enterprise Permissions?
 feature: Administration & Configuration
 role: Administrator
+exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
 ---
-
 # ![PREMIUM](/help/assets/premium.png) Configure enterprise permissions{#configure-enterprise-permissions}
 
 Information about the tasks required to add users to your [!DNL Target] implementation; create workspaces, user groups, and properties; update your [!DNL Target] implementation to include the `at_property` parameter; and specify roles and permissions.

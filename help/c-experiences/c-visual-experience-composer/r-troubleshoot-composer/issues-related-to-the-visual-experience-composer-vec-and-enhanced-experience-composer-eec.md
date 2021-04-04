@@ -3,8 +3,8 @@ keywords: Targeting;visual experience composer;whitelist;white list;allowlist;al
 description: Learn how to troubleshoot problems that sometimes occur in the Adobe Target Visual Experience Composer (VEC) and the Enhanced Experience Composer (EEC) under certain conditions.
 title: How Do I Troubleshoot Issues Related to the Visual Experience Composer and Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
+exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
 ---
-
 # Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer
 
 Display problems and other issues sometimes occur in the [!DNL Adobe Target] Visual Experience Composer (VEC) and the Enhanced Experience Composer (EEC) under certain conditions.
@@ -111,4 +111,4 @@ If you see this issue:
 
 ## For Automated Personalization activities, image swapping appears broken in the VEC or EEC. (VEC and EEC) {#section_88AABFDFE6A3420299B0D508B12A3994}
 
-Adding an image offer to a location takes the full dimension of the original image space in the VEC or EEC. On delivery, the image is not expanded and is shown as it is, so there is no impact on delivery. 
+Adding an image offer to a location takes the full dimension of the original image space in the VEC or EEC. On delivery, the image is not expanded and is shown as it is, so there is no impact on delivery.

@@ -3,8 +3,8 @@ keywords: contact;legal;technical support;tech support;support;service;capabilit
 description: Learn about additional resources to help you learn about Adobe Target features and how to contact Adobe should you need help with Target.
 title: Where Can I Find Resources and Contact Information for Target?
 feature: Release Notes,Overview
+exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
 ---
-
 # Resources and contact information{#resources-and-contact-information}
 
 Information about additional resources to help you learn about Target features and how to contact Adobe should you need help with Target.
@@ -121,4 +121,4 @@ We welcome any suggestions or feedback regarding this solution. Enhancement idea
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
-All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty](https://www.adobe.com/products/eula/third_party/). 
+All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty](https://www.adobe.com/products/eula/third_party/).

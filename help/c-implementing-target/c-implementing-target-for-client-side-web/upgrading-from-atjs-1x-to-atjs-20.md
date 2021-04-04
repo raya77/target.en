@@ -4,8 +4,8 @@ description: Learn how to upgrade from Adobe Target at.js 1.x to at.js 2.x. Exam
 title: How Do I Upgrade from at.js Version 1.x to Version 2.x?
 feature: at.js
 role: Developer
+exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
 ---
-
 # Upgrading from at.js 1.*x* to at.js 2.*x* {#upgrading-from-atjs-1x-to-atjs-200}
 
 The newest version of at.js in [!DNL Adobe Target] provides rich feature sets that equip your business to execute personalization on next-generation, client-side technologies. This new version is focused on upgrading at.js to have harmonious interactions with single page applications (SPAs). 

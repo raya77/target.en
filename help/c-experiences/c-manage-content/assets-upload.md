@@ -3,8 +3,8 @@ keywords: content;update content;assets;upload content;upload asset
 description: Learn how to upload images to use as image offers in Adobe Target.
 title: How Do I Upload Content to the Offers Library?
 feature: Experiences and Offers
+exl-id: c0fb26ca-4b98-4558-81c6-d84cf6841903
 ---
-
 # Upload content
 
 You can upload images to the [!UICONTROL Image Offers] list in [!DNL Adobe Target] to use as image offers in activities. You can also delete image offers when they are no longer needed in activities.

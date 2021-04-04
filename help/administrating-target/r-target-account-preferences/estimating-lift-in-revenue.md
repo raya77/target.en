@@ -4,8 +4,8 @@ description: Estimate the lift you might achieve if every visitor sees the winni
 title: What Do I Estimate Lift in Revenue?
 feature: Administration & Configuration
 role: Administrator
+exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
 ---
-
 # Estimate lift in revenue{#estimate-lift-in-revenue}
 
 Use [!DNL Adobe Target] to estimate the revenue lift you would attain if all users view the winning experience.
@@ -40,4 +40,4 @@ The estimated lift in revenue field is shown as "---" under the following circum
 
 When setting up an activity's goals, the Estimated Value field provides a value for your goal. This value enables Target to calculate the estimated lift in revenue. This field is optional; however, incremental revenue for any non-revenue metric cannot be calculated without it. The data type is currency. This field is progressively shown after the user indicates the action taken to satisfy the goal.
 
-The estimated revenue if 100% of visitors view the winning experience appears at the top of your Target reports. 
+The estimated revenue if 100% of visitors view the winning experience appears at the top of your Target reports.

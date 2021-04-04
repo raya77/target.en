@@ -4,8 +4,8 @@ description: Use the adobe.target.trackEvent() function for the Adobe Target at.
 title: How Do I Use the adobe.target.trackEvent() Function?
 feature: at.js
 role: Developer
+exl-id: 36005236-ce18-4845-b4fb-e52056018bc7
 ---
-
 # adobe.target.trackEvent(options)
 
 This function fires a request to report user actions, such as clicks and conversions. It does not deliver activities in the response.

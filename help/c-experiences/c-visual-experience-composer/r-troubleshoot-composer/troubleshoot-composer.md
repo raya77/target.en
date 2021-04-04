@@ -3,8 +3,8 @@ keywords: Targeting;visual experience composer;enhanced visual experience compos
 description: Learn how to troubleshoot problems that sometimes occur in the Visual Experience Composer (VEC) and the Enhanced Experience Composer (EEC) under certain conditions.
 title: How Do I Troubleshooti the Visual Experience Composer and Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
+exl-id: a971627c-662e-487b-bf0c-f73d196e3e71
 ---
-
 # Troubleshooting the Visual Experience Composer and Enhanced Experience Composer
 
 Display problems sometimes occur in the [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) and the [!UICONTROL Enhanced Experience Composer] (EEC) under certain conditions.

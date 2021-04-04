@@ -3,8 +3,8 @@ keywords: a4t;analytics;analytics for target;analytics reporting source;adobe an
 description: Use Analytics for Target (A4T) to create activities based on Analytics conversion metrics and audience segments and use Analytics reports to examine results.
 title: What is Analytics for Target (A4T)?
 feature: Analytics for Target (A4T)
+exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 ---
-
 # Adobe Analytics as the reporting source for Adobe Target (A4T)
 
 [!DNL Adobe Analytics for Target] (A4T) is a cross-solution integration that lets you create activities based on [!DNL Analytics] conversion metrics and audience segments. The A4T integration lets you use [!DNL Analytics] reports to examine your results. If you use [!DNL Analytics] as the reporting source for an activity, all reporting and segmentation for that activity is based on [!DNL Analytics] data collection.

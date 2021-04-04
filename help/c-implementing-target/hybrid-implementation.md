@@ -4,8 +4,8 @@ description: Learn about Adobe Target's unique hybrid deployment model for perso
 title: What Is A Hybrid Target Implementation?
 feature: Implementation
 role: Developer
+exl-id: af898360-217f-4c90-ac26-e80735e4dd20
 ---
-
 # Hybrid implementation
 
 [!DNL Adobe Target] offers a unique hybrid deployment model for personalization—blending client-side and server-side implementations. This hybrid model allows non-technical users to author an experiment or personalization activity using the WYSIWYG [!UICONTROL Visual Experience Composer] (VEC) and have the experience be executed, delivered, and rendered by the server-side for a highly performant delivery.

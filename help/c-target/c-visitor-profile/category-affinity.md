@@ -3,8 +3,8 @@ keywords: affinity;category affinity
 description: Learn about category affinity in Adobe Target that automatically captures categories a user visits and then calculates the user's affinity for the category so it can be targeted and segmented on.
 title: What Is Category Affinity?
 feature: Audiences
+exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
 ---
-
 # Category affinity{#category-affinity}
 
 The category affinity feature automatically captures the categories a user visits and then calculates the user's affinity for the category so it can be targeted and segmented on. This helps to ensure that content is targeted to visitors who are most likely to act on that information.
@@ -137,4 +137,4 @@ This section contains the following information:
 
 ## Use the category affinity audience in an activity {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
 
-You can use Category Affinity audiences in any activity. During the three-step guided workflow, on the Target step, choose the desired audience. 
+You can use Category Affinity audiences in any activity. During the three-step guided workflow, on the Target step, choose the desired audience.

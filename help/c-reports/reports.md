@@ -3,8 +3,8 @@ keywords: reports;block ip address;block visitor from ip address;download report
 description: Learn how to use the reporting features in Adobe Target to examine the performance of your activities. Make better decisions based on your data to increase ROI.
 title: How Do I View Reports?
 feature: Reports
+exl-id: c5710eb3-0c72-47f8-870d-df50453ecf08
 ---
-
 # Reports{#reports}
 
 Reports provide information about the progress and results of your [!DNL Adobe Target] activities that help you make decisions based on your data. Report data can help you decide when to end an activity, show you which experience of offer is the winner, and provide insights or learnings you need to determine next actions.

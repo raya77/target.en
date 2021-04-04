@@ -3,8 +3,8 @@ keywords: Targeting;eec;visual experience composer;troubleshoot enhanced experie
 description: Learn how to troubleshoot problems that sometimes occur in the Adobe Target Enhanced Experience Composer (EEC) under certain conditions.
 title: How Do I Troubleshoot Issues Related to the Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
+exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
 ---
-
 # Troubleshooting issues related to the Enhanced Experience Composer
 
 Display problems sometimes occur in the [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC) under certain conditions.
@@ -60,4 +60,4 @@ To check the TLS version on your website using Firefox (other browsers have simi
 
 ## I'm seeing timeouts or "access denied" errors when loading sites with proxy enabled. (EEC only) {#section_60CBB9022DC449F593606C0E6252302D}
 
-Make sure proxy IPs are not blocked in your environment. 
+Make sure proxy IPs are not blocked in your environment.

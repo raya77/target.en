@@ -3,8 +3,8 @@ keywords: audience;audience rules;create audience;creating audience;activity onl
 description: Learn how to create activity-only audiences in Adobe Target that are for one-time use in the current activity and not stored in the Audiences Library.
 title: Can I Create an Audience to Use Only Once?
 feature: Audiences
+exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
 ---
-
 # Create an activity-only audience{#create-an-activity-only-audience}
 
 Create activity-only audiences from within the three-step guided workflow when creating an activity. These ad hoc audiences can be used in other places within the same activity, but are not stored in the [!UICONTROL Audiences Library] for use in other activities.
@@ -45,4 +45,3 @@ Keep the following information in mind as you work with activity-only audiences:
 * Activity-only audiences have a status of [!UICONTROL Used] or [!UICONTROL Unused]. Unused activity-only audiences display until the activity is saved. If left unused and you try to save the activity, a warning message displays informing you that unused activity-only audiences will be deleted. 
 * You can view audience definition details on a pop-up card accessed from the audience picker without opening the audience. 
 * You can [combine multiple audiences](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) to create activity-only audiences.
-

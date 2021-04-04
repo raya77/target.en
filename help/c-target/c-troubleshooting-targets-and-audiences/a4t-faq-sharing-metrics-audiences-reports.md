@@ -3,8 +3,9 @@ keywords: faq;frequently asked questions;analytics for target;segments;a4T;share
 description: Find FAQs about sharing metrics, audiences, and reports when using Analytics for Target (A4T). A4T lets you use Analytics reporting for Adobe Target activities.
 title: Where Can Find FAQs Sharing Metrics, Audiences, and Reports in A4T?
 feature: Analytics for Target (A4T)
+exl-id: 59084e19-dfac-4796-a0b4-1da27ca9d43a
+exl-id: 6f250901-f109-4c2e-a023-ccc4c2b404b1
 ---
-
 # Share metrics, audiences, and reports - A4T FAQ{#share-metrics-audiences-and-reports-a-t-faq}
 
 This topic contains answers to questions that are frequently asked about sharing metrics, audiences, and reports when using Analytics as the reporting source for Target (A4T).
@@ -19,4 +20,4 @@ For more information, see [Bookmark manager](https://experienceleague.adobe.com/
 
 If you are using special metrics and segments with a test, you might consider creating a user group for your optimization team. Share those metrics and segments with the group instead of individual members to make sure they all have access to the segments and metrics. Only Admins can share with groups.
 
-See [Sharing segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/t-seg-share.html) and [Sharing calculated metrics](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html). 
+See [Sharing segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/t-seg-share.html) and [Sharing calculated metrics](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html).

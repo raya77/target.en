@@ -3,8 +3,8 @@ keywords: faq;frequently asked questions;analytics for target;a4T;redirect;redir
 description: Find answers to questions about using redirect offers when using Analytics for Target (A4T). A4T lets you use Analytics reporting for Target activities.
 title: Where Can I Find FAQs About Redirect Offers with A4T?
 feature: Analytics for Target (A4T)
+exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
 ---
-
 # Redirect offers - A4T FAQ
 
 This topic contains answers to questions that are frequently asked about using redirect offers when using [!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T).
@@ -98,4 +98,4 @@ With [!DNL at.js] version 0.9.6 (or later) and [!DNL AppMeasurement.js] 2.1 (or 
 
 ## Can I use custom/HTML redirect offers? {#section_E49F9A83A286488C8F1098A040203D7E}
 
-No, you must use a built-in redirect offer for activities that use [!DNL Analytics] as the reporting source (A4T). From the [!DNL Target] perspective, HTML offers are opaque: [!DNL Target] can't know that a particular piece of HTML contains JavaScript that instantiates a redirect. 
+No, you must use a built-in redirect offer for activities that use [!DNL Analytics] as the reporting source (A4T). From the [!DNL Target] perspective, HTML offers are opaque: [!DNL Target] can't know that a particular piece of HTML contains JavaScript that instantiates a redirect.

@@ -4,8 +4,8 @@ description: Learn about the legacy mbox.js implementation of Adobe Target. Migr
 title: How Do I Implement Target with mbox.js?
 feature: at.js
 role: Developer
+exl-id: 105095d7-8e29-413b-a7f4-e46e2e30e91f
 ---
-
 # mbox.js implementation
 
 To use [!DNL Adobe Target Standard] or [!DNL Target Premium], add one line of code to call mbox.js.

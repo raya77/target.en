@@ -3,8 +3,8 @@ keywords: release notes;releases;updates;future release;enhancements;new feature
 description: Learn about the new features, enhancements, and fixes included in the upcoming release of Adobe Target, including SDKs, APIs, and JavaScript libraries.
 title: What New Features Are Included in the Upcoming Release?
 feature: Release Notes
+exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 ---
-
 # Target release notes (prerelease)
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
@@ -43,4 +43,4 @@ The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
 To receive advance notifications about upcoming product enhancements to Target and other Adobe Experience Cloud solutions, sign up for the Adobe Priority Product Update:
 
-[https://www.adobe.com/subscription/priority-product-update.html](https://www.adobe.com/subscription/priority-product-update.html) 
+[https://www.adobe.com/subscription/priority-product-update.html](https://www.adobe.com/subscription/priority-product-update.html)

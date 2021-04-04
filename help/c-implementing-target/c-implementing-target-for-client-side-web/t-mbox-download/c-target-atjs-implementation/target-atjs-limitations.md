@@ -4,8 +4,8 @@ description: Learn about the legacy mbox.js implementation of Adobe Target. Migr
 title: What Are the Differences Between at.js and mbox.js?
 feature: at.js
 role: Developer
+exl-id: 2fd0db66-0b47-41c0-86b6-44e711d70027
 ---
-
 # at.js Limitations
 
 There are some differences between at.js and mbox.js. This section lists some of the differences and limitations, to help you be successful with at.js.
@@ -48,4 +48,3 @@ Because all mboxes are now asynchronous, they won't block page rendering or retu
 * DOM Manipulation and Redirect offers should be delivered through the auto-created global mbox in [!DNL at.js] and delivered in the `<head>`.
 
   An `mboxCreate()` function at the top of the `<body>` will likely result in flicker of default content.
-

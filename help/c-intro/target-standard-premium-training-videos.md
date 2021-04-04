@@ -3,8 +3,8 @@ keywords: training videos;youtube;videos;video training;tutorial;tutorials;video
 description: Watch training videos to help you get the most out of Target Standard and Target Premium.
 title: Where Can I Find Target Training Videos?
 feature: Overview
+exl-id: 649eaf48-210c-4192-b727-53f0d146a1e2
 ---
-
 # Training videos for Adobe Target Standard and Premium{#training-videos-for-adobe-target-standard-and-premium}
 
 Watch training videos to help you get the most out of Target Standard and Target Premium.

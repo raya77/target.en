@@ -3,8 +3,8 @@ keywords: welcome kit;target welcome kit;intro;introduction;getting started
 description: Take a high-level look at Adobe Target. Learn about available activities, channels, implementation, integrations, and more.
 title: Where Can I Find a High-level Introduction to Target?
 feature: Overview
+exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
 ---
-
 # Chapter 2: Adobe Target at a glance
 
 Before you get started using [!DNL Adobe Target], it might be helpful to get a high-level overview of the solution. In this chapter, get to know the solution’s key capabilities, brand touchpoints on which you can use it, implementation options, important user interface features and workflows, governance features, and its role in the overall [!DNL Adobe Experience Cloud]. Unless noted as [!DNL Adobe Target Premium] features, the items described in this chapter are available with both [!DNL Adobe Target Premium] and [!DNL Adobe Target Standard]. For more information, see [Introduction to Target](/help/c-intro/intro.md).

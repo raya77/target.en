@@ -3,8 +3,8 @@ keywords: experience preview;experience urls;generate urls;view experience urls
 description: Learn how to use experience preview URLs for Adobe Target Automated Personalization activities to see experience content directly on your site before the activity is live.
 title: How Can I Use Experience Preview URLS in Automated Personalization Activities?
 feature: Automated Personalization
+exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
 ---
-
 # ![PREMIUM](/help/assets/premium.png) Preview Automated Personalization activities with experience preview URLs
 
 Experience preview URLs can be generated for Target Automated Personalization activities to see experience content directly on your site before the activity is live for preview and QA purposes. Experience preview URLs bypass targeting to force viewing of a particular experience.
@@ -66,4 +66,4 @@ Use experience preview URLs to share experiences with team members and to QA exp
 
 **Troubleshooting Experience Preview URLs**
 
-* If you are not able to see the preview in the new tab (due to browser cache), try refreshing two or three times or copy the link and open it in new browser, new session, or in a private-browser mode. 
+* If you are not able to see the preview in the new tab (due to browser cache), try refreshing two or three times or copy the link and open it in new browser, new session, or in a private-browser mode.

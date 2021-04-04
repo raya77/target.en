@@ -4,8 +4,8 @@ description: Learn about the Content Security Policy (CSP) directives you should
 title: How Does Target Handle Content Security Policies (CSP)?
 feature: Privacy & Security
 role: Developer
+exl-id: 31457b16-ed21-4540-8d0c-abfb49d1fbe9
 ---
-
 # Content Security Policy (CSP) directives
 
 If you are using [Content Security Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) (CSP) for your [!DNL Adobe Target] implementation, you should add the following CSP directives when using [at.js 2.1 or later](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md):

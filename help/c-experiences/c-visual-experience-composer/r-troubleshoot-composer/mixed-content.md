@@ -3,8 +3,8 @@ keywords: mixed content;secure;insecure;chrome;troubleshooting;vec;visual experi
 description: Some browsers block the display of a page if secure content is mixed with insecure content. Learn how to enable mixed content in Chrome, Firefox, and Edge.
 title: How Do I Enable Mixed Content in My Browser?
 feature: Visual Experience Composer (VEC)
+exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
 ---
-
 # Enabling mixed content in your browser
 
 Mixed content occurs if the initial request is secure over HTTPS, but HTTPS *and* HTTP content is loaded to display the web page. HTTPS content is secure. HTTP content is insecure.

@@ -3,8 +3,8 @@ keywords: settings;priority
 description: Learn how Adobe Target determines which activity (or activities) to deliver to a page differently depending on which Target interface and which activity creation function you're using.
 title: How Does Target Assign Priority to Different Activities?
 feature: Activities
+exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
 ---
-
 # Priority
 
 Target determines which activity (or activities) to deliver to a page differently depending on which Target interface and which activity creation function (Visual Experience Composer or Form Based composer) you're using.

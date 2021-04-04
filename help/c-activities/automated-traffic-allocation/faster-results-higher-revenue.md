@@ -3,8 +3,8 @@ keywords: automated traffic allocation;targeting;auto-allocate;auto allocate
 description: Learn how an Auto Allocate activity in Adobe Target identifies a winner among two or more experiences and automatically reallocates more traffic to the winner.
 title: Can Auto-Allocate Activities Get Faster Results and Higher Revenue?
 feature: Auto-Allocate
+exl-id: 104ad88f-044b-4c2f-bdaf-f023fd1787a5
 ---
-
 # Auto-Allocate can give you faster test results and higher revenue than a manual test
 
 With a manual A/B activity, you might be losing conversions because you can’t deliver the winning experience to your entire audience until the activity completes. Your traffic distribution remains fixed even after you recognize that some experiences are outperforming others, and the activity must run its entire course before you can act on a winner.
@@ -40,4 +40,3 @@ When you need to rank-order how every experience performed relative to the other
 ## Get started
 
 Ready to launch your first [!UICONTROL Auto-Allocate] activity? [Learn how here](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
-

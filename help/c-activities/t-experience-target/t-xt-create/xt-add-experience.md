@@ -3,8 +3,8 @@ keywords: create experience;experience create;priority;audience;experience;visua
 description: Learn how use the Adobe Target Visual Experience Composer (VEC) to create and edit experiences on your page in an Experience Targeting (XT) activity.
 title: How Do I Create Experiences in an Experience Targeting Activity?
 feature: Experience Targeting
+exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
 ---
-
 # Create experience in Experience Targeting (XT) activities
 
 The [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] provides a visual interface for editing the experiences on your page in an [!UICONTROL Experience Targeting] (XT) activity.

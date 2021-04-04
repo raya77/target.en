@@ -3,8 +3,8 @@ keywords: visitor profile;target visitor profile
 description: Learn how to create audiences in Adobe Target to target visitors who meet specific profile parameters such as new or returning visitor, category affinity, and more.
 title: Can I Target Visitors Who Meet Specific Profile Parameters?
 feature: Audiences
+exl-id: aca45b80-660d-4b8e-a0d7-84627b8fd77b
 ---
-
 # Visitor Profile{#visitor-profile}
 
 Create audiences to target visitors who meet specific profile parameters.
@@ -43,4 +43,4 @@ This video includes information about using audience categories.
 * Create audiences 
 * Define audience categories
 
->[!VIDEO](https://video.tv.adobe.com/v/17392) 
+>[!VIDEO](https://video.tv.adobe.com/v/17392)

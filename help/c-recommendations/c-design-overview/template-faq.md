@@ -3,8 +3,8 @@ keywords: recommendations;frequently asked questions;faq
 description: Review a list of frequently asked questions (FAQs) and their answers about Adobe Target Recommendations designs.
 title: Where Can I Answers to Design Questions for Target Recommendations?
 feature: Recommendations
+exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 ---
-
 # ![PREMIUM](/help/assets/premium.png) Design FAQ {#design-faq}
 
 List of frequently asked questions (FAQs) about [!DNL Adobe Target] recommendations designs.
@@ -45,4 +45,4 @@ Sending in a JavaScript non-breaking space seems to do this. Have the developers
 
 ## Can I use a profile script in a Recommendations design? {#section_6BD55203984A4D80A0C6F241AD7806DF}
 
-Yes. However, you must add a backslash (\) before the $ in the profile script name. 
+Yes. However, you must add a backslash (\) before the $ in the profile script name.

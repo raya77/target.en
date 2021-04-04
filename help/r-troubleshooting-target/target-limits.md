@@ -4,8 +4,8 @@ description: View a list of character limits and other limits (offer size, audie
 title: What are the various character, size, and other limits in Adobe Target?
 feature: Troubleshooting
 mini-toc-levels: 3
+exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 ---
-
 # Limits
 
 Character limits and other limits (offer size, audiences, profiles, values, parameters, etc.) that affect activities and other elements in [!DNL Adobe Target].
@@ -264,4 +264,3 @@ The following size limits apply to offers:
 * **Recommended limit**: 2,500 characters per targeting rule value.
 * **Recommended limit**: 30,000 unique values per audience across targeting rules.
 * **Recommended limit**: 100,000 unique targeting rule values per activity.
-

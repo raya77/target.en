@@ -3,8 +3,8 @@ keywords: Targeting;visual experience composer;vec;troubleshoot visual experienc
 description: Learn how to troubleshoot problems that sometimes occur in the Adobe Target Visual Experience Composer (VEC) under certain conditions.
 title: How Do I Troubleshoot Issues Related to the Visual Experience Composer?
 feature: Visual Experience Composer (VEC)
+exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
 ---
-
 # Troubleshooting issues related to the Visual Experience Composer
 
 Display problems sometimes occur in the [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) under certain conditions.
@@ -111,4 +111,4 @@ Ensure that this setting is enabled, then download and update mbox.js on your we
 
 ## The VEC appears broken when I use browse mode. (VEC only) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
-While using browse mode, if you access a URL that does not have target.js or contains a frame-buster header, the Visual Experience Composer appears broken. Due to browser security concerns, Target cannot access the URL you navigated to. 
+While using browse mode, if you access a URL that does not have target.js or contains a frame-buster header, the Visual Experience Composer appears broken. Due to browser security concerns, Target cannot access the URL you navigated to.

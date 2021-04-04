@@ -3,8 +3,8 @@ keywords: faq;frequently asked questions;analytics for target;a4T;lift;ad hoc;re
 description: Find answers to questions about lift and confidence when using Analytics for Target (A4T). A4T lets you use Analytics reporting for Target activities.
 title: Where Can I Find Information about Lift And Confidence with A4T?
 feature: Analytics for Target (A4T)
+exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
 ---
-
 # Lift and confidence - A4T FAQ{#lift-and-confidence-a-t-faq}
 
 This topic contains answers to questions that are frequently asked about lift and confidence when using [!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T).
@@ -38,4 +38,4 @@ A4T uses non-binary metric calculations with the sum of square data. The varianc
 
 ## Do lift and confidence work in Ad Hoc and Report Builder? If it's not native, can I do it in there myself? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
-Lift and confidence do not work in Ad Hoc or Report Builder, and cannot be calculated yourself for continuous variables. It is possible to calculate it manually for binary metrics. 
+Lift and confidence do not work in Ad Hoc or Report Builder, and cannot be calculated yourself for continuous variables. It is possible to calculate it manually for binary metrics.

@@ -4,8 +4,8 @@ description: Learn how to send additional information about the location or the 
 title: How Do I Send Custom User Data in an iOS app?
 feature: Implement Mobile
 role: Developer
+exl-id: c64219ec-8d60-4d05-b2b8-103e8ffcaefc
 ---
-
 # iOS - send custom user data{#ios-send-custom-user-data}
 
 You can send additional information about the location or the user to Target as name-value pairs.
@@ -62,4 +62,4 @@ Although there are some reserved keys, both profile and mbox parameters can cont
 
       ![](assets/mobile-debug.png)
 
-   You can build audiences and restrict or target the display of content using these parameters in Target Standard. 
+   You can build audiences and restrict or target the display of content using these parameters in Target Standard.

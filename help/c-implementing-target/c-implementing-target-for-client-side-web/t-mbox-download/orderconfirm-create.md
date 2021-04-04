@@ -4,8 +4,8 @@ description: Learn about the legacy mbox.js implementation of Adobe Target. Migr
 title: How Do I Create an Order Confirmation mbox using mbox.js?
 feature: at.js
 role: Developer
+exl-id: 952c2d1b-1ee8-4e9b-bce3-1c439127bb9b
 ---
-
 # Create an Order Confirmation mbox - mbox.js
 
 The Order Confirmation mbox records details about orders on your site and allows reporting based on revenue and orders. The Order Confirmation mbox can also drive recommendation algorithms, such as "People who bought product x also bought product y."

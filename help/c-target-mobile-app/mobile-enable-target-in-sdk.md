@@ -4,8 +4,8 @@ description: Learn how to add the Adobe Mobile Services SDK to your mobile app.
 title: How Do I Enable Target in the Adobe Mobile SDK?
 feature: Implement Mobile
 role: Developer
+exl-id: c34bd50c-e17f-4dfb-8470-8f4c8639ee9f
 ---
-
 # Enable Target in the SDK{#enable-target-in-the-sdk}
 
 Add the Adobe Mobile Services SDK to your app.
@@ -31,4 +31,3 @@ Add the Adobe Mobile Services SDK to your app.
 >[!IMPORTANT]
 >
 > If you don't have access to the mobile marketing interface, you can make changes directly in the config file in your app code; however, it won't be in sync with the settings page in the user interface.
-

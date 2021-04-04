@@ -4,8 +4,8 @@ description: Learn which internet browsers Adobe Target supports for its interfa
 title: What Browsers Does Target Support?
 feature: Implementation
 role: Developer
+exl-id: 8a366c79-d944-4d44-be5a-7c4f65385beb
 ---
-
 # Supported browsers
 
 The [!DNL Adobe Target] application and content delivery has been tested across a wide range of browsers and devices.

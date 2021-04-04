@@ -3,8 +3,8 @@ keywords: Targeting;audiences;percentage target
 description: Learn how to use audiences in Adobe Target to target different content and experiences to specific audiences to optimize your web marketing efforts.
 title: How Can I Use Audiences to Target Different Content to Specific Segments?
 feature: Audiences
+exl-id: 5c52ddf1-11e1-4b99-9f74-1af03190136a
 ---
-
 # Audiences{#audiences}
 
 Use audiences to target different content and experiences to specific audiences to optimize your web marketing by displaying the right messages to the right people at the right time.
@@ -30,4 +30,4 @@ This video includes information about setting up targeting and audiences.
 * Select your traffic allocation method 
 * Allocate traffic between different experiences
 
->[!VIDEO](https://video.tv.adobe.com/v/17385) 
+>[!VIDEO](https://video.tv.adobe.com/v/17385)
