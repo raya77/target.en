@@ -13,7 +13,7 @@ Use the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] to 
 >
 >[!UICONTROL Auto-Target] is available as part of the [!DNL Target Premium] solution. This feature is not available in [!DNL Target Standard] without a [!DNL Target Premium] license. For more information about the advanced features this license provides, see [Target Premium](/help/c-intro/intro.md).
 >
->In addition to the [!UICONTROL Auto-Target] [!UICONTROL A/B Test] activity (discussed in this article), [!DNL Target] provides two additional types of [!UICONTROL A/B Test] activities: [!UICONTROL Manual (Default)] and [!UICONTROL Auto-Allocate].
+>In addition to the [!UICONTROL Auto-Target] [!UICONTROL A/B Test] activity (discussed in this article), [!DNL Target] provides two other types of [!UICONTROL A/B Test] activities: [!UICONTROL Manual (Default)] and [!UICONTROL Auto-Allocate].
 >
 >See [Types of A/B Testing activities](/help/c-activities/t-test-ab/test-ab.md#types) in *A/B Test overview*.
 
@@ -66,9 +66,9 @@ To create an [!UICONTROL Auto-Target] activity:
    |`-`|Minus|
    |`@`|At sign|
 
-1. Create any new experiences by changing the elements on the page.
+1. Create any experiences by changing the elements on the page.
 
-   The [!UICONTROL Visual Experience Composer] displays two tabs on the left side after you create a new activity: Experience A and Experience B. Experience A is the control experience. Your focus will be on the Experience B tab, which you can modify as desired. Experience B is the alternate experience you can add to your test. You can add multiple experiences to the test. You can also delete Experience A from the activity if you don't want to include a default site experience as an option.
+   The [!UICONTROL Visual Experience Composer] displays two tabs on the left side after you create an activity: Experience A and Experience B. Experience A is the control experience. Your focus is on the Experience B tab, which you can modify as desired. Experience B is the alternate experience you can add to your test. You can add multiple experiences to the test. You can also delete Experience A from the activity if you don't want to include a default site experience as an option.
 
    For more information about adding and modifying experiences in the [!UICONTROL Visual Experience Composer], see [Add Experience](/help/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md). To modify Experience B, start with Step 3. 
 
@@ -94,15 +94,15 @@ To create an [!UICONTROL Auto-Target] activity:
 
    You can show multiple experiences to the same audience. A diagram displays showing your selected audience and the experiences you've added to the activity.
 
-   Choose your desired traffic allocation method. To create an [!UICONTROL Auto-Target] activity, select **[!UICONTROL Auto-target for personalized experiences]**.
+   Choose your desired traffic allocation method. To create an [!UICONTROL Auto-Target] activity, select **[!UICONTROL Auto-Target for personalized experiences]**.
 
    The three types of traffic allocation are described below:
 
    * **[!UICONTROL Manual (Default)]**: Specify the percentage of entrants you want to see each experience. You can split the percentages evenly between all experiences, or specify higher or lower percentages for each experience. The total for all experiences must equal 100%. For more information, see [Create an A/B Test](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
 
-   * **[!UICONTROL Auto-allocate to best experience]**: Most activity entrants are automatically directed to higher-performing experiences. Some visitors are allocated to all experiences, to maintain exploration of experiences and to recognize changes in performance trends. For more information, see [Auto-Allocate overview](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
+   * **[!UICONTROL Auto-Allocate to best experience]**: Most activity entrants are automatically directed to higher-performing experiences. Some visitors are allocated to all experiences, to maintain exploration of experiences and to recognize changes in performance trends. For more information, see [Auto-Allocate overview](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
-   * **[!UICONTROL Auto-target for personalized experiences]**: [!DNL Target] uses advanced machine learning to personalize content and drive conversions by identifying multiple high-performing, marketer-defined experiences, and then serving the most tailored experience to visitors based on their individual customer profiles and past behaviors of similar visitors.
+   * **[!UICONTROL Auto-Target for personalized experiences]**: [!DNL Target] uses advanced machine learning to personalize content and drive conversions by identifying multiple high-performing, marketer-defined experiences, and then serving the most tailored experience to visitors based on their individual customer profiles and past behaviors of similar visitors.
 
    You can also click **[!UICONTROL Add]** to add another experience to the activity.
 
