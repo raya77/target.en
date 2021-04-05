@@ -14,11 +14,11 @@ This page shows changes to each version of mbox.js.
 >
 >**mbox.js end-of-life**: As of March 31, 2021, [!DNL Adobe Target] no longer supports the mbox.js library. Post March 31, 2021, all calls made from mbox.js will gracefully fail and impact your pages that have [!DNL Target] activities running by serving default content.
 >
->We recommend that all customers migrate to the most recent version of the new [!DNL Adobe Experience Platform Web SDK] or the at.js JavaScript library before this date to avoid any potential issues with your sites. For more information, see [Overview: implement Target for client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+>Migrate to the most recent version of the new [!DNL Adobe Experience Platform Web SDK] or the at.js JavaScript library before this date to avoid any potential issues with your sites. For more information, see [Overview: implement Target for client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 >[!NOTE]
 >
->We recommend that all mbox.js users upgrade to version 57 or later. Some users have experienced timeout issues when `target.js` couldn't be loaded. Version 57 fixed that issue. However, if you are using the [!DNL Experience Cloud Visitor ID] service, version 58 or later is required.
+>Adobe recommends that all mbox.js users upgrade to version 57 or later. Some users have experienced timeout issues when `target.js` couldn't be loaded. Version 57 fixed that issue. However, if you are using the [!DNL Experience Cloud Visitor ID] service, version 58 or later is required.
 
 The way Target responds to calls from your page depends on the version of the Target library you are using, whether the visitor ID implementation is present, and whether the visitor ID exists. For information, see [Target Call Responses by Library Version](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0).
 
@@ -34,12 +34,12 @@ The way Target responds to calls from your page depends on the version of the Ta
 
 The following enhancements and fixes are included in [!DNL mbox.js] version 63:
 
-* Fixes an issue with SDID generation when using `mboxDefine()` and `mboxUpdate()`. This affects only clients that have Visitor API on the page.
+* Fixes an issue with SDID generation when using `mboxDefine()` and `mboxUpdate()`. This issue affects only clients that have Visitor API on the page.
 
 ## mbox.js version 62 {#section_723A9119FE204183847D3B0929A99B41}
 
 * Fixed flicker issues in redirect activities when viewed in Google Chrome browsers. 
-* Added `secureOnly` setting that indicates whether mbox.js should use HTTPS only or be allowed to switch between HTTP and HTTPS based on the page protocol. This is an advanced setting that defaults to False.
+* Added `secureOnly` setting that indicates whether mbox.js should use HTTPS only or be allowed to switch between HTTP and HTTPS based on the page protocol. This setting is an advanced setting that defaults to False.
 
 ## mbox.js version 61 {#section_F3B59C5578B64883AE013B9342151193}
 
@@ -64,7 +64,7 @@ mbox.js version 61 contains the following enhancements:
 
 **Release Date:** April 21, 2016
 
-By default, page content is not hidden. Version 60 hides page content only when the "auto-create global mbox" option is enabled. It uses the CSS `opacity:0` property for page hiding instead of `display:none`. This ensures proper delivery for responsive sites and aligns with [!DNL at.js].
+By default, page content is not hidden. Version 60 hides page content only when the "auto-create global mbox" option is enabled. It uses the CSS `opacity:0` property for page hiding instead of `display:none`. This property ensures proper delivery for responsive sites and aligns with [!DNL at.js].
 
 You can enable body hiding using two settings:
 
@@ -86,18 +86,18 @@ window.targetGlobalSettings = {
 </script>
 ```
 
-The page hiding technique uses style tags to add and remove styles. This ensures that the site's styles remain unchanged after the page hiding code executes.
+The page hiding technique uses style tags to add and remove styles. This technique ensures that the site's styles remain unchanged after the page hiding code executes.
 
-**DTM Users:** Note that this will prevent you from using the Automatic import option since there is no way to save the above configuration in the Target UI. You will have to use the instructions above and then paste the contents into the code box of the Custom hosting option.
+**DTM Users:** This technique prevents you from using the Automatic import option since there is no way to save the above configuration in the Target UI. You must to use the instructions above and then paste the contents into the code box of the Custom hosting option.
 
-Also in Version 60, if the [!DNL visitorAPI.js] file is present for the Experience Cloud Visitor ID service, all mboxes are requested via an AJAX endpoint. This is required because Visitor API methods are asynchronous. One benefit of this approach is that the Start Render time is decreased dramatically, because mbox requests do not block rendering. However, this also means that all [!DNL Target] offer content runs asynchronously, so all offer code must be written accordingly. Offers containing `document.write` and other code that assumes it will run on initial page load will not execute as expected.
+Also in Version 60, if the [!DNL visitorAPI.js] file is present for the Experience Cloud Visitor ID service, all mboxes are requested via an AJAX endpoint. This process is required because Visitor API methods are asynchronous. One benefit of this approach is that the Start Render time is decreased dramatically, because mbox requests do not block rendering. However, this approach also means that all [!DNL Target] offer content runs asynchronously, so all offer code must be written accordingly. Offers containing `document.write` and other code that assumes it runs on initial page load does not execute as expected.
 
 * V60 asynchronous calls
 
   When using v60 with the visitor id service, all mbox calls are made asynchronously. This is a change from how mboxes have always worked, so be careful if upgrading to this version. Review the [Asynchronous Considerations](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953) section of the [!DNL at.js] documentation ( [!DNL at.js] also uses asynchronous calls) to understand some of the risks. 
 * New Visitor scenarios might have flicker
 
-  When using v58 to v60 with the visitor id service, mbox calls will wait for the visitor id to be set before firing (or until a timeout has occurred). This happens on the first page load of a new visitor.
+  When using v58 to v60 with the visitor id service, mbox calls wait for the visitor id to be set before firing (or until a timeout has occurred). This happens on the first page load of a new visitor.
 
 ## mbox.js version 59 {#section_FF0E70C4C17E402D8374DE428C5D996E}
 
@@ -124,7 +124,7 @@ Version 58 of mbox.js ensures the Experience Cloud Visitor ID service returns wi
 
 This update also fixes an issue when using Analytics as the reporting source for Target that caused an inflated number of visitors to be reported in Analytics for visits that only included one page.
 
-Mbox.js sets timeout values in case the visitor ID service does not return. Default timeout for the visitor ID service is 500ms (0.5 seconds). An additional timeout sets the upper limit for how long the `<BODY>` tag will be hidden. That default is 500ms (0.5 seconds). These timeouts can be changed by inserting the following code before the mbox.js reference on each page:
+Mbox.js sets timeout values in case the visitor ID service does not return. Default timeout for the visitor ID service is 500 ms (0.5 seconds). An extra timeout sets the upper limit for how long the `<BODY>` tag is hidden. That default is 500 ms (0.5 seconds). These timeouts can be changed by inserting the following code before the mbox.js reference on each page:
 
 ```
 <script> 
@@ -148,9 +148,9 @@ The following changes have been made in this version:
 
 * Auto-created global mbox response for Target Standard no longer uses document.write() or creates a `<div>` element.
 
-  This removes the requirement for the mbox.js file to be the last item in the `<head>` of the page. Strong QA is recommended when upgrading to this new version.
+  This change removes the requirement for the mbox.js file to be the last item in the `<head>` of the page. Strong QA is recommended when upgrading to this new version.
 
-  This change might cause changes in behavior when delivering some offer types. Here are the specific conditions that will need to be considered:
+  This change might cause changes in behavior when delivering some offer types. Here are the specific conditions that must be considered:
 
     * HTML content returned as part of a "plug in offer" does not render correctly, but JavaScript within the offers executes as expected. 
     * JavaScript offers that are being returned to the global mbox can have the JavaScript code embedded in the `<script>` tag, or referenced by a `src` attribute.
@@ -159,7 +159,7 @@ The following changes have been made in this version:
 
       `<script src='external-url' async='true'></script>`
 
-      Note that the `async` attribute has limited support in Internet Explorer (details here: [https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility](https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility)) so you should exclude visitors who use older IE versions from tests that include these 3rd party scripts.
+      The `async` attribute has limited support in Internet Explorer (details here: [https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility](https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility)) so you should exclude visitors who use older IE versions from tests that include these 3rd-party scripts.
 
 * Fixed problems reported in Version 56 due to changes in the Extra JavaScript section of mbox.js. All code in the Extra JavaScript section is again available in the global scope.
 
@@ -191,7 +191,7 @@ mbox.js version 57 also includes important fixes:
 The following changes have been made in this version:
 
 * Changes for Premium Recommendations to support passing parameters into global mbox 
-* Adds a 5 second timeout to the target.js load call. In the rare case that the file doesn't load, the page will render and no Target Standard activities will display. 
+* Adds a 5-second timeout to the target.js load call. In the rare case that the file doesn't load, the page renders and no Target Standard activities display. 
 * Moved "extra JavaScript" to be executed before global mbox
 
   All settings in v56+ are name spaced. If there are functions declared in "extra JavaScript," they must be prefixed with `window`.
@@ -210,7 +210,7 @@ The following changes have been made in this version:
 
   Any variables that should be globally accessible must also be prefixed with `window`. 
 
-* Added a cookie called "em-disabled" that mbox.js gives to the user if target.js fails to load during delivery. This cookie prevents offers created using the Visual Experience Composer from rendering on the site. Users with this cookie neither see the test content nor get counted in those activity reports. All other offer content (from campaigns in Target Classic for example) will continue to load. The cookie has a lifetime of 30 min from the time of load failure.
+* Added a cookie called "em-disabled" that mbox.js gives to the user if target.js fails to load during delivery. This cookie prevents offers created using the Visual Experience Composer from rendering on the site. Users with this cookie neither see the test content nor get counted in those activity reports. All other offer content (from campaigns in Target Classic for example) continues to load. The cookie has a lifetime of 30 min from the time of load failure.
 
 ## mbox version 55
 
@@ -226,7 +226,7 @@ Modifies version 53 with IE fixes.
 
 **Release Date:** September 30, 2014
 
-Changes the global mbox implementation to AJAX from document.write. This removes the requirement for the mbox.js file to be the last item in the page's `<head>` section. This version is only available via API. Clients can download it and use this mbox.js file. Some sites experience content flicker with this implementation, so please validate the integration on your site.
+Changes the global mbox implementation to AJAX from document.write. This change removes the requirement for the mbox.js file to be the last item in the page's `<head>` section. This version is only available via API. Clients can download it and use this mbox.js file. Some sites experience content flicker with this implementation, so please validate the integration on your site.
 
 ## mbox version 53
 
@@ -310,7 +310,7 @@ Added initial support for Experience Cloud shared visitor ID service.
 
 * Fixed traffic limitation to occur only when mbox.js is enabled
     
-  This issue occurred if a customer had a traffic limitation on their mbox.js, causing the timeout setting to not work. This resulted in the page refreshing while waiting foir a good response from the Target servers.
+  This issue occurred if a customer had a traffic limitation on their mbox.js, causing the timeout setting to not work. This resulted in the page refreshing while waiting for a good response from the Target servers.
     
 * Fixed SiteCalyst plugin to always use the Ajax fetcher
 
