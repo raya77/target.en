@@ -44,6 +44,6 @@ Join Adobe and HSBC for this webinar to learn:
 
 ## Adobe Target Skill Builder: Developer chat, migrate Adobe Target's mbox.js to at.js {#skill-builder}
 
-With the upcoming deprecation of mbox.js on March 31, 2021, David Son, Adobe Target Product Manager recently hosted a developer chat to discuss the benefits of migrating mbox.js to at.js. 
+With the deprecation of mbox.js on March 31, 2021, David Son, Adobe Target Product Manager recently hosted a developer chat to discuss the benefits of migrating mbox.js to at.js. 
 
 * **[View the webinar recording here](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
