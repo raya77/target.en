@@ -1,10 +1,9 @@
 ---
-keywords: faq;frequently asked questions;analytics for target;segments;a4T;share reports
+keywords: Faq,Frequently Asked Questions,Analytics For Target,Segments,A4T,Share Reports
 description: Find FAQs about sharing metrics, audiences, and reports when using Analytics for Target (A4T). A4T lets you use Analytics reporting for Adobe Target activities.
 title: Where Can Find FAQs Sharing Metrics, Audiences, and Reports in A4T?
 feature: Analytics for Target (A4T)
-exl-id: 59084e19-dfac-4796-a0b4-1da27ca9d43a
-exl-id: 6f250901-f109-4c2e-a023-ccc4c2b404b1
+exl-id: 59084e19-dfac-4796-a0b4-1da27ca9d43a,6f250901-f109-4c2e-a023-ccc4c2b404b1,6f250901-f109-4c2e-a023-ccc4c2b404b1,59084e19-dfac-4796-a0b4-1da27ca9d43a
 ---
 # Share metrics, audiences, and reports - A4T FAQ{#share-metrics-audiences-and-reports-a-t-faq}
 
