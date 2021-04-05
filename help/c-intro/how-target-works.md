@@ -1,6 +1,6 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;search engine optimization;search engine optimization;seo;edge clusters, central clusters;at.js;mbox.js;
-description: Learn about how Adobe Target works, including information about the Target JavaScript libraries (at.js and AEP Web SDK), Adobe data centers, and SEO testing.
+description: Learn how Adobe Target works, including information about the Target JavaScript libraries (at.js and AEP Web SDK), Adobe data centers, and SEO testing.
 title: How Does Target Work?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
@@ -26,7 +26,7 @@ Reference the [!DNL AEP Web SDK] or at.js on every page on your site. For exampl
 The following resources contain detailed information to help you implement the AEP Web SDK or at.js:
 
 * [Adobe Experience Platform Web SDK Extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension)
-* [Implement Target using Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [Implement Target using Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 Each time a visitor requests a page that has been optimized for [!DNL Target], a request is sent to the targeting system. The request helps to determine what content to serve to that visitor. This process occurs in real time. Every time a page is loaded, a request for the content is made and fulfilled by the system. The content is governed by the rules of marketer-controlled activities and experiences and is targeted to the individual site visitor. Content is served that each site visitor is most likely to respond to, interact with, or ultimately purchase. Personalized content helps maximize response rates, acquisition rates, and revenue.
 
@@ -40,10 +40,10 @@ The content that displays in a basic A/B test is randomly chosen from the experi
 
 You can specify percentage targets for each experience. In this case, a random number is generated and that number is used to choose the experience to display. The resulting percentages might not exactly match the specified targets, but more traffic means that the experiences should be split closer to the target goals.
 
-1. A customer requests a page from your server and it displays in the browser.
-2. A first-party cookie is set in the customer's browser to store customer behavior.
-3. The page calls the targeting system.
-4. Content displays based on the rules of your activity.
+1.  A customer requests a page from your server and it displays in the browser.
+1. A first-party cookie is set in the customer's browser to store customer behavior.
+1. The page calls the targeting system.
+1. Content displays based on the rules of your activity.
 
 See [Create an A/B Test](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) for more information.
 
@@ -105,7 +105,7 @@ Customer site activity data is collected by the closest of seven Edge Clusters. 
 
 Instead of responding to all targeting requests from a single location, requests are processed by the Edge Cluster closest to the visitor. This process helps mitigate the impact of network/Internet travel time.
 
-![Types of Target servers map](/help/c-intro/assets/target-servers.png)
+![Map showing the different types of Target servers](/help/c-intro/assets/target-servers.png)
 
 [!DNL Target] Central Clusters, hosted on Amazon Web Services (AWS), include:
 
