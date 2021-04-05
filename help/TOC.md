@@ -304,7 +304,6 @@ feature-set: Target
       + [Profile and variable glossary](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + Targets and audiences FAQ {#faq-audiences}
       + [Targets and audiences FAQ](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
-      + [Share metrics, audiences, and reports - A4T FAQ](c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
 + Experiences and offers {#experiences}
    + [Experiences and offers overview](c-experiences/experiences.md)
    + Visual Experience Composer (VEC) {#vec}
