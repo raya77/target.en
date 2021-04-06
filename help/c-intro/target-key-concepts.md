@@ -1,29 +1,29 @@
 ---
-keywords: Overview and Reference;act
-description: Learn the basics of Adobe Target. This is a good place to become acquainted with Target, its activity types, and other features.
+keywords: Overview and Reference;activity types;introduction
+description: Learn the basics of Adobe Target. This article introduces you to Target, its activity types, and other features.
 title: How do I use Target?
 feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
 ---
-# Target key concepts{#target-key-concepts}
+# Target key concepts
 
-Information about key concepts that will help you understand the features and capabilities of Adobe Target.
+Information about key concepts that help you understand the features and capabilities of [!DNL Adobe Target].
 
 ## Activities and Tests {#section_BEA0A0C51A8847579B566060206DE7E8}
 
 An activity determines the experiences a site visitor might encounter.
 
-For example, you might design an activity that tests two different landing pages, one that highlights information about women's summer shoes, and one that highlights more general summer apparel. The activity determines the conditions that control when each of these landing pages appears, and the metrics that determine which page is more successful. The activity is configured to start and end when specific conditions are met, such as between specific dates, or to start when the activity is approved and to end when it is deactivated.
+For example, you might design an activity that tests two different landing pages, one that highlights information about women's summer shoes, and one that highlights more general summer apparel. The activity determines the conditions that control when each of these landing pages appears, and the metrics that determine which page is more successful. The activity is configured to start and end when specific conditions are met. These conditions can include starting and ending the activity between specific dates or to start when the activity is approved and to end when it is deactivated.
 
-When designing an activity, you should plan carefully. Determine when the activity will start and how long it will last. Then, list your offers and assign a target audience to each one.
+Plan carefully when designing an activity. Determine when the activity starts and how long it lasts. Then, list your offers and assign a target audience to each one.
 
-Target includes several activity types. The following table provides an overview of each activity type with links to help you learn more. To help you better choose the best activity type for your purposes, we have also created the [Adobe Target Activities Guide](/help/c-activities/target-activities-guide.md).
+Target includes several activity types. The following table provides an overview of each activity type with links to help you learn more. To help you better choose the best activity type for your purposes, the Target team has also created the [Adobe Target Activities Guide](/help/c-activities/target-activities-guide.md).
 
 | Activity Type | Description |
 |--- |--- |
 |[A/B Test](/help/c-activities/t-test-ab/test-ab.md)|A/B Testing compares two or more versions of your Web site content to see which version best improves your conversions during a pre-specified test period.<br>**Note:** You can now include [recommendations inside A/B Test activities](/help/c-recommendations/recommendations-as-an-offer.md). This functionality requires that you have a [Target Premium license](/help/c-intro/intro.md#premium).|
 |[Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)|Auto Allocate identifies a winner among two or more experiences and automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn.<br>**Note:** You can now include [recommendations inside Auto-Allocate activities](/help/c-recommendations/recommendations-as-an-offer.md). This functionality requires that you have a [Target Premium license](/help/c-intro/intro.md#premium).|
-|[Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png)|Auto Target uses advanced machine learning to identify multiple high performing marketer-defined experiences, and serves the most tailored experience to each visitor based on their individual customer profile and the behavior of previous visitors with similar profiles, in order to personalize content and drive conversions.<br>**Note:** You can now include [recommendations inside Auto-Target activities](/help/c-recommendations/recommendations-as-an-offer.md). This functionality requires that you have a [Target Premium license](/help/c-intro/intro.md#premium).|
+|[Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png)|Auto Target uses advanced machine learning to identify multiple high performing marketer-defined experiences. Auto-Target activities serve the most tailored experience to each visitor based on their individual customer profile and the behavior of previous visitors with similar profiles, in order to personalize content and drive conversions.<br>**Note:** You can now include [recommendations inside Auto-Target activities](/help/c-recommendations/recommendations-as-an-offer.md). This functionality requires that you have a [Target Premium license](/help/c-intro/intro.md#premium).|
 |[Using Analytics Data](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T)|You can configure an activity to use [!DNL Adobe Analytics] as the reporting source. This activity type requires that you link your  [!DNL Adobe Experience Cloud] account with both [!DNL Analytics] and [!DNL Target].|
 |[Multivariate Test](/help/c-activities/c-multivariate-testing/multivariate-testing.md)|Multivariate Testing (MVT) compares combinations of offers in elements on a page to determine which combination performs the best for a specific audience, and identifies which element most impacts the activity's success.|
 |[Experience Targeting](/help/c-activities/t-experience-target/experience-target.md)|Experience Targeting (XT) delivers content to a specific audience based on a set of marketer-defined rules and criteria.<br>**Note:** You can now include [recommendations inside Experience Targeting activities](/help/c-recommendations/recommendations-as-an-offer.md). This functionality requires that you have a [Target Premium license](/help/c-intro/intro.md#premium).|
@@ -43,11 +43,11 @@ In [!DNL Target Standard], a location can be any element on a page, as long as t
 
 Locations are combined with audiences to provide an almost endless number of options for targeting information to your customers. For example, if a visitor has never been to the site before, you might display a discount coupon for new customers. Likewise, the page might be changed to display offers that are more optimized to returning customers.
 
-You can also use locations to track a visitor's progress through your Web site, or to track whether the visitor completes a specific success metric, such as adding an item to the shopping cart or completing a purchase.
+You can also use locations to track a visitor's progress through your Web site. You can also use locations track whether the visitor completes a specific success metric, such as adding an item to the shopping cart or completing a purchase.
 
 ## Experiences and Page Designs {#section_B806FB752EC1470784755C1EB3D4AC70}
 
-An experience, sometimes called a recipe, defines the content that displays on your page, as well as other page elements, such as links.
+An experience, sometimes called a recipe, defines the content that displays on your page, and other page elements, such as links.
 
 An experience determines which offer displays in a certain location when specific targeting conditions are met. For example, the experience determines that, when a return visitor visits your site, an offer for two-day shipping displays at the top of the page. The experience also determines that, when a first-time visitor views the page, a 10% discount appears in the same location.
 
