@@ -6,79 +6,21 @@ feature: Implementation
 role: Developer
 exl-id: b42eb846-d423-4545-a8fe-0b8048ab689e
 ---
-# Methods to get data into Target
+# Methods overview
 
-Information about the different methods you can use to get data into [!DNL Adobe Target], including page parameters, in-page profile attributes, script profile attributes, data providers, the bulk profile update API, the single profile update API, and Customer Attributes.
+Information about the different methods you can use to get data into [!DNL Adobe Target].
 
-## Page parameters (also called "mbox parameters") {#section_5A297816173C4FE48DC4FE03860CB42B}
+Available methods include:
 
-Page parameters are name/value pairs passed in directly through page code that are not stored in the visitor's profile for future use.
-
-Page parameters are useful to send additional page data to Target that does not need to be stored with the visitor's profile for future targeting use. These values are instead used to describe the page or the action the user took on the specific page.
-
-### Format
-
-Page parameters are passed into Target via a server call as a string name/value pair. Parameter names and values are customizable (although there are some "reserved names" for specific uses).
-
-Examples:
-
-* `page=productPage`
-
-* `categoryId=homeLoans`
-
-### Example Use Cases
-
-**Product pages**: Send information about the specific product viewed (this is how Recommendations works)
-
-**Order details**: Send order ID, orderTotal, and so forth for order collection
-
-**Category affinity**: Send category-viewed information to Target to build knowledge of the user's affinity to particular site categories
-
-**3rd-party data**: Send information from 3rd-party data sources, such as weather targeting providers, account data (for example, DemandBase), demographic data (for example Experian), and more.
-
-### Benefits of Method
-
-Data gets sent to Target in real-time, and can be used on the same server call the data on which it comes in.
-
-### Caveats
-
-* Requires page code update (directly or via a tag management system).
-* If the data needs to be used for targeting on a subsequent page/server call, it needs to be translated to a profile script.
-* Query strings can contain only characters as per the [Internet Engineering Task Force (IETF) standard](https://www.ietf.org/rfc/rfc3986.txt) .
-
-  In addition to those mentioned on the IETF site, Target allows the following characters in query strings:
-
-  `< > # % " { } | \\ ^ \[\] \``
-  
-  Everything else must be url-encoded. The standard specifies the following format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), as illustrated below:
-
-  ![](assets/ietf1.png)
-
-  Or, the full list for simplicity:
-
-  ![](assets/ietf2.png)
-
-### Code Examples
-
-targetPageParamsAll (appends the parameters to all mbox calls on the page):
-
-`function targetPageParamsAll() { return "param1=value1&param2=value2&p3=hello%20world";`
-
-targetPageParams (appends the parameters to the global mbox on the page):
-
-`function targetPageParams() { return "param1=value1&param2=value2&p3=hello%20world";`
-
-Parameters in mboxCreate code:
-
-`<div class="mboxDefault"> default content to replace by offer </div> <script> mboxCreate('mboxName','param1=value1','param2=value2'); </script>`
-
-### Links to Relevant Information
-
-Recommendations: [Implementation According to Page Type](/help/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC)
-
-Order confirmation: [Track Conversions](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)
-
-Category affinity: [Category Affinity](/help/c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC)
+|Method|Details|
+| --- | --- |
+|[Page parameters](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)<br>(also called "mbox parameters")|Page parameters are name/value pairs passed in directly through page code that are not stored in the visitor's profile for future use.<br>Page parameters are useful to send additional page data to Target that does not need to be stored with the visitor's profile for future targeting use. These values are instead used to describe the page or the action the user took on the specific page.|
+|In-page profile attributes (also called "in-mbox profile attributes)|In-page profile attributes are name/value pairs passed directly through page code that are stored in the visitor's profile for future use.<br>In-page profile attributes allow user-specific data to be stored in Target's profile for later targeting and segmentation.|
+|Script profile attributes|Script profile attributes are name/value pairs defined in the Target solution. The value is determined from executing a JavaScript snippet on Target's server per server call.<br>Users write small code snippets that execute per mbox call, and before a visitor is evaluated for audience and activity membership.|
+|Data providers|Data providers is a capability that allows you to easily pass data from third parties to Target.|
+|Bulk profile update API|Via API, send a .csv file to Target with visitor profile updates for many visitors. Each visitor profile can be updated with multiple in-page profile attributes in one call.|
+|Single profile update API|Almost identical to the Bulk Profile Update API, but one visitor profile is updated at a time, in line in the API call instead of with a .csv file.|
+|Customer attributes|Customer attributes let you upload visitor profile data via FTP to the Experience Cloud. Once uploaded, leverage the data in Adobe Analytics and Adobe Target.|
 
 ## In-page profile attributes (also called "in-mbox profile attributes) {#section_57E1C161AA7B444689B40B6F459302B6}
 
@@ -179,9 +121,9 @@ Profile scripts are quite flexible:
 
 [Profile Script Attributes](/help/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2)
 
-## Data Providers {#section_14FF3BE20DAA42369E4812D8D50FBDAE}
+## Data providers {#section_14FF3BE20DAA42369E4812D8D50FBDAE}
 
-Data Providers is a capability that allows you to easily pass data from third parties to Target.
+Data providers is a capability that allows you to easily pass data from third parties to Target.
 
 Note: Data Providers requires at.js 1.3 or later.
 
@@ -266,7 +208,7 @@ See [Updating Profiles](https://developers.adobetarget.com/api/#updating-profile
 
 ## Single profile update API {#section_5D7A9DD7019F40E9AEF2F66F7F345A8D}
 
-Almost identical to the Bulk Profile Update API, but one visitor profile is updated at a time, in line in the API call instead of with a .csv file
+Almost identical to the Bulk Profile Update API, but one visitor profile is updated at a time, in line in the API call instead of with a .csv file.
 
 ### Format
 
