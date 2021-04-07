@@ -4,6 +4,7 @@ description: Get data into Target using the bulk profile update API.
 title: How Do I Get Data into Target Using the Bulk Profile Update API?
 feature: Implementation
 role: Developer
+exl-id: 068658fc-7082-425a-87c1-dd0de03cdc71
 ---
 # Bulk profile update API
 
