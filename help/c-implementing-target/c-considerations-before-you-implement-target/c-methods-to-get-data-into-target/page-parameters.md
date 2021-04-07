@@ -4,6 +4,7 @@ description: Get data into Target using page parameters.
 title: How Do I Get Data into Target Using Page Parameters?
 feature: Implementation
 role: Developer
+exl-id: a285eadc-b71e-49a8-9071-397ada283baf
 ---
 # Page parameters
 
@@ -71,4 +72,3 @@ Recommendations: [Implementation According to Page Type](/help/c-recommendations
 Order confirmation: [Track Conversions](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)
 
 Category affinity: [Category Affinity](/help/c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC)
-
