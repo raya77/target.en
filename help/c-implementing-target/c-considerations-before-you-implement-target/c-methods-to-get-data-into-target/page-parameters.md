@@ -15,20 +15,20 @@ Page parameters are useful to send page data to Target that does not need to be 
 
 Page parameters are passed into Target via a server call as a string name/value pair. Parameter names and values are customizable (although there are some "reserved names" for specific uses).
 
-### Examples:
+### Examples
 
 * `page=productPage`
 
 * `categoryId=homeLoans`
 
-## Example Use Cases
+## Example use cases
 
 * **Product pages**: Send information about the specific product viewed (this method is how Recommendations works)
 * **Order details**: Send order ID, orderTotal, and so forth, for order collection
 * **Category affinity**: Send category-viewed information to Target to build knowledge of the user's affinity to particular site categories
 * **3rd-party data**: Send information from 3rd-party data sources, such as weather targeting providers, account data (for example, DemandBase), demographic data (for example Experian), and more.
 
-## Benefits of Method
+## Benefits of method
 
 Data gets sent to Target in real time, and can be used on the same server call the data on which it comes in.
 
@@ -50,7 +50,7 @@ Data gets sent to Target in real time, and can be used on the same server call t
 
   ![](assets/ietf2.png)
 
-## Code Examples
+## Code examples
 
 targetPageParamsAll (appends the parameters to all mbox calls on the page):
 
@@ -64,7 +64,7 @@ Parameters in mboxCreate code:
 
 `<div class="mboxDefault"> default content to replace by offer </div> <script> mboxCreate('mboxName','param1=value1','param2=value2'); </script>`
 
-## Links to Relevant Information
+## Links to relevant information
 
 Recommendations: [Implementation According to Page Type](/help/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC)
 

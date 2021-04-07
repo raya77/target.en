@@ -76,6 +76,9 @@ feature-set: Target
       + Methods to get data into Target {#methods}
          + [Methods overview](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Page parameters](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)
+         + [Script profile attributes](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/script-profile-attributes.md)
+         + [In-page profile attributes](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/in-page-profile-attributes.md)
+         + [Data providers](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/data-providers.md)
          + [Profile API settings](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
       + [Target security overview](c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md)
       + [Supported browsers](c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)
