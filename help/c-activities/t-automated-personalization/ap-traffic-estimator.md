@@ -58,7 +58,7 @@ Remember that [!DNL Target] randomly serves experiences until the personalizatio
 
 Consider the following FAQs as you work with the [!UICONTROL Traffic Estimator]:
 
-### Why is [!DNL Target] not building personalized models when my AP activity has enough traffic?
+### Why are personalized models not built even though my AP activity has enough traffic?
 
 In certain circumstances, your traffic is large enough for a personalized model to be built, but that traffic could inform [!DNL Target] that there is no meaningful difference between the personalized model and random. Although the model is built in [!DNL Target] and tested, it is not deployed because the model is not any better than random.
 
