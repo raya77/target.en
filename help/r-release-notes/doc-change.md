@@ -14,6 +14,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 |Date|Topic|Changes|
 | --- | --- | --- |
 |April 9|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added prerelease information for the Target Standard/Premium 21.4.1 release (April 19, 2021)|
+||[Integrate Recommendations with email](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md#capacity)|Added the following section: "Capacity guidelines for Options 1 & 2."|
 |March 29|[Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices)|Added new FAQ:<ul><li>Do recommendations based on recently viewed items persist across multiple devices for a single visitor?</li></ul>|
 |March 23|[Release Notes](/help/r-release-notes/release-notes.md)|Added release notes for at.js version 2.4.1.|
 ||[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added release notes for at.js version 2.4.1.|
