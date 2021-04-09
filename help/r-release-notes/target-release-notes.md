@@ -9,35 +9,42 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: March 1, 2021**
+**Last Updated: April 9, 2021**
 
-To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
+To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages could be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
 >[!IMPORTANT]
 >
->**mbox.js end-of-life**: As of March 31, 2021, [!DNL Adobe Target] no longer supports the mbox.js library. Post March 31, 2021, all calls made from mbox.js will gracefully fail and impact your pages that have [!DNL Target] activities running by serving default content.
+>**mbox.js end-of-life**: As of March 31, 2021, [!DNL Adobe Target] no longer supports the mbox.js library. Post March 31, 2021, all calls made from mbox.js gracefully fail and impact your pages that have [!DNL Target] activities running by serving default content.
 >
->Migrate to the most recent version of the new [!DNL Adobe Experience Platform Web SDK] or the at.js JavaScript library before this date to avoid any potential issues with your sites. For more information, see [Overview: implement Target for client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+>To avoid any potential issues with your sites, migrate to the most recent version of the new [!DNL Adobe Experience Platform Web SDK] or the at.js JavaScript library. For more information, see [Overview: implement Target for client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## Target Standard/Premium 21.2.1 (March 9, 2021)
+## Target Standard/Premium 21.4.1 (April 19, 2021)
 
-This maintenance release contains the following enhancements, fixes, and changes.
+This release contains the following new features. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-The issue numbers in parentheses are for internal [!DNL Adobe] use.
+|Feature|Details|
+| --- | --- |
+|On-device decisioning support for at.js|On-device decisioning lets marketers and developers deliver experimentation and personalization on a user's browser at near-zero latency.|
 
-* Increased the allowable offer size (TGT-38304):
+This release contains the following enhancements, fixes, and changes.
 
-  |Type|Previous Limit|New Limit|
-  | --- | --- | --- |
-  |HTML|256 KB|1024 KB|
-  |Visual offers from the Target UI|64 KB|1024 KB for each experience|
-  |Via API|512 KB|1024 KB|
+* Fixed an issue that prevented an activity from syncing after changing the audience to [!UICONTROL All Visitors]. (TGT-40259)
+* Fixed an issue that prevented offers from being duplicated when used in different locations in [!UICONTROL Automated Personalization] activities even though the [!UICONTROL Disallow Duplicates] option is enabled. (TGT-39567)
+* Fixed an issue that prevented the [!UICONTROL Administration] > [!UICONTROL Scene7 configuration] page from loading properly. (TGT-39918)
+* Fixed an issue that caused properties to be mapped to the incorrect workspace. (TGT-39869)
+* [!DNL Target Recommendations] supports new list-based operators for entity filtering rules. (TGT-39234)
 
-* [!UICONTROL Personalization Insights] reports for [!UICONTROL Auto-Target] (AT) and [!UICONTROL Automated Personalization] (AP) activities are now produced on a daily basis. You can choose a report providing [!UICONTROL Automated Segments] or [!UICONTROL Important Attributes] for the last 15, 30, and 60 days. The 45 and 90 day options have been removed to enable the other lookback window settings to run on a daily basis. (TGT-39472)
-* Fixed an issue that caused the current dependency to not display when customers click [!UICONTROL Edit Dependency] on an activity's [!UICONTROL Goals & Settings] page. (TGT-39340)
-* Fixed an issue when refreshing a workspace's [!UICONTROL Audience Library]. Before the refresh, the audiences for the currently selected workspace displayed. After the refresh, the [!UICONTROL Default Workspace] and its audiences displayed. The current workspace and its audiences now persist after the refresh. (TGT-38871) 
-* Fixed an issue when copying a [!UICONTROL Recommendations] activity and later editing the original activity by changing its criteria sequence. The change in the criteria sequence in the original activity was also incorrectly applied to the copied activity. (TGT-39155)
-* Fixed an issue that caused the incorrect number of products to display for [!UICONTROL Recommendations] exclusions. (TGT-39599)
+  Newly added operators include:
+
+  * Is Contained In List
+  * Is Not Contained In List
+  * List Contains An Item In
+  * List Does Not Contain An Item In
+  * List Contains All Items In
+  * List Does Not Contain All Items In
+
+* Fixed an issue that caused infinite loading if the request fails after changing the environment while creating a recommendations exclusion. (TGT-39948)
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 
