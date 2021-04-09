@@ -5,7 +5,7 @@ title: How Do I Integrate Recommendations with Email?
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 ---
-# ![PREMIUM](/help/assets/premium.png) Integrate Recommendations with email{#integrate-recommendations-with-email}
+# ![PREMIUM](/help/assets/premium.png) Integrate Recommendations with email
 
 Information about the ways to integrate email with Recommendations.
 
@@ -125,6 +125,15 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 |`Cannot redirect to default content, please specify mboxDefault parameter`|`mboxDefault` not specified when no match for the request exists and `mboxNoRedirect` parameter is not specified.|
 |`Invalid mbox name:= MBOX_NAME`|Indicates `mbox` parameter contains invalid characters.|
 |`Mbox name [MBOX_NAME] is too long`|Indicates `mbox` parameter is longer than 250 characters.|
+
+## Capacity guidelines for Options 1 & 2 {#capacity}
+
+The following capacity guidelines apply to the Delivery API and rawbox email template options:
+
+* Requests should be rate-limited to the lower of 1,000 requests per second or 25 times your peak daily traffic
+* Ramp traffic in steps of 200 requests per second a minute
+ 
+Contact your account manager if you want to use higher rate limits.
 
 ## Option 3: Use the Download-Only Template {#section_518C279AF0094BE780F4EA40A832A164}
 
