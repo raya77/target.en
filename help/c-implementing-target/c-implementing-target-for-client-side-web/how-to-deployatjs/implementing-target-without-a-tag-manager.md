@@ -1,5 +1,5 @@
 ---
-keywords: implement target;implementation;implement at.js;tag manager
+keywords: implement target;implementation;implement at.js;tag manager;on-device decisioning;on device decisioning
 description: Learn how to specify the settings (account details, implementation methods, etc.) to implement the Adobe Target at.js library without using a tag manager.
 title: Can I Implement Target without a Tag Manager?
 feature: Implement Server-side
@@ -8,11 +8,11 @@ exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 ---
 # Implement Target without a tag manager
 
-Information about implementing [!DNL Adobe Target] without using a tag manager ([!DNL Adobe Launch] or [!DNL Dynamic Tag Manager]).
+Information about implementing [!DNL Adobe Target] without using a tag manager ([!DNL Adobe Experience Platform Launch] or [!DNL Dynamic Tag Manager]).
 
 >[!NOTE]
 >
->[Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) is the preferred method for implementing Target and the at.js library. The following information is not applicable when using Adobe Launch to implement Target.
+>[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) is the preferred method for implementing Target and the at.js library. The following information is not applicable when using Adobe Platform Launch to implement Target.
 
 To access the [!UICONTROL Implementation] page, click **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
@@ -34,8 +34,9 @@ You can view the following account details. These settings cannot be changed.
 
 | Setting | Description |
 | --- | --- |
-|Client Code|The client code is a client-specific sequence of characters often required when using the  Target  APIs.|
-|IMS Organization ID|This ID ties your implementation to your [!DNL Adobe Experience Cloud] account.|
+|[!UICONTROL Client Code]|The client code is a client-specific sequence of characters often required when using the  Target  APIs.|
+|[!UICONTROL IMS Organization ID]|This ID ties your implementation to your [!DNL Adobe Experience Cloud] account.|
+|[!UICONTROL On-Device Decisioning]|To enable on-device decisioning, slide the toggle to the "on" position.<br>On-device decisioning lets you cache your A/B and Experience Targeting (XT) campaigns on your server and perform in-memory decisioning at near-zero latency. For more information, see [Introduction to on-device decisioning](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) in the *Adobe Target SDKs* guide.|
 
 ## Implementation methods
 
@@ -45,20 +46,20 @@ The following settings can be configured in the Implementation methods panel:
 
 >[!NOTE]
 >
->These settings are applied to all [!DNL Target] .js libraries. After performing changes in the [!UICONTROL Implementation methods] section you need to download the library and update it in your implementation.
+>These settings are applied to all [!DNL Target] .js libraries. After performing changes in the Implementation methods section, you must download the library and update it in your implementation.
 
 |Setting|Description|
 | --- | --- |
 |Page load enabled (Auto-create global mbox|Select whether to embed the global mbox call in the at.js file to automatically fire on each page load.|
 |Global mbox|Select a name for the global mbox. By default, this name is  target-global-mbox.<br>Special characters, including ampersands (&), can be used in mbox names with at.js.|
 |Timeout (seconds)|If [!DNL Target] does not respond with content within the defined period, the server call times out and default content is displayed. Additional calls continue to be attempted during the visitor's session. The default is 5 seconds.<br>The at.js library uses the timeout setting in `XMLHttpRequest`. The timeout starts when the request is fired and stops when [!DNL Target] gets a response from the server. For more information, see [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) on the Mozilla Developer Network.<br>If the specified timeout occurs before receiving the response, default content is shown and the visitor might be counted as a participant in an activity because all data collection happens on the [!DNL Target] edge. If the request reaches the [!DNL Target] edge, the visitor is counted.<br>Consider the following when configuring the timeout setting:<ul><li>If the value is too low, users might see default content most of the time, although the visitor could be counted as a participant in the activity.</li><li>If the value is too high, visitors might see blank regions on your web page or blank pages if you use body hiding for extended periods of time.</li></ul>To get a better understanding of mbox response times, look at the Network tab in your browser's Developer Tools. You can also use third-party web performance monitoring tools, such as Catchpoint.<br>**Note**: The [visitorApiTimeout](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) setting ensures that [!DNL Target] doesn't wait for the Visitor API response for too long. This setting and the Timeout setting for at.js described here do not affect each other.|
-|Profile Lifetime|This setting determines how long visitor profiles are stored. By default, profiles are stored for two weeks. This can be increased up to 90 days.<br>To change the  Profile Lifetime  setting, contact [Client Care](https://helpx.adobe.com/contact/enterprise-support.ec.html).|
+|Profile Lifetime|This setting determines how long visitor profiles are stored. By default, profiles are stored for two weeks. This setting can be increased up to 90 days.<br>To change the  Profile Lifetime  setting, contact [Client Care](https://helpx.adobe.com/contact/enterprise-support.ec.html).|
 
 ### Main implementation method
 
 >[!IMPORTANT]
 >
->The Target team supports both at.js 1.*x* and at.js 2.*x*. Please upgrade to the most recent update of either major version of at.js to ensure that you are running a supported version.
+>The Target team supports both at.js 1.*x* and at.js 2.*x*. Upgrade to the most recent update of either major version of at.js to ensure that you are running a supported version.
 
 To download the desired at.js version, click the appropriate **[!UICONTROL Download]** button.
 
@@ -109,7 +110,7 @@ Instructions to download the library using the [!DNL Target] interface or the Do
 
 >[!NOTE]
 >
->* [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) is the preferred method for implementing Target and the at.js library. The following information is not applicable when using Adobe Launch to implement Target.
+>* [Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) is the preferred method for implementing Target and the at.js library. The following information is not applicable when using Adobe Platform Launch to implement Target.
 >
 >* The Target team supports both at.js 1.*x* and at.js 2.*x*. Please upgrade to the most recent update of either major version of at.js to ensure that you are running a supported version. For more information about what's in each version, see [at.js Version Details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 
@@ -170,7 +171,7 @@ To download [!DNL at.js] using the API.
 
 at.js should be implemented in the `<head>` element of every page of your website. 
 
-A typical implementation of Target not using a tag manager like [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) or [Dynamic Tag Management](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96) looks like this:
+A typical implementation of Target not using a tag manager like [Adobe Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) or [Dynamic Tag Management](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96) looks like this:
 
 ```
 <!doctype html> 
@@ -226,11 +227,11 @@ A typical implementation of Target not using a tag manager like [Adobe Launch](/
 
 Consider the following important notes:
 
-* The HTML5 Doctype (e.g., `<!doctype html>`) should be used. Unsupported or older doctypes could result in Target not being able to make a request. 
+* The HTML5 Doctype (for example, `<!doctype html>`) should be used. Unsupported or older doctypes could result in Target not being able to make a request. 
 * Preconnect and Prefetch are options that might help your web pages load faster. If you use these configurations, ensure that you replace `<client code>` with your own client code, which you can obtain from the **[!UICONTROL Administration]** > **[!UICONTROL Implementation] page. 
-* If you have a data layer, it is optimal to define as much of it as possible in the `<head>` of your pages before at.js loads. This placement provides the maximum ability to leverage this information in Target for personalization. 
-* Special Target functions, such as `targetPageParams()`, `targetPageParamsAll()`, Data Providers, and `targetGlobalSettings()` should be defined after your data layer and before at.js loads. Alternatively, these could be saved in the [!UICONTROL Library Header] section of the [!UICONTROL Edit at.js Settings] page and saved as part of the at.js library itself. For more information on these functions, see [at.js functions](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md). 
-* If you use JavaScript helper libraries, such as jQuery, include them before Target so you can leverage their syntax and methods when building Target experiences. 
+* If you have a data layer, it is optimal to define as much of it as possible in the `<head>` of your pages before at.js loads. This placement provides the maximum ability to use this information in Target for personalization. 
+* Special Target functions, such as `targetPageParams()`, `targetPageParamsAll()`, Data Providers, and `targetGlobalSettings()` should be defined after your data layer and before at.js loads. Alternatively, these functions could be saved in the [!UICONTROL Library Header] section of the [!UICONTROL Edit at.js Settings] page and saved as part of the at.js library itself. For more information on these functions, see [at.js functions](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md). 
+* If you use JavaScript helper libraries, such as jQuery, include them before Target so you can use their syntax and methods when building Target experiences. 
 * Include at.js in the `<head>` of your pages.
 
 ## Track conversions {#task_E85D2F64FEB84201A594F2288FABF053}
@@ -239,7 +240,7 @@ The Order Confirmation mbox records details about orders on your site and allows
 
 >[!NOTE]
 >
->If users make purchases on your website, we recommend implementing an Order Confirmation mbox even if you use Analytics for Target (A4T) for your reporting.
+>If users make purchases on your website, Adobe recommends implementing an Order Confirmation mbox even if you use Analytics for Target (A4T) for your reporting.
 
 1. In your order details page, insert the mbox script following the model below.
 1. Replace the WORDS IN CAPITAL LETTERS with either dynamic or static values from your catalog.
