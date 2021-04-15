@@ -1,18 +1,16 @@
 ---
 keywords: inclusion rules;inclusion criteria;recommendations;create new criteria;promotion;promotions;dynamic filtering;dynamic;empty values;ignore filtering rule;static filter;filter by value;entity attribute matching;profile attribute matching;parameter matching;filter by value;static filter
-description: Learn how to create inclusion rules in Adobe Target Recommendations for criteria and promotions. Add additional dynamic or static filtering rules to achieve better results.
+description: Learn how to create inclusion rules in Adobe Target Recommendations for criteria and promotions. To achieve better results, add more dynamic or static filtering rules.
 title: How Do I Use Dynamic and Static Inclusion Rules in Recommendations?
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
 ---
-# ![PREMIUM](/help/assets/premium.png) Use dynamic and static inclusion rules{#use-dynamic-and-static-inclusion-rules}
+# ![PREMIUM](/help/assets/premium.png) Use dynamic and static inclusion rules
 
-Information about creating inclusion rules for criteria and promotions in [!DNL Adobe Target] and adding additional dynamic or static filtering rules to achieve better results for your recommendations.
+Information about creating inclusion rules for criteria and promotions in [!DNL Adobe Target] and adding dynamic or static filtering rules to achieve better results for your recommendations.
 
->[!NOTE]
->
->The process for creating and using inclusion rules for criteria and promotions is similar, as are the use cases and examples. Both criteria and promotions and the use of inclusion rules are covered in this section.
+The process for creating and using inclusion rules for criteria and promotions is similar, as are the use cases and examples. Both criteria and promotions and the use of inclusion rules are covered in this section.
 
 ## Adding Filtering Rules to Criteria {#section_CD0D74B8D3BE4A75A78C36CF24A8C57F}
 
@@ -38,7 +36,7 @@ Dynamic inclusion rules are more powerful than static inclusion rules and they y
 
 * Dynamic inclusion rules deliver recommendations by matching an attribute in a user’s profile parameter or in an mbox call.
 
-  For example, you can create a "Most Popular Criteria" recommendation, and then of the set of returned recommendations, then filter out any recommendations (in real-time) against an attribute passed when the user accesses a page where the recommendations are displayed.
+  For example, you can create a "Most Popular Criteria" recommendation. From the set of returned recommendations, you can filter out any recommendations (in real time) against an attribute passed when the user accesses a page where the recommendations are displayed.
 
 * Use static rules to limit which items are included in the recommendation (instead of using collections).
 
@@ -48,7 +46,7 @@ The following options are available for dynamic filtering:
 
 |Dynamic filtering option|Details|
 | --- | --- |
-|[Entity Attribute Matching](/help/c-recommendations/c-algorithms/entity-attribute-matching.md)|Filter dynamically by comparing a pool of potential recommendations items to a specific item that the users has interacted with.<br>Use [!UICONTROL Entity Attribute Matching] when you want to show recommendations most likely to appeal to the visitor, such as the visitor's favorite brand.|
+|[Entity Attribute Matching](/help/c-recommendations/c-algorithms/entity-attribute-matching.md)|Filter dynamically by comparing a pool of potential recommendations items to a specific item that the users have interacted with.<br>Use [!UICONTROL Entity Attribute Matching] when you want to show recommendations most likely to appeal to the visitor, such as the visitor's favorite brand.|
 |[Profile Attribute Matching](/help/c-recommendations/c-algorithms/profile-attribute-matching.md)|Filter dynamically by comparing items (entities) against a value in the user's profile.<br>Use [!UICONTROL Profile Attribute Matching] when you want to show recommendations that match a value stored in the visitor’s profile, such as size or favorite brand.|
 |[Parameter Matching](/help/c-recommendations/c-algorithms/parameter-matching.md)|Filter dynamically by comparing items (entities) against a value in the request (API or mbox).<br>Use [!UICONTROL Parameter Matching] to recommend content that matches the page parameters or the visitor's parameters, such as device dimensions or geo-location.|
 
@@ -60,17 +58,29 @@ The following option is available for filtering by value:
 | --- | --- |
 |[Static Filter](/help/c-recommendations/c-algorithms/static-value.md)|Manually enter one or more static values to filter.|
 
-## Dynamic criteria and promotion examples
+## Available operators {#operators}
 
 Dynamic criteria and promotions are much more powerful than static criteria and promotions and yield better results and engagement.
 
-The following examples provide general ideas about how you can use dynamic promotions in your marketing efforts:
+The following examples provide general ideas about how you can use dynamic promotions and exclusions in your marketing efforts:
 
 |Operator|Examples|
 | --- | --- |
-|Equals|Using the "equals" operator in dynamic promotions, when a visitor is viewing an item on your website (such as a product, article, or movie), you can promote other items from:<ul><li>the same brand</li><li>the same category</li><li>the same category AND from the house brand</li><li>the same store</li></ul>|
-|Does Not Equal|Using the "does not equal" operator in dynamic promotions, when a visitor is viewing an item on your website (such as a product, article, or movie), you can promote other items from:<ul><li>a different TV series</li><li>a different genre</li><li>a different product series</li><li>a different style ID</li></ul>|
-|Is Between|Using the "is between" operator in dynamic promotions, when a visitor is viewing an item on your website (such as a product, article, or movie), you can promote other items that are:<ul><li>more expensive</li><li>less expensive</li><li>cost plus or minus 30%</li><li>later episodes in the same season</li><li>prior books in a series</li></ul>|
+|Equals<br>(Available with Entity Attribute Matching, Profile Attribute Matching, Parameter Matching, and Static Filter.)|Using the "equals" operator in dynamic promotions, when a visitor is viewing an item on your website (such as a product, article, or movie), you can promote other items from:<ul><li>The same brand</li><li>The same category</li><li>The same category AND from the house brand</li><li>The same store</li></ul>|
+|Does Not Equal<br>(Available with Entity Attribute Matching, Profile Attribute Matching, Parameter Matching, and Static Filter.)|Using the "does not equal" operator in dynamic promotions, when a visitor is viewing an item on your website (such as a product, article, or movie), you can promote other items from:<ul><li>A different TV series</li><li>A different genre</li><li>A different product series</li><li>A different style ID</li></ul>|
+|Contains Substring<br>(Available with Entity Attribute Matching, Profile Attribute Matching, Parameter Matching, and Static Filter.)|Using the "contains substring" operator, when a visitor is viewing an item on your website (such as a product), you can promote other items that:<ul><li></li></ul>||
+|Does Not Contain Substring<br>(Available with Entity Attribute Matching, Profile Attribute Matching, Parameter Matching, and Static Filter.)|Using the "does not contain substring" operator, when a visitor is viewing an item on your website (such as a product), you can promote other items that:<ul><li></li></ul>|
+|Starts With<br>(Available with Entity Attribute Matching, Profile Attribute Matching, Parameter Matching, and Static Filter.)|Using the "starts with" operator, when a visitor is viewing an item on your website (such as a product), you can promote other items that:<ul><li></li></ul>|
+|Ends With<br>(Available with Entity Attribute Matching, Profile Attribute Matching, Parameter Matching, and Static Filter.)|Using the "ends with" operator, when a visitor is viewing an item on your website (such as a product), you can promote other items that:<ul><li></li></ul>|
+|Is Greater Than or Equal To<br>(Available with Entity Attribute Matching, Profile Attribute Matching, Parameter Matching, and Static Filter.)|Using the "is greater than or equal to" operator, when a visitor is viewing an item on your website (such as a product), you can promote other items that:<ul><li>Cost the same or are more expensive</li></ul>|
+|Is Less Than or Equal To<br>(Available with Entity Attribute Matching, Profile Attribute Matching, Parameter Matching, and Static Filter.)|Using the "is less than or equal to" operator, when a visitor is viewing an item on your website (such as a product), you can promote other items that:<ul><li>Cost the same or are less expensive</li><li>Exclude items that are less expensive</li></ul>|
+|Is Between<br>(Available with Entity Attribute Matching, Profile Attribute Matching, and Parameter Matching.)|Using the "is between" operator in dynamic promotions, when a visitor is viewing an item on your website (such as a product, article, or movie), you can promote other items that are:<ul><li>More expensive</li><li>Less expensive</li><li>Cost plus or minus 30%</li><li>Later episodes in the same season</li><li>Prior books in a series</li></ul>|
+|Is Contained In List<br>(Available with Profile Attribute Matching and Parameter Matching.)|Using the "is contained in list" operator in profile attribute matching, when a visitor is viewing an item on your website (such as a product, article, or movie), you can promote other items that are:<ul><li>Available in the visitor's geography</li></ul>When using this operator, a list is expected in the [right side](#caveats) of the rule.|
+|Is Not Contained In List<br>(Available with Profile Attribute Matching and Parameter Matching.)|Using the "is not contained in list" operator in profile attribute matching, when a visitor is viewing an item on your website (such as a product, article, or movie), you can exclude other items that are:<ul><li>In the list of the last ten items that the visitor has viewed</li></ul></ul>When using this operator, a list is expected in the [right side](#caveats) of the rule.|
+|List Contains An Item In<br>(Available with Entity Attribute Matching, Profile Attribute Matching, and Parameter Matching.)|Using the "list contains an item in" operator in profile attribute matching, when a visitor is viewing an item on your website (such as a product, article, or movie), you can recommend other items that are:<ul><li>Associated with one of the visitor's favorite teams</li></ul></ul>When using this operator, a list is expected in [both sides](#caveats) of the rule.|
+|List Does Not Contain An Item In<br>(Available with Entity Attribute Matching, Profile Attribute Matching, and Parameter Matching.)|Using the "list does not contain an item in" operator in parameter attribute matching, when a visitor is viewing an item on your website (such as a product, article, or movie), you can exclude other items that are:<ul><li>Contained in a list of prohibited types</li></ul>When using this operator, a list is expected in [both sides](#caveats) of the rule.|
+|List Contains All Items In<br>(Available with Entity Attribute Matching, Profile Attribute Matching, and Parameter Matching.)|Using the "list contains all items in" operator in parameter attribute matching, when a visitor is viewing an item on your website (such as a product, article, or movie), you can promote other items that are:<ul><li></li></ul>When using this operator, a list is expected in [both sides](#caveats) of the rule.|
+|List Does Not Contain All Items In<br>(Available with Entity Attribute Matching, Profile Attribute Matching, and Parameter Matching.)|Using the "list does not contain all items in" operator in parameter attribute matching, when a visitor is viewing an item on your website (such as a product, article, or movie), you can promote other items that are:<ul><li></li></ul>When using this operator, a list is expected in [both sides](#caveats) of the rule.|
 
 ## Handling empty values when filtering by Entity Attribute Matching, Profile Attribute Matching, and Parameter Matching {#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
@@ -84,16 +94,16 @@ To select the desired action, hover over the gear icon (![](assets/icon_gear.png
 
 | Action | Available For | Details |
 |--- |--- |--- |
-|[!UICONTROL Ignore this filtering rule]|[!UICONTROL Profile Attribute Matching] and [!UICONTROL Parameter Matching]|This is the default action for [!UICONTROL Profile Attribute Matching] and [!UICONTROL Parameter Matching].<br>This option specifies that the rule is ignored. For example, if there are three filtering rules and the third rule doesn't pass any values, instead of not returning any results, you can simply ignore the third rule with the empty values.|
-|[!UICONTROL Do not show any results for this criteria]<br>(Criteria only)|[!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching], and [!UICONTROL Parameter Matching]|This is the default action for [!UICONTROL Entity Attribute Matching].<br>This action is how [!DNL Target] handled empty values before the addition of this option: no results will be shown for this criteria.|
-|[!UICONTROL Do not promote any items<br>(Promotions only)]|[!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching], and [!UICONTROL Parameter Matching]|This is the default action for [!UICONTROL Entity Attribute Matching].<br>This action is how [!DNL Target] handled empty values before the addition of this option: no results will be shown for this criteria.|
+|[!UICONTROL Ignore this filtering rule]|[!UICONTROL Profile Attribute Matching] and [!UICONTROL Parameter Matching]|This action is the default for [!UICONTROL Profile Attribute Matching] and [!UICONTROL Parameter Matching].<br>This option specifies that the rule is ignored. For example, if there are three filtering rules and the third rule doesn't pass any values, instead of not returning any results, you can simply ignore the third rule with the empty values.|
+|[!UICONTROL Do not show any results for this criteria]<br>(Criteria only)|[!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching], and [!UICONTROL Parameter Matching]|This action is the default for [!UICONTROL Entity Attribute Matching].<br>This action is how [!DNL Target] handled empty values before the addition of this option: no results are shown for this criteria.|
+|[!UICONTROL Do not promote any items<br>(Promotions only)]|[!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching], and [!UICONTROL Parameter Matching]|This action is the default for [!UICONTROL Entity Attribute Matching].<br>This action is how [!DNL Target] handled empty values before the addition of this option: no results are shown for this criteria.|
 |[!UICONTROL Use a static value]|[!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching], and [!UICONTROL Parameter Matching]|If a value is empty, you can choose to use a static value.|
 
-## Caveats {#section_A889FAF794B7458CA074DEE06DD0E345}
+## Caveats {#caveats}
 
 >[!IMPORTANT]
 >
->Different data type attributes might not be compatible in dynamic criteria or promotions during runtime with the "equals" and "does not equal" operators. You should use [!UICONTROL Value], [!UICONTROL Margin], [!UICONTROL Inventory], and [!UICONTROL Environment] values wisely on the right hand side if the left hand side has predefined attributes or custom attributes.
+>Different data type attributes might not be compatible in dynamic criteria or promotions during runtime with the "equals" and "does not equal" operators. Use [!UICONTROL Value], [!UICONTROL Margin], [!UICONTROL Inventory], and [!UICONTROL Environment] values wisely on the right-hand side if the left hand side has predefined attributes or custom attributes.
 
 ![](assets/left_right.png)
 
