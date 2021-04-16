@@ -62,28 +62,22 @@ The following diagram illustrates the interaction between your visitor, the brow
 
 The following list corresponds to the numbers in the diagram:
 
-1. The [!DNL Experience Cloud Visitor ID] is retrieved from the [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en).
-1. The at.js library loads synchronously and hides the document body. 
-
-   The at.js library can also be loaded asynchronously with an optional pre-hiding snippet implemented on the page. 
-
-1. The at.js library hides the body to prevent flickering. 
-1. A page-load request is made that includes all configured parameters, such as (ECID, Customer ID, Custom Parameters, User Profile, and so forth.) 
-1. Profile scripts execute and then feed into the Profile Store. 
-
-   The Profile Store requests qualified audiences from the Audience Library (for example, audiences shared from [!DNL Adobe Analytics], [!DNL Adobe Audience Manager], and so forth.). 
-
-   Customer attributes are sent to the Profile Store in a batch process. 
-
-1. The Profile Store is used for audience qualification and bucketing to filter activities.
-1. The resulting content is selected after the experience is determined from live [!DNL Target] activities. 
-1. The at.js library hides the corresponding elements on the page that are associated with the experience that must be rendered. 
-1. The at.js library displays the body so that the rest of the page can be loaded for your visitor to view. 
-1. The at.js library manipulates the DOM to render the experience from the Target Edge Network.
-1. The experience renders for the visitor. 
-1. The entire web page loads.
-1. [!DNL Analytics] data is sent to Data Collection servers. 
-1. Targeted data is matched to [!DNL Analytics] data via the SDID and is processed into the [!DNL Analytics] reporting storage. [!DNL Analytics] data can then be viewed in both [!DNL Analytics] and [!DNL Target] via [!UICONTROL Analytics for Target] (A4T) reports. 
+|Step|Description|
+| --- | --- |
+|1|The [!DNL Experience Cloud Visitor ID] is retrieved from the [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en).|
+|2|The at.js library loads synchronously and hides the document body.<br>   The at.js library can also be loaded asynchronously with an optional pre-hiding snippet implemented on the page.|
+|3|The at.js library hides the body to prevent flickering.|
+|4|A page-load request is made that includes all configured parameters, such as (ECID, Customer ID, Custom Parameters, User Profile, and so forth.)|
+|5|Profile scripts execute and then feed into the Profile Store.<br>The Profile Store requests qualified audiences from the Audience Library (for example, audiences shared from [!DNL Adobe Analytics], [!DNL Adobe Audience Manager], and so forth.).<br>Customer attributes are sent to the Profile Store in a batch process.|
+|6|The Profile Store is used for audience qualification and bucketing to filter activities.|
+|7|The resulting content is selected after the experience is determined from live [!DNL Target] activities.|
+|8|The at.js library hides the corresponding elements on the page that are associated with the experience that must be rendered.|
+|9|The at.js library displays the body so that the rest of the page can be loaded for your visitor to view.|
+|10|The at.js library manipulates the DOM to render the experience from the Target Edge Network.|
+|11|The experience renders for the visitor.|
+|12|The entire web page loads.|
+|13|[!DNL Analytics] data is sent to Data Collection servers.| 
+|14|Targeted data is matched to [!DNL Analytics] data via the SDID and is processed into the [!DNL Analytics] reporting storage. [!DNL Analytics] data can then be viewed in both [!DNL Analytics] and [!DNL Target] via [!UICONTROL Analytics for Target] (A4T) reports.|
 
 ### On-device only
 
@@ -91,7 +85,7 @@ The following list corresponds to the numbers in the diagram:
 
 On-device decisioning can deliver your experiences and personalization activities at blazing fast speed because the decisions are made from a cached rules artifact that contains all of your activities that qualify for on-device decisioning. 
 
-To learn more about which activities qualify for on-device decisioning, see the supported features section. 
+To learn more about which activities qualify for on-device decisioning, see [Supported features in on-device decisioning](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md). 
 
 This decisioning method should be used only if performance is highly critical across all the pages that require decisions from [!DNL Target]. Furthermore, keep in mind that when this decisioning method is selected, your [!DNL Target] activities that do not qualify for on-device decisioning will not be delivered or executed. The at.js library 2.5+ is configured to only look for the cached rules artifact to make decisions.  
 
@@ -103,23 +97,22 @@ The following list corresponds to the numbers in the diagram:
 
 >[!NOTE]
 >
->[!DNL Adobe Target] Admin servers qualify all of your activities that are eligible for on-device decisioning, generate the JSON rules artifact, and propagates it to the Akamai CDN. Your activities are continuously monitored for updates to output a new JSON rules artifact to be propagated to the Akamai CDN. 
+>[!DNL Adobe Target] Admin servers qualify all of your activities that are eligible for on-device decisioning, generate the JSON rules artifact, and propagates it to the Akamai CDN. Your activities are continuously monitored for updates to output a new JSON rules artifact to be propagated to the Akamai CDN.
 
-1. The [!DNL Experience Cloud Visitor ID] is retrieved from the [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). 
-1. The at.js library loads synchronously and hides the document body. 
-
-   The at.js library can also be loaded asynchronously with an optional pre-hiding snippet implemented on the page.
-
-1. The at.js library hides the body to prevent flickering. 
-1. The at.js library makes a request to retrieve the JSON rule artifact from the nearest Akamai CDN to the visitor.
-1. The Akamai CDN responds with the JSON rule artifact. 
-1. The JSON rule artifact is cached locally on the visitor's browser. 
-1. The at.js library interprets the JSON rule artifact and executes the decision to retrieve the experience and hides the tested elements. 
-1. The at.js library displays the body so that the rest of the page can be loaded for your visitor to view.
-1. The at.js library manipulates the DOM to render the experience from the cached JSON rule artifact.
-1. The experience renders for the visitor.
-1. The entire web page loads. 
-1. [!DNL Analytics] data is sent to Data Collection servers. Targeted data is matched to [!DNL Analytics] data via the SDID and is processed into the [!DNL Analytics] reporting storage. [!DNL Analytics] data can then be viewed in both [!DNL Analytics] and [!DNL Target] via Analytics for Target (A4T) reports. 
+|Step|Description|
+| --- | --- |
+|1|The [!DNL Experience Cloud Visitor ID] is retrieved from the [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).|
+|2|The at.js library loads synchronously and hides the document body.<br>The at.js library can also be loaded asynchronously with an optional pre-hiding snippet implemented on the page.|
+|3|The at.js library hides the body to prevent flickering.|
+|4|The at.js library makes a request to retrieve the JSON rule artifact from the nearest Akamai CDN to the visitor.|
+|5|The Akamai CDN responds with the JSON rule artifact.|
+|6|The JSON rule artifact is cached locally on the visitor's browser.|
+|7|The at.js library interprets the JSON rule artifact and executes the decision to retrieve the experience and hides the tested elements.|
+|8|The at.js library displays the body so that the rest of the page can be loaded for your visitor to view.|
+|9|The at.js library manipulates the DOM to render the experience from the cached JSON rule artifact.|
+|10|The experience renders for the visitor.|
+|11|The entire web page loads.| 
+|12|[!DNL Analytics] data is sent to Data Collection servers. Targeted data is matched to [!DNL Analytics] data via the SDID and is processed into the [!DNL Analytics] reporting storage. [!DNL Analytics] data can then be viewed in both [!DNL Analytics] and [!DNL Target] via Analytics for Target (A4T) reports.|
 
 The following diagram illustrates the interaction between your visitor, the browser, at.js 2.5+, and the cached JSON rule artifact for the visitor's subsequent page hit or returning visit. Because the JSON rules artifact is already cached and available on the browser, the decision is made immediately without a blocking network call. This flow diagram captures subsequent page navigation or returning visitors.
 
@@ -131,19 +124,18 @@ The following list corresponds to the numbers in the diagram:
 >
 >[!DNL Adobe Target] Admin servers qualify all of your activities that are eligible for on-device decisioning, generate the JSON rules artifact, and propagates it to the Akamai CDN. Your activities are continuously monitored for updates to output a new JSON rules artifact to be propagated to the Akamai CDN.
 
-1. The [!DNL Experience Cloud Visitor ID] is retrieved from the [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). 
-1. The at.js library loads synchronously and hides the document body. 
- 
-   The at.js library can also be loaded asynchronously with an optional pre-hiding snippet implemented on the page. 
-
-1. The at.js library hides the body to prevent flickering. 
-1. The at.js library interprets the JSON rule artifact and executes the decision in memory to retrieve the experience. 
-1. The tested elements are hidden.
-1. The at.js library displays the body so that the rest of the page can be loaded for your visitor to view.
-1. The at.js library manipulates the DOM to render the experience from the cached JSON rule artifact.
-1. The experience renders for the visitor.
-1. The entire web page loads. 
-1. [!DNL Analytics] data is sent to Data Collection servers. Targeted data is matched to [!DNL Analytics] data via the SDID and is processed into the [!DNL Analytics] reporting storage. [!DNL Analytics] data can then be viewed in both [!DNL Analytics] and [!DNL Target] via [!UICONTROL Analytics for Target] (A4T) reports. 
+|Step|Description|
+| --- | --- |
+|1|The [!DNL Experience Cloud Visitor ID] is retrieved from the [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).|
+|2|The at.js library loads synchronously and hides the document body.<br>The at.js library can also be loaded asynchronously with an optional pre-hiding snippet implemented on the page.|
+|3|The at.js library hides the body to prevent flickering.|
+|4|The at.js library interprets the JSON rule artifact and executes the decision in memory to retrieve the experience.|
+|5|The tested elements are hidden.|
+|6|The at.js library displays the body so that the rest of the page can be loaded for your visitor to view.|
+|7|The at.js library manipulates the DOM to render the experience from the cached JSON rule artifact.|
+|8|The experience renders for the visitor.|
+|9|The entire web page loads.|
+|10|[!DNL Analytics] data is sent to Data Collection servers. Targeted data is matched to [!DNL Analytics] data via the SDID and is processed into the [!DNL Analytics] reporting storage. [!DNL Analytics] data can then be viewed in both [!DNL Analytics] and [!DNL Target] via [!UICONTROL Analytics for Target] (A4T) reports.|
 
 ### Hybrid
 
@@ -165,24 +157,23 @@ The following list corresponds to the numbers in the diagram:
 >
 >[!DNL Adobe Target] Admin servers qualify all of your activities that are eligible for on-device decisioning, generate the JSON rules artifact, and propagates it to the Akamai CDN. Your activities are continuously monitored for updates to output a new JSON rules artifact to be propagated to the Akamai CDN.
 
-1. The [!DNL Experience Cloud Visitor ID] is retrieved from the [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).  
-1. The at.js library loads synchronously and hides the document body. 
-
-   The at.js library can also be loaded asynchronously with an optional pre-hiding snippet implemented on the page. 
-
-1. The at.js library hides the body to prevent flickering. 
-1. A page-load request is made to the Adobe Target Edge Network, including all configured parameters such as (ECID, Customer ID, Custom Parameters, User Profile, and so forth.) 
-1. In parallel, at.js makes a request to retrieve the JSON rule artifact from the nearest Akamai CDN to the visitor. 
-1. (Adobe Target Edge Network) Profile scripts execute and then feed into the Profile Store. The Profile Store requests qualified audiences from the Audience Library (for example, audiences shared from [!DNL Adobe Analytics], [!DNL Adobe Audience Manager], and so forth.). 
-1. The Akamai CDN responds with the JSON rule artifact. 
-1. The Profile Store is used for audience qualification and bucketing to filter activities. 
-1. The resulting content is selected after the experience is determined from live [!DNL Target] activities. 
-1. The at.js library hides the corresponding elements on the page that are associated with the experience that must be rendered. 
-1. The at.js library displays the body so that the rest of the page can be loaded for your visitor to view. 
-1. The at.js library manipulates the DOM to render the experience from the Target Edge Network. 
-1. The experience renders for the visitor.
-1. The entire web page loads. 
-1. [!DNL Analytics] data is sent to Data Collection servers. Targeted data is matched to [!DNL Analytics] data via the SDID and is processed into the [!DNL Analytics] reporting storage. [!DNL Analytics] data can then be viewed in both [!DNL Analytics] and [!DNL Target] via [!UICONTROL Analytics for Target] (A4T) reports. 
+|Step|Description|
+| --- | --- |
+|1|The [!DNL Experience Cloud Visitor ID] is retrieved from the [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).|
+|2|The at.js library loads synchronously and hides the document body.<br>The at.js library can also be loaded asynchronously with an optional pre-hiding snippet implemented on the page.|
+|3|The at.js library hides the body to prevent flickering.|
+|4|A page-load request is made to the Adobe Target Edge Network, including all configured parameters such as (ECID, Customer ID, Custom Parameters, User Profile, and so forth.)| 
+|5|In parallel, at.js makes a request to retrieve the JSON rule artifact from the nearest Akamai CDN to the visitor.|
+|6|(Adobe Target Edge Network) Profile scripts execute and then feed into the Profile Store. The Profile Store requests qualified audiences from the Audience Library (for example, audiences shared from [!DNL Adobe Analytics], [!DNL Adobe Audience Manager], and so forth.).|
+|7|The Akamai CDN responds with the JSON rule artifact.|
+|8|The Profile Store is used for audience qualification and bucketing to filter activities.|
+|9|The resulting content is selected after the experience is determined from live [!DNL Target] activities.|
+|10|The at.js library hides the corresponding elements on the page that are associated with the experience that must be rendered.|
+|11|The at.js library displays the body so that the rest of the page can be loaded for your visitor to view.|
+|12|The at.js library manipulates the DOM to render the experience from the Target Edge Network.|
+|13|The experience renders for the visitor.|
+|14|The entire web page loads.|
+|15|[!DNL Analytics] data is sent to Data Collection servers. Targeted data is matched to [!DNL Analytics] data via the SDID and is processed into the [!DNL Analytics] reporting storage. [!DNL Analytics] data can then be viewed in both [!DNL Analytics] and [!DNL Target] via [!UICONTROL Analytics for Target] (A4T) reports.|
 
 The following diagram illustrates the interaction between your visitor, the browser, at.js 2.5+, and the cached JSON rules artifact for a subsequent page navigation or a return visit. In this diagram, focus only on the use case that an on-device decision is made for the subsequent page navigation or return visit. Keep in mind that depending on which activities are live for certain pages, a server-side call can be made to execute server-side decisions.
 
@@ -194,20 +185,19 @@ The following list corresponds to the numbers in the diagram:
 >
 >[!DNL Adobe Target] Admin servers qualify all of your activities that are eligible for on-device decisioning, generate the JSON rules artifact, and propagates it to the Akamai CDN. Your activities are continuously monitored for updates to output a new JSON rules artifact to be propagated to the Akamai CDN.
 
-1. The [!DNL Experience Cloud Visitor ID] is retrieved from the [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).  
-1. The at.js library loads synchronously and hides the document body. 
-
-   The at.js library can also be loaded asynchronously with an optional pre-hiding snippet implemented on the page.
-
-1. The at.js library hides the body to prevent flickering. 
-1. A request is made to retrieve an experience. 
-1. The at.js library confirms that the JSON rule artifact has already been cached and executes the decision in memory to retrieve the experience. 
-1. The tested elements are hidden.
-1. The at.js library displays the body so that the rest of the page can be loaded for your visitor to view. 
-1. The at.js library manipulates the DOM to render the experience from the cached JSON rule artifact. 
-1. The experience renders for the visitor.
-1. The entire web page loads. 
-1. [!DNL Analytics] data is sent to Data Collection servers. Targeted data is matched to [!DNL Analytics] data via the SDID and is processed into the [!DNL Analytics] reporting storage. [!DNL Analytics] data can then be viewed in both [!DNL Analytics] and [!DNL Target] via [!UICONTROL Analytics for Target] (A4T) reports.
+|Step|Description|
+| --- | --- |
+|1|The [!DNL Experience Cloud Visitor ID] is retrieved from the [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).|
+|2|The at.js library loads synchronously and hides the document body.<br>The at.js library can also be loaded asynchronously with an optional pre-hiding snippet implemented on the page.|
+|3|The at.js library hides the body to prevent flickering.|
+|4|A request is made to retrieve an experience.|
+|5|The at.js library confirms that the JSON rule artifact has already been cached and executes the decision in memory to retrieve the experience.| 
+|6|The tested elements are hidden.|
+|7|The at.js library displays the body so that the rest of the page can be loaded for your visitor to view.|
+|8|The at.js library manipulates the DOM to render the experience from the cached JSON rule artifact.| 
+|9|The experience renders for the visitor.|
+|10|The entire web page loads.|
+|11|[!DNL Analytics] data is sent to Data Collection servers. Targeted data is matched to [!DNL Analytics] data via the SDID and is processed into the [!DNL Analytics] reporting storage. [!DNL Analytics] data can then be viewed in both [!DNL Analytics] and [!DNL Target] via [!UICONTROL Analytics for Target] (A4T) reports.|
 
 ## How do I enable on-device decisioning?
 
@@ -251,6 +241,8 @@ After enabling the [!UICONTROL On-Device Decisioning] toggle, [!DNL Target] begi
    * [!UICONTROL Server-side only]
    * [!UICONTROL On-device only]
    * [!UICONTROL Hybrid]
+
+   ![Edit at.js settings panel](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/global-settings.png)
 
 ### Global settings
 
