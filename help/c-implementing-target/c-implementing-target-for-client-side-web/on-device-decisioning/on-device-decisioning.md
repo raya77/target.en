@@ -10,7 +10,7 @@ exl-id: 5ad6032b-9865-4c80-8800-705673657286
 
 >[!NOTE]
 >
->On-device decisioning is scheduled to be released in the Target Standard/Premium 21.4.1 release (April 19, 2021).
+>The on-device decisioning functionality is scheduled to be released in the Target Standard/Premium 21.4.1 release (April 19, 2021).
 
 Starting with version 2.5, at.js offers on-device decisioning. On-device decisioning lets you cache your [A/B Test](/help/c-activities/t-test-ab/test-ab.md) and [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT) activities on the browser to perform in-memory decisioning without a blocking network request to the [!DNL Adobe Target] Edge Network. 
 
