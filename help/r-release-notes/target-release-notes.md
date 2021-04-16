@@ -9,7 +9,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: April 9, 2021**
+**Last Updated: April 16, 2021**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages could be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
@@ -45,6 +45,15 @@ This release contains the following enhancements, fixes, and changes.
   * List Does Not Contain All Items In
 
 * Fixed an issue that caused infinite loading if the request fails after changing the environment while creating a recommendations exclusion. (TGT-39948)
+
+## at.js version 2.5.0 (April 19, 2021)
+
+This release of at.js includes the following enhancements:
+
+* On-device decisioning support for at.js
+* Preview links support for Automated Personalization activities
+
+This release also removes support for Microsoft Internet Explorer 10 and above versions.
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 
