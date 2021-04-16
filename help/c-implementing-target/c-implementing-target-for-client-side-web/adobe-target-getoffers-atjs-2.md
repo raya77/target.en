@@ -17,6 +17,7 @@ This function lets you retrieve multiple offers by passing in multiple mboxes. A
 |Key|Type|Required?|Description|
 | --- | --- | --- | --- |
 |consumerId|String|No|Default value is client's global mbox if not provided. This key is used to generate the supplemental data ID used for A4T integration. This key is a unique string per visitor.|
+|decisioningMethod|String|No|“server-side”, “on-device”, “hybrid” |
 |request|Object|Yes|See Requests table below.|
 |timeout|Number|No|request timeout. If not specified the default at.js timeout is used.|
 
@@ -77,6 +78,25 @@ adobe.target.getOffers({
     }
   }
 });
+```
+
+## Call getOffers() to make an on-device decisioning
+
+```javascript
+adobe.target.getOffers({ 
+
+  decisioningMethod:"on-device", 
+  request: { 
+    execute: { 
+      mboxes: [ 
+        { 
+          index: 0, 
+          name: "homepage" 
+        } 
+      ] 
+    } 
+ } 
+}); 
 ```
 
 ## Call getOffers() to retrieve the latest views with the passed-in parameters and profile parameters
