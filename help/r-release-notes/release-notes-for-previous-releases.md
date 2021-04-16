@@ -17,6 +17,37 @@ Release notes are arraigned in descending order by month and year of release.
 
 ## Release notes - 2021
 
+### at.js 2.4.1 (March 23, 2021)
+
+This release of at.js is a maintenance release and includes the following enhancements and fixes:
+
+* Fixed an issue with `targetPageParams` being included in mbox requests. `targetPageParams` should be included in `pageLoad` requests only. (TNT-40247)
+* Fixed an issue with document and window global objects in the [!DNL Adobe Experience Platform Launch] extension by replacing the Platform Launch global object dependencies with direct references to them. (TNT-37124)
+
+### IP address changes for Recommendations feed-processing servers (March 16, 2021)
+
+The [!DNL Target Recommendations] feed-processing server IP addresses were updated on March 16, 2021. For more information, see [IP addresses used by Recommendations feed-processing servers](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md).
+
+### Target Standard/Premium 21.2.1 (March 9, 2021)
+
+This maintenance release contains the following enhancements, fixes, and changes.
+
+The issue numbers in parentheses are for internal [!DNL Adobe] use.
+
+* Increased the allowable offer size (TGT-38304):
+
+  |Type|Previous Limit|New Limit|
+  | --- | --- | --- |
+  |HTML|256 KB|1024 KB|
+  |Visual offers from the Target UI|64 KB|1024 KB for each experience|
+  |Via API|512 KB|1024 KB|
+
+* [!UICONTROL Personalization Insights] reports for [!UICONTROL Auto-Target] (AT) and [!UICONTROL Automated Personalization] (AP) activities are now produced daily. You can choose a report providing [!UICONTROL Automated Segments] or [!UICONTROL Important Attributes] for the last 15, 30, and 60 days. The 45-day and 90-day options have been removed to enable the other lookback window settings to run daily. (TGT-39472)
+* Fixed an issue that caused the current dependency to not display when customers click [!UICONTROL Edit Dependency] on an activity's [!UICONTROL Goals & Settings] page. (TGT-39340)
+* Fixed an issue when refreshing a workspace's [!UICONTROL Audience Library]. Before the refresh, the audiences for the currently selected workspace displayed. After the refresh, the [!UICONTROL Default Workspace] and its audiences displayed. The current workspace and its audiences now persist after the refresh. (TGT-38871) 
+* Fixed an issue when copying a [!UICONTROL Recommendations] activity and later editing the original activity by changing its criteria sequence. The change in the criteria sequence in the original activity was also incorrectly applied to the copied activity. (TGT-39155)
+* Fixed an issue that caused the incorrect number of products to display for [!UICONTROL Recommendations] exclusions. (TGT-39599)
+
 ### Target Standard/Premium 21.1.1 (January 19, 2021)
 
 This maintenance release contains the following enhancements, fixes, and changes.
