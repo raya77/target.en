@@ -45,6 +45,7 @@ The Activities list provides an overview of all activities:
 |URL|The URL appears in lighter text below the name.<br>The URL for the activity identifies where the activity is displayed. This helps you quickly identify an activity, and determine whether a particular page already has a test running on it.<br>If a test runs on multiple URLs, a link shows how many more URLs are used. Click the link to view the complete list of URLs for that activity.<br>You can search based on URL. Use the drop-down list next to search box and select [!UICONTROL Search URL].|
 |Status|The status of the activity can be one of the following:<ul><li>**Live**: The activity is currently running.</li><li>**Draft**: The activity setup has started but the activity is not yet ready to run.</li><li>**Scheduled**: The activity is ready to be activated when the specified start date and time arrives.</li><li>**Inactive**: The activity has been paused or deactivated.</li><li>**Syncing**: The activity has been saved and is being synced to the Target delivery network.</li><li>**Ended**: The specified end date and time of activity has reached and the activity is no longer being served.</li><li>**Archived**: The activity has been archived. You can activate an archived activity to use it again.</li></ul>**Note**: When you perform certain actions, such as activating an activity outside of the UI using API methods, the update can take up to ten minutes to propagate to the UI.|
 |Source|Shows where the activity was created:<ul><li>Adobe Target</li><li>Adobe Target Classic</li><li>Adobe Experience Manager (AEM)</li><li>Adobe Mobile Services (AMS)</li></ul>|
+|On-Device Decisioning Eligible|After you create an activity that is on-device decisioning eligible, a label that reads On-Device Decisioning Eligible, is visible in the activity’s Overview page.<br>This label does not mean that the activity will always be delivered via on-device decisioning. Only when at.js 2.5.0+ is configured to use on-device decisioning will this activity be executed on-device. If at.js 2.5.0+ is not configured to use on-device, then this activity will still be delivered via a server call that is made from at.js.<br>See [On-device decisioning](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md).|
 |Property|Shows the [property](/help/administrating-target/c-user-management/property-channel/property-channel.md) for the activity.  |
 |Estimated Lift in Revenue|Shows the predicted increase in revenue if 100% of the audience sees the winning experience.<br>Calculated using the following formula:<br>`(<winning experience> - <control experience>)*<total number of visitors>`<br>This number is rounded to one decimal place, maximum, if the condensed form has only a single digit before the decimal. For example: $1.6M, $60K, $900, $8.5K, $205K<br>This column shows "---" for activities that do not have enough data to call a winner show or do not have a cost estimate.<br>See [Estimating Lift in Revenue](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) for more information.|
 |Last Updated|The date when the activity was last updated, and by whom.|
@@ -101,6 +102,7 @@ You can filter by the following options. In each category, if nothing is selecte
 |--- |--- |
 |Type|A/B Test: [Manual](/help/c-activities/t-test-ab/test-ab.md), [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), and [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md).<br>[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>[Experience Targeting](/help/c-activities/t-experience-target/experience-target.md)<br>[Multivariate Test](/help/c-activities/c-multivariate-testing/multivariate-testing.md)<br>[Recommendations](/help/c-recommendations/recommendations.md)|
 |Status|Live<br>Draft<br>Scheduled<br>Inactive<br>Syncing<br>Ended<br>Archived|
+|On-Device Decisioning Eligible|Yes<br>No|
 |Reporting Source|Target<br>Analytics|
 |Experience Composer|Visual<br>Form-Based|
 |Metrics Type|Conversion<br>Revenue<br>Engagement|
@@ -110,16 +112,10 @@ You can filter by the following options. In each category, if nothing is selecte
 
 Click one of the following headings to toggle whether the activities are listed in ascending or descending order according to the selected heading.
 
-* Activity Name 
-* Activity Type
+* Type 
+* Name
 
 ![Activities list ascending order](/help/c-activities/assets/activities_list_ascending.png)
-
-## Tips and tricks {#section_F77F30A246A14B538D9363B7F3639F97}
-
-Get the most out of Adobe Target by learning more about various features and see why you should give them a try. The Tips and Tricks feature provides links to videos, use-cases, blogs, documentation, and much more.
-
-The Tips and Tricks feature displays periodically on the Activities list page. After you read or dismiss a tip, it does not display again until the next tip is available. You can optionally disable all tips from displaying by clicking the Help icon > [!UICONTROL Disable Tip of the Day].
 
 ![Disable tip of the day](/help/c-activities/assets/tip-disable-new.png)
 
