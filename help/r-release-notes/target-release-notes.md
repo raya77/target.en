@@ -25,7 +25,7 @@ This release contains the following new features and enhancements. The issue num
 
 |Feature|Details|
 | --- | --- |
-|On-device decisioning support for at.js|On-device decisioning lets marketers and developers deliver experimentation and personalization on a user's browser at near-zero latency.<br>For more information, see [On-device decisioning for at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)|
+|On-device decisioning support for at.js|On-device decisioning lets marketers and developers deliver experimentation and personalization on a user's browser at near-zero latency.<br>For more information, see [On-device decisioning for at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)<br>(Date to be announced)|
 |![Premium](/help/assets/premium.png) List-based operators for entity filtering rules|[!DNL Target Recommendations] supports new list-based operators for entity filtering rules. (TGT-39234)<br>Newly added operators include:<br><ul><li>Is Contained In List</li><li>Is Not Contained In List</li><li>List Contains An Item In</li><li>List Does Not Contain An Item In</li><li>List Contains All Items In</li><li>List Does Not Contain All Items In</li></ul>For more information, see "Available operators" in [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators).|
 
 This release contains the following fixes.
@@ -36,7 +36,7 @@ This release contains the following fixes.
 * Fixed an issue that caused properties to be mapped to the incorrect workspace. (TGT-39869)
 * Fixed an issue that caused infinite loading if the request fails after changing the environment while creating a recommendations exclusion. (TGT-39948)
 
-## at.js version 2.5.0 (April 19, 2021)
+## at.js version 2.5.0 (Date to be announced)
 
 This release of at.js includes the following enhancements and changes:
 
