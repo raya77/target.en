@@ -9,6 +9,20 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 
 This page lists significant changes made to the [!DNL Adobe Target] product documentation.
 
+## Adobe Target Standard/Premium 21.4.1 (April 19, 2021)
+
+|Date|Topic|Changes|
+| --- | --- | --- |
+|April 19, 2021|[On-device decisioning](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)|Added the following new articles:<ul><li>[On-device decisioning](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[Supported features for on-device decisioning](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[On-device decisioning rule artifact](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul>|
+||[targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning)|Added information about `decisioningMethod`.|
+||[adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)|Added the following:<ul><li>Information about the `decisioningMethod` key.</li><li>An example for "getCallOffers() to make an on-device decisioning."</li></ul>|
+||[at.js custom events](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)|Added the following information:<ul><li>On-device decisioning artifact succeeded</li><li>On-device decisioning artifact failed</li></ul>|
+||[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about at.js 2.5.0.|
+||[Activity QA](/help/c-activities/c-activity-qa/activity-qa.md)|Support for preview links for [!UICONTROL Automated Personalization] activities was added with [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).|
+||[Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators)|Added information about the following new operators:<ul><li>Is Contained In List</li><li> Is Not Contained In List</li><li>List Contains An Item In</li><li>List Does Not Contain An Item In</li><li>List Contains All Items In</li><li>List Does Not Contain All Items In</li></ul>|
+||[Adobe Target cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)<br>(*Experience Cloud Services and Administration* guide)|Added additional information about "session ID."|
+||[Release Notes](/help/r-release-notes/release-notes.md): 21.4.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
+
 ## Adobe Target Standard/Premium 21.2.1 (March 9, 2021)
 
 |Date|Topic|Changes|
