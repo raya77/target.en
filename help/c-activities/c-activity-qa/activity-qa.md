@@ -14,6 +14,9 @@ Use QA URLs in [!DNL Adobe Target] to perform easy end-to-end activity QA with p
 Activity QA lets you fully test your Target activities prior to launching them live. The Activity QA functionality includes:
 
 * Links to share with team members that never change or require regeneration, regardless of updates made to the experiences or activities. This lets you fully test your activities across the entire user journey.
+
+  Support for preview links for [!UICONTROL Automated Personalization] activities was added with [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+
 * Audience conditions optionally respected so marketers can test targeting criteria or ignore targeting criteria to QA the appearance of experiences without having to meet the audience conditions. 
 * QA reporting is captured so that marketers can confirm that metrics are incrementing as expected and the QA report data is kept separate from production reporting (for non-A4T reporting). 
 * The ability to preview an experience in isolation or in conjunction with other live activities satisfying the delivery criteria (page/Target request/audience). 
@@ -25,7 +28,7 @@ Activity QA lets you fully test your Target activities prior to launching them l
 
 ## Accessing and Sharing a QA URL {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
-1. From an activity's [!UICONTROL Overview] page (all types except Automated Personalization), click the **[!UICONTROL Activity QA]** link.
+1. From an activity's [!UICONTROL Overview] page, click the **[!UICONTROL Activity QA]** link.
 
    ![Activity QA link](assets/qa_link.png)
 

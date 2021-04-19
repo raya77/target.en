@@ -17,36 +17,31 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## at.js 2.4.1 (March 23, 2021)
+## Target Standard/Premium 21.4.1 (April 19, 2021)
 
-This release of at.js is a maintenance release and includes the following enhancements and fixes:
+This release contains the following new features and enhancements. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-* Fixed an issue with `targetPageParams` being included in mbox requests. `targetPageParams` should be included in `pageLoad` requests only. (TNT-40247)
-* Fixed an issue with document and window global objects in the [!DNL Adobe Experience Platform Launch] extension by replacing the Platform Launch global object dependencies with direct references to them. (TNT-37124)
+|Feature|Details|
+| --- | --- |
+|On-device decisioning support for at.js|On-device decisioning lets marketers and developers deliver experimentation and personalization on a user's browser at near-zero latency.<br>For more information, see [On-device decisioning for at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)|
+|![Premium](/help/assets/premium.png) List-based operators for entity filtering rules|[!DNL Target Recommendations] supports new list-based operators for entity filtering rules. (TGT-39234)<br>Newly added operators include:<br><ul><li>Is Contained In List</li><li>Is Not Contained In List</li><li>List Contains An Item In</li><li>List Does Not Contain An Item In</li><li>List Contains All Items In</li><li>List Does Not Contain All Items In</li></ul>For more information, see "Available operators" in [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators).|
 
-## IP address changes for Recommendations feed-processing servers (March 16, 2021)
+This release contains the following fixes.
 
-The [!DNL Target Recommendations] feed-processing server IP addresses were updated on March 16, 2021. For more information, see [IP addresses used by Recommendations feed-processing servers](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md).
+* Fixed an issue that prevented an activity from syncing after changing the audience to [!UICONTROL All Visitors]. (TGT-40259)
+* Fixed an issue that prevented offers from being duplicated when used in different locations in [!UICONTROL Automated Personalization] activities even though the [!UICONTROL Disallow Duplicates] option is enabled. (TGT-39567)
+* Fixed an issue that prevented the [!UICONTROL Administration] > [!UICONTROL Scene7 configuration] page from loading properly. (TGT-39918)
+* Fixed an issue that caused properties to be mapped to the incorrect workspace. (TGT-39869)
+* Fixed an issue that caused infinite loading if the request fails after changing the environment while creating a recommendations exclusion. (TGT-39948)
 
-## Target Standard/Premium 21.2.1 (March 9, 2021)
+## at.js version 2.5.0 (April 19, 2021)
 
-This maintenance release contains the following enhancements, fixes, and changes.
+This release of at.js includes the following enhancements and changes:
 
-The issue numbers in parentheses are for internal [!DNL Adobe] use.
+* [On-device decisioning](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) support for at.js.
+* [Preview links](/help/c-activities/c-activity-qa/activity-qa.md) support for Automated Personalization activities.
 
-* Increased the allowable offer size (TGT-38304):
-
-  |Type|Previous Limit|New Limit|
-  | --- | --- | --- |
-  |HTML|256 KB|1024 KB|
-  |Visual offers from the Target UI|64 KB|1024 KB for each experience|
-  |Via API|512 KB|1024 KB|
-
-* [!UICONTROL Personalization Insights] reports for [!UICONTROL Auto-Target] (AT) and [!UICONTROL Automated Personalization] (AP) activities are now produced daily. You can choose a report providing [!UICONTROL Automated Segments] or [!UICONTROL Important Attributes] for the last 15, 30, and 60 days. The 45-day and 90-day options have been removed to enable the other lookback window settings to run daily. (TGT-39472)
-* Fixed an issue that caused the current dependency to not display when customers click [!UICONTROL Edit Dependency] on an activity's [!UICONTROL Goals & Settings] page. (TGT-39340)
-* Fixed an issue when refreshing a workspace's [!UICONTROL Audience Library]. Before the refresh, the audiences for the currently selected workspace displayed. After the refresh, the [!UICONTROL Default Workspace] and its audiences displayed. The current workspace and its audiences now persist after the refresh. (TGT-38871) 
-* Fixed an issue when copying a [!UICONTROL Recommendations] activity and later editing the original activity by changing its criteria sequence. The change in the criteria sequence in the original activity was also incorrectly applied to the copied activity. (TGT-39155)
-* Fixed an issue that caused the incorrect number of products to display for [!UICONTROL Recommendations] exclusions. (TGT-39599)
+This release also removes support for Microsoft Internet Explorer 10 and above versions.
 
 ## Additional release notes and version details
 

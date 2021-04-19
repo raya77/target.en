@@ -16,6 +16,15 @@ Details about changes in each version of the [!DNL Adobe Target] at.js JavaScrip
 >
 >[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) is the preferred method to upgrade at.js. Extension developers continually add new features to their extensions, and frequently fix bugs. These updates are packaged into new versions of an extension and made available in the [!DNL Launch] catalog as upgrades. For more information, see [Extension Upgrade](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) in the *Experience Platform Launch User Guide*.
 
+## at.js 2.5.0 (April 19, 2021)
+
+This release of at.js includes the following enhancements and changes:
+
+* [On-device decisioning](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) support for at.js.
+* [Preview links](/help/c-activities/c-activity-qa/activity-qa.md) support for Automated Personalization activities
+
+This release also removes support for Microsoft Internet Explorer 10 and above versions.
+
 ## at.js 2.4.1 (March 23, 2021)
 
 This release of at.js is a maintenance release and includes the following enhancements and fixes:

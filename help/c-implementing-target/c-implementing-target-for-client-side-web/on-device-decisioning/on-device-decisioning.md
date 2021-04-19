@@ -1,22 +1,18 @@
 ---
-keywords: implementation;javascript library;js;atjs;on-device decisioning;on device decisioning;at.js
+keywords: implementation;javascript library;js;atjs;on-device decisioning;on device decisioning;at.js;on-device;on device
 description: Learn how to perform on-device decisioning with the at.js library
 title: How Does On-device Decisioning Work with the at.js JavaScript Library?
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 ---
-# On-device decisioning
+# On-device decisioning for at.js
 
->[!NOTE]
->
->The on-device decisioning functionality is scheduled to be released in the Target Standard/Premium 21.4.1 release (April 19, 2021).
-
-Starting with version 2.5, at.js offers on-device decisioning. On-device decisioning lets you cache your [A/B Test](/help/c-activities/t-test-ab/test-ab.md) and [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT) activities on the browser to perform in-memory decisioning without a blocking network request to the [!DNL Adobe Target] Edge Network. 
+Starting with version 2.5.0, at.js offers on-device decisioning. On-device decisioning lets you cache your [A/B Test](/help/c-activities/t-test-ab/test-ab.md) and [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT) activities on the browser to perform in-memory decisioning without a blocking network request to the [!DNL Adobe Target] Edge Network. 
 
 [!DNL Target] also offers the flexibility of delivering the most relevant and up-to-date experience from your experimentation and Machine Learning-driven (ML-driven) personalization activities via a live server call. In other words, when performance is most important, you can choose to use on-device decisioning. However, when the most relevant, up-to-date, and ML-driven experience is needed, a server call can be made instead.
 
-## What are the benefits?
+## What are the benefits of on-device decisioning?
 
 The benefits of on-device decisioning include:
 
@@ -49,7 +45,7 @@ With on-device decisioning, [!DNL Target] introduces a new setting called [!UICO
 
 ### Server-side only
 
-[!UICONTROL Server-side only] is the default decisioning method that is set out of the box when at.js 2.5+ is implemented and deployed on your web properties.
+[!UICONTROL Server-side only] is the default decisioning method that is set out of the box when at.js 2.5.0+ is implemented and deployed on your web properties.
 
 Using [!UICONTROL server-side only] as the default configuration means that all decisions are made on the [!DNL Target] edge network, which involves a blocking server call. This approach can introduce incremental latency, but it also provides significant benefits, such as giving you the ability to apply Target’s machine-learning capabilities that include [Recommendations](/help/c-recommendations/recommendations.md), [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP), and [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) activities. 
 
@@ -57,7 +53,7 @@ Furthermore, enhancing your personalized experiences by using Target’s user pr
 
 Lastly, [!UICONTROL server-side only] lets you use the Adobe Experience Cloud and fine-tune audiences that can be targeted against through Audience Manager and Adobe Analytics segments. 
 
-The following diagram illustrates the interaction between your visitor, the browser, at.js 2.5+, and the Adobe Target Edge network. This flow diagram captures new visitors and returning visitors.
+The following diagram illustrates the interaction between your visitor, the browser, at.js 2.5.0+, and the Adobe Target Edge network. This flow diagram captures new visitors and returning visitors.
 
 ![Server-side only flow diagram](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/server-side-only.png)
 
@@ -82,15 +78,15 @@ The following list corresponds to the numbers in the diagram:
 
 ### On-device only
 
-[!UICONTROL On-Device only] is the decisioning method that must be set in at.js 2.5+ when on-device decisioning should be used only throughout your web pages. 
+[!UICONTROL On-Device only] is the decisioning method that must be set in at.js 2.5.0+ when on-device decisioning should be used only throughout your web pages. 
 
 On-device decisioning can deliver your experiences and personalization activities at blazing fast speed because the decisions are made from a cached rules artifact that contains all of your activities that qualify for on-device decisioning. 
 
 To learn more about which activities qualify for on-device decisioning, see [Supported features in on-device decisioning](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md). 
 
-This decisioning method should be used only if performance is highly critical across all the pages that require decisions from [!DNL Target]. Furthermore, keep in mind that when this decisioning method is selected, your [!DNL Target] activities that do not qualify for on-device decisioning will not be delivered or executed. The at.js library 2.5+ is configured to only look for the cached rules artifact to make decisions.  
+This decisioning method should be used only if performance is highly critical across all the pages that require decisions from [!DNL Target]. Furthermore, keep in mind that when this decisioning method is selected, your [!DNL Target] activities that do not qualify for on-device decisioning will not be delivered or executed. The at.js library 2.5.0+ is configured to only look for the cached rules artifact to make decisions.  
 
-The following diagram illustrates the interaction between your visitor, the browser, at.js 2.5+, and the Akamai CDN. The Akamai CDN caches the rules artifact for the visitor's first visit. For the first page visit for a new visitor, the JSON rules artifact must be downloaded from the Akamai CDN to be cached locally on the visitor's browser. After the JSON rules artifact is downloaded, the decision is made immediately without a blocking network call. The following flow diagram captures new visitors.
+The following diagram illustrates the interaction between your visitor, the browser, at.js 2.5.0+, and the Akamai CDN. The Akamai CDN caches the rules artifact for the visitor's first visit. For the first page visit for a new visitor, the JSON rules artifact must be downloaded from the Akamai CDN to be cached locally on the visitor's browser. After the JSON rules artifact is downloaded, the decision is made immediately without a blocking network call. The following flow diagram captures new visitors.
 
 ![On-device only flow diagram](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/on-device-only.png)
 
@@ -115,7 +111,7 @@ The following list corresponds to the numbers in the diagram:
 |11|The entire web page loads.| 
 |12|[!DNL Analytics] data is sent to Data Collection servers. Targeted data is matched to [!DNL Analytics] data via the SDID and is processed into the [!DNL Analytics] reporting storage. [!DNL Analytics] data can then be viewed in both [!DNL Analytics] and [!DNL Target] via Analytics for Target (A4T) reports.|
 
-The following diagram illustrates the interaction between your visitor, the browser, at.js 2.5+, and the cached JSON rule artifact for the visitor's subsequent page hit or returning visit. Because the JSON rules artifact is already cached and available on the browser, the decision is made immediately without a blocking network call. This flow diagram captures subsequent page navigation or returning visitors.
+The following diagram illustrates the interaction between your visitor, the browser, at.js 2.5.0+, and the cached JSON rule artifact for the visitor's subsequent page hit or returning visit. Because the JSON rules artifact is already cached and available on the browser, the decision is made immediately without a blocking network call. This flow diagram captures subsequent page navigation or returning visitors.
 
 ![On-device only flow diagram for subsequent page navigation and repeat visits](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/on-device-only-subsequent.png)
 
@@ -140,13 +136,13 @@ The following list corresponds to the numbers in the diagram:
 
 ### Hybrid
 
-[!UICONTROL Hybrid] is the decisioning method that must be set in at.js 2.5+ when both on-device decisioning and activities that require a network call to the Adobe Target Edge network must be executed. 
+[!UICONTROL Hybrid] is the decisioning method that must be set in at.js 2.5.0+ when both on-device decisioning and activities that require a network call to the Adobe Target Edge network must be executed. 
 
 When you are managing both on-device decisioning activities and server-side activities, it can be a bit complicated and tedious when thinking about how to deploy and provision [!DNL Target] on your pages. With hybrid as the decisioning method, [!DNL Target] knows when it must make a server call to the Adobe Target Edge network for activities that require server-side execution, and also when to only execute on-device decisions. 
 
 The JSON rules artifact includes metadata to inform at.js whether an mbox has a server-side activity running or an on-device decisioning activity. This decisioning method ensures that activities you intend to be delivered quickly are done through on-device decisioning and for activities that require more powerful ML-driven personalization, those activities are done via the Adobe Target Edge network.
 
-The following diagram illustrates the interaction between your visitor, the browser, at.js 2.5+, the Akamai CDN, and the Adobe Target Edge Network for a new visitor visiting your page for the first time. The takeaway from this diagram is that the JSON rules artifact is downloaded asynchronously while the decisions are made through the Adobe Target Edge network. 
+The following diagram illustrates the interaction between your visitor, the browser, at.js 2.5.0+, the Akamai CDN, and the Adobe Target Edge Network for a new visitor visiting your page for the first time. The takeaway from this diagram is that the JSON rules artifact is downloaded asynchronously while the decisions are made through the Adobe Target Edge network. 
 
 This approach ensures that the size of the artifact, which can include many activities, doesn’t negatively influence the latency of the decision. Downloading the JSON rules artifact synchronously and making the decision thereafter can also have adverse effects to latency and can be inconsistent. Therefore, the hybrid decisioning method is a best practice recommendation to always make a server-side call for the decision for a new visitor, and as the JSON rules artifact is cached in parallel. For any subsequent page visits and return visits, the decisions are made from the cache and in-memory through the JSON rules artifact.
 
@@ -176,7 +172,7 @@ The following list corresponds to the numbers in the diagram:
 |14|The entire web page loads.|
 |15|[!DNL Analytics] data is sent to Data Collection servers. Targeted data is matched to [!DNL Analytics] data via the SDID and is processed into the [!DNL Analytics] reporting storage. [!DNL Analytics] data can then be viewed in both [!DNL Analytics] and [!DNL Target] via [!UICONTROL Analytics for Target] (A4T) reports.|
 
-The following diagram illustrates the interaction between your visitor, the browser, at.js 2.5+, and the cached JSON rules artifact for a subsequent page navigation or a return visit. In this diagram, focus only on the use case that an on-device decision is made for the subsequent page navigation or return visit. Keep in mind that depending on which activities are live for certain pages, a server-side call can be made to execute server-side decisions.
+The following diagram illustrates the interaction between your visitor, the browser, at.js 2.5.0+, and the cached JSON rules artifact for a subsequent page navigation or a return visit. In this diagram, focus only on the use case that an on-device decision is made for the subsequent page navigation or return visit. Keep in mind that depending on which activities are live for certain pages, a server-side call can be made to execute server-side decisions.
 
 ![Hybrid flow diagram for subsequent page navigation and repeat visits](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/hybrid-subsequent.png)
 
@@ -202,7 +198,7 @@ The following list corresponds to the numbers in the diagram:
 
 ## How do I enable on-device decisioning?
 
-On-device decisioning is available for all [!DNL Target] customers who use At.js 2.5+. 
+On-device decisioning is available for all [!DNL Target] customers who use At.js 2.5.0+. 
 
 To enable on-device decisioning:
 
@@ -226,10 +222,10 @@ After enabling the [!UICONTROL On-Device Decisioning] toggle, [!DNL Target] begi
 >
 >Make sure you enable the toggle before you initialize the Adobe Target SDK to use on-device decisioning. The rule artifacts first need to generate and propagate to the Akamai CDNs for on-device decisioning to work. Propagation can take five to ten minutes for the first rule artifact to generate and propagate to the Akamai CDN.
 
-## How do I configure at.js 2.5+ to use on-device decisioning?
+## How do I configure at.js 2.5.0+ to use on-device decisioning?
 
 1. Click **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Account details]**.
-1. Under **[!UICONTROL Implementation Methods]** > **[!UICONTROL Main Implementation Method]**, click **[!UICONTROL Edit]** next to your at.js version (must be at.js 2.5 or later).
+1. Under **[!UICONTROL Implementation Methods]** > **[!UICONTROL Main Implementation Method]**, click **[!UICONTROL Edit]** next to your at.js version (must be at.js 2.5.0 or later).
  
    ![Edit Main Implementation Method settings](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/main-implementation-method.png)
 
@@ -267,7 +263,7 @@ You can configure a default [!UICONTROL Decisioning Method] for all of [!DNL Tar
 
 ### Customized setting
 
-If you set the `decisioningMethod` in `window.targetGlobalSettings`, but would like to override the `decisioningMethod` for each Adobe Target decision according to your use case, you can do this procedure by specifying `decisioningMethod` in At.js2.5+’s [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) call.
+If you set the `decisioningMethod` in `window.targetGlobalSettings`, but would like to override the `decisioningMethod` for each Adobe Target decision according to your use case, you can do this procedure by specifying `decisioningMethod` in At.js2.5.0+’s [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) call.
 
 ```javascript
 adobe.target.getOffers({ 
@@ -288,7 +284,7 @@ adobe.target.getOffers({
 
 >[!NOTE]
 >
->In order to use “on-device” or “hybrid” as a decisioning method in the getOffers() call, ensure that the global setting has `decisioningMethod` as “on-device” or “hybrid.” The at.js library 2.5+ must know whether to download and cache the JSON rules artifact immediately after loading on the page. If the decisioning method for the global setting is set to “server-side”, and “on-device” or “hybrid” decisioning method is passed into the getOffers() call, at.js 2.5+ would not have the JSON rule artifact cached to execute your on-device decisions.
+>In order to use “on-device” or “hybrid” as a decisioning method in the getOffers() call, ensure that the global setting has `decisioningMethod` as “on-device” or “hybrid.” The at.js library 2.5.0+ must know whether to download and cache the JSON rules artifact immediately after loading on the page. If the decisioning method for the global setting is set to “server-side”, and “on-device” or “hybrid” decisioning method is passed into the getOffers() call, at.js 2.5.0+ would not have the JSON rule artifact cached to execute your on-device decisions.
 
 ### Artifact Cache TTL
 
@@ -302,7 +298,7 @@ After you create an activity that is on-device decisioning eligible, a label tha
 
 ![On-Device Decisioning Eligible label on the activity's Overview page.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/on-device-decisioning-eligible-label.png)
 
-This label does not mean that the activity will always be delivered via on-device decisioning. Only when at.js 2.5+ is configured to use on-device decisioning will this activity be executed on-device. If at.js 2.5+ is not configured to use on-device, then this activity will still be delivered via a server call that is made from at.js.
+This label does not mean that the activity will always be delivered via on-device decisioning. Only when at.js 2.5.0+ is configured to use on-device decisioning will this activity be executed on-device. If at.js 2.5.0+ is not configured to use on-device, then this activity will still be delivered via a server call that is made from at.js.
 
 You can filter for all activities that are on-device decisioning eligible on the [!UICONTROL Activities] page via the [!UICONTROL On-Device Decisioning Eligible] filter.
 
@@ -312,7 +308,7 @@ You can filter for all activities that are on-device decisioning eligible on the
 >
 >After creating and activating an activity that is on-device decisioning eligible, it can take five to ten minutes before it is included in the rules artifact that is generated and propagated to the Akamai CDN point of presences.
 
-## Summary of steps to ensure my on-device decisioning activities are delivered via At.js 2.5+?
+## Summary of steps to ensure my on-device decisioning activities are delivered via At.js 2.5.0+?
 
 1. Access the Adobe Target UI and navigate to **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!DNL Account Details]** to enable the **[!UICONTROL On-Device Decisioning]** toggle. 
 1. Enable the **"[!UICONTROL Include all existing on-device decisioning qualified activities in the artifact]"** toggle. 
@@ -321,4 +317,4 @@ You can filter for all activities that are on-device decisioning eligible on the
 
 1. Create and activate an [activity type that is supported by on-device decisioning](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md), and verify that it is on-device decisioning eligible. 
 1. Set the **[!UICONTROL Decisioning Method]** to either **[!UICONTROL “Hybrid”]** or **[!UICONTROL “On-device only”]** through the at.js settings UI. 
-1. Download and deploy At.js 2.5+ to your pages.
+1. Download and deploy At.js 2.5.0+ to your pages.
