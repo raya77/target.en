@@ -1,11 +1,11 @@
 ---
 keywords: recommendations;frequently asked questions;faq
-description: Review a list of frequently asked questions (FAQs) and their answers about Adobe Target Recommendations designs.
-title: Where Can I Answers to Design Questions for Target Recommendations?
+description: Review a list of frequently asked questions (FAQs) and their answers about Adobe [!DNL Target] Recommendations designs.
+title: Where Can I Answers to Design Questions for [!DNL Target] Recommendations?
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 ---
-# ![PREMIUM](/help/assets/premium.png) Design FAQ {#design-faq}
+# ![PREMIUM](/help/assets/premium.png) Design FAQ 
 
 List of frequently asked questions (FAQs) about [!DNL Adobe Target] recommendations designs.
 

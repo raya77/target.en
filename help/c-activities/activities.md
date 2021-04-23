@@ -1,6 +1,6 @@
 ---
 keywords: activities list;activities;activity;activity types;edit activity;activity actions;activity attribute;activity list filter;activity limitations;personalize;personalization
-description: Learn how activities in Adobe Target let you personalize content to specific audiences and test page designs
+description: Learn how activities in Adobe [!DNL Target] let you personalize content to specific audiences and test page designs
 title: How Can I Personalize Content and Test Page Designs with Target?
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
@@ -137,7 +137,7 @@ Increasing the numbers of these items in your activity also increases the length
 
 For additional limits of the Visual Experience Composer, see [Visual Experience Composer Limitations](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
 
-## Attributes imported into Target for activities updated outside of Target {#section_802B0D174E6A44E1A96F404CA81AAE44}
+## Attributes imported into [!DNL Target] for activities updated outside of [!DNL Target] {#section_802B0D174E6A44E1A96F404CA81AAE44}
 
 If activities created in [!DNL Target] are updated from outside of [!DNL Target] (for example, via Adobe I/O), the following activity attributes are imported back into [!DNL Target]:
 

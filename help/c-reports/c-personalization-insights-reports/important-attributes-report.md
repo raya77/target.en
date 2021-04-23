@@ -1,11 +1,11 @@
 ---
 keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;faq;frequently asked questions;important attributes
-description: Learn how to use the Important Attributes report in Adobe Target that shows the top attributes that influenced the personalization model and their relative importance.
+description: Learn how to use the Important Attributes report in Adobe [!DNL Target] that shows the top attributes that influenced the personalization model and their relative importance.
 title: What Is the Important Attributes Report?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
 ---
-# ![PREMIUM](/help/assets/premium.png) Important Attributes report{#important-attributes-report}
+# ![PREMIUM](/help/assets/premium.png) Important Attributes report
 
 Information about the Important Attributes report, one of the two specialized reports available to users of Automated Personalization (AP) and Auto-Target (AT) activities.
 

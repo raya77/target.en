@@ -1,6 +1,6 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Read tips from our panel of experts about using Adobe Target as part of your testing and personalization efforts.
+description: Read tips from our panel of experts about using Adobe [!DNL Target] as part of your testing and personalization efforts.
 title: Where Can I Find Tips and Tricks for Using Target?
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
@@ -21,7 +21,7 @@ See [Custom attributes](https://experienceleague.adobe.com/docs/target/using/aud
 
 See [Methods to get data into Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md) for more information.
 
-## Tip 2: Personalize more deeply by blending Target audiences with other Adobe Experience Cloud audiences.
+## Tip 2: Personalize more deeply by blending [!DNL Target] audiences with other Adobe Experience Cloud audiences.
 
 Blending audiences that live in different [!DNL Adobe Experience Cloud] solutions can give you a much broader understanding of your customers, as well as the ability to personalize more deeply. For example, although [!DNL Target] provides real-time audience data, [!DNL Adobe Analytics] provides historical audience data. Combining the two can help you identify when a customer’s behavior is consistent, and when there might be an opportunity to act on a new behavior. Simply click the drop-down menu next to “All Visitors” when creating an activity. Next, check the boxes of up to twenty audiences, click “Combine Multiple Audiences,” and click “Save.”
 
@@ -29,7 +29,7 @@ See [Combining multiple audiences](/help/c-target/combining-multiple-audiences.m
 
 **Good to know**: [!DNL Adobe Audience Manager] audiences are available in [!DNL Target] automatically. But [!DNL Adobe Analytics] audience sharing requires a bit of manual set up. Simply check the box labeled “Make this an Experience Cloud audience” during the audience building process in [!DNL Analytics]. Then from [!DNL Target], click “Import Experience Cloud audiences.”
 
-## Tip 3: Export data from Target to use with third-party tools.
+## Tip 3: Export data from [!DNL Target] to use with third-party tools.
 
 With response tokens, administrators can easily get data out of [!DNL Target] and into third-party tools. This can be helpful when you want to add your data to data collected in a survey tool. For example, if a survey shows a sample of a population scored an experience a “9,” and another scored an experience a “4,” you can use your data to see who saw experience A and who saw experience B. You can also use response tokens to export [!DNL Target] data to your internal data warehouse. Simply click “Administration,” then toggle the switch next to the desired Response Token to the on position. Next, create an activity. The data is then ready to be transferred to the third-party vendor. You can verify that [!DNL Target] is exporting the data using debugging tools.
 

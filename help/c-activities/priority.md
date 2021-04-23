@@ -1,7 +1,7 @@
 ---
 keywords: settings;priority
-description: Learn how Adobe Target determines which activity (or activities) to deliver to a page differently depending on which Target interface and which activity creation function you're using.
-title: How Does Target Assign Priority to Different Activities?
+description: Learn how Adobe [!DNL Target] determines which activity (or activities) to deliver to a page differently depending on which [!DNL Target] interface and which activity creation function you're using.
+title: How Does [!DNL Target] Assign Priority to Different Activities?
 feature: Activities
 exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
 ---
@@ -9,7 +9,7 @@ exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
 
 Target determines which activity (or activities) to deliver to a page differently depending on which Target interface and which activity creation function (Visual Experience Composer or Form Based composer) you're using.
 
-## Target Standard/Premium Visual Experience Composer Only or Form-Based Composer Using Global Target Request Only {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## Target Standard/Premium Visual Experience Composer Only or Form-Based Composer Using Global [!DNL Target] Request Only {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 If your company uses Target Standard/Premium and the Visual Experience Composer exclusively, then content from multiple activities can be returned for the same call. Activities are delivered using the following decision flow:
 
@@ -33,7 +33,7 @@ If your company uses Target Standard/Premium and the Visual Experience Composer 
     * If only one activity has audience targeting, that activity is displayed. 
     * If all or none have targeting, then the activity that was approved first is displayed.
 
-## Target Standard/Premium Form-Based Composer and Target Standard/Premium Visual Experience Composer {#section_4620253E1CE942DD830724C7822B175F}
+## Target Standard/Premium Form-Based Composer and [!DNL Target] Standard/Premium Visual Experience Composer {#section_4620253E1CE942DD830724C7822B175F}
 
 >[!NOTE]
 >
@@ -58,7 +58,7 @@ If you have two activities, one targeting the branded search keyword Nike and th
 
 If both targeted activities have the same priority, the activity that was most recently viewed is displayed. If the visitor is new to the page, the activity that was activated most recently is displayed.
 
-## Target Standard/Premium Form-Based Composer with Non-Global Target Requests {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## Target Standard/Premium Form-Based Composer with Non-Global [!DNL Target] Requests {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >

@@ -17,7 +17,7 @@ After identifying those audiences, conduct user experience testing and market re
 
 For example, when a visitor who falls into a “serious gamer” audience for a telecommunications company visits the company’s website, deliver an experience that includes copy and imagery that resonates with gamers and an offer for high- speed internet.
 
-## Idea 2: Target first-time visitors and repeat customers differently.
+## Idea 2: [!DNL Target] first-time visitors and repeat customers differently.
 
 Digital marketers intuitively recognize that existing customers are more valuable than new ones, but they too often fail to prioritize marketing programs designed to keep customers coming back. To avoid this common pitfall, analyze your repeat customer metrics to determine how loyal customers behave on your site. Use these insights to create targeted campaigns for visitors with one or two purchases, offering incentives that encourage them to make additional site visits.
 

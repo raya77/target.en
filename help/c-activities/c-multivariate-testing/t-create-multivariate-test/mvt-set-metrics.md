@@ -1,6 +1,6 @@
 ---
 keywords: multivariate;mvt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
-description: Learn how to specify metrics in an Adobe Target Multivariate Test activity to determine when a visit is successful, such as Conversion, Revenue, and Engagement.
+description: Learn how to specify metrics in an Adobe [!DNL Target] Multivariate Test activity to determine when a visit is successful, such as Conversion, Revenue, and Engagement.
 title: How Do I Set Goal Metrics in a Multivariate Test (MVT) Activity?
 feature: Multivariate Tests
 exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208

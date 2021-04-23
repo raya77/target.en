@@ -1,11 +1,11 @@
 ---
 keywords: reports;download reports;csv;success metrics;order details
-description: Learn how to download data from Adobe Target activities in a CVS format for quick import into Excel, Access, or other data analysis programs.
+description: Learn how to download data from Adobe [!DNL Target] activities in a CVS format for quick import into Excel, Access, or other data analysis programs.
 title: How Do I Download Report Data In A CSV File?
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
 ---
-# Downloading data in a CSV file{#downloading-data-in-a-csv-file}
+# Downloading data in a CSV file
 
 Download data in a .csv format for quick import into Excel, Access, or other data analysis programs.
 

@@ -1,7 +1,7 @@
 ---
 keywords: mobile app;frequently asked questions;faq;target mobile app
-description: View frequently asked questions and their answers about Adobe Target for mobile apps.
-title: What Are Frequently Asked Questions About Target for Mobile Apps?
+description: View frequently asked questions and their answers about Adobe [!DNL Target] for mobile apps.
+title: What Are Frequently Asked Questions About [!DNL Target] for Mobile Apps?
 feature: Implement Mobile
 role: Developer
 exl-id: 1ddd8345-e753-4608-9293-939e092cb16d
@@ -26,10 +26,10 @@ See the [Adobe Places documentation](https://placesdocs.com/places-services-by-a
 
 No, you don’t need at.js to use the mobile SDKs. at.js is the [!DNL Target] JavaScript library for websites. The Adobe Experience Platform Mobile SDKs are for mobile apps.
 
-## Is Target Mobile a functionality of Adobe Target Premium Product SKU only?
+## Is [!DNL Target] Mobile a functionality of Adobe [!DNL Target] Premium Product SKU only?
 
 No. For [!DNL Adobe Target Standard] customers, you can use our Mobile SDKs for A/B Test and Experience Targeting (XT) activities only with the [!DNL Target Standard] Mobile App add-on. If you want to use Recommendations or AI-powered features in the mobile app, you need an [Adobe Target Premium](/help/c-intro/intro.md#premium) license.
 
-## Is there a mobile app integration between Adobe Experience Manager (AEM) and Target mobile activities?
+## Is there a mobile app integration between Adobe Experience Manager (AEM) and [!DNL Target] mobile activities?
 
 It is on our roadmap but there is no timeline yet. Currently, you can share JSON [Experience Fragments](/help/c-experiences/c-manage-content/aem-experience-fragments.md) from AEM to Target and there might be potential to then use them in a mobile app activity.

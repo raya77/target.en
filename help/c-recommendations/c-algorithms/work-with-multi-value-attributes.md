@@ -1,6 +1,6 @@
 ---
 keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
-description: Learn how to work with a multi-value field in Adobe Target Recommendations using special multi-value operators, for example, when recommending movies with multiple actors.
+description: Learn how to work with a multi-value field in Adobe [!DNL Target] Recommendations using special multi-value operators, for example, when recommending movies with multiple actors.
 title: Can I Use Multi-Value Attributes in Recommendations?
 feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b

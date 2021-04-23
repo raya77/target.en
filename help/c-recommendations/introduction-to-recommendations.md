@@ -1,6 +1,6 @@
 ---
 keywords: Recommendations;intro;introduction;webinar;demo
-description: Learn about Recommendations activities in Adobe Target that automatically display content that might interest your customers based on previous user activity or other algorithms.
+description: Learn about Recommendations activities in Adobe [!DNL Target] that automatically display content that might interest your customers based on previous user activity or other algorithms.
 title: What Are Recommendations Activities?
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
@@ -50,7 +50,7 @@ Great recommendations should be relevant and personalized. This means you need t
 * **Sophisticated models** to make sense of millions of items in your catalog and interaction events. [!DNL Target] has sophisticated machine learning capabilities built over a decade of experience and we handle billions of recommendations per year.
 * **User context** to ensure that recommendations are timely and relevant to your users. You don’t want to recommend the video that someone just watched or the shirt that someone just added to their cart. Target’s rich user profile can be used in recommendations to ensure personalization.
 
-## Implement Target Recommendations
+## Implement [!DNL Target] Recommendations
 
 Start with a strategy.
 
@@ -188,6 +188,6 @@ For example, in the content context, you might want to exclude movies that the v
 
 After you complete the tasks illustrated in the recommendation funnel describe above, you are left with your final recommendation. To watch an in-product demonstration inside [!DNL Target], the demo begins at 21:00 in the *Adobe Target Basics Webinar*, linked to below.
 
-## Adobe Target Basics Webinar: Introduction to Recommendations {#intro-to-recs}
+## Adobe [!DNL Target] Basics Webinar: Introduction to Recommendations {#intro-to-recs}
 
 [Introduction to Recommendations](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)

@@ -1,6 +1,6 @@
 ---
 keywords: client care;cname;certificate program;canonical name;cookies;certificate;amc;adobe managed certificate;digicert;domain control validation;dcv
-description: Work with Adobe Client Care to implement CNAME (Canonical Name) support in Adobe Target to handle ad-blocking issues or ITP-related cookie policies.
+description: Work with Adobe Client Care to implement CNAME (Canonical Name) support in Adobe [!DNL Target] to handle ad-blocking issues or ITP-related cookie policies.
 title: How Do I Use CNAME in Target?
 feature: Privacy & Security
 role: Developer
@@ -72,7 +72,7 @@ Most customers choose a hostname like `target.example.com`. Adobe recommends fol
 
 No, [!DNL Target] requires a separate hostname and certificate.
 
-### Is my current implementation of Target impacted by ITP 2.x?
+### Is my current implementation of [!DNL Target] impacted by ITP 2.x?
 
 In a Safari browser, navigate to your website on which you have a [!DNL Target] JavaScript library. If you see a [!DNL Target] cookie set in the context of a CNAME, such as `analytics.company.com`, then you are not impacted by ITP 2.x.
 

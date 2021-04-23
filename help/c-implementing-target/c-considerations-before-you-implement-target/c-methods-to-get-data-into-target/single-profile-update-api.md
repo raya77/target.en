@@ -1,7 +1,7 @@
 ---
 keywords: implement;implementing;setting up;setup;single profile update
-description: Get data into Target using the single profile update API.
-title: How Do I Get Data into Target Using the Single Profile Update API?
+description: Get data into [!DNL Target] using the single profile update API.
+title: How Do I Get Data into [!DNL Target] Using the Single Profile Update API?
 feature: Implementation
 role: Developer
 exl-id: 8331866c-0b84-4d08-83b4-f7f82c67cd21

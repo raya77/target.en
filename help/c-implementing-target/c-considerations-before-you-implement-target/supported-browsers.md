@@ -1,7 +1,7 @@
 ---
 keywords: Browsers;Prerequisites;Requirements;internet explorer;chrome;firefox;safari;android;surface
-description: Learn which internet browsers Adobe Target supports for its interface and for content delivery.
-title: What Browsers Does Target Support?
+description: Learn which internet browsers Adobe [!DNL Target] supports for its interface and for content delivery.
+title: What Browsers Does [!DNL Target] Support?
 feature: Implementation
 role: Developer
 exl-id: 8a366c79-d944-4d44-be5a-7c4f65385beb

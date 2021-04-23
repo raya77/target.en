@@ -1,11 +1,11 @@
 ---
 keywords: analytics for target;a4t;analytics as the reporting source
-description: Learn how to use Analytics for Target (A4T). The A4T integration gives you access to robust Adobe Analytics reports for your Adobe Target activities.
-title: How Do I Use Analytics for Target (A4T) Reporting?
+description: Learn how to use Analytics for [!DNL Target] (A4T). The A4T integration gives you access to robust Adobe Analytics reports for your Adobe [!DNL Target] activities.
+title: How Do I Use Analytics for [!DNL Target] (A4T) Reporting?
 feature: Analytics for Target (A4T)
 exl-id: 43d31231-e258-458e-b371-08214fd903b9
 ---
-# Analytics for Target (A4T) reporting{#analytics-for-target-a-t-reporting}
+# Analytics for [!DNL Target] (A4T) reporting
 
 Using Analytics as your reporting source for Target (A4T) gives you access to Analytics reports for your Target activities.
 

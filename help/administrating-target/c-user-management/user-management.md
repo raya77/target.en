@@ -1,12 +1,12 @@
 ---
 keywords: add user;manage user;user permissions
-description: Learn how to manage users in Adobe Target Standard and manage enterprise properties and permissions in Adobe Target Premium.
+description: Learn how to manage users in Adobe [!DNL Target] Standard and manage enterprise properties and permissions in Adobe [!DNL Target] Premium.
 title: How Do I Configure User Management?
 feature: Administration & Configuration
 role: Administrator
 exl-id: 3bf0c23c-7382-43d2-af54-734221063872
 ---
-# User management{#user-management}
+# User management
 
 Information about managing users in [!DNL Target] Standard and managing enterprise [!UICONTROL Properties] and [!UICONTROL Permissions] in [!DNL Target] Premium.
 

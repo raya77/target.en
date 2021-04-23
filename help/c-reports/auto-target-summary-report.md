@@ -5,7 +5,7 @@ title: How Do I Use the Auto-Target Summary Report?
 feature: Reports
 exl-id: 098fcc0e-8e17-4898-ab2f-ec74472562ff
 ---
-# ![PREMIUM](/help/assets/premium.png) Auto-Target Summary report{#auto-target-summary-report}
+# ![PREMIUM](/help/assets/premium.png) Auto-Target Summary report
 
 Information about how to interpret the [!UICONTROL Auto-Target Summary] reports in [!DNL Adobe Target].
 

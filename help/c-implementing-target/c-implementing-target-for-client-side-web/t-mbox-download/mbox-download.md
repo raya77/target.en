@@ -1,7 +1,7 @@
 ---
 keywords: implementation;mbox;download mbox.js;download api;mbox.js api
 description: Learn about the legacy mbox.js implementation of Adobe Target. Migrate to the Adobe Experience Platform Web SDK (AEP Web SDK) or to the latest version of at.js.
-title: How Do I Implement Target with mbox.js?
+title: How Do I Implement [!DNL Target] with mbox.js?
 feature: at.js
 role: Developer
 exl-id: 105095d7-8e29-413b-a7f4-e46e2e30e91f

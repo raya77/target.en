@@ -49,7 +49,7 @@ The following sections contain troubleshooting information about activities, sep
 * [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)
 * [Design FAQ](/help/c-recommendations/c-design-overview/template-faq.md)
 
-## Analytics and Target integration (A4T)
+## Analytics and [!DNL Target] integration (A4T)
 
 * [Troubleshooting Analytics and Target integration](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
 * "Office Hours" video, an initiative led by the Adobe Customer Care team. See [Adobe Analytics as the Reporting Source for Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).

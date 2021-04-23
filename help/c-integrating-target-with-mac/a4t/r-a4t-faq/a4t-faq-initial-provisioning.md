@@ -1,11 +1,11 @@
 ---
 keywords: faq;frequently asked questions;analytics for target;a4t;provisioning;provisioning;adobe Experience Cloud
-description: Find answers to questions that are frequently asked about provisioning Analytics for Target (A4T), which lets you use Analytics reporting for Target activities.
+description: Find answers to questions that are frequently asked about provisioning Analytics for [!DNL Target] (A4T), which lets you use Analytics reporting for [!DNL Target] activities.
 title: Where Can I Find Information about A4T Initial Provisioning?
 feature: Analytics for Target (A4T)
 exl-id: 4b098444-3e5b-45e3-b635-1857c2c8d183
 ---
-# Initial provisioning - A4T FAQ{#initial-provisioning-a-t-faq}
+# Initial provisioning - A4T FAQ
 
 This topic contains answers to questions that are frequently asked about provisioning [!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T).
 
@@ -17,7 +17,7 @@ To implement a basic multi-page A4T use-case:
 
 * For the remaining pages on the site, where just the Analytics metrics are to be tracked, implement Analytics on those pages. It is not necessary to implement Target on those pages. The Analytics metrics captured across those pages are automatically stitched to the Target activity the user initially qualified for, based on the Target information attached to that visitor from the preceding bullet.
 
-## How can I tell whether A4T is enabled on my Target account? {#section_4437D284448F4313BF953D4B6EDBACA6}
+## How can I tell whether A4T is enabled on my [!DNL Target] account? {#section_4437D284448F4313BF953D4B6EDBACA6}
 
 Before a report suite can be selected when defining an Analytics activity, you need both an Analytics user account and a Target user account. Your user accounts must be configured as described in the documentation. See [User Permission Requirements](/help/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083).
 
@@ -41,6 +41,6 @@ See "Why are my report suites not loading?" Above. The root cause of this proble
 
 See "Why are my report suites not loading?" above. The root cause of this problem is the same.
 
-## Why are my reports in Target empty? {#section_3837104757464CB488C5A83014A669A1}
+## Why are my reports in [!DNL Target] empty? {#section_3837104757464CB488C5A83014A669A1}
 
 See "Why are my report suites not loading?" above. The root cause of this problem is the same.

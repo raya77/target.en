@@ -26,7 +26,7 @@ Consult the following FAQs and answers as you work with [!UICONTROL Auto-Target]
 
 * Try not to make substantial changes to the experiences during the course of the activity.
 
-### Do you recommend that we use Auto Target with a 90(Control)/10(Targeted) split until the models are built?
+### Do you recommend that we use Auto [!DNL Target] with a 90(Control)/10(Targeted) split until the models are built?
 
 Your optimal traffic allocation split depends on what you want to accomplish.
 

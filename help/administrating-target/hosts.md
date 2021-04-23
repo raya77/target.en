@@ -57,7 +57,7 @@ To sort the [!UICONTROL Hosts] list, click any column header ([!UICONTROL Name],
 
 To search the [!UICONTROL Hosts] list, type a search term in the [!UICONTROL Search Hosts] box.
 
-## Create allowlists that specify hosts that are authorized to send Target requests to Target. {#allowlist}
+## Create allowlists that specify hosts that are authorized to send [!DNL Target] requests to [!DNL Target]. {#allowlist}
 
 You can create an allowlist that specifies hosts (domains) that are authorized to send [!DNL Target] requests to [!DNL Target]. All other hosts generating requests get a commented-out authorization error response. By default, any host that contains a [!DNL Target] request registers with [!DNL Target] in the [!UICONTROL Production] environment and has access to all active and approved activities. If this approach is not desired, you can instead use the allowlist to record specific hosts that are eligible to make [!DNL Target] requests and receive [!DNL Target] content. All hosts continue to display in the [!UICONTROL Hosts] list, and environments can still be used to group these hosts and assign different levels to each, such as whether the host can see active and/or inactive activities.
 

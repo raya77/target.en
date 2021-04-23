@@ -1,11 +1,11 @@
 ---
 keywords: recommendations design;template;create design;delivery;output
-description: Learn how to use designs in Adobe Target Recommendations to define how recommendations appear on a page (1X4, 1X6, 2X2, and so forth).
+description: Learn how to use designs in Adobe [!DNL Target] Recommendations to define how recommendations appear on a page (1X4, 1X6, 2X2, and so forth).
 title: How Do I Use Designs in Recommendations?
 feature: Recommendations
 exl-id: 348b1d77-49c9-4a6b-ba85-7ba051713d5b
 ---
-# Design overview{#design-overview}
+# Design overview
 
 Designs in [!DNL Adobe Target Recommendations] define how recommendations appear on a page. Designs define the layout and format of your recommendations to improve visitor engagement, conversion, and revenue.
 

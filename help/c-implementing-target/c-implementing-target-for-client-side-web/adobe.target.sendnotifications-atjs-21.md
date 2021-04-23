@@ -1,6 +1,6 @@
 ---
 keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications;send notifications;notifications;at.js;functions;function
-description: Use adobe.target.sendNotifications() for at.js to send notifications to the Target edge when an experience is rendered not using applyOffer(s). (at.js.2.1 +)
+description: Use adobe.target.sendNotifications() for at.js to send notifications to the [!DNL Target] edge when an experience is rendered not using applyOffer(s). (at.js.2.1 +)
 title: How Do I Use the adobe.target.sendNotifications() Function?
 feature: at.js
 role: Developer

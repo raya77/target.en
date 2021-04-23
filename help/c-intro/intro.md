@@ -1,6 +1,6 @@
 ---
 keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;auto-target;auto target;permissions;what is adobe target;
-description: Learn the basics of Adobe Target Standard and Adobe Target Premium. Target Premium includes advanced features not available in standard product.
+description: Learn the basics of Adobe [!DNL Target] Standard and Adobe [!DNL Target] Premium. [!DNL Target] Premium includes advanced features not available in standard product.
 landing-page-description: Personalize your customers' experience to maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 title: What is Target?
 feature: Overview
@@ -83,7 +83,7 @@ This functionality opens up entirely new capabilities, such as:
 
 For more information, see the [Recommendations Classic documentation](/help/assets/adobe-recommendations-classic.pdf).
 
-## Experience League: The Adobe Target Welcome Kit {#kit}
+## Experience League: The Adobe [!DNL Target] Welcome Kit {#kit}
 
 Build your optimization and personalization program on [!DNL Adobe Target] with this Welcome Kit. The Welcome Kit includes key information, tools, and resources to help you prepare for and launch your first [!DNL Target] activity. The kit includes ideas for short-term quick wins and long-term optimization strategies.
 

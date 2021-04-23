@@ -1,6 +1,6 @@
 ---
 keywords: inclusion rules;inclusion criteria;recommendations;promotion;promotions;dynamic filtering;static;static filter
-description: Learn how to manually enter one or more static values to filter using inclusion rules in Adobe Target Recommendations.
+description: Learn how to manually enter one or more static values to filter using inclusion rules in Adobe [!DNL Target] Recommendations.
 title: How Do I Filter By Static Values In Recommendations Activities?
 feature: Recommendations
 exl-id: 217e19bf-521f-4913-9b41-099c9af8b393

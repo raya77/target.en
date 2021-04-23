@@ -1,7 +1,7 @@
 ---
 keywords: random forest;decision tree;ap;Automated Personalization
-description: Learn how Adobe Target uses the Random Forest algorithm in both Automated Personalization (AP) and Auto-Target activities.
-title: How Does Target Use the Random Forest Algorithm?
+description: Learn how Adobe [!DNL Target] uses the Random Forest algorithm in both Automated Personalization (AP) and Auto-Target activities.
+title: How Does [!DNL Target] Use the Random Forest Algorithm?
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 ---

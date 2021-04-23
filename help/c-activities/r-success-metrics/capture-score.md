@@ -1,6 +1,6 @@
 ---
 keywords: capture score;score
-description: Learn about the Capture Score engagement metric in Adobe Target that calculates an aggregated score based on the value assigned to pages visited on the site.
+description: Learn about the Capture Score engagement metric in Adobe [!DNL Target] that calculates an aggregated score based on the value assigned to pages visited on the site.
 title: What Is the Capture Score metric?
 feature: Success Metrics
 exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4

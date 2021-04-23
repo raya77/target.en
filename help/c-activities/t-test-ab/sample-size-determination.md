@@ -1,6 +1,6 @@
 ---
 keywords: AB;A/B;AB...n;sample size;sample size calculator;auto-allocate;auto allocate;calculator
-description: Learn how long to run an A/B test. A successful A/B test in Adobe Target requires enough visitors (sample size) to improve your conversion rate.
+description: Learn how long to run an A/B test. A successful A/B test in Adobe [!DNL Target] requires enough visitors (sample size) to improve your conversion rate.
 title: How Long Should I Run an A/B Test?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
@@ -31,7 +31,7 @@ When using the [!UICONTROL Auto-Allocate] feature, [!DNL Adobe Target] displays 
 
 For more information, see [Auto-Allocate overview](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
-## Adobe Target Sample Size Calculator {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
+## Adobe [!DNL Target] Sample Size Calculator {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
 If you choose to use a manual [!UICONTROL A/B Test] activity rather than [!UICONTROL Auto-Allocate], the [!DNL Target] Sample Size Calculator helps you determine the sample size needed for a successful test. A manual A/B test is a fixed horizon test, so the calculator is helpful. Using the calculator for an [!UICONTROL Auto-Allocate] activity is optional because [!UICONTROL Auto-Allocate] declares a winner for you. The calculator gives you a rough estimate of the sample size needed. Continue reading for more information about how to use the calculator.
 

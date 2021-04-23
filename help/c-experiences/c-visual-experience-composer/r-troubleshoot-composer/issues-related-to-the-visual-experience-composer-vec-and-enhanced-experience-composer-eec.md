@@ -1,6 +1,6 @@
 ---
 keywords: Targeting;visual experience composer;whitelist;white list;allowlist;allow list;enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;enhanced experience composer;tls;tls 1.2
-description: Learn how to troubleshoot problems that sometimes occur in the Adobe Target Visual Experience Composer (VEC) and the Enhanced Experience Composer (EEC) under certain conditions.
+description: Learn how to troubleshoot problems that sometimes occur in the Adobe [!DNL Target] Visual Experience Composer (VEC) and the Enhanced Experience Composer (EEC) under certain conditions.
 title: How Do I Troubleshoot Issues Related to the Visual Experience Composer and Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
@@ -35,7 +35,7 @@ Use one of the following options to ensure that your VEC and EEC continue to wor
   >
   >This will *not* be enough if cookies already have the SameSite attribute set to “Lax” or “Strict” from the server.
 
-## Does Target support multi-level iframes?
+## Does [!DNL Target] support multi-level iframes?
 
 Target does not support multi-level iframes. If your website loads an iframe that has a child iframe, Target libraries (at.js and mbox.js) interact with the parent iframe only. Target libraries do not interact with the child iframe.
 
@@ -45,7 +45,7 @@ As a workaround, you can add a page in the experience with the URL of the child 
 
 This can happen if the URL contains a # character. To fix the issue, switch into Browse mode in the Visual Experience Composer, and then switch back to Compose mode. The spinner should go away and the page should load.
 
-## Content Security Policy (CSP) headers block the Target libraries on my website. (VEC and EEC) {#section_89A30C7A213D43BFA0822E66B482B803}
+## Content Security Policy (CSP) headers block the [!DNL Target] libraries on my website. (VEC and EEC) {#section_89A30C7A213D43BFA0822E66B482B803}
 
 If your website's CSP headers block Target libraries, then loads the website but prevents editing, ensure that the Target libraries are not blocked.
 

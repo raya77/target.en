@@ -1,6 +1,6 @@
 ---
 keywords: adobe.target.getOffer;getOffer;getoffer;get offer;at.js;functions;function
-description: Use the adobe.target.getOffer() function and its options for the Adobe Target at.js library to fire requests to get a Target offer.
+description: Use the adobe.target.getOffer() function and its options for the Adobe [!DNL Target] at.js library to fire requests to get a [!DNL Target] offer.
 title: How Do I Use the adobe.target.getOffer() Function?
 feature: at.js
 role: Developer

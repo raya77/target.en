@@ -1,11 +1,11 @@
 ---
 keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
-description: Learn how to target visitors using Adobe Target who are on a specific page on your site.
-title: Can I Target Visitors Based on Site Pages?
+description: Learn how to target visitors using Adobe [!DNL Target] who are on a specific page on your site.
+title: Can I [!DNL Target] Visitors Based on Site Pages?
 feature: Audiences
 exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
 ---
-# Site Pages{#site-pages}
+# Site Pages
 
 You can target visitors who are on a specific page on your site.
 

@@ -5,7 +5,7 @@ title: How Do I Configure Report Settings?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
 ---
-# Report settings{#report-settings}
+# Report settings
 
 Information to help you set the elements you want to appear in your report in [!DNL Adobe Target]. Report settings can be saved for later use.
 

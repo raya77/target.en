@@ -1,11 +1,11 @@
 ---
 keywords: browser options;type;browser type;browser language;language;version;browser version
-description: Learn how to create audiences in Adobe Target to target users who use a specific browser or specific browser options when they visit your page.
-title: Can I Target Visitors Based on Browser Type?
+description: Learn how to create audiences in Adobe [!DNL Target] to target users who use a specific browser or specific browser options when they visit your page.
+title: Can I [!DNL Target] Visitors Based on Browser Type?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
 ---
-# Browser{#browser}
+# Browser
 
 You can target users who use a specific browser or specific browser options when they visit your page.
 

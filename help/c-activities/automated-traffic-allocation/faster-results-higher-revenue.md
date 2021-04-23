@@ -1,6 +1,6 @@
 ---
 keywords: automated traffic allocation;targeting;auto-allocate;auto allocate
-description: Learn how an Auto Allocate activity in Adobe Target identifies a winner among two or more experiences and automatically reallocates more traffic to the winner.
+description: Learn how an Auto Allocate activity in Adobe [!DNL Target] identifies a winner among two or more experiences and automatically reallocates more traffic to the winner.
 title: Can Auto-Allocate Activities Get Faster Results and Higher Revenue?
 feature: Auto-Allocate
 exl-id: 104ad88f-044b-4c2f-bdaf-f023fd1787a5

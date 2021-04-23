@@ -1,11 +1,11 @@
 ---
 keywords: document.write;target;implement;implement target;dtm;dynamic tag management;at.js;mbox.js;target.js;mbox;adobe experience platform web skd;aep web sdk;web sdk
-description: Implement Adobe Target by referencing the Target libraries (at.js or mbox.js) on your web pages.
-title: Understand the Target JavaScript libraries
+description: Implement Adobe [!DNL Target] by referencing the [!DNL Target] libraries (at.js or mbox.js) on your web pages.
+title: Understand the [!DNL Target] JavaScript libraries
 feature: Implementation
 ---
 
-# Understand the Target JavaScript libraries
+# Understand the [!DNL Target] JavaScript libraries
 
 Implement [!DNL Adobe Target] by referencing the [!DNL Adobe Target] libraries (Adobe Experience Platform Web SDK or at.js) on your web pages.
 
@@ -13,7 +13,7 @@ Implement [!DNL Adobe Target] by referencing the [!DNL Adobe Target] libraries (
 >
 >The mbox.js library is no longer being developed. All customers must migrate from mbox.js to at.js or to the [!UICONTROL Adobe Experience Platform Web SDK] before March 31, 2021. For more information, see [Migrate to at.js from mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) or [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
 
-## Differences between the Target JavaScript Libraries {#section_40117C78C2F84FECAC4F1BA40CC4F171}
+## Differences between the [!DNL Target] JavaScript Libraries {#section_40117C78C2F84FECAC4F1BA40CC4F171}
 
 The following table explains the differences between the [!DNL Target] JavaScript libraries:
 

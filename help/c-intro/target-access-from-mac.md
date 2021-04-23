@@ -1,15 +1,15 @@
 ---
 keywords: Experience Cloud;sign in;language;default ui language;default language
-description: Learn how to access Target from the Adobe Experience Cloud, set your default view, and change the language of the Target UI and documentation.
-title: How Do I Access Target From the Adobe Experience Cloud?
+description: Learn how to access [!DNL Target] from the Adobe Experience Cloud, set your default view, and change the language of the [!DNL Target] UI and documentation.
+title: How Do I Access [!DNL Target] From the Adobe Experience Cloud?
 feature: Overview
 exl-id: a5ac8d33-69c3-4e21-9f0f-baab430a6b76
 ---
-# Access Target from the Adobe Experience Cloud{#access-target-from-the-adobe-experience-cloud}
+# Access [!DNL Target] from the Adobe Experience Cloud
 
 Information about accessing [!DNL Adobe Target] from the [!DNL Adobe Experience Cloud], setting your default landing page, and changing the language of the [!DNL Target] user interface.
 
-## Sign in to Adobe Target and set your default view
+## Sign in to Adobe [!DNL Target] and set your default view
 
 1. Sign into the [Adobe Experience Cloud](https://experience.adobe.com/).
 
@@ -23,7 +23,7 @@ Information about accessing [!DNL Adobe Target] from the [!DNL Adobe Experience 
 
    ![Landing page](/help/c-intro/assets/pagepref-new.png)
 
-## Change the default language for the Target UI {#language}
+## Change the default language for the [!DNL Target] UI {#language}
 
 1. After signing into the [!DNL Adobe Experience Cloud ] or [!DNL Target], click your profile avatar, then click **[!UICONTROL Edit Preferences]**.
 
@@ -58,7 +58,7 @@ Information about accessing [!DNL Adobe Target] from the [!DNL Adobe Experience 
 
 1. Log out of the [!DNL Adobe Experience Cloud] or [!DNL Target], then log in again for your changes to take effect.
 
-## Change the language for the Target product documentation {#doc-lang}
+## Change the language for the [!DNL Target] product documentation {#doc-lang}
 
 Your operating system or browser settings should detect your preferred language and display the documentation in that language (if available). [!DNL Target] documentation is automatically translated and will be in sync with the English version within hours of changes made to English documentation.
 

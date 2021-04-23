@@ -5,7 +5,7 @@ title: How Do I Troubleshoot Automated Personalization?
 feature: Automated Personalization
 exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
 ---
-# ![PREMIUM](/help/assets/premium.png) Troubleshoot Automated Personalization{#troubleshoot-automated-personalization}
+# ![PREMIUM](/help/assets/premium.png) Troubleshoot Automated Personalization
 
 Sometimes activities don't go as expected. Here are some potential challenges you might face while using Automated Personalization, and some suggested solutions.
 

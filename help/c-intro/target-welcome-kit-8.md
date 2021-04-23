@@ -1,7 +1,7 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Ust the Executive Summary Results template to help you communicate your successes with your Adobe Target activities.
-title: How Can I Share the Results of My Target Actities with My Organization?
+description: Ust the Executive Summary Results template to help you communicate your successes with your Adobe [!DNL Target] activities.
+title: How Can I Share the Results of My [!DNL Target] Actities with My Organization?
 feature: Overview
 exl-id: 35dd83d6-30fd-4568-a59e-b5748b192eb9
 ---

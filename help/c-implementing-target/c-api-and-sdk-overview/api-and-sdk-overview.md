@@ -1,7 +1,7 @@
 ---
 keywords: server side;server-side;api;sdk;node.js;nodejs;node js;recommendations api;api:apis
-description: Learn about the Adobe Target server-side delivery APIs, SDKs, and Target Recommendations APIs.
-title: Where Can I Learn About Target Server-Side Delivery APIs and SDKs?
+description: Learn about the Adobe [!DNL Target] server-side delivery APIs, SDKs, and [!DNL Target] Recommendations APIs.
+title: Where Can I Learn About [!DNL Target] Server-Side Delivery APIs and SDKs?
 feature: Implement Server-side
 role: Developer
 exl-id: cdee007f-f54d-4cf3-9575-6319da3434a5

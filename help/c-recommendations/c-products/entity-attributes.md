@@ -1,6 +1,6 @@
 ---
 keywords: entity;entity attributes;pass information to Recommendations;behavioral data;data counter;define relative URL;display inventory level;define price;define profit margin;custom attributes
-description: Learn how to use entity attributes to pass product or content information to Target Recommendations.
+description: Learn how to use entity attributes to pass product or content information to [!DNL Target] Recommendations.
 title: How Do I Use Entity Attributes?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1

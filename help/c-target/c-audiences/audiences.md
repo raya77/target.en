@@ -1,11 +1,11 @@
 ---
 keywords: audience;audience rules;create audience;creating audience;targeting audience;reporting audience;report audience;segment;custom profile parameters;audience definition;audiences list
-description: Learn how to use the Audiences page in Adobe Target and how to view Audience Definition cards that contain audience details and usage information.
+description: Learn how to use the Audiences page in Adobe [!DNL Target] and how to view Audience Definition cards that contain audience details and usage information.
 title: How Do I Use the Audience List?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
 ---
-# Create audiences{#create-audiences}
+# Create audiences
 
 Audiences in Adobe Target determine who will see content and experiences in a targeted activity.
 

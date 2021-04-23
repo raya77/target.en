@@ -1,12 +1,12 @@
 ---
 keywords: Implementation;mbox.js non javascript;adbox;redirector;mbox
-description: Learn how to implement Adobe Target in non-JavaScript scenarios, such as using an AdBox or Redirector.
-title: How Do I Implement Target for Email?
+description: Learn how to implement Adobe [!DNL Target] in non-JavaScript scenarios, such as using an AdBox or Redirector.
+title: How Do I Implement [!DNL Target] for Email?
 feature: Implement Email
 role: Developer
 exl-id: 3287cf3d-3ed4-471f-aa06-25bb12e23ead
 ---
-# Email: implement Target{#email-implement-target}
+# Email: implement Target
 
 Information about implementing Target in non-JavaScript scenarios, such as using an AdBox or Redirector.
 

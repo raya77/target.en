@@ -1,6 +1,6 @@
 ---
 keywords: faq;frequently asked questions;analytics for target;a4T;report;reports;view reports;reporting;counting methodology;impressions;visitors;visits;default metric;activity conversions;unspecified
-description: Find answers to questions that are frequently asked about viewing reports when using Analytics for Target (A4T). A4T lets you use Analytics reporting for Target activities.
+description: Find answers to questions that are frequently asked about viewing reports when using Analytics for [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] activities.
 title: Find Answers to Questions About Viewing Reports with A4T?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
@@ -9,7 +9,7 @@ exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
 
 This topic contains answers to questions that are frequently asked about viewing reports when using [!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T).
 
-## Can I view my Target activity data in Analysis Workspace? {#workspace}
+## Can I view my [!DNL Target] activity data in Analysis Workspace? {#workspace}
 
 You can use [!DNL Analysis Workspace] to analyze your [!DNL Target] activities and experiences. The [Analytics for Target panel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) lets you see lift & confidence for as many as three success metrics. You can also dig deeper using tables and visualizations.
 
@@ -21,7 +21,7 @@ Segments are most commonly used at the top of a panel in the segment drop zone. 
 
 A segment can also be layered directly within the freeform table, but note that you must overlay it across the entire table to preserve the lift & confidence calculations within the A4T Panel. Column level segments are not currently supported within the panel.
 
-## When I apply a hit segment for a specific Target activity, why are unrelated experiences returned? {#activity-segmentation}
+## When I apply a hit segment for a specific [!DNL Target] activity, why are unrelated experiences returned? {#activity-segmentation}
 
 The [!DNL Target] variable sent to [!DNL Analytics] has a default 90-day expiration period. (Note: this expiration period can be adjusted by Customer Care if needed). As visitors navigate the site throughout this expiration window, they are part of many [!DNL Target] activities, all of which collect in the dimension. 
 
@@ -68,7 +68,7 @@ After the classification period, data appears in these reports approximately an 
 
 In case classification was done for that activity, and you still see an "Unspecified" row in the report, make sure that the report isn't using a non-[!DNL Target] metric to display the data. Unless the report is using a [!DNL Target]-specific metric, that "Unspecified" row contains events for calls that are not associated with [!DNL Target]. That row will not contain any [!DNL Target]-associated information (for example, visitors/visits/impressions).
 
-## Why are Target metrics sent to Analytics even after the activity has been deactivated? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
+## Why are [!DNL Target] metrics sent to Analytics even after the activity has been deactivated? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
 The [!DNL Target] variable sent to [!DNL Analytics] has a default 90-day expiration period. This expiration period can be adjusted by Customer Care if needed. This setting is global for all activities, however, so it should not be adjusted for one case.
 
@@ -117,7 +117,7 @@ For more information, see [Conversion Variables (eVar](https://experienceleague.
 
 A source of impressions to an A4T activity's report after deactivation can be QA-mode traffic. Target normally doesn't log events for a deactivated activity, but Analytics doesn't have a way to know that impressions are coming from QA mode. When the Target activity report is retrieved from Analytics, it shows these impressions. This is working as designed because customers need a way to check A4T reports even if the activity is not active using QA mode. 
 
-## Why do Analytics and Analytics for Target (A4T) calculate numbers for the Unique Visitors metric differently? {#section_0C3B648AB54041F9A2AA839D51791883}
+## Why do Analytics and Analytics for [!DNL Target] (A4T) calculate numbers for the Unique Visitors metric differently? {#section_0C3B648AB54041F9A2AA839D51791883}
 
 When you run an A/B test, which uses the Students t-test (the confidence metric) to choose a winner of a test, one of the assumptions is that there is a fixed time horizon. The test isn’t statistically valid unless you are looking at that fixed sample size.
 

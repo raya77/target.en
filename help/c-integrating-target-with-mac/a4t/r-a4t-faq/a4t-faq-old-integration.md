@@ -1,6 +1,6 @@
 ---
 keywords: faq;frequently asked questions;analytics for target;a4T;sitecatalyst;campaign>recipe;test&target;integration
-description: Find answers to questions that are frequently asked about the legacy SiteCatalyst to Test&Target integration and using Analytics for Target (A4T).
+description: Find answers to questions that are frequently asked about the legacy SiteCatalyst to Test&Target integration and using Analytics for [!DNL Target] (A4T).
 title: Where Can I Find FAQs About the SiteCatalyst to Test&Target Integration?
 feature: Analytics for Target (A4T)
 exl-id: cd16b08b-e58e-4208-95b5-97c5eb441fb7

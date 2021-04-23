@@ -1,11 +1,11 @@
 ---
 keywords: faq;frequently asked questions;analytics for target;a4T;inflated;visit;visitor;partial hit;orphaned;orphan;partial-hit
-description: Find answers to questions about inflated visit and visitor counts when using Analytics for Target (A4T). Learn how to minimize "partial data."
+description: Find answers to questions about inflated visit and visitor counts when using Analytics for [!DNL Target] (A4T). Learn how to minimize "partial data."
 title: Where Can I Find FAQs About Inflated Visit and Visitor Counts with A4T?
 feature: Analytics for Target (A4T)
 exl-id: e936b1f6-dc72-4ab2-9bb5-169d1710edbe
 ---
-# Inflated visit and visitor counts - A4T FAQ{#inflated-visit-and-visitor-counts-a-t-faq}
+# Inflated visit and visitor counts - A4T FAQ
 
 This topic contains answers to questions that are frequently asked about inflated visit and visitor counts when using Analytics as the reporting source for Target (A4T).
 
@@ -43,12 +43,12 @@ After November 14, 2016, Adobe will include data only when both the [!DNL Target
 
 There are also steps you can perform to minimize partial-data hits. For more information, see "What are the Best Practices to Reduce Partial Data?" in [Minimizing Inflated Visit and Visitor Counts in A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
-## If partial-data-hit data is removed from reporting, aren’t I losing valuable Target or Analytics data? {#section_EBC39E8A0F6A40E58F51E776936F7D9E}
+## If partial-data-hit data is removed from reporting, aren’t I losing valuable [!DNL Target] or Analytics data? {#section_EBC39E8A0F6A40E58F51E776936F7D9E}
 
 Including partial data in [!DNL Analytics] reporting does provide additional information, but it also creates inconsistency with historical data from periods when there were no [!DNL Target] activities running. Including partial-hit data can cause problems for [!DNL Analytics] users who are analyzing trends over time.
 
 There are steps you can perform to minimize partial-data hits. For more information, see "What are the Best Practices to Reduce Partial Data?" in [Minimizing Inflated Visit and Visitor Counts in A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
-## Are there any particular types of Target activities that are more likely to cause partial-data hits? {#section_69837442A9B84366BEFDA4588B31E574}
+## Are there any particular types of [!DNL Target] activities that are more likely to cause partial-data hits? {#section_69837442A9B84366BEFDA4588B31E574}
 
 Redirect offers immediately send a user to a different page, which means the [!DNL Analytics] call does not fire on the first page.

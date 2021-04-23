@@ -1,6 +1,6 @@
 ---
 keywords: experience;json;aem;adobe experience manager;export to adobe target;experience fragments;fragments;XF
-description: Learn how to use AEM experience fragments in Adobe Target activities. Combine the ease-of-use and power of AEM with powerful AI and ML capabilities in Target.
+description: Learn how to use AEM experience fragments in Adobe [!DNL Target] activities. Combine the ease-of-use and power of AEM with powerful AI and ML capabilities in [!DNL Target].
 title: How Do I Use Adobe Experience Manager (AEM) Experience Fragments?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
@@ -71,7 +71,7 @@ Depending on your [!DNL AEM] version, see the following links for step-by-step i
 * **[!DNL AEM] 6.4**: [Exporting an Experience Fragment to Target](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html) in the *Adobe Experience Manager 6.4* documentation.
 * **[!DNL AEM] 6.5**: [Exporting an Experience Fragment to Target](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) in the *Adobe Experience Manager 6.5* documentation.
 
-## Using experience fragments in Target activities {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
+## Using experience fragments in [!DNL Target] activities {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
 After performing the preceding tasks, the experience fragment displays on the [!UICONTROL Offers] page in [!DNL Target].
 
@@ -138,7 +138,7 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 * You can import JSON offers as experience fragments into [!DNL Target]. However, these offers are imported as HTML offers. JSON offers (experience fragments) are currently not fully supported in the [!DNL Target] UI.
 * You cannot create experience fragments using Adobe IO. You must create experience fragments using AEM, as explained above.
 
-## Training video: Using AEM experience fragments with Adobe Target ![Tutorial badge](/help/assets/overview.png) {#section_C0EDC54063464F41A182492D2045BC64}
+## Training video: Using AEM experience fragments with Adobe [!DNL Target] ![Tutorial badge](/help/assets/overview.png) {#section_C0EDC54063464F41A182492D2045BC64}
 
 The following video shows you how to set up and use experience fragments: 
 

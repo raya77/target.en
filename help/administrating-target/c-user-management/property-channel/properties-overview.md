@@ -6,7 +6,7 @@ feature: Administration & Configuration
 role: Administrator
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
 ---
-# ![PREMIUM](/help/assets/premium.png) Configure enterprise permissions{#configure-enterprise-permissions}
+# ![PREMIUM](/help/assets/premium.png) Configure enterprise permissions
 
 Information about the tasks required to add users to your [!DNL Target] implementation; create workspaces, user groups, and properties; update your [!DNL Target] implementation to include the `at_property` parameter; and specify roles and permissions.
 
@@ -199,7 +199,7 @@ The following videos contain more information about the concepts discussed in th
 >
 >The [!DNL Target] [!UICONTROL Administration] menu UI (formerly [!UICONTROL Setup]) has been redesigned to provide improved performance, reduce the maintenance time required when releasing new features, and to improve the user experience across the product. The information in the following videos is generally correct; however, options might be in slightly different locations. Updated videos will be posted soon.
 
-### How to Configure Target Workspaces (6:55) ![Tutorial badge](/help/assets/tutorial.png)
+### How to Configure [!DNL Target] Workspaces (6:55) ![Tutorial badge](/help/assets/tutorial.png)
 
 This video explains how to create workspaces.
 
@@ -213,7 +213,7 @@ This video explains how to create workspaces.
 
 >[!VIDEO](https://video.tv.adobe.com/v/19463/)
 
-### How to Create Properties in Adobe Target (3:05) ![Tutorial badge](/help/assets/tutorial.png)
+### How to Create Properties in Adobe [!DNL Target] (3:05) ![Tutorial badge](/help/assets/tutorial.png)
 
 * How to create a property within the [!DNL Adobe Target] interface 
 * How to generate a property token to include in your property implementation 

@@ -1,7 +1,7 @@
 ---
 keywords: privacy;ip address;geosegmentation;opt out;optout;opt-out;data privacy;government regulations;regulations;gdpr;ccpa
-description: Learn how Adobe Target complies with applicable data privacy laws including collection and handling of IP addresses, and opt-out instructions.
-title: How Does Target Handle Privacy Issues?
+description: Learn how Adobe [!DNL Target] complies with applicable data privacy laws including collection and handling of IP addresses, and opt-out instructions.
+title: How Does [!DNL Target] Handle Privacy Issues?
 feature: Privacy & Security
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6

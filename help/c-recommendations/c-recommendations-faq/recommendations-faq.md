@@ -1,7 +1,7 @@
 ---
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;recommendations;special characters;attribute weighting;content similarity
-description: View a list of frequently asked questions and answers about Adobe Target Recommendations activities.
-title: Where Can I find Questions and Answers about Target Recommendations?
+description: View a list of frequently asked questions and answers about Adobe [!DNL Target] Recommendations activities.
+title: Where Can I find Questions and Answers about [!DNL Target] Recommendations?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 ---
@@ -123,7 +123,7 @@ This type of weighting is more dynamic, and is based on the current “recommend
 
 ![](assets/content_similarity_example.png)
 
-## Why is Target sometimes unable to show recommendations? {#section_DB3F40673AED42228E407C05437D99E9}
+## Why is [!DNL Target] sometimes unable to show recommendations? {#section_DB3F40673AED42228E407C05437D99E9}
 
 Target sometimes cannot show recommendations due to the low number of available recommendations.
 

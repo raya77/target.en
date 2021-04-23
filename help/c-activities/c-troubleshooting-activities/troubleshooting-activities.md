@@ -1,6 +1,6 @@
 ---
 keywords: troubleshoot target;troubleshooting target;default content;test not live;activity not live;targeting not working;previous experience displays;cannot create activities;can't create activities;create activities;page structure changed;page structure modified;error message;error delete profile script;ajax not working
-description: Find troubleshooting suggestions should your Adobe Target activity not appear on your site.
+description: Find troubleshooting suggestions should your Adobe [!DNL Target] activity not appear on your site.
 title: How Can I Troubleshoot Activities?
 feature: Activities
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
@@ -15,7 +15,7 @@ If your [!DNL Adobe Target] activity does not appear on your site, these trouble
 
 The following sections contain problems you might encounter with suggested solutions.
 
-## I created an activity using the Target UI and I cannot update it via API.
+## I created an activity using the [!DNL Target] UI and I cannot update it via API.
 
 Activities created using the Target UI should be updated via the Target UI. Activities created via API should be updated via API. If you originally create an activity using the API, for example, but then later edit the activity via the Target UI, not all of the changes are updated. All of the changes are stored on the backend and can be updated by making another API call.
 
@@ -62,7 +62,7 @@ Make sure your activity is complete and has been activated.
 * Try a different browser.
 * Use Private/Incognito mode.
 
-## You were recently added to Target but cannot create activities.
+## You were recently added to [!DNL Target] but cannot create activities.
 
 **Validate:** Click Create Activity. If the option is not available, you most likely have not been given sufficient rights to create an activity.
 
@@ -134,6 +134,6 @@ Do one of the following:
 
 **Note:** Multiple ajax [!DNL Target] calls with the same name but different parameters will not work on the same page. Only the first call will be made.
 
-## You activated an activity using the Target API, but the activity shows a status of [!UICONTROL Inactive] in the Target UI.
+## You activated an activity using the [!DNL Target] API, but the activity shows a status of [!UICONTROL Inactive] in the [!DNL Target] UI.
 
 When you perform certain actions, such as activating an activity outside of the UI using the Target API, the update can take up to ten minutes to propagate to the UI.

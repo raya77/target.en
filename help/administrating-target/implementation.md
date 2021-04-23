@@ -1,7 +1,7 @@
 ---
 keywords: implement;implementing
-description: Learn how to  implement Adobe Target on your site. Set your global settings, implementation method (AEP Web SDK or at.js), and more.
-title: How Do Implement Target on My Site?
+description: Learn how to  implement Adobe [!DNL Target] on your site. Set your global settings, implementation method (AEP Web SDK or at.js), and more.
+title: How Do Implement [!DNL Target] on My Site?
 feature: Administration & Configuration
 role: Administrator
 exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6

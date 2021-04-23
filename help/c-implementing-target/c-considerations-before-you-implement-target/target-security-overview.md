@@ -1,7 +1,7 @@
 ---
 keywords: security;security practices
-description: Learn about the procedures Adobe uses to bolster the security of your data and Adobe Target experience. Download the Adobe Target Security Overview white paper.
-title: How Does Target Handle Security of My Data?
+description: Learn about the procedures Adobe uses to bolster the security of your data and Adobe [!DNL Target] experience. Download the Adobe [!DNL Target] Security Overview white paper.
+title: How Does [!DNL Target] Handle Security of My Data?
 feature: Privacy & Security
 role: Developer
 exl-id: be93072f-2c21-40fa-8648-513348afacc8

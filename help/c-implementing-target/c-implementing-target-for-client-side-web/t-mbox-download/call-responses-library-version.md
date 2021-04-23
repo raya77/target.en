@@ -5,7 +5,7 @@ feature: at.js
 role: Developer
 exl-id: a0f7b956-7855-4165-b34c-33d81a8fac55
 ---
-# Target page methods by mbox.js library version{#target-page-methods-by-mbox-js-library-version}
+# Target page methods by mbox.js library version
 
 The way Target makes and responds to calls from your page depends on the version of the Target library you are using, whether the Experience Cloud Visitor ID implementation is present, and whether the visitor ID exists.
 

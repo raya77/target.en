@@ -5,7 +5,7 @@ title: How Do I Configure Recommendations Activity Settings?
 feature: Recommendations
 exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
 ---
-# ![PREMIUM](/help/assets/premium.png) Recommendations Activity settings{#recommendations-activity-settings}
+# ![PREMIUM](/help/assets/premium.png) Recommendations Activity settings
 
 Information about the settings you can use to describe and control a [!UICONTROL Recommendations] activity in [!DNL Adobe Target].
 

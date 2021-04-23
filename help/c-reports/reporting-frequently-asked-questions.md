@@ -1,7 +1,7 @@
 ---
 keywords: troubleshooting;metric discrepancies;FAQ;reports;new visitor;new visitors;returning visitor;returning visitors;return visit;new visit
-description: Explore a list of frequently asked questions and answers about Adobe Target reporting.
-title: Where Can I Find Answers to Questions About Target Reporting?
+description: Explore a list of frequently asked questions and answers about Adobe [!DNL Target] reporting.
+title: Where Can I Find Answers to Questions About [!DNL Target] Reporting?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
 ---

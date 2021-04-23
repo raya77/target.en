@@ -1,11 +1,11 @@
 ---
 keywords: targeting;mobile;target mobile;deviceatlas;iphone;iphone models;device atlas;displaywidth;display width;display height;type of device;displayheight;phone;tablet;device model
-description: Learn how to create audiences in Adobe Target to target mobile devices based on parameters such as mobile device, type of device, device vendor, screen dimensions (by pixels), and more.
-title: Can I Target Visitors Based on Mobile Options?
+description: Learn how to create audiences in Adobe [!DNL Target] to target mobile devices based on parameters such as mobile device, type of device, device vendor, screen dimensions (by pixels), and more.
+title: Can I [!DNL Target] Visitors Based on Mobile Options?
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
 ---
-# Mobile{#mobile}
+# Mobile
 
 Create audiences to target mobile devices based on parameters such as mobile device, type of device,device vendor, screen dimensions (by pixels), and more.
 

@@ -1,11 +1,11 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: New to Adobe Target? Get a jump-start with the Adobe Target Welcome Kit.
+description: New to Adobe Target? Get a jump-start with the Adobe [!DNL Target] Welcome Kit.
 title: How Do I Get Started with Target
 feature: Overview
 exl-id: bb2cc1ca-8be7-425c-b551-59084b6416c3
 ---
-# Adobe Target welcome kit
+# Adobe [!DNL Target] welcome kit
 
 Welcome to Adobe Target.
 

@@ -1,7 +1,7 @@
 ---
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
-description: Learn how to use criteria in Adobe Target Recommendations. Criteria are rules that determine which content to recommend based on a predetermined set of visitor behaviors.
-title: How Do I Use Criteria in Target Recommendations?
+description: Learn how to use criteria in Adobe [!DNL Target] Recommendations. Criteria are rules that determine which content to recommend based on a predetermined set of visitor behaviors.
+title: How Do I Use Criteria in [!DNL Target] Recommendations?
 feature: Recommendations
 exl-id: a6e4c857-f991-4293-9d33-8d7c2ca5dade
 ---

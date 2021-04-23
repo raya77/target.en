@@ -1,11 +1,11 @@
 ---
 keywords: custom parameters;target custom parameters;targetpageparams;targeting mbox parameters
-description: Learn how to pass custom parameters to Adobe Target for use in audiences.
-title: Can I Target Visitors Based on Custom Parameters?
+description: Learn how to pass custom parameters to Adobe [!DNL Target] for use in audiences.
+title: Can I [!DNL Target] Visitors Based on Custom Parameters?
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
 ---
-# Custom parameters{#custom-parameters}
+# Custom parameters
 
 Custom parameters are mbox parameters. If you pass any mbox parameters to mboxes, or use the targetPageParams function, those parameters appear here for use in audiences.
 

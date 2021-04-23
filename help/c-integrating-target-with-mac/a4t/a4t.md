@@ -1,11 +1,11 @@
 ---
 keywords: a4t;analytics;analytics for target;analytics reporting source;adobe analytics as the reporting source for target
-description: Use Analytics for Target (A4T) to create activities based on Analytics conversion metrics and audience segments and use Analytics reports to examine results.
-title: What is Analytics for Target (A4T)?
+description: Use Analytics for [!DNL Target] (A4T) to create activities based on Analytics conversion metrics and audience segments and use Analytics reports to examine results.
+title: What is Analytics for [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 ---
-# Adobe Analytics as the reporting source for Adobe Target (A4T)
+# Adobe Analytics as the reporting source for Adobe [!DNL Target] (A4T)
 
 [!DNL Adobe Analytics for Target] (A4T) is a cross-solution integration that lets you create activities based on [!DNL Analytics] conversion metrics and audience segments. The A4T integration lets you use [!DNL Analytics] reports to examine your results. If you use [!DNL Analytics] as the reporting source for an activity, all reporting and segmentation for that activity is based on [!DNL Analytics] data collection.
 
@@ -103,7 +103,7 @@ Open the [Analytics & Target: Best Practices for Analysis](https://spark.adobe.c
 
 The following videos contain more information about the concepts discussed in this topic.
 
-### Analytics for Target (A4T) (4:32) ![Overview badge](/help/assets/overview.png)
+### Analytics for [!DNL Target] (A4T) (4:32) ![Overview badge](/help/assets/overview.png)
 
 This video explains how to use [!DNL Analytics] as a reporting source in [!DNL Target] to drive the analysis of your optimization program.
 
@@ -113,7 +113,7 @@ This video explains how to use [!DNL Analytics] as a reporting source in [!DNL T
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Analytics / Target Integration (A4T) (40:33) ![Tutorial badge](/help/assets/tutorial.png)
+### Analytics / [!DNL Target] Integration (A4T) (40:33) ![Tutorial badge](/help/assets/tutorial.png)
 
 This video is a recording of " [Office Hours](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)," an initiative led by the Adobe Customer Care team.
 

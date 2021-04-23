@@ -6,7 +6,7 @@ feature: Administration & Configuration
 role: Administrator
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
 ---
-# ![PREMIUM](/help/assets/premium.png) Enterprise user permissions{#enterprise-user-permissions}
+# ![PREMIUM](/help/assets/premium.png) Enterprise user permissions
 
 Enterprise user permissions are a means of formal administering enterprise-wide user access to [!DNL Adobe Target]. Add users to [!DNL Target], assign permissions based on their roles, and create workspaces for teams based on different departments, global locations, channels, and other logical groupings. You can assign users the roles of [!UICONTROL Observer], [!UICONTROL Editor], or [!UICONTROL Approver].
 
@@ -289,7 +289,7 @@ Learning objectives:
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
 
-### Office hours: Target Premium Workspaces
+### Office hours: [!DNL Target] Premium Workspaces
 
 This video is a recording of "Office Hours," an initiative led by the Adobe Customer Care team.
 

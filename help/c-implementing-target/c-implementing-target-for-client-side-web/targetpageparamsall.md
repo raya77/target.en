@@ -1,6 +1,6 @@
 ---
 keywords: targetPageParamsAll;targetpageparamsall;PageParamsAll;pageparamsall;page params;page parameters;at.js;functions;function
-description: Use the targetPageParamsAll() function for the Adobe Target at.js JavaScript library to attach parameters to all mboxes from outside of the request code.
+description: Use the targetPageParamsAll() function for the Adobe [!DNL Target] at.js JavaScript library to attach parameters to all mboxes from outside of the request code.
 title: How Do I Use the targetPageParamsAll() Function?
 feature: at.js
 role: Developer

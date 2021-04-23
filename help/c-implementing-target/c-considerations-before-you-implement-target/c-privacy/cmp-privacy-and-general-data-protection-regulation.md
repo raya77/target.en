@@ -1,7 +1,7 @@
 ---
 keywords: gdpr;eu;european union;privacy;faq;frequently asked questions;california consumer privacy act;ccpa;privacy;data protection;opt-out;opt out;government;regulation
-description: Learn about Target and the European Union General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and other privacy requirements.
-title: How Does Target Handle Privacy and Data Protection Regulations?
+description: Learn about [!DNL Target] and the European Union General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and other privacy requirements.
+title: How Does [!DNL Target] Handle Privacy and Data Protection Regulations?
 feature: Privacy & Security
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
@@ -45,7 +45,7 @@ If you were busy getting ready for Europe’s privacy law (GDPR) last year, some
 >
 >Accessing and deleting data to as it applies to the CCPA follows the same process as for the GDPR.
 
-## Adobe Target and [!DNL Experience Platform Launch] opt-in {#section_6F7B53F5E40C4425934627B653E831B0}
+## Adobe [!DNL Target] and [!DNL Experience Platform Launch] opt-in {#section_6F7B53F5E40C4425934627B653E831B0}
 
 [!DNL Target] provides opt-in functionality support via [!DNL Launch] to help support your consent management strategy. Opt-in functionality lets customers control how and when the [!DNL Target] tag is fired. There is also an option via [!DNL Launch] to pre-approve the [!DNL Target] tag. To enable the ability to use Opt-In in the [!DNL Target] at.js library, you should use `targetGlobalSettings` and add the `optinEnabled=true` setting. In [!DNL Launch] you'll need to select "enable" from the [!UICONTROL GDPR Opt-In] drop-down list in the [!DNL Launch] extension installation view. See the [Launch documentation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) for more details.
 
@@ -154,7 +154,7 @@ For more information on GDPR, CCPA, and [!DNL Launch], see [The Adobe Privacy Ja
 
 For example, [!DNL Target] deletes the cookies storing its IDs, but [!DNL Adobe Audience Manager] (AAM) does not delete the demdex ID that is stored in a third-party cookie.
 
-### What information needs to be included in a Target GDPR or CCPA request? {#section_D29A4744AE6344E68AD7710B185FD6D0}
+### What information needs to be included in a [!DNL Target] GDPR or CCPA request? {#section_D29A4744AE6344E68AD7710B185FD6D0}
 
 In addition to the requirements from Central Privacy Service, a valid GDPR or CCPA message for [!DNL Target] contains:
 
@@ -195,7 +195,7 @@ In addition to the requirements from Central Privacy Service, a valid GDPR or CC
 }
 ```
 
-### What types of responses can I expect from Target via the GDPR API? {#section_F67263D2A72B4641A47CE36729CCAE8F}
+### What types of responses can I expect from [!DNL Target] via the GDPR API? {#section_F67263D2A72B4641A47CE36729CCAE8F}
 
 | Request Status | Target Response Message | Scenario |
 |--- |--- |--- |
@@ -204,7 +204,7 @@ In addition to the requirements from Central Privacy Service, a valid GDPR or CC
 |Complete|Not applicable - user context not found|The ID provided in the GDPR or CCPA request for the specific visitor or data subject is not present in the Target profile store.<br>Note that this result also returns if you attempt to submit a namespace ID type that is not supported by Target (see above for supported IDs).|
 |Error|Error Message (details depend on the type of error)|Error while fetching or deleting the requested data subject profile.<br>Error while uploading to Azure for access request.|
 
-### What response does Target send to the GDPR API for an access request? {#section_D96D8FBEAF9C4BDAA638215FAFE00763}
+### What response does [!DNL Target] send to the GDPR API for an access request? {#section_D96D8FBEAF9C4BDAA638215FAFE00763}
 
 Responses to access data requests contain a summary of the [!DNL Target] profile for the visitor in question. Note that this return is sent to the [!DNL Experience Cloud] GDPR API, which in turn sends Data Controllers a response.
 
@@ -289,7 +289,7 @@ The following table contains description of the illustrative profile JSON fields
 >
 >This is a shortened version of a [!DNL Target] profile JSON for the purpose of illustration. Many of the fields of the [!DNL Target] profile are not standard. What is returned depends on what information is in that specific visitor profile.
 
-### Does Target support IP obfuscation? {#section_428907B0CD9842D9B245B38C66A53C6A}
+### Does [!DNL Target] support IP obfuscation? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
 [!DNL Target] supports IP obfuscation if you choose to use it as part of your GDPR or CCPA implementation strategy. For more information, see [Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
 

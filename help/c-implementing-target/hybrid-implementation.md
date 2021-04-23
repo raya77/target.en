@@ -1,7 +1,7 @@
 ---
 keywords: hybrid deployment;hybrid;sever-side;serverside;server side;client-side;clientside;client side;hybrid implementation
 description: Learn about Adobe Target's unique hybrid deployment model for personalization, blending client-side and server-side implementations.
-title: What Is A Hybrid Target Implementation?
+title: What Is A Hybrid [!DNL Target] Implementation?
 feature: Implementation
 role: Developer
 exl-id: af898360-217f-4c90-ac26-e80735e4dd20

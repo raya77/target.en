@@ -1,6 +1,6 @@
 ---
 keywords: adobe.target.applyOffer;applyOffer;applyoffer;apply offer;at.js;functions;function
-description: Use the adobe.target.applyOffer() function for the Adobe Target at.js JavaScript library to apply the response content.
+description: Use the adobe.target.applyOffer() function for the Adobe [!DNL Target] at.js JavaScript library to apply the response content.
 title: How Do I Use the adobe.target.applyOffer() Function?
 feature: at.js
 role: Developer

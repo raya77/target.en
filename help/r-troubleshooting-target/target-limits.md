@@ -225,7 +225,7 @@ The following size limits apply to offers:
 
 * **Limit**: 50 reporting audiences/segments per activity.
 
-## Script profile input box in the Target UI
+## Script profile input box in the [!DNL Target] UI
 
 * **Recommended limit**: 2,000 characters.
 

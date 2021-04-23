@@ -1,12 +1,12 @@
 ---
 keywords: implement target;implementation;implement at.js;tag manager;on-device decisioning;on device decisioning
-description: Learn how to specify the settings (account details, implementation methods, etc.) to implement the Adobe Target at.js library without using a tag manager.
-title: Can I Implement Target without a Tag Manager?
+description: Learn how to specify the settings (account details, implementation methods, etc.) to implement the Adobe [!DNL Target] at.js library without using a tag manager.
+title: Can I Implement [!DNL Target] without a Tag Manager?
 feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 ---
-# Implement Target without a tag manager
+# Implement [!DNL Target] without a tag manager
 
 Information about implementing [!DNL Adobe Target] without using a tag manager ([!DNL Adobe Experience Platform Launch] or [!DNL Dynamic Tag Manager]).
 
@@ -115,14 +115,14 @@ Instructions to download the library using the [!DNL Target] interface or the Do
 >
 >* The Target team supports both at.js 1.*x* and at.js 2.*x*. Please upgrade to the most recent update of either major version of at.js to ensure that you are running a supported version. For more information about what's in each version, see [at.js Version Details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 
-### Download at.js using the Target interface {#section_1F5EE401C2314338910FC57F9592894E}
+### Download at.js using the [!DNL Target] interface {#section_1F5EE401C2314338910FC57F9592894E}
 
 To download [!DNL at.js] from the [!DNL Target] interface:
 
 1. Click **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**. 
 1. From the [!UICONTROL Implementation methods] section, click the **[!UICONTROL Download]** button next to the desired at.js version.
 
-### Download at.js using the Target Download API {#section_C0D9D2A9068144708D08526BA5CA10D0}
+### Download at.js using the [!DNL Target] Download API {#section_C0D9D2A9068144708D08526BA5CA10D0}
 
 To download [!DNL at.js] using the API.
 

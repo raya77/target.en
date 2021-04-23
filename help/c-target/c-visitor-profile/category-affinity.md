@@ -1,15 +1,15 @@
 ---
 keywords: affinity;category affinity
-description: Learn about category affinity in Adobe Target that automatically captures categories a user visits and then calculates the user's affinity for the category so it can be targeted and segmented on.
+description: Learn about category affinity in Adobe [!DNL Target] that automatically captures categories a user visits and then calculates the user's affinity for the category so it can be targeted and segmented on.
 title: What Is Category Affinity?
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
 ---
-# Category affinity{#category-affinity}
+# Category affinity
 
 The category affinity feature automatically captures the categories a user visits and then calculates the user's affinity for the category so it can be targeted and segmented on. This helps to ensure that content is targeted to visitors who are most likely to act on that information.
 
-## Passing category affinity information into Target {#section_B0C8E46EEBAC4549AD90352A47787D04}
+## Passing category affinity information into [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
 Whenever a user visits your site, profile parameters specific to the visitor are recorded in the [!DNL Target] database. This data is tied to the user's cookie. One particularly useful parameter is `user.categoryId`, an mbox parameter assigned on a product page. As the visitor continues to browse, or returns for another session, the categories of products a particular user views can be recorded. You can also record category information by passing it as the mbox parameter `user.categoryId` in any mbox (including a nested mbox), as a URL parameter `user.categoryId`, or in Target page parameters with a global mbox. See your account representative for more details.
 

@@ -1,6 +1,6 @@
 ---
 keywords: automated traffic allocation;targeting;Increment Count and Keep User in Activity;traffic allocation;auto-allocate;auto allocate
-description: Learn how to use an Auto-Allocate activity in Adobe Target that identifies a winner among two or more experiences and automatically reallocates more traffic to the winner.
+description: Learn how to use an Auto-Allocate activity in Adobe [!DNL Target] that identifies a winner among two or more experiences and automatically reallocates more traffic to the winner.
 title: What is an Auto-Allocate Activity?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
@@ -127,7 +127,7 @@ These can skew the results in an Auto-Allocate test more than in an A/B test bec
 
 Consult the following FAQs and answers as you work with [!UICONTROL Auto-Allocate] activities:
 
-### Does Analytics for Target (A4T) support Auto-Allocate activities?
+### Does Analytics for [!DNL Target] (A4T) support Auto-Allocate activities?
 
 Yes. For more information, see [A4T support for Auto-Allocate and Auto-Target activities](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 

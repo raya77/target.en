@@ -111,7 +111,7 @@ This video explains the activity types available in [!DNL Target Standard/Premiu
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Using Audiences in Adobe Target (6:21) ![Overview badge](/help/assets/overview.png)
+### Using Audiences in Adobe [!DNL Target] (6:21) ![Overview badge](/help/assets/overview.png)
 
 This video explains how to use audiences in [!DNL Target Standard/Premium].
 

@@ -1,12 +1,12 @@
 ---
 keywords: tls;tls 1.0;transport layer security;encryption;tls 1.1;tls 1.2
-description: Learn how Target uses the TLS (Transport Layer Security) protocol to maintain the highest security standards and promote the safety of your customer data.
-title: How Does Target Use TLS to Provide Security?
+description: Learn how [!DNL Target] uses the TLS (Transport Layer Security) protocol to maintain the highest security standards and promote the safety of your customer data.
+title: How Does [!DNL Target] Use TLS to Provide Security?
 feature: Privacy & Security
 role: Developer
 exl-id: 964a642a-830a-4556-a92a-d300670cd2fa
 ---
-# TLS (Transport Layer Security) encryption changes{#tls-transport-layer-security-encryption-changes}
+# TLS (Transport Layer Security) encryption changes
 
 Information about changes to how [!DNL Adobe] and [!DNL Adobe Target] use TLS (Transport Layer Security) to maintain the highest security standards and promote the safety of customer data.
 
@@ -52,7 +52,7 @@ As you plan for this change, consider the following (note that the March 1, 2020
 
 For more details about supported browsers and their versions, see [Supported Browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
 
-## Adobe Target APIs {#section_88797FA5434049EC89F908853CC76903}
+## Adobe [!DNL Target] APIs {#section_88797FA5434049EC89F908853CC76903}
 
 Starting March 1, 2020, Target APIs will no longer support TLS 1.1 encryption. Customers who access the API should verify that they will not be impacted.
 
