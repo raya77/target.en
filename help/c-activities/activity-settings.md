@@ -1,6 +1,6 @@
 ---
 keywords: Goal & Settings;objective;priority;duration
-description: Learn how to use Activity Settings in Adobe Target to manage the objective, priority, and duration of your activities.
+description: Learn how to use Activity Settings in Adobe [!DNL Target] to manage the objective, priority, and duration of your activities.
 title: How Do I Specify Activity Settings?
 feature: Activities
 exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223

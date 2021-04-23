@@ -1,7 +1,7 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Learn from others' mistakes so that you don't make the same ones when using Adobe Target as part of your testing and personalization strategy.
-title: What are Common Mistakes When Using Target and How Can I Avoid Them?
+description: Learn from others' mistakes so that you don't make the same ones when using Adobe [!DNL Target] as part of your testing and personalization strategy.
+title: What are Common Mistakes When Using [!DNL Target] and How Can I Avoid Them?
 feature: Overview
 exl-id: 17f379bd-81d7-4f4e-b08d-aee42fe5e81f
 ---

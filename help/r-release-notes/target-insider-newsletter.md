@@ -1,7 +1,7 @@
 ---
 keywords: insider newsletter;newsletter;product updates;tips and tricks;events;customer success;blog;blogs;whitepaper;white paper
 description: Read the latest news about Adobe Target. Find information about upcoming events, customer success stories, information and tips from the experts, and more.
-title: What is the Adobe Target Insider Newsletter?
+title: What is the Adobe [!DNL Target] Insider Newsletter?
 feature: Release Notes, Overview
 exl-id: 39623bf0-093f-418a-b8c8-c621e0a56b00
 ---

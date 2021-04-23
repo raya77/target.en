@@ -1,6 +1,6 @@
 ---
 keywords: server side;server-side;sdk;sdks;on-device;decisioning;on device;ondevice;zero latency;latency;near-zero;node.js
-description: Learn how to use on-device decisioning to cache your Target A/B and MVT activities on your server to perform in-memory decisioning at near-zero latency.
+description: Learn how to use on-device decisioning to cache your [!DNL Target] A/B and MVT activities on your server to perform in-memory decisioning at near-zero latency.
 title: What is On-Device Decisioning?
 feature: Implement Server-side
 role: Developer

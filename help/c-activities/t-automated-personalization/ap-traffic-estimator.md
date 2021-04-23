@@ -1,6 +1,6 @@
 ---
 keywords: traffic estimator;automated personalization;ap;estimate traffic;auto-target
-description: Use the Adobe Target Traffic Estimator to determine whether you have sufficient traffic for your Automated Personalization activity to succeed.
+description: Use the Adobe [!DNL Target] Traffic Estimator to determine whether you have sufficient traffic for your Automated Personalization activity to succeed.
 title: How Much Traffic Is Needed for a Successful Activity?
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e

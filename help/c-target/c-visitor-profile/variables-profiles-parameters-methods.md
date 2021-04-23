@@ -5,7 +5,7 @@ title: Which Profiles, Variables, and Parameters Are Used in Target?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
 ---
-# Profile and variable glossary{#profile-and-variable-glossary}
+# Profile and variable glossary
 
 This page lists profiles, variables, and parameters that are useful in profile scripts.
 

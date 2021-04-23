@@ -1,6 +1,6 @@
 ---
 keyword: traffic estimate;traffic estimator;estimate;traffic;confidence;statistical power;lift;bonferroni;conversion rate;visitors per day;duration
-description: Learn how to use the Traffic Estimator that lets you know if you have sufficient traffic for your Adobe Target Multivariate Test activity to succeed.
+description: Learn how to use the Traffic Estimator that lets you know if you have sufficient traffic for your Adobe [!DNL Target] Multivariate Test activity to succeed.
 title: How Much Traffic Is Needed for a Multivariate Test (MVT) Activity?
 feature: Multivariate Tests
 exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787

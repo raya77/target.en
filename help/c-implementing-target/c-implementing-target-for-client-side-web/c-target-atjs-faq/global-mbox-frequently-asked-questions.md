@@ -1,16 +1,16 @@
 ---
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;global;global mbox
-description: Read frequently asked questions (FAQs) and answers about Adobe Target global mboxes.
+description: Read frequently asked questions (FAQs) and answers about Adobe [!DNL Target] global mboxes.
 title: What Are Frequently Asked Questions About the Global mbox?
 feature: at.js
 role: Developer
 exl-id: ec8399df-5222-44bd-9e61-dfce8fd1694d
 ---
-# Global mbox Frequently Asked Questions{#global-mbox-frequently-asked-questions}
+# Global mbox Frequently Asked Questions
 
 List of Frequently Asked Questions (FAQs) about global mboxes.
 
-## Can I have more than one global mbox if my Target account is set across multiple domains? {#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
+## Can I have more than one global mbox if my [!DNL Target] account is set across multiple domains? {#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
 
 Only one global mbox is supported across your account.
 
@@ -18,7 +18,7 @@ You can limit where your activities run by adding URL rules to your activities. 
 
 You could also pass a parameter on the page using [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) and then select those parameters in the "configure URL" section in the [!UICONTROL Visual Experience Composer] (VEC) or by adding the parameters as "refinements" in the Form-Based Experience Composer.
 
-## How do I pass revenue data on a Target global mbox? {#section_17AEA933BADA4D169CCEDF5833C41306}
+## How do I pass revenue data on a [!DNL Target] global mbox? {#section_17AEA933BADA4D169CCEDF5833C41306}
 
 To collect revenue and order information on the target-global-mbox, "mbox parameters" must be sent to Target. These parameters are name/value pairs used to send more information to Target. Target automatically looks for these parameters (reserved names) to populate revenue data.
 

@@ -1,6 +1,6 @@
 ---
 keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq;troubleshooting;trouble shooting
-description: Learn how an Auto-Target activity in Target serves the most tailored experience to each visitor based on customer profiles and the behavior of similar visitors.
+description: Learn how an Auto-Target activity in [!DNL Target] serves the most tailored experience to each visitor based on customer profiles and the behavior of similar visitors.
 title: What Is an Auto-Target Activity?
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69

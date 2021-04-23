@@ -1,6 +1,6 @@
 ---
 keywords: multiple audiences;experience versions;target experience versions
-description: Learn how to target versions of the same experience to different audiences in Adobe Target A/B activities.
+description: Learn how to target versions of the same experience to different audiences in Adobe [!DNL Target] A/B activities.
 title: Can I Use Multiple Experience Versions in an A/B activity?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04

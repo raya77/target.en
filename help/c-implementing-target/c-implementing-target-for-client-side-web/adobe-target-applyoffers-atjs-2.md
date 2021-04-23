@@ -1,6 +1,6 @@
 ---
 keywords: adobe.target.applyOffers;applyOffers;applyoffers;apply offers;at.js;functions;function
-description: Use the adobe.target.applyOffers() function for the Adobe Target at.js JavaScript library to apply multiple offers in the response. (at.js 2.x)
+description: Use the adobe.target.applyOffers() function for the Adobe [!DNL Target] at.js JavaScript library to apply multiple offers in the response. (at.js 2.x)
 title: How Do I Use the adobe.target.applyOffers()  Function?
 feature: at.js
 role: Developer

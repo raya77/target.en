@@ -6,7 +6,7 @@ feature: at.js
 role: Developer
 exl-id: b157a6b3-a39e-4749-95dc-72662dd6eff6
 ---
-# mbox.js functions{#mbox-js-functions}
+# mbox.js functions
 
 List of mbox.js functions to use when implementing with mbox.js.
 

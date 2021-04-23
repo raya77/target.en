@@ -1,7 +1,7 @@
 ---
 keywords: google;samesite;cookies;chrome 80;ietf
-description: Discover how Adobe Target handles the SameSite IETF standard introduced with Google Chrome version 80 and what you need to do to comply with these policies.
-title: How Does Target Handle Google's Samesite Cookie Policies?
+description: Discover how Adobe [!DNL Target] handles the SameSite IETF standard introduced with Google Chrome version 80 and what you need to do to comply with these policies.
+title: How Does [!DNL Target] Handle Google's Samesite Cookie Policies?
 feature: Privacy & Security
 role: Developer
 exl-id: 5abd2065-3692-4a6d-9ac9-6d416604c2d2
@@ -36,7 +36,7 @@ More generally, third-party cookies make it possible for data to be stored on a 
 
 Although cookies enhance user experiences and power advertising, they can also introduce security vulnerabilities like Cross-Site Request Forgery (CSRF) attacks. For example, if a user logs in to a banking site to pay credit card bills and leaves the site without logging out and then browses to a malicious site in the same session, a CSRF attack can occur. The malicious site could include code that makes a request to the banking site that executes when the page loads. Because the user is still authenticated to the banking site, the session cookie can be used to launch a CSRF attack to initiate a funds transfer event out of the user’s bank account. This is because whenever you visit a site, all the cookies are attached in the HTTP request. And because of these security concerns, Google is now attempting to mitigate them.
 
-## How does Target use cookies?
+## How does [!DNL Target] use cookies?
 
 With all that said, let’s see how [!DNL Target] uses cookies. In order for you to use [!DNL Target] in the first place, you need to install the [!DNL Target] JavaScript library on your site. This enables you to place a first-party cookie on the browser of the user that visits your site. As your user interacts with your website, you can pass the user’s behavioral and interest data to [!DNL Target] through the JavaScript library. The [!DNL Target] JavaScript library uses first-party cookies to extract identification information about the user to map to the user’s behavior and interest data. This data is then used by [!DNL Target] to power your personalization activities.
 
@@ -87,7 +87,7 @@ To understand what you need to do to have [!DNL Target] continue to work for Goo
 |at.js 1.*x* with cross-domain tracking enabled.|No impact.|You must enable the HTTPS protocol for your site.<br>[!DNL Target] uses a third-party cookie to track users and Google requires third-party cookies to have `SameSite = None` and Secure flag. The Secure flag requires your sites must use the HTTPS protocol.|
 |at.js 2.*x*|No impact.|No impact.|
 
-## What does Target need to do?
+## What does [!DNL Target] need to do?
 
 So, what did we need to do in our platform to help you comply with the new Google Chrome 80+ SameSite cookie policies?
 

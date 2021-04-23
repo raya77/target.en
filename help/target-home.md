@@ -1,7 +1,7 @@
 ---
 keywords: Target;home;popular topics;adobe target;standard;premium;target documentation;adobe target documentation
-title: Where can I find Target documentation?
-description: Learn how to use Adobe Target to personalize your customers' experience to maximize revenue on your web and mobile sites, apps, and other digital channels.
+title: Where can I find [!DNL Target] documentation?
+description: Learn how to use Adobe [!DNL Target] to personalize your customers' experience to maximize revenue on your web and mobile sites, apps, and other digital channels.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 ---

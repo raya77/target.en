@@ -5,7 +5,7 @@ title: What is the Adobe Experience Cloud Device Co-Op?
 feature: Integrations
 exl-id: 22769591-cab4-4460-b427-76eb1bfff4b0
 ---
-# [!DNL Experience Cloud Device Co-op]{#experience-cloud-device-co-op}
+# [!DNL Experience Cloud Device Co-op]
 
 Information about the [!DNL Adobe Experience Cloud Device Co-op], a program that lets participants work together to better identify consumers across digital touch points while ensuring the highest level of privacy and transparency.
 

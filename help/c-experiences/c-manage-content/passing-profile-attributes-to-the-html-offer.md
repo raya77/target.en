@@ -1,6 +1,6 @@
 ---
 keywords: dynamic data;assets;data;offers;personalized offers;personal offers;token replace
-description: Learn how to pass dynamic data into Adobe Target Offers. Explore business cases that show why you might want to use dynamic offers and view examples and implementation information.
+description: Learn how to pass dynamic data into Adobe [!DNL Target] Offers. Explore business cases that show why you might want to use dynamic offers and view examples and implementation information.
 title: How Do I Pass Dynamic Data into Offers?
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669

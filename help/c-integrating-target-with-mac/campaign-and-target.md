@@ -1,11 +1,11 @@
 ---
 keywords: Overview and Reference
-description: Learn how to use Adobe Target with Adobe Campaign to optimize email content.
-title: How Do I Integrate Target with Adobe Campaign?
+description: Learn how to use Adobe [!DNL Target] with Adobe Campaign to optimize email content.
+title: How Do I Integrate [!DNL Target] with Adobe Campaign?
 feature: Integrations
 exl-id: 605b8fe4-e32f-43bc-9131-245008b655e1
 ---
-# Integrate Target with Adobe Campaign{#integrate-target-with-adobe-campaign}
+# Integrate [!DNL Target] with Adobe Campaign
 
 Use [!DNL Target] with [!DNL Adobe Campaign] to optimize email content.
 
@@ -50,7 +50,7 @@ Before you use [!DNL Adobe Campaign] to set up your targeted email offers, set u
 
 Start the activity in [!DNL Target] before setting up the [!DNL Campaign] portion of the integration.
 
-## Include a Target Offer in an Adobe Campaign Email {#section_B201BBE27A704E18AF0D553F35695837}
+## Include a [!DNL Target] Offer in an Adobe Campaign Email {#section_B201BBE27A704E18AF0D553F35695837}
 
 1. Create an email in [!DNL Adobe Campaign]. 
 1. In the email properties, click **[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target]**. 

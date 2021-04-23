@@ -1,6 +1,6 @@
 ---
 keywords: Recommendations;offer;preview;launch;status;criteria;algorithm
-description: Learn how to preview your Adobe Target Recommendations activity to ensure results are available before launching the activity. 
+description: Learn how to preview your Adobe [!DNL Target] Recommendations activity to ensure results are available before launching the activity. 
 title: How Do I Preview and Launch a Recommendations Activity?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530

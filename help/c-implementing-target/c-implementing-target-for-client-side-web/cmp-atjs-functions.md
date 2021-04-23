@@ -6,7 +6,7 @@ feature: at.js
 role: Developer
 exl-id: a386e478-16f4-4bf6-9771-6b1e75f2e362
 ---
-# at.js functions{#at-js-functions}
+# at.js functions
 
 List of functions that can be used with the Adobe Target at.js JavaScript library. Click the links in the Function column for more information and examples.
 

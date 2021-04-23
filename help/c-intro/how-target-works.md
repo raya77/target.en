@@ -1,11 +1,11 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;search engine optimization;search engine optimization;seo;edge clusters, central clusters;at.js;mbox.js;
-description: Learn how Adobe Target works, including information about the Target JavaScript libraries (at.js and AEP Web SDK), Adobe data centers, and SEO testing.
-title: How Does Target Work?
+description: Learn how Adobe [!DNL Target] works, including information about the [!DNL Target] JavaScript libraries (at.js and AEP Web SDK), Adobe data centers, and SEO testing.
+title: How Does [!DNL Target] Work?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 ---
-# How Adobe Target works
+# How Adobe [!DNL Target] works
 
 Learn how [!DNL Adobe Target] works, including information about the [!DNL Adobe Experience Platform Web SDK] and JavaScript libraries (at.js and mbox.js). This article also introduces the various activity types you can create using [!DNL Target]. You can also learn about the [!DNL Target] edge network, Search Engine Optimization (SEO), and how [!DNL Target] detects bots.
 

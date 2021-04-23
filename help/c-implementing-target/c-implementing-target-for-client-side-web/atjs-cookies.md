@@ -1,12 +1,12 @@
 ---
 keywords: at.js;2.0;1.x;cookies
-description: Details about how Adobe Target at.js 2.x and at.js 1.x handle cookies
+description: Details about how Adobe [!DNL Target] at.js 2.x and at.js 1.x handle cookies
 title: at.js Cookies
 feature: at.js
 role: Developer
 exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
 ---
-# at.js cookies {#at-js-cookies}
+# at.js cookies 
 
 Information about at.js 2.x and at.js 1.*x* cookie behavior.
 
@@ -117,11 +117,11 @@ The cookie keeps a number of values to manage how your visitors experience campa
 |check|A simple test value used to determine if a visitor supports cookies. Set each time a visitor requests a page.|
 |disable|Set if visitor's load time exceeds the timeout configured in the mbox.js file. By default, this lasts 1 hour.|
 
-## Impact on Target for Safari visitors due to Apple WebKit tracking changes
+## Impact on [!DNL Target] for Safari visitors due to Apple WebKit tracking changes
 
 Keep the following in mind:
 
-### How does Adobe Target Tracking work?
+### How does Adobe [!DNL Target] Tracking work?
 
 | Cookies | Details |
 |--- |--- |

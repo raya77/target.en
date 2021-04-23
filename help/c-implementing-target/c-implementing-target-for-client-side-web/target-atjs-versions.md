@@ -1,6 +1,6 @@
 ---
 keywords: at.js releases;at.js versions;release notes
-description: View the details about changes in each version of the Adobe Target at.js JavaScript library.
+description: View the details about changes in each version of the Adobe [!DNL Target] at.js JavaScript library.
 title: What is Included in Each Version of at.js?
 feature: at.js
 role: Developer

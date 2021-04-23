@@ -1,6 +1,6 @@
 ---
 keywords: a4t;A4T;Analytics as the reporting source for Target
-description: Learn how to create Auto-Allocate and Auto-Target activities in Adobe Target that use Analytics as the reporting source (A4T).
+description: Learn how to create Auto-Allocate and Auto-Target activities in Adobe [!DNL Target] that use Analytics as the reporting source (A4T).
 title: Does A4T Support Auto-Allocate and Auto-Target Activities?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c

@@ -5,7 +5,7 @@ title: How Do I View Multiple Metrics in a Report?
 feature: Reports
 exl-id: 8d8aedd8-4583-4131-8ae0-df14e071940a
 ---
-# View multiple metrics in a report{#view-multiple-metrics-in-a-report}
+# View multiple metrics in a report
 
 You can select multiple metrics to view in an [!DNL Adobe Target] report.
 

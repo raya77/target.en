@@ -1,11 +1,11 @@
 ---
 keywords: audience;propensity;profile attribute;compare;comparison;create audience;creating audience
-description: Learn how to define an audience to compare two profile attributes for your Target Audience library or in an activity-only audience.
+description: Learn how to define an audience to compare two profile attributes for your [!DNL Target] Audience library or in an activity-only audience.
 title: Can I Compare Two Profile Attributes for Use in Audiences?
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
 ---
-# Create a profile attribute comparison audience{#create-a-profile-attribute-comparison-audience}
+# Create a profile attribute comparison audience
 
 Define an audience to compare two profile attributes for your [Audience library](/help/c-target/c-audiences/audiences.md) or in an [activity-only audience](/help/c-target/creating-activity-only-audience.md). Using operators, such as greater than, less than, or equal to, define an audience to dynamically compare the values of two different profile attributes.
 

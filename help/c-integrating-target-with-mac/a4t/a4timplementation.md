@@ -1,11 +1,11 @@
 ---
 keywords: A4T;Adobe Analytics;Analytics-based activity;Analytics report suite;report suite;Analytics Target integration;configure report suite
-description: Follow the steps required to implement Analytics for Target (A4T) in your Adobe Target and Adobe Analytics solutions.
-title: How do I Implement Analytics for Target (A4T)?
+description: Follow the steps required to implement Analytics for [!DNL Target] (A4T) in your Adobe [!DNL Target] and Adobe Analytics solutions.
+title: How do I Implement Analytics for [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
 ---
-# Analytics for Target implementation{#analytics-for-target-implementation}
+# Analytics for [!DNL Target] implementation
 
 Several steps are required when implementing [!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T).
 

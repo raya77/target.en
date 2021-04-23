@@ -1,6 +1,6 @@
 ---
 keywords: adobe target;target;documentation;api;apis;sdk;sdks;tutorials;doc;documentation
-description: Access Adobe Target documentation, including online help, tutorials, videos, and developer documentation (SDKs, APIs, and JavaScript libraries).
+description: Access Adobe [!DNL Target] documentation, including online help, tutorials, videos, and developer documentation (SDKs, APIs, and JavaScript libraries).
 title: Where can I find documentation for Target?
 feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5

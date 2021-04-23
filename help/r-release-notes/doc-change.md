@@ -1,6 +1,6 @@
 ---
 keywords: target documentation change log;documentation updates;new topics;edits;updates;update
-description: Keep up to date with important additions and changes to the Adobe Target product documentation.
+description: Keep up to date with important additions and changes to the Adobe [!DNL Target] product documentation.
 title: Where Can I View Documentation Updates for Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
@@ -9,7 +9,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 
 This page lists significant changes made to the [!DNL Adobe Target] product documentation.
 
-## Adobe Target Standard/Premium 21.4.1 (April 19, 2021)
+## Adobe [!DNL Target] Standard/Premium 21.4.1 (April 19, 2021)
 
 |Date|Topic|Changes|
 | --- | --- | --- |
@@ -25,7 +25,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 ||[Adobe Target cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)<br>(*Experience Cloud Services and Administration* guide)|Added additional information about "session ID."|
 ||[Release Notes](/help/r-release-notes/release-notes.md): 21.4.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
 
-## Adobe Target Standard/Premium 21.2.1 (March 9, 2021)
+## Adobe [!DNL Target] Standard/Premium 21.2.1 (March 9, 2021)
 
 |Date|Topic|Changes|
 | --- | --- | --- |
@@ -47,7 +47,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 ||[Entity attributes](/help/c-recommendations/c-products/entity-attributes.md)|Added text to indicate that entity.value must be in decimal format (for example 15.99 instead of 15,99).|
 ||[Release Notes](/help/r-release-notes/release-notes.md): 21.2.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
 
-## Adobe Target Standard/Premium 21.1.1 (January 19, 2021)
+## Adobe [!DNL Target] Standard/Premium 21.1.1 (January 19, 2021)
 
 |Date|Topic|Changes|
 | --- | --- | --- |

@@ -1,6 +1,6 @@
 ---
 keywords: experience targeting;xt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
-description: Learn how to specify metrics in an Adobe Target Experience Targeting activity to determine when a visit is successful, such as Conversion, Revenue, and Engagement.
+description: Learn how to specify metrics in an Adobe [!DNL Target] Experience Targeting activity to determine when a visit is successful, such as Conversion, Revenue, and Engagement.
 title: How Do I Set Goal Metrics in an Experience Targeting Activity?
 feature: Experience Targeting
 exl-id: 16249930-8b9c-441c-bd14-5f32332556d2

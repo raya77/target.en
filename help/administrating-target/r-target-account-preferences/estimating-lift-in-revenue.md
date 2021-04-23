@@ -6,7 +6,7 @@ feature: Administration & Configuration
 role: Administrator
 exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
 ---
-# Estimate lift in revenue{#estimate-lift-in-revenue}
+# Estimate lift in revenue
 
 Use [!DNL Adobe Target] to estimate the revenue lift you would attain if all users view the winning experience.
 

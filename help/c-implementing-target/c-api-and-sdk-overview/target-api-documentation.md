@@ -1,12 +1,12 @@
 ---
 keywords: api;adobe i/o
-description: Learn how to transition from the Adobe Target Classic legacy APIs to the new APIs on Adobe I/O.
+description: Learn how to transition from the Adobe [!DNL Target] Classic legacy APIs to the new APIs on Adobe I/O.
 title: How Do I Transition From Legacy APIs to Adobe I/O?
 feature: Implement Server-side
 role: Developer
 exl-id: 4b4274a9-b91a-4a79-9b40-8b1909a2d1d1
 ---
-# Transition from Target legacy APIs to Adobe I/O
+# Transition from [!DNL Target] legacy APIs to Adobe I/O
 
 Information to help you use transition from the Target legacy APIs to the new APIs on Adobe I/O.
 

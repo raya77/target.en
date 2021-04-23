@@ -1,6 +1,6 @@
 ---
 keywords: adobe.target.trackEvent;trackEvent;trackevent;track event;at.js;functions;function;preventDefault;preventdefault;prevent default
-description: Use the adobe.target.trackEvent() function for the Adobe Target at.js JavaScript library to fire a request to report user actions, such as clicks and conversions on your site.
+description: Use the adobe.target.trackEvent() function for the Adobe [!DNL Target] at.js JavaScript library to fire a request to report user actions, such as clicks and conversions on your site.
 title: How Do I Use the adobe.target.trackEvent() Function?
 feature: at.js
 role: Developer

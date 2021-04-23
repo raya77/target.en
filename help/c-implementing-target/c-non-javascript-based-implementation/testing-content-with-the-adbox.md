@@ -6,7 +6,7 @@ feature: Implement Email
 role: Developer
 exl-id: c66cfbc2-633a-46f2-8d9f-dbd18f7e880e
 ---
-# Create an Adbox for an image{#create-an-adbox-for-an-image}
+# Create an Adbox for an image
 
 Use an AdBox to deliver images in an off-site implementation using Adobe Target.
 

@@ -1,6 +1,6 @@
 ---
 keywords: Target;reports;report settings;extreme orders;extreme values
-description: Learn how to exclude extreme values from affecting reports in Adobe Target so a few unusual orders don't affect your activity results.
+description: Learn how to exclude extreme values from affecting reports in Adobe [!DNL Target] so a few unusual orders don't affect your activity results.
 title: How Do I Exclude Extreme Values in Reports?
 feature: Reports
 exl-id: fd2d0c18-62c0-41e0-800c-b2ae123f0e74

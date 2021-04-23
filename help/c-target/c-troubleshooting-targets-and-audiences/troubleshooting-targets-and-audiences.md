@@ -1,15 +1,15 @@
 ---
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
-description: View frequently asked questions (FAQs) about experience targeting and audiences used in Adobe Target activities.
+description: View frequently asked questions (FAQs) about experience targeting and audiences used in Adobe [!DNL Target] activities.
 title: Where Can I Find Questions and Answers about Targets and Audiences?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
 ---
-# Targets and audiences FAQ{#targets-and-audiences-faq}
+# Targets and audiences FAQ
 
 List of frequently asked questions (FAQs) about experience targeting and audiences.
 
-## How does Target evaluate URLs in targeting? {#url}
+## How does [!DNL Target] evaluate URLs in targeting? {#url}
 
 Target evaluates URLs differently depending on whether you use audience URL targeting while creating an activity or whether you use URL targeting while creating an audience.
 
@@ -58,7 +58,7 @@ Best practice is to have multiple values associated with a single category, as s
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438,C000047`
 
-## When building audiences, why are pre-built audiences under Target Library found under other categories? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
+## When building audiences, why are pre-built audiences under [!DNL Target] Library found under other categories? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
 The pre-built audiences in the Target Library category are legacy audiences and exist in other categories. As an example, the legacy Target Library > New Visitors audience has an updated counterpart: Visitor Profile > New Visitor.
 
@@ -76,7 +76,7 @@ For example, in the following illustration, a user from California using a Windo
 
 ![](assets/audiences_order.png)
 
-## Why do names for the same audience in Target , Adobe Audience Manager (AAM), and the Audience Library in core services differ? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
+## Why do names for the same audience in [!DNL Target] , Adobe Audience Manager (AAM), and the Audience Library in core services differ? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
 Audience names in [!DNL Target] are unique; however, in [!DNL AAM] and the [!DNL Audience Library], you can have the same name for multiple audiences (if they are in different folders).When [!DNL Target] encounters an audience name that corresponds to an [!DNL AAM] or [!DNL Audience Library] audience, [!DNL Target] appends "#&lt;number&gt;" to the name.
 
@@ -86,7 +86,7 @@ For example, you might see the following audiences: "PC Users" (in [!DNL AAM]) a
 
 Some Target audiences are predefined, such as "New Visitors" and "Returning Visitors." These predefined audiences cannot be renamed by users.
 
-## Why are all profile parameters not showing in the Target user interface? {#section_3CD947D15C984EE9AD19550220E0E8BD}
+## Why are all profile parameters not showing in the [!DNL Target] user interface? {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
 [!DNL Target] has a limit of 50 unique profile attributes per mbox call. If you need to pass more than 50 profile attributes to [!DNL Target], you can pass them using the [!UICONTROL Profile Update] API method. For more information, see [Profile Update](https://developers.adobetarget.com/api/#authentication-tokens) in the Adobe Target API documentation.
 
@@ -94,7 +94,7 @@ Some Target audiences are predefined, such as "New Visitors" and "Returning Visi
 
 Automated Personalization activities are evaluated once per session. If there were active sessions that have qualified for a particular experience and now new offers have been added to it, users will see the new content along with the previously shown offers. Because they have previously qualified for those experiences, they would still see them for the duration of the session. If there's a desire to evaluate this at every single page visit, you should change to the Experience Targeting (XT) activity type.
 
-## Why are changes made to audiences created via API not reflected in the Target UI? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
+## Why are changes made to audiences created via API not reflected in the [!DNL Target] UI? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
 Unlike offers and profile scripts, changes made by API to audiences created via Target Standard are not currently synced back to the Target UI.
 

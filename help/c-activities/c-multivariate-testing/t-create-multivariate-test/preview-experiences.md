@@ -1,11 +1,11 @@
 ---
 keywords: multivariate;mvt;preview;experiences
-description: Learn how to preview each experience in a Multivariate Test (MVT) activity in Adobe Target using the Visual Experience Composer (VEC).
+description: Learn how to preview each experience in a Multivariate Test (MVT) activity in Adobe [!DNL Target] using the Visual Experience Composer (VEC).
 title: How Can I Preview Experiences for a Multivariate Test  (MVT)
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
 ---
-# Preview experiences for a Multivariate Test{#preview-experiences-for-a-multivariate-test}
+# Preview experiences for a Multivariate Test
 
 Because a [!UICONTROL Multivariate Test] in [!DNL Adobe Target] compares multiple experiences on a page, it is helpful to preview the page with each experience.
 

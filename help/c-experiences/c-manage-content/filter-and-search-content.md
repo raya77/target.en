@@ -1,6 +1,6 @@
 ---
 keywords: content library;assets;search;filter
-description: Learn how to search for code and image offers in the Adobe Target Offers library.
+description: Learn how to search for code and image offers in the Adobe [!DNL Target] Offers library.
 title: How Do I Search for Content in the Offers Library?
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57

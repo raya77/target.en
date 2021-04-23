@@ -1,12 +1,12 @@
 ---
 keywords: at.js faq;at.js frequently asked questions;faq;flicker;loader;page loader;cross domain;file size;filesize;x-domain;at.js and mbox.js;x only;cross domain;safari;single page app;missing selectors;selectors;single page application;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;ip address;httponly;HttpOnly;secure;ip;cookie domain
-description: Read answers to frequently asked questions about the Adobe Target at.js JavaScript library.
+description: Read answers to frequently asked questions about the Adobe [!DNL Target] at.js JavaScript library.
 title: What Are Common Questions and Answers About at.js?
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
 ---
-# at.js Frequently Asked Questions{#at-js-frequently-asked-questions}
+# at.js Frequently Asked Questions
 
 Answers to frequently asked questions about at.js.
 
@@ -77,7 +77,7 @@ From a response-time perspective, mathematically, this can be summed like this
 
 As you can see, [!DNL at.js] 1.0.0 will complete the requests faster. In addition, [!DNL at.js] requests are asynchronous, so Target doesn't block page rendering. Even if requests take seconds to complete, you will still see the rendered page, only some portions of the page will be blanked out until Target gets a response from the Target edge.
 
-## Can I load the Target library asynchronously? {#section_AB9A0CA30C5440C693413F1455841470}
+## Can I load the [!DNL Target] library asynchronously? {#section_AB9A0CA30C5440C693413F1455841470}
 
 The at.js 1.0.0 release makes it possible to load the Target library asynchronously.
 
@@ -143,7 +143,7 @@ To support Safari visitors, a better X-Domain would be “disabled” (sets only
 
 Not on the same page. However, while implementing and testing [!DNL at.js], you can run [!DNL at.js] on some pages and [!DNL mbox.js] on other pages until you've completely validated [!DNL at.js].
 
-## Can I use the Target Visual Experience Composer in my single-page applications? {#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
+## Can I use the [!DNL Target] Visual Experience Composer in my single-page applications? {#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
 
 Yes, you can use the VEC for your SPA if you utilize at.js 2.x. For more information, see [Single Page (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md).
 
@@ -205,7 +205,7 @@ The following are possible root causes if you see this warning message:
   
   For best results, please download and use the latest version of [!DNL at.js]. For more information, see [at.js Version Details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) and [Download at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
-## What is the domain tt.omtrdc.net that Target server calls go to? {#section_999C29940E8B4CAD8A957A6B1D440317}
+## What is the domain tt.omtrdc.net that [!DNL Target] server calls go to? {#section_999C29940E8B4CAD8A957A6B1D440317}
 
 [!DNL tt.omtrdc.net] is the domain name for Adobe's EDGE network, used to receive all server calls for Target.
 

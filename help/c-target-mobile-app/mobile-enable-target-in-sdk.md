@@ -1,12 +1,12 @@
 ---
 keywords: mobile app;mobile app sdk;target mobile app;mobile target sdk;mobile app sdk;enable target in sdk
 description: Learn how to add the Adobe Mobile Services SDK to your mobile app.
-title: How Do I Enable Target in the Adobe Mobile SDK?
+title: How Do I Enable [!DNL Target] in the Adobe Mobile SDK?
 feature: Implement Mobile
 role: Developer
 exl-id: c34bd50c-e17f-4dfb-8470-8f4c8639ee9f
 ---
-# Enable Target in the SDK{#enable-target-in-the-sdk}
+# Enable [!DNL Target] in the SDK
 
 Add the Adobe Mobile Services SDK to your app.
 

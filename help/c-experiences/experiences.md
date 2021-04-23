@@ -1,7 +1,7 @@
 ---
 keywords: experience;visual experience composer;enhanced experience composer;form based experience composer;form composer;visual composer;experience composer;mixed content;iframe;iframe busting;bust iframe;x-frame-options;x frame options;cross origin;cross origin issues;authentication workflow
 description: Learn more about the Adobe Experience Composers - Visual Experience Composer (VEC), Form-Based Experience Composer, and the Single Page Visual Experience Composer.
-title: Which Experience Composers Does Target Offer?
+title: Which Experience Composers Does [!DNL Target] Offer?
 feature: Experiences and Offers
 exl-id: 83daca9f-c154-487e-83cd-e458d50cece2
 ---

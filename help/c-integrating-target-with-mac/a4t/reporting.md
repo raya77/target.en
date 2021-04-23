@@ -1,11 +1,11 @@
 ---
 keywords: analytics for target;a4t;analytics as the reporting source;analytics
-description: Learn how to use Analytics for Target (A4T). A4T provides access to Analytics reports for Target activities that use Analytics metrics and audience segments.
+description: Learn how to use Analytics for [!DNL Target] (A4T). A4T provides access to Analytics reports for [!DNL Target] activities that use Analytics metrics and audience segments.
 title: How Do I Use Reporting in A4T?
 feature: Analytics for Target (A4T)
 exl-id: cab5dc5f-166a-468e-8382-ae734684afdd
 ---
-# A4T reporting{#a-t-reporting}
+# A4T reporting
 
 Using [!DNL Adobe Analytics] as your reporting source for [!DNL Adobe Target] (A4T) gives you access to [!DNL Analytics] reports for your [!DNL Target] activities.
 
@@ -50,7 +50,7 @@ In [!DNL Analysis Workspace], use the [!UICONTROL Analytics for Target] panel to
 
 For detailed information and examples, open the [Analytics & Target: Best Practices for Analysis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) tutorial, provided by Adobe Experience League.
 
-## Reports in Target {#section_C0D1F17F88374B6690BF904D7B83B42E}
+## Reports in [!DNL Target] {#section_C0D1F17F88374B6690BF904D7B83B42E}
 
 When [!DNL Analytics] is used as the reporting source, reports in [!DNL Target] show the data gathered from [!DNL Analytics]. The report differs somewhat from other [!DNL Target] reports:
 
@@ -69,7 +69,7 @@ Click to view the full [!DNL Analytics] report directly from the activity report
 
 During activity creation, you must specify a goal for the activity on the [!UICONTROL Settings] page. This goal becomes the default metric for the report and is always listed as the first option in the metrics selector. You cannot select segments for reporting like you would for a regular Target activity. A test with [!DNL Analytics] uses [!DNL Adobe Analytics] segments rather than [!DNL Target] audiences.
 
-## Performing offline calculations for Analytics for Target (A4T) {#section_33A97A691F3A45D497DAF57A844388F0}
+## Performing offline calculations for Analytics for Adobe Target (A4T) {#section_33A97A691F3A45D497DAF57A844388F0}
 
 You can perform offline calculations for A4T, but it requires a step with data exports in [!DNL Analytics].
 

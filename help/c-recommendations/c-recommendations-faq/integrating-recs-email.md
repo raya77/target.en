@@ -1,6 +1,6 @@
 ---
 keywords: email;ESP;email service provider;rawbox;delivery API;download-only template;email template;batch processing;build-time email
-description: Learn how to integrate email with Adobe Target Recommendations, including using the Target Delivery API, rawbox templates, and down-load only templates.
+description: Learn how to integrate email with Adobe [!DNL Target] Recommendations, including using the [!DNL Target] Delivery API, rawbox templates, and down-load only templates.
 title: How Do I Integrate Recommendations with Email?
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
@@ -71,7 +71,7 @@ The email system you use should be capable of handling these scenarios:
 * In this case, the response will be whatever is set as the mboxDefault parameter value. See explanation below on this parameter.
 * The email provider should have a default HTML block of recommendations to use in this case.
 
-### The Target server times out and returns without data
+### The [!DNL Target] server times out and returns without data
 
 * In this case, the Target server will return the following content:
 
@@ -115,7 +115,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 |`mboxNoRedirect`<br>(Optional)|1|By default, the caller is redirected when no deliverable content is found. Use to disable the default behavior.||
 |`mbox3rdPartyId`|*xxx*|Use this if you have your own custom visitor ID to use for profile targeting.||
 
-### Potential Target server responses
+### Potential [!DNL Target] server responses
 
 | Response | Description |
 |--- |--- |

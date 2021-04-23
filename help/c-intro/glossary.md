@@ -1,10 +1,10 @@
 ---
-description: What do different terms used in Adobe Target mean? Find definitions of common terms to help you get more out Target.
+description: What do different terms used in Adobe [!DNL Target] mean? Find definitions of common terms to help you get more out [!DNL Target].
 title: Where Can I Find Terms and Definitions Used in Target?
 feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
 ---
-# Glossary{#glossary}
+# Glossary
 
 Definitions of terms.
 

@@ -1,6 +1,6 @@
 ---
 keywords: qa;server side;server-side;preview;preview links
-description: Learn how to use Adobe Target QA URLs with server-side delivery to perform easy end-to-end activity QA with preview links that never change, optional audience targeting, and QA reporting that stays segmented from live activity data.
+description: Learn how to use Adobe [!DNL Target] QA URLs with server-side delivery to perform easy end-to-end activity QA with preview links that never change, optional audience targeting, and QA reporting that stays segmented from live activity data.
 title: Use Can I Perform Activity QA with Server-Side Delivery?
 feature: Activities
 exl-id: eb6965be-92a6-452d-ac01-7ae1533239cc

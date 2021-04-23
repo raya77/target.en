@@ -1,6 +1,6 @@
 ---
 keywords: spa vec;react;angular;react.js;spa visual experience composer;spa experience composer options;single page apps;single-page-app;spa;mobile experience options;target view
-description: Learn how to use the SPA VEC in Adobe Target to create tests and personalize content on SPAs in a do-it-yourself fashion without continuous development dependencies.
+description: Learn how to use the SPA VEC in Adobe [!DNL Target] to create tests and personalize content on SPAs in a do-it-yourself fashion without continuous development dependencies.
 title: How Do I Use the Single Page App Visual Experience Composer (SPA VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
@@ -13,7 +13,7 @@ In [!DNL Adobe Target], the [!UICONTROL Visual Experience Composer] (VEC) gives 
 
 With the newest release, we now introduce the VEC for SPAs. The VEC for SPAs enables marketers to create tests and personalize content on SPAs in a do-it-yourself fashion without continuous development dependencies. The VEC can be used to create [A/B Test](/help/c-activities/t-test-ab/test-ab.md) and [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT) activities on popular frameworks, such as React and Angular.
 
-## Adobe Target Views and Single Page Applications
+## Adobe [!DNL Target] Views and Single Page Applications
 
 The Adobe Target VEC for SPAs takes advantage of a new concept called Views: a logical group of visual elements that together make up an SPA experience. A SPA can, therefore, be considered as transitioning through views, instead of URLs, based on user interactions. A View can typically represent a whole site or grouped visual elements within a site. 
 
@@ -49,7 +49,7 @@ Furthermore, the Views concept can be extended much further than this. If market
 
 Now, marketers might want to run an A/B Test to see whether changing the color from blue to red when Express Delivery is selected can boost conversions as opposed to keeping the button color blue for both delivery options. 
 
-## Implementing Adobe Target Views
+## Implementing Adobe [!DNL Target] Views
 
 Now that we have covered what Adobe Target Views are, we can leverage this concept in Target to empower marketers to run A/B and XT tests on SPAs via the VEC. This will require a one-time developer setup. Let’s go through the steps to set this up.
 

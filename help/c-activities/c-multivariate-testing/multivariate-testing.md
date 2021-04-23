@@ -1,6 +1,6 @@
 ---
 keywords: multivariate test;mvt;full factorial;mvt or a/b;multivariate a/b;traffic estimator;when to use mvt;mvt considerations;multivariate;partial-factorial;partial factorial;full-factorial
-description: Learn how to use Multivariate Testing (MVT) in Adobe Target to compare combinations of offers in elements on a page to determine which combination performs the best.
+description: Learn how to use Multivariate Testing (MVT) in Adobe [!DNL Target] to compare combinations of offers in elements on a page to determine which combination performs the best.
 title: What is a Multivariate Test?
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b

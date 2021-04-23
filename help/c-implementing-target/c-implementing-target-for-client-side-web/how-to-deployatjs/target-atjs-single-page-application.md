@@ -1,7 +1,7 @@
 ---
 keywords: single page application implementation;implement single page application;spa;at.js 2.x;at.js;single page application;single page app;spa;SPAs
-description: Learn how to use Adobe Target at.js 2.x to implement Target for Single Page Applications (SPAs).
-title: Can I implement Target for Single Page Applications (SPAs)?
+description: Learn how to use Adobe [!DNL Target] at.js 2.x to implement [!DNL Target] for Single Page Applications (SPAs).
+title: Can I implement [!DNL Target] for Single Page Applications (SPAs)?
 feature: Implement Server-side
 role: Developer
 ---
@@ -20,7 +20,7 @@ Here are some benefits to using at.js 2.x that are not available in previous ver
 * Tremendously improve your end-users' experiences on your site because offers are shown immediately via the cache without lag time introduced by traditional server calls.
 * A simple one-line of code and one-time developer setup to enable your marketers to create and run A/B and Experience Targeting (XT) activities via the VEC on your SPA. 
 
-## Adobe Target Views and Single Page Applications
+## Adobe [!DNL Target] Views and Single Page Applications
 
 The Adobe Target VEC for SPAs takes advantage of a new concept called Views: a logical group of visual elements that together make up an SPA experience. A SPA can, therefore, be considered as transitioning through views, instead of URLs, based on user interactions. A View can typically represent a whole site or grouped visual elements within a site.
 
@@ -56,7 +56,7 @@ Furthermore, the Views concept can be extended much further than this. If market
 
 Now, marketers might want to run an A/B Test to see whether changing the color from blue to red when Express Delivery is selected can boost conversions, as opposed to keeping the button color blue for both delivery options. 
 
-## Implementing Adobe Target Views
+## Implementing Adobe [!DNL Target] Views
 
 Now that we have covered what Adobe Target Views are, we can leverage this concept in Target to empower marketers to run A/B and XT tests on SPAs via the VEC. This will require a one-time developer setup. Let’s go through the steps to set this up.
 

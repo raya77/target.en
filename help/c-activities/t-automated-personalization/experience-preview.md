@@ -1,6 +1,6 @@
 ---
 keywords: experience preview;experience urls;generate urls;view experience urls
-description: Learn how to use experience preview URLs for Adobe Target Automated Personalization activities to see experience content directly on your site before the activity is live.
+description: Learn how to use experience preview URLs for Adobe [!DNL Target] Automated Personalization activities to see experience content directly on your site before the activity is live.
 title: How Can I Use Experience Preview URLS in Automated Personalization Activities?
 feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd

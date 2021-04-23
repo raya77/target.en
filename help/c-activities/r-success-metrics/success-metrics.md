@@ -1,6 +1,6 @@
 ---
 keywords: Targeting;success;conversion metric;page score metric;page views metric;revenue metrics;time on site metric;estimated value;advanced settings;success metrics;advanced settings;dependency;dependant;Increment Count & Keep User in Activity;Increment Count, Release user, & Allow Reentry;increment Count, Release User, & Bar from Reentry
-description: Learn about success metrics in Adobe Target that help you determine the success of an activity. Success metrics include Conversion, Revenue, Page Views, Custom Scoring, and Time on Site.
+description: Learn about success metrics in Adobe [!DNL Target] that help you determine the success of an activity. Success metrics include Conversion, Revenue, Page Views, Custom Scoring, and Time on Site.
 title: What Are Success Metrics?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24

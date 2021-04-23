@@ -1,6 +1,6 @@
 ---
 keywords: IP address;IP addresses;whitelist;allowlist;firewall;recs;feed;servers;adobe marketing cloud;recommendations
-description: View a list of IP addresses used in Target Recommendations feed-processing servers to help you configure your firewall to allow IP addresses originating from Adobe servers.
+description: View a list of IP addresses used in [!DNL Target] Recommendations feed-processing servers to help you configure your firewall to allow IP addresses originating from Adobe servers.
 title: What IP Addresses Do Recommendations Feed-Processing Servers Use?
 feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03

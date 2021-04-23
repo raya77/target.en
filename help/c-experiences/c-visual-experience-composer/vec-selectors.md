@@ -1,6 +1,6 @@
 ---
 keywords: Experience Targeting;Landing Page Test
-description: An element selector is a CSS expression that can identify one or more elements. Learn how to use element selectors in the Adobe Target Visual Experience Composer (VEC). 
+description: An element selector is a CSS expression that can identify one or more elements. Learn how to use element selectors in the Adobe [!DNL Target] Visual Experience Composer (VEC). 
 title: Can I Use Element Selectors in the Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
@@ -21,7 +21,7 @@ You can set whether to use element classed or element IDs in your account prefer
 
 For information about when to use CSS selectors and when to use unique IDs, see [Visual Experience Composer Best Practices and Limitations](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
-## How Adobe Target Generates a Selector for an Element {#section_D89D954BCBFB486CA081BE183776A475}
+## How Adobe [!DNL Target] Generates a Selector for an Element {#section_D89D954BCBFB486CA081BE183776A475}
 
 Target uses a simple algorithm to create a selector. Here is very brief explanation of the generation logic:
 

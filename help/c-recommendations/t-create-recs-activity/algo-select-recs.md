@@ -1,11 +1,11 @@
 ---
 keywords: recommendations;recommendations activity;criteria;algorithm
-description: Learn how to select the criteria (rules that determine which products or content to recommend) to use in your Adobe Target Recommendations activity.
+description: Learn how to select the criteria (rules that determine which products or content to recommend) to use in your Adobe [!DNL Target] Recommendations activity.
 title: How Do I Select Criteria for A Recommendations Activity?
 feature: Recommendations
 exl-id: 119227ec-88c3-4de9-b2cf-f7d5fa2e98f6
 ---
-# ![PREMIUM](/help/assets/premium.png) Select criteria{#select-criteria}
+# ![PREMIUM](/help/assets/premium.png) Select criteria
 
 Select the [criteria](/help/c-recommendations/c-algorithms/algorithms.md) to use in your [!DNL Adobe Target Recommendations] activity. Criteria are rules that determine which products to recommend based on a predetermined set of visitor behaviors.
 

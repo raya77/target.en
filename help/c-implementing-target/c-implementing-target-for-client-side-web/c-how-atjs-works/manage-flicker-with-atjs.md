@@ -1,12 +1,12 @@
 ---
 keywords: flicker;at.js;implementation;asynchronously;asynchronous;synchronously;synchronous
-description: Learn how at.js and Adobe Target prevent flicker (default content momentarily displays before being replaced by activity content) during page or app load.
+description: Learn how at.js and Adobe [!DNL Target] prevent flicker (default content momentarily displays before being replaced by activity content) during page or app load.
 title: How does at.js Manage Flicker?
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
 ---
-# How at.js manages flicker{#how-at-js-manages-flicker}
+# How at.js manages flicker
 
 Information about how the Target at.js JavaScript library prevents flicker during page or app load.
 

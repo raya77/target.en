@@ -1,6 +1,6 @@
 ---
 keywords: Analytics as reporting source;a4t;A4T;requirements
-description: Learn how to configure the user account requirements necessary to create an Adobe Analytics-based activity in Adobe Target using Analytics for Target (A4T).
+description: Learn how to configure the user account requirements necessary to create an Adobe Analytics-based activity in Adobe [!DNL Target] using Analytics for [!DNL Target] (A4T).
 title: Which User Permission Requirements Are Needed for A4T?
 feature: Analytics for Target (A4T)
 solution: Target,Analytics
@@ -49,6 +49,6 @@ To use A4T on a given report suite, you must have access to that report suite an
    Access to the [!UICONTROL Web Services Access] group in [!DNL Analytics] is required to be able to use [!DNL Analytics] as the reporting source for [!DNL Target].
 
 
-## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
+## Adobe [!DNL Target] {#section_26BA212D8D40443E9EE2AB327091425C}
 
 No additional privileges are required.

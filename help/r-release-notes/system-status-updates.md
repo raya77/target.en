@@ -1,7 +1,7 @@
 ---
 keywords: system update;troubleshooting;maintenance;system status;update status
-description: View the current status of Adobe Target to help you determine whether problems you might encounter are due to system updates or routine maintenance.
-title: Where Can I view the status of Target and other Adobe Products?
+description: View the current status of Adobe [!DNL Target] to help you determine whether problems you might encounter are due to system updates or routine maintenance.
+title: Where Can I view the status of [!DNL Target] and other Adobe Products?
 feature: Release Notes
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
 ---

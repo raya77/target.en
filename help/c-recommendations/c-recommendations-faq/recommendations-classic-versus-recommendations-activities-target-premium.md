@@ -1,11 +1,11 @@
 ---
 keywords: Recommendations;recommendations algorithms;recommendations activity;recommendations classic
-description: Review information to help you understand the differences between the legacy Recommendations Classic and Recommendations activities in Target Premium.
-title: What is the Difference Between Recommendations Classic and Recommendations in Target Premium?
+description: Review information to help you understand the differences between the legacy Recommendations Classic and Recommendations activities in [!DNL Target] Premium.
+title: What is the Difference Between Recommendations Classic and Recommendations in [!DNL Target] Premium?
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
 ---
-# ![PREMIUM](/help/assets/premium.png) Recommendations Classic versus Recommendations activities in Target Premium{#recommendations-classic-versus-recommendations-activities-in-target-premium}
+# ![PREMIUM](/help/assets/premium.png) Recommendations Classic versus Recommendations activities in [!DNL Target] Premium
 
 Information to help you choose between Recommendations Classic and Recommendations activities in Target Premium.
 

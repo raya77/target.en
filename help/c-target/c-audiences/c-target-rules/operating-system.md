@@ -1,11 +1,11 @@
 ---
 keywords: Targeting;target operating system;operating system;target os;os;target linux;linux;target windows;windows;target macintosh;macintosh;mac;target mac;win;target win
 description: Learn how to target visitors who use a certain operating system (Linux, Macintosh, or Windows).
-title: Can I Target Visitors Based on Operating System?
+title: Can I [!DNL Target] Visitors Based on Operating System?
 feature: Audiences
 exl-id: 0d6b6b1c-5c00-49f5-ae2b-c70eb3f713fc
 ---
-# Operating System{#operating-system}
+# Operating System
 
 You can target visitors who use a certain operating system.
 

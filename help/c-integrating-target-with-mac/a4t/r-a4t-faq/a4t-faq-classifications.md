@@ -1,11 +1,11 @@
 ---
 keywords: faq;frequently asked questions;analytics for target;a4T;classifications;classification;classifications importer;post-tnt-action
-description: Find answers to questions about classifications and using Analytics for Target (A4T). A4T lets you use Analytics reporting for Target activities.
+description: Find answers to questions about classifications and using Analytics for [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] activities.
 title: Where Can I Find Information About Classifications with A4T?
 feature: Analytics for Target (A4T)
 exl-id: 875f6c1c-1bda-40a9-96f2-d58c00d91d20
 ---
-# Classifications - A4T FAQ{#classifications-a-t-faq}
+# Classifications - A4T FAQ
 
 This topic contains answers to questions that are frequently asked about classifications and using [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
 

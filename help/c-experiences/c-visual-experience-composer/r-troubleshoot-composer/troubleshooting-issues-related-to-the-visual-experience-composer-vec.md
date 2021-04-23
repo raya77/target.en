@@ -1,6 +1,6 @@
 ---
 keywords: Targeting;visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;tls;tls 1.2
-description: Learn how to troubleshoot problems that sometimes occur in the Adobe Target Visual Experience Composer (VEC) under certain conditions.
+description: Learn how to troubleshoot problems that sometimes occur in the Adobe [!DNL Target] Visual Experience Composer (VEC) under certain conditions.
 title: How Do I Troubleshoot Issues Related to the Visual Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
@@ -9,7 +9,7 @@ exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
 
 Display problems sometimes occur in the [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) under certain conditions.
 
-## When I open my website in the Visual Experience Composer, the Target libraries do not load. (VEC only) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## When I open my website in the Visual Experience Composer, the [!DNL Target] libraries do not load. (VEC only) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 Target adds two parameters (`mboxEdit=1` and `mboxDisable=1`) while opening the website in the Visual Experience Composer.
 

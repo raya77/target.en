@@ -1,12 +1,12 @@
 ---
 keywords: cookie;cookies;delete cookie;delete target cookie;google chrome;chrome;mozilla firefox;firefox;microsoft edge;safari
-description: Learn how to delete your Target browser cookies so that you can validate your experiences.
-title: How Do I Delete the Target Cookie?
+description: Learn how to delete your [!DNL Target] browser cookies so that you can validate your experiences.
+title: How Do I Delete the [!DNL Target] Cookie?
 feature: Privacy & Security
 role: Developer
 exl-id: f2bc079e-593a-4689-a7cd-dfc6f86f6bb4
 ---
-# Delete the Target cookie
+# Delete the [!DNL Target] cookie
 
 You can delete your [!DNL Adobe Target] browser cookie (mbox) so that you can validate all of your experiences during testing.
 
@@ -16,7 +16,7 @@ If there is no [!DNL Target] cookie (mbox), you are considered a new visitor and
 >
 >The following instructions are correct for the browsers and versions listed. Search the internet for instructions for your specific browser or version.
 
-## Delete the Target cookie from Google Chrome
+## Delete the [!DNL Target] cookie from Google Chrome
 
 Version 84.0.4147.105
 
@@ -26,7 +26,7 @@ Version 84.0.4147.105
 1. Click **See all cookies and site data**.
 1. Expand the `adobe.com` section, select the **mbox** cookie, then click the delete icon (X).
 
-## Delete the Target cookie from Mozilla Firefox
+## Delete the [!DNL Target] cookie from Mozilla Firefox
 
 Version 79.0
 
@@ -49,7 +49,7 @@ Version 79.0
 1. Expand the **Cookies** section, then click `https://experience.adobe.com`.
 1. Right-click the **mbox** cookie, then click **Delete**.
 
-## Delete the Target cookie from Microsoft Edge
+## Delete the [!DNL Target] cookie from Microsoft Edge
 
 Version 84.0.522.52
 
@@ -59,7 +59,7 @@ Version 84.0.522.52
 1. Click **See all cookies and site data**.
 1. Expand the `adobe.com` section, select the **mbox** cookie, then click the delete icon (X).
 
-## Delete the Target cookie from Apple Safari
+## Delete the [!DNL Target] cookie from Apple Safari
 
 Version 13.1.2
 

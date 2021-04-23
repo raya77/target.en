@@ -1,6 +1,6 @@
 ---
 keywords: multivariate test;mvt;mvt plan;multivariate test plan
-description: Learn how to plan a Multivariate Tests in Adobe Target so you can create a successful test.
+description: Learn how to plan a Multivariate Tests in Adobe [!DNL Target] so you can create a successful test.
 title: How Do I Plan a Multivariate Test?
 feature: Multivariate Tests
 exl-id: 130718d5-7bd9-4b1a-b81a-7a146f0ffd0d

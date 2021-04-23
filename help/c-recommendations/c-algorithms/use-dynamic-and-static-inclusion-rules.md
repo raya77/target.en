@@ -1,6 +1,6 @@
 ---
 keywords: inclusion rules;inclusion criteria;recommendations;create new criteria;promotion;promotions;dynamic filtering;dynamic;empty values;ignore filtering rule;static filter;filter by value;entity attribute matching;profile attribute matching;parameter matching;filter by value;static filter
-description: Learn how to create inclusion rules in Adobe Target Recommendations for criteria and promotions. To achieve better results, add more dynamic or static filtering rules.
+description: Learn how to create inclusion rules in Adobe [!DNL Target] Recommendations for criteria and promotions. To achieve better results, add more dynamic or static filtering rules.
 title: How Do I Use Dynamic and Static Inclusion Rules in Recommendations?
 feature: Recommendations
 mini-toc-levels: 3

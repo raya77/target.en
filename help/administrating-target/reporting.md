@@ -1,6 +1,6 @@
 ---
 keywords: report;reports;reporting;experience cloud solution;timezone;time zone;currency;exclude IPs;estimated lift in revenue;revenue;lift in revenue;fine-grained priorities;fine-grained
-description: Use Target or Adobe Analytics as the reporting source, specify the default time zone and currency format, add IP addresses to exclude from reporting, and more.
+description: Use [!DNL Target] or Adobe Analytics as the reporting source, specify the default time zone and currency format, add IP addresses to exclude from reporting, and more.
 title: How Do I Configure Reporting in Target?
 feature: Administration & Configuration
 role: Administrator
@@ -48,7 +48,7 @@ Specify the time zone to use for reporting.
 
 Specify the currency to use for reporting.
 
-## IPs to exclude from Target reporting data
+## IPs to exclude from [!DNL Target] reporting data
 
 Specify any IP addresses that you want to exclude from reporting data. For example, excluding internal company addresses is a good way to ensure that your reporting data reflects customer interactions on your website.
 

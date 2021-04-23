@@ -1,6 +1,6 @@
 ---
 keywords: faq;frequently asked questions;analytics for target;a4T;activity setup
-description: Find answers to questions about activity setup when using Analytics for Target (A4T). A4T lets you use Analytics reporting for Target activities.
+description: Find answers to questions about activity setup when using Analytics for [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] activities.
 title: Where Can I Find FAQs About Activity Settings with A4T?
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61

@@ -1,11 +1,11 @@
 ---
 keywords: visitor profile;target visitor profile
-description: Learn how to create audiences in Adobe Target to target visitors who meet specific profile parameters such as new or returning visitor, category affinity, and more.
-title: Can I Target Visitors Who Meet Specific Profile Parameters?
+description: Learn how to create audiences in Adobe [!DNL Target] to target visitors who meet specific profile parameters such as new or returning visitor, category affinity, and more.
+title: Can I [!DNL Target] Visitors Who Meet Specific Profile Parameters?
 feature: Audiences
 exl-id: aca45b80-660d-4b8e-a0d7-84627b8fd77b
 ---
-# Visitor Profile{#visitor-profile}
+# Visitor Profile
 
 Create audiences to target visitors who meet specific profile parameters.
 

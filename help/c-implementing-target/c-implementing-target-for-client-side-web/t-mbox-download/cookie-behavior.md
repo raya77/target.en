@@ -6,7 +6,7 @@ feature: at.js
 role: Developer
 exl-id: 1c4e5b0b-8ae4-4526-aea0-318a33f4d247
 ---
-# mbox.js cookies{#mbox-js-cookies}
+# mbox.js cookies
 
 The cookie behavior depends on whether it is a first-party cookie, a third-party cookie with a first-party cookie, or a third-party cookie alone.
 
@@ -110,7 +110,7 @@ The cookie keeps a number of values to manage how your visitors experience campa
 |check|A simple test value used to determine if a visitor supports cookies. Set each time a visitor requests a page.|
 |disable|Set if visitor's load time exceeds the timeout configured in the mbox.js file. By default, this lasts 1 hour.|
 
-## Impact on Target for Safari Visitors Due to Apple WebKit Tracking Changes {#section_2A2E5730ED7D4A0985C904AFEA310AAE}
+## Impact on [!DNL Target] for Safari Visitors Due to Apple WebKit Tracking Changes {#section_2A2E5730ED7D4A0985C904AFEA310AAE}
 
 **How does Adobe Target Tracking work?**
 

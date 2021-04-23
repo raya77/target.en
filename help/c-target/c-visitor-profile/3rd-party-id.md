@@ -5,7 +5,7 @@ title: How Do I Use Real-Time Profile Syncing for mbox3rdPartyId?
 feature: Audiences
 exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
 ---
-# Real-time profile syncing for mbox3rdPartyId{#real-time-profile-syncing-for-mbox-rdpartyid}
+# Real-time profile syncing for mbox3rdPartyId
 
 The mbox3rdPartyId is your company's visitor ID, such as the membership ID for your company's loyalty program.
 

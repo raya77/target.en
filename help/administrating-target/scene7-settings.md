@@ -1,6 +1,6 @@
 ---
 keywords: scene7;dynamic media classic;digital asset management;assets;dam;content library;swap image
-description: Learn how to integrate Adobe Target with Adobe Dynamic Media Classic (formerly Scene7) to provide Digital Asset Management (DAM) in the Content Library.
+description: Learn how to integrate Adobe [!DNL Target] with Adobe Dynamic Media Classic (formerly Scene7) to provide Digital Asset Management (DAM) in the Content Library.
 title: How Do I Configure the Dynamic Media Classic (Scene7) Integration?
 feature: Administration & Configuration
 role: Administrator

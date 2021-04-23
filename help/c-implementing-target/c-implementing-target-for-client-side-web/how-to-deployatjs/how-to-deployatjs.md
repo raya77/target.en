@@ -1,6 +1,6 @@
 ---
 keywords: implement;at.js;javascript library
-description: Learn how to deploy the Adobe Target at.js JavaScript library using Adobe Experience Platform Launch or without a tag manager.
+description: Learn how to deploy the Adobe [!DNL Target] at.js JavaScript library using Adobe Experience Platform Launch or without a tag manager.
 title: How Do I Deploy at.js?
 feature: Implement Server-side
 role: Developer

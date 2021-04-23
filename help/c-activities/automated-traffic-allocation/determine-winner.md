@@ -1,11 +1,11 @@
 ---
 keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience;auto-allocate;auto allocate
-description: Learn how to interpret the results of an Auto-Allocate A/B activity in Adobe Target by examining important indicators, including lift and confidence.
+description: Learn how to interpret the results of an Auto-Allocate A/B activity in Adobe [!DNL Target] by examining important indicators, including lift and confidence.
 title: How Do I Interpret Auto-Allocate Reports?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
 ---
-# Interpret Auto-Allocate reports {#determine-a-winner}
+# Interpret Auto-Allocate reports 
 
 Interpret the results of an [!UICONTROL Auto-Allocate] A/B activity in [!UICONTROL Adobe Target] by examining important indicators, including lift and confidence.
 

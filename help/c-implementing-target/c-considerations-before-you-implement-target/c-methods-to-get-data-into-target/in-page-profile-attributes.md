@@ -1,7 +1,7 @@
 ---
 keywords: implement;implementing;setting up;setup;page parameter
-description: Get data into Target using in-page profile attributes.
-title: How Do I Get Data into Target Using In-Page Profile Attributes?
+description: Get data into [!DNL Target] using in-page profile attributes.
+title: How Do I Get Data into [!DNL Target] Using In-Page Profile Attributes?
 feature: Implementation
 role: Developer
 exl-id: c6000720-a862-4e9c-96a5-055963a79544

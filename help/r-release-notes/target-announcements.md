@@ -1,7 +1,7 @@
 ---
 keywords: announcements;skill builder;developer chat;coffee break;events;forrester;gartner;webinar
-description: Read announcements and sign up for Adobe Target events, including Skill Builder sessions, developer and product manager chats, webinars, and more.
-title: Where Can I find Target Announcements and Events?
+description: Read announcements and sign up for Adobe [!DNL Target] events, including Skill Builder sessions, developer and product manager chats, webinars, and more.
+title: Where Can I find [!DNL Target] Announcements and Events?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 ---
@@ -26,7 +26,7 @@ In this recorded webinar, Adobe Target product experts discuss how moving critic
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
 
-## Webinar: How HSBC leverages Adobe Target and AI to rapidly optimize and deliver personalization at scale
+## Webinar: How HSBC leverages Adobe [!DNL Target] and AI to rapidly optimize and deliver personalization at scale
 
 * **[View the webinar recording here](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
@@ -42,7 +42,7 @@ Join Adobe and HSBC for this webinar to learn:
 
 *McKinsey article: “[The COVID-19 recovery will be digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),” May 2020
 
-## Adobe Target Skill Builder: Developer chat, migrate Adobe Target's mbox.js to at.js {#skill-builder}
+## Adobe [!DNL Target] Skill Builder: Developer chat, migrate Adobe [!DNL Target]'s mbox.js to at.js {#skill-builder}
 
 With the deprecation of mbox.js on March 31, 2021, David Son, Adobe Target Product Manager recently hosted a developer chat to discuss the benefits of migrating mbox.js to at.js. 
 

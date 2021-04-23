@@ -1,6 +1,6 @@
 ---
 keywords: AB;A/B;AB...n;mistakes;pitfalls;mistake;pitfall;significance;winner;statistically difference;statistical;statistical power;traffic allocation;allocation;
-description: Learn how to avoid the most common pitfalls and mistakes that companies make when performing A/B testing in Adobe Target and other testing solutions.
+description: Learn how to avoid the most common pitfalls and mistakes that companies make when performing A/B testing in Adobe [!DNL Target] and other testing solutions.
 title: How Do I Avoid Common A/B Testing Mistakes?
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce

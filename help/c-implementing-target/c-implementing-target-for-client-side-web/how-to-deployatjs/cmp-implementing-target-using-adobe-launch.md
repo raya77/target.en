@@ -1,16 +1,16 @@
 ---
 keywords: implement;implementing;implementation;adobe launch;launch;race;redirect;experience platform launch
-description: Learn how to implement the Adobe Target at.js library using Adobe Experience Platform Launch, the preferred method to implement Adobe Target.
-title: How Do I Implement Target using Adobe Launch?
+description: Learn how to implement the Adobe [!DNL Target] at.js library using Adobe Experience Platform Launch, the preferred method to implement Adobe [!DNL Target].
+title: How Do I Implement [!DNL Target] using Adobe Launch?
 feature: Implement Server-side
 role: Developer
 exl-id: 7cc1d3ab-4a68-4454-95b0-04fa547a6d9e
 ---
-# Implement Target using Adobe Launch
+# Implement [!DNL Target] using Adobe Launch
 
 Adobe Experience Platform Launch is the next-generation tag management platform from Adobe and is the preferred method to implement Adobe Target. Launch gives customers a simple way to deploy and manage all of the analytics, marketing, and advertising tags necessary to power relevant customer experiences.
 
-## Implement Target using Adobe Launch {#topic_5234DDAEB0834333BD6BA1B05892FC25}
+## Implement [!DNL Target] using Adobe Launch {#topic_5234DDAEB0834333BD6BA1B05892FC25}
 
 Launch is the next-generation tag management platform from Adobe and is the preferred method to implement Adobe Target. Launch gives customers a simple way to deploy and manage all of the analytics, marketing, and advertising tags necessary to power relevant customer experiences. 
 
@@ -22,7 +22,7 @@ The following table lists the various sources where you can get more information
 |[Adobe Launch Documentation](https://experienceleague.adobe.com/docs/launch/using/intro/get-started/quick-start.html)|Information about deploying and managing all of the analytics, marketing, and advertising tags necessary to power relevant customer experiences.|
 |[Adobe Target Extension Documentation](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/target-extension/overview.html)|Information about implementing Target using Launch.|
 
-## Advantages of implementing at.js using the Target Launch extension {#section_48B3F938B6F8491DAF798E0DB54EF304}
+## Advantages of implementing at.js using the [!DNL Target] Launch extension {#section_48B3F938B6F8491DAF798E0DB54EF304}
 
 The following advantages apply only if you use Adobe Launch to implement at.js. For this reason we strongly suggest that you use Adobe Launch rather than DTM or a manual implementation of at.js.
 

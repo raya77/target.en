@@ -5,7 +5,7 @@ title: What Are the Categories for Audiences?
 feature: Audiences
 exl-id: 37d6435d-4139-47c5-a871-6595e089d052
 ---
-# Categories for audiences{#categories-for-audiences}
+# Categories for audiences
 
 You can target on any of several categories. Each category functions as a tab that enables you to create targeting rules (or groups) for each category.
 

@@ -17,7 +17,7 @@ Information about known issues for [!DNL Adobe Target]. Also includes informatio
 
 The following sections list the known issues for [!DNL Target]:
 
-### Analytics for Target (A4T) metrics for Auto-Allocate and Auto-Target activities
+### Analytics for Adobe Target (A4T) metrics for Auto-Allocate and Auto-Target activities
 
 The [!DNL Target] UI lets users select unsupported engagement and revenue metrics as the primary goal metric for optimization in [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities. Conversion metrics are supported; engagement and revenue metrics are *not* supported. If you select engagement or revenue goal metrics, an optimization model is not built.
 
@@ -113,7 +113,7 @@ Success metrics with the advanced option "How will the count be incremented" set
 
 When a success metric is set to increment on every impression, Target counts the visitor again every time the visitor visits this success metric. Target then resets the success metric "membership" to 0 so it can count again on the next impression. Thus, if another metric requires this metric to have been seen first, Target never recognizes that the user has seen the first metric.
 
-### Analytics for Target (A4T)
+### Analytics for [!DNL Target] (A4T)
 
 When using Target activity impressions and conversions in Analysis Workspace, apply the "Same Touch" Attribution IQ model to the metrics to ensure accurate counting. To apply a [non-default attribution model](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html), right-click on the metric to **modify Column Settings > enable Use non-default attribution model > select Same Touch model**. Without this model applied, the metrics are overstated. 
 
@@ -127,7 +127,7 @@ Customers cannot perform CRUD operations on Auto-Allocate activities through the
 
 On May 10, 2020 Adobe updated the GEO provider files, which introduced some inconsistencies. For example, some values containing commas were added; although, values in existing audiences had no comma. Not all of Adobe delivery servers were affected by this change. As a result, audiences using such values might not have qualified all the correct visitors between May 10 and July 22 2020.
 
-### Reporting - Inconsistent data in the downloadable .csv report versus the displayed report in the Target UI. {#csv}
+### Reporting - Inconsistent data in the downloadable .csv report versus the displayed report in the [!DNL Target] UI. {#csv}
 
 Reports generated for download as .csv files are inconsistent if the activity uses more than one metric. The downloadable report is generated based on the report settings only and considers the same value for any other metrics used.
 
@@ -143,7 +143,7 @@ Image offers on the Offers page sometimes retain the “processing” label for 
 
 This issue was fixed in the Target Standard/Premium 20.10.1 release.
 
-### Analytics for Target (A4T) reporting
+### Analytics for Adobe Target (A4T) reporting
 
 The following issues related to A4T have been resolved:
 
@@ -230,7 +230,7 @@ When mbox.js is downloaded for the first time after provisioning, the [!UICONTRO
 
 at.js will be downloaded with `global_mbox_autocreate = false` for a newly provisioned tenant. If mbox.js is downloaded first, global\_mbox\_autocreate is set to "true" and at.js will also be downloaded with `global_mbox_autocreate = true`. (TGT-15929)
 
-### Enterprise Permissions support in Target APIs {#api}
+### Enterprise Permissions support in [!DNL Target] APIs {#api}
 
 Code offers created from the Target UI in the Offers library might display in the default workspace if the list of offers is pulled using GET APIs. This issue will be fixed in first week of March 2019. After this fix is in place, code offers will display in the appropriate workspace when pulled from APIs. This issue does *not* affect offers created from APIs. For example, code offers created from APIs display in the workspace in which they were created, whether fetched using GET APIs or from within the Target UI.
 
@@ -341,7 +341,7 @@ The algorithm for extracting the top-level domain that should be used when savin
 
 This issue was remedied in at.js version 1.2.
 
-### Enterprise User Permissions for Target Premium
+### Enterprise User Permissions for [!DNL Target] Premium
 
 As part of the Enterprise Permissions migration, all Target Premium user management was moved from the Adobe Target UI to Adobe Admin Console.
 
@@ -432,7 +432,7 @@ Global exclusion rules are taking 10-20 minutes to propagate to the edge for Pre
 
 Fixed in the Recommendations 17.2.2.0 release (March 6, 2017).
 
-### Analytics for Target (A4T) reporting
+### Analytics for Adobe Target (A4T) reporting
 
 Reports are not updated when the reporting metric is switched. This issue affects the UI only. There is no impact on reporting data collection or delivery. (TGT-22970)
 

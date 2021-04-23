@@ -166,7 +166,7 @@ The following videos contain more information about the concepts discussed in th
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
-### Basic Target Debugging ![Tutorial badge](/help/assets/tutorial.png)
+### Basic Adobe Target Debugging ![Tutorial badge](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 

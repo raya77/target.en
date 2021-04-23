@@ -1,6 +1,6 @@
 ---
 keywords: Visual Experience Composer;VEC;carousel
-description: Learn how to create a carousel that can be edited in the Adobe Target Visual Experience Composer (VEC).
+description: Learn how to create a carousel that can be edited in the Adobe [!DNL Target] Visual Experience Composer (VEC).
 title: How Do I Create Carousels in the Visual Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: 50bc11d2-c9fc-4b53-8218-49842b59269a

@@ -5,7 +5,7 @@ title: What Is the Visitor Profile Lifetime and Can I Extend It?
 feature: Audiences
 exl-id: 70cb5e3b-ed6d-450d-8c6e-f1bfe8d26e54
 ---
-# Visitor profile lifetime{#visitor-profile-lifetime}
+# Visitor profile lifetime
 
 By default, a visitor profile expires after 14 days of inactivity for that visitor. This profile lifetime can be extended.
 

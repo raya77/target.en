@@ -6,7 +6,7 @@ feature: at.js
 role: Developer
 exl-id: 4e95de13-2848-497a-9d06-41e9cbd98b42
 ---
-# mbox.js version details{#mbox-js-version-details}
+# mbox.js version details
 
 This page shows changes to each version of mbox.js.
 

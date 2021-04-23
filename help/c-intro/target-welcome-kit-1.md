@@ -1,6 +1,6 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Kick start your optimization and personalization program with Adobe Target. The Adobe Target Welcome Kit is a good starting place.
+description: Kick start your optimization and personalization program with Adobe Target. The Adobe [!DNL Target] Welcome Kit is a good starting place.
 title: How Do I Get Started with Target?
 feature: Overview
 exl-id: c7943c6d-03c9-439c-9e1a-1ad805c18073

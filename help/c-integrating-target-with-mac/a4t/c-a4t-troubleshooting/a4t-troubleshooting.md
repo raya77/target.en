@@ -1,11 +1,11 @@
 ---
 keywords: analytics tracking server;A4T;analytics segments;report suites;incorrect data;orphaned;sdid;VisitorAPI.js;mboxMCSDID;phantom;unspecified
-description: Explore common issues customers have encountered when using Analytics for Target (A4T).
-title: How Do I Troubleshoot the Analytics and Target Integration (A4T)
+description: Explore common issues customers have encountered when using Analytics for [!DNL Target] (A4T).
+title: How Do I Troubleshoot the Analytics and [!DNL Target] Integration (A4T)
 feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
 ---
-# Troubleshoot the Analytics and Target integration (A4T)
+# Troubleshoot the Analytics and [!DNL Target] integration (A4T)
 
 This topic covers some common issues that have been encountered when using [!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T).
 

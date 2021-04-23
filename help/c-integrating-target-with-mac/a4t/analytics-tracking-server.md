@@ -1,6 +1,6 @@
 ---
 keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;Adobe Experience Platform debugger;reporting source;developer tools
-description: Learn how to specify an Analytics tracking server for activities that use Analytics for Target (A4T) if you are using an older version of at.js or mbox.js. 
+description: Learn how to specify an Analytics tracking server for activities that use Analytics for [!DNL Target] (A4T) if you are using an older version of at.js or mbox.js. 
 title: How do I Use an Analytics Tracking Server?
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43

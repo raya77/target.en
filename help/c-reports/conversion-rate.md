@@ -1,6 +1,6 @@
 ---
 keywords: Targeting
-description: Learn how Adobe Target shows and calculates the conversion rate, lift, confidence (statistical significance), and confidence interval for each experience.
+description: Learn how Adobe [!DNL Target] shows and calculates the conversion rate, lift, confidence (statistical significance), and confidence interval for each experience.
 title: How Do I View the Conversion Rate, Lift, and Confidence Level?
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
@@ -105,7 +105,7 @@ To calculate these calculated metrics, download the Target's [Complete Confidenc
 >
 >This calculator is for Target-based reporting and not for A4T reporting.
 
-## Performing Offline Calculations for Analytics for Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
+## Performing Offline Calculations for Analytics for Adobe Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
 
 You can perform offline calculations for A4T, but it requires a step with data exports in [!DNL Analytics].
 
@@ -179,7 +179,7 @@ You can view reports by the following counting methodologies:
 >
 >Usually, counts are determined by cookies and session activity. However, if you reach the final conversion point of an activity and then re-enter the activity, you are considered a new entrant and a new visit to the activity. This is true even if your PCID and `sessionID` values do not change.
 
-## Why does Target recommend using Student's t-tests? {#t-test}
+## Why does [!DNL Target] recommend using Student's t-tests? {#t-test}
 
 A/B tests are experiments to compare the mean value of some business metric in a control variant (also known as an experience) to the mean value of that same metric in one or more alternate experiences.
 

@@ -5,7 +5,7 @@ title: What Are Visitor Profiles?
 feature: Audiences
 exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
 ---
-# Visitor profiles{#visitor-profiles}
+# Visitor profiles
 
 Visitor profiles contain information about how your visitors use your pages and other optimized content locations
 

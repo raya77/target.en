@@ -1,12 +1,12 @@
 ---
 keywords: implement;implementing;whitelist;white list;allowlist;allow list;edge;edges
-description: View a list of hosts to help you allowlist Adobe Target edges (geographically distributed serving nodes that ensure optimum response times end users).
-title: How Do I Allowlist Target Edge Nodes?
+description: View a list of hosts to help you allowlist Adobe [!DNL Target] edges (geographically distributed serving nodes that ensure optimum response times end users).
+title: How Do I Allowlist [!DNL Target] Edge Nodes?
 feature: Privacy & Security
 role: Developer
 exl-id: 2d8399b9-eec8-40b0-8b35-2812f83ff4dc
 ---
-# Allowlist Target edge nodes
+# Allowlist [!DNL Target] edge nodes
 
 Information and an up-to-date list of hosts to help you allowlist [!DNL Adobe Target] edges.
 
@@ -14,7 +14,7 @@ An edge is a geographically distributed serving architecture that ensures optimu
 
 You can allowlist [!DNL Target] edge nodes, if desired. 
 
-## Network Address Translation (NAT) IP addresses of Target edges
+## Network Address Translation (NAT) IP addresses of [!DNL Target] edges
 
 List of egress IP addresses of [!DNL Target] edges. Allowlist these IPs if you plan to have Target reach out to your services.
 

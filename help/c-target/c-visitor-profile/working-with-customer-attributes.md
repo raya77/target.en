@@ -45,7 +45,7 @@ Consider the following information as your work with customer attributes and [!D
 
    ![Customer Attributes tab](/help/c-target/c-visitor-profile/assets/customer-attributes-tab.png)
 
-## Customer attribute workflow for Target {#section_00DAE94DA9BA41398B6FD170BC7D38A3}
+## Customer attribute workflow for [!DNL Target] {#section_00DAE94DA9BA41398B6FD170BC7D38A3}
 
 Complete the following steps to use CRM data in [!DNL Target], as illustrated below:
 
@@ -104,7 +104,7 @@ Detailed instructions for completing each of the following tasks can be found in
    * The maximum file size for each upload using the FTP method is 4 GB. 
    * The number of attributes allowed to subscribe: 5 for [!DNL Target Standard] and 200 for [!DNL Target Premium].
 
-## Use customer attributes in Target {#section_107E3A0F0EC7478E82E6DBD17B30B756}
+## Use customer attributes in [!DNL Target] {#section_107E3A0F0EC7478E82E6DBD17B30B756}
 
 You can use customer attributes in [!DNL Target] in the following ways:
 

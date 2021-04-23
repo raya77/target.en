@@ -1,12 +1,12 @@
 ---
 keywords: implement;implementing;implementation;tag manager;dtm;at.js;dynamic tag management
-description: Learn how to implement the Adobe Target at.js library using the legacy Dynamic Tag Management (DTM). Adobe Launch is the preferred method to implement Target.
-title: Can I Implement Target using Dynamic Tag Management (DTM)?
+description: Learn how to implement the Adobe [!DNL Target] at.js library using the legacy Dynamic Tag Management (DTM). Adobe Launch is the preferred method to implement [!DNL Target].
+title: Can I Implement [!DNL Target] using Dynamic Tag Management (DTM)?
 feature: Implement Server-side
 role: Developer
 exl-id: 87df1326-a2d5-4bdb-82ba-ec58eaf17773
 ---
-# Implement Target using Dynamic Tag Management (DTM)
+# Implement [!DNL Target] using Dynamic Tag Management (DTM)
 
 Adobe Dynamic Tag Management (DTM) is Adobe's legacy tag manager.
 
