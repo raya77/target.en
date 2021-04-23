@@ -199,7 +199,7 @@ The following videos contain more information about the concepts discussed in th
 >
 >The [!DNL Target] [!UICONTROL Administration] menu UI (formerly [!UICONTROL Setup]) has been redesigned to provide improved performance, reduce the maintenance time required when releasing new features, and to improve the user experience across the product. The information in the following videos is generally correct; however, options might be in slightly different locations. Updated videos will be posted soon.
 
-### How to Configure [!DNL Target] Workspaces &lpar;6:55&rpar; ![Tutorial badge](/help/assets/tutorial.png)
+### How to Configure Adobe Target Workspaces (6:55) ![Tutorial badge](/help/assets/tutorial.png)
 
 This video explains how to create workspaces.
 
@@ -213,7 +213,7 @@ This video explains how to create workspaces.
 
 >[!VIDEO](https://video.tv.adobe.com/v/19463/)
 
-### How to Create Properties in Adobe [!DNL Target] &lpar;3:05&rpar; ![Tutorial badge](/help/assets/tutorial.png)
+### How to Create Properties in Adobe Target (3:05) ![Tutorial badge](/help/assets/tutorial.png)
 
 * How to create a property within the [!DNL Adobe Target] interface 
 * How to generate a property token to include in your property implementation 

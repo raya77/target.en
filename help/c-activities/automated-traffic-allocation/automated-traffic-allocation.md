@@ -127,7 +127,7 @@ These can skew the results in an Auto-Allocate test more than in an A/B test bec
 
 Consult the following FAQs and answers as you work with [!UICONTROL Auto-Allocate] activities:
 
-### Does Analytics for [!DNL Target] &lpar;A4T&rpar; support Auto-Allocate activities?
+### Does Analytics for Adobe Target (A4T) support Auto-Allocate activities?
 
 Yes. For more information, see [A4T support for Auto-Allocate and Auto-Target activities](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 

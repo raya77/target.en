@@ -9,7 +9,7 @@ exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
 
 This topic contains answers to questions that are frequently asked about using redirect offers when using [!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T).
 
-## Does Analytics for [!DNL Target] &lpar;A4T&rpar; support redirect offers? {#section_46B8B03ED4D542C6AD875F5F61176298}
+## Does Analytics for Adobe Target (A4T) support redirect offers? {#section_46B8B03ED4D542C6AD875F5F61176298}
 
 Yes, if your implementation uses [!DNL at.js]. However, your implementation must meet the minimum requirements listed below in order to use [redirect offers](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) in activities that use Analytics as the reporting source.
 
