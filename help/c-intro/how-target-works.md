@@ -49,7 +49,7 @@ See [Create an A/B Test](/help/c-activities/t-test-ab/t-test-create-ab/test-crea
 
 ### [!UICONTROL Auto-Allocate]
 
-[UICONTROL Auto-Allocate] identifies a winner among two or more experiences. [UICONTROL Auto-Allocate] automatically reallocates more traffic to the winning experience, which helps to increase conversions while the test continues to run and learn.
+[!UICONTROL Auto-Allocate] identifies a winner among two or more experiences. [!UICONTROL Auto-Allocate] automatically reallocates more traffic to the winning experience, which helps to increase conversions while the test continues to run and learn.
 
 See [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) for more information.
 
@@ -206,6 +206,6 @@ Specifically, for known bot traffic [!DNL Target] does not:
 * Create or retrieve a visitor profile
 * Log any profile attributes or execute profile scripts
 * Look up Adobe Audience Manager (AAM) segments (if applicable)
-* Use bot traffic in modeling and serving personalized content for Recommendations, Auto-Target, Automated Personalization, or [UICONTROL Auto-Allocate] activities
+* Use bot traffic in modeling and serving personalized content for Recommendations, Auto-Target, Automated Personalization, or [!UICONTROL Auto-Allocate] activities
 * Log an activity visit for reporting
 * Log data to be sent to the [!DNL Adobe Experience Cloud] platform
