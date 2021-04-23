@@ -9,7 +9,7 @@ exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 
 Learn how [!DNL Adobe Target] works, including information about the [!DNL Adobe Experience Platform Web SDK] and JavaScript libraries (at.js and mbox.js). This article also introduces the various activity types you can create using [!DNL Target]. You can also learn about the [!DNL Target] edge network, Search Engine Optimization (SEO), and how [!DNL Target] detects bots.
 
-## Target Platform Web SDKs and JavaScript libraries {#libraries}
+## [!DNL Target] Platform Web SDKs and JavaScript libraries {#libraries}
 
 [!DNL Target] integrates with websites using the [!DNL AEP Web SDK] or JavaScript libraries:
 
@@ -34,7 +34,7 @@ In [!DNL Target], each element on the page is part of a single experience for th
 
 The content that is displayed to visitors depends on the type of activity you create:
 
-### A/B Test
+### [!UICONTROL A/B Test]
 
 The content that displays in a basic A/B test is randomly chosen from the experiences you assign to the activity. You can assign the traffic allocation  percentages for each experience. As a result of this random splitting of traffic, it can take a significant amount of initial traffic before the percentages even out. For example, if you create two experiences, the starting experience is chosen randomly. If there is little traffic, it's possible that the percentage of visitors can be skewed toward one experience. As traffic increases, the percentages equalize.
 
@@ -47,25 +47,25 @@ You can specify percentage targets for each experience. In this case, a random n
 
 See [Create an A/B Test](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) for more information.
 
-### Auto-Allocate
+### [!UICONTROL Auto-Allocate]
 
-Auto-Allocate identifies a winner among two or more experiences. Auto-Allocate automatically reallocates more traffic to the winning experience, which helps to increase conversions while the test continues to run and learn.
+[UICONTROL Auto-Allocate] identifies a winner among two or more experiences. [UICONTROL Auto-Allocate] automatically reallocates more traffic to the winning experience, which helps to increase conversions while the test continues to run and learn.
 
-See [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) for more information.
+See [[UICONTROL Auto-Allocate]](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) for more information.
 
-### Auto-Target (AT)
+### [!UICONTROL Auto-Target] (AT)
 
 Auto-Target uses advanced machine learning to select from multiple high-performing marketer-defined experiences. Auto-Target serves the most tailored experience to each visitor. Experience delivery is based on individual customer profiles and the behavior of previous visitors with similar profiles. Use Auto-Target to personalize content and drive conversions.
 
 See [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) for more information.
 
-### Automated Personalization (AP)
+### [!UICONTROL Automated Personalization] (AP)
 
 Automated Personalization (AP) combines offers or messages, and uses advanced machine learning to match different offer variations to each visitor. Experience delivery is based on individual customer profiles to personalize content and drive lift.
 
 See [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) for more information.
 
-### Experience Targeting (XT)
+### [!UICONTROL Experience Targeting] (XT)
 
 Experience Targeting (XT) delivers content to a specific audience based on a set of marketer-defined rules and criteria.
 
@@ -73,13 +73,13 @@ Experience Targeting, including geotargeting, is valuable for defining rules tha
 
 See [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4) for more information.
 
-### Multivariate Test (MVT)
+### [!UICONTROL Multivariate Test] (MVT)
 
 Multivariate Testing (MVT) compares combinations of offers in elements on a page to determine which combination performs the best for a specific audience. MVT helps identify which element most impacts the activity's success.
 
 See [Multivariate Test](/help/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) for more information.
 
-### Recommendations
+### [!UICONTROL Recommendations]
 
 Recommendations activities automatically display products or content that might interest your customers based on previous user activity or other algorithms. Recommendations help direct customers to relevant items they might otherwise not know about.
 
@@ -206,6 +206,6 @@ Specifically, for known bot traffic [!DNL Target] does not:
 * Create or retrieve a visitor profile
 * Log any profile attributes or execute profile scripts
 * Look up Adobe Audience Manager (AAM) segments (if applicable)
-* Use bot traffic in modeling and serving personalized content for Recommendations, Auto-Target, Automated Personalization, or Auto-Allocate activities
+* Use bot traffic in modeling and serving personalized content for Recommendations, Auto-Target, Automated Personalization, or [UICONTROL Auto-Allocate] activities
 * Log an activity visit for reporting
 * Log data to be sent to the [!DNL Adobe Experience Cloud] platform
