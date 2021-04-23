@@ -98,7 +98,7 @@ System admin users must add users to the system. Users are not automatically add
 
 For more information, see [Manage Product Permissions and Roles in the Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) in the *Enterprise User Guide*.
 
-## Training video: How to Configure [!DNL Target] Workspaces ![Tutorial badge](/help/assets/tutorial.png)
+## Training video: How to Configure Adobe Target Workspaces ![Tutorial badge](/help/assets/tutorial.png)
 
 Learning objectives:
 

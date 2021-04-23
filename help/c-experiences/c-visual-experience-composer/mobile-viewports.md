@@ -170,7 +170,7 @@ The following demo video includes information about using the Visual Experience 
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Account Preferences in Adobe [!DNL Target] ![Overview badge](/help/assets/overview.png)
+### Account Preferences in Adobe Target ![Overview badge](/help/assets/overview.png)
 
 This video includes information about setting up mobile viewports, beginning at 4:40 in the video.
 

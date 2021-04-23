@@ -22,7 +22,7 @@ The following videos step you through the debugging process:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/)
 
-### Basic [!DNL Target] Debugging Using the Adobe Experience Cloud Debugger ![Overview badge](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}
+### Basic Adobe Target Debugging Using the Adobe Experience Cloud Debugger ![Overview badge](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115/)
 
