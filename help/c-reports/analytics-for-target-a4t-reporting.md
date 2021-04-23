@@ -5,7 +5,7 @@ title: How Do I Use Analytics for [!DNL Target] (A4T) Reporting?
 feature: Analytics for Target (A4T)
 exl-id: 43d31231-e258-458e-b371-08214fd903b9
 ---
-# Analytics for [!DNL Target] (A4T) reporting
+# Analytics for [!DNL Target] &lpar;A4T&rpar; reporting
 
 Using Analytics as your reporting source for Target (A4T) gives you access to Analytics reports for your Target activities.
 

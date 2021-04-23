@@ -69,7 +69,7 @@ Click to view the full [!DNL Analytics] report directly from the activity report
 
 During activity creation, you must specify a goal for the activity on the [!UICONTROL Settings] page. This goal becomes the default metric for the report and is always listed as the first option in the metrics selector. You cannot select segments for reporting like you would for a regular Target activity. A test with [!DNL Analytics] uses [!DNL Adobe Analytics] segments rather than [!DNL Target] audiences.
 
-## Performing offline calculations for Analytics for [!DNL Target] (A4T) {#section_33A97A691F3A45D497DAF57A844388F0}
+## Performing offline calculations for Analytics for [!DNL Target] &lpar;A4T&rpar; {#section_33A97A691F3A45D497DAF57A844388F0}
 
 You can perform offline calculations for A4T, but it requires a step with data exports in [!DNL Analytics].
 

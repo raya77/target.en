@@ -17,7 +17,7 @@ Information about known issues for [!DNL Adobe Target]. Also includes informatio
 
 The following sections list the known issues for [!DNL Target]:
 
-### Analytics for [!DNL Target] (A4T) metrics for Auto-Allocate and Auto-Target activities
+### Analytics for [!DNL Target] &lpar;A4T&rpar; metrics for Auto-Allocate and Auto-Target activities
 
 The [!DNL Target] UI lets users select unsupported engagement and revenue metrics as the primary goal metric for optimization in [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities. Conversion metrics are supported; engagement and revenue metrics are *not* supported. If you select engagement or revenue goal metrics, an optimization model is not built.
 
@@ -143,7 +143,7 @@ Image offers on the Offers page sometimes retain the “processing” label for 
 
 This issue was fixed in the Target Standard/Premium 20.10.1 release.
 
-### Analytics for [!DNL Target] (A4T) reporting
+### Analytics for [!DNL Target] &lpar;A4T&rpar; reporting
 
 The following issues related to A4T have been resolved:
 
@@ -432,7 +432,7 @@ Global exclusion rules are taking 10-20 minutes to propagate to the edge for Pre
 
 Fixed in the Recommendations 17.2.2.0 release (March 6, 2017).
 
-### Analytics for [!DNL Target] (A4T) reporting
+### Analytics for [!DNL Target] &lpar;A4T&rpar; reporting
 
 Reports are not updated when the reporting metric is switched. This issue affects the UI only. There is no impact on reporting data collection or delivery. (TGT-22970)
 

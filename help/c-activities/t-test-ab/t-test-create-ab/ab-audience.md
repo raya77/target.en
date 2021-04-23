@@ -41,7 +41,7 @@ You can also choose to let Target [allocate traffic automatically](/help/c-activ
 
 The following videos contain more information about the concepts discussed in this article.
 
-### Using Audiences in Adobe [!DNL Target] (6:21) ![Overview badge](/help/assets/overview.png)
+### Using Audiences in Adobe [!DNL Target] &lpar;6:21&rpar; ![Overview badge](/help/assets/overview.png)
 
 This video explains how to use audiences in [!DNL Target Standard/Premium].
 

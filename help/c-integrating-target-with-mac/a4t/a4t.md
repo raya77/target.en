@@ -103,7 +103,7 @@ Open the [Analytics & Target: Best Practices for Analysis](https://spark.adobe.c
 
 The following videos contain more information about the concepts discussed in this topic.
 
-### Analytics for [!DNL Target] (A4T) (4:32) ![Overview badge](/help/assets/overview.png)
+### Analytics for [!DNL Target] &lpar;A4T&rpar; (4:32) ![Overview badge](/help/assets/overview.png)
 
 This video explains how to use [!DNL Analytics] as a reporting source in [!DNL Target] to drive the analysis of your optimization program.
 

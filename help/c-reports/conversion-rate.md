@@ -105,7 +105,7 @@ To calculate these calculated metrics, download the Target's [Complete Confidenc
 >
 >This calculator is for Target-based reporting and not for A4T reporting.
 
-## Performing Offline Calculations for Analytics for [!DNL Target] (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
+## Performing Offline Calculations for Analytics for [!DNL Target] &lpar;A4T&rpar; {#section_B34BD016C8274C97AC9564F426B9607E}
 
 You can perform offline calculations for A4T, but it requires a step with data exports in [!DNL Analytics].
 
