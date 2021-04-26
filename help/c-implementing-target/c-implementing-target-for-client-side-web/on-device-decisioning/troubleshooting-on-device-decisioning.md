@@ -4,17 +4,10 @@ description: Learn how to troubleshoot on-device decisioning with the at.js libr
 title: How Do I Troubleshoot On-Device Decisioning with the at.js JavaScript Library?
 feature: at.js
 role: Developer
-
 ---
-# Troubleshooting On-device decisioning for at.js
+# Troubleshooting on-device decisioning for at.js
 
-Complete the following steps to troubleshoot on-device decisioning in Adobe Target with the at.js JavaScript library:
-
-1. Enable the console log for at.js
-1. Verify the rule artifact download in your browser's Network tab
-1. Verify the rule artifact download using at.js custom events
-
-The following sections describe each step in more detail:
+Complete the following steps to troubleshoot on-device decisioning in [!DNL Adobe Target] with the at.js JavaScript library:
 
 ## Step 1: Enable the console log for at.js
 
