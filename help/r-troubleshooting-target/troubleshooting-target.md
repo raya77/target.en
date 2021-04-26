@@ -130,6 +130,10 @@ The following sections contain troubleshooting information about implementing Ta
 
 * [Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
 
+## On-device decisioning
+
+* [On-device decisioning for at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
+
 ## Reporting
 
 * [Target optimization and personalization FAQ](/help/c-intro/cmp-target-standard-cheatsheet.md)
