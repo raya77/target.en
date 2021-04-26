@@ -26,7 +26,7 @@ Instructions for working with [!DNL Adobe] Client Care to implement CNAME (Canon
    >
    >Adobe's certificate authority, DigiCert, cannot issue a certificate until this step is complete. Therefore, [!DNL Adobe] cannot fulfill your request for a CNAME implementation until this step is complete.
 
-1. [Fill out this form](https://experienceleague.adobe.com/docs/core-services/assets/FPC_Request_Form.xlsx?lang=en) and include it when you [open an Adobe Client Care ticket requesting CNAME support](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
+1. [Fill out this form](/help/assets/FPC_Request_Form.xlsx) and include it when you [open an Adobe Client Care ticket requesting CNAME support](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
 
    * Adobe [!DNL Target] client code:
    * SSL certificate hostnames (example: `target.example.com target.example.org`):

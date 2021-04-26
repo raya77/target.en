@@ -132,7 +132,7 @@ The following sections contain troubleshooting information about implementing Ta
 
 ## On-device decisioning
 
-* [On-device decisioning for at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
+* [Troubleshooting on-device decisioning for at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
 
 ## Reporting
 
