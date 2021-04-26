@@ -26,7 +26,7 @@ Reference the [!DNL AEP Web SDK] or at.js on every page on your site. For exampl
 The following resources contain detailed information to help you implement the AEP Web SDK or at.js:
 
 * [Adobe Experience Platform Web SDK Extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension)
-* [Implement Target using Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [Implement [!DNL Target] using Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 Each time a visitor requests a page that has been optimized for [!DNL Target], a request is sent to the targeting system. The request helps to determine what content to serve to that visitor. This process occurs in real time. Every time a page is loaded, a request for the content is made and fulfilled by the system. The content is governed by the rules of marketer-controlled activities and experiences and is targeted to the individual site visitor. Content is served that each site visitor is most likely to respond to, interact with, or ultimately purchase. Personalized content helps maximize response rates, acquisition rates, and revenue.
 

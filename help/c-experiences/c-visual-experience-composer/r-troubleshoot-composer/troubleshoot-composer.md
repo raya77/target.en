@@ -1,7 +1,7 @@
 ---
 keywords: Targeting;visual experience composer;enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;enhanced experience composer;tls;tls 1.2
 description: Learn how to troubleshoot problems that sometimes occur in the Visual Experience Composer (VEC) and the Enhanced Experience Composer (EEC) under certain conditions.
-title: How Do I Troubleshooti the Visual Experience Composer and Enhanced Experience Composer?
+title: How Do I Troubleshoot the Visual Experience Composer and Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: a971627c-662e-487b-bf0c-f73d196e3e71
 ---
