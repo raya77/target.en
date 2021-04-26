@@ -362,7 +362,7 @@ For example, to open DevTools in Google Chrome:
 
    ![Network tab in Google Chrome](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/rule-json.png)
 
-### Verify the rule artifact download using at.js custom events
+### Step 3: Verify the rule artifact download using at.js custom events
 
 The at.js library dispatches two new custom events to support on-device decisioning. 
 
