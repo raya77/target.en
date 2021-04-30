@@ -15,11 +15,12 @@ This can be resolved by allowlisting the following IP addresses. These IP addres
 
 Ask your IT team to allowlist the following IP addresses:
 
-| Region | IP Addresses | Hostnames |
-|--- |--- |--- |
-|United States|52.55.99.45|`us1-proxy.adobemc.com`|
-|Europe, Middle East, and Africa (EMEA)|52.51.238.221|`emea1-proxy.adobemc.com`|
-|Asia-Pacific (APAC)|52.193.67.35|`apac1-proxy.adobemc.com`|
+* 52.16.72.74
+* 52.5.174.79
+* 54.246.238.65
+* 54.249.183.154
+* 54.65.105.214
+* 54.82.142.68
 
 You might see the following error message in Target:
 
