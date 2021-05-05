@@ -18,6 +18,20 @@ Adobe Target was recently recognized by both Forrester and Gartner as a market l
 |Forrester|**Adobe named a Leader in Forrester wave report for experience optimization platforms.**<br>Adobe was named a Leader in The Forrester Wave: Experience Optimization Platforms, Q4 2020 report for its offering in this space, Adobe Target Premium. Adobe received the highest score of all participating vendors in the current offering and market presence categories, as well in the recommendations and platform experience criteria. Target Premium also received the highest score possible in the experience optimization technique innovation and supporting services criteria. The report is based on a thorough evaluation of 10 experience optimization platform providers across 22 criteria.<br>Read about it on the [Adobe Blog](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html).|
 |Gartner|**Adobe again named a Leader in Gartner Magic Quadrant for personalization engines.**<br>Adobe was once again named a Leader in the third-annual Gartner Magic Quadrant for Personalization Engines, 2020 report. The Gartner Magic Quadrant for Personalization Engines evaluated vendors across 15 criteria that fall into two categories: completeness of vision and ability to execute.<br>[Read about it on The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).|
 
+## Adobe Target Community Q&A Coffee Break
+
+* Wednesday, May 12, 2021
+* 8 a.m. (PDT, GMT-7)
+* [Click here for more information](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-5-12-21-8am-pt-shannon/td-p/405341)
+
+Shannon Hamilton, Group Product Manager for [!DNL Adobe Target], will be signed in to the [!DNL Target] Community to answer your questions pertaining to her areas of expertise:
+
+* Integrations
+* Unified profile
+* Target Adobe Experience Platform (AEP) integrations
+* Point integrations with other Adobe solutions
+* Core UI workflows
+
 ## Webinar: Personalize and test at zero latency with on-device decisions from Adobe Target
 
 More than ever, marketers, product owners and developers are being tasked with optimizing the overall customer experience on sites, in apps, and everywhere else they connect with their customers. Multiple tools with data silos and complicated implementations won’t cut it.

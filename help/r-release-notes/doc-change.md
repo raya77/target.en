@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|May 5|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added information about the Adobe Target Community Q&A Coffee Break to be held Wednesday, May 12, 2021 at 8 a.m. (PDT, GMT-7).|
 |April 27|[Cookie settings](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)|Updated topic to indicate that the cookie duration (`deviceIdLifetime` setting) is overrideable in at.js version 2.3.1 or later.|
 ||[Adobe Target guide](/help/target-home.md)|Added information about Adobe Summit.|
 |April 26|[Troubleshooting On-device decisioning for at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)|New topic.|

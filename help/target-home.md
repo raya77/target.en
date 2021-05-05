@@ -11,15 +11,7 @@ exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 
 [!DNL Adobe Target] is the [!DNL Adobe Experience Cloud] solution that provides everything you need to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 
-## Adobe Summit: The Digital Experience Conference
-
-[Click here for more information about Adobe Summit!](https://business.adobe.com/summit/adobe-summit.html)
-
-All times Pacific Daylight Time (PDT) -7 GMT.
-
-![Summit sessions](/help/assets/summit-2021.png)
-
-**Last Updated: April 27, 2021 ( [See What Changed](r-release-notes/doc-change.md) )**
+**Last Updated: May 5, 2021 ( [See What Changed](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
