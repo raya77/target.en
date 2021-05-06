@@ -9,9 +9,9 @@ exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 
 List of frequently asked questions (FAQs) about [!DNL Adobe Target] [!DNL Recommendations] activities.
 
-## Why does Catalog Search not show the correct results when I search on a custom attribute with a numeric value?
+## Why does [!UICONTROL Catalog Search] not show the correct results when I search on a custom attribute with a numeric value?
 
-When you perform a catalog search on a custom attribute with a numeric value, the results treat the custom attribute to be a String type instead of a numeric value.
+When you perform a catalog search on a custom attribute with a numeric value, the results treat the custom attribute to be a string type instead of a numeric value.
 
 Currently, there is no functionality available that allows customers to change the type of an attribute. To make a change, [open a customer issue](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) referencing the attributes that need the type changed from string to numeric.
 
@@ -22,16 +22,16 @@ The time frame and results vary, depending on how the items are updated.
 |Source|Details|
 | --- | --- |
 |Item attributes updated via mbox or API|<ul><li>Recommendations are updated within 15 minutes.</li><li>Existing recommendations and item attributes are shown until updates are available.</li><li>Catalog Search is updated after catalog index (3-8 hours).</li></ul>|
-|Item attributes updated via feed|<ul><li>Recommendations are updated after feed ingest (2-8 hours).</li><li>Existing recommendations and item attributes are shown until updates are available.</li><li>Catalog Search is updated after feed ingest (2-8 hours) and after subsequent catalog index (3-8 hours). Catalog Search is usually updated within 5-16 hours total.</li></ul>|
+|Item attributes updated via feed|<ul><li>Recommendations are updated after feed ingest (2-8 hours).</li><li>Existing recommendations and item attributes are shown until updates are available.</li><li>Catalog Search is updated after feed ingest (2-8 hours) and after subsequent catalog index (3-8 hours). Catalog Search is updated within 5-16 hours total.</li></ul>|
 |Item deleted from the catalog via Target UI or API|<ul><li>Recommendations are updated within 15 minutes.</li><li>Existing recommendations and item attributes are shown until updates are available.</li><li>Catalog Search is updated after catalog index (3-8 hours).</li></ul>|
 |Item added to the catalog via mbox or API|<ul><li>Recommendations are updated after algorithm run. Algorithm runs are scheduled every 12 hours for 1-2 day algorithms and every 24 hours for 7+ day algorithms.</li><li>Existing recommendations are shown until updates are available if the added item is not a requested key.</li><li>Backup recommendations are shown until updates are available if the added item is a requested key.</li><li>Catalog Search is updated after catalog index (3-8 hours).</li></ul>|
-|Item added to the catalog via feed|<ul><li>Recommendations are updated after the feed is ingested (2-8 hours). Subsequent algorithm runs are scheduled every 12 hours for 1-2 day algorithms and every 24 hours for 7+ day algorithms. Recommendations are usually updated within 2-32 hours total.</li><li>Existing recommendations are shown until updates are available if the added item is not a requested key.</li><li>Backup recommendations are shown until updates are available if the added item is a requested key.</li><li>Catalog Search is updated after feed ingest (2-8 hours) and after catalog index (3-8 hours). Catalog Search is usually updated within 5-16 hours total.</li></ul>|
+|Item added to the catalog via feed|<ul><li>Recommendations are updated after the feed is ingested (2-8 hours). Subsequent algorithm runs are scheduled every 12 hours for 1-2 day algorithms and every 24 hours for 7+ day algorithms. Recommendations are updated within 2-32 hours total.</li><li>Existing recommendations are shown until updates are available if the added item is not a requested key.</li><li>Backup recommendations are shown until updates are available if the added item is a requested key.</li><li>Catalog Search is updated after feed ingest (2-8 hours) and after catalog index (3-8 hours). Catalog Search is updated within 5-16 hours total.</li></ul>|
 
 After importing a feed file, or after receiving entity updates via API or mbox, the following changes are reflected in under 60 minutes:
 
 * If an item was previously excluded but should now be included, the item will be included on the next algorithm run (12-24 hours).
 
-  This occurs because Target applies exclusions both online and offline. When an item is newly excluded, the online exclusion applies quickly. When an item is newly included, the online exclusion goes away quickly but the offline exclusion doesn't go away until the next algorithm run.
+  This situation occurs because [!DNL Target] applies exclusions both online and offline. When an item is newly excluded, the online exclusion applies quickly. When an item is newly included, the online exclusion goes away quickly but the offline exclusion doesn't go away until the next algorithm run.
 
 * If an item was previously included but should now be excluded, the item is excluded per the "Item attributes updated..." time line discussed above depending on feed source (15 minutes via mbox/API or 12-24 hours via feed).
 
@@ -46,6 +46,24 @@ The following changes are not reflected until the next algorithm run occurs (wit
 >[!NOTE]
 >
 >A feed file is considered imported when its status changes from "Importing Items" to "Preparing Search Index Updates". Updates can take more than 60 minutes to be reflected in the Catalog Search user interface; Catalog Search is up to date when the feed status changes to "Updates Completed". Even if Catalog Search is not yet up to date, your site reflects updates on the time frames listed above. The most recent Catalog Search index update time is displayed on the Catalog Search page.
+
+## How long does it take for a change to the configuration of my [!UICONTROL Recommendations] activity, offer, promotions, or criteria settings to be reflected on my site?
+
+* A change to the promotion settings can take up to five hours to be reflected onsite.
+* A change to other criteria settings might not be reflected until the next algorithm run:
+
+  * Some criteria settings (for example, “addition of a dynamic inclusion rule”) are reflected instantly.
+  * Other criteria settings (for example “removal of a dynamic inclusion rule”, change of lookback window, and so forth) can’t be incorporated until the next algorithm run.
+  * Algorithm runs are triggered by these changes but can take up to 24 hours to be completed. Algorithms also run on a scheduled basis every 12-24 hours.
+
+## How long does it take for a user’s behavior (for example, clicking product A and buying product B) to be reflected in the recommendations *that* user receives?
+
+*  Currently viewed/purchased product/content influence the recommendations the user receives on the same pageview/Target content request.
+* Historical user behavior, such as “last viewed product,” “most viewed product,” and overall viewing/purchasing history is updated with that request and influence the recommendations that user receives on the next pageview/Target content request. For example, “Recently Viewed Items” and “Recommended For You” algorithms update with each product view/purchase and are reflected on the subsequent content request.
+
+## How long does it take for a user’s behavior (for example, clicking product A and buying product B) to be reflected in the recommendations *other* users receive?
+
+The behavior of users in aggregate is incorporated into offline algorithm processing with every algorithm run occurring every 12-24 hours.
 
 ## What should I do if special characters are breaking my array? {#section_D27214116EE443638A60887C7D1C534E}
 
@@ -211,8 +229,8 @@ When the session ends (generally, when it expires after 30 minutes of no activit
 
 Subsequent sessions from different devices are then able to access these recently viewed items as long as the new session is linked to the customer profile via the same Marketing Cloud ID (MCID), Experience Cloud ID (ECID), or CustomerID/mbox3rdPartyId.
 
-If a visitor has two active sessions at the same time, recently viewed items on one device do not update the recently viewed items on the other device, unless the devices are forced to share the same session ID. There is a potential workaround for the issue, but [!DNL Target] does not directly support sharing a session ID across multiple devices. The customer must manage this ID sharing themselves.
+If a visitor has two active sessions at the same time, recently viewed items on one device do not update the recently viewed items on the other device, unless the devices are forced to share the session ID. There is a potential workaround for the issue, but [!DNL Target] does not directly support sharing a session ID across multiple devices. The customer must manage this ID sharing themselves.
 
-Note that this behavior still occurs if a visitor is active on one device and then becomes active on the other device a few minutes later. The first device's session does not expire for 30 minutes and there can be up to five minutes of delay before the profile state is written to the permanent state and processed. Allow 35 minutes for the session to expire and the profile to be stored when testing this behavior.
+This behavior still occurs if a visitor is active on one device and then becomes active on the other device a few minutes later. The first device's session does not expire for 30 minutes and there can be up to five minutes of delay before the profile state is written to the permanent state and processed. Allow 35 minutes for the session to expire and the profile to be stored when testing this behavior.
 
 If the visitor does not have two active sessions at the same time, recently viewed items on one device update the recently viewed items on the other device as long as the session has ended. Allow 35 minutes for the session to expire when testing this behavior.
