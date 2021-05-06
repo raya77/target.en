@@ -23,7 +23,7 @@ The time frame and results vary, depending on how the items are updated.
 | --- | --- |
 |Item attributes updated via mbox or API|<ul><li>Recommendations are updated within 15 minutes.</li><li>Existing recommendations and item attributes are shown until updates are available.</li><li>Catalog Search is updated after catalog index (3-8 hours).</li></ul>|
 |Item attributes updated via feed|<ul><li>Recommendations are updated after feed ingest (2-8 hours).</li><li>Existing recommendations and item attributes are shown until updates are available.</li><li>Catalog Search is updated after feed ingest (2-8 hours) and after subsequent catalog index (3-8 hours). Catalog Search is updated within 5-16 hours total.</li></ul>|
-|Item deleted from the catalog via Target UI or API|<ul><li>Recommendations are updated within 15 minutes.</li><li>Existing recommendations and item attributes are shown until updates are available.</li><li>Catalog Search is updated after catalog index (3-8 hours).</li></ul>|
+|Item deleted from the catalog via [!DNL Target] UI or API|<ul><li>Recommendations are updated within 15 minutes.</li><li>Existing recommendations and item attributes are shown until updates are available.</li><li>Catalog Search is updated after catalog index (3-8 hours).</li></ul>|
 |Item added to the catalog via mbox or API|<ul><li>Recommendations are updated after algorithm run. Algorithm runs are scheduled every 12 hours for 1-2 day algorithms and every 24 hours for 7+ day algorithms.</li><li>Existing recommendations are shown until updates are available if the added item is not a requested key.</li><li>Backup recommendations are shown until updates are available if the added item is a requested key.</li><li>Catalog Search is updated after catalog index (3-8 hours).</li></ul>|
 |Item added to the catalog via feed|<ul><li>Recommendations are updated after the feed is ingested (2-8 hours). Subsequent algorithm runs are scheduled every 12 hours for 1-2 day algorithms and every 24 hours for 7+ day algorithms. Recommendations are updated within 2-32 hours total.</li><li>Existing recommendations are shown until updates are available if the added item is not a requested key.</li><li>Backup recommendations are shown until updates are available if the added item is a requested key.</li><li>Catalog Search is updated after feed ingest (2-8 hours) and after catalog index (3-8 hours). Catalog Search is updated within 5-16 hours total.</li></ul>|
 
@@ -58,8 +58,8 @@ The following changes are not reflected until the next algorithm run occurs (wit
 
 ## How long does it take for a user’s behavior (for example, clicking product A and buying product B) to be reflected in the recommendations *that* user receives?
 
-*  Currently viewed/purchased product/content influence the recommendations the user receives on the same pageview/Target content request.
-* Historical user behavior, such as “last viewed product,” “most viewed product,” and overall viewing/purchasing history is updated with that request and influence the recommendations that user receives on the next pageview/Target content request. For example, “Recently Viewed Items” and “Recommended For You” algorithms update with each product view/purchase and are reflected on the subsequent content request.
+*  Currently viewed/purchased product/content influence the recommendations the user receives on the same pageview/[!DNL Target] content request.
+* Historical user behavior, such as “last viewed product,” “most viewed product,” and overall viewing/purchasing history is updated with that request and influence the recommendations that user receives on the next pageview/[!DNL Target] content request. For example, “Recently Viewed Items” and “Recommended For You” algorithms update with each product view/purchase and are reflected on the subsequent content request.
 
 ## How long does it take for a user’s behavior (for example, clicking product A and buying product B) to be reflected in the recommendations *other* users receive?
 
@@ -88,30 +88,30 @@ If the location on which you're applying this criteria doesn't contain the categ
 
 If you use a location where category Id is present in the mbox, the criteria picker contains all applicable criteria.
 
-Target has a [Filter Incompatible Criteria](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) setting to control intelligent filtering of the algorithm picker.
+[!DNL Target] has a [Filter Incompatible Criteria](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) setting to control intelligent filtering of the algorithm picker.
 
 >[!NOTE]
 >
->This setting applies to activities created in the Visual Experience Composer (VEC) only. This setting does not apply to activities created in the Form-Based Experience Composer (Target does not have location context).
+>This setting applies to activities created in the Visual Experience Composer (VEC) only. This setting does not apply to activities created in the Form-Based Experience Composer ([!DNL Target] does not have location context).
 
 To access the [!UICONTROL Filter Incompatible Criteria] setting, click [!UICONTROL Recommendations] > [!UICONTROL Settings]:
 
 ![](assets/recs_settings_filter.png)
 
-If the [!UICONTROL Filter Incompatible Criteria] setting is NOT enabled, Target does not filter algorithms in the Algorithm Picker and all algorithms are displayed.
+If the [!UICONTROL Filter Incompatible Criteria] setting is NOT enabled, [!DNL Target] does not filter algorithms in the Algorithm Picker and all algorithms are displayed.
 
-If the [!UICONTROL Filter Incompatible Criteria] setting is enabled, in VEC activities, Target reads entityId and category Id from the selected location and then displays algorithms based on `currentItem|currentCategory` (if respective values are present on that location). As a result, only compatible algorithms for the selected location are shown in the algorithm picker, by default.
+If the [!UICONTROL Filter Incompatible Criteria] setting is enabled, in VEC activities, [!DNL Target] reads entityId and category Id from the selected location and then displays algorithms based on `currentItem|currentCategory` (if respective values are present on that location). As a result, only compatible algorithms for the selected location are shown in the algorithm picker, by default.
 
 If the [!UICONTROL Filter Incompatible Criteria] setting is enabled, you can still view non-compatible algorithms by deselecting the [!UICONTROL Compatible] checkbox while selecting criteria.
 
 ![](assets/compatible_checkbox.png)
 
-The following list contains special cases in which Target does not display the [!UICONTROL Compatible] checkbox:
+The following list contains special cases in which [!DNL Target] does not display the [!UICONTROL Compatible] checkbox:
 
 * Both entityId and category Id are present on the location, then nothing is being filtered. 
 * You are using [!DNL mbox.js] version 55 or earlier. 
 * No mbox call is being fired from the page (!config.isAutoCreateGlobalMbox && !config.isRegionalMbox) 
-* Target parameters are not defined.
+* [!DNL Target] parameters are not defined.
 
 ## What should I do if a collection in Recommendations goes to zero (0)? {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
 
@@ -125,7 +125,7 @@ Consider the following information if you see a collection go to zero that previ
 * Is your index up to date? Go t o [!DNL /target/products.html#productSearch] and check how many hours old the index is (for example, “Indexed 3 hours ago”). You can refresh the index as needed. 
 * Did you change something in the feed or the data layer that resulted in your entities no longer matching the collection rules? Make sure your CASE matches (case-sensitive). 
 * Did your feed run successfully? Did someone change the FTP directory, password, and so forth? 
-* Target does its best to make updates to the delivery (on the customer’s page/app) happen as quickly as possible. Yet, Target also has to provide some representation in the UI for the marketer. Target does not delay delivery updates to wait for the UI updates to be in sync. You can use [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) to see what is in the system at the time a request comes in.
+* [!DNL Target] does its best to make updates to the delivery (on the customer’s page/app) happen as quickly as possible. Yet, [!DNL Target] also has to provide some representation in the UI for the marketer. [!DNL Target] does not delay delivery updates to wait for the UI updates to be in sync. You can use [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) to see what is in the system at the time a request comes in.
 
 ## What's the difference between general Attribute Weighting and Content Similarity-specific attribute weighting? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
@@ -143,7 +143,7 @@ This type of weighting is more dynamic, and is based on the current “recommend
 
 ## Why is [!DNL Target] sometimes unable to show recommendations? {#section_DB3F40673AED42228E407C05437D99E9}
 
-Target sometimes cannot show recommendations due to the low number of available recommendations.
+[!DNL Target] sometimes cannot show recommendations due to the low number of available recommendations.
 
 The number of values generated per criteria is three times the number of entities specified in the design. Runtime filtering (for example, inventory, mbox attribute matching) is applied after the 3x values are generated, so it is possible end up with fewer than 3x values at delivery time. To mitigate this situation, increase the number of entities in the design by hiding other entities.
 
@@ -160,7 +160,7 @@ The following JavaScript can be used at the beginning of the design to increase 
 
 ## What is the size limit of an API call for insert/update products? Can I update 50,000 products in one call using the API instead of a feed? {#section_434FE1F187B7436AA39B7C14C7895168}
 
-Target imposes a 50-MB post limit at the application level; however, that is only when you pass the `application/x-www-form-urlencoded` content type header.
+[!DNL Target] imposes a 50-MB post limit at the application level; however, that is only when you pass the `application/x-www-form-urlencoded` content type header.
 
 You could certainly try to send 50,000 products in a single call. If it fails, you can break it up into batches. Adobe recommends that customers break their calls into 5,000 or 10,000 product batches to decrease the likelihood of a timeout due to system load.
 
@@ -183,7 +183,7 @@ Ensure that the audience has a unique name. If you gave the audience the same na
 
 ## What is the maximum size of a CSV file for a feed upload? {#section_20F1AF4839A447B9889B246D6E873538}
 
-There is no hard limit on the number of rows or file size for a feed's CSV file upload. However, as a best practice, Adobe recommends limiting the CSV file size to 1 GB to avoid failures during the file upload process. If the size of the file exceeds 1 GB, it can ideally be split into multiple feed files. The maximum number of custom attribute columns is 100 and custom attributes are limited to 4096 characters. Other limits on the length of required columns are available on the [Target Limitations page](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
+There is no hard limit on the number of rows or file size for a feed's CSV file upload. However, as a best practice, Adobe recommends limiting the CSV file size to 1 GB to avoid failures during the file upload process. If the size of the file exceeds 1 GB, it can ideally be split into multiple feed files. The maximum number of custom attribute columns is 100 and custom attributes are limited to 4096 characters. Other limits on the length of required columns are available on the [[!DNL Target] Limitations page](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
 ## Can I dynamically exclude an entity? {#exclude}
 
@@ -191,7 +191,7 @@ In the query string, you can pass entity IDs for entities that you want to exclu
 
 To enable the exclusion functionality, use the `excludedIds` mbox parameter. This parameter points to a list of comma-separated entity IDs. For example, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. The value is sent when requesting recommendations.
 
-The exclusion is performed for the current Target call only; items are not excluded on subsequent Target calls unless the `excludedIds` value is passed again. To exclude items in the cart from recommendations on every page, continue to pass the `excludedIds` value on every page.
+The exclusion is performed for the current [!DNL Target] call only; items are not excluded on subsequent [!DNL Target] calls unless the `excludedIds` value is passed again. To exclude items in the cart from recommendations on every page, continue to pass the `excludedIds` value on every page.
 
 >[!NOTE]
 >

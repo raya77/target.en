@@ -1,7 +1,7 @@
 ---
 keywords: targeting;a4t;geo;geotargeting;geotargeting accuracy;country;state;city;zip code;dma;mobile carrier;city codes;region codes;country codes;metro codes;profile scripts;geotargeting profile scripts;geotargeting mobile
 description: Learn how to create Adobe [!DNL Target] audiences to target users based on their geographical location, including their country, city, zip/postal code, and more.
-title: Can I [!DNL Target] Visitors Based Location?
+title: Can I [!DNL Target] Visitors-Based Location?
 feature: Audiences
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
@@ -10,7 +10,7 @@ exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
 
 Use audiences in [!DNL Adobe Target] to target users based on their geographical location, including their country, state/province, city, zip/postal code, DMA, or mobile carrier.
 
-Geo location parameters allow you to target activities and experiences based on your visitors' geography. You can include or exclude visitors based on their country, state/province, city, zip/postal code, latitude, longitude, DMA, or mobile carrier. This data is sent with each Target request and is based on the visitor's IP address. Select these parameters just like any targeting values.
+Geo location parameters allow you to target activities and experiences based on your visitors' geography. You can include or exclude visitors based on their country, state/province, city, zip/postal code, latitude, longitude, DMA, or mobile carrier. This data is sent with each [!DNL Target] request and is based on the visitor's IP address. Select these parameters just like any targeting values.
 
 ## Create an Audience with geo targeting {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
@@ -37,7 +37,7 @@ Geo location parameters allow you to target activities and experiences based on 
 1. (Optional) Click **[!UICONTROL Add Rule]** and set up additional rules for the audience. 
 1. Click **[!UICONTROL Save]**.
 
-The following illustration shows an audience that targets users accessing the activity from a latitude greater than 44 degrees and a longitude less than 22 degrees.
+The following illustration shows an audience that targets users accessing the activity from a latitude greater than 44° and a longitude less than 22°.
 
 ![](assets/target_geo.png)
 
@@ -109,7 +109,7 @@ For example, use:
 
 **How does geo targeting work for mobile devices?**
 
-Most mobile device users access content via WiFi, which means Target's IP-based geo targeting is as accurate as on a desktop. Cell tower-based connections might be less accurate because the visitor's IP address is based on the tower where the signal is being picked up. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+Most mobile device users access content via WiFi, which means [!DNL Target]'s IP-based geo targeting is as accurate as on a desktop. Cell tower-based connections might be less accurate because the visitor's IP address is based on the tower where the signal is being picked up. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 **How does geo feature handle visitors from AOL?**
 
@@ -126,7 +126,7 @@ Due to the way AOL proxies its traffic, [!DNL Target] can only target them at a 
 
 **How can I test my activities as if I'm a user coming from a different location?**
 
-* **at.js 1.*x***: You can override your IP address with an IP address from a different location and use the `mboxOverride.browserIp url` parameter. So if your company is in the UK, but your global campaign targets visitors in Aukland, New Zealand, use this style of URL assuming that `60.234.0.39` is an IP address in Auckland:
+* **at.js 1.*x***: You can override your IP address with an IP address from a different location and use the `mboxOverride.browserIp url` parameter. So if your company is in the UK, but your global campaign targets visitors in Auckland, New Zealand, use this style of URL assuming that `60.234.0.39` is an IP address in Auckland:
 
   `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
 
@@ -136,7 +136,7 @@ Due to the way AOL proxies its traffic, [!DNL Target] can only target them at a 
   >
   >`mboxOverride.browserIp` is supported in at.js 1.*x* only. This functionality is not supported in at.js 2.*x*.
 
-* **at.js 1.*x***: To override your IP address with at.js 2.*x*, install a browser extension/plugin (such as X-Forwarded-For Header for Chrome or Firefox). This extension lets you pass the x-forwarded-for header in your page requests. 
+* **at.js 2.*x***: To override your IP address with at.js 2.*x*, install a browser extension/plugin (such as X-Forwarded-For Header for Chrome or Firefox). This extension lets you pass the x-forwarded-for header in your page requests. 
 
 **How are territories, such as Puerto Rico and Hong Kong, mapped into the geo-targeting structure?**
 
