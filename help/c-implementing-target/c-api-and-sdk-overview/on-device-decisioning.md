@@ -35,3 +35,7 @@ This 7-minute video:
 >[!VIDEO](https://video.tv.adobe.com/v/329032)
 
 For more videos and tutorials, see the [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) guide.
+
+## Adobe Tech Blog - Part 1: Run [!DNL Adobe Target] NodeJS SDK for experimentation and personalization on edge platforms (Akamai Edge Workers)
+
+[Click here to access the blog post](https://medium.com/adobetech/part-1-run-adobe-target-nodejs-sdk-for-experimentation-and-personalization-on-edge-platforms-4d8660964ed9).
