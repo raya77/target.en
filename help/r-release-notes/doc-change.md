@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|May 6|[Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)|Added the following FAQs:<ul><li>How long does it take for a change to the configuration of my [!UICONTROL Recommendations] activity, offer, promotions, or criteria settings to be reflected on my site?</li><li>How long does it take for a user’s behavior (for example, clicking product A and buying product B) to be reflected in the recommendations *that* user receives?</li><li>How long does it take for a user’s behavior (for example, clicking product A and buying product B) to be reflected in the recommendations *other* users receive?</li></ul>|
 |May 5|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added information about the Adobe Target Community Q&A Coffee Break to be held Wednesday, May 12, 2021 at 8 a.m. (PDT, GMT-7).|
 |April 27|[Cookie settings](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)|Updated topic to indicate that the cookie duration (`deviceIdLifetime` setting) is overrideable in at.js version 2.3.1 or later.|
 ||[Adobe Target guide](/help/target-home.md)|Added information about Adobe Summit.|
