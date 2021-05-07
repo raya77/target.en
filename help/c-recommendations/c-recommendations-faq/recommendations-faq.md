@@ -234,3 +234,10 @@ If a visitor has two active sessions at the same time, recently viewed items on 
 This behavior still occurs if a visitor is active on one device and then becomes active on the other device a few minutes later. The first device's session does not expire for 30 minutes and there can be up to five minutes of delay before the profile state is written to the permanent state and processed. Allow 35 minutes for the session to expire and the profile to be stored when testing this behavior.
 
 If the visitor does not have two active sessions at the same time, recently viewed items on one device update the recently viewed items on the other device as long as the session has ended. Allow 35 minutes for the session to expire when testing this behavior.
+
+## Can I use an algorithm created in [!DNL Adobe Recommendations Classic] in [!DNL Recommendations Premium]?
+
+An algorithm created in [!DNL Recommendations Classic] is not supported in [!DNL Recommendations Premium]. You might be able to use the legacy algorithm in [!DNL Target Premium], but the algorithm can create sync issues when deactivating or deleting the activity in the [!DNL Target Premium] UI. For more information about the differences between the two solutions, see [[!DNL Recommendations Classic] versus [!DNL Recommendations] activities in [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+
+[!DNL Recommendations Classic] is a legacy product and is no longer licensed to new customers. For the best [!DNL Recommendations] experience, upgrade to [!DNL Recommendations] activities available in ![[!DNL Adobe Target Premium]](/help/c-intro/intro.md#premium).
+
