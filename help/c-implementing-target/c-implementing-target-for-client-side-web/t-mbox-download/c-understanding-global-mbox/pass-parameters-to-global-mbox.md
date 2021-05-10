@@ -1,5 +1,5 @@
 ---
-keywords: global mbox parameters;targetPageParams;query string;array;json;dtm;dynamic tag management
+keywords: global mbox parameters;targetPageParams;query string;array;json;dtm
 description: Learn how to use the targetPageParams function to pass additional targeting or context information into the Adobe [!DNL Target] global mbox.
 title: How Do I Pass Parameters to a Global mbox?
 feature: at.js

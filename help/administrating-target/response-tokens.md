@@ -23,7 +23,7 @@ A key difference between plug-ins and response tokens is that while plug-ins del
 |at.js|Ensure that you are using at.js version 1.1 or later. For information about downloading the latest version of at.js, see [Download at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). For information about new functionality in each version of at.js, see [at.js Version Details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).<br>Customers using at.js are encouraged to use response tokens and move away from plugins. Some plugins that rely on internal methods that exist in mbox.js, but not in at.js, will be delivered but will fail. For more information, see [at.js Limitations](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md).|
 |mbox.js|Plugins continue to be supported and delivered when using mbox.js.<br>However, customers using mbox.js and plugins are encouraged to move to at.js and response tokens. For information about the advantages of using at.js over mbox.js, see [at.js Frequently Asked Questions](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md). For information about migrating, see [Migrate to at.js from mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md).<br>After the deprecation of Target Classic (November 2017), you might need to contact Client Care to edit or disable existing plugins. You should have audited your plugins before Target Classic was deprecated and disabled unwanted plugins.<br>You cannot create new plugins in Target Standard/Premium. Instead, use response tokens.<br>Old SiteCatalyst plugins should be disabled and replaced with [Adobe Analytics as the Reporting Source for Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). The ttMeta plugin should be disabled and replaced with the [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj).|
 
-## Using Response Tokens {#section_A9E141DDCBA84308926E68D05FD2AC62}
+## Using response tokens {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
 1. Ensure that you are using [!DNL at.js] version 1.1 or later.
 
@@ -88,31 +88,7 @@ The following code sample adds an [!DNL at.js] custom event handler directly to 
 </html>
 ```
 
-The following instructions show how to add an [!DNL at.js] custom event handler using Adobe Dynamic Tag Manager (DTM):
-
-1. Log in to DTM. 
-1. Browse to the appropriate property. 
-1. Open Target tool.
-
-   Because DTM doesn't support at.js natively, you'll have to use code editor. 
-
-1. In the code editor, append the following code to [!DNL at.js]:
-
-   ```json
-   document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
-     console.log("Request succeeded", e.detail); 
-   });
-   ```
-
-You can add the following snippet to the library footer [at.js Setup page](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812) if you want to have everything is a single file.
-
-```json
-document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
-  console.log("Request succeeded", e.detail); 
-});
-```
-
-## Response Token FAQs {#section_3DD5F32C668246289CDF9B4CDE1F536D}
+## Response token FAQs {#section_3DD5F32C668246289CDF9B4CDE1F536D}
 
 **Which role is required to activate or deactivate response tokens?**
 
@@ -126,7 +102,7 @@ You will see the response tokens, but at.js won't be able to use them.
 
 Response tokens will be delivered to the [!DNL at.js] Target responses, but not to the [!DNL mbox.js] responses.
 
-**Can I have both Target Classic plugins and response tokens active at the same time?**
+**Can I have both [!DNL Target Classic] plugins and response tokens active at the same time?**
 
 Plugins and response tokens will be available in parallel; however, plugins will be deprecated in the future.
 
@@ -158,7 +134,7 @@ As mentioned above, response tokens work on the profile information saved for us
 
 Target performs a refresh of attributes at regular intervals. Any attribute that is not toggled on will be removed during the next refresh. However, if you have an attribute that was toggled on and has been removed (for example, you removed a profile script that was used as a token), that script will not be removed from the attribute list until you toggle it off. Target removes only the toggled-off attributes from the list when they are deleted or renamed.
 
-## Sending Data to Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
+## Sending data to Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 Google Analytics can be sent data via at.js by adding the following code in the HTML page:
 

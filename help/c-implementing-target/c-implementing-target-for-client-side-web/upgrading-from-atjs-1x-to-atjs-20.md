@@ -357,7 +357,6 @@ The following tables explain at.js. 2.*x* compatibility with different activity 
 |Adobe Launch extension|[Yes](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)|
 |Debugger|Yes|
 |Auditor|Rules have not yet been updated for at.js 2.*x*|
-|Dynamic Tag Manager (DTM)|Yes|
 |Opt-In| No. Opt-in support for [GDPR](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) is supported in [at.js version 2.1.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).  |
 | AEM Enhanced Personalization powered by Adobe Target | No|
 

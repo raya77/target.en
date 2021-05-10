@@ -22,7 +22,7 @@ The following table lists the tasks you should perform to create properties and 
 |2. Create a Workspace (Product Profile)|[!DNL Adobe Admin Console for Enterprise]|
 |3. Create User Groups (Optional)|[!DNL Adobe Admin Console for Enterprise]|
 |4. Create Properties|[!DNL Target] UI|
-|5: Update Your Implementation to Include the `at_property` Parameter|[!DNL Target] UI, at.js functions, [!DNL Adobe Launch], or [!DNL Dynamic Tag Management]|
+|5: Update Your Implementation to Include the `at_property` Parameter|[!DNL Target] UI, at.js functions, or [!DNL Adobe Experience Platform Launch]|
 |6: Specify Roles and Permissions|[!DNL Adobe Admin Console for Enterprise]|
 
 For those tasks performed in the [!DNL Adobe Admin Console for Enterprise], access the console by following these steps:
@@ -143,12 +143,6 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
     * **Via a "Global Parameter in [!DNL Adobe Launch]:**
 
       For more information, see [Add Global Target Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
-
-    * **Via a "Global Parameter" in [!DNL Dynamic Tag Management]:**
-
-      ![](assets/property_token_2.png)
-
-      For more information, see [Global Parameters - Adobe Target](https://experienceleague.adobe.com/docs/dtm/using/tools-reference/target.html#global-parameters---adobe-target) in the *Dynamic Tag Management Product Documentation*. 
     
     * **Via the targetPageParams() function:** Place the following code in the `<head>` tags, above the at.js or mbox.js reference.
 

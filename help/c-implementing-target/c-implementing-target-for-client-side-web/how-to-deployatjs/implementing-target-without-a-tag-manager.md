@@ -8,7 +8,7 @@ exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 ---
 # Implement [!DNL Target] without a tag manager
 
-Information about implementing [!DNL Adobe Target] without using a tag manager ([!DNL Adobe Experience Platform Launch] or [!DNL Dynamic Tag Manager]).
+Information about implementing [!DNL Adobe Target] without using a tag manager ([!DNL Adobe Experience Platform Launch]).
 
 >[!NOTE]
 >
@@ -172,7 +172,7 @@ To download [!DNL at.js] using the API.
 
 at.js should be implemented in the `<head>` element of every page of your website. 
 
-A typical implementation of Target not using a tag manager like [Adobe Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) or [Dynamic Tag Management](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96) looks like this:
+A typical implementation of Target not using a tag manager like [Adobe Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) looks like this:
 
 ```
 <!doctype html> 
