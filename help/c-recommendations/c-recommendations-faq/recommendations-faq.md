@@ -239,5 +239,4 @@ If the visitor does not have two active sessions at the same time, recently view
 
 An algorithm created in [!DNL Recommendations Classic] is not supported in [!DNL Recommendations Premium]. You might be able to use the legacy algorithm in [!DNL Target Premium]; however, the algorithm can create sync issues when deactivating or deleting the activity in the [!DNL Target Premium] UI. For more information about the differences between the two solutions, see [[!DNL Recommendations Classic] versus [!DNL Recommendations] activities in [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
-[!DNL Recommendations Classic] is a legacy product and is no longer licensed to new customers. For the best [!DNL Recommendations] experience, upgrade to [!DNL Recommendations] activities available in ![[!DNL Adobe Target Premium]](/help/c-intro/intro.md#premium).
 
