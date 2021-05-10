@@ -13,7 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|May 7|Recommendations FAQ|Added the following FAQ: "Can I use an algorithm created in [!DNL Adobe Recommendations Classic] in [!DNL Recommendations Premium]?"|
+|May 10|Recommendations FAQ|Added the following FAQ: "Can I use an algorithm created in [!DNL Adobe Recommendations Classic] in [!DNL Recommendations Premium]?"|
 |May 6|[Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)|Added the following FAQs:<ul><li>How long does it take for a change to the configuration of my [!UICONTROL Recommendations] activity, offer, promotions, or criteria settings to be reflected on my site?</li><li>How long does it take for a user’s behavior (for example, clicking product A and buying product B) to be reflected in the recommendations *that* user receives?</li><li>How long does it take for a user’s behavior (for example, clicking product A and buying product B) to be reflected in the recommendations *other* users receive?</li></ul>|
 ||[On-device decisioning](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)|Added link to the following blog post on the Adobe Tech Blog:<ul><li>Part 1: Run Adobe Target NodeJS SDK for Experimentation and Personalization on Edge Platforms (Akamai Edge Workers)</li></ul>|
 |May 5|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added information about the Adobe Target Community Q&A Coffee Break to be held Wednesday, May 12, 2021 at 8 a.m. (PDT, GMT-7).|
