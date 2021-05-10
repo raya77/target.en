@@ -1,5 +1,5 @@
 ---
-keywords: document.write;target;implement;implement target;dtm;dynamic tag management;at.js;mbox.js;target.js;mbox;adobe experience platform web skd;aep web sdk;web sdk
+keywords: document.write;target;implement;implement target;dtm;at.js;mbox.js;target.js;mbox;adobe experience platform web skd;aep web sdk;web sdk
 description: Implement Adobe [!DNL Target] by referencing the [!DNL Target] libraries (at.js or mbox.js) on your web pages.
 title: Understand the [!DNL Target] JavaScript libraries
 feature: Implementation

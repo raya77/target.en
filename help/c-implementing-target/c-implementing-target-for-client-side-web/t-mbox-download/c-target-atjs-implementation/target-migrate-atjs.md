@@ -70,7 +70,7 @@ Use the following steps to migrate from [!DNL mbox.js] to [!DNL at.js] and to ch
 
    **Do you use a tag manager?**
 
-   * Dynamic Tag Management 
+   * Adobe Experience Platform Launch
    * Ensighten 
    * Tealium 
    * Signal/BrightTag
@@ -79,7 +79,11 @@ Use the following steps to migrate from [!DNL mbox.js] to [!DNL at.js] and to ch
 
    >[!NOTE]
    >
-   >If you are not currently using a tag manager to deploy [!DNL Target], now might be a good time to consider it. Adobe's [Dynamic Tag Management](https://dtm.adobe.com) is free to [!DNL Target] customers and is the recommended method to deploy [!DNL Target]. For more information, see [Best Practices for Implementing Adobe Target using Dynamic Tag Management](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html).
+   >If you are not currently using a tag manager to deploy [!DNL Target], now might be a good time to consider it.
+   >
+   >[!DNL Platform Launch] is the next-generation tag management platform from [!DNL Adobe] and is the preferred method to implement [!DNL Adobe Target]. [!DNL Platform Launch] gives customers a simple way to deploy and manage the analytics, marketing, and advertising tags necessary to power relevant customer experiences.
+   >
+   >For more information, see [Implement [!DNL Target] using [!DNL Adobe Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). 
 
 1. Verify that all current activities and integrations are working as expected.
 

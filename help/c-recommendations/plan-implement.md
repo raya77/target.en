@@ -115,7 +115,7 @@ For information about the attributes in the examples, see [Entity Attributes](/h
 
 Valid JSON formatting is required.
 
-The `targetPageParams` function shown below is especially helpful if you are using a tag management solution to implement your pages. [!DNL Adobe Launch] or [!DNL Adobe Dynamic Tag Manager] (DTM) places the at.js/mbox.js reference and the `targetPageParams` function on your page and allows you to configure the values. You should either place that function before your at.js/mbox.js call, or put it in the Extra JavaScript section of your at.js/mbox.js.
+The `targetPageParams` function shown below is especially helpful if you are using a tag management solution to implement your pages. [!DNL Adobe Experience Platform Launch] places the at.js/mbox.js reference and the `targetPageParams` function on your page and allows you to configure the values. You should either place that function before your at.js/mbox.js call, or put it in the Extra JavaScript section of your at.js/mbox.js.
 
 ## All Pages {#section_A22061788BAB42BB82BA087DEC3AA4AD}
 

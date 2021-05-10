@@ -10,8 +10,6 @@ exl-id: 14080cf6-6a15-4829-b95d-62c068898564
 
 You can override settings in the at.js library using `targetGlobalSettings()`, rather than configuring the settings in the [!DNL Target] Standard/Premium UI or by using REST APIs.
 
-There are use cases, especially when at.js is delivered via [!DNL Dynamic Tag Management] (DTM) when you would like to override some of the settings.
-
 ## Settings {#section_42C759AE9B524A43B8659018677224B8}
 
 You can override the following settings:

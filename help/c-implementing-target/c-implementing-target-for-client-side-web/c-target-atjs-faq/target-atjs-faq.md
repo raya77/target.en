@@ -83,7 +83,7 @@ The at.js 1.0.0 release makes it possible to load the Target library asynchronou
 
 To load at.js asynchronously:
 
-* The recommended approach is via a tag manager such as Adobe Launch or Adobe Dynamic Tag Manager (DTM). See the [Add Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) lesson of the [Implementing the Experience Cloud in Websites with Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html) tutorial for more information. 
+* The recommended approach is via [!DNL Adobe Experience Platform Launch]. See the [Add Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) lesson of the [Implementing the Experience Cloud in Websites with Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html) tutorial for more information. 
 * You can also load at.js asynchronously by adding the async attribute to the script tag that loads at.js. You should use something like this:
 
   ```
