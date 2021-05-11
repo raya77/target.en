@@ -27,15 +27,15 @@ There are several limitations:
 * Tracking is not consolidated in [!DNL Adobe Campaign]. 
 * No unified user experience.
 
- Use both [!DNL Target] and [!DNL Campaign] to set up different parts of the integration:
+Use both [!DNL Target] and [!DNL Campaign] to set up different parts of the integration:
 
-    * The raw box and the experience in [!DNL Target]
+* The raw box and the experience in [!DNL Target]
 
-    >[!NOTE]
-    >
-    >When using a rawbox and [!DNL Target], see the important security notice under [Create allowlists that specify hosts that are authorized to send mbox calls to Target](/help/administrating-target/hosts.md#allowlist). 
+>[!NOTE]
+>
+>When using a rawbox and [!DNL Target], see the important security notice under [Create allowlists that specify hosts that are authorized to send mbox calls to Target](/help/administrating-target/hosts.md#allowlist). 
 
-    * The delivery in [!DNL Campaign]
+* The delivery in [!DNL Campaign]
 
 ## Before you begin {#section_FF19BF1BCA064260930BF6C141313B0E}
 
