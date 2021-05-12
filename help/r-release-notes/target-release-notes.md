@@ -9,7 +9,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: April 16, 2021**
+**Last Updated: May 12, 2021**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages could be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
@@ -19,24 +19,23 @@ To view information about the current release, see [Target Release Notes](releas
 >
 >To avoid any potential issues with your sites, migrate to the most recent version of the new [!DNL Adobe Experience Platform Web SDK] or the at.js JavaScript library. For more information, see [Overview: implement Target for client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## Target Standard/Premium 21.4.1 (April 19, 2021)
+## [!DNL Adobe Experience Platform Web SDK] (May 17, 2021)
+
+This release of the [!DNL Platform Web SDK] includes support for [!UICONTROL Analytics for Target] (A4T) for [!DNL Target] redirects.
+
+## [!DNL Target Standard/Premium] 21.5.2 (Date to be determined)
 
 This release contains the following new features and enhancements. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
 |Feature|Details|
 | --- | --- |
-|On-device decisioning support for at.js|On-device decisioning lets marketers and developers deliver experimentation and personalization on a user's browser at near-zero latency.<br>For more information, see [On-device decisioning for at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)<br>(Date to be announced)|
-|![Premium](/help/assets/premium.png) List-based operators for entity filtering rules|[!DNL Target Recommendations] supports new list-based operators for entity filtering rules. (TGT-39234)<br>Newly added operators include:<br><ul><li>Is Contained In List</li><li>Is Not Contained In List</li><li>List Contains An Item In</li><li>List Does Not Contain An Item In</li><li>List Contains All Items In</li><li>List Does Not Contain All Items In</li></ul>For more information, see "Available operators" in [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators).|
+|![Premium](/help/assets/premium.png) [!DNL Recommendations]|The following enhancements apply to [!DNL Recommendations] popularity algorithms:<ul><li>A new six-hour "lookback window" (data range) option will be available for all popularity (Most Viewed/Top Sellers) algorithms when [!DNL Target] is the behavioral data source. (This lookback window is *not* available when [!DNL Adobe Analytics] is the behavioral data source.)</li><li>When selected, the following algorithms will run approximately every three hours (instead of every 12 hours).<ul><li>Most viewed</li><li>Most purchased</li><li>Most viewed by category</li><li>Most purchased by category</li><li>Most viewed by custom attribute (using groupBy feature)</li><li>Most purchased by custom attribute (using groupBy feature)</li></ul></ul>(TOP-1086)|
 
 This release contains the following fixes.
 
-* Fixed an issue that prevented an activity from syncing after changing the audience to [!UICONTROL All Visitors]. (TGT-40259)
-* Fixed an issue that prevented offers from being duplicated when used in different locations in [!UICONTROL Automated Personalization] activities even though the [!UICONTROL Disallow Duplicates] option is enabled. (TGT-39567)
-* Fixed an issue that prevented the [!UICONTROL Administration] > [!UICONTROL Scene7 configuration] page from loading properly. (TGT-39918)
-* Fixed an issue that caused properties to be mapped to the incorrect workspace. (TGT-39869)
-* Fixed an issue that caused infinite loading if the request fails after changing the environment while creating a recommendations exclusion. (TGT-39948)
+* Will be added as the release date approaches.
 
-## at.js version 2.5.0 (Date to be announced)
+## at.js version 2.5.0 (Date to be determined)
 
 This release of at.js includes the following enhancements and changes:
 
