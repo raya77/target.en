@@ -23,6 +23,10 @@ To view information about the current release, see [Target Release Notes](releas
 
 This release of the [!DNL Platform Web SDK] includes support for [!UICONTROL Analytics for Target] (A4T) for [!DNL Target] redirects.
 
+## [!DNL Target Standard/Premium] 21.5.1 (May 25, 2021)
+
+Content will be added as the release date approaches.
+
 ## [!DNL Target Standard/Premium] 21.5.2 (Date to be determined)
 
 This release contains the following new features and enhancements. The issue numbers in parentheses are for internal [!DNL Adobe] use.
