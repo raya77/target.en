@@ -27,7 +27,7 @@ User account requirements must be met before you can create an activity based on
 
 ### Step 3: Create an Edge configuration
 
-Create an Edge configuration using [!DNL Adobe Experience Platform Launch] using the edge configuration tool. Configure the [[!DNL Analytics] and [!DNL Target] edge configuration settings](/https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html). 
+Create an Edge configuration using [!DNL Adobe Experience Platform Launch] using the edge configuration tool. Configure the [[!DNL Analytics] and [!DNL Target] edge configuration settings](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html). 
 
 ### Step 4: Install and configure the Platform Web SDK
 
