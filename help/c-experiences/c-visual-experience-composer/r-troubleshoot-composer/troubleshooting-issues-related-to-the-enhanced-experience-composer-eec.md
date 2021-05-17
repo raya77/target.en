@@ -5,42 +5,39 @@ title: How Do I Troubleshoot Issues Related to the Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
 ---
-# Troubleshooting issues related to the Enhanced Experience Composer
+# Troubleshooting issues related to the [!UICONTROL Enhanced Experience Composer]
 
 Display problems sometimes occur in the [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC) under certain conditions.
 
-## The EEC won't load an internal QA URL that is not accessible on public IP. (EEC only) {#section_D29E96911D5C401889B5EACE267F13CF}
+## The EEC won't load an internal QA URL that is not accessible on public IP. {#section_D29E96911D5C401889B5EACE267F13CF}
 
-This can be resolved by allowlisting the following IP addresses. These IP addresses are for Adobe's server used for the Enhanced Experience Composer proxy. They are only required for activity editing. Visitors to your site do not need these IP addresses allowlisted
+This can be resolved by allowlisting the following IP addresses. These IP addresses are for Adobe's server used for the EEC proxy. They are only required for activity editing. Visitors to your site do not need these IP addresses allowlisted.
 
 Ask your IT team to allowlist the following IP addresses:
 
-* 52.16.72.74
-* 52.5.174.79
-* 54.246.238.65
-* 54.249.183.154
-* 54.65.105.214
-* 54.82.142.68
+* 52.55.99.45
+* 52.51.238.221
+* 52.193.67.35
 
-You might see the following error message in Target:
+You might see the following error message in [!DNL Target]:
 
-`Error: Your website domain (ISP) is blocking the Enhanced Experience Composer. You can allowlist the Enhanced Experience Composer's IP addresses or turn off Enhanced Experience Composer in [!UICONTROL Configure] > [!UICONTROL Page Delivery] menu.`
+`Error: Your website domain (ISP) is blocking the [!UICONTROL Enhanced Experience Composer]. You can allowlist the [!UICONTROL Enhanced Experience Composer]'s IP addresses or turn off [!UICONTROL Enhanced Experience Composer] in [!UICONTROL Configure] > [!UICONTROL Page Delivery] menu.`
 
 ![](assets/EEC_error.png)
 
 The following are reasons that you might see this error message and remedies to fix the situation:
 
-* **Issue:** Your website domain (ISP) is blocking the Enhanced Experience Composer.
+* **Issue:** Your website domain (ISP) is blocking the [!UICONTROL Enhanced Experience Composer].
 
   **Remedy:** Allowlist the IP addresses listed above. 
 
-* **Issue:** The IP addresses are allowlisted but your website does not support TLS version 1.2. Target currently uses the default configuration of 1.2. Prior to the Target 18.4.1 (April 25, 2018), the default configuration supported TLS 1.0. For more information, see [TLS (Transport Layer Security) Encryption Changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+* **Issue:** The IP addresses are allowlisted but your website does not support TLS version 1.2. [!DNL Target] currently uses the default configuration of 1.2. Prior to the [!DNL Target] 18.4.1 (April 25, 2018), the default configuration supported TLS 1.0. For more information, see [TLS (Transport Layer Security) Encryption Changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
-  **Solution:** See the following question (The Enhanced Visual Experience Composer won't load on secure pages on my site that use TLS 1.2).
+  **Solution:** See the following question (The [!UICONTROL Enhanced Visual Experience Composer] won't load on secure pages on my site that use TLS 1.2).
 
 ## The EEC won't load on secure pages on my site that use TLS 1.0. (EEC only) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-You might see the error message described above in "The Enhanced Visual Experience Composer won't load on secure pages on my site." if the above IP addresses are allowlisted but your website does not support TLS version 1.2. Target currently uses the default configuration of 1.2. Prior to the Target 18.4.1 (April 25, 2018), the default configuration supported TLS 1.0. For more information, see [TLS (Transport Layer Security) Encryption Changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+You might see the error message described above in "The [!UICONTROL Enhanced Visual Experience Composer] won't load on secure pages on my site." if the above IP addresses are allowlisted but your website does not support TLS version 1.2. [!DNL Target] currently uses the default configuration of 1.2. Prior to the [!DNL Target] 18.4.1 (April 25, 2018), the default configuration supported TLS 1.0. For more information, see [TLS (Transport Layer Security) Encryption Changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
 To check the TLS version on your website using Firefox (other browsers have similar steps):
 

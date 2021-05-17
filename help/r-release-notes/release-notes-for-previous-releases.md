@@ -17,6 +17,32 @@ Release notes are arraigned in descending order by month and year of release.
 
 ## Release notes - 2021
 
+### at.js version 2.5.0 (May 13, 2021)
+
+This release of at.js includes the following enhancements and changes:
+
+* [On-device decisioning](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) support for at.js.
+* [Preview links](/help/c-activities/c-activity-qa/activity-qa.md) support for Automated Personalization activities
+
+This release also removes support for Microsoft Internet Explorer 10, Internet Explorer 11, and all older versions. Microsoft Edge continues to be supported in at.js 2.5.0 and later.
+
+### Target Standard/Premium 21.4.1 (April 19, 2021)
+
+This release contains the following new features and enhancements. The issue numbers in parentheses are for internal [!DNL Adobe] use.
+
+|Feature|Details|
+| --- | --- |
+|On-device decisioning support for at.js<br>(Date to be announced)|On-device decisioning lets marketers and developers deliver experimentation and personalization on a user's browser at near-zero latency.<br>For more information, see [On-device decisioning for at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)|
+|![Premium](/help/assets/premium.png) List-based operators for entity filtering rules|[!DNL Target Recommendations] supports new list-based operators for entity filtering rules. (TGT-39234)<br>Newly added operators include:<br><ul><li>Is Contained In List</li><li>Is Not Contained In List</li><li>List Contains An Item In</li><li>List Does Not Contain An Item In</li><li>List Contains All Items In</li><li>List Does Not Contain All Items In</li></ul>For more information, see "Available operators" in [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators).|
+
+This release contains the following fixes.
+
+* Fixed an issue that prevented an activity from syncing after changing the audience to [!UICONTROL All Visitors]. (TGT-40259)
+* Fixed an issue that prevented offers from being duplicated when used in different locations in [!UICONTROL Automated Personalization] activities even though the [!UICONTROL Disallow Duplicates] option is enabled. (TGT-39567)
+* Fixed an issue that prevented the [!UICONTROL Administration] > [!UICONTROL Scene7 configuration] page from loading properly. (TGT-39918)
+* Fixed an issue that caused properties to be mapped to the incorrect workspace. (TGT-39869)
+* Fixed an issue that caused infinite loading if the request fails after changing the environment while creating a recommendations exclusion. (TGT-39948)
+
 ### at.js 2.4.1 (March 23, 2021)
 
 This release of at.js is a maintenance release and includes the following enhancements and fixes:
