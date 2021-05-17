@@ -17,6 +17,15 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## at.js version 2.5.0 (May 13, 2021)
+
+This release of at.js includes the following enhancements and changes:
+
+* [On-device decisioning](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) support for at.js.
+* [Preview links](/help/c-activities/c-activity-qa/activity-qa.md) support for Automated Personalization activities
+
+This release also removes support for Microsoft Internet Explorer 10, Internet Explorer 11, and all older versions. Microsoft Edge continues to be supported in at.js 2.5.0 and later.
+
 ## Target Standard/Premium 21.4.1 (April 19, 2021)
 
 This release contains the following new features and enhancements. The issue numbers in parentheses are for internal [!DNL Adobe] use.
@@ -33,15 +42,6 @@ This release contains the following fixes.
 * Fixed an issue that prevented the [!UICONTROL Administration] > [!UICONTROL Scene7 configuration] page from loading properly. (TGT-39918)
 * Fixed an issue that caused properties to be mapped to the incorrect workspace. (TGT-39869)
 * Fixed an issue that caused infinite loading if the request fails after changing the environment while creating a recommendations exclusion. (TGT-39948)
-
-## at.js version 2.5.0 (Date to be announced)
-
-This release of at.js includes the following enhancements and changes:
-
-* [On-device decisioning](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) support for at.js.
-* [Preview links](/help/c-activities/c-activity-qa/activity-qa.md) support for Automated Personalization activities.
-
-This release also removes support for Microsoft Internet Explorer 10 and above versions.
 
 ## Additional release notes and version details
 

@@ -5,11 +5,15 @@ title: What Should I Know Before Implementing A4T?
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
 ---
-# Before you implement
+# Before you implement Analytics for Target (A4T) with at.js
 
 Several changes occur in your data collection process when enabling [!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T).
 
-Before you decide to use this integration, review the following sections and consider the impact to your reporting processes:
+Before you decide to use this integration, review the following sections and consider the impact to your reporting processes.
+
+>[!NOTE]
+>
+>This article applies to at.js implementations only.
 
 ## Implementation requirements {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 

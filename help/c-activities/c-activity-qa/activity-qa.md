@@ -14,9 +14,6 @@ Use QA URLs in [!DNL Adobe Target] to perform easy end-to-end activity QA with p
 Activity QA lets you fully test your Target activities prior to launching them live. The Activity QA functionality includes:
 
 * Links to share with team members that never change or require regeneration, regardless of updates made to the experiences or activities. This lets you fully test your activities across the entire user journey.
-
-  Support for preview links for [!UICONTROL Automated Personalization] activities was added with [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
-
 * Audience conditions optionally respected so marketers can test targeting criteria or ignore targeting criteria to QA the appearance of experiences without having to meet the audience conditions. 
 * QA reporting is captured so that marketers can confirm that metrics are incrementing as expected and the QA report data is kept separate from production reporting (for non-A4T reporting). 
 * The ability to preview an experience in isolation or in conjunction with other live activities satisfying the delivery criteria (page/Target request/audience). 
@@ -60,7 +57,7 @@ Activity QA lets you fully test your Target activities prior to launching them l
 
 ## Considerations {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
-* The [!UICONTROL Activity QA] link displays on the [!UICONTROL Overview] page of all activity types except for Automated Personalization (AP). You can use [Preview links](/help/c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC) for AP activities. 
+* The [!UICONTROL Activity QA] link displays on the [!UICONTROL Overview] page of all activity types except for Automated Personalization (AP).
 * Activity QA preview links for saved activities might not load if there are too many saved activities in your account. Re-trying the preview links should work. To prevent this from continuing to happen, archive saved activities that are no longer actively used.
 * Activity QA URLs are available with activities with Analytics as the reporting source (A4T). Hits generated while performing QA using Activity QA will flow to the same report suite where the activity's data will flow even after the activity goes live. 
 * Activity QA does not display content for archived activities or activities that are past their end dates. If you deactivate an ended activity, you must save the activity again for Activity QA to work. 

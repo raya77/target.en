@@ -99,3 +99,23 @@ With [!DNL at.js] version 0.9.6 (or later) and [!DNL AppMeasurement.js] 2.1 (or 
 ## Can I use custom/HTML redirect offers? {#section_E49F9A83A286488C8F1098A040203D7E}
 
 No, you must use a built-in redirect offer for activities that use [!DNL Analytics] as the reporting source (A4T). From the [!DNL Target] perspective, HTML offers are opaque: [!DNL Target] can't know that a particular piece of HTML contains JavaScript that instantiates a redirect.
+
+## Does the [!DNL Adobe Experience Platform Web SDK] support redirect offers for A4T? {#platform}
+
+The following FAQs provide more information about using A4T and redirect offers with the [!DNL Platform Web SDK].
+
+>[!NOTE]
+>
+>A4T support in an [!DNL Adobe Experience Platform Web SDK] implementation discussed in this article is scheduled to be available with the [!DNL Platform Web SDK] version 2.5.0 release (May 24, 2021).
+
+### Does Analytics for Target (A4T) support redirect offers?
+
+Yes, A4T via the Platform Web SDK supports [redirect offers](/help/c-experiences/c-manage-content/offer-redirect.md).
+
+### Are the [!UICONTROL Visual Experience Composer] (VEC) and [!UICONTROL Form-Based Experience Composer] supported? 
+
+Yes, the [[!UICONTROL Visual Experience Composer]](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) and the [[!UICONTROL Form-Based Experience Composer]](/help/c-experiences/form-experience-composer.md) are supported if you use built-in redirect offers.
+
+### Can I use custom/HTML redirect offers with the [!DNL Platform Web SDK]? 
+
+No, you must use a built-in redirect offer for activities that use A4T. From the [!DNL Target] perspective, HTML offers are opaque. [!DNL Target] can’t know that a particular piece of HTML contains JavaScript that instantiates a redirect.
