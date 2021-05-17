@@ -13,6 +13,10 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|May 17|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the at.js 2.5.0 release.|
+||[Activity QA](/help/c-activities/c-activity-qa/activity-qa.md)|Updated topic to indicate that preview links are available for [!UICONTROL Automated Personalization] (AP) activities with at.js 2.5.0 (and later).|
+||[Supported browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)| Indicated that the at.js 2.5.0 release removes support for Microsoft Internet Explorer 10, Internet Explorer 11, and all older versions. Microsoft Edge continues to be supported in at.js 2.5.0 and later.|
+||[Troubleshooting issues related to the [!UICONTROL Enhanced Experience Composer]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)|Updated the list of IP addresses to allowlist.|
 |May 12|[[!DNL Target] release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added prerelease notes for the following:<ul><li>Adobe Experience Platform Web SDK (May 17, 2021</li><li>Target Standard Premium 21.5.2</li></ul>|
 |May 10|[[!DNL Recommendations] FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)|Added the following FAQ: "Can I use an algorithm created in [!DNL Adobe Recommendations Classic] in [!DNL Recommendations Premium]?"|
 ||[Implement [!DNL Target] using [!DNL Dynamic Tag Manager] (DTM)](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)|Indicated that [!DNL Adobe Dynamic Tag Manager] is no longer supported. Instead, [!DNL Adobe] recommends implementing with [[!DNL Adobe Experience Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).|

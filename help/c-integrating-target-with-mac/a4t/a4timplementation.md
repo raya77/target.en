@@ -1,5 +1,5 @@
 ---
-keywords: A4T;Adobe Analytics;Analytics-based activity;Analytics report suite;report suite;Analytics Target integration;configure report suite
+keywords: A4T;Adobe Analytics;Analytics-based activity;Analytics report suite;report suite;Analytics Target integration;configure report suite;at.js;atjs;adobe experience platform web sdk;aep web sdk;platform web sdk
 description: Follow the steps required to implement Analytics for [!DNL Target] (A4T) in your Adobe [!DNL Target] and Adobe Analytics solutions.
 title: How do I Implement Analytics for [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
@@ -7,27 +7,58 @@ exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
 ---
 # Analytics for [!DNL Target] implementation
 
-Several steps are required when implementing [!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T).
+Several steps are required when implementing [!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T). The process varies depending on whether you implement A4T with the [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) or with at.js.
 
-## Implementation steps {#section_73961BAD5BB4430A95E073DE5C026277}
+## Implementation steps for an Adobe Experience Platform Web SDK implementation {#platform}
 
-The following sections describe the steps required to deploy this integration to your site. 
+>[!NOTE]
+>
+>A4T support in an [!DNL Adobe Experience Platform Web SDK] implementation discussed in this article is scheduled to be available with the [!DNL Platform Web SDK] version 2.5.0 release (May 24, 2021).
 
-## Step 1: Request provisioning for Analytics and Target
+The following sections describe the steps required to deploy this integration to your site if you are plan to use the Platform Web SDK:
+
+### Step 1: Request provisioning for [!DNL Analytics] and [!DNL Target]
+
+Before you implement A4T, you must be provisioned for [!DNL Analytics] and [!DNL Target]. [Use this form to request to be provisioned](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES).
+
+### Step 2: Set up user permissions
+
+User account requirements must be met before you can create an activity based on [!DNL Analytics] in [!DNL Target]. See [User permission requirements](/help/c-integrating-target-with-mac/a4t/account-reqs.md).
+
+### Step 3: Create an Edge configuration
+
+Create an Edge configuration using [!DNL Adobe Experience Platform Launch] using the edge configuration tool. Configure the [[!DNL Analytics] and [!DNL Target] edge configuration settings](/https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html). 
+
+### Step 4: Install and configure the Platform Web SDK
+
+To start delivering [!DNL Target] experiences and to apply [!DNL Analytics] for tracking and analysis purposes, [Install](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) and [configure](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html) the Platform Web SDK on your site pages.
+
+### Step 5: Enable the options for using A4T
+
+In the [!DNL Target] UI, click **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**, then choose either **[!UICONTROL Select per activity]** or **[!UICONTROL Adobe Analytics]**.
+
+* **[!UICONTROL Select per activity]** lets you choose between [!DNL Target] and [!DNL Analytics] when creating each activity.
+* **[!UICONTROL Adobe Analytics]** sets [!DNL Analytics] as the reporting source for all activities that you create.
+
+## Implementation steps for an at.js implementation{#section_73961BAD5BB4430A95E073DE5C026277}
+
+The following sections describe the steps required to deploy this integration to your site if you are plan to use at.js: 
+
+### Step 1: Request provisioning for Analytics and Target
 
 After you implement [!DNL Analytics] as the reporting source for [!DNL Target], you must be provisioned for [!DNL Analytics] and [!DNL Target]. [Use this form to request to be provisioned](http://www.adobe.com/go/audiences).
 
-## Step 2: Set up user permissions
+### Step 2: Set up user permissions
 
 User account requirements must be met before you can create an [!DNL Analytics]-based activity in [!DNL Target]. See [User permission requirements](/help/c-integrating-target-with-mac/a4t/account-reqs.md).
 
-## Step 3: Implement the Experience Cloud Visitor ID service
+### Step 3: Implement the Experience Cloud Visitor ID service
 
 The visitor ID service lets you identify users across [!DNL Adobe Experience Cloud] solutions. Implement or migrate to the required version of the Experience Cloud Visitor ID. For more information, see "Implementation Requirements" in [Before you implement](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
 See [Implement the Experience Cloud ID Service for Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html) in the *Experience Cloud Visitor ID Service* documentation.
 
-## Step 4: Update AppMeasurement for JavaScript or s_code
+### Step 4: Update AppMeasurement for JavaScript or s_code
 
 Implement or migrate to the required version of appMeasurement.js. For more information, see "Implementation Requirements" in [Before you implement](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
@@ -35,19 +66,19 @@ For new implementations, see [JavaScript implementation overview](https://experi
 
 For a migration, see [Migrating to AppMeasurement for JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html) in the *Analytics Implementation Guide*.
 
-## Step 5: Download and update at.js
+### Step 5: Download and update at.js
 
 Implement or migrate to the required version of at.js using your production account. No modifications are required on the code.
 
 For more information, see "Implementation Requirements" in [Before you implement](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-## Step 6: Host at.js
+### Step 6: Host at.js
 
 If you previously deployed at.js, you can replace your existing file with the updated version. For more information, see "Implementation Requirements" in [Before you implement](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
 Otherwise, this file can be hosted along with the Visitor ID service and AppMeasurement for JavaScript files. These files must be hosted on a web server that is accessible to all pages on your site. You need the path to these files in the next step.
 
-## Step 7: Reference at.js on all site pages {#step7}
+### Step 7: Reference at.js on all site pages {#step7}
 
 Include at.js below VisitorAPI.js by adding the following line of code in the tag on each page:
 
@@ -143,21 +174,25 @@ The response looks like the following:
 
 The payload can then be forwarded to [!DNL Analytics] via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
-## Step 8: Validate the implementation {#step8}
+### Step 8: Validate the implementation {#step8}
 
 Load your pages after you have updated the JavaScript libraries to confirm that the `mboxMCSDID` parameter values in [!DNL Target] calls match the `sdid` parameter value in the [!DNL Analytics] page-view call.
 
 It is especially important to confirm that these values match in Single Page Applications (SPAs) where the order of calls is not always predictable.
 
-**Note:** The matching of these values is required for A4T to function correctly.
+>[!NOTE]
+>
+>The matching of these values is required for A4T to function correctly.
 
-## Step 9: (Optional) Remove previous integration code
+### Step 9: (Optional) Remove previous integration code
 
 Adobe recommends that you remove the previous integration to simplify your implementation and eliminate the need to sort out discrepancies between the systems. You can remove any code you have deployed for a previous SC to T&T integration, including `mboxLoadSCPlugin`.
 
-## Step 10: Enable the options for using Analytics as the reporting source for Target
+### Step 10: Enable the options for using Analytics as the reporting source for Target
 
 In [!DNL Target], click **[!UICONTROL Administration > Visual Experience Composer]** and choose either **[!UICONTROL Select per activity]** or **[!UICONTROL Adobe Analytics]** to enable the options.
 
 * **[!UICONTROL Select per activity]** lets you choose between [!DNL Target] and [!DNL Analytics] when creating each activity.
 * **[!UICONTROL Adobe Analytics]** sets [!DNL Analytics] as the reporting source for all activities that you create.
+
+
