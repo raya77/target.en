@@ -32,7 +32,7 @@ This release also removes support for Microsoft Internet Explorer 10, Internet E
 
 This release of the [!DNL Platform Web SDK] includes support for [!UICONTROL Analytics for Target] (A4T) for [!DNL Target] redirects.
 
-## [!DNL Target Standard/Premium] 21.5.1 (June 8, 2021)
+## [!DNL Target Standard/Premium] 21.5.1 (May 25, 2021)
 
 Content will be added as the release date approaches.
 
