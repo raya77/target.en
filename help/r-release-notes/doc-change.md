@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|May 20|[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md)|Added the following known issue: "Archiving [!UICONTROL Auto Target] activities might cause sync issues."|
 |May 17|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the at.js 2.5.0 release.|
 ||[Activity QA](/help/c-activities/c-activity-qa/activity-qa.md)|Updated topic to indicate that preview links are available for [!UICONTROL Automated Personalization] (AP) activities with at.js 2.5.0 (and later).|
 ||[Supported browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)| Indicated that the at.js 2.5.0 release removes support for Microsoft Internet Explorer 10, Internet Explorer 11, and all older versions. Microsoft Edge continues to be supported in at.js 2.5.0 and later.|
