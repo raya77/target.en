@@ -100,7 +100,7 @@ With [!DNL at.js] version 0.9.6 (or later) and [!DNL AppMeasurement.js] 2.1 (or 
 
 No, you must use a built-in redirect offer for activities that use [!DNL Analytics] as the reporting source (A4T). From the [!DNL Target] perspective, HTML offers are opaque: [!DNL Target] can't know that a particular piece of HTML contains JavaScript that instantiates a redirect.
 
-## Does the [!DNL Adobe Experience Platform Web SDK] support redirect offers for A4T? {#platform}
+## ![Adobe Experience Platform Web SDK badge](/help/assets/platform.png) Does the [!DNL Adobe Experience Platform Web SDK] support redirect offers for A4T? {#platform}
 
 The following FAQs provide more information about using A4T and redirect offers with the [!DNL Platform Web SDK].
 
