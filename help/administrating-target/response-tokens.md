@@ -70,7 +70,11 @@ A key difference between plug-ins and response tokens is that plug-ins deliver J
 
 1. Create an activity.
 
-## ![Adobe Experience Platform Web SDK badge](/help/assets/platform.png) [!DNL Platform Web SDK] using the Handle object class
+## Listen for responses and read response tokens
+
+The process you use to listen for [!DNL Target] responses and read response tokens differs depending on whether you have a [!DNL Platform Web SDK] or at.js implementation.
+
+### ![Adobe Experience Platform Web SDK badge](/help/assets/platform.png) [!DNL Platform Web SDK] using the Handle object class
 
 Use the Handle object class, which has a meta data object and a data object to listen for [!DNL Target] responses and read the response tokens.
 
@@ -137,7 +141,7 @@ The following code sample adds a [!DNL Platform Web SDK] custom event handler di
 |Meta|Meta data that is passed to the page.|
 |Data|Values of the meta data passed to the page.|
 
-## ![at.js badge](/help/assets/atjs.png) at.js using custom events
+### ![at.js badge](/help/assets/atjs.png) at.js using custom events
 
 Use [at.js custom events](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) to listen for the [!DNL Target] response and read the response tokens.
 
@@ -206,13 +210,17 @@ As mentioned above, response tokens work on the profile information saved for us
 
 [!DNL Target] performs a refresh of attributes at regular intervals. Any attribute that is not toggled on is removed during the next refresh. However, if you have an attribute that was toggled on and has been removed, that script is not removed from the attribute list until you toggle it off. As an example, you removed a profile script that was used as a token. [!DNL Target] removes only the toggled-off attributes from the list when they are deleted or renamed.
 
-## ![AEP badge](/help/assets/platform.png) Sending data to Google Analytics via Platform Web SDK
+## Send data to Google Analytics
+
+The following sections describe how to send [!DNL Target] data to Google Analytics:
+
+### ![AEP badge](/help/assets/platform.png) Sending data to Google Analytics via Platform Web SDK
 
 Google Analytics can be sent data via Platform Web SDK version 2.5.0 (or later) by adding the following code in the HTML page:
 
 (Code to come)
 
-## ![at.js badge](/help/assets/atjs.png) Sending data to Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
+### ![at.js badge](/help/assets/atjs.png) Sending data to Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 Google Analytics can be sent data via at.js by adding the following code in the HTML page:
 
