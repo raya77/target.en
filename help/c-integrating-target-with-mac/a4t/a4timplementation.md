@@ -9,7 +9,7 @@ exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
 
 Several steps are required when implementing [!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T). The process varies depending on whether you implement A4T with the [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) or with at.js.
 
-## Implementation steps for an Adobe Experience Platform Web SDK implementation {#platform}
+## ![Adobe Experience Platform Web SDK badge](/help/assets/platform.png) Implementation steps for an Adobe Experience Platform Web SDK implementation {#platform}
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ In the [!DNL Target] UI, click **[!UICONTROL Administration]** > **[!UICONTROL V
 * **[!UICONTROL Select per activity]** lets you choose between [!DNL Target] and [!DNL Analytics] when creating each activity.
 * **[!UICONTROL Adobe Analytics]** sets [!DNL Analytics] as the reporting source for all activities that you create.
 
-## Implementation steps for an at.js implementation{#section_73961BAD5BB4430A95E073DE5C026277}
+## ![at.js badge](/help/assets/atjs.png) Implementation steps for an at.js implementation{#section_73961BAD5BB4430A95E073DE5C026277}
 
 The following sections describe the steps required to deploy this integration to your site if you are plan to use at.js: 
 

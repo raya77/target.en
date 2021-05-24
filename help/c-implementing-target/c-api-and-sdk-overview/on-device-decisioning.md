@@ -39,3 +39,7 @@ For more videos and tutorials, see the [Adobe Target Tutorials](https://experien
 ## Adobe Tech Blog - Part 1: Run [!DNL Adobe Target] NodeJS SDK for experimentation and personalization on edge platforms (Akamai Edge Workers)
 
 [Click here to access the blog post](https://medium.com/adobetech/part-1-run-adobe-target-nodejs-sdk-for-experimentation-and-personalization-on-edge-platforms-4d8660964ed9).
+
+## Adobe Tech Blog - Part 2: Run [!DNL Adobe Target] NodeJS SDK for experimentation and personalization on edge platforms (AWS Lambda@Edge)
+
+[Click here to access the blog post](https://medium.com/adobetech/part-2-run-adobe-target-nodejs-sdk-for-experimentation-and-personalization-on-edge-platforms-aws-4d6bdac24563).
