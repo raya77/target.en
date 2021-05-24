@@ -11,7 +11,7 @@ exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 
 >[!NOTE]
 >
->A4T support in an [!DNL Adobe Experience Platform Web SDK] implementation discussed in this article is scheduled to be available with the [!DNL Platform Web SDK] version 2.5.0 release (May 24, 2021).
+>A4T support in an [!DNL Adobe Experience Platform Web SDK] implementation discussed in this article is scheduled to be available with the [!DNL Platform Web SDK] version 2.5.0 release (June 1, 2021).
 
 ## Overview {#section_92B66069210C40DBA937790E8CC596CF}
 

@@ -13,7 +13,7 @@ Several steps are required when implementing [!DNL Adobe Analytics] as the repor
 
 >[!NOTE]
 >
->A4T support in an [!DNL Adobe Experience Platform Web SDK] implementation discussed in this article is scheduled to be available with the [!DNL Platform Web SDK] version 2.5.0 release (May 24, 2021).
+>A4T support in an [!DNL Adobe Experience Platform Web SDK] implementation discussed in this article is scheduled to be available with the [!DNL Platform Web SDK] version 2.5.0 release (June 1, 2021).
 
 The following sections describe the steps required to deploy this integration to your site if you are plan to use the Platform Web SDK:
 

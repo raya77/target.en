@@ -16,7 +16,7 @@ A key difference between plug-ins and response tokens is that plug-ins deliver J
 
 >[!NOTE]
 >
->Response tokens are available with the [!DNL Adobe Experience Platform Web SDK] version 2.5.0 or later (release scheduled for May 24, 2021) and with at.js version 1.1 or later.
+>Response tokens are available with the [!DNL Adobe Experience Platform Web SDK] version 2.5.0 or later (release scheduled for June 1, 2021) and with at.js version 1.1 or later.
 
 | Target SDK | Suggested actions |
 |--- |--- |
@@ -206,13 +206,13 @@ As mentioned above, response tokens work on the profile information saved for us
 
 [!DNL Target] performs a refresh of attributes at regular intervals. Any attribute that is not toggled on is removed during the next refresh. However, if you have an attribute that was toggled on and has been removed, that script is not removed from the attribute list until you toggle it off. As an example, you removed a profile script that was used as a token. [!DNL Target] removes only the toggled-off attributes from the list when they are deleted or renamed.
 
-## Sending data to Google Analytics via Platform Web SDK
+## ![AEP badge](/help/assets/platform.png) Sending data to Google Analytics via Platform Web SDK
 
 Google Analytics can be sent data via Platform Web SDK version 2.5.0 (or later) by adding the following code in the HTML page:
 
 (Code to come)
 
-## Sending data to Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
+## ![at.js badge](/help/assets/atjs.png) Sending data to Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 Google Analytics can be sent data via at.js by adding the following code in the HTML page:
 
@@ -282,7 +282,7 @@ Google Analytics can be sent data via at.js by adding the following code in the 
 
 The following sections provide information about debugging response tokens:
 
-### Google Analytics and debugging
+### ![at.js badge](/help/assets/atjs.png) Google Analytics and debugging
 
 The following code lets you debug using Google Analytics:
 
@@ -399,7 +399,7 @@ The equivalent of the ttMeta plugin for debugging purposes can be created by add
 </script>
 ```
 
-## Training Video: Response Tokens and at.js Custom Events ![Tutorial badge](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## ![at.js](/help/assets/atjs.png) Training Video: Response Tokens and at.js Custom Events {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 The following video explains how to use response tokens and at.js custom events to share profile information from [!DNL Target] to 3rd-party systems.
 

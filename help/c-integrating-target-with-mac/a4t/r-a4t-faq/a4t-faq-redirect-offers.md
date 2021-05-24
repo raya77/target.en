@@ -106,7 +106,7 @@ The following FAQs provide more information about using A4T and redirect offers 
 
 >[!NOTE]
 >
->A4T support in an [!DNL Adobe Experience Platform Web SDK] implementation discussed in this article is scheduled to be available with the [!DNL Platform Web SDK] version 2.5.0 release (May 24, 2021).
+>A4T support in an [!DNL Adobe Experience Platform Web SDK] implementation discussed in this article is scheduled to be available with the [!DNL Platform Web SDK] version 2.5.0 release (June 1, 2021).
 
 ### Does Analytics for Target (A4T) support redirect offers?
 
