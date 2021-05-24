@@ -278,58 +278,6 @@ Google Analytics can be sent data via at.js by adding the following code in the 
 </script>
 ```
 
-## Debugging (similar to the ttMeta plugin) {#section_DB3392B6E80749C1BFB520732EDF3BCE}
-
-The equivalent of the ttMeta plugin for debugging purposes can be created by adding following code to HTML page:
-
-```javascript
-<script type="text/javascript" > 
-  document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function (e) { 
-    window.ttMETA= typeof(window.ttMETA)!="undefined" ? window.ttMETA : []; 
- 
-    var tokens=e.detail.responseTokens; 
- 
-    if (isEmpty(tokens)) { 
-      return; 
-    } 
-     
-    var uniqueTokens = distinct(tokens); 
- 
-    uniqueTokens.forEach(function(token) { 
-      window.ttMETA.push({ 
-        'CampaignName': token["activity.name"], 
-        'CampaignId' : token["activity.id"], 
-        'RecipeName': token["experience.name"], 
-        'RecipeId': token["experience.id"], 
-        'OfferId': token["option.id"], 
-        'OfferName': token["option.name"], 
-        'MboxName': e.detail.mbox}); 
-      console.log(ttMETA); 
-    }); 
-  }); 
- 
-  function isEmpty(val){ 
-    return (val === undefined || val == null || val.length <= 0) ? true : false; 
-  } 
- 
-  function key(obj) { 
-     return Object.keys(obj) 
-    .map(function(k) { return k + "" + obj[k]; }) 
-    .join(""); 
-  } 
- 
-  function distinct(arr) { 
-    var result = arr.reduce(function(acc, e) { 
-      acc[key(e)] = e; 
-      return acc; 
-    }, {}); 
-   
-    return Object.keys(result) 
-    .map(function(k) { return result[k]; }); 
-  } 
-</script>
-```
-
 ## Debugging
 
 The following sections provide information about debugging response tokens:
