@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|May 27|[Limits](/help/r-troubleshooting-target/target-limits.md)|Added section for [!DNL Target] API calls. The limit is 50 calls per minute.|
 |May 20|[On-device decisioning](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)|Added link to the following blog post on the Adobe Tech Blog:<ul><li>Adobe Tech Blog - Part 2: Run [!DNL Adobe Target] NodeJS SDK for experimentation and personalization on edge platforms (AWS Lambda@Edge)</li></ul>|
 ||[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md)|Added the following known issue: "Archiving [!UICONTROL Auto Target] activities might cause sync issues."|
 |May 17|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the at.js 2.5.0 release.|
