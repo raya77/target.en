@@ -30,6 +30,12 @@ Character limits and other limits (offer size, audiences, profiles, values, para
 
 * **Recommended limit**: 10,000 active saved (and not ended) activities.
 
+## Target API calls
+
+* **Limit**: 50 calls per minute.
+
+  If you make more than 50 API calls per minute, [!DNL Target] returns a "503 HTTP status" error message.
+
 ## Audiences
 
 ### Audience names
