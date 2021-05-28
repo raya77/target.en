@@ -78,7 +78,14 @@ The process you use to listen for [!DNL Target] responses and read response toke
 
 Use the Handle object class, which has a meta data object and a data object to listen for [!DNL Target] responses and read the response tokens.
 
-The following code sample adds a [!DNL Platform Web SDK] custom event handler directly to the HTML page:
+The following response example adds a [!DNL Platform Web SDK] custom event handler directly to the HTML page (the table explains objects used in the code):
+
+|Object|Information|
+| --- | --- |
+|Type – Personalization.decision|Whether the decision was made by the [!DNL Target] or Offer Decisioning provider.|
+|DecisionProvider – TGT|TGT-[!DNL Target]. [!DNL Target] provides the response token metadata and values to the page.|
+|Meta|Metadata that is passed to the page.|
+|Data|Values of the metadata passed to the page.|
 
 ```html
 <html>
@@ -133,13 +140,6 @@ The following code sample adds a [!DNL Platform Web SDK] custom event handler di
 
 </html>
 ```
-
-|Object|Information|
-| --- | --- |
-|Type – Personalization.decision|[!DNL Target] and Offer Decisioning data is passed here.|
-|DecisionProvider – TGT|TGT-[!DNL Target]. [!DNL Target] provides the response token metadata and values to the page.|
-|Meta|Meta data that is passed to the page.|
-|Data|Values of the meta data passed to the page.|
 
 ### ![at.js badge](/help/assets/atjs.png) at.js using custom events
 
@@ -212,7 +212,7 @@ As mentioned above, response tokens work on the profile information saved for us
 
 ## Send data to Google Analytics
 
-The following sections describe how to send [!DNL Target] data to Google Analytics:
+The following sections describe how to send [!DNL Target] data to Google Analytics. Data sent by response tokens can also be sent to other other 3rd-party integrations.
 
 ### ![AEP badge](/help/assets/platform.png) Sending data to Google Analytics via Platform Web SDK
 
