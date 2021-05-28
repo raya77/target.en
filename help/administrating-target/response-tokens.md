@@ -1,6 +1,6 @@
 ---
 keywords: response tokens;tokens;plugins;plug-ins;at.js;response
-description: Learn how to use response tokens in Adobe [!DNL Target] output-specific information to use in debugging and integrating with 3rd-party systems (such as Clicktale).
+description: Learn how to use response tokens in Adobe [!DNL Target] output-specific information to use in debugging and integrating with 3rd-party tools.
 title: What are Response Tokens and How Do I Use Them?
 feature: Administration & Configuration
 role: Administrator
@@ -16,16 +16,16 @@ A key difference between plug-ins and response tokens is that plug-ins deliver J
 
 >[!NOTE]
 >
->Response tokens are available with the [!DNL Adobe Experience Platform Web SDK] version 2.5.0 or later (release scheduled for June 1, 2021) and with at.js version 1.1 or later.
+>Response tokens are available with the [!DNL Adobe Experience Platform Web SDK] version 2.6.0 or later (release scheduled for June 1, 2021) and with at.js version 1.1 or later.
 
 | Target SDK | Suggested actions |
 |--- |--- |
-|[Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)|Ensure that you are using Platform Web SDK version 2.5.0 or later. For information about downloading the latest version of Platform Web SDK, see [Install the SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) in the *Platform Web SDK overview* guide. For information about new functionality in each version of the Platform Web SDK, see [Release notes](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) in the *Platform Web SDK overview* guide.|
+|[Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)|Ensure that you are using Platform Web SDK version 2.6.0 or later. For information about downloading the latest version of Platform Web SDK, see [Install the SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) in the *Platform Web SDK overview* guide. For information about new functionality in each version of the Platform Web SDK, see [Release notes](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) in the *Platform Web SDK overview* guide.|
 |[at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)|Ensure that you are using at.js version 1.1 or later. For information about downloading the latest version of at.js, see [Download at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). For information about new functionality in each version of at.js, see [at.js Version Details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).<br>Customers using at.js are encouraged to use response tokens and move away from plugins. Some plugins that rely on internal methods that exist in mbox.js, but not in at.js, are delivered but fail. For more information, see [at.js Limitations](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md).|
 
 ## Using response tokens {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
-1. Ensure that you are using Platform Web SDK version 2.5.0 (or later) or at.js version 1.1 (or later).
+1. Ensure that you are using Platform Web SDK version 2.6.0 (or later) or at.js version 1.1 (or later).
 
    For more information:
    
@@ -170,7 +170,7 @@ The following code sample adds an [!DNL at.js] custom event handler directly to 
 
 Response tokens can be activated or deactivated only by users with the [!DNL Target] [!UICONTROL Administrator] role.
 
-**What happens if I am running [!DNL Platform Web SDK] 2.5.0 (or earlier)?
+**What happens if I am running [!DNL Platform Web SDK] 2.6.0 (or earlier)?
 
 You do not have access to response tokens.
 
@@ -216,9 +216,60 @@ The following sections describe how to send [!DNL Target] data to Google Analyti
 
 ### ![AEP badge](/help/assets/platform.png) Sending data to Google Analytics via Platform Web SDK
 
-Google Analytics can be sent data via Platform Web SDK version 2.5.0 (or later) by adding the following code in the HTML page:
+Google Analytics can be sent data via Platform Web SDK version 2.6.0 (or later) by adding the following code in the HTML page.
 
-(Code to come)
+>[!NOTE]
+>
+>Make sure the response token key value pair are under the `alloy(“sendEvent”` object.
+
+```
+<script type="text/javascript"> 
+   (function(i, s, o, g, r, a, m) { 
+   i['GoogleAnalyticsObject'] = r; 
+   i[r] = i[r] || function() { 
+   (i[r].q = i[r].q || []).push(arguments) 
+   }, i[r].l = 1 * new Date(); 
+   
+   
+   a = s.createElement(o), 
+   m = s.getElementsByTagName(o)[0]; 
+   a.async = 1; 
+   a.src = g; 
+   m.parentNode.insertBefore(a, m) 
+   })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga'); 
+   ga('create', 'Google Client Id', 'auto'); 
+</script> 
+<script type="text/javascript">
+   alloy("sendEvent", {
+   
+   
+   })
+   .then(({ renderedPropositions, nonRenderedPropositions }) => {
+   // concatenate all the propositions
+   const propositions = [...renderedPropositions, ...nonRenderedPropositions];
+   // extractResponseTokens() extract the meta from item -> meta
+   const tokens = extractResponseTokens(propositions);
+   const activityNames = []; 
+   const experienceNames = []; 
+   const uniqueTokens = distinct(tokens); 
+   
+   
+   uniqueTokens.forEach(token => { 
+   activityNames.push(token["activity.name"]); 
+   experienceNames.push(token["experience.name"]); 
+   }); 
+   
+   
+   ga('send', 'event', { 
+   eventCategory: "target", 
+   eventAction: experienceNames, 
+   eventLabel: activityNames 
+   }); 
+   
+   
+   });
+</script>
+```
 
 ### ![at.js badge](/help/assets/atjs.png) Sending data to Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
