@@ -69,7 +69,7 @@ Using a QA link allows you to preview the recommendations on your page:
 >
 >* Target QA mode is “sticky” and saved in a cookie. If you do not exit QA mode, you’ll keep seeing the QA results throughout the site. To exit QA mode, use the [bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md).
 >
->* While in QA mode, browsing the site will not affect your profile’s [!UICONTROL Recently Viewed Items] or [!UICONTROL Recently Purchased Items]." This behavior occurs by design to avoid unintentional pollution of production behavioral data. To preview results from a [!UICONTROL Recently Viewed Items] or [!UICONTROL User-Based Recommendations] criteria, first browse the site outside of QA mode, then use the same session to open a QA mode link.
+>* While in QA mode, browsing the site will not affect your profile’s [!UICONTROL Recently Viewed Items] or [!UICONTROL Recently Purchased Items]. This behavior occurs by design to avoid unintentional pollution of production behavioral data. To preview results from a [!UICONTROL Recently Viewed Items] or [!UICONTROL User-Based Recommendations] criteria, first browse the site outside of QA mode, then use the same session to open a QA mode link.
 
 ## Using the CSV download to preview recommendations
 
