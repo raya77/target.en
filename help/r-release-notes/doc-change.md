@@ -19,6 +19,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 ||[Analytics for [!DNL Target] implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform)|Added new section:<ul><li>Implementation steps for an [!DNL Adobe Experience Platform Web SDK] implementation</li></ul>|
 ||[Redirect offers - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform)|Added information about using redirect offers with A4T and the Platform Web SDK.|
 ||[Response Tokens](/help/administrating-target/response-tokens.md)|Added information about using response tokens with the [!DNL Adobe Experience Platform Web SDK].|
+||[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the Adobe Experience Platform Web SDK 2.6.0 (June 1, 2021) release.|
 |May 27|[Limits](/help/r-troubleshooting-target/target-limits.md)|Added section for [!DNL Target] API calls. The limit is 50 calls per minute.|
 |May 20|[On-device decisioning](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)|Added link to the following blog post on the Adobe Tech Blog:<ul><li>Adobe Tech Blog - Part 2: Run [!DNL Adobe Target] NodeJS SDK for experimentation and personalization on edge platforms (AWS Lambda@Edge)</li></ul>|
 ||[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md)|Added the following known issue: "Archiving [!UICONTROL Auto Target] activities might cause sync issues."|
