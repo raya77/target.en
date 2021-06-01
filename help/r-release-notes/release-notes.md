@@ -17,6 +17,15 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## ![Adobe Experience Platform Web SDK badge](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] version 2.6.0 (June 1, 2021)
+
+This release of the [!DNL Platform Web SDK] includes support for the following:
+
+|Feature|Details|
+| --- | --- |
+|Redirect support with [!UICONTROL Analytics for Target] (A4T)|The Platform Web SDK now supports [!DNL Target] redirects when using [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>For more information, see see [Analytics for [!DNL Target] implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md).|
+|Response tokens|The Platform Web SDK now supports [!DNL Target] response tokens.<br>For more information, see [Response tokens](/help/administrating-target/response-tokens.md).|
+
 ## at.js version 2.5.0 (May 13, 2021)
 
 This release of at.js includes the following enhancements and changes:
