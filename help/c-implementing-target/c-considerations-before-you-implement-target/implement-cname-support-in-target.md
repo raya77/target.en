@@ -134,6 +134,13 @@ Use the following set of commands (in the macOS or Linux command-line terminal, 
    >
    >If this command fails but the `validateEdgeFpsslSni` command above succeeds, wait for your DNS updates to fully propagate. DNS records have an associated [TTL (time-to-live)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) that dictates cache expiration time for DNS replies of those records. As a result, you might need to wait at least as long as your TTLs. You can use the `dig target.example.com` command or [the G Suite Toolbox](https://toolbox.googleapps.com/apps/dig/#CNAME) to look up your specific TTLs.
 
+### How do I use an opt-out link with CNAME
+
+If you are using CNAME, the opt-out link should contain the "client=`clientcode` parameter, for example:
+`https://my.cname.domain/optout?client=clientcode`.
+
+Replace `clientcode` with your client code, then add the text or image to be linked to the [opt-out URL](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#reference_E7A62B7B99C94B3A806CB262D16E27FC).
+
 ## Known limitations
 
 * QA mode is not sticky when you have CNAME and at.js 1.x because it is based on a third-party cookie. The workaround is to add the preview parameters to each URL you navigate to. QA mode is sticky when you have CNAME and at.js 2.x.
