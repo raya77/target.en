@@ -16,7 +16,7 @@ A key difference between plug-ins and response tokens is that plug-ins deliver J
 
 >[!NOTE]
 >
->Response tokens are available with the [!DNL Adobe Experience Platform Web SDK] version 2.6.0 or later (release scheduled for June 1, 2021) and with at.js version 1.1 or later.
+>Response tokens are available with the [!DNL Adobe Experience Platform Web SDK] version 2.6.0 or later and with at.js version 1.1 or later.
 
 | Target SDK | Suggested actions |
 |--- |--- |

@@ -25,8 +25,8 @@ This release of the [!DNL Platform Web SDK] includes support for the following:
 
 |Feature|Details|
 | --- | --- |
-|Redirect support with [!UICONTROL Analytics for Target] (A4T)|The Platform Web SDK now supports [!DNL Target] redirects when using A4T. Redirect offers in [!DNL Adobe Target] cause a browser to redirect to a new page.<br>For more information, see Redirect offers.|
-|Response tokens|The Platform Web SDK now supports [!DNL Target] response tokens.<br> Response tokens let you automatically output information specific to [!DNL Adobe Target] to your brand's web page. This information can include details about the activity, offer, experience, user profile, geo information, and more. These details provide extra response data to share with internal or 3rd-party systems or to use for debugging.<br>For more information, see [Response tokens](/help/administrating-target/response-tokens.md).|
+|Redirect support with [!UICONTROL Analytics for Target] (A4T)|The Platform Web SDK now supports [!DNL Target] redirects when using [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>For more information, see see [Analytics for [!DNL Target] implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md).|
+|Response tokens|The Platform Web SDK now supports [!DNL Target] response tokens.<br>For more information, see [Response tokens](/help/administrating-target/response-tokens.md).|
 
 ## [!DNL Target Standard/Premium] 21.5.1 (June 8, 2021)
 

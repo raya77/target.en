@@ -11,10 +11,6 @@ Several steps are required when implementing [!DNL Adobe Analytics] as the repor
 
 ## ![Adobe Experience Platform Web SDK badge](/help/assets/platform.png) Implementation steps for an Adobe Experience Platform Web SDK implementation {#platform}
 
->[!NOTE]
->
->A4T support in an [!DNL Adobe Experience Platform Web SDK] implementation discussed in this article is scheduled to be available with the [!DNL Platform Web SDK] version 2.5.0 release (June 1, 2021).
-
 The following sections describe the steps required to deploy this integration to your site if you are plan to use the Platform Web SDK:
 
 ### Step 1: Request provisioning for [!DNL Analytics] and [!DNL Target]
