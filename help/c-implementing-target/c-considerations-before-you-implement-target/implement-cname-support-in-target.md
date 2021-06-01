@@ -136,9 +136,10 @@ Use the following set of commands (in the macOS or Linux command-line terminal, 
 
 ### How do I use an opt-out link with CNAME
 
-In case you are using CNAME the opt-out link should contain a parameter "client=`clientcode`, for example:
-https://my.cname.domain/optout?client=clientcode.
-Replace the `clientcode` with your client code, then add the text or image to be linked to the [opt-out URL](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#reference_E7A62B7B99C94B3A806CB262D16E27FC).
+If you are using CNAME, the opt-out link should contain the "client=`clientcode` parameter, for example:
+`https://my.cname.domain/optout?client=clientcode`.
+
+Replace `clientcode` with your client code, then add the text or image to be linked to the [opt-out URL](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#reference_E7A62B7B99C94B3A806CB262D16E27FC).
 
 ## Known limitations
 
