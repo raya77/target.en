@@ -6,7 +6,7 @@ feature: Privacy & Security
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
 ---
-# CNAME and Adobe Target
+# CNAME and Target
 
 Instructions for working with [!DNL Adobe] Client Care to implement CNAME (Canonical Name) support in [!DNL Adobe Target]. Use CNAME to handle ad blocking issues or ITP-related (Intelligent Tracking Prevention) cookie policies. With CNAME, calls are made to a domain owned by the customer rather than a domain owned by [!DNL Adobe].
 
