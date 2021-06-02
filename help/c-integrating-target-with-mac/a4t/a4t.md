@@ -9,10 +9,6 @@ exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 
 [!DNL Adobe Analytics for Target] (A4T) is a cross-solution integration that lets you create activities based on [!DNL Analytics] conversion metrics and audience segments. The A4T integration lets you use [!DNL Analytics] reports to examine your results. If you use [!DNL Analytics] as the reporting source for an activity, all reporting and segmentation for that activity is based on [!DNL Analytics] data collection.
 
->[!NOTE]
->
->A4T support in an [!DNL Adobe Experience Platform Web SDK] implementation discussed in this article is scheduled to be available with the [!DNL Platform Web SDK] version 2.5.0 release (June 1, 2021).
-
 ## Overview {#section_92B66069210C40DBA937790E8CC596CF}
 
 The [!DNL Analytics for Target] integration between [!DNL Analytics] and [!DNL Target] provides powerful analysis and timesaving tools for your optimization program.
@@ -61,6 +57,7 @@ The following sections contain information about supported activity types when u
 |[Multivariate test (MVT)](/help/c-activities/c-multivariate-testing/multivariate-testing.md)|Yes|Requires mbox-based goal metric goal to get the [!UICONTROL Element Contribution] report. The [!UICONTROL Element Contribution] report does not currently support [!DNL Analytics] metrics.|
 |[Automated Personalization (AP) activity](/help/c-activities/t-automated-personalization/automated-personalization.md)|No||
 |[Recommendations activity](/help/c-recommendations/recommendations.md)|Yes||
+|[Any activity using a redirect offer](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)|Yes|
 
 Because all activity types do not yet support A4T, it is recommended that you keep or implement important conversion mboxes, such as the `orderConfirmPage` mbox.
 
