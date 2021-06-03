@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|June 3|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added information about the Adobe Target Community Q&A Coffee Break to be held Wednesday, June 9, 2021 at 8 a.m. (PDT, GMT-7).|
 |June 1|[CNAME and [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)|Added following FAQ:<ul><li>How do I use an opt-out link with CNAME</li></ul>|
 ||[Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)|Updated the "Opt-out link" section to explain how to use the opt-out link with CNAME.|
 ||[[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)|Added information about the [!DNL Adobe Experience Platform Web SDK].|
