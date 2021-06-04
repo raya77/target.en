@@ -13,12 +13,12 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|June 1|[CNAME and [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)|Added following FAQ:<ul><li>How do I use an opt-out link with CNAME</li></ul>|
+|June 1|[CNAME and [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)|Added following FAQ:<ul><li>How do I use an opt-out link with CNAME?</li></ul>|
 ||[Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)|Updated the "Opt-out link" section to explain how to use the opt-out link with CNAME.|
 ||[[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)|Added information about the [!DNL Adobe Experience Platform Web SDK].|
 ||[Analytics for [!DNL Target] implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform)|Added new section:<ul><li>Implementation steps for an [!DNL Adobe Experience Platform Web SDK] implementation</li></ul>|
 ||[Redirect offers - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform)|Added information about using redirect offers with A4T and the Platform Web SDK.|
-||[Response Tokens](/help/administrating-target/response-tokens.md)|Added information about using response tokens with the [!DNL Adobe Experience Platform Web SDK].|
+||[Response Tokens](/help/administrating-target/response-tokens.md)|Added information about using response tokens with the [!DNL Adobe Experience Platform Web SDK].<br>**Note**: This functionality will be released in a future release of the Platform Web SDK. Date to be determined.|
 ||[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the Adobe Experience Platform Web SDK 2.6.0 (June 1, 2021) release.|
 |May 27|[Limits](/help/r-troubleshooting-target/target-limits.md)|Added section for [!DNL Target] API calls. The limit is 50 calls per minute.|
 |May 20|[On-device decisioning](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)|Added link to the following blog post on the Adobe Tech Blog:<ul><li>Adobe Tech Blog - Part 2: Run [!DNL Adobe Target] NodeJS SDK for experimentation and personalization on edge platforms (AWS Lambda@Edge)</li></ul>|
