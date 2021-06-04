@@ -18,7 +18,9 @@ A key difference between plug-ins and response tokens is that plug-ins deliver J
 >
 >Response tokens are available with at.js version 1.1 or later. 
 
->[!IMPORTANT] Response token functionality with the [!DNL Adobe Experience Platform Web SDK] will be available in a future release (date to be determined). The documentation below about response tokens and the Platform Web SDK is included as a sneak peak.
+>[!IMPORTANT] 
+>
+>Response token functionality with the [!DNL Adobe Experience Platform Web SDK] will be available in a future release (date to be determined). The documentation below about response tokens and the Platform Web SDK is included as a sneak peak.
 
 | Target SDK | Suggested actions |
 |--- |--- |
