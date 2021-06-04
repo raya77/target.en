@@ -1,6 +1,6 @@
 ---
 keywords: Release notes;new features;releases;updates;update;release;enhancement;enhancements;fixes;bug fixes;updates
-description: Learn about the new features, enhancements, and fixes included in the current release of Adobe Target, including SDKs, APIs, and JavaScript libraries.
+description: Learn about the new features, enhancements, and fixes included in the current release of [!DNL Adobe Target], including SDKs, APIs, and JavaScript libraries.
 title: What New Features Are Included in the current Release?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
