@@ -37,14 +37,13 @@ To use redirect offers with A4T, you must implement the following library versio
 
 * [!DNL Experience Cloud Visitor ID Service]: visitorAPI.js version 2.3.0
 
-  **Note:**  at.js 1.8.0 or higher no longer works with Visitor API versions older than 2.5.0 for passing AAM parameters.
+  **Note:**  at.js 1.8.0 or higher no longer works with Visitor API versions older than 2.5.0 for passing [!DNL Adobe Audeince Manager] (AAM) parameters.
   
 * [!DNL Adobe Target]: at.js version 1.6.2
 
-  **Note:** The  mbox.js library does not support redirect offers with A4T. Your implementation must use at.js.
+  **Note**: The  mbox.js library does not support redirect offers with A4T. Your implementation must use at.js.
 
 * Adobe Analytics: appMeasurement.js version 2.1
-
 
 Download and deployment instructions are listed in [Analytics for Target Implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md).
 
