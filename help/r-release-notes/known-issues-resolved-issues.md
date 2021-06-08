@@ -17,6 +17,10 @@ Information about known issues for [!DNL Adobe Target]. Also includes informatio
 
 The following sections list the known issues for [!DNL Target]:
 
+### [!DNL Adobe Experience Platform] segment names do not display in the [!UICONTROL Important Attributes] report.
+
+[!DNL Adobe Experience Platform] segment names do not display in the [!UICONTROL Important Attributes] report for [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] (AT) activities. (TOP-3813)
+
 ### Archiving [!UICONTROL Auto Target] activities might cause sync issues
 
 Attempting to archive inactive [!UICONTROL Auto-Target] activities might lead to synchronization issues. Until this issue is fixed, do not archive [!UICONTROL Auto-Target] activities. Leave them in the [!UICONTROL Inactive] state. (TGT-40885)
