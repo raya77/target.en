@@ -85,7 +85,7 @@ If your activity requires the assistant of a designer, a web developer, or a dat
 
 You need a certain number of visitors to be put into the test population to draw a statistically significant conclusion from the test. Think about it, if only two people participate in your test, are you going to be confident in the results?
 
-[!DNL Target] relies on statistical principles to determine the results of a test are statistically valid. The Adobe [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) helps you determine the length of time to run a test based on the confidence you need in your results. Click the [!UICONTROL Learn More] link in this box to open and use the calculator.
+[!DNL Target] relies on statistical principles to determine the results of a test are statistically valid. The Adobe [sample size calculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) helps you determine the length of time to run a test based on the confidence you need in your results. Click the [!UICONTROL Learn More] link in this box to open and use the calculator.
 
 ### How important is this activity?
 

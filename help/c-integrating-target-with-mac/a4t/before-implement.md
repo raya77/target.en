@@ -37,7 +37,7 @@ To use redirect offers with A4T, you must implement the following library versio
 
 * [!DNL Experience Cloud Visitor ID Service]: visitorAPI.js version 2.3.0
 
-  **Note:**  at.js 1.8.0 or higher no longer works with Visitor API versions older than 2.5.0 for passing [!DNL Adobe Audeince Manager] (AAM) parameters.
+  **Note:**  at.js 1.8.0 or newer no longer works with Visitor API versions older than 2.5.0 for passing [!DNL Adobe Audience Manager] (AAM) parameters.
   
 * [!DNL Adobe Target]: at.js version 1.6.2
 

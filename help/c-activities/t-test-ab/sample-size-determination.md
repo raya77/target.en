@@ -35,7 +35,7 @@ For more information, see [Auto-Allocate overview](/help/c-activities/automated-
 
 If you choose to use a manual [!UICONTROL A/B Test] activity rather than [!UICONTROL Auto-Allocate], the [!DNL Target] Sample Size Calculator helps you determine the sample size needed for a successful test. A manual A/B test is a fixed horizon test, so the calculator is helpful. Using the calculator for an [!UICONTROL Auto-Allocate] activity is optional because [!UICONTROL Auto-Allocate] declares a winner for you. The calculator gives you a rough estimate of the sample size needed. Continue reading for more information about how to use the calculator.
 
-Before setting up your A/B test, access the Adobe Target [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html).
+Before setting up your A/B test, access the Adobe Target [sample size calculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html).
 
 ![Adobe Target Sample Size Calculator](/help/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
