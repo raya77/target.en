@@ -25,6 +25,9 @@ To manage environments, click **[!UICONTROL Administration]** > **[!UICONTROL En
 1. From the [!UICONTROL Environments] list, click **[!UICONTROL Add Environment]**. 
 1. Specify a descriptive name for the environment. 
 1. Specify the desired active mode for the environment: [!UICONTROL Active Activities] or [!UICONTROL Active and Inactive Activities]. 
+
+   If you specify [!UICONTROL Active and Inactive Activities], hosts from this environment also display inactive activities.
+   
 1. Click **[!UICONTROL Save]**.
 
 ## Set the default environment for reporting {#section_4F8539B07C0C45E886E8525C344D5FB0}
