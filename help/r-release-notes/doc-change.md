@@ -9,14 +9,14 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 
 This page lists significant changes made to the [!DNL Adobe Target] product documentation.
 
-## Adobe [!DNL Target] Standard/Premium 21.6.1 (June 7, 2021)
+## Adobe [!DNL Target] Standard/Premium 21.5.1 (June 8, 2021)
 
 |Date|Topic|Changes|
 | --- | --- | --- |
 |June 8|[Before you implement Analytics for Target (A4T) with at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md)|Added note indicating that at.js 1.8.0 or newer no longer works with Visitor API versions older than 2.5.0 for passing [!DNL Adobe Audience Manager] (AAM) parameters.|
 ||[Environments](/help/administrating-target/environments.md)|Added note indicating that if you specify [!UICONTROL Active and Inactive Activities], hosts from this environment also display inactive activities.|
 ||[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md)|Added the following known issue:<ul><li>[!DNL Adobe Experience Platform] segment names do not display in the [!UICONTROL Important Attributes] report.</li></ul>|
-|June 7|[Release Notes](/help/r-release-notes/release-notes.md): 21.6.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
+|June 7|[Release Notes](/help/r-release-notes/release-notes.md): 21.5.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
 
 ## Adobe [!DNL Target] Standard/Premium 21.4.1 (April 19, 2021)
 
