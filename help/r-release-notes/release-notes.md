@@ -17,7 +17,7 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## Target Standard/Premium 21.6.1 (June 7, 2021)
+## Target Standard/Premium 21.5.1 (June 7, 2021)
 
 This release includes the following enhancements:
 
