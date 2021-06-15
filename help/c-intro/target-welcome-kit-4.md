@@ -103,7 +103,7 @@ Many marketers launch optimization programs for audience segmentation and target
 * What is the conversion rate for the page?
 * How long do you anticipate needing to run the test before you can confidently call it complete?
 
-**Helpful Tip**: Use the Target [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) to help determine the sample size needed for a successful test.
+**Helpful Tip**: Use the Target [sample size calculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) to help determine the sample size needed for a successful test.
 
 ## Tip 12: Design simpler tests to make sure you can create and implement them.
 

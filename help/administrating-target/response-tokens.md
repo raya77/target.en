@@ -20,7 +20,7 @@ A key difference between plug-ins and response tokens is that plug-ins deliver J
 
 >[!IMPORTANT] 
 >
->Response token functionality with the [!DNL Adobe Experience Platform Web SDK] will be available in a future release (date to be determined). The documentation below about response tokens and the Platform Web SDK is included as a sneak peak.
+>Response token will be available with the [!DNL Adobe Experience Platform Web SDK] in a future release (date to be determined). The documentation below about response tokens and the Platform Web SDK is included as a sneak peak.
 
 | Target SDK | Suggested actions |
 |--- |--- |
