@@ -9,7 +9,7 @@ exl-id: 37d6435d-4139-47c5-a871-6595e089d052
 
 You can target on any of several category attributes. Drag and drop the desired attributes into the audience builder to create targeting rules (or groups) for each attribute.
 
-![Attributes for audiences](help/c-target/c-audiences/assets/attributes.png)
+![Attributes for audiences](/help/c-target/c-audiences/assets/attributes.png)
 
 When a particular category is selected, you can apply one or more targeting conditions. For example, in the Geo category, define a rule like City=San Francisco. Adding multiple values creates an OR condition. The visitor has to match only one of the values to meet the targeting condition. For AND conditions on the same parameter, create a custom expression target.
 
