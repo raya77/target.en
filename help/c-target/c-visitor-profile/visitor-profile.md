@@ -9,7 +9,7 @@ exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
 
 Visitor profiles contain information about how your visitors use your pages and other optimized content locations.
 
-If [!DNL Adobe Target] is used together with other [!DNL Adobe Experience Cloud] solutions, such as [!DNL Adobe Analytics], [!DNL Experience Cloud Audiences] shares visitor information across solutions.
+If [!DNL Adobe Target] is used with other [!DNL Adobe Experience Cloud] solutions, such as [!DNL Adobe Analytics], [!DNL Experience Cloud Audiences] shares visitor information across solutions.
 
 By default, [!DNL Target] profile information is stored in a single first-party cookie. The configuration can easily be changed to serve third-party cookies as well.
 
