@@ -1,7 +1,7 @@
 ---
 keywords: Targeting;network;target network;isp;domain name;connection speed;target isp;target domain name;target connection speed
 description: Learn how to create audiences in Adobe [!DNL Target] based on network details such as ISP, Domain Name, and Connection Speed.
-title: Can I [!DNL Target] Visitors Based on Network Options?
+title: Can I Target Visitors Based on Network Options?
 feature: Audiences
 exl-id: 0a479d6d-ca17-43b8-9a42-8e68f31d4d54
 ---
@@ -10,8 +10,8 @@ exl-id: 0a479d6d-ca17-43b8-9a42-8e68f31d4d54
 You can create audiences based on network details.
 
 1. In the [!DNL Target] interface, click **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**. 
-1. Name the audience. 
-1. Click **[!UICONTROL Add Rule]** > **[!UICONTROL Network]**.
+1. Name the audience and add an optional description. 
+1. Drag and drop **[!UICONTROL Network]** into the audience builder pane.
 1. Click **[!UICONTROL Select]**, then select one of the following options:
 
     * **ISP:** An ISP is an organization that provides internet access to its subscribers, usually at a monthly or yearly fee. Many ISPs provide additional services, such as web hosting or email. The ISP field is either a commercial ISP (such as Comcast or TimeWarner) or another entity such as a business or educational institution.
@@ -40,13 +40,13 @@ You can create audiences based on network details.
 
       You can test the ISP and domain name values. [https://www.whoismyisp.org](https://www.whoismyisp.org) is a good resource for targeting purposes. You can use the sample IP addresses given in the table above, or enter your own. Then use the `mboxOverride.browserIp= URL` parameter to mimic that IP address. 
     
-    * **Domain Name:** This is the domain name for the visitor's IP address. This is not the domain name of the website you are using with [!DNL Target]. This domain name is related to the visitor's IP address and is sometimes called a hostname. It is usually very similar to the ISP name. Sometimes the hostname references older names of companies that have rebranded their ISP name but not the domain name. 
+    * **Domain Name:** This is the domain name for the visitor's IP address. This is not the domain name of the website you are using with [!DNL Target]. This domain name is related to the visitor's IP address and is sometimes called a hostname. It is usually similar to the ISP name. Sometimes the hostname references older names of companies that have rebranded their ISP name but not the domain name. 
     * **Connection Speed:** This is the speed of the visitor's connection to the internet. Options include: broadband, cable, dialup, mobile, oc3, oc12, satellite, t1, t2, and wireless, and xdsl.
 
       This field is based on the type of connection and not the actual speed itself. [!DNL Target] cannot determine the exact connection speeds of connections. The Broadband connection type is used when there is no indication of other connection types so a specific type cannot be chosen.
 
-1. (Optional) Click **[!UICONTROL Add Rule]** and set up additional rules for the audience. 
-1. Click **[!UICONTROL Save]**.
+1. (Optional) Set up additional rules for the audience. 
+1. Click **[!UICONTROL Done]**.
 
 The following illustration shows an audience that targets visitors using AT&T with a connection speed of [!UICONTROL Mobile].
 

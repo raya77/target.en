@@ -1,15 +1,15 @@
 ---
 keywords: targeting;mobile;target mobile;deviceatlas;iphone;iphone models;device atlas;displaywidth;display width;display height;type of device;displayheight;phone;tablet;device model
 description: Learn how to create audiences in Adobe [!DNL Target] to target mobile devices based on parameters such as mobile device, type of device, device vendor, screen dimensions (by pixels), and more.
-title: Can I [!DNL Target] Visitors Based on Mobile Options?
+title: Can I Target Visitors Based on Mobile Options?
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
 ---
 # Mobile
 
-Create audiences to target mobile devices based on parameters such as mobile device, type of device,device vendor, screen dimensions (by pixels), and more.
+Create audiences to target mobile devices based on parameters such as mobile device, type of device, device vendor, screen dimensions (by pixels), and more.
 
-For example, you might want to show different content to users who enter your page from a phone than you would if they visit from a computer. In that case, you could select the Mobile audience, then select the **[!UICONTROL Is Mobile Phone]** option, then add any specific details that are important to you, such as the type of phone, size of the screen (in pixels), and so on.
+For example, you might want to show different content to users who enter your page from a phone than you would show if they visit from a computer. In that case, you could select the Mobile audience, then select the **[!UICONTROL Is Mobile Phone]** option, then add any specific details that are important to you, such as the type of phone, size of the screen (in pixels), and so on.
 
 Mobile targeting is delivered by [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), a service of DotMobi. DeviceAtlas is a comprehensive database of mobile devices built on data compiled from numerous sources, including manufacturers and network operators. This data is then verified, cross-referenced, and validated to build a large and accurate mobile device database available.
 
@@ -17,11 +17,11 @@ Device detection is accomplished by analyzing User-Agent strings. Some device ma
 
 For example, Apple devices don't share device model-specific tokens in the UA. The result is that it is not possible to detect iPhone models (such as iPhone 5S, iPhone SE, iPhone 6, and so forth) using a simple keyword-based method.
 
-To solve this, Target collects additional data to accurately detect iPhones and other Apple devices using the following parameters:
+To solve this, [!DNL Target] collects additional data to accurately detect iPhones and other Apple devices using the following parameters:
 
 | Parameter | Type | Description |
 |--- |--- |--- |
-|devicePixelRatio|String|Ratio between physical pixels and device-independent pixels (dips) on the browser.  e.g “1.5” or “2”|
+|devicePixelRatio|String|Ratio between physical pixels and device-independent pixels (dips) on the browser. For example, “1.5” or “2”|
 |screenOrientation|String|The device and the browser's JavaScript engine support Device Orientation. Can be Landscape or Portrait.|
 |webGLRenderer|String|Browser renderer of the graphics driver.|
 
@@ -34,8 +34,8 @@ You can choose more than one mobile device property. Multiple selections are joi
 Customers who are using a custom integration (not using at.js or the Mobile SDK) can collect these parameters themselves and pass them as mbox parameters.
 
 1. In the [!DNL Target] interface, click **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**. 
-1. Name the audience. 
-1. Click **[!UICONTROL Add Rule]** > **[!UICONTROL Mobile]**.
+1. Name the audience and add an optional description. 
+1. Drag and drop **[!UICONTROL Mobile]** into the audience builder pane.
 1. Click **[!UICONTROL Select]**, then select one of the following options:
 
     * Device Marketing Name 
@@ -50,7 +50,7 @@ Customers who are using a custom integration (not using at.js or the Mobile SDK)
 
    >[!NOTE]
    >
-   >Due to the new changes introduced in iOS 12.2, creating an audience with rules defined by Device Marketing Name and Device Model that specify iPhone Models is impacted. We can no longer target users who have iPhones with iOS 12.2 installed on them. However, if those users do not have iOS 12.2, then the iPhone Model targeting continues to work correctly.
+   >Due to the new changes introduced in iOS 12.2, creating an audience with rules defined by [!UICONTROL Device Marketing Name] and [!UICONTROL Device Model] that specify iPhone Models is impacted. [!DNL Target] can no longer target users who have iPhones with iOS 12.2 installed on them. However, if those users do not have iOS 12.2, then the iPhone Model targeting continues to work correctly.
    >
    >The iOS 12.2 update does not affect the identification of the following models because these models do not support upgrading to iOS 12.2: iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad / Retina display, iPad Retina (4th Gen), iPod Touch 4, and iPod Touch 5.
 
@@ -58,10 +58,10 @@ Customers who are using a custom integration (not using at.js or the Mobile SDK)
    >
    >You can target by mobile device carrier using the [Geo settings](/help/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670).
 
-1. (Optional) Click **[!UICONTROL Add Rule]** and set up additional rules for the audience. 
-1. Click **[!UICONTROL Save]**.
+1. (Optional) Set up additional rules for the audience. 
+1. Click **[!UICONTROL Done]**.
 
-The following illustration shows an audience targeting visitors using devices manufactured by Google that are a mobile devices.
+The following illustration shows an audience targeting visitors using devices manufactured by Google that are mobile devices.
 
 ![Target mobile devices](assets/target_mobile.png)
 

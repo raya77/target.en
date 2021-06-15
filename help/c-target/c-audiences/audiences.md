@@ -28,20 +28,20 @@ You can also use audience data collected by [!DNL Adobe Analytics] for real-time
 
 To access the [!UICONTROL Audiences] list, click **[!UICONTROL Audiences]** in the top menu bar:
 
-![[!UICONTROL Audiences] list](/help/c-target/c-audiences/assets/audiences_list.png)
+![[!UICONTROL Audiences] list](assets/audiences_list.png)
 
-The [!UICONTROL Audiences] list contains all of the audiences that you can use in your activities. Use the [!UICONTROL Audiences] list to create, edit, delete, copy, or combine audiences. The list also shows the source where the audience was created ([!DNL Target], [!DNL Target Classic], and [!DNL Experience Cloud]. Predefined audiences, such as "[!UICONTROL New Visitors]" and "[!UICONTROL Returning Visitors]," cannot be renamed.
+The [!UICONTROL Audiences] list contains the audiences that you can use in your activities. Use the [!UICONTROL Audiences] list to create, edit, delete, copy, or combine audiences. The list also shows the source where the audience was created ([!DNL Target], [!DNL Target Classic], and [!DNL Experience Cloud]. Predefined audiences, such as "[!UICONTROL New Visitors]" and "[!UICONTROL Returning Visitors]," cannot be renamed.
 
-When working with audiences that were originally created in [!DNL Experience Cloud], Target alerts you if you reference an audience in [!DNL Target] activities that have later been deleted in [!DNL Experience Cloud].
+When working with audiences that were originally created in [!DNL Experience Cloud], [!DNL Target] alerts you if you reference an audience in [!DNL Target] activities that have later been deleted in [!DNL Experience Cloud].
 
 * If an audience was deleted in [!DNL Experience Cloud], a warning icon in both the [!UICONTROL Audience] list and the audience picker displays. A tool-tip in the UI also indicates that the audience was deleted in [!DNL Experience Cloud]. 
 * If you attempt to combine multiple audiences with a deleted audience, or if you attempt to save an activity that references a deleted audience, a warning message displays.
 
-You can also target custom profile parameters and `user.` parameters. When adding an audience, click the attribute you want to use to target your activity. If the desired attribute does not appear, the attribute has not been fired by an mbox. Other custom mbox parameters are available in the [!UICONTROL Custom Parameters] drop-down list.
+You can also target custom profile parameters and `user.` parameters. When creating an audience, drag the attributes you want to use to target your activity into the audience builder window. If the desired attribute does not appear, the attribute has not been fired by an mbox. Other custom mbox parameters are available in the [!UICONTROL Custom Parameters] drop-down list.
 
 Use the [!UICONTROL Filters] button to filter the [!UICONTROL Audiences] list by source: [!DNL Adobe Target], [!DNL Adobe Target Classic], and [!DNL Experience Cloud].
 
-![Filters option in the [!UICONTROL Audiences] list](/help/c-target/c-audiences/assets/filters.png)
+![Filters option in the [!UICONTROL Audiences] list](assets/filters.png)
 
 Use the [!UICONTROL Search audiences] box to search your [!UICONTROL Audiences] list. You can search for any part of an audience name, or you can enclose a specific string in quotes.
 
@@ -49,7 +49,7 @@ You can sort the [!UICONTROL Audiences] list by audience name or by the date whe
 
 ## View audience definitions {#section_11B9C4A777E14D36BA1E925021945780}
 
-You can view audience definition details on a pop-up card in various places in the Target UI without opening the audience. This functionality applies to audiences created in [!DNL Target Standard/Premium] and audiences imported from [!DNL Target Classic] or created via API.
+You can view audience definition details on a pop-up card in various places in the [!DNL Target] UI without opening the audience. This functionality applies to audiences created in [!DNL Target Standard/Premium] and audiences imported from [!DNL Target Classic] or created via API.
 
 For example, the following audience definition card is accessed by clicking the [!UICONTROL View Details] icon for the desired audience:
 
@@ -57,17 +57,17 @@ For example, the following audience definition card is accessed by clicking the 
 
 The following audience definition card is accessed by clicking the [!UICONTROL View Details] icon on an activity's [!UICONTROL Overview] page:
 
-![Activities > Audience definition](/help/c-target/c-audiences/assets/view-details-activity-overview.png)
+![Activities > Audience definition](assets/view-details-activity-overview.png)
 
 The audience definition card shows they audience's type, source, and attributes. Click **[!UICONTROL View full details]** to see other activities that reference that audience, if applicable. If you are viewing an audience definition card from an activity's [!UICONTROL Overview] page, click **[!UICONTROL Audience Usage]**.
 
-The audience usage information can help you avoid accidental impact to other activities while editing audiences. Information includes Live Activities, Inactive Activities, Archived Activities, And Syncing Activities. This feature is available for all audiences (Library audiences and [activity-only audiences](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
+The audience usage information can help you avoid accidental impact to other activities while editing audiences. Information includes [!UICONTROL Live Activities], [!UICONTROL Inactive Activities], [!UICONTROL Archived Activities], And [!UICONTROL Syncing Activities]. This feature is available for all audiences (Library audiences and [activity-only audiences](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
 
 If an audience is combined with another audience and the combined audience is used to create an activity, the usage information for both audiences lists that newly created activity.
 
 ![](assets/audience_definition_list_usage.png)
 
-The following audience definition card is for an audience imported from the Adobe Experience Cloud. In this instance, the audience was imported from Adobe Audience Manager (AAM).
+<!--The following audience definition card is for an audience imported from the Adobe Experience Cloud. In this instance, the audience was imported from Adobe Audience Manager (AAM).
 
 ![Usage tab on Audience Definition card](assets/audience_definition_mc.png)
 
@@ -82,7 +82,7 @@ The following details are available for these imported audience types:
 Keep the following points in mind as you work with imported audiences:
 
 * Expression target audiences are no longer supported in Target Standard/Premium. 
-* Target Standard/Premium does not support some deprecated audiences or has improved operators for ease of use. Because of this, the definition of an imported audience, although working as per definition, does not mean that same is now available for creation in the Standard/Premium interface. For example, Social Audiences are visible with their rules but Target Standard/Premium does not allow social audiences to be created.
+* Target Standard/Premium does not support some deprecated audiences or has improved operators for ease of use. Because of this, the definition of an imported audience, although working as per definition, does not mean that same is now available for creation in the Standard/Premium interface. For example, Social Audiences are visible with their rules but Target Standard/Premium does not allow social audiences to be created.-->
 
 ## Training video: Using Audiences ![Tutorial badge](/help/assets/tutorial.png)
 

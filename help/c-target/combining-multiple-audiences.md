@@ -7,7 +7,7 @@ exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
 ---
 # Combine multiple audiences
 
-Combine multiple audiences (including Adobe Experience Cloud audiences and Target audiences) on the fly to create ad hoc audiences. You can also create exclusion rules and exclude audiences from a rule.
+Combine multiple audiences (including [!DNL Adobe Experience Cloud] audiences and [!DNL Target] audiences) on the fly to create ad hoc audiences. You can also create exclusion rules and exclude audiences from a rule.
 
 Suppose that you have a "New Visitors" audience and a "Chrome Users" audience. For a specific activity, you might want to combine these existing audiences to target new visitors using Chrome browsers. Instead of creating a third audience and storing it in the [!UICONTROL Audiences] library, you can combine these two audiences during activity creation or while editing an existing activity.
 
@@ -29,7 +29,7 @@ You can create an ad hoc combined audience on the activity's [!UICONTROL Target]
 
    ![Step Result](assets/combine_multiple_audiences1.png)
 
-1. Click **[!UICONTROL Combine Multiple Audiences]** in the top right corner.
+1. Click **[!UICONTROL Combine Audiences]** in the top-right corner.
 
    ![Step Result](assets/combine_multiple_audiences2.png)
 
@@ -37,7 +37,7 @@ You can create an ad hoc combined audience on the activity's [!UICONTROL Target]
 
    The [!UICONTROL Edit Audience] dialog box lets you drag and drop additional audience building blocks from the left side into the new combined audience as well as add exclusion rules and exclude audiences.
 
-    1. You can use drag-and-drop functionality to add audiences within an existing section as a level 2 building block. To add a level 1 building block, select the check box next to the desired audience, then click **[!UICONTROL Add to Rules]**.
+    1. Use drag-and-drop functionality to add audiences within an existing section as a level 2 building block.
 
        For example, suppose in the previous example, you now want to include Safari users in the combined audience. Search for and drag the "Safari Browser" audience into the "Firefox Browser" box on the right side, as in the following example:
 
@@ -49,25 +49,21 @@ You can create an ad hoc combined audience on the activity's [!UICONTROL Target]
        >
        >The operator (AND or OR) must remain the same as you combine audiences. You cannot mix & match operators.
 
-    1. To add an exclusion to a rule, click **[!UICONTROL Exclusion]** > **[!UICONTROL Add Exclusion]**.
+    1. To add an exclusion to a rule, click **[!UICONTROL Exclude]**.
 
        ![](assets/combine_multiple_audiences3a.png)
 
-       Drag and drop an audience in the box:
-
-       ![](assets/combine_multiple_audiences3b.png)
+       Drag and drop an audience.
 
        For example, to exclude United States visitors from new visitors, you could drag the Market: United States audience into the box, as shown below:
 
-       ![](assets/combine_multiple_audiences3b2.png)
-
-       This combined audience includes all new visitors to your site (excluding those from San Francisco) using Safari or Firefox. 
+              This combined audience includes all new visitors to your site (excluding those from San Francisco) using Safari or Firefox. 
     
     1. To exclude an audience from a rule, click **[!UICONTROL Exclusion]** > **[!UICONTROL Exclude this Audience.]**.
 
        For example, you could create a combined audience that includes all new visitors to your site, excluding those using Firefox. Excluding visitors using Firefox is easier and quicker than creating a combined audience that explicitly includes multiple browsers (Safari, Chrome, and Internet Explorer), but does not include Firefox.
 
-1. Provide a descriptive name for the combined audience, then click **[!UICONTROL Save]**.
+1. Provide a descriptive name for the combined audience, then click **[!UICONTROL Done]**.
 
 ## Create a combined audience for use in metric targeting {#section_A42E795AFCBD4575809C5942039910F0}
 
@@ -107,10 +103,10 @@ You can create an ad hoc combined audience while editing an existing activity.
 
 1. Click the **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
 
-   ![Configure > Audiences > Multiple Audiences](/help/c-target/assets/combine_multiple_audiences7.png)
+   ![Configure > Audiences > Multiple Audiences](assets/combine_multiple_audiences7.png)
 
 1. Click the more options icon (three vertical ellipses) next to the activity's current audience, then click **[!UICONTROL Change Audience]**.
 
-   ![Change Audience](/help/c-target/assets/combine_multiple_audiences8.png)
+   ![Change Audience](assets/combine_multiple_audiences8.png)
 
 1. Proceed with [Step 2](/help/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) under "Create a Combined Audience While Creating an Activity" to create the combined audience.

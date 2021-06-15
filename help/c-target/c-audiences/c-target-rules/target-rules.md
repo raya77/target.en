@@ -7,15 +7,19 @@ exl-id: 37d6435d-4139-47c5-a871-6595e089d052
 ---
 # Categories for audiences
 
-You can target on any of several categories. Each category functions as a tab that enables you to create targeting rules (or groups) for each category.
+You can target on any of several category attributes. Drag and drop the desired attributes into the audience builder to create targeting rules (or groups) for each attribute.
+
+![Attributes for audiences](help/c-target/c-audiences/assets/attributes.png)
 
 When a particular category is selected, you can apply one or more targeting conditions. For example, in the Geo category, define a rule like City=San Francisco. Adding multiple values creates an OR condition. The visitor has to match only one of the values to meet the targeting condition. For AND conditions on the same parameter, create a custom expression target.
 
-After you have created a rule, click **[!UICONTROL Save]**. A summary of the rule displays next to the targeting link for the level you are targeting.
+After you have created a rule, click **[!UICONTROL Done]**. A summary of the rule displays next to the targeting link for the level you are targeting.
 
-You can further refine a rule by adding more conditions or by creating additional rules in other categories. For example, to target only Firefox users from San Francisco who accessed your site from Google, set the [!UICONTROL Geo] category to target users from San Francisco, the [!UICONTROL Visitor Behavior] category to Firefox, and the [!UICONTROL Traffic Sources] category to Google. All of the rules created across categories are combined with "AND." To create complex targeting rules that include "OR" operations across categories, create an expression target.
+You can further refine a rule by adding more conditions or by creating additional rules in other categories. For example, you can target only Firefox users from San Francisco who accessed your site from Google. Set the [!UICONTROL Geo] category to target users from San Francisco, the [!UICONTROL Browser] category to Firefox, and the [!UICONTROL Traffic Sources] category to From Google. The rules created across categories are combined with "AND." 
 
-You can also target custom profile parameters and `user.` parameters. When adding an audience, click **[!UICONTROL Visitor Profile]**, then choose the parameter you use want to use to target your activity. If the desired parameter does not appear, the parameter has not been fired by an mbox. Other custom mbox parameters are available in the [!UICONTROL Custom Parameters] drop-down list.
+To create complex targeting rules that include "OR" operations across categories, create an expression target.
+
+You can also target custom profile parameters and `user.` parameters. When adding an audience, drag and drop **[!UICONTROL Visitor Profile]**, then choose the parameter you use want to use to target your activity. If the desired parameter does not appear, the parameter has not been fired by an mbox.
 
 Use the search box to search your [!UICONTROL Audiences] list. You can search for any part of an audience name, or you can enclose a specific string in quotes.
 

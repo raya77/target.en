@@ -14,26 +14,22 @@ Activity-only audiences provide the following benefits:
 * You can use activity-only audiences to create an audience that you want to use only once and you do not want to store it in the [!UICONTROL Audiences Library]. This prevents the [!UICONTROL Audiences Library] from being cluttered with audiences that you never want to use again. 
 * Activity-only audiences are not visible in the [!UICONTROL Audiences Library]. Because of this, they are shielded from unwanted changes by others in your organization.
 
-1. While creating an [activity](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), on the **[!UICONTROL Target]** page, click the three vertical ellipses, then click **[!UICONTROL Replace Audience]**.
+1. While creating an [activity](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), on the **[!UICONTROL Targeting]** page, click the three vertical ellipses, then click **[!UICONTROL Replace Audience]**.
 
    ![Step Result](assets/edit_audience.png)
 
-1. On the [!UICONTROL Choose Audience] page, click **[!UICONTROL Activity Only Audience]**.
+1. Click **[!UICONTROL Create Audience]**.
+
+1. Click **[!UICONTROL This activity only]**.
 
    ![](assets/activity-only-aud.png)
-
-1. Click **[!UICONTROL Create Audience]**. 
+ 
 1. Type a descriptive audience name. 
-1. Click **[!UICONTROL + Add Rule]**.
+1. Drag and drop the desired attributes into the audience builder.
 
-   Rules make it possible to limit your audience to a subset of you site visitors. 
-
-1. Select a rule type.
-
-   Each rule type has its own parameters. See [Categories for Audiences](/help/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D) for more information on configuring each type of audience rule. 
-
-1. Define the rule parameters. 
-1. Click **[!UICONTROL Save]**.
+   Rules make it possible to limit your audience to a subset of your site visitors. Each rule type has its own parameters. See [Categories for Audiences](/help/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D) for more information on configuring each type of audience rule. 
+ 
+1. Click **[!UICONTROL Done]**.
 
 ## Considerations
 

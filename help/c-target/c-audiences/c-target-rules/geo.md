@@ -1,31 +1,31 @@
 ---
 keywords: targeting;a4t;geo;geotargeting;geotargeting accuracy;country;state;city;zip code;dma;mobile carrier;city codes;region codes;country codes;metro codes;profile scripts;geotargeting profile scripts;geotargeting mobile
 description: Learn how to create Adobe [!DNL Target] audiences to target users based on their geographical location, including their country, city, zip/postal code, and more.
-title: Can I [!DNL Target] Visitors-Based Location?
+title: Can I Target Visitors-Based Location?
 feature: Audiences
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
 ---
 # Geo
 
-Use audiences in [!DNL Adobe Target] to target users based on their geographical location, including their country, state/province, city, zip/postal code, DMA, or mobile carrier.
+Use audiences in [!DNL Adobe Target] to target users based on their geographical location.
 
-Geo location parameters allow you to target activities and experiences based on your visitors' geography. You can include or exclude visitors based on their country, state/province, city, zip/postal code, latitude, longitude, DMA, or mobile carrier. This data is sent with each [!DNL Target] request and is based on the visitor's IP address. Select these parameters just like any targeting values.
+Geo location parameters let you target activities and experiences based on your visitors' geography. You can include or exclude visitors based on their country, state/province, city, zip/postal code, latitude, longitude, DMA, or mobile carrier. This data is sent with each [!DNL Target] request and is based on the visitor's IP address. Select these parameters just like any targeting values.
 
 ## Create an Audience with geo targeting {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
 1. In the [!DNL Target] interface, click **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**. 
-1. Name the audience. 
-1. Click **[!UICONTROL Add Rule]** > **[!UICONTROL Geo]**.
+1. Name the audience and add an optional description. 
+1. Drag and drop **[!UICONTROL Geo]** into the audience builder pane.
 
 1. Click **[!UICONTROL Select]**, then select one of the following options:
 
-   * Country 
+   * Country/Region 
    * State 
    * City 
    * Zip Code 
+   * Longitude
    * Latitude 
-   * Longitude 
    * DMA 
    * Mobile Carrier
 
@@ -34,8 +34,8 @@ Geo location parameters allow you to target activities and experiences based on 
    For Mobile Carrier, [!DNL Target] uses the IP address registration data (who owns the block of IP addresses) to determine the appropriate mobile carrier using [Mobile Country Codes (MCC) and Mobile Network Codes MNC)](https://www.mcc-mnc.com).
 
 1. Specify an operator and the appropriate value.
-1. (Optional) Click **[!UICONTROL Add Rule]** and set up additional rules for the audience. 
-1. Click **[!UICONTROL Save]**.
+1. (Optional) Set up additional rules for the audience. 
+1. Click **[!UICONTROL Done]**.
 
 The following illustration shows an audience that targets users accessing the activity from a latitude greater than 44° and a longitude less than 22°.
 

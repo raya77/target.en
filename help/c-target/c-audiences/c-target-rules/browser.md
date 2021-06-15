@@ -1,7 +1,7 @@
 ---
 keywords: browser options;type;browser type;browser language;language;version;browser version
 description: Learn how to create audiences in Adobe [!DNL Target] to target users who use a specific browser or specific browser options when they visit your page.
-title: Can I [!DNL Target] Visitors Based on Browser Type?
+title: Can I Target Visitors Based on Browser Type?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
 ---
@@ -28,26 +28,26 @@ There are two ways to target browsers:
 
    This option targets the activity only to visitors who use the specified browser.
 
-**Customized Browser Audience Rule:** A customized audience enables you to target multiple browsers, or to set up rules or exclusions for specific browsers, browser versions, or browser languages. This provides significant flexibility when targeting a campaign based on browser attributes.
+**Customized Browser Audience Rule:** A customized audience lets you target multiple browsers, or to set up rules or exclusions for specific browsers, browser versions, or browser languages. This provides significant flexibility when targeting a campaign based on browser attributes.
 
 1. In the [!DNL Target] interface, click **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**. 
-1. Name the audience. 
-1. Click **[!UICONTROL Add Rule]** > **[!UICONTROL Browser]**.
+1. Name the audience and add an optional description. 
+1. Drag and drop **[!UICONTROL Browser]** into the audience builder pane.
 
-   ![Rules > Brower](assets/target_browser.png)
+   ![Rules > Browser](assets/target_browser.png)
 
 1. Click **[!UICONTROL Select]**, then select one of the following options:
 
    * **Type:** Target or exclude a certain browser. See [Type](/help/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56). 
-   * **Language:** Target or exclude a certain browsers that are set to use specific languages. See [Language](/help/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1). 
+   * **Language:** Target or exclude certain browsers that are set to use specific languages. See [Language](/help/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1). 
    * **Version:** Target or exclude certain browser versions. See [Version](/help/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
 
-1. (Optional) Click **[!UICONTROL Add Rule]** and set up additional rules for the audience. 
-1. Click **[!UICONTROL Save]**.
+1. (Optional) Set up additional rules for the audience. 
+1. Click **[!UICONTROL Done]**.
 
-The following example shows an audience that includes Internet Explorer users on versions 10 or 11:
+The following example shows an audience that includes Microsoft Edge users on versions 91 or 92:
 
-![Target IE 10 and 11](/help/c-target/c-audiences/c-target-rules/assets/target_ie-10-11.png)
+![Target Edge 91 or 92](assets/target_edge.png)
 
 ## Browser Options {#concept_221D8EEF53CC45AEACEB17CF336A3658}
 
