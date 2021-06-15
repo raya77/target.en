@@ -15,7 +15,7 @@ The good thing about starting your optimization and personalization program now 
 
 |Pitfall|Solution|
 | --- | --- |
-|Not having enough traffic to reach statistically significant results.|Use the Adobe Target [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) in advance to understand how long the test must run, and then run the test to completion.|
+|Not having enough traffic to reach statistically significant results.|Use the Adobe Target [sample size calculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) in advance to understand how long the test must run, and then run the test to completion.|
 |Making a change that is too small or unnoticeable.|Make the change substantial enough so that it can be visible when you stand a few feet away from the screen.|
 |Failing to align activities with business objectives.|Increase focus on the prioritization methodology and communicate that methodology to internal stakeholders.|
 |Having little or no testing backlog.|Engage with internal stakeholders and allow them to submit tests that are aligned with key business goals.|
@@ -23,7 +23,7 @@ The good thing about starting your optimization and personalization program now 
 |Selecting activity success metrics data that don’t help with decision making.|Document all primary test metrics and include additional metrics to gain additional insights.|
 |Making changes during the test that could impact results.|Maintain a calendar of upcoming promotions and site changes. Clearly communicate [!DNL Target] activity launches to avoid conflicts.|
 |Changing test experiences or criteria close to an activity launch.|Request sign-off from key stakeholders early in the test activity process.|
-|Concluding an activity before the results are statistically significant.|Verify test duration using the Adobe [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html).|
+|Concluding an activity before the results are statistically significant.|Verify test duration using the Adobe [sample size calculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html).|
 |Receiving negative or flat results from a [!DNL Target] activity.|Confirm that the activity is worth testing.|
 |Not hard coding the winning experience.|Use activity data to show value to get buy-in for hard-coding.|
 |Not sharing results beyond the testing team.|Expand communications to include lunch and learns, develop a program dashboard, and schedule stakeholder meetings.|

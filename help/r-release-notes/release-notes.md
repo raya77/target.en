@@ -1,6 +1,6 @@
 ---
 keywords: Release notes;new features;releases;updates;update;release;enhancement;enhancements;fixes;bug fixes;updates
-description: Learn about the new features, enhancements, and fixes included in the current release of Adobe Target, including SDKs, APIs, and JavaScript libraries.
+description: Learn about the new features, enhancements, and fixes included in the current release of [!DNL Adobe Target], including SDKs, APIs, and JavaScript libraries.
 title: What New Features Are Included in the current Release?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
@@ -17,7 +17,20 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## ![Adobe Experience Platform Web SDK badge](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] version 2.6.0 (June 1, 2021)
+## Target Standard/Premium 21.5.1 (June 7, 2021)
+
+This release includes the following enhancements:
+
+|Feature|Details|
+| --- | --- |
+|![Premium badge](/help/assets/premium.png) [!DNL Recommendations] [!UICONTROL Catalog Search] API|Search your [!DNL Recommendations] product and content catalog programmatically via API to identify items that match a search criteria and simplify administration of your catalog.<br>**Limitations and notes**:<ul><li>Catalog search via API is not supported for environments with more than 2,000,000 items.</li><li>Catalog search results via API are updated more rapidly than catalog search results via the [!DNL Target] UI. The catalog search in the [!DNL Target] UI can take additional time to reflect the latest results.</li></ul>For more information, see [Searching Entities](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities) in the *[!DNL Adobe Target] [!DNL Recommendations] API* guide.|
+
+This release maintenance release contains the following fixes.
+
+* Fixed an issue that caused the default workspace to change to another workspace when refreshing the [!UICONTROL Audiences] page. (TGT-38871)
+* Fixed an issue in [!UICONTROL Administration] > [!UICONTROL Implementation] that sometimes caused an error message stating, "Your global mbox may not be in sync. Please try resaving it."
+
+## ![Adobe Experience Platform Web SDK badge](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] version 2.5.0 (June 1, 2021)
 
 This release of the [!DNL Platform Web SDK] includes support for the following:
 
@@ -33,23 +46,6 @@ This release of at.js includes the following enhancements and changes:
 * [Preview links](/help/c-activities/c-activity-qa/activity-qa.md) support for Automated Personalization activities
 
 This release also removes support for Microsoft Internet Explorer 10, Internet Explorer 11, and all older versions. Microsoft Edge continues to be supported in at.js 2.5.0 and later.
-
-## Target Standard/Premium 21.4.1 (April 19, 2021)
-
-This release contains the following new features and enhancements. The issue numbers in parentheses are for internal [!DNL Adobe] use.
-
-|Feature|Details|
-| --- | --- |
-|On-device decisioning support for at.js<br>(Date to be announced)|On-device decisioning lets marketers and developers deliver experimentation and personalization on a user's browser at near-zero latency.<br>For more information, see [On-device decisioning for at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)|
-|![Premium](/help/assets/premium.png) List-based operators for entity filtering rules|[!DNL Target Recommendations] supports new list-based operators for entity filtering rules. (TGT-39234)<br>Newly added operators include:<br><ul><li>Is Contained In List</li><li>Is Not Contained In List</li><li>List Contains An Item In</li><li>List Does Not Contain An Item In</li><li>List Contains All Items In</li><li>List Does Not Contain All Items In</li></ul>For more information, see "Available operators" in [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators).|
-
-This release contains the following fixes.
-
-* Fixed an issue that prevented an activity from syncing after changing the audience to [!UICONTROL All Visitors]. (TGT-40259)
-* Fixed an issue that prevented offers from being duplicated when used in different locations in [!UICONTROL Automated Personalization] activities even though the [!UICONTROL Disallow Duplicates] option is enabled. (TGT-39567)
-* Fixed an issue that prevented the [!UICONTROL Administration] > [!UICONTROL Scene7 configuration] page from loading properly. (TGT-39918)
-* Fixed an issue that caused properties to be mapped to the incorrect workspace. (TGT-39869)
-* Fixed an issue that caused infinite loading if the request fails after changing the environment while creating a recommendations exclusion. (TGT-39948)
 
 ## Additional release notes and version details
 
