@@ -53,6 +53,16 @@ There are two types of attributes represented in [!UICONTROL Personalization Ins
 |Shared Audiences (Adobe Audience Manager or Adobe Analytics)|Audiences created through Adobe Audience Manager or Adobe Analytics and shared with Target.|`Custom - Experience Cloud Segment - [segment name]`|
 |In-Activity Reporting Audiences/ Segments|Audiences defined in your AP or Auto Target activity during setup in “Goals & Metrics.”|`Custom - Reporting Segment - [segment name]`|
 
+## Frequently Asked Questions
+
+List of frequently asked questions about [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] [!UICONTROL Insights] reports.
+
+### How long does data for [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] models persist?
+
+[!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] models are trained on the last 45 days of user behavior (user profiles, impression events, and conversion events) for the activity. 
+
+[!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] models retain user behavior, training records, and model decision data for 90 days to produce [!UICONTROL Insights] reports. After 90 days, training records and model decisions are discarded. [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] models also retain aggregated experience/offer-level impression and conversion data for reporting purposes for two years. This data is aggregate-level data only and does not contain any individual-level profile data.
+
 ## Training video: Using the Personalization Insights reports ![Tutorial badge](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/)
