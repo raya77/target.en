@@ -17,6 +17,12 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## Python SDK 1.0.0 (June 16, 2021)
+
+The new [!DNL Adobe Target] Python SDK with on-device decisioning capabilities is now available. This newest addition bolsters the [!DNL Target] suite of server-side SDKs. These SDKS help you integrate with [!DNL Target] and expedite your time to value, in the language of your choice. Server-side integrations are becoming a popular choice given that the market is shifting to a cookie-less world in which first-party data is valuable. Target SDKs are available in the most popular programming languages in the market (Python, Java, JavaScript, C# / .Net).
+
+For more information, see the [Python SDK documentation](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk) in the [Adobe Target SDKs guide](https://adobetarget-sdks.gitbook.io/docs/).
+
 ## Target Standard/Premium 21.5.1 (June 7, 2021)
 
 This release includes the following enhancements:
