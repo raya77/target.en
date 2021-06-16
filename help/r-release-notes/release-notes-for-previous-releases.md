@@ -227,8 +227,8 @@ With the May 20 release, Profile Batch status will return only row-level failure
 
 The previous and new API responses are as follows:
 
-`ProfileBatchStatus Api
-http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
+`ProfileBatchStatus Api`
+`http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
 
 **Currently we see the response as:**
 
