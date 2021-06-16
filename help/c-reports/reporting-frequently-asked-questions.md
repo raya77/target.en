@@ -9,6 +9,12 @@ exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
 
 List of frequently asked questions about reporting in [!DNL Adobe Target].
 
+## How long does data for [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] models persist?
+
+[!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] models are trained on the last 45 days of user behavior (user profiles, impression events, and conversion events) for the activity. 
+
+[!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] models retain user behavior, training records, and model decision data for 90 days to produce [!UICONTROL Insights] reports. After 90 days, training records and model decisions are discarded. [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] models also retain aggregated experience/offer-level impression and conversion data for reporting purposes for two years. This data is aggregate-level data only and does not contain any individual-level profile data.
+
 ## How are the New Visitors and Returning Visitors metrics counted? {#methodology}
 
 A New Visitor's first visit lasts as long as the visitor is active on the site.
