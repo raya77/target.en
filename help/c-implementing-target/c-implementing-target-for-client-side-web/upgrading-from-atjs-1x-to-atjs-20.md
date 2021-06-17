@@ -384,7 +384,7 @@ The following tables explain at.js. 2.*x* compatibility with different activity 
 |`?mboxDisable`|Yes|
 |`?mboxTrace`|Yes|
 |`?mboxSession`|No|
-|`?mboxOverride.browserIp`|No|
+|`?mboxOverride.browserIp`|Yes|
 
 ## Response tokens {#response-tokens}
 
