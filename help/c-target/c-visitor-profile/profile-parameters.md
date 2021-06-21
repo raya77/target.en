@@ -7,9 +7,9 @@ exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 ---
 # Profile attributes
 
-Profile attributes are parameters that are specific to a visitor. These attributes are stored in the visitor's profile to provide information about the visitor that can be used in your activities.
+Profile attributes in [!DNL Adobe Target] are parameters that are specific to a visitor. These attributes are stored in the visitor's profile to provide information about the visitor that can be used in your activities.
 
-A user profile contains demographic and behavioral information of a web page visitor, such as age, gender, products purchased, last time of visit, and so on that Target uses to personalize the content it serves to the visitor.
+A user profile contains demographic and behavioral information of a web page visitor. This information can include age, gender, products purchased, last time of visit, and so on, that [!DNL Target] uses to personalize the content it serves to the visitor.
 
 As a visitor browses your website, or when the visitor returns for another session, the saved profile attributes in the profile can be used to target content or log information for segment filtering.
 
@@ -17,42 +17,40 @@ To set up profile attributes:
 
 1. Click **[!UICONTROL Audiences]** > **[!UICONTROL Profile Scripts.]**
 
-   ![Profile Scripts tab](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
+   ![Profile Scripts tab](/help/c-target/c-visitor-profile/assets/create-script.png)
 
 1. Click **[!UICONTROL Create Script]**.
 
-   ![Create Profile Script dialog box](/help/c-target/c-visitor-profile/assets/create-script.png)
+   ![Create Profile Script dialog box](/help/c-target/c-visitor-profile/assets/profile-script.png)
 
    The following types of profile attributes are available:
 
    | Parameter Type | Description |
    |--- |--- |
-   |mbox|Passed in directly through page code when creating the mbox. See [Pass Parameters to a Global Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Note**: Target has a limit of 50 unique profile attributes per mbox call. If you need to pass more than 50 profile attributes to  Target, you can pass them using the  Profile Update  API method. For more information, see [Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles).|
-   |Profile|Defined directly with a JavaScript code snippet. These can store running totals like total money spent by consumer and are executed on each mbox request. See Profile Script Attributes below.|
+   |mbox|Passed in directly through page code when creating the mbox. See [Pass Parameters to a Global Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Note**: [!DNL Target] has a limit of 50 unique profile attributes per mbox call. If you must pass more than 50 profile attributes to [!DNL Target], pass them using the Profile Update API method. For more information, see [Profile Update in the [!DNL Adobe Target] API documentation](http://developers.adobetarget.com/api/#updating-profiles).|
+   |Profile|Defined directly with a JavaScript code snippet. These snippets can store running totals like total money spent by consumer and are executed on each mbox request. See Profile Script Attributes below.|
 
 ## Profile script attributes {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
 
 Define a profile script attribute with its associated JavaScript code snippet.
 
-You can use profile scripts to capture visitor attributes across multiple visits. Profile scripts are code snippets defined within Target using a form of server-side JavaScript. For example, you might use a profile script to capture how frequently a visitor visits your site, and when they last visited.
+You can use profile scripts to capture visitor attributes across multiple visits. Profile scripts are code snippets defined within [!DNL Target] using a form of server-side JavaScript. For example, you might use a profile script to capture how frequently a visitor visits your site, and when that visitor last visited.
 
-Profile scripts are not the same as profile parameters. Profile parameters capture information about visitors using the mbox code implementation of Target.
+Profile scripts are not the same as profile parameters. Profile parameters capture information about visitors using the mbox code implementation of [!DNL Target].
 
 ## Create profile scripts {#section_CB02F8B97CAF407DA84F7591A7504810}
 
 Profile scripts are available under the [!UICONTROL Audiences] tab in the [!DNL Target] interface.
 
-To add a new profile script, click the **[!UICONTROL Profile Scripts]** tab, **[!UICONTROL Create Script]**, then write your script.
+To add a profile script, click the **[!UICONTROL Profile Scripts]** tab, **[!UICONTROL Create Script]**, then write your script.
 
 Or
 
-To copy an existing profile script, from the [!UICONTROL Profile Scripts] list, hover over the desired script, then click the **[!UICONTROL Copy]** icon: ![copy icon](/help/c-target/c-visitor-profile/assets/icon_copy.png)
+To copy an existing profile script, from the [!UICONTROL Profile Scripts] list, click the ellipsis icon for the desired script, then click **[!UICONTROL Duplicate]**.
 
 You can then edit the audience to create a similar audience.
 
-![Create Profile Script dialog box](assets/profile-script.png)
-
-Profile scripts run profile attribute "catchers" on each location request. When a location request is received, Target determines which activity should run and displays content that is appropriate to that activity and that experience, tracks the success of the activity, and runs any relevant profile scripts. This enables you to track information about the visit, such as the visitor's location, time of day, number of times that visitor has been to the site, if they've purchased before, and so on. This information is then added to the visitor's profile so you can better track that visitor's activity on your site.
+Profile scripts run profile attribute "catchers" on each location request. When a location request is received, [!DNL Target] determines which activity should run and displays content that is appropriate to that activity and that experience. [!DNL Target] also tracks the success of the activity and runs any relevant profile scripts. This process lets you track information about the visit, such as the visitor's location, time of day, number of times that visitor has been to the site, if they've purchased before, and so on. This information is then added to the visitor's profile so you can better track that visitor's activity on your site.
 
 Profile script attributes have the `user.` tag inserted before the attribute name. For example:
 
@@ -66,11 +64,11 @@ if (mbox.name == 'Track_Interest') {
 
 Keep the following information in mind:
 
-* Refer to profile script attributes (including itself) in the code with `user.get('parameterName')` 
-* Save variables that may be accessed the next time the script is run (on the next mbox request) with `user.setLocal('variable_name', 'value')`. Reference the variable with `user.getLocal('variable_name')`. This is useful for situations where you want to reference the date and time of the last request. 
-* Parameters and values are case sensitive. Match the case of the parameters and values you will receive during the activity or test. 
+* Refer to profile script attributes (including itself) in the code with `user.get('parameterName')`. 
+* Save variables that can be accessed the next time the script is run (on the next mbox request) with `user.setLocal('variable_name', 'value')`. Reference the variable with `user.getLocal('variable_name')`. This process is useful for situations where you want to reference the date and time of the last request. 
+* Parameters and values are case-sensitive. Match the case of the parameters and values you receive during the activity or test. 
 * See the "JavaScript reference for script profile parameters" section below for more JavaScript syntax.
-* The parameter remains in the profile after disabling the script. Users whose profiles already contain a parameter that is used in an activity's audience will qualify in that activity.
+* The parameter remains in the profile after disabling the script. Users whose profiles already contain a parameter that is used in an activity's audience qualify in that activity.
 * Profile scripts cannot be deleted while they're being used in an activity.
 * Creating dependent profile scripts that use the result of one profile script in another profile script is not recommended. The order of profile script execution is not guaranteed.
 
@@ -78,13 +76,13 @@ Keep the following information in mind:
 
 You can view profile script information pop-up cards similar to offer information cards. These profile script information cards let you view the list of activities that reference the selected profile script, along with other useful metadata.
 
-For example, the following profile script information card is accessed by hovering over a profile script on the Profile Scripts List (Audiences > Profile Scripts), then clicking the Info icon.
+For example, the following profile script information card is accessed by clicking the [!UICONTROL Info] icon for the desired profile script from the list ([!UICONTROL Audiences] > [!UICONTROL Profile Scripts]).
 
-The [!UICONTROL Script Info] tab contains the following information: Name, Status, Token Type, Script ID , Change Log, and Description.
+The [!UICONTROL Script Info] tab contains the following information: Name, Description, and script code.
 
 ![Profile Script info card](assets/profile_script_info_card.png)
 
-The [!UICONTROL Script Usage] tab lists the activities (and their workspaces) that reference the selected profile script.
+Click **[!UICONTROL View full details]** to see the audiences and activities that reference the selected profile script.
 
 ![Profile Script info card > Script Usage tab](assets/profile_script_info_card_usage_tab.png)
 
@@ -110,8 +108,8 @@ On hover, details on the error display, as illustrated below:
 Typical reasons for the system to disable profile scripts include the following:
 
 * An undefined variable to referenced. 
-* An invalid value is referenced. This is often caused by referencing URL values and other user-inputted data without proper validation. 
-* Too many JavaScript instructions are used. Target has limit of 2,000 JavaScript instructions per script, but this cannot simply be calculated by manually reading the JavaScript. For example, Rhino treats all function calls and "new" calls as 100 instructions. This means that any call to any function consumes 100 instructions. Also, the size of any entry data, such as URL values, can impact the instructions count. 
+* An invalid value is referenced. This error is often caused by referencing URL values and other user-inputted data without proper validation. 
+* Too many JavaScript instructions are used. [!DNL Target] has limit of 2,000 JavaScript instructions per script, but this limit cannot simply be calculated by manually reading the JavaScript. For example, Rhino treats all function calls and "new" calls as 100 instructions. Any call to any function consumes 100 instructions. Also, the size of any entry data, such as URL values, can impact the instructions count. 
 * Not following items highlighted in the [best practices](/help/c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0) section below.
 
 ## Best practices {#best}
@@ -123,18 +121,18 @@ The following guidelines are meant to help write simplified profile scripts that
 * Use string-based manipulation functions vs. Regular Expressions. 
 * Use limited for loops vs. open ended for or while loops. 
 * Do not exceed 1,300 characters or 50 loop iterations. 
-* Do not exceed 2,000 JavaScript instructions. Target has limit of 2,000 JavaScript instructions per script, but this cannot simply be calculated by manually reading the JavaScript. For example, Rhino treats all function calls and "new" calls as 100 instructions. Also, the size of any entry data, such as URL values, can impact the instructions count. 
-* Be mindful of not only the script performance, but the combined performance of all scripts. As best practice, we recommend fewer than 5,000 instructions in total. Counting the number of instructions is not obvious, but the important thing to note is that scripts exceeding 2,000 instructions are automatically disabled. The number of active profile scripts should not exceed 300. Each script is executed with every single mbox call. Run only as many scripts as needed.
-* In a regex, having dot-star in the beginning (e.g.: `/.*match/`, `/a|.*b/`) is almost never needed. The regex search starts from all positions in a string (unless bound with `^`), so dot-star is already assumed. The script execution can be interrupted if such a regex is matched to a long enough input data (which can be as low as several hundred characters).
+* Do not exceed 2,000 JavaScript instructions. [!DNL Target] has limit of 2,000 JavaScript instructions per script, but this limit cannot simply be calculated by manually reading the JavaScript. For example, Rhino treats all function calls and "new" calls as 100 instructions. Also, the size of any entry data, such as URL values, can impact the instructions count. 
+* Be mindful of not only the script performance, but the combined performance of all scripts. As best practice, Adobe recommends fewer than 5,000 instructions in total. Counting the number of instructions is not obvious, but the important thing to note is that scripts exceeding 2,000 instructions are automatically disabled. The number of active profile scripts should not exceed 300. Each script is executed with every single mbox call. Run only as many scripts as needed.
+* In a regex, having dot-star in the beginning (for example: `/.*match/`, `/a|.*b/`) is almost never needed. The regex search starts from all positions in a string (unless bound with `^`), so dot-star is already assumed. The script execution can be interrupted if such a regex is matched to a long enough input data (which can be as low as several hundred characters).
 * If all fails, wrap script in a try/catch. 
 * The following recommendations can help you limit profile script complexity. Profile scripts can execute a limited number of instructions.
 
   As best practice:
 
   * Keep profile scripts small and as simple as possible.
-  * Avoid regular expressions or use only very simple regular expressions. Even simple expressions can take many instructions to evaluate.
+  * Avoid regular expressions or use only simple regular expressions. Even simple expressions can take many instructions to evaluate.
   * Avoid recursion.
-  * Profile scripts should be performance-tested before being added to Target. All profile scripts execute on every mbox request. If profile scripts do not execute correctly, mbox requests take longer to execute. This might impact traffic and conversion.
+  * Profile scripts should be performance-tested before being added to [!DNL Target]. All profile scripts execute on every mbox request. If profile scripts do not execute correctly, mbox requests take longer to execute, which can impact traffic and conversion.
   * If profile scripts become too complex, consider using [response tokens](/help/administrating-target/response-tokens.md) instead.
 
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
@@ -145,23 +143,23 @@ The following methods can be used to debug profile scripts:
 
 >[!NOTE]
 >
->Using [!DNL console.log] within a profile script will not output the profile value, because profile scripts execute server-side.
+>Using [!DNL console.log] within a profile script does not output the profile value, because profile scripts execute server-side.
 
-* **Add Profile Scripts as Response Tokens to Debug Profile Scripts:**
+* **Add profile scripts as response tokens to debug profile scripts:**
 
-  In Target, click **[!UICONTROL Administration]**, click **[!UICONTROL Response Tokens]**, then enable the profile script you want to debug.
+  In [!DNL Target], click **[!UICONTROL Administration]**, click **[!UICONTROL Response Tokens]**, then enable the profile script you want to debug.
 
-  Any time you load a page for your site with Target on it, part of the response from Target will contain your value for the given profile script, as shown below:
+  Anytime you load a page for your site with [!DNL Target] on it, part of the response from [!DNL Target] contains your value for the given profile script, as shown below:
 
   ![](assets/debug_profile_script_1.png)
 
-* **Use the mboxTrace Debugging Tool to Debug Profile Scripts.**
+* **Use the mboxTrace debugging tool to debug profile scripts.**
 
   This method requires an authorization token that you can generate by clicking **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]** in the [!UICONTROL Debugger tools] section.
 
-  You then you add these two parameters to your page URL after the "?": `mboxTrace=window&authorization=YOURTOKEN`.
+  You then add these two parameters to your page URL after the "?": `mboxTrace=window&authorization=YOURTOKEN`.
 
-  This is a little more informative than the response token because you get a before-executed snapshot and an after-snapshot of your profile. It will also show all your available profiles.
+  Adding these parameters is a little more informative than the response token because you get a before-executed snapshot and an after-snapshot of your profile. It also shows all your available profiles.
 
   ![](assets/debug_profile_script_2.png)
 
@@ -193,7 +191,7 @@ if (lastPurchaseTime) {
 }
 ```
 
-Creates a variable for day as measured in milliseconds. If the mbox name is `orderThankyouPage`, set a local (invisible) user profile attribute named `lastPurchaseTime` to be take the value of the current date and time. The value of last purchase time is read, and if is defined, we return the time that has passed since the last purchase time, divided by the number of milliseconds in a day (which results in the number of days since the last purchase).
+Creates a variable for day as measured in milliseconds. If the mbox name is `orderThankyouPage`, set a local (invisible) user profile attribute named `lastPurchaseTime` to show the value of the current date and time. The value of last purchase time is read, and if defined, [!DNL Target] returns the time that has passed since the last purchase time, divided by the number of milliseconds in a day (which results in the number of days since the last purchase).
 
 **Name:** *user.frequency*
 
@@ -241,7 +239,7 @@ The following properties and methods can be referenced by script profile paramet
 |`page.domain`|The current URL domain (everything before the first slash). For example, `www.acme.com` in `http://www.acme.com/categories/men_jeans?color=blu e&size=small`.|
 |`page.query`|The query string for the current page. Everything after the ‘?’. For example, `blue&size=small` in `http://www.acme.com/categories/mens_jeans?color=blue&size=small`.|
 |`page.param(‘<par_name>’)`|The value of the parameter indicated by `<par_name>`. If your current URL is Google’s search page and you had inputted `page.param('hl')`, you would get “en” for the URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`.|
-|`page.referrer`|The same set of operations as above apply for referrer and landing (i.e. referrer.url will be the url address of the referrer).|
+|`page.referrer`|The same set of operations as above apply for referrer and landing (i.e. referrer.url is the url address of the referrer).|
 |`landing.url`, `landing.protocol`, `landing.query`, and `landing.param`|Similar to that of page, but for the landing page.|
 |`mbox.name`|The active mbox's name.|
 |`mbox.param(‘<par_name>’)`|An mbox parameter by the given name in the active mbox.|
@@ -255,16 +253,16 @@ The following properties and methods can be referenced by script profile paramet
 ### Common operators
 
 
-All standard JavaScript operators are present and usable. JavaScript operators can be used on strings and numbers (as well as other data types). A quick briefing:
+All standard JavaScript operators are present and usable. JavaScript operators can be used on strings and numbers (and other data types). A quick briefing:
 
 |Operator|Description|
 | --- | --- |
 |`==`|Indicates equality. Holds true when operands on either side are equal.|
 |`!=`|Indicates inequality. Holds true when operands on either side are not equal.|
-|`<`|Indicates that the variable on the left is less than the variable on the right. Will evaluate to false if the variables are equal.|
-|`>`|Indicates that the variable on the left is greater than the variable on the right. Will evaluate to false if the variables are equal.|
-|`<=`|Same as `<` except if the variables are equal then it will evaluate to true.|
-|`>=`|Same as `>` except if the variables are equal then it will evaluate to true.|
+|`<`|Indicates that the variable on the left is less than the variable on the right. Evaluates to false if the variables are equal.|
+|`>`|Indicates that the variable on the left is greater than the variable on the right. Evaluates to false if the variables are equal.|
+|`<=`|Same as `<` except if the variables are equal then it evaluates to true.|
+|`>=`|Same as `>` except if the variables are equal then it evaluates to true.|
 |`&&`|Logically “ANDs” the expressions to the left and right of it – is only true when both sides are true (false otherwise).|
 |`||`|Logically “ORs” the expressions to the left and right of it – is only true if one of the sides is true (false otherwise).|
 |`//`|Checks if source contains all elements from target boolean contains (Array source, Array target).<br>`//` extracts substring from target (corresponding to regexp) and decodes it `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>The feature also supports the use of constant string values, grouping (`condition1 || condition2) && condition3`, and regular expressions (`/[^a-z]$/.test(landing.referring.url)`.|

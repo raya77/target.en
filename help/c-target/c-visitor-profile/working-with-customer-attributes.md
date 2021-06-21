@@ -1,6 +1,6 @@
 ---
 keywords: customer relationship management;customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm;adobe experience cloud people
-description: Learn how to use enterprise customer data from a customer relationship management (CRM) database for content targeting in Adobe Target.
+description: Learn how to use enterprise customer data from a customer relationship management (CRM) database for content targeting in [!DNL Adobe Target].
 title: What Are Customer Attributes and How Do I Use Them?
 feature: Audiences
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
@@ -27,11 +27,11 @@ Consider the following information as your work with customer attributes and [!D
   >
   >[!DNL at.js] (any version) or [!DNL mbox.js] version 58 or later is required.
 
-* [!DNL Adobe] does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. In our current design, there is a possibility that a small percentage of data (up to 0.1% of large production batches) might not be onboarded. 
+* [!DNL Adobe] does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. In the current design, there is a possibility that a small percentage of data (up to 0.1% of large production batches) might not be onboarded. 
 * The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. For more information, see [Visitor Profile Lifetime](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD). 
-* If the `vst.*` parameters are the only thing identifying the visitor, the existing "authenticated" profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). The profile will come into play only if `authState` is changed to AUTHENTICATED (1).
+* If the `vst.*` parameters are the only thing identifying the visitor, the existing "authenticated" profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). The profile comes into play only if `authState` is changed to AUTHENTICATED (1).
 
-  For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won't fetch the profile that might have been created through a Customer Attributes import. If the desired behavior is to fetch the authenticated profile, the `vst.myDataSource.authState` must have the value of 1 (AUTHENTICATED).
+  For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` does not fetch the profile that might have been created through a Customer Attributes import. If the desired behavior is to fetch the authenticated profile, the `vst.myDataSource.authState` must have the value of 1 (AUTHENTICATED).
 
 * You cannot send the following characters in `mbox3rdPartyID`: plus sign (+) and forward slash (/).
 
@@ -73,12 +73,12 @@ Detailed instructions for completing each of the following tasks can be found in
    >
    >The data source name and the attribute name cannot contain a period.
 
-   Your data file must comply with the file Upload Requirements and must not exceed 100MB. If your file is too big or you have data that will need to be uploaded on a recurring basis you can FTP your files instead.
+   Your data file must comply with the file Upload Requirements and must not exceed 100 MB. If your file is too large, or you have data that must be uploaded on a recurring basis you can FTP your files instead.
 
    * **HTTPS:** You can drag-and-drop the .csv data file or click **[!UICONTROL Browse]** to upload from your file system. 
    * **FTP:** Click the FTP link to [upload the file through FTP](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). First step is to provide a password for the Adobe-provided FTP server. Specify the password, then click **[!UICONTROL Done]**.
 
-   Now transfer your CSV/ZIP/GZIP file to the FTP server. After this file transfer is successful, create a new file with same name and .fin extension. Transfer this empty file to the server. This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
+   Now transfer your CSV/ZIP/GZIP file to the FTP server. After this file transfer is successful, create a file with the same name and a `.fin` extension. Transfer this empty file to the server. This indicates an End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
 
 1. Validate the schema.
 
@@ -134,7 +134,7 @@ Pass `mbox3rdPartyId` as a parameter to the global mbox inside the `targetPagePa
 
 ### Using the Experience Cloud ID Service
 
-If you are using the Experience Cloud ID service, you need to set a Customer ID and Authentication State to use customer attributes in targeting. For more information, see [Customer IDs and Authentication State](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) in the *Experience Cloud ID Service Help*.
+If you are using the Experience Cloud ID service, you must set a Customer ID and Authentication State to use customer attributes in targeting. For more information, see [Customer IDs and Authentication State](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) in the *Experience Cloud ID Service Help*.
 
 For more information about using customer attributes in [!DNL Target], see the following resources:
 
@@ -151,7 +151,7 @@ You might encounter the following issues when working with customer attributes a
 
 ### Issue 1: Customer attributes are removed because the profile is too large
 
-There is no character limit on a particular field in the user's profile, but if the profile gets larger than 64K, it is truncated by removing the oldest attributes until the profile is below 64K again.
+There is no character limit on a particular field in the user's profile, but if the profile gets larger than 64 K, it is truncated by removing the oldest attributes until the profile is below 64 K again.
 
 ### Issue 2: Attributes not listing in the Audience Library in [!DNL Target], even after several days
 

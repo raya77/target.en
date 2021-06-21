@@ -7,7 +7,7 @@ exl-id: b0b23887-3339-411e-9f5c-64f9d1ba778c
 ---
 # Use profile scripts to test mutually exclusive activities 
 
-You can use profile attributes to set up tests that compare two or more activities but do not let the same visitors participate in each activity.
+You can use profile attributes in [!DNL Adobe Target] to set up tests that compare two or more activities but do not let the same visitors participate in each activity.
 
 Testing mutually exclusive activities prevents a visitor in one activity from affecting the test results for the other activities. When a visitor participates in multiple activities, it can be difficult to determine whether positive or negative lift resulted from the visitor's experience with one activity, or if interactions between multiple activities affected the results of one or more of the activities.
 
