@@ -31,12 +31,14 @@ The following sections contain troubleshooting information about activities, sep
 ### Auto-Target
 
 * [Auto-Target Troubleshooting and FAQs](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+* [Personalization Insights reports](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### Automated Personalization (AP)
 
 * [Automated Personalization FAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [Troubleshooting Automated Personalization](/help/c-activities/t-automated-personalization/ap-trouble.md)
 * [Automated Personalization Summary reports](/help/c-reports/reports-ap.md)
+* [Personalization Insights reports](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### Multivariate Test (MVT)
 

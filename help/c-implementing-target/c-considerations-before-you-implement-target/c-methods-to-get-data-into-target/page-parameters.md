@@ -41,7 +41,7 @@ Data gets sent to Target in real time, and can be used on the same server call t
 
   In addition to those characters mentioned on the IETF site, Target allows the following characters in query strings:
 
-  `< > # % " { } | \\ ^ \[\] \``
+  ```< > # % " { } | \ ^ [ ] ` ```
   
   Everything else must be url-encoded. The standard specifies the following format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), as illustrated below:
 

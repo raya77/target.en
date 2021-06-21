@@ -1,6 +1,6 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;search engine optimization;search engine optimization;seo;edge clusters, central clusters;at.js;mbox.js;
-description: Learn how Adobe [!DNL Target] works, including information about the [!DNL Target] JavaScript libraries (at.js and AEP Web SDK), Adobe data centers, and SEO testing.
+description: Learn how Adobe [!DNL Target] works, including information about the [!DNL Target] JavaScript libraries (at.js and Experience Platform Web SDK), Adobe data centers, and SEO testing.
 title: How Does [!DNL Target] Work?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
@@ -11,19 +11,19 @@ Learn how [!DNL Adobe Target] works, including information about the [!DNL Adobe
 
 ## [!DNL Target] Platform Web SDKs and JavaScript libraries {#libraries}
 
-[!DNL Target] integrates with websites using the [!DNL AEP Web SDK] or JavaScript libraries:
+[!DNL Target] integrates with websites using the [!DNL Experience Platform Web SDK] or JavaScript libraries:
 
-* **Adobe Experience Platform Web SDK:** The [AEP Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) is a new client-side JavaScript library. The AEP Web SDK lets customers of [!DNL Adobe Experience Cloud] interact with the various services in the [!DNL Experience Cloud] (including [!DNL Target]) through the [!DNL AEP] Edge Network. Adobe recommends that all new [!DNL Target] customers implement the [!DNL AEP Web SDK].
+* **Adobe Experience Platform Web SDK:** The [Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) is a new client-side JavaScript library. The Experience Platform Web SDK lets customers of [!DNL Adobe Experience Cloud] interact with the various services in the [!DNL Experience Cloud] (including [!DNL Target]) through the [!DNL Experience Platform] Edge Network. Adobe recommends that all new [!DNL Target] customers implement the [!DNL Experience Platform Web SDK].
 * **at.js:** The [at.js library](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) is an implementation library for [!DNL Target]. The at.js library improves page-load times for web implementations and provides better implementation options for single-page applications. at.js is updated frequently with new capabilities. Adobe recommends that all customers using at.js update their implementations to the [latest version of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
-* **mbox.js:** The [mbox.js library](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) is the legacy implementation library for [!DNL Target]. The mbox.js library is supported until March 31, 2021; however, there will be no feature updates.
+* **mbox.js:** The [mbox.js library](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) is the legacy implementation library for [!DNL Target]. The mbox.js library is no longer supported after March 31, 2021.
 
 >[!IMPORTANT]
 >
->All customers should migrate to the [!DNL AEP Web SDK] or to the latest version of at.js. For more information, see [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) or [Migrate to at.js from mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
+>All customers should migrate to the [!DNL Experience Platform Web SDK] or to the latest version of at.js. For more information, see [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) or [Migrate to at.js from mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
-Reference the [!DNL AEP Web SDK] or at.js on every page on your site. For example, you can add one of these libraries to your global header. Alternatively, consider using [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html) to implement [!DNL Target].
+Reference the [!DNL Experience Platform Web SDK] or at.js on every page on your site. For example, you can add one of these libraries to your global header. Alternatively, consider using [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html) to implement [!DNL Target].
 
-The following resources contain detailed information to help you implement the AEP Web SDK or at.js:
+The following resources contain detailed information to help you implement the Experience Platform Web SDK or at.js:
 
 * [Adobe Experience Platform Web SDK Extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension)
 * [Implement [!DNL Target] using Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
@@ -101,7 +101,7 @@ The [!DNL Target] solution is hosted on Adobe-owned and Adobe-leased data center
 
 Central Cluster locations contain both a data collection center and a data processing center. Edge Cluster locations contain only a data collection center. Each report suite is assigned to a specific data processing center.
 
-Customer site activity data is collected by the closest of seven Edge Clusters. This data is directed to a customer’s pre-determined Central Cluster destination (one of three locations: Oregon, Dublin, Singapore) for processing. Visitor profile data is stored on the Edge Cluster closest to the site visitor. Edge clusters locations include the Central Cluster locations and Virginia, Amsterdam, Sydney, Tokyo, and Hong Kong.
+Customer site activity data is collected by the closest of seven Edge Clusters. This data is directed to a customer’s pre-determined Central Cluster destination (one of three locations: Oregon, Dublin, Singapore) for processing. Visitor profile data is stored on the Edge Cluster closest to the site visitor. Edge clusters locations include the Central Cluster locations and Virginia, Mumbai, Sydney, and Tokyo.
 
 Instead of responding to all targeting requests from a single location, requests are processed by the Edge Cluster closest to the visitor. This process helps mitigate the impact of network/Internet travel time.
 
@@ -175,7 +175,7 @@ Guidelines were presented in a [Google Webmaster Central Blog](https://webmaster
 
 * **Run experiments only as long as necessary**: Adobe believes "as long as necessary" to be as long as it takes to reach statistical significance. [!DNL Target] [provides best practices](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) to determine when your test has reached this point. Adobe recommends that you incorporate the hardcoded implementation of winning tests into your testing workflow and allot the appropriate resources.
 
-  Using the [!DNL Target] platform to "publish" winning tests is not recommended as a permanent solution. If the winning test is published for 100% of users 100% of the time, this approach can be used while the process of hardcoding the winning test is completed.
+  Using the [!DNL Target] platform to "publish" winning tests is not recommended as a permanent solution. If the winning test is published for 100% of users 100% of the time, this approach can be used while the process of hard-coding the winning test is completed.
 
   It's important to consider what your test has changed as well. Simply updating the color of buttons or other minor non-text-based items on the page does not influence your organic rankings. Changes to text should be hardcoded, however.
 
