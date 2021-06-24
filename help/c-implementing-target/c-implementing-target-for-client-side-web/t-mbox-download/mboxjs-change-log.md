@@ -24,13 +24,13 @@ The way Target responds to calls from your page depends on the version of the Ta
 
 >[!NOTE]
 >
->The mbox.js library is no longer being developed. All customers should migrate from mbox.js to at.js. For more information, see [Migrate to at.js from mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
+>The mbox.js library is no longer being developed. All customers should migrate from mbox.js to at.js.
 
 ## mbox.js version 63 {#section_ED8EFCF653A845ED8927F759578C4A33}
 
 **Target Release:** 17.7.1
 
-[!DNL mbox.js] version 63 is now available. For more information, see [Download mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md).
+[!DNL mbox.js] version 63 is now available.
 
 The following enhancements and fixes are included in [!DNL mbox.js] version 63:
 
@@ -94,7 +94,7 @@ Also in Version 60, if the [!DNL visitorAPI.js] file is present for the Experien
 
 * V60 asynchronous calls
 
-  When using v60 with the visitor id service, all mbox calls are made asynchronously. This is a change from how mboxes have always worked, so be careful if upgrading to this version. Review the [Asynchronous Considerations](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953) section of the [!DNL at.js] documentation ( [!DNL at.js] also uses asynchronous calls) to understand some of the risks. 
+  When using v60 with the visitor id service, all mbox calls are made asynchronously. This is a change from how mboxes have always worked, so be careful if upgrading to this version.
 * New Visitor scenarios might have flicker
 
   When using v58 to v60 with the visitor id service, mbox calls wait for the visitor id to be set before firing (or until a timeout has occurred). This happens on the first page load of a new visitor.

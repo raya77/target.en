@@ -47,7 +47,7 @@ See [Confidence Level and Confidence Interval](/help/c-reports/conversion-rate.m
 
 ## Retail Data {#section_30A674731BA6440E9BB93C421BE990EE}
 
-AOV, RPV, and Sales data are displayed for each experience if you inserted a [Place Order](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md) ( `orderConfirmPage`) mbox and selected it as the conversion mbox. 
+AOV, RPV, and Sales data are displayed for each experience if you inserted a Place Order (`orderConfirmPage`) mbox and selected it as the conversion mbox. 
 
 ## Confidence Level and Confidence Interval {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
