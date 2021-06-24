@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|June 24|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Updated the prerelease notes for the [!DNL Target Standard/Premium] 21.6.1 release (June 30, 2021).|
 |June 16|[[!DNL Target] release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the [!DNL Adobe Target] Python SDK version 1.0.0 release.|
 ||[Personalization Insights reports](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)|Added the following FAQ:<ul><li>How long does data for [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] models persist?</li></ul>|
 |June 8|[Before you implement Analytics for Target (A4T) with at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md)|Added note indicating that at.js 1.8.0 or newer no longer works with Visitor API versions older than 2.5.0 for passing [!DNL Adobe Audience Manager] (AAM) parameters.|
