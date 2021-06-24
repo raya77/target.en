@@ -131,7 +131,7 @@ feature-set: Target
          + [at.js version details](c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
          + [Upgrading from at.js 1.x to at.js 2.x](c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)
          + [at.js cookies](c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)
-   + Understand the Global mbox {#global-mbox}
+      + Understand the Global mbox {#global-mbox}
          + [Understand the global mbox overview](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
          + [Customize a global mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
          + [Use a global mbox from a legacy implementation](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/mbox-global-target-standard.md)
