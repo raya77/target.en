@@ -119,11 +119,6 @@ The following sections contain troubleshooting information about implementing Ta
 * [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
 * "Office Hours" video, an initiative led by the Adobe Customer Care team. See [at.js implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md).
 
-### mbox.js
-
-* [mbox.js FAQ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-frequently-asked-questions.md)
-* [mbox.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md)
-
 ## Known issues
 
 * [Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md)
