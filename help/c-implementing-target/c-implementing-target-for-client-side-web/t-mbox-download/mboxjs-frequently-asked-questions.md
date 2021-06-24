@@ -16,16 +16,6 @@ Answers to frequently asked questions about mbox.js.
 >
 >We recommend that all customers migrate to the most recent version of the new [!DNL Adobe Experience Platform Web SDK] or the at.js JavaScript library before this date to avoid any potential issues with your sites. For more information, see [Overview: implement Target for client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## What is the impact of mbox.js on page-load times? {#section_90B3B94FE0BF4B369577FCB97B67F089}
-
-For more information, see [Benefits of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
-
-## Why do I get "Parser-blocking" warning messages in Google Chrome when using mbox.js and document.write? {#section_355A3A5BF02F42EEB8271C96EF41590A}
-
-This console message displays when using Chrome in many scenarios in which the `document.write` function is used within the mbox.js file. This is a warning message and should not affect your activity setup process.
-
-The best way to prevent this situation is to [migrate your Target implementation to the at.js JavaScript library](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA), which doesn't use the `document.write` function. Using at.js provides many advantages versus using mbox.js. For more information, see [at.js Frequently Asked Questions](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769).
-
 ## Why are my mboxes not firing on my web pages? {#section_4BA5DA424B734324AAB51E4588FA50F5}
 
 Target customers sometimes use cloud-based instances with [!DNL Target] for testing or simple proof-of-concept purposes. These domains, and many others, are part of the [Public Suffix List](https://publicsuffix.org/list/public_suffix_list.dat).

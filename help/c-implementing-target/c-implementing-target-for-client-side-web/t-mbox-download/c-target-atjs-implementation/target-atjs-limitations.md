@@ -21,9 +21,8 @@ There are some differences between at.js and mbox.js. This section lists some of
 Some functions within [!DNL mbox.js] are not available in [!DNL at.js]. Internal [mbox.js objects and methods](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537) (such as `mbox`, `mboxCurrent`, `mboxFactoryDefault`, `mboxFactories`, and others) are no longer supported by [!DNL at.js] (example: `mboxFactoryDefault`). This is by design, intended to discourage you from "hacking" [!DNL at.js] to develop unsupported functionality that over the long term can cripple an implementation and make it impossible to upgrade. The only exposed methods are covered in the API pages of this documentation. Because of this:
 
 * Legacy, page-based [integrations](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) with other Adobe solutions might not work and should be upgraded to newer, server-side integrations. 
-* [Custom plugins developed for mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) might not work unless updated for [!DNL at.js].
 
-  Make sure you include any [plugins](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) as part of your testing.
+  Make sure you include any plugins as part of your testing.
 
 ## Asynchronous Considerations {#section_B586360A3DD34E2995AE25A18E3FB953}
 

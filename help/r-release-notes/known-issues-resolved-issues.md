@@ -94,7 +94,7 @@ In an MVT activity, the winner shown in the table and graph is not consistent wh
 The following are known issues with at.js:
 
 * Using at.js versions before 2.2.0, click tracking does not report conversions in Analytics for Target (A4T) if Adobe Analytics code is not present on page elements (such as buttons). A fix was introduced for this issue in at.js 2.2.0. [Please upgrade to the latest at.js version](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) if you experience this problem.
-* If you create an experience with no modifications using at.js 2.1.1 or earlier (for example, a default experience), the experience might not be counted in reports, Analytics for Target (A4T), Adobe Analytics, or Google Analytics. In addition, the [ttMeta plug-in](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) might not work correctly.
+* If you create an experience with no modifications using at.js 2.1.1 or earlier (for example, a default experience), the experience might not be counted in reports, Analytics for Target (A4T), Adobe Analytics, or Google Analytics. In addition, the ttMeta plug-in might not work correctly.
 
   As a workaround, use a whitespace in the experience content. (TNT-33366)
 
@@ -223,12 +223,6 @@ For more information and a fix, see "How do the recently announced Google Chrome
 The graph report for an Auto-Target activity fails to render for "differential" modes (Average Lift and Daily Lift) if there is no data (0 visits) in any experience. This situation might occur during the early stage of an activity if the control experience is set to custom. For the other modes (Running Average Control and Targeted, Daily Control and Targeted, and Visits) it works fine. As soon as there is some data (non-zero visits), the report renders as expected.
 
 This issue was fixed in the Target 19.7.1 release.
-
-### mbox.js
-
-The mbox.js library does not support client-side templating languages, such as Handlebars and Mustache. The at.js library *does* support these languages.
-
-**Note**: The mbox.js library is no longer being developed. All customers should migrate from mbox.js to at.js. For more information, see [Migrate to at.js from mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
 ### Implementation: Global Mbox Auto Create
 
