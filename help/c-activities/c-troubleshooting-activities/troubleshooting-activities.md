@@ -98,15 +98,6 @@ For more information about how page modifications affect Target's ability to dis
 
 For more information about how page modifications affect Target's ability to display, see [Page Modification Scenarios](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
-## Mbox.js is popping all subsequent code out of the head and into the body.
-
-**Validate:** View source to determine if an declarations follow the mbox.js file before the closing `</body>` tag.
-
-**Options:**
-
-* Place mbox.js as the last item inside the `<head>` section of your page.
-* Use unique div ids on the highest-level elements inside the body.
-
 ## Other activities are running on the same page.
 
 **Validate:** Use the Collisions tab to see of other activities are running.

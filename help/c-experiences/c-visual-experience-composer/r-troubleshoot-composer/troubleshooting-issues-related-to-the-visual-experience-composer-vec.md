@@ -107,7 +107,7 @@ After setting up an extension, open Target. Your pages should now load in the Vi
 * You entered an invalid URL. 
 * You have not entered a default URL in your account setup page.
 
-Ensure that this setting is enabled, then download and update mbox.js on your website.
+Ensure that this setting is enabled, then download and update at.js on your website.
 
 ## The VEC appears broken when I use browse mode. (VEC only) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
