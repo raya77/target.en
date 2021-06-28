@@ -13,13 +13,9 @@ By following these best practices, you are less likely to encounter unexpected p
 
 ## Best Practices {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
-**For mbox.js version 57 and later, and for at.js, place the mbox.js or at.js reference at the top of the `<head>` section of your page.**
+**Place the at.js reference at the top of the `<head>` section of your page.**
 
-If you also use the Visitor API Service, place the visitor API script above mbox.js or at.js.
-
-**For versions of mbox.js before version 57, place the mbox.js code as low as possible in the `<head>` section of your page.**
-
-Place the mbox.js at the end of the `<head>` section, with no additional declarations after it. Otherwise, any script or link tags will be moved into the `<body>` section.
+If you also use the Visitor API Service, place the visitor API script above at.js.
 
 **You can enable the Enhanced Experience Composer at the account level (enabled for all activities created in the account) or at the individual activity level.**
 
@@ -227,7 +223,7 @@ An element cannot be moved outside a container that is followed by a CSS propert
 
 **Only swap offers are available on mboxes.**
 
-Actions such as Edit Class and Rearrange are not allowed inside an mbox. Mbox content is served by mbox.js.
+Actions such as Edit Class and Rearrange are not allowed inside an mbox.
 
 **You should not rearrange and move the same element.**
 

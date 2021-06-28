@@ -400,7 +400,7 @@ The following enhancements and fixes are included in [!DNL at.js] version 0.9.6:
 
 **Date:** September 21, 2016
 
-* Added an `optoutEnabled` setting to enable or disable the Device Graph opt-out. If this setting is set to `true` and the visitor has opted out of tracking, the visitor's browser will not make any mbox calls. Device Graph is currently in Beta. This setting is set to `false` by default, but must be set to `true` if you are using Device Graph. A similar option is part of mbox.js v61. 
+* Added an `optoutEnabled` setting to enable or disable the Device Graph opt-out. If this setting is set to `true` and the visitor has opted out of tracking, the visitor's browser will not make any mbox calls. Device Graph is currently in Beta. This setting is set to `false` by default, but must be set to `true` if you are using Device Graph. 
 * Added `CustomEvent` support for the notification mechanism. Previously, the at.js event notification mechanism could not be used via standard DOM APIs, such as `document.addEventListener()`. Now you can use `document.addEventListener()` to subscribe to at.js events, such as request events and content rendering events. 
 * Fixed an issue related to offers created in the Visual Experience Composer (VEC). Prior to this release, Target hid the selectors and un-hid them only when all selectors matched. In at.js 0.9.2 Target un-hides the selectors as soon as they are matched.
 
@@ -410,7 +410,7 @@ The following enhancements and fixes are included in [!DNL at.js] version 0.9.6:
 
 * Provides at.js a timeout for the Visitor Id Service, which is independent of the service’s own timeout. 
 * Corrects an issue in 0.9.0 that impacted implementations using at.js on some pages and mbox.js on other pages. 
-* If you use Adobe Analytics as your activity's reporting source, you do not need to specify a tracking server during activity creation if you are using mbox.js version 61 (or later) or at.js version 0.9.1 (or later). The mbox.js or at.js library automatically sends tracking server values to [!DNL Target]. During activity creation, you can leave the [!UICONTROL Tracking Server] field empty on the [!UICONTROL Goals & Settings] page.
+* If you use Adobe Analytics as your activity's reporting source, you do not need to specify a tracking server during activity creation if you are using mbox.js version 61 (or later) or at.js version 0.9.1 (or later). The at.js library automatically sends tracking server values to [!DNL Target]. During activity creation, you can leave the [!UICONTROL Tracking Server] field empty on the [!UICONTROL Goals & Settings] page.
 
 ## at.js Version 0.9.0 {#section_2981CC9792F245389B39BB5B69F84C4E}
 
@@ -445,10 +445,6 @@ This is the first official release of the [!DNL at.js] library.
 [!DNL at.js] is a new implementation library for [!DNL Target] designed for both typical web implementations and single-page applications.
 
 [!DNL at.js] replaces [!DNL mbox.js] for [!DNL Adobe Target] implementations.
-
->[!NOTE]
->
->Although [!DNL at.js] replaces [!DNL mbox.js], mbox.js will continue to be supported. For most people, [!DNL at.js] provides advantages over [!DNL mbox.js]. This gives you time to test [!DNL at.js] and to change the implementation on your pages.
 
 Among other benefits, [!DNL at.js] improves page load times for web implementations, improves security, and provides better implementation options for single-page applications.
 

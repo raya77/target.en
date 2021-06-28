@@ -18,7 +18,7 @@ Define and update an mbox in Adobe Target.
 
 ## mboxDefine {#section_134BAAE8EE9D49D8BAFEA5E7EAB93BA7}
 
-Creates an internal mapping between a nodeId and an mbox name, but does not execute the request. Used in conjunction with `mboxUpdate()`. Built into [!DNL at.js]mostly to ease the transition from [!DNL mbox.js]to [!DNL at.js].
+Creates an internal mapping between a nodeId and an mbox name, but does not execute the request. Used in conjunction with `mboxUpdate()`. Built into [!DNL at.js] mostly to ease the transition from [!DNL mbox.js]to [!DNL at.js].
 
 ## mboxUpdate {#section_D20B3E551884452A996305C12D5959D5}
 

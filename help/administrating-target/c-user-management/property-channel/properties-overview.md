@@ -144,7 +144,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
       For more information, see [Add Global Target Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
     
-    * **Via the targetPageParams() function:** Place the following code in the `<head>` tags, above the at.js or mbox.js reference.
+    * **Via the targetPageParams() function:** Place the following code in the `<head>` tags, above the at.js reference.
 
       ![](assets/property_token_1.png)
 

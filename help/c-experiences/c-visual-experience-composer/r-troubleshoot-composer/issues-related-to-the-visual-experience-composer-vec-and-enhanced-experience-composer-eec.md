@@ -37,7 +37,7 @@ Use one of the following options to ensure that your VEC and EEC continue to wor
 
 ## Does [!DNL Target] support multi-level iframes?
 
-Target does not support multi-level iframes. If your website loads an iframe that has a child iframe, Target libraries (at.js and mbox.js) interact with the parent iframe only. Target libraries do not interact with the child iframe.
+[!DNL Target] does not support multi-level iframes. If your website loads an iframe that has a child iframe, at.js interacts with the parent iframe only. [!DNL Target] libraries do not interact with the child iframe.
 
 As a workaround, you can add a page in the experience with the URL of the child iframe.
 

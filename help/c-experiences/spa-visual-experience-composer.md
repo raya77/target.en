@@ -55,7 +55,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
 1. Install at.js 2.x.
 
-   First, we need to install at.js 2.x. This version of at.js was developed with SPAs in mind. Previous versions of at.js and mbox.js do not support Adobe Target Views and the VEC for SPA.
+   First, we need to install at.js 2.x. This version of at.js was developed with SPAs in mind. Previous versions of at.js and do not support Adobe Target Views and the VEC for SPA.
 
    ![Implementation details dialog box](/help/c-experiences/assets/imp-200.png)
 

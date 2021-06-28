@@ -50,7 +50,7 @@ The following parameters are available:
 
 | mboxTrace Options | Outcome |
 |--- |--- |
-|`?mboxTrace=console`|Prints into console log as objects.<br>For at.js, instead of popping a new browser window or outputting to the console as in  mbox.js, you will need to inspect the Network request and look under Preview (Chrome) or Response (Firefox).|
+|`?mboxTrace=console`|Prints into console log as objects.<br>For at.js, instead of popping a new browser window or outputting to the console as was in  mbox.js, you will need to inspect the Network request and look under Preview (Chrome) or Response (Firefox).|
 |`?mboxTrace=json`|Prints into console log as a literal JSON string|
 |`?mboxTrace=window`|Prints into a popup window as a JSON string|
 |`?mboxTrace=disable`|Turns off tracing session mode|
@@ -110,10 +110,6 @@ For more information, see the training videos below:
 
 For more detailed information, see [Debug at.js using the Adobe Experience Cloud debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
 
-## If target.js Fails to Load During Delivery {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
-
-Mbox.js sends a cookie called "em-disabled" to the visitor if target.js fails to load during delivery. This cookie prevents offers created using the Visual Experience Composer from rendering on the site. Visitors with this cookie neither see the test content nor get counted in those activity reports. All other offer content (from campaigns in Target Classic for example) continues to load. The cookie has a lifetime of 30 min from the time of load failure.
-
 ## Top sellers are not appearing in Recommendations {#section_3920C857270A406C80BE6CBAC8221ECD}
 
 The *`SiteCatalyst: purchase`* call can't be used for Purchase algorithm traffic data. Use the *`orderConfirmPage`* call instead.
@@ -125,12 +121,6 @@ Form-based activities created with [!DNL Target Standard/Premium] might collide 
 ## Custom code does not produce the expected results in Internet Explorer 8. {#section_FAC3651F19144D12A37A3E4F14C06945}
 
 Target no longer supports IE 8.
-
-## JavaScript content delivered by the global [!DNL Target] request doesn't load when using mbox.js. {#section_03EC9B9C410B4F52A7FCD81840311709}
-
-Upgrade to [!DNL mbox.js] version 58 or later.
-
-mbox.js version 58 and later executes non-JavaScript content for the global [!DNL Target] request immediately after the HTML `BODY` tag is present. JavaScript content inside `<script>` tags for the global [!DNL Target] request executes after the `DOMContentLoaded` event is fired. This order of content delivery ensures that JavaScript content for the global [!DNL Target] request is delivered and rendered properly.
 
 ## Target cookie does not get set {#section_77AFEB541C0B495EB67E29A4475DF960}
 
