@@ -13,7 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|June 29|[Activity QA](/help/c-activities/c-activity-qa/activity-qa.md)|Added a compatibility matrix to show which activity types support Activity Mode when using different Target JavaScript libraries.|
+|June 29|[Activity QA](/help/c-activities/c-activity-qa/activity-qa.md)|Added the following sections:<ul><li>Target JavaScript library [!UICONTROL QA Mode] compatibility</li><li>Preview URLs</li></ul>|
 |June 24|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Updated the prerelease notes for the [!DNL Target Standard/Premium] 21.6.1 release (June 30, 2021).|
 |June 16|[[!DNL Target] release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the [!DNL Adobe Target] Python SDK version 1.0.0 release.|
 ||[Personalization Insights reports](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)|Added the following FAQ:<ul><li>How long does data for [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] models persist?</li></ul>|
