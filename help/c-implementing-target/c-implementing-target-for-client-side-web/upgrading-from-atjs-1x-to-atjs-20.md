@@ -211,7 +211,7 @@ Customers using `mboxCreate()` for conversion tracking must use `trackEvent()` o
 
 Customers who do not replace `mboxCreate()` with `getOffer()` or `applyOffer()` risk not having offers delivered.
 
-### Can at.js 2.*x* be used on some pages while at.js 1.*x* or mbox.js is on other pages?
+### Can at.js 2.*x* be used on some pages while at.js 1.*x* is on other pages?
 
 Yes, the visitor profile is preserved across pages using different versions and libraries. The cookie format is the same.
 
@@ -242,7 +242,7 @@ Essentially the global mbox concept was introduced to let [!DNL Target] know whe
 
 ### Does the global mbox name in at.js matter anymore?
 
-Customers are able to specify a global mbox name via [!UICONTROL Target > Administration > Implementation > Edit at.js Settings]. This setting is used by the [!DNL Target] edge severs to translate execute > pageLoad to the global mbox name that appears in the [!DNL Target] UI. This allows customers to continue to use server-side APIs, the form-based composer, profile scripts, and create audiences using the global mbox name. We strongly recommend that you also make sure the same global mbox name is configured on the [!UICONTROL Administration > Visual Experience Composer] page, as well, in case you still have pages using at.js 1.*x* or mbox.js, as shown in the following illustrations.
+Customers are able to specify a global mbox name via [!UICONTROL Target > Administration > Implementation > Edit at.js Settings]. This setting is used by the [!DNL Target] edge severs to translate execute > pageLoad to the global mbox name that appears in the [!DNL Target] UI. This allows customers to continue to use server-side APIs, the form-based composer, profile scripts, and create audiences using the global mbox name. We strongly recommend that you also make sure the same global mbox name is configured on the [!UICONTROL Administration > Visual Experience Composer] page, as well, in case you still have pages using at.js 1.*x*, as shown in the following illustrations.
 
 ![Modify at.js dialog](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
