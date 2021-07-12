@@ -3,7 +3,7 @@ keywords: report;reports;reporting;experience cloud solution;timezone;time zone;
 description: Use [!DNL Target] or Adobe Analytics as the reporting source, specify the default time zone and currency format, add IP addresses to exclude from reporting, and more.
 title: How Do I Configure Reporting in Target?
 feature: Administration & Configuration
-role: Administrator
+role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
 ---
 # Configure reporting in Target

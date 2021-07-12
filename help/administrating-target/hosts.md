@@ -3,7 +3,7 @@ keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;re
 description: Learn how to organize your websites and pre-production environments for easy management and separated reporting in Adobe Target.
 title: What are Hosts and How Do I Use Them?
 feature: Administration & Configuration
-role: Administrator
+role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
 ---
 # Hosts

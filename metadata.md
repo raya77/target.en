@@ -6,7 +6,7 @@ audience: end-user
 type: Documentation
 git-repo: https://github.com/AdobeDocs/target.en
 index: yes
-role: Business Practitioner
+role: User
 level: Intermediate
 ---
 

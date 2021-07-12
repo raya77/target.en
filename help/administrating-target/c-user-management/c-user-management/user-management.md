@@ -3,7 +3,7 @@ keywords: add user;manage user;user permissions
 description: Learn how to use the Adobe Admin Console to manage users and their permissions and right in Adobe Target.
 title: How Do I Add Users and Manage Permissions?
 feature: Administration & Configuration
-role: Administrator
+role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
 ---
 # Users
