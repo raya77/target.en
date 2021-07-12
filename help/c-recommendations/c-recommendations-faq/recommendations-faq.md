@@ -239,21 +239,17 @@ If the visitor does not have two active sessions at the same time, recently view
 
 An algorithm created in [!DNL Recommendations Classic] is not supported in [!DNL Recommendations Premium]. You might be able to use the legacy algorithm in [!DNL Target Premium]; however, the algorithm can create sync issues when deactivating or deleting the activity in the [!DNL Target Premium] UI. For more information about the differences between the two solutions, see [[!DNL Recommendations Classic] versus [!DNL Recommendations] activities in [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
-## How can I recommend articles that are no older than 60 days? {#less-than-60}
+## How can I recommend only new articles or videos? {#recommend-new-articles}
 
-As an example, a [!DNL Target] customer used the following approach to recommend articles that less than 60 days old. 
+Some customers in media & publishing may wish to ensure that recommended items include only the newest articles or videos. As an example, a [!DNL Target] customer used the following approach to recommend articles less than 60 days old:
 
-This customer does not use a data feed. All data collected about articles comes from the data layer and is passed to [!DNL Target] on page views.
+1. Pass the article publish date, in YYMMDDD format, as a custom entity attribute.
+1. Create a profile script that is today’s date minus 60 days, also in YYYYMMDD format.
+1. Use a dynamic inclusion filter in the criteria so that `publish date > today’s date minus 60 days`.
 
-This customer used the following approach:
+### Pass the publish date as a custom entity attribute:
 
-* Passed the publish date in YYYYMMDD format as an entity parameter.
-* Created a profile script that is today’s date minus 60 days, also in YYYYMMDD format.
-* Used a dynamic inclusion filter in the criteria so that `publish date > today’s date minus 60 days`.
-
-This customer captured the following data fields:
-
-|Data field|Example|
+|Entity attribute|Example|
 | --- | --- |
 |issueDate|2021218|
 |lastViewDate|2021701|
@@ -261,16 +257,14 @@ This customer captured the following data fields:
 |publishDate|20210113|
 |publishDateDisplay|Jan 13, 2021|
 
-This customer used the following inclusion rule using profile attribute matching:
-
-![Sample inclusion rule](/help/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
-
-This customer used the following profile script:
+### Configure the profile script:
 
 ![Sample profile script](/help/c-recommendations/c-recommendations-faq/assets/sample-profile-script.png)
 
+### Configure the inclusion rule:
+
+![Sample inclusion rule](/help/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
+
 >[!NOTE]
 >
->This example could also be accomplished with parameter matching and passing the `priorDate60` value as an mbox parameter.
-
-
+>This example could also be accomplished using parameter matching and passing the `priorDate60` value as an mbox parameter.
