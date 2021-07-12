@@ -3,7 +3,7 @@ keywords: setting up;setup;set-up;set up;administration
 description: Set up Adobe Target, including preferences, implementation, user management, properties, Scene7 configuration, host management, and response tokens.
 title: How Do I Administer Target?
 feature: Administration & Configuration
-role: Administrator
+role: Admin
 exl-id: 89023213-b109-4d07-af4e-4b8da481806d
 ---
 # Administer [!DNL Target] Overview

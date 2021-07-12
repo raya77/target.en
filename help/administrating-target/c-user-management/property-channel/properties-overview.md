@@ -3,7 +3,7 @@ keywords: add user;project;user group;properties;workspace;manage property;prope
 description: Learn how to add users to Adobe Target; create workspaces, user groups, and properties; update your implementation; and specify roles and permissions.
 title: How Do I Configure Enterprise Permissions?
 feature: Administration & Configuration
-role: Administrator
+role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
 ---
 # ![PREMIUM](/help/assets/premium.png) Configure enterprise permissions

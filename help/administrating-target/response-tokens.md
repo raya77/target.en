@@ -3,7 +3,7 @@ keywords: response tokens;tokens;plugins;plug-ins;at.js;response
 description: Learn how to use response tokens in Adobe [!DNL Target] output-specific information to use in debugging and integrating with 3rd-party tools.
 title: What are Response Tokens and How Do I Use Them?
 feature: Administration & Configuration
-role: Administrator
+role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
 ---
 # Response tokens

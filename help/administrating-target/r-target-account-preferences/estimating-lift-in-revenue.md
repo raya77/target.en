@@ -3,7 +3,7 @@ keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimat
 description: Estimate the lift you might achieve if every visitor sees the winning experience, if the trends continue as they have during the test.
 title: What Do I Estimate Lift in Revenue?
 feature: Administration & Configuration
-role: Administrator
+role: Admin
 exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
 ---
 # Estimate lift in revenue
