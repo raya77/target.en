@@ -239,4 +239,38 @@ If the visitor does not have two active sessions at the same time, recently view
 
 An algorithm created in [!DNL Recommendations Classic] is not supported in [!DNL Recommendations Premium]. You might be able to use the legacy algorithm in [!DNL Target Premium]; however, the algorithm can create sync issues when deactivating or deleting the activity in the [!DNL Target Premium] UI. For more information about the differences between the two solutions, see [[!DNL Recommendations Classic] versus [!DNL Recommendations] activities in [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
+## How can I recommend articles that are no older than 60 days? {#less-than-60}
+
+As an example, a [!DNL Target] customer used the following approach to recommend articles that less than 60 days old. 
+
+This customer does not use a data feed. All data collected about articles comes from the data layer and is passed to [!DNL Target] on page views.
+
+This customer used the following approach:
+
+* Passed the publish date in YYYYMMDD format as an entity parameter.
+* Created a profile script that is today’s date minus 60 days, also in YYYYMMDD format.
+* Used a dynamic inclusion filter in the criteria so that `publish date > today’s date minus 60 days`.
+
+This customer captured the following data fields:
+
+|Data field|Example|
+| --- | --- |
+|issueDate|2021218|
+|lastViewDate|2021701|
+|parentCategory|commentary|
+|publishDate|20210113|
+|publishDateDisplay|Jan 13, 2021|
+
+This customer used the following inclusion rule using profile attribute matching:
+
+![Sample inclusion rule](/help/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
+
+This customer used the following profile script:
+
+![Sample profile script](/help/c-recommendations/c-recommendations-faq/assets/sample-profile-script.png)
+
+>[!NOTE]
+>
+>This example could also be accomplished with parameter matching and passing the `priorDate60` value as an mbox parameter.
+
 

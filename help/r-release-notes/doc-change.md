@@ -14,6 +14,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 |Date|Topic|Changes|
 | --- | --- | --- |
 |July 12|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added information about the following events:<ul><li>Webinar: Quantifying the significant ROI, insights, and time-savings of integrating Adobe Analytics + [!DNL Adobe Target].</li><li>[!DNL Adobe Target] Community Q&A Coffee Break to be held Wednesday, July 21, 2021 at 8 a.m. (PDT, GMT-7).</li></ul>|
+||[Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60)|Added the following FAQ: "How can I recommend articles that are no older than 60 days?"|
 ||Experience Cloud Device Co-op|Removed topic. This functionality has been deprecated.|
 |June 29|[Activity QA](/help/c-activities/c-activity-qa/activity-qa.md)|Added the following sections:<ul><li>Target JavaScript library [!UICONTROL QA Mode] compatibility</li><li>Preview URLs</li></ul>|
 |June 24|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Updated the prerelease notes for the [!DNL Target Standard/Premium] 21.6.1 release (June 30, 2021).|
