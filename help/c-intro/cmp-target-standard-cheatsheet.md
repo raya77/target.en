@@ -218,12 +218,6 @@ Click the thumbnail in front of the experience name on Step 2 and you will land 
 
 Use [form-based approach](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) to create activities.
 
-**Can I ensure that same experience is delivered consistently across all devices a user might have?**
-
-Check out our [Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html) that allows you to deterministically and probabilistically link multiple devices of a user through the power of a Co-op .
-
-If you are in the Co-op, a simple flag on the Goals and Settings page enables the feature. Reporting also changes to now reflect People instead of Visitors. Talk to your Adobe contact for more on this feature as this is not available in all regions.
-
 **Why am I not seeing the desired offer/experience and am instead seeing some other activity?**
 
 Use our [debugger](/help/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) and check for [activity collisions](/help/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
