@@ -87,7 +87,6 @@ The issue numbers in parentheses are for internal [!DNL Adobe] use.
 * Fixed an issue that caused the incorrect product count to display in [!UICONTROL Recommendations] collections. (TGT-39162)
 * Added a [!UICONTROL Last Updated] filter to the [!UICONTROL Recommendations] [!UICONTROL Catalog Search]. (TGT-38340)
 * Fixed an issue in [!UICONTROL Recommendations] that caused the [!UICONTROL Create Sequence] page to hang after changing the industry vertical. (TGT-38160)
-* Fixed an issue that prevented the activity from being saved if Device Co-op was enabled and the user changed from [!DNL Target] as the reporting source to [!DNL Analytics] (A4T). (TGT-38163)
 * Fixed an issue that prevented users from removing an audience from an offer in an [!UICONTROL Automated Personalization] (AP) activity. (TGT-39058)
 * Fixed an issue that caused the incorrect time frame (start and end dates) to display in [!UICONTROL Audience Info] cards for some customers. (TGT-39150)
 * Fixed an issue that prevented some customers from seeing the list of activities in the [!UICONTROL Default Workspace]. (TGT-38526)
