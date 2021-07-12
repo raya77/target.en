@@ -17,6 +17,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 ||[Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60)|Added the following FAQ: "How can I recommend only new articles or videos?"|
 ||[Limits](/help/r-troubleshooting-target/target-limits.md)|Updated text in the "Target API calls" section.|
 ||[adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)|Updated description for the `consumerId` key.|
+||[Customize a global mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)|Updated Step 1 to indicate that the change is automatically saved after you select a new mbox.|
 ||Experience Cloud Device Co-op|Removed topic. This functionality has been deprecated.|
 |June 29|[Activity QA](/help/c-activities/c-activity-qa/activity-qa.md)|Added the following sections:<ul><li>Target JavaScript library [!UICONTROL QA Mode] compatibility</li><li>Preview URLs</li></ul>|
 |June 24|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Updated the prerelease notes for the [!DNL Target Standard/Premium] 21.6.1 release (June 30, 2021).|
