@@ -186,7 +186,6 @@ feature-set: Target
    + [Experience Cloud Audiences](c-integrating-target-with-mac/mmp.md)
    + [Integrate Target with Adobe Audience Manager](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Integrate Target with Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
-   + [Experience Cloud Device Co-op](c-integrating-target-with-mac/experience-cloud-device-co-op.md)
 + Activities {#activities}
    + [Activities overview](c-activities/activities.md)
    + [Target activity types](c-activities/target-activities-guide.md)
