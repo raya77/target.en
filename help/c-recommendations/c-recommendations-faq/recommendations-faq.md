@@ -92,7 +92,7 @@ If you use a location where category Id is present in the mbox, the criteria pic
 
 >[!NOTE]
 >
->This setting applies to activities created in the Visual Experience Composer (VEC) only. This setting does not apply to activities created in the Form-Based Experience Composer ([!DNL Target] does not have location context).
+>This setting applies to activities created in the [!UICONTROL Visual Experience Composer] (VEC) only. This setting does not apply to activities created in the Form-Based Experience Composer ([!DNL Target] does not have location context).
 
 To access the [!UICONTROL Filter Incompatible Criteria] setting, click [!UICONTROL Recommendations] > [!UICONTROL Settings]:
 
