@@ -241,7 +241,7 @@ An algorithm created in [!DNL Recommendations Classic] is not supported in [!DNL
 
 ## How can I recommend only new articles or videos? {#recommend-new-articles}
 
-Some customers in media & publishing may wish to ensure that recommended items include only the newest articles or videos. As an example, a [!DNL Target] customer used the following approach to recommend articles less than 60 days old:
+Some customers in media and publishing want to ensure that recommended items include only the newest articles or videos. As an example, a [!DNL Target] customer used the following approach to recommend articles fewer than 60 days old:
 
 1. Pass the article publish date, in YYMMDDD format, as a custom entity attribute.
 1. Create a profile script that is today’s date minus 60 days, also in YYYYMMDD format.
