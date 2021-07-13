@@ -19,8 +19,6 @@ Information to help you minimize the effects of inflated Visit and Visitor count
 >* Experience Cloud Visitor ID Service: visitorAPI.js version 2.3.0 or later.
 >* Adobe Analytics: appMeasurement.js version 2.1.
 >* Adobe Target: at.js version 0.9.6 or later (except version 1.1.0 if using redirect offers with A4T).
->
->  The mbox.js library does not support redirect offers with A4T. Your implementation must use at.js.
 
 ## What changed? {#section_9CCF45F5D66D48EBA88F3A178B27D986}
 
@@ -40,7 +38,7 @@ The identified causes of partial data include the following:
 * **Slow pages:** [!DNL Target] calls are at the top of the page and [!DNL Analytics] calls are typically at the bottom of the page. If the page loads slowly, it increases the likelihood of a visitor leaving the page after the [!DNL Target] call fires, but before the [!DNL Analytics] call. Slow pages can be especially problematic on mobile web sites where connections are often slower. 
 * **Page errors:** If there are JavaScript errors or other scenarios where each of the touchpoints do not fire (Experience Cloud ID service, Target, and Analytics), partial data results. 
 * **Redirect offers in [!DNL Target] activity:** For redirect offers in activities using A4T, your implementation must meet certain minimum requirements. In addition, there is important information that you must know. For more information, see [Redirect Offers - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58).
-* **Old versions of the libraries:** Over the past year Adobe has made several improvements to the JavaScript libraries ( [!DNL appMeasurement.js], `at.js/mbox.js`, and `visitorAPI.js`) to make sure that data is sent as efficiently as possible. To learn more about implementation requirements, see [Before You Implement](/help/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
+* **Old versions of the libraries:** Over the past year Adobe has made several improvements to the JavaScript libraries ( [!DNL appMeasurement.js], `at.js`, and `visitorAPI.js`) to make sure that data is sent as efficiently as possible. To learn more about implementation requirements, see [Before You Implement](/help/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
 
 ## What are the best practices to reduce partial data? {#section_065C38501527451C8058278054A1818D}
 
@@ -49,7 +47,7 @@ Review the following steps to reduce partial data collection:
 | Step | Task |
 | --- | --- |
 | ![Step 1](assets/step1_icon.png) | Ensure that the report suite selected in [!DNL Target] is the same as the one on the pages where the activity is presented.|
-| ![Step 2](assets/step2_icon.png) | Ensure that the visitorAPI.js, appMeasurement.js, at.js / mbox.js libraries are on A4T-compatible versions. To learn more about implementation requirements, see [Before You Implement](/help/c-integrating-target-with-mac/a4t/before-implement.md). |
+| ![Step 2](assets/step2_icon.png) | Ensure that the visitorAPI.js, appMeasurement.js, and at.js libraries are on A4T-compatible versions. To learn more about implementation requirements, see [Before You Implement](/help/c-integrating-target-with-mac/a4t/before-implement.md). |
 | ![Step 3](assets/step3_icon.png) | Ensure that the SDID is getting set on all [!DNL Target] and [!DNL Analytics] calls leaving the page and that they match.<br/>Use a network analyzer or debugging tool to ensure that the `mboxMCSDID` parameter on [!DNL Target] calls matches the SDID parameter in the [!DNL Analytics] call. |
 | ![Step 4](assets/step4_icon.png) | Confirm that the implementation libraries load in the correct order on your sites. For more information, see [Analytics for Target Implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md).|
 

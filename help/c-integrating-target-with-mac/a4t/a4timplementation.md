@@ -85,7 +85,7 @@ For at.js:
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
 
-The VisitorAPI.js must be loaded before at.js. If you are updating an existing at.js or mbox.js file, make sure that you verify the load order.
+The VisitorAPI.js must be loaded before at.js. If you are updating an existing at.js file, make sure that you verify the load order.
 
 The default setting for [!DNL Target] and [!DNL Analytics] integration, from an implementation perspective, is to use the SDID that is passed from the page to stitch the [!DNL Target] and [!DNL Analytics] request together on the backend automatically. 
 
