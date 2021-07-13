@@ -17,6 +17,33 @@ Release notes are arraigned in descending order by month and year of release.
 
 ## Release notes - 2021
 
+### Python SDK 1.0.0 (June 16, 2021)
+
+The new [!DNL Adobe Target] Python SDK with on-device decisioning capabilities is now available. This newest addition bolsters the [!DNL Target] suite of server-side SDKs. These SDKS help you integrate with [!DNL Target] and expedite your time to value, in the language of your choice. Server-side integrations are becoming a popular choice given that the market is shifting to a cookie-less world in which first-party data is valuable. Target SDKs are available in the most popular programming languages in the market (Python, Java, JavaScript, C# / .Net).
+
+For more information, see the [Python SDK documentation](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk) in the [Adobe Target SDKs guide](https://adobetarget-sdks.gitbook.io/docs/).
+
+### Target Standard/Premium 21.5.1 (June 7, 2021)
+
+This release includes the following enhancements:
+
+|Feature|Details|
+| --- | --- |
+|![Premium badge](/help/assets/premium.png) [!DNL Recommendations] [!UICONTROL Catalog Search] API|Search your [!DNL Recommendations] product and content catalog programmatically via API to identify items that match a search criteria and simplify administration of your catalog.<br>**Limitations and notes**:<ul><li>Catalog search via API is not supported for environments with more than 2,000,000 items.</li><li>Catalog search results via API are updated more rapidly than catalog search results via the [!DNL Target] UI. The catalog search in the [!DNL Target] UI can take additional time to reflect the latest results.</li></ul>For more information, see [Searching Entities](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities) in the *[!DNL Adobe Target] [!DNL Recommendations] API* guide.|
+
+This release maintenance release contains the following fixes.
+
+* Fixed an issue that caused the default workspace to change to another workspace when refreshing the [!UICONTROL Audiences] page. (TGT-38871)
+* Fixed an issue in [!UICONTROL Administration] > [!UICONTROL Implementation] that sometimes caused an error message stating, "Your global mbox may not be in sync. Please try resaving it."
+
+### ![Adobe Experience Platform Web SDK badge](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] version 2.5.0 (June 1, 2021)
+
+This release of the [!DNL Platform Web SDK] includes support for the following:
+
+|Feature|Details|
+| --- | --- |
+|Redirect support with [!UICONTROL Analytics for Target] (A4T)|The Platform Web SDK now supports [!DNL Target] redirects when using [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>For more information, see see [Analytics for [!DNL Target] implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md).|
+
 ### at.js version 2.5.0 (May 13, 2021)
 
 This release of at.js includes the following enhancements and changes:
