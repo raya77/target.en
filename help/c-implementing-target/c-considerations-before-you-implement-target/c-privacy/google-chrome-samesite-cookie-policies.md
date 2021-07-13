@@ -75,14 +75,12 @@ However, when you opt-in to use cross-domain tracking to leverage [!DNL Target] 
 
 To understand what you need to do to have [!DNL Target] continue to work for Google Chrome 80+ users, consult the table below, of which you will see the following columns:
 
-* **Target JavaScript Library**: If you are using mbox.js, at.js 1.*x*, or at.js 2.*x* on your sites.
+* **Target JavaScript Library**: If you are using at.js 1.*x* or at.js 2.*x* on your sites.
 * **SameSite by default cookies = Enabled**: If your users have "SameSite by default cookies" enabled, how does it impact you and is there anything you need to do for [!DNL Target] to continue to work.
 * **Cookies without SameSite must be secure = Enabled**: If your users have "Cookies without SameSite must be secure" enabled, how does it impact you and is there anything you need to do to have [!DNL Target] continue to work.
 
 |Target JavaScript Library|SameSite by default cookies = Enabled|Cookies without SameSite must be secure = Enabled|
 | --- | --- | --- |
-|mbox.js with first-party cookie only.|No impact.|No impact if you are not using cross-domain tracking.|
-|mbox.js with cross-domain tracking enabled.|No impact.|You must enable the HTTPS protocol for your site.<br>[!DNL Target] uses a third-party cookie to track users and Google requires third-party cookies to have `SameSite = None` and Secure flag. The Secure flag requires your sites must use the HTTPS protocol.|
 |at.js 1.*x* with first-party cookie.|No impact.|No impact if you are not using cross-domain tracking.|
 |at.js 1.*x* with cross-domain tracking enabled.|No impact.|You must enable the HTTPS protocol for your site.<br>[!DNL Target] uses a third-party cookie to track users and Google requires third-party cookies to have `SameSite = None` and Secure flag. The Secure flag requires your sites must use the HTTPS protocol.|
 |at.js 2.*x*|No impact.|No impact.|
@@ -93,15 +91,13 @@ So, what did we need to do in our platform to help you comply with the new Googl
 
 |Target JavaScript Library|SameSite by default cookies = Enabled|Cookies without SameSite must be secure = Enabled|
 | --- | --- | --- |
-|mbox.js with first-party cookie only.|No impact.|No impact if you are not using cross-domain tracking.|
-|mbox.js with cross-domain tracking enabled.|No impact.|[!DNL Target] adds `SameSite = None` and Secure flag to the third-party cookie when [!DNL Target] servers are called.|
 |at.js 1.*x* with first-party cookie.|No impact.|No impact if you are not using cross-domain tracking.|
 |at.js 1.*x* with cross-domain tracking enabled.|No impact.|at.js 1.*x* with cross-domain tracking enabled.|
 |at.js 2.*x*|No impact.|No impact.|
 
 ## What is the impact if you don’t move over to using the HTTPS protocol?
 
-The only use case that will impact you is if you are using the cross-domain tracking feature in [!DNL Target] through mbox.js or at.js 1.*x*. Without moving over to HTTPS, which is a requirement by Google, you will see a spike in unique visitors across your domains because the third-party cookie we use will be dropped by Google. And because the third-party cookie will be dropped, [!DNL Target] will not be able to provide a consistent and personalized experience for that user as the user navigates from one domain to another. The third-party cookie is mainly used to identify a single user navigating across domains you own.
+The only use case that will impact you is if you are using the cross-domain tracking feature in [!DNL Target] through at.js 1.*x*. Without moving over to HTTPS, which is a requirement by Google, you will see a spike in unique visitors across your domains because the third-party cookie we use will be dropped by Google. And because the third-party cookie will be dropped, [!DNL Target] will not be able to provide a consistent and personalized experience for that user as the user navigates from one domain to another. The third-party cookie is mainly used to identify a single user navigating across domains you own.
 
 ## Conclusion
 

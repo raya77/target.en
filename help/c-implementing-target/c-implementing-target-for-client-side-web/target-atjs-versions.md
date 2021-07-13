@@ -381,7 +381,7 @@ The following enhancements and fixes are included in [!DNL at.js] version 0.9.6:
 
 **Date:** January 19, 2017
 
-* mbox names can now contain special characters, including ampersands ( & ), to be consistent with naming requirements for mbox names using mbox.js.
+* mbox names can now contain special characters, including ampersands ( & ).
 
   For a list of allowable special characters, see [at.js Configurations](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812). 
 

@@ -28,7 +28,7 @@ This A4T integration requires that you implement the following library versions 
 This integration requires that you implement the following library versions (or newer) if you do not plan on using redirect offers with A4T. The order listed is the order of operations.
 
 * [!DNL Experience Cloud Visitor ID Service]: visitorAPI.js version 1.8.0
-* [!DNL Adobe Target] (depending on your implementation): at.js version 0.9.1 or mbox.js version 61
+* [!DNL Adobe Target]: at.js version 0.9.1
 * Adobe Analytics: appMeasurement.js version 1.7.0
 
 ### Requirements needed if using redirect offers with A4T
@@ -40,8 +40,6 @@ To use redirect offers with A4T, you must implement the following library versio
   **Note:**  at.js 1.8.0 or newer no longer works with Visitor API versions older than 2.5.0 for passing [!DNL Adobe Audience Manager] (AAM) parameters.
   
 * [!DNL Adobe Target]: at.js version 1.6.2
-
-  **Note**: The  mbox.js library does not support redirect offers with A4T. Your implementation must use at.js.
 
 * Adobe Analytics: appMeasurement.js version 2.1
 
@@ -72,7 +70,6 @@ All [!DNL Target] calls used by an A4T activity to deliver content or record the
 Hits that contain data from [!DNL Analytics] and [!DNL Target] contain a supplemental data ID. You can see this ID in the [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) as the `sdid` parameter. For example: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. This ID is generated anytime the following criteria are in place:
 
 * The visitor ID service is in implemented 
-* A version of [!DNL mbox.js] that supports this integration is implemented.
 
 When [troubleshooting](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md), be sure to confirm that the supplemental ID is present on [!DNL Analytics] hits.
 
@@ -80,7 +77,7 @@ When [troubleshooting](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshoo
 
 If at.js, the [!DNL Experience Cloud Visitor ID Service], and appMeasurement.js are on the page, [!DNL Analytics], and [!DNL Target] correctly stitches events for reporting and analytics purposes in the backend as long as the correct supplemental ID is included from the page. You do not need to manage and perform any additional operations for A4T to function correctly.
 
-There are cases when you might want to have more control on when and how to send analytics data related to [!DNL Target] to [!DNL Analytics] for reporting purposes. You might have an in-house analytics tool that you use for internal purposes. However, you also want to send the analytics data to [!DNL Analytics] via your in-house analytics product so that other members of your organization can continue to use [!DNL Analytics] as a visual reporting source. See [Step 7: Reference at.js or mbox.js on all site pages](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) in *Analytics for Target Implementation* for more information.
+There are cases when you might want to have more control on when and how to send analytics data related to [!DNL Target] to [!DNL Analytics] for reporting purposes. You might have an in-house analytics tool that you use for internal purposes. However, you also want to send the analytics data to [!DNL Analytics] via your in-house analytics product so that other members of your organization can continue to use [!DNL Analytics] as a visual reporting source. See [Step 7: Reference at.js on all site pages](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) in *Analytics for Target Implementation* for more information.
 
 ## Shared audiences
 

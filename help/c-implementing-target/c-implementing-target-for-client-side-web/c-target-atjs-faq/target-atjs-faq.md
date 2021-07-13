@@ -20,7 +20,7 @@ The following diagram illustrates page-load performance using mbox.js versus at.
 
 ![](assets/atjs_vesus_mboxjs.png)
 
-As illustrated above, using mbox.js, page content does not begin to load until after the [!DNL Target] call is complete. Using at.js, page content begins loading when the [!DNL Target] call is initiated and does not wait until the call is complete.
+As illustrated above, using mbox.js, page content did not begin to load until after the [!DNL Target] call is complete. Using at.js, page content begins loading when the [!DNL Target] call is initiated and does not wait until the call is complete.
 
 ## What is the impact of at.js and mbox.js on page-load time? {#page-load}
 
@@ -125,7 +125,7 @@ The at.js file is approximately 109 KB when downloaded. However, because most se
 
 at.js implementations use a single library ( [!DNL at.js]), while mbox.js implementations actually use two libraries ( [!DNL mbox.js] and [!DNL target.js]). So a fairer comparison is at.js versus mbox.js *and* `target.js`. Comparing the gzipped sizes of the two versions, at.js version 1.2 is 34 KB and mbox.js version 63 is 26.2 KB. ``
 
-at.js is larger because it does a lot more DOM parsing compared to mbox.js. This is required because at.js gets "raw" data in the JSON response and has to make sense of it. mbox.js uses `document.write()` and all the parsing is done by the browser.
+at.js is larger because it does a lot more DOM parsing compared to mbox.js. This is required because at.js gets "raw" data in the JSON response and has to make sense of it. mbox.js used `document.write()` and all the parsing was done by the browser.
 
 Despite the larger file size, our testing indicates that pages load faster with at.js versus mbox.js. Also, at.js is superior from a security perspective because it doesn't load additional files dynamically or use `document.write`.
 
@@ -138,10 +138,6 @@ at.js currently uses parts of jQuery and thus you see the MIT license notificati
 No, if cross domain is set to x-only and Safari has third-party cookies disabled, then both [!DNL mbox.js] and at.js sets a disabled cookie and no mbox requests are executed for that particular client's domain.
 
 To support Safari visitors, a better X-Domain would be “disabled” (sets only a first-party cookie) or “enabled” (sets only a first-party cookie on Safari, while setting first- and third-party cookies on other browsers).
-
-## Can I run at.js and mbox.js side by side? {#section_4DCAF38DBAEB430CA486FAEFAE0E0A29}
-
-Not on the same page. However, while implementing and testing [!DNL at.js], you can run [!DNL at.js] on some pages and [!DNL mbox.js] on other pages until you've validated [!DNL at.js].
 
 ## Can I use the [!DNL Target] Visual Experience Composer (VEC) in my single-page applications? {#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
 
