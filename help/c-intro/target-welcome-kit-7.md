@@ -1,7 +1,7 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
 description: Let's get started with your first activity in Adobe [!DNL Target] so you can obtain ROI on your investment.
-title: I Need to Create My Fist Activity in Target. Where Do I Start?
+title: I Need to Create My First Activity in Target. Where Do I Start?
 feature: Overview
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
 ---

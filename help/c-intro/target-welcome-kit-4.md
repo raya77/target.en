@@ -131,7 +131,7 @@ Comparing the conversion performance of different audiences within different tes
 
 For example, a financial services customer ran a promotional campaign for a credit card that involved professional sporting event incentives. Through partial factorial multivariate testing of its landing pages, the customer was able to optimally balance messaging about credit card benefits with sporting incentives to target distinct audiences from its customer base. This approach allowed the company to capitalize on and maximize conversion during a time-sensitive window surrounding a major sporting event.
 
-## Tip 17: Make tests useful by only launching them if you know you can act of the data.
+## Tip 17: Make tests useful by only launching them if you know you can act on the data.
 
 A test is pointless if you aren’t clear about how you are going to act on the data. This includes knowing your key success metric, what needs to happen to push a winner, how you will follow up on test results, and what you will do with the audience information. For a speedy and successful test, it’s vital that every group involved in the test (developers, creatives, testing specialists, and others) is aware of its role before the test launch.
 
