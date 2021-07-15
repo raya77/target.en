@@ -16,7 +16,7 @@ This function lets you retrieve multiple offers by passing in multiple mboxes. A
 
 |Key|Type|Required?|Description|
 | --- | --- | --- | --- |
-|`consumerId`|String|No|Default value is client's global mbox if not provided. This key is used to generate the supplemental data ID (SDID) used for A4T integration. This key (consumerId) is not unique.<br>When using `getOffers()`, each call generates a new SDID. If you have multiple mbox requests on the same page, and want to preserve the SDID (so that it matches the SDID from the target-global-mbox and the Adobe Analytics SDID), use the `consumerId` parameter.<br>If `getOffers()` includes three mboxes (named "mbox1", "mbox2", and "mbox3"), include: `consumerId: "mbox1, mbox2, mbox3"` in the `getOffers()` call.|
+|`consumerId`|String|No|Default value is client's global mbox if not provided. This key is used to generate the supplemental data ID (SDID) used for A4T integration.<br>When using `getOffers()`, each call generates a new SDID. If you have multiple mbox requests on the same page, and want to preserve the SDID (so that it matches the SDID from the target-global-mbox and the Adobe Analytics SDID), use the `consumerId` parameter.<br>If `getOffers()` includes three mboxes (named "mbox1", "mbox2", and "mbox3"), include: `consumerId: "mbox1, mbox2, mbox3"` in the `getOffers()` call.|
 |`decisioningMethod`|String|No|“server-side”, “on-device”, “hybrid”|
 |`request`|Object|Yes|See Requests table below.|
 |`timeout`|Number|No|Request timeout. If not specified the default at.js timeout is used.|
