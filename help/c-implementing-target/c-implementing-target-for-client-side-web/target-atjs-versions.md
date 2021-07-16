@@ -16,6 +16,16 @@ Details about changes in each version of the [!DNL Adobe Target] at.js JavaScrip
 >
 >[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) is the preferred method to upgrade at.js. Extension developers continually add new features to their extensions, and frequently fix bugs. These updates are packaged into new versions of an extension and made available in the [!DNL Launch] catalog as upgrades. For more information, see [Extension Upgrade](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) in the *Experience Platform Launch User Guide*.
 
+## at.js 2.6.0 (July 16, 2021)
+
+* Added secure attribute to cookies whenever at.js settings `secureOnly` is set to `true`.
+* Response tokens are now available when using `triggerView()`.
+* Fixed an issue related to the `CONTENT_RENDERING_NO_OFFERS` event. Now this event is triggered correctly whenever there is no content returned from [!DNL Target].
+* [!DNL Anlytics for Target] (A4T) click metrics details are correctly returned when using `prefetch` requests.
+* UUID generation no longer uses `Math.random()`, but relies on `window.crypto`.
+* The `sessionId` cookie expiry is correctly extended on every network call.
+* The [!UICONTROL Single Page Application] (SPA) view cache initialization is now correctly handled and honors `viewsEnable` settings.
+
 ## at.js 2.5.0 (May 13, 2021)
 
 This release of at.js includes the following enhancements and changes:
