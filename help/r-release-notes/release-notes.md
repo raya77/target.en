@@ -17,6 +17,16 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## at.js 2.6.0 (July 16, 2021)
+
+* Added secure attribute to cookies whenever at.js settings `secureOnly` is set to `true`.
+* Response tokens are now available when using `triggerView()`.
+* Fixed an issue related to the `CONTENT_RENDERING_NO_OFFERS` event. Now this event is triggered correctly whenever there is no content returned from [!DNL Target].
+* [!DNL Anlytics for Target] (A4T) click metrics details are correctly returned when using `prefetch` requests.
+* UUID generation no longer uses `Math.random()`, but relies on `window.crypto`.
+* The `sessionId` cookie expiry is correctly extended on every network call.
+* The [!UICONTROL Single Page Application] (SPA) view cache initialization is now correctly handled and honors `viewsEnable` settings.
+
 ## [!DNL Target Standard/Premium] 21.6.1 (June 30, 2021)
 
 This release contains the following new features and enhancements. The issue numbers in parentheses are for internal [!DNL Adobe] use.
