@@ -3,7 +3,7 @@ keywords: visual experience composer;vec;default url;enhanced experience compose
 description: Learn how to configure the Adobe [!DNL Target] Visual Experience Composer (VEC) by specifying its general settings, mobile viewport configuration, and CSS selectors.
 title: How Do I Configure the Visual Experience Composer (VEC)?
 feature: Administration & Configuration
-role: Administrator
+role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
 ---
 # Configure the Visual Experience Composer

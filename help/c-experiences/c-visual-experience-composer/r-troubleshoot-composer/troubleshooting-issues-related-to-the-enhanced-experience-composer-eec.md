@@ -15,9 +15,15 @@ This can be resolved by allowlisting the following IP addresses. These IP addres
 
 Ask your IT team to allowlist the following IP addresses:
 
-* 52.55.99.45
-* 52.51.238.221
-* 52.193.67.35
+* 34.253.100.20
+* 34.248.100.23
+* 52.49.228.246
+* 54.205.42.123
+* 107.22.177.39
+* 52.201.5.105
+* 52.193.211.177
+* 18.180.24.249
+* 52.194.154.154
 
 You might see the following error message in [!DNL Target]:
 

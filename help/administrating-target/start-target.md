@@ -3,7 +3,7 @@ keywords: Administration;approver role;approver
 description: Perform the first tasks Adobe [!DNL Target] administrators should take after receiving the emailed invitation to the Adobe Experience Cloud.
 title: Where Do I Get Started Administering Target?
 feature: Administration & Configuration
-role: Administrator
+role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
 ---
 # Administrator first steps

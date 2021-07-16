@@ -12,7 +12,7 @@ Information about implementing Target in non-JavaScript scenarios, such as using
 
 You can track visits to ads and other offsite content. You can also identify the same user on and off your site and deliver a consistent experience throughout their web experience. Using a single URL, the AdBox allows testing without JavaScript or [!DNL at.js] or [!DNL mbox.js].
 
-An AdBox is useful for sites that do not have [!DNL at.js] or [!DNL mbox.js], such as affiliates. If your activity needs dynamic creative (for example, you need to show a product in the ad that was abandoned in the cart), you cannot use an AdBox.
+An AdBox is useful for sites that do not have [!DNL at.js], such as affiliates. If your activity needs dynamic creative (for example, you need to show a product in the ad that was abandoned in the cart), you cannot use an AdBox.
 
 AdBox ads and Redirector can be used with any kind of activity. The following table compares Adbox and Redirector, and when to use each:
 

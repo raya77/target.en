@@ -62,7 +62,6 @@ The VEC Helper browser extension for Chrome solves site-loading issues for which
 
 ## Notes
 
-* Your implementation must use the [!DNL Target] at.js library. You cannot use an mbox.js implementation with the extension.
 * The [!UICONTROL Inject Target libraries] flag in the extension is OFF by default. You can enable this flag if you want to use the VEC on a site that has not yet been implemented for [!DNL Target].
 
   This flag is a global setting. The flag is enabled or disabled for all websites opened in the VEC. So, for example, if you set this flag to "on" and open a website that is already implemented with at.js, you receive a message informing you that at.js is already loaded. Adobe anticipates that most customers already have at.js implemented on their pages and use the default setting of "off."

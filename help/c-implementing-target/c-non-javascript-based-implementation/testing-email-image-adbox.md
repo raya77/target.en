@@ -33,7 +33,7 @@ Where the below values are specific to you:
 
 | Value | Description |
 |--- |--- |
-|clientcode|Your company's client code. Find this in your at.js or mbox.js listed as `clientCode='yourclientcode'`. This is all lower case and has no special characters.|
+|clientcode|Your company's client code. Find this in your at.js listed as `clientCode='yourclientcode'`. This is all lower case and has no special characters.|
 |image|The offer type. It is always "image" for graphic ads and "page" for redirectors.|
 |email_header|The name of the adbox.|
 |`mboxDefault=http%3A%2F%2Fwww.domain.com%2Fheader.jpg`|Required. Replace the URL with appropriate default content for your adbox. This must be an absolute reference and must be URL encoded.|

@@ -1,17 +1,17 @@
 ---
 keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;Adobe Experience Platform debugger;reporting source;developer tools
-description: Learn how to specify an Analytics tracking server for activities that use Analytics for [!DNL Target] (A4T) if you are using an older version of at.js or mbox.js. 
+description: Learn how to specify an Analytics tracking server for activities that use Analytics for [!DNL Target] (A4T) if you are using an older version of at.js. 
 title: How do I Use an Analytics Tracking Server?
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
 ---
 # Use an Analytics tracking server
 
-If you are using an older version of at.js or mbox.js, you must specify an Analytics tracking server for activities that use [!DNL Adobe Analytics] for [!DNL Adobe Target] (A4T).
+If you are using an older version of at.js, you must specify an Analytics tracking server for activities that use [!DNL Adobe Analytics] for [!DNL Adobe Target] (A4T).
 
 >[!NOTE]
 >
->You do not need to specify a tracking server during activity creation if you are using mbox.js version 61 (or later) or at.js version 0.9.1 (or later). The mbox.js or at.js library automatically sends tracking server values to [!DNL Target]. During activity creation, you can leave the [!UICONTROL Tracking Server] field empty on the [!UICONTROL Goals & Settings] page.
+>You do not need to specify a tracking server during activity creation if you are using at.js version 0.9.1 (or later). The at.js library automatically sends tracking server values to [!DNL Target]. During activity creation, you can leave the [!UICONTROL Tracking Server] field empty on the [!UICONTROL Goals & Settings] page.
 >
 >The [!DNL Target] team supports both at.js 1.*x* and at.js 2.*x*. Upgrade to the most recent update of either major version of at.js to ensure that you are running a supported version. For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 

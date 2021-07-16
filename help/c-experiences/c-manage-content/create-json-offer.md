@@ -21,7 +21,6 @@ Consider the following information as you work with JSON offers:
 * In the browser, JSON offers can be retrieved ONLY via at.js 1.2.3 (or later) and using [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) by filtering actions using the `setJson` action. 
 * JSON offers are delivered as native JSON objects rather than as strings. Consumers of these objects are no longer required to handle objects as strings and convert them to JSON objects. 
 * JSON offers are not applied automatically as opposed to other offers (such as HTML offers) because JSON offers are non-visual offers. Developers must write code to explicitly get the offer using [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md). 
-* JSON offers are not supported if you are using mbox.js.
 
 ## Create a JSON offer {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
