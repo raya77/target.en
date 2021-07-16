@@ -1,13 +1,13 @@
 ---
 keywords: time frame;start date;end date;start/end dates;timeframe;target schedule;week parting;day parting;parting
-description: Learn how to use start/end dates and times to target users who visit your site during a specific time frame. You can also set Week and Day Parting options.
+description: Learn how to use start and end dates and times to target users who visit your site during a specific time frame.
 title: Can I Target Visitors Who Visit My Site at Specific Times?
 feature: Audiences
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
 ---
 # Time Frame
 
-You can add start/end dates and times to target users who visit your site during a specific time frame. You can also set Week and Day Parting options to create recurring patterns for audience targeting.
+You can add start and end dates and times in [!DNL Adobe Target] to target users who visit your site during a specific time frame. You can also set Week and Day Parting options to create recurring patterns for audience targeting.
 
 For example, using the [combined, ad hoc audiences feature](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5), you can target low-spenders with specific content during the three days leading up to Black Friday and other content after Black Friday.
 
@@ -37,7 +37,7 @@ For example, using the [combined, ad hoc audiences feature](/help/c-target/combi
 
    >[!NOTE]
    >
-   >The time zone for [!UICONTROL Week and Day Parting] is displayed as GMT +/- NN:NN, where NN:NN is the offset from GMT and reflects the account-level time zone rather than the visitor's time zone. For example, California's time zone would be displayed as GMT -08:00.
+   >The time zone for [!UICONTROL Week and Day Parting] is displayed as GMT +/- NN:NN, where NN:NN is the offset from GMT and reflects the account-level time zone rather than the visitor's time zone. For example, California's time zone for Pacific Daylight Time would be displayed as GMT -07:00.
 
 1. (Optional) Set up additional rules for the audience.
 

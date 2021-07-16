@@ -1,13 +1,13 @@
 ---
 keywords: Targeting;target library;library
-description: Learn about targeting visitors using pre-built legacy audiences. Best practice is to use the newer audience categories for improved performance.
+description: Learn about targeting visitors using pre-built legacy audiences.
 title: Can I Target Visitors Based on Pre-built Targeting Rules?
 feature: Audiences
 exl-id: 7d7b7768-8da4-4c0d-9362-7c1bd6602b61
 ---
 # Target Library
 
-Use [!DNL Adobe Target] to target users using based on pre-built targeting rules.
+Use [!DNL Adobe Target] to target users based on pre-built targeting rules.
 
 The pre-built audiences in the [!UICONTROL Target Library] category are legacy audiences and exist in other categories. For more information and best practices, see [Targets and audiences frequently asked questions](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
 

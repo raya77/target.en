@@ -1,17 +1,17 @@
 ---
 keywords: custom parameters;target custom parameters;targetpageparams;targeting mbox parameters
-description: Learn how to pass custom parameters to Adobe [!DNL Target] for use in audiences.
+description: Learn how to pass custom parameters to [!DNL Adobe Target] for use in audiences.
 title: Can I Target Visitors Based on Custom Parameters?
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
 ---
 # Custom parameters
 
-Custom parameters are mbox parameters. If you pass any mbox parameters to mboxes, or use the `targetPageParams` function, those parameters appear here for use in audiences.
+Custom parameters are mbox parameters in [!DNL Adobe Target]. If you pass any mbox parameters to mboxes, or use the `targetPageParams` function, those parameters appear here for use in audiences.
 
 For more information, see [Pass parameters to a global mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).
 
-When creating a custom audience based on an mbox parameter, `mboxParameter` no longer prompts you for `mboxName`. mbox name is now optional. This change lets you use parameters from multiple mboxes or reference a parameter that has not yet been recorded on the edge.
+When creating a custom audience based on an mbox parameter, `mboxParameter` no longer prompts you for `mboxName`. The mbox name is now optional. This change lets you use parameters from multiple mboxes or reference a parameter that has not yet been recorded on the edge.
 
 1. In the [!DNL Target] interface, click **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Name the audience and add an optional description. 
@@ -42,6 +42,7 @@ When creating a custom audience based on an mbox parameter, `mboxParameter` no l
    * Parameter value is not present
    * Parameter or value is not present
    * Start with
+   * Ends with
 
    ![Custom parameter audience](assets/custom.png)
 
@@ -53,7 +54,7 @@ The audience's [definition details pop-up card](/help/c-target/c-audiences/audie
 
 >[!NOTE]
 >
->For custom audiences created before the Target 18.5.1 release (May, 22, 2018), mbox names do not display in the audience's definition pop-up card. You must resave the custom audience to get the mbox name to be shown in the card.
+>For custom audiences created before the [!DNL Target] 18.5.1 release (May, 22, 2018), mbox names do not display in the audience's definition pop-up card. Save the custom audience again to get the mbox name to be shown in the card.
 
 ## Considerations {#considerations}
 

@@ -7,7 +7,7 @@ exl-id: 37d6435d-4139-47c5-a871-6595e089d052
 ---
 # Categories for audiences
 
-You can target on any of several category attributes. Drag and drop the desired attributes into the audience builder to create targeting rules (or groups) for each attribute.
+You can target on any of several category attributes using [!DNL Adobe Target]. To create targeting rules (or groups) for each attribute, drag and drop the desired attributes into the audience builder .
 
 ![Attributes for audiences](/help/c-target/c-audiences/assets/attributes.png)
 
@@ -15,15 +15,15 @@ When a particular category is selected, you can apply one or more targeting cond
 
 After you have created a rule, click **[!UICONTROL Done]**. A summary of the rule displays next to the targeting link for the level you are targeting.
 
-You can further refine a rule by adding more conditions or by creating additional rules in other categories. For example, you can target only Firefox users from San Francisco who accessed your site from Google. Set the [!UICONTROL Geo] category to target users from San Francisco, the [!UICONTROL Browser] category to Firefox, and the [!UICONTROL Traffic Sources] category to From Google. The rules created across categories are combined with "AND." 
+You can further refine a rule by adding more conditions or by creating additional rules in other categories. For example, you can target only Firefox users from San Francisco who accessed your site from Google. Set the [!UICONTROL Geo] category to target users from San Francisco, the [!UICONTROL Browser] category to target users using Firefox, and the [!UICONTROL Traffic Sources] category to target users coming from [!UICONTROL From Google]. The rules created across categories are combined with the AND operator. 
 
-To create complex targeting rules that include "OR" operations across categories, create an expression target.
+To create complex targeting rules that include OR operations across categories, create an expression target.
 
-You can also target custom profile parameters and `user.` parameters. When adding an audience, drag and drop **[!UICONTROL Visitor Profile]**, then choose the parameter you use want to use to target your activity. If the desired parameter does not appear, the parameter has not been fired by an mbox.
+You can also target custom profile parameters and `user.` parameters. When adding an audience, drag and drop **[!UICONTROL Visitor Profile]**, then choose the parameter you use want to use to target your activity. If the desired parameter does not display, the parameter has not been fired by an mbox.
 
 Use the search box to search your [!UICONTROL Audiences] list. You can search for any part of an audience name, or you can enclose a specific string in quotes.
 
-You can sort the Audience list by audience name or by the date when it was last modified. To sort by name or date, click the column header, then select to display audiences in ascending or descending order.
+You can sort the [!UICONTROL Audience] list by audience name or by the date when it was last modified. To sort by name or date, click the column header, then select to display audiences in ascending or descending order.
 
 ## Training video: Creating Audiences ![Tutorial badge](/help/assets/tutorial.png)
 

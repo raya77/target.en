@@ -1,6 +1,6 @@
 ---
 keywords: visitor profile;target visitor profile
-description: Learn how to create audiences in Adobe [!DNL Target] to target visitors who meet specific profile parameters such as new or returning visitor, category affinity, and more.
+description: Learn how to create audiences in [!DNL Adobe Target] to target visitors who meet specific profile parameters such as new or returning visitor, category affinity, and more.
 title: Can I Target Visitors Who Meet Specific Profile Parameters?
 feature: Audiences
 exl-id: aca45b80-660d-4b8e-a0d7-84627b8fd77b
@@ -31,7 +31,7 @@ Create audiences in [!DNL Adobe Target] to target visitors who meet specific pro
 
    When a site visitor logs in mid-session and gets a `3rdpartyId`, all previously loaded profile attributes tied to the `3rdPartyId` are immediately available.
 
-   You can target custom profile parameters and `user.` parameters. Choose the parameter you use want to use to target your activity. If the desired parameter does not appear, the parameter has not been fired by an mbox. 
+   You can target custom profile parameters and `user.` parameters. Choose the parameter you use want to use to target your activity. If the desired parameter does not display, the parameter has not been fired by an mbox. 
 
 1. (Optional) Set up additional rules for the audience. 
 1. Click **[!UICONTROL Done]**.

@@ -1,6 +1,6 @@
 ---
 keywords: audience;propensity;profile attribute;compare;comparison;create audience;creating audience
-description: Learn how to define an audience to compare two profile attributes for your [!DNL Target] Audience library or in an activity-only audience.
+description: Learn how to define an audience to compare two profile attributes.
 title: Can I Compare Two Profile Attributes for Use in Audiences?
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
@@ -47,7 +47,7 @@ For more information, see [Methods to get Data into Target](/help/c-implementing
 
    >[!NOTE]
    >
-   >If you are using one of the default visitor profile categories in Step 1 (for example, New Visitor or Returning Visitor), you can choose only the static value option. The dynamic comparison options are not available for default categories. Other examples where the dynamic comparison options are not available include "First page of session," "Not in other tests," "Not first page of session," and "Category Affinity."
+   >If you are using one of the default visitor profile categories (for example, New Visitor or Returning Visitor), you can choose only the static value option. The dynamic comparison options are not available for default categories. Other examples where the dynamic comparison options are not available include "First page of session," "Not in other tests," "Not first page of session," and "Category Affinity."
 
 1. Choose the additional attribute you want to compare to your initial attribute.
 

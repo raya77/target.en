@@ -21,7 +21,7 @@ You can target visitors using [!DNL Adobe Target] who use a certain operating sy
 1. (Optional) Set up additional rules for the audience. 
 1. Click **[!UICONTROL Done]**.
 
-The following illustrations shows an audience targeting visitors using a Macintosh OS.
+The following illustration shows an audience targeting visitors using a Macintosh OS.
 
 ![](assets/target_os.png)
 

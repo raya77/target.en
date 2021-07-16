@@ -1,6 +1,6 @@
 ---
 keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
-description: Learn how to target visitors using Adobe [!DNL Target] who are on a specific page on your site.
+description: Learn how to target visitors using [!DNL Adobe Target] who are on a specific page on your site.
 title: Can I Target Visitors Based on Site Pages?
 feature: Audiences
 exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
@@ -23,11 +23,11 @@ You can target visitors using [!DNL Adobe Target] who access a specific page on 
 
     The following options are available in the initial drop-down list when you choose [!UICONTROL Select].
 
-    * **[!UICONTROL Current Page]:** The page the user is currently on.
+    * **[!UICONTROL Current Page]:** The page the user is viewing.
 
       The following options are available in the second drop-down list if you choose this option:
 
-      * [!UICONTROL URL] (For more information about how Target evaluates URLs, see [Targets and audiences FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+      * [!UICONTROL URL] (For more information about how [!DNL Target] evaluates URLs, see [Targets and audiences FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * [!UICONTROL Domain]
       * [!UICONTROL Query]
       * [!UICONTROL Subdomain]
@@ -35,7 +35,7 @@ You can target visitors using [!DNL Adobe Target] who access a specific page on 
       * [!UICONTROL Path]
       * [!UICONTROL Hash (#) fragment]
 
-    * **[!UICONTROL Previous Page]:** The page the user was on before clicking to the current page. (The user has to click from the previous page to the current page for the page to be tracked. The previous page is not tracked if the user types a new URL in the browser.) The actual content of this page depends on the design of your site. For example, if the current page displays information about a specific product, the previous page might be a category page where the visitor selects the specific item (such as a page displaying several cameras of a certain type), or it might be the home page that leads to the final page.
+    * **[!UICONTROL Previous Page]:** The page the user was viewed before clicking to the current page. The user must click from the previous page to the current page for the page to be tracked. The previous page is not tracked if the user types a new URL in the browser. The actual content of this page depends on the design of your site. For example, if the current page displays information about a specific product, the previous page might be a category page where the visitor selects the specific item. For example, a page displaying several cameras of a certain type, or it might be the home page that leads to the final page.
 
       The following options are available in the second drop-down list if you choose this option:
 
@@ -110,8 +110,8 @@ You can also create site pages audiences using you own "user-defined query param
 
 Use a:
 
-* Query parameter if the rule selected by the user is [!UICONTROL Current Page], [!UICONTROL Landing Page], or [!UICONTROL Previous Page]. 
-* Header if the rule selected by the user is an HTTP header.
+* Query parameter if the rule selected by the user is [!UICONTROL Current Page], [!UICONTROL Landing Page], or [!UICONTROL Previous Page] 
+* Header if the rule selected by the user is an HTTP header
 
 ## Troubleshooting {#ts}
 
