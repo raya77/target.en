@@ -37,9 +37,9 @@ The [!UICONTROL Audiences] list contains the audiences that you can use in your 
 * [!DNL Experience Cloud]
 * [!DNL Adobe Experience Platform]
 
-   >[!NOTE]
-   >
-   >The [!DNL Adobe Experience Platform] source is in a Beta testing program, but is available to all [!DNL Target] customers using the [!DNL [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)]. Audiences available from the [!DNL Adobe Experience Platform] can be used as is or [combined with existing audiences](/help/c-target/combining-multiple-audiences.md).
+  >[!NOTE]
+  >
+  >The [!DNL Adobe Experience Platform] source is in a Beta testing program, but is available to all [!DNL Target] customers using the [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Audiences available from the [!DNL Adobe Experience Platform] can be used as is or [combined with existing audiences](/help/c-target/combining-multiple-audiences.md).
 
 Predefined audiences, such as "[!UICONTROL New Visitors]" and "[!UICONTROL Returning Visitors]," cannot be renamed.
 
