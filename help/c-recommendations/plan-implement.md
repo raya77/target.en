@@ -17,7 +17,7 @@ What you need to know before creating a [!DNL Recommendations] activity.
 
 | Step | Information | Details |
 |--- |--- |--- |
-|![Step 1](/help/c-recommendations/assets/step1_red.png) |JavaScript library|Each page requires a reference to at.js  version 0.9.1 (or later) or  mbox.js  version 55 (or later). This implementation step is required on all pages where a  Target  activity will be used, and can include keys such as a product or category ID.<BR>For information about at.js, see [at.js Implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md).<br>For more information about mbox.js, see [Mbox.js Implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md).|
+|![Step 1](/help/c-recommendations/assets/step1_red.png) |JavaScript library|Each page requires a reference to at.js  version 0.9.1 (or later) or  mbox.js  version 55 (or later). This implementation step is required on all pages where a [!DNL Target] activity will be used, and can include keys such as a product or category ID.|
 |![Step 2](/help/c-recommendations/assets/step2_red.png)|Keys|The key determines the type of product or content that displays in your recommendations. For example, the key might be a product category. See [Base the Recommendation on a Recommendation Key](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).|
 |![Step 3](/help/c-recommendations/assets/step3_red.png)|Attributes|Attributes provide more specific information about the products you want to display. For example, you might want to show products within a certain price range, or items that meet an inventory threshold. Attributes can be provided in the mbox or through a [feed](/help/c-recommendations/c-products/feeds.md).<br>See [Specify inclusion rules](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion).|
 |![Step 4](/help/c-recommendations/assets/step4_red.png)|Exclusions|Exclusions determine which specific items do not appear in your recommendations.<br>See [Exclusions](/help/c-recommendations/c-products/exclusions.md).|
@@ -131,15 +131,9 @@ All pages that contain recommendations require either an [!DNL at.js] or [!DNL m
 
 This implementation requires:
 
-* [!DNL at.js] version 0.9.2 (or later) or [!DNL mbox.js] version 55 (or later)
-
-* [!DNL mbox.js] must include the reference to [!DNL target.js] ( [!DNL at.js] does not require a reference to [!DNL target.js])
+* [!DNL at.js] version 0.9.2 (or later)
 
 For more information about implementing [!DNL at.js], see [How to Deploy at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md#topic_ECF2D3D1F3384E2386593A582A978556).
-
-For more information about implementing [!DNL mbox.js], see [Mbox.js Implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
-
-For more information about the differences between the two Target Javascript libraries, see [Benefits of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
 
 ## Category Page {#section_F51A1AAEAC0E4B788582BBE1FEC3ABDC}
 
@@ -191,7 +185,6 @@ function targetPageParams() {
 On the Thank You page, you might want to show the order total, and the order ID, and show the products that were purchased, without recommending additional items. You can implement a second mbox to capture the order information.
 
 * If you are using at.js, see [Track Conversions](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053). 
-* If you are using mbox.js, see [Create an Order Confirmation mbox - mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82).
 
 ## Settings {#concept_C1E1E2351413468692D6C21145EF0B84}
 

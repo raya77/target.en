@@ -3,7 +3,7 @@ keywords: troubleshoot target;troubleshooting target;users;user management
 description: Troubleshooting information about managing users in Adobe Target.
 title: How Can I Troubleshoot Problems with User Management?
 feature: Administration & Configuration
-role: Administrator
+role: Admin
 exl-id: 4848b811-04f8-4857-8309-f5d3f9086197
 ---
 # Troubleshoot user management

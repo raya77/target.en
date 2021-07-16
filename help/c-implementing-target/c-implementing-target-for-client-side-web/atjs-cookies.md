@@ -115,7 +115,7 @@ The cookie keeps a number of values to manage how your visitors experience campa
 |session ID|A unique ID for a user session. By default, this lasts 30 minutes.|
 |pc ID|A semi-permanent ID for a visitor's browser. Lasts 14 days.|
 |check|A simple test value used to determine if a visitor supports cookies. Set each time a visitor requests a page.|
-|disable|Set if visitor's load time exceeds the timeout configured in the mbox.js file. By default, this lasts 1 hour.|
+|disable|Set if visitor's load time exceeds the timeout configured in the [!DNL Adobe Experience Platform Web SDK] or at.js file. By default, this lasts 1 hour.|
 
 ## Impact on [!DNL Target] for Safari visitors due to Apple WebKit tracking changes
 

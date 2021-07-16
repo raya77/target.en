@@ -90,7 +90,7 @@ Use the following steps to migrate from [!DNL mbox.js] to [!DNL at.js] and to ch
    Here are some things you can do while testing to confirm that [!DNL at.js] is working as expected:
 
    * Make sure all of your current activities work with the new JavaScript library. 
-   * Confirm that all [integrations](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) and [plugins](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) work as expected. 
+   * Confirm that all [integrations](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) and plugins work as expected. 
    * Make sure you are comfortable [debugging](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F) with the approaches available with [!DNL at.js].
 
 **Possible Issues When Migrating to at.js** Some customers have reported the following issues after performing the migration to at.js: 
@@ -118,4 +118,4 @@ Use the following steps to migrate from [!DNL mbox.js] to [!DNL at.js] and to ch
 
   For more information about how to use the code editor to do this, see [Code Editor](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5). 
 
-* Because all mboxes are now asynchronous, they won't block page rendering or return in the order in which they fired. For more information, see "Asynchronous Considerations" in [at.js Limitations](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE).
+* Because all mboxes are now asynchronous, they won't block page rendering or return in the order in which they fired.

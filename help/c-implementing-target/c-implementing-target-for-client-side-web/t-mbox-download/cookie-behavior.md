@@ -1,56 +1,51 @@
 ---
-keywords: Overview and Reference;webkit
-description: Learn about the legacy mbox.js implementation of Adobe Target. Migrate to the Adobe Experience Platform Web SDK (AEP Web SDK) or to the latest version of at.js.
-title: Where Can I Find Information About mbox.js Cookies?
+keywords: Overview and Reference;webkit;cookies;first-party;third-party;1st-party;3rd-party
+description: Learn about [!DNL Target] cookie behavior (first-party cookie, third-party cookie with first-party cookie, or third-party cookie alone).
+title: Where Can I Find Information About [!DNL Target] Cookies?
 feature: at.js
 role: Developer
 exl-id: 1c4e5b0b-8ae4-4526-aea0-318a33f4d247
 ---
-# mbox.js cookies
+# Target cookies
 
 The cookie behavior depends on whether it is a first-party cookie, a third-party cookie with a first-party cookie, or a third-party cookie alone.
 
->[!IMPORTANT]
->
->**mbox.js end-of-life**: As of March 31, 2021, [!DNL Adobe Target] no longer supports the mbox.js library. Post March 31, 2021, all calls made from mbox.js will gracefully fail and impact your pages that have [!DNL Target] activities running by serving default content.
->
->We recommend that all customers migrate to the most recent version of the new [!DNL Adobe Experience Platform Web SDK] or the at.js JavaScript library before this date to avoid any potential issues with your sites. For more information, see [Overview: implement Target for client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
-
 >[!NOTE]
 >
->This topic contains information about `mboxSession` and `mboxPC`. Our implementation best practices recommends that you do not link or store any sensitive information with the cookie data: `mboxSession` or `mboxPC`.
+>This topic contains information about `mboxSession` and `mboxPC`. Implementation best practices recommend that you do not link or store sensitive information with the cookie data: `mboxSession` or `mboxPC`.
 
 See also [Delete the Target cookie](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md).
 
 ## When to Use First- or Third-Party Cookies {#section_F71B29420C004A7FA3B1921E619B326E}
 
-Your site set up determines which cookies you want to use. It is helpful to understand how Target works when trying to understand first and third-party cookies. See [How Adobe Target Works](/help/c-intro/how-target-works.md#concept_459AB4DEE7364A9290C2FD405DC29584) for more information.
+Your site setup determines which cookies you want to use. It is helpful to understand how [!DNL Target] works when trying to understand first and third-party cookies. See [How [!DNL Adobe Target] Works](/help/c-intro/how-target-works.md#concept_459AB4DEE7364A9290C2FD405DC29584) for more information.
 
 There are three main use cases for cookies:
 
 1. One domain.
 
-   All of your testing will take place within one top-level domain ( [!DNL `www.domain.com`], [!DNL store.domain.com], [!DNL anysub.domain.com], etc.).
+   All of your testing takes place within one top-level domain (`www.domain.com`, `store.domain.com`, `anysub.domain.com`, and so forth).
 
-   Approach: Use only first-party cookies. This is the default. 
+   Approach: Use only first-party cookies (the default). 
 
 1. Users cross domains and you want to track and test their behavior across these domains.
 
    Example: A user comes to your site to shop but checks out through Yahoo stores. Three approaches (work with your account representative to determine the best approach):
 
     * Enable first- and third-party cookies. 
-    * Enable third-party only (very rare, but has the benefit of keeping the mbox cookie out of your domain). 
+    * Enable third-party only (rare, but has the benefit of keeping the mbox cookie out of your domain). 
     * Enable only first-party cookies and pass `mboxSession` parameter when crossing domain.
 
-      The `mboxSession` parameter must be passed to a landing page with [!DNL mbox.js] referenced. It cannot be an intermediate redirector page.
+      The `mboxSession` parameter must be passed to a landing page and referenced from the JavaScript library (Adobe Experience Platform Web SDK or at.js). It cannot be an intermediate redirector page.
 
 1. You are only using adboxes or Flashboxes on a third-party site.
 
-   Two approaches (work with your client services manager to determine the best approach):
+   Two approaches (work with your account representative to determine the best approach):
 
     * Enable first- and third-party cookies.
 
-      First- and third-party cookies are required for Flashbox and dynamic creatives. 
+      First- and third-party cookies are required for Flashbox and dynamic creatives.
+
     * Enable only third-party cookies.
 
       This approach is only for the rare case where AdBox implementations are used without on-site targeting.
@@ -59,17 +54,17 @@ There are three main use cases for cookies:
 
 The first-party cookie is stored in [!DNL clientdomain.com], where `clientdomain` is your domain.
 
-[!DNL Mbox.js] generates an `mboxSession ID` and stores it in the mbox cookie. The first mbox response contains the offer, as well as the JavaScript to store the `mboxPC ID` generated by the application, in the mbox cookie.
+The JavaScript library generates an `mboxSession ID` and stores it in the [!DNL Target] cookie. The first mbox response contains the offer, and the JavaScript to store the `mboxPC ID` generated by the application, in the mbox cookie.
 
 >[!NOTE]
 >
->The [!DNL AMCV_###@AdobeOrg] 1st-party cookie is always set with the Experience Cloud Visitor ID.
+>The [!DNL AMCV_###@AdobeOrg] first-party cookie is always set with the [!DNL Experience Cloud Visitor ID].
 
 ## Third-Party Cookie Behavior {#section_4C3A83990BF8415BB1806602D84AED48}
 
 The third-party cookie is stored in [!DNL clientcode.tt.omtrdc.net] and the first-party cookie is stored in [!DNL clientdomain.com], where `clientdomain` is your domain.
 
-[!DNL Mbox.js] generates an `mboxSession ID`. The first location request returns HTTP response headers that attempt to set third-party cookies named `mboxSession` and `mboxPC` and a redirect request is sent back with an extra parameter ( `mboxXDomainCheck=true`).
+The JavaScript library generates an `mboxSession ID`. The first location request returns HTTP response headers that attempt to set third-party cookies named `mboxSession` and `mboxPC` and a redirect request is sent back with an extra parameter ( `mboxXDomainCheck=true`).
 
 If the browser accepts third-party cookies, the redirect request includes those cookies, and the offer is returned.
 
@@ -83,43 +78,41 @@ If the browser rejects third-party cookies, the redirect request does not includ
 
 The third-party cookie is stored in [!DNL clientcode.tt.omtrdc.net] and the first-party cookie is stored in [!DNL clientdomain.com], where `clientdomain` is your domain.
 
-[!DNL Mbox.js] generates an `mboxSession ID`. The first location request returns HTTP response headers that attempt to set third-party cookies named `mboxSession` and `mboxPC`, and a redirect request is sent back with an extra parameter ( `mboxXDomainCheck=true`).
+The JavaScript library generates an `mboxSession ID`. The first location request returns HTTP response headers that attempt to set third-party cookies named `mboxSession` and `mboxPC`, and a redirect request is sent back with an extra parameter (`mboxXDomainCheck=true`).
 
 If the browser accepts third-party cookies, the redirect request includes those cookies, and the offer is returned.
 
-Some browsers reject third-party cookies. If the third-party cookie is blocked, the first-party cookie still works. Target attempts to set the thrid-party cookie, and if it cannot, then Target can only track on the client's specific domain. Cross-domain tracking does not work if the third-party is blocked, unless the `mboxSession` is appended in the link that crosses domains. In this case, another first-party cookie is set and synched with the prior domain's first-party cookie.
+Some browsers reject third-party cookies. If the third-party cookie is blocked, the first-party cookie still works. [!DNL Target] attempts to set the third-party cookie, and if it cannot, then [!DNL Target] can only track on the client's specific domain. Cross-domain tracking does not work if the third-party cookie is blocked, unless the `mboxSession` is appended in the link that crosses domains. In this case, another first-party cookie is set and synched with the prior domain's first-party cookie.
 
 ## Cookie Settings {#section_B498B8D1A34A444BBF84CC720EE9D87F}
 
-The cookie has several default settings. You can change these settings if needed, with the exception of the cookie duration. Consult your account representative when changing cookie settings.
+The cookie has several default settings. You can change these settings if needed, except the cookie duration. Consult your account representative when changing cookie settings.
 
 | Setting | Information |
 |--- |--- |
 |Cookie name|mbox.|
-|Cookie domain|The second and top levels of the domains from which you serve the content. Because it is served from your company's domain, the cookie is a first party cookie.<br>Example:  `mycompany.com`.|
+|Cookie domain|The second and top levels of the domains from which you serve the content. Because it is served from your company's domain, the cookie is a first-party cookie.<br>Example: `mycompany.com`.|
 |Server domain|`clientcode.tt.omtrdc.net`, using the client code for your account.|
-|Cookie duration|The cookie remains on the visitor's browser two weeks from his or her last login. You cannot change the cookie duration.|
-|P3P policy|The cookie is published with a P3P policy, as required by the default setting in most browsers. A P3P policy indicates to a browser who is serving the cookie and how the information will be used.|
+|Cookie duration|The cookie remains on the visitor's browser two weeks from the last login. You cannot change the cookie duration.|
+|P3P policy|The cookie is published with a P3P policy, as required by the default setting in most browsers. A P3P policy indicates to a browser who is serving the cookie and how the information is used.|
 
-The cookie keeps a number of values to manage how your visitors experience campaigns:
+The cookie keeps various values to manage how your visitors experience campaigns:
 
 | Value | Definition |
 |--- |--- |
-|session ID|A unique ID for a user session. By default, this lasts 30 minutes.|
+|session ID|A unique ID for a user session. By default, this ID lasts 30 minutes.|
 |pc ID|A semi-permanent ID for a visitor's browser. Lasts 14 days.|
 |check|A simple test value used to determine if a visitor supports cookies. Set each time a visitor requests a page.|
-|disable|Set if visitor's load time exceeds the timeout configured in the mbox.js file. By default, this lasts 1 hour.|
+|disable|Set if visitor's load time exceeds the timeout configured in the JavaScript library file. By default, this value lasts one hour.|
 
-## Impact on [!DNL Target] for Safari Visitors Due to Apple WebKit Tracking Changes {#section_2A2E5730ED7D4A0985C904AFEA310AAE}
+## Impact on [!DNL Target] for Safari visitors due to Apple WebKit tracking changes {#section_2A2E5730ED7D4A0985C904AFEA310AAE}
 
-**How does Adobe Target Tracking work?**
+**How does [!DNL Adobe Target] tracking work?**
 
 | Cookies | Details |
 |--- |--- |
-|First-party domains|This is the standard implementation for Target customers.  The "mbox" cookies is set in the customer's domain.|
-|Third-party tracking|Third-party tracking is important for advertising and targeting use cases in Target and in Adobe Audience Manager (AAM).  Third-party tracking requires cross-site scripting techniques.  Target uses two cookies, "mboxSession" and "mboxPC" set in the `clientcode.tt.omtrd.net` domain.|
-
-
+|First-party domains|The standard implementation for [!DNL Target] customers. The "mbox" cookies is set in the customer's domain.|
+|Third-party tracking|Third-party tracking is important for advertising and targeting use cases in [!DNL Target] and in [!DNL Adobe Audience Manager] (AAM). Third-party tracking requires cross-site scripting techniques. [!DNL Target] uses two cookies, "mboxSession" and "mboxPC" set in the `clientcode.tt.omtrd.net` domain.|
 **What is Apple's approach?**
 
 From Apple:
@@ -131,12 +124,12 @@ From Apple:
 | Approach | Details |
 |--- |--- |
 |Intelligent tracking prevention|For more information, see [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/) on the WebKit Open Source Web Browser Engine website.|
-|Cookies|How Safari handles cookies:<ul><li>Third-party cookies that are not on a domain the user accesses directly are never saved. This behavior is not new. Third-party cookies are already not supported in Safari.</li><li>Third-party cookies set on a domain the user accesses directly are purged after 24 hours.</li><li>First-party cookies are purged after 30 days if that first-party domain has been classified as tracking users across sites. This issue might apply to large companies that send users to different domains online. Apple has not made it clear how exactly these domains will be classified, or how a domain can determine if they've been classified as tracking users cross-site.</li></ul>|
-|Machine Learning to identify domains that are cross-site|From Apple:<br>Machine Learning Classifier: A machine learning model is used to classify which top privately-controlled domains have the ability to track the user cross-site, based on the collected statistics. Out of the various statistics collected, three vectors turned out to have strong signal for classification based on current tracking practices: subresource under number of unique domains, sub frame under number of unique domains, and number of unique domains redirected to. All data collection and classification happens on-device.<br>However, if the user interacts with  example.com as the top domain, often referred to as a first-party domain, Intelligent Tracking Prevention considers it a signal that the user is interested in the website and temporarily adjusts its behavior as depicted in this timeline:<br>If the user interacted with  example.com the last 24 hours, its cookies will be available when `example.com` is a third-party. This allows for "Sign in with my X account on Y" login scenarios.<ul><li>Domains that are visited as top level domain won't be affected. Sites like OKTA for example</li><li>Identifies domains that are sub domain or sub frame of current page across multiple unique domains.</li></ul>|
+|Cookies|How Safari handles cookies:<ul><li>Third-party cookies that are not on a domain the user accesses directly are never saved. This behavior is not new. Third-party cookies are already not supported in Safari.</li><li>Third-party cookies set on a domain the user accesses directly are purged after 24 hours.</li><li>First-party cookies are purged after 30 days if that first-party domain has been classified as tracking users across sites. This issue might apply to large companies that send users to different domains online. Apple has not made it clear how exactly these domains are classified, or how a domain can determine if they've been classified as tracking users cross-site.</li></ul>|
+|Machine Learning to identify domains that are cross-site|From Apple:<br>Machine Learning Classifier: A machine learning model is used to classify which top privately controlled domains can track the user cross-site, based on the collected statistics. Out of the various statistics collected, three vectors turned out to have strong signal for classification based on current tracking practices: subresource under number of unique domains, sub frame under number of unique domains, and number of unique domains redirected to. All data collection and classification happens on-device.<br>However, if the user interacts with `example.com` as the top domain, often referred to as a first-party domain, Intelligent Tracking Prevention considers it a signal that the user is interested in the website and temporarily adjusts its behavior as depicted in this timeline:<br>If the user interacted with `example.com` the last 24 hours, its cookies are available when `example.com` is a third party. This practice allows for "Sign in with my X account on Y" login scenarios.<ul><li>Domains that are visited as top-level domain are not affected. Sites like OKTA for example</li><li>Identifies domains that are sub domain or sub frame of current page across multiple unique domains.</li></ul>|
 
-**How will Adobe be affected?**
+**How is Adobe affected?**
 
 | Affected Functionality | Details |
 |--- |--- |
-|Opt-out support|Apple's WebKit tracking changes breaks opt-out support.<br>Target opt-out uses a cookie in the `clientcode.tt.omtrdc.net` domain. For more details, see [Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).<br>Target supports two opt-outs:<ul><li>One per client (the client manages the opt-out link).</li><li>One via Adobe that opts the user out of all Target functionality for all customers.</li></ul>Both methods use the third-party cookie.|
-|Target activities|Customers can choose their [profile lifetime length](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) for their Target accounts—up to 90 days. The concern is that if the account's profile lifetime is longer than 30 days, and the first-party cookie gets purged because the customer's domain has been marked as tracking users cross-site, behavior for Safari visitors will be affected in the following areas in Target:<br>**Target Reports**: If a Safari user enters into an activity, returns after 30 days, and then converts, that user counts as two visitors and one conversion.<br>This behavior is the same for activities using Analytics as the reporting source (A4T).<br>**Profile & Activity Membership**:<ul><li>Profile data is erased when the first-party cookie expires.</li><li>Activity membership is erased when the first-party cookie expires.</li><li> Target does not function in Safari for accounts using a third-party cookie implementation or a first- and third-party cookie implementation. Note that this behavior is not new. Safari has not allowed third-party cookies for awhile.</li></ul><br>**Suggestions**: If there is a concern that the customer domain might be marked as one tracking visitors cross-session, it's safest to set the profile lifetime to 30 days or fewer in Target. This ensures that users will be tracked similarly in Safari and all other browsers.|
+|Opt-out support|Apple's WebKit tracking changes breaks opt-out support.<br>[!DNL Target] opt-out uses a cookie in the `clientcode.tt.omtrdc.net` domain. For more details, see [Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).<br>[!DNL Target] supports two opt-outs:<ul><li>One per client (the client manages the opt-out link).</li><li>One via [!DNL Adobe] that opts the user out of all [!DNL Target] functionality for all customers.</li></ul>Both methods use the third-party cookie.|
+|[!DNL Target] activities|Customers can choose their [profile lifetime length](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) for their [!DNL Target] accounts (up to 90 days). The concern is that if the account's profile lifetime is longer than 30 days, and the first-party cookie gets purged because the customer's domain has been marked as tracking users cross-site, behavior for Safari visitors are affected in the following areas in [!DNL Target]:<br>**[!DNL Target] reports**: If a Safari user enters into an activity, returns after 30 days, and then converts, that user counts as two visitors and one conversion.<br>This behavior is the same for activities using [!DNL Analytics] as the reporting source (A4T).<br>**Profile & activity membership**:<ul><li>Profile data is erased when the first-party cookie expires.</li><li>Activity membership is erased when the first-party cookie expires.</li><li> [!DNL Target] does not function in Safari for accounts using a third-party cookie implementation or a first- and third-party cookie implementation. This behavior is not new. Safari has not allowed third-party cookies for a while.</li></ul><br>**Suggestions**: If there is a concern that the customer domain might be marked as one tracking visitors cross-session, it is safest to set the profile lifetime to 30 days or fewer in [!DNL Target]. This limit ensures that users are tracked similarly in Safari and all other browsers.|

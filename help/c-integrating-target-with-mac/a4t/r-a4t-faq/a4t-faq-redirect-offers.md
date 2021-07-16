@@ -25,8 +25,6 @@ Your implementation must meet the following minimum requirements:
 * Adobe Analytics: [!DNL appMeasurement.js] version 2.1. 
 * Adobe Target: [!DNL at.js] version 1.6.2 or later.
 
-  The [!DNL mbox.js] library does not support redirect offers with A4T. Your implementation must use [!DNL at.js].
-
 The three libraries must be included on both the page with the redirect offer and the page to which the visitor is redirected.
 
 ## Why are there sometimes data discrepancies between A4T and Analytics?
@@ -44,10 +42,6 @@ Using the form-based composer to build a redirect activity is recommended to inc
 One reason you might want to use redirect offers for all experiences in the activity, including the default (control) experience, is to put the same conditions on all experiences. For example, if the default experience does not have a redirect offer but the other experiences have redirect offers, the speed of the experience without the redirect offer has an inherent advantage. Redirect offers are recommended for temporary scenarios only, such as testing. Redirect offers are not recommended for permanent scenarios, such as personalization. After you determine the “winner,” you should remove the redirect to improve page-load performance.
 
 For more information about this issue, see the "Redirect offers" information in [Known Issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
-
-## Can I use redirect offers with A4T if I'm using the mbox.js JavaScript library? {#section_D2A8B182B7254D61A8BB2BCBA0C0F64A}
-
-The [!DNL mbox.js] library does not support redirect offers with A4T. Your implementation must use [!DNL at.js].
 
 ## Are both the Visual Experience Composer (VEC) and Form-Based Experience Composer supported? {#section_FDA26FE7909B48539DA770559E687677}
 

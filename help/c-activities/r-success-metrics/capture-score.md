@@ -47,7 +47,7 @@ Best practice is to assign values in the [!DNL Target] request. This allows you 
 
 >[!NOTE]
 >
->For easier maintenance, you can configure your site's page score value assignments in the [!DNL at.js] or [!DNL mbox.js] file with some conditional JavaScript logic. This eliminates the need to add more code to your pages. Contact your account consultant for assistance.
+>For easier maintenance, you can configure your site's page score value assignments in the [!DNL at.js] file with some conditional JavaScript logic. This eliminates the need to add more code to your pages. Contact your account consultant for assistance.
 
 You can combine the two methods, but this might result in a higher score than expected. For example, if you assign a value of 10 to each of three [!DNL Target] requests and no score to a fourth request, then pass the URL parameter `?mboxPageValue=5`, your page score will be 50, 30 for the three requests with assigned values, and then 5 for each of the four requests on the page.
 

@@ -32,7 +32,7 @@ Character limits and other limits (offer size, audiences, profiles, values, para
 
 ## Target API calls
 
-* **Limit**: 50 calls per minute.
+* **Limit**: 50 calls per minute for the Admin, Reporting, and bulk profile update APIs. This limit does not apply to the Delivery and single profile update APIs.
 
   If you make more than 50 API calls per minute, [!DNL Target] returns a "503 HTTP status" error message.
 

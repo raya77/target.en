@@ -3,7 +3,7 @@ keywords: workspaces;manage property;permissions;product configuration;product p
 description: Learn how to create separate workspaces (product profiles) and then assign users different roles and permissions for individual pages, properties, or web sites.
 title: What Are Enterprise User Permissions and How Do I Use Them?
 feature: Administration & Configuration
-role: Administrator
+role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
 ---
 # ![PREMIUM](/help/assets/premium.png) Enterprise user permissions

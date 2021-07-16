@@ -57,7 +57,7 @@ A4T activities require an analytics tracking server to be specified. See [Using 
 
 >[!NOTE]
 >
->You do not need to specify a tracking server during activity creation if you are using mbox.js version 61 (or later) or at.js version 0.9.1 (or later). The mbox.js or at.js library automatically sends tracking server values to [!DNL Target]. During activity creation, you can leave the [!UICONTROL Tracking Server] field empty on the [!UICONTROL Goals & Settings] page.
+>You do not need to specify a tracking server during activity creation if you are using at.js version 0.9.1 (or later). The at.js library automatically sends tracking server values to [!DNL Target]. During activity creation, you can leave the [!UICONTROL Tracking Server] field empty on the [!UICONTROL Goals & Settings] page.
 
 ## My Analytics segments don't appear in Target. {#section_DEE87F1557834F448E99381D3D02EEEF}
 
@@ -94,6 +94,6 @@ If you have not installed the debugger, see [Introduction to the Adobe Experienc
 
 ![Debugger](/help/c-integrating-target-with-mac/a4t/assets/debugger.png)
 
-If there is no supplemental data ID in the [!DNL Target] call, confirm that the [!DNL VisitorAPI.js] file is loaded before [!DNL at.js] or [!DNL mbox.js]. If there is no supplemental data ID in the [!DNL Analytics] call, confirm that the [!DNL Target] call fires before the [!DNL Analytics] call.
+If there is no supplemental data ID in the [!DNL Target] call, confirm that the [!DNL VisitorAPI.js] file is loaded before [!DNL at.js]. If there is no supplemental data ID in the [!DNL Analytics] call, confirm that the [!DNL Target] call fires before the [!DNL Analytics] call.
 
 For more information, see [Analytics for Target Implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A) or contact [Customer Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).

@@ -37,7 +37,7 @@ Use one of the following options to ensure that your VEC and EEC continue to wor
 
 ## Does [!DNL Target] support multi-level iframes?
 
-Target does not support multi-level iframes. If your website loads an iframe that has a child iframe, Target libraries (at.js and mbox.js) interact with the parent iframe only. Target libraries do not interact with the child iframe.
+[!DNL Target] does not support multi-level iframes. If your website loads an iframe that has a child iframe, at.js interacts with the parent iframe only. [!DNL Target] libraries do not interact with the child iframe.
 
 As a workaround, you can add a page in the experience with the URL of the child iframe.
 
@@ -73,12 +73,6 @@ If the website has changed outside of the Visual Experience Composer after the e
 ## The VEC or EEC does not show my rotating banners and other content containing JavaScript. (VEC and EEC) {#section_8B5BE6EB050B42D6A14A054724C41330}
 
 By default, the Visual Experience Composer blocks JavaScript elements. You can work with these elements if you disable JavaScript in the Visual Experience Composer settings. Depending on how the site is set up, some items might continue to display incorrectly or to remain unavailable.
-
-## My hosted target.js file fails to load on subsequent page reloads. (VEC and EEC) {#section_87F6418C2CD142A7B4D1E7037935F81F}
-
-This issue happens when customers have an mbox.js version earlier than 57 (i.e. version 56 or earlier).
-
-We recommend that all VEC users upgrade to the [latest version of mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A), or at least upgrade to version 57. You should also consider [making the transition to at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17).
 
 ## When I change one element on the page, multiple elements change. (VEC and EEC) {#section_309188ACF34942989BE473F63C5710AF}
 

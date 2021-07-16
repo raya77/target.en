@@ -29,14 +29,6 @@ Check out the [Target Community Forum](/help/cmp-resources-and-contact-informati
 
 Please read our [Supported Browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) matrix for more details. Notice that there are two aspects: the Target Standard/Premium Experience Cloud interface support and the end-user browser support on desktop/devices.
 
-## Target JavaScript Libraries (at.js and mbox.js) {#section_C2AC78DFDAD84981A8C84DF20893E340}
-
-**Which implementation JavaScript file should I use, at.js or mbox.js?**
-
-at.js is our latest and greatest JavaScript library. mbox.js is our older version. See [Benefits of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) to understand the differences between the two libraries. All new customers should use at.js.
-
-All existing mbox.js customers should migrate to at.js. Learn more about the steps involved in [migrating from mbox.js to at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) before making the transition.
-
 ## Activities {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
 **Can I perform a statistically rigorous activity to find a winning and losing experience while using a control experience?**
@@ -225,12 +217,6 @@ Click the thumbnail in front of the experience name on Step 2 and you will land 
 **I am a former Target Classic user. Can I leverage my mboxes for certain use cases?**
 
 Use [form-based approach](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) to create activities.
-
-**Can I ensure that same experience is delivered consistently across all devices a user might have?**
-
-Check out our [Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html) that allows you to deterministically and probabilistically link multiple devices of a user through the power of a Co-op .
-
-If you are in the Co-op, a simple flag on the Goals and Settings page enables the feature. Reporting also changes to now reflect People instead of Visitors. Talk to your Adobe contact for more on this feature as this is not available in all regions.
 
 **Why am I not seeing the desired offer/experience and am instead seeing some other activity?**
 

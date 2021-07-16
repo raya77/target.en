@@ -10,7 +10,7 @@ exl-id: 105095d7-8e29-413b-a7f4-e46e2e30e91f
 
 To use [!DNL Adobe Target Standard] or [!DNL Target Premium], add one line of code to call mbox.js.
 
- You can use either of two library references: the [!DNL Adobe Experience Platform Web SDK] or [!DNL at.js]. [Benefits of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) explains the differences between the mbox.js and at.js libraries.
+ You can use either of two library references: the [!DNL Adobe Experience Platform Web SDK] or [!DNL at.js].
 
 >[!IMPORTANT]
 >
