@@ -54,6 +54,8 @@ For example, the following rule targets visitors who use either Chrome *or* Fire
 
 1. (Conditional) Continue adding and defining the desired attributes.
 
+   To create another container, click **[!UICONTROL Add container]** or simply drag another attribute into the middle frame. You can then adjust the operator (AND or OR) using the drop-down list.
+
 1. Click **[!UICONTROL Done]**.
 
    Newly created audiences appear in the list after a few seconds of processing delay. If the audience does not display immediately in the list, try searching for the audience or refresh the list. 

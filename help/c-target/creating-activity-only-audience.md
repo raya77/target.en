@@ -1,18 +1,18 @@
 ---
 keywords: audience;audience rules;create audience;creating audience;activity only;activity-only;adhoc
-description: Learn how to create activity-only audiences in Adobe [!DNL Target] that are for one-time use in the current activity and not stored in the Audiences Library.
+description: Learn how to create activity-only audiences in Adobe [!DNL Target] that are for one-time use.
 title: Can I Create an Audience to Use Only Once?
 feature: Audiences
 exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
 ---
 # Create an activity-only audience
 
-Create activity-only audiences from within the three-step guided workflow when creating an activity. These ad hoc audiences can be used in other places within the same activity, but are not stored in the [!UICONTROL Audiences Library] for use in other activities.
+Create activity-only audiences from within the [!DNL Adobe Target] three-step guided workflow while creating an activity. These ad hoc audiences can be used in other places within the same activity, but are not stored in the [!UICONTROL Audiences Library] for use in other activities.
 
 Activity-only audiences provide the following benefits:
 
-* You can use activity-only audiences to create an audience that you want to use only once and you do not want to store it in the [!UICONTROL Audiences Library]. This prevents the [!UICONTROL Audiences Library] from being cluttered with audiences that you never want to use again. 
-* Activity-only audiences are not visible in the [!UICONTROL Audiences Library]. Because of this, they are shielded from unwanted changes by others in your organization.
+* You can use activity-only audiences to create an audience that you want to use only once and you do not want to store it in the [!UICONTROL Audiences Library]. Activity-only audiences help prevent the [!UICONTROL Audiences Library] from being cluttered with audiences that you never want to use again. 
+* Activity-only audiences are not visible in the [!UICONTROL Audiences Library]. Because these audiences are not visible in the library, they are shielded from unwanted changes by others in your organization.
 
 1. While creating an [activity](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), on the **[!UICONTROL Targeting]** page, click the three vertical ellipses, then click **[!UICONTROL Replace Audience]**.
 
@@ -35,7 +35,7 @@ Activity-only audiences provide the following benefits:
 
 Keep the following information in mind as you work with activity-only audiences:
 
-* You can create activity-only audiences in the Visual Experience Composer (VEC) or in the Form-Based Experience Composer. This functionality replaces refinement rules in previous versions of Target. 
+* You can create activity-only audiences in the [!UICONTROL Visual Experience Composer] (VEC) or in the [!UICONTROL Form-Based Experience Composer]. This functionality replaces refinement rules in previous versions of [!DNL Target]. 
 * You can create an activity to store in the [!UICONTROL Audience Library] for reuse in other activities or you create an activity-only audience. After saving the audience, you cannot change the audience type. 
 * Refinements for existing activities are migrated to activity-only audiences. 
 * Activity-only audiences have a status of [!UICONTROL Used] or [!UICONTROL Unused]. Unused activity-only audiences display until the activity is saved. If left unused and you try to save the activity, a warning message displays informing you that unused activity-only audiences will be deleted. 

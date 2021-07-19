@@ -88,9 +88,9 @@ Click **[!UICONTROL View full details]** to see the audiences and activities tha
 
 >[!NOTE]
 >
->The Script Usage tab does not display activities that reference the selected profile script in the following situations:
+>The [!UICONTROL Script Usage] tab does not display activities that reference the selected profile script in the following situations:
 >
-> * The activity is in the Draft state.
+> * The activity is in the [!UICONTROL Draft] state.
 > * The content or offer used in the activity uses script variables (either an inline offer within the activity or an offer within the Offer library).
 
 ## Target disables profile scripts in certain situations {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
@@ -122,7 +122,7 @@ The following guidelines are meant to help write simplified profile scripts that
 * Use limited for loops vs. open ended for or while loops. 
 * Do not exceed 1,300 characters or 50 loop iterations. 
 * Do not exceed 2,000 JavaScript instructions. [!DNL Target] has limit of 2,000 JavaScript instructions per script, but this limit cannot simply be calculated by manually reading the JavaScript. For example, Rhino treats all function calls and "new" calls as 100 instructions. Also, the size of any entry data, such as URL values, can impact the instructions count. 
-* Be mindful of not only the script performance, but the combined performance of all scripts. As best practice, Adobe recommends fewer than 5,000 instructions in total. Counting the number of instructions is not obvious, but the important thing to note is that scripts exceeding 2,000 instructions are automatically disabled. The number of active profile scripts should not exceed 300. Each script is executed with every single mbox call. Run only as many scripts as needed.
+* Be mindful of not only the script performance, but the combined performance of all scripts. As best practice, [!DNL Adobe] recommends fewer than 5,000 instructions in total. Counting the number of instructions is not obvious, but the important thing to note is that scripts exceeding 2,000 instructions are automatically disabled. The number of active profile scripts should not exceed 300. Each script is executed with every single mbox call. Run only as many scripts as needed.
 * In a regex, having dot-star in the beginning (for example: `/.*match/`, `/a|.*b/`) is almost never needed. The regex search starts from all positions in a string (unless bound with `^`), so dot-star is already assumed. The script execution can be interrupted if such a regex is matched to a long enough input data (which can be as low as several hundred characters).
 * If all fails, wrap script in a try/catch. 
 * The following recommendations can help you limit profile script complexity. Profile scripts can execute a limited number of instructions.
@@ -167,7 +167,7 @@ The following methods can be used to debug profile scripts:
 
 **Is it possible to use profile scripts to capture information from a page that resides in a data layer?**
 
-Profile scripts are unable to read the page directly because they are executed server side. The data must be passed in through an mbox request or through other [methods of getting data into Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17). After the data is in Target, profile scripts can read the data as an mbox parameter or profile parameter. 
+Profile scripts are unable to read the page directly because they are executed server side. The data must be passed in through an mbox request or through other [methods of getting data into Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17). After the data is in [!DNL Target], profile scripts can read the data as an mbox parameter or profile parameter. 
 
 ## JavaScript reference for script profile parameters
 

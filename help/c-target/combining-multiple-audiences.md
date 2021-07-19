@@ -61,9 +61,9 @@ You can create an ad hoc combined audience on the activity's [!UICONTROL Target]
 
        Drag and drop an audience.
 
-       For example, to exclude United States visitors from new visitors, you could drag the Market: United States audience into the box, as shown below:
+       For example, to exclude United States visitors from new visitors, you could drag the Market: United States audience into the box.
 
-              This combined audience includes all new visitors to your site (excluding those from San Francisco) using Safari or Firefox. 
+       This combined audience includes all new visitors to your site (excluding those from San Francisco) using Safari or Firefox. 
     
     1. To exclude an audience from a rule, click **[!UICONTROL Exclusion]** > **[!UICONTROL Exclude this Audience.]**.
 
