@@ -23,5 +23,6 @@ The string format of the TNT variable is `activityID:experienceID:targettype|eve
 * Event = 2 represents an activity impression. 
 * Event = 3-32766 represents analytics success metric id.
 * Event = 32767 represents an activity conversion.
+* Event -1 or 65535 represents that the user is removed from the activity or experience. This situation often happens when the visitor converts. The visitor is released from the experience and is now available to qualify for any other experience.
 
-You can import the classification file on a frequent basis from the UI using a [browser import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/browser-import.html) or an [FTP import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/import-file.html). You can also engage with Engineering Services to obtain the file as a lookup table along with a clickstream data feed.
+You can import the classification file on a frequent basis from the UI using a [browser import](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) or an [FTP import](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/import-file.html?lang=en). You can also engage with Engineering Services to obtain the file as a lookup table along with a clickstream data feed.
