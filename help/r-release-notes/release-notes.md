@@ -34,7 +34,6 @@ This release contains the following new features and enhancements. The issue num
 |Feature|Details|
 | --- | --- |
 |[!UICONTROL Analytics for Target] (A4T)|Clicking the "[!UICONTROL View in Analytics]" link on the [!UICONTROL Reports] page from an activity that uses [!DNL Analytics] as the reporting source (A4T), [!DNL Analysis Workspace] now opens. Previously, the link opened [!DNL Analytics] reporting. (TGT-36959)|
-|![Premium](/help/assets/premium.png) [!DNL Recommendations]|The following enhancements apply to [!DNL Recommendations] popularity algorithms:<ul><li>A new six-hour "lookback window" (data range) option is available for all popularity (Most Viewed/Top Sellers) algorithms when [!DNL Target] is the behavioral data source. (This lookback window is *not* available when [!DNL Adobe Analytics] is the behavioral data source.)</li><li>When selected, the following algorithms run approximately every three hours (instead of every 12 hours).<ul><li>Most viewed</li><li>Most purchased</li><li>Most viewed by category</li><li>Most purchased by category</li><li>Most viewed by custom attribute (using groupBy feature)</li><li>Most purchased by custom attribute (using groupBy feature)</li></ul></ul>Release date to be announced. (TOP-1086)|
 
 ## Python SDK 1.0.0 (June 16, 2021)
 
