@@ -1,26 +1,26 @@
 ---
 keywords: Targeting;audience filter;audiences;filter
-description: Learn how to use audience filters in Adobe [!DNL Target] to view data from groups of visitors who share a specific characteristic or set of characteristics.
+description: Learn how to use audience filters in [!DNL Adobe Target] to view data from visitors who share characteristics.
 title: Can I Use Audience Filters for Reporting?
 feature: Audiences
 exl-id: af8dae97-4b10-4edb-a0e6-0d8daf2f0d22
 ---
 # Audience filters for reporting
 
-Audience filters (or audiences) are groups of visitors who share a specific characteristic or set of characteristics.
+Audience filters (or audiences) in [!DNL Adobe Target] are groups of visitors who share a specific characteristic or set of characteristics.
 
-Use audience filters to specify the audiences used for reporting. You can select an audience and compare its performance to the overall traffic. You might want to understand whether your winners were different for the various traffic sources, when compared to general traffic. This helps you discover audiences that should be potentially targeted to different content. One winner does not fit all traffic in many cases.
+Use audience filters to specify the audiences used for reporting. You can select an audience and compare its performance to the overall traffic. You might want to understand whether your winners were different for the various traffic sources, when compared to general traffic. Audience filters help you discover audiences that should be potentially targeted to different content. One winner does not fit all traffic in many cases.
 
 For example, visitors who arrive at your page from a certain search engine might be one audience. Other audiences might be based on gender, age, location, registration status, purchase history, or just about any other detail you can collect about your visitors. Use audience filters to divide visitor traffic and compare experience performance for each traffic segment.
 
 When planning to use audience filters for an activity, consider the following guidelines:
 
-* **Visitors can be in multiple audiences.** If there are two audiences set up (for example, "new visitors" and "visitors from Google"), and a person meets both criteria, then this visitor is counted and tracked in both audiences. As a result, the sum of the visitors in the audiences does not match the number of visitors in an activity. 
+* **Visitors can be in multiple audiences.** If there are two audiences set up (for example, "new visitors" and "visitors from Google"), and a person meets both criteria, this visitor is counted and tracked in both audiences. As a result, the sum of the visitors in the audiences does not match the number of visitors in an activity. 
 * **Set up audiences before launching the activity.** Audience data cannot be retrieved retroactively. If you do not configure audience filters before you start the activity, then decide to use them after the activity has run for a while, you will not collect the data for the time that has already passed. 
 * **Begin with two to four audiences.** Focus on basic information, such as the traffic source. 
 * **Rename audiences as needed.** You can rename an audience without affecting the data to make the audience name more meaningful for the results being collected, even if the activity is active. 
 * **Enter precise values.** Audience filter values are case-sensitive. For example, if you are using an audience that filters on cities, you should use an "OR" condition to include possible spelling and capitalization variations, such as "Vienna," "vienna," "wien," and "Wien." 
-* **Audiences created from the Audiences list are reusable.** Audiences created as part of an activity cannot be reused.
+* **Audiences created from the [!UICONTROL Audiences] list are reusable.** Audiences created as part of an activity cannot be reused.
 
 The following sections provide more information about setting up and reporting on audiences:
 

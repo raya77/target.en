@@ -7,11 +7,11 @@ exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
 ---
 # Category affinity
 
-The category affinity feature automatically captures the categories a user visits and then calculates the user's affinity for the category so it can be targeted and segmented on. This helps to ensure that content is targeted to visitors who are most likely to act on that information.
+The category affinity feature in [!DNL Adobe Target] automatically captures the categories a user visits and then calculates the user's affinity for the category so it can be targeted and segmented on. Category affinity helps to ensure that content is targeted to visitors who are most likely to act on that information.
 
 ## Passing category affinity information into [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
-Whenever a user visits your site, profile parameters specific to the visitor are recorded in the [!DNL Target] database. This data is tied to the user's cookie. One particularly useful parameter is `user.categoryId`, an mbox parameter assigned on a product page. As the visitor continues to browse, or returns for another session, the categories of products a particular user views can be recorded. You can also record category information by passing it as the mbox parameter `user.categoryId` in any mbox (including a nested mbox), as a URL parameter `user.categoryId`, or in Target page parameters with a global mbox. See your account representative for more details.
+Whenever a user visits your site, profile parameters specific to the visitor are recorded in the [!DNL Target] database. This data is tied to the user's cookie. One useful parameter is `user.categoryId`, an mbox parameter assigned on a product page. As the visitor continues to browse, or returns for another session, the categories of products a particular user views can be recorded. You can also record category information by passing it as the mbox parameter `user.categoryId` in any mbox (including a nested mbox), as a URL parameter `user.categoryId`, or in Target page parameters with a global mbox. See your account representative for more details.
 
 Separate categories with a comma to include an item in multiple categories. For example:
 
@@ -23,7 +23,7 @@ You can use `user.categoryAffinities[]` in a profile script to return an array o
 
 >[!IMPORTANT]
 >
->The `user.categoryId` attribute used for Adobe Target's category affinity algorithm is distinct from the `entity.categoryId` attribute used for Adobe Target Recommendations' product and content recommendations. `user.categoryId` is required to track a user's favorite category. `entity.categoryId` is required to base recommendations on the current page's or current item's category. Pass both values to Adobe Target if you want to use both capabilities.
+>The `user.categoryId` attribute used for category affinity algorithm is distinct from the `entity.categoryId` attribute used for [!DNL Adobe Target Recommendations]' product and content recommendations. `user.categoryId` is required to track a user's favorite category. `entity.categoryId` is required to base recommendations on the current page's or current item's category. Pass both values to Adobe Target if you want to use both capabilities.
 
 ## Business case for category affinity {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
@@ -37,10 +37,10 @@ Suppose you sell musical instruments online and want to target sales promotions 
 
 The category affinity algorithm works as follows:
 
-* 10 points for the first category viewed
-* 5 points for each category clicked after the first
+* Ten points for the first category viewed
+* Five points for each category clicked after the first
 * When a new category is clicked, 1 is subtracted from all previously clicked categories
-* If a category was already clicked (seen), clicking it again won't subtract 1 from all other categories
+* If a category was already clicked (seen), clicking it again does not subtract 1 from all other categories
 * If a sixth new category is clicked, the lowest scored category of the first five categories is dropped from the calculation
 * At end of session, divide all values by 2
 
@@ -90,16 +90,11 @@ When the session ends, and the user later returns to the site, the scores are ha
 
 ## Use category affinity for targeting {#concept_5750C9E6C97A40F8B062A5C16F2B5FFC}
 
-Information to help you use a [!UICONTROL Category Affinity] audience for targeting in an activity. 
+The following sections contain information to help you use a category affinity audience for targeting in an activity. 
 
-This section contains the following information:
+### Create an audience to use category affinity {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
-* [Create an Audience to Use Category Affinity](/help/c-target/c-visitor-profile/category-affinity.md#section_A27C600BBA664FE7A74F8FE076B78F40) 
-* [Use the Category Affinity Audience in an Activity](/help/c-target/c-visitor-profile/category-affinity.md#section_91526B942D1B4AEBB8FCDF4EBFF931CF)
-
-## Create an audience to use category affinity {#section_A27C600BBA664FE7A74F8FE076B78F40}
-
-1. From the **[!UICONTROL Audiences]** list, click **[!UICONTROL + Create Audience]**.
+1. From the **[!UICONTROL Audiences]** list, click **[!UICONTROL Create Audience]**.
 
    Or
 
@@ -126,7 +121,7 @@ This section contains the following information:
 
     The "Favorite Category" and "First Category" options are equivalent.
 
-1. Chose the Evaluator:
+1. Choose the Evaluator:
 
     * Contains (case insensitive) 
     * Does Not Contain (case insensitive) 
@@ -135,6 +130,6 @@ This section contains the following information:
 1. Specify each new value in a separate line (for example, "shoes"). 
 1. Click **[!UICONTROL Save]**.
 
-## Use the category affinity audience in an activity {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
+### Use the category affinity audience in an activity {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
 
-You can use Category Affinity audiences in any activity. During the three-step guided workflow, on the Target step, choose the desired audience.
+You can use category affinity audiences in any activity. During the three-step guided workflow, on the [!UICONTROL Target] step, choose the desired audience.
