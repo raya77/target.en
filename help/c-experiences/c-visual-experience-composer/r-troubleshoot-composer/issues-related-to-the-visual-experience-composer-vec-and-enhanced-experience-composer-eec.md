@@ -29,7 +29,7 @@ Be aware of the changes that impact the VEC and EEC when using the following Chr
 
 ### Determine which cookies are blocked
 
-To check which cookies are blocked because of the SameSite cookie enforcement policies, use the Developer Tools in Chrome.
+To determine which cookies are blocked because of the SameSite cookie enforcement policies, use the Developer Tools in Chrome.
 
 1. To access the Developer Tools, while viewing the VEC in Chrome, click the **[!UICONTROL ellipsis]** icon at the top-right corner of Chrome > **[!UICONTROL More Tools]** > **[!UICONTROL Developer Tools]**.
 1. Click the **[!UICONTROL Network]** tab > then look for blocked cookies.
