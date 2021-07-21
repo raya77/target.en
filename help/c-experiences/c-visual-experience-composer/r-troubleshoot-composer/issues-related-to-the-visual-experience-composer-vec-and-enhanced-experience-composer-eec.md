@@ -11,30 +11,40 @@ Display problems and other issues sometimes occur in the [!DNL Adobe Target] [!U
 
 ## How do the Google Chrome SameSite cookie enforcement policies impact the VEC and EEC? {#samesite}
 
-With the impending changes planned for the Chrome 94 release (September 21, 2021), the following change impacts all users with Chrome 94+ browser versions:
+Be aware of the changes that impact the VEC and EEC when using the following Chrome releases: 
+
+**Chrome 94 (September 21, 2021)**: With the impending changes planned for the Chrome 94 release (September 21, 2021), the following change impacts all users with Chrome 94+ browser versions:
 
 * The command-line flag `--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure` will be removed.
 
-With the changes implemented for the Chrome 91 release (May 25, 2021), the following change impacts all users with Chrome 91+ browser versions:
+**Chrome 91 (May 25, 2021)**: With the changes implemented for the Chrome 91 release (May 25, 2021), the following change impacts all users with Chrome 91+ browser versions:
 
 * The flags `#same-site-by-default-cookies` and `#cookies-without-same-site-must-be-secure` have been removed from `chrome://flags`. This behavior is now enabled by default.
 
-With the changes implemented in August 2020, all users with Chrome 80+ browser versions:
+**Chrome 80 (August 2020)**: With the changes implemented in August 2020, all users with Chrome 80+ browser versions:
 
 * Will *not* be able to use the VEC (with or without the VEC Helper extension installed and enabled) in password-protected pages of their sites. Your site login cookies are considered a 3rd-party cookie and are sent with the login request. The only exception is when your site login cookie already has the SameSite parameter set to “none.”
 * Will *not* be able to download [!DNL Target] libraries while editing an activity (when these aren’t already on the site). This is because the download call is made from the customer domain towards a secured Adobe domain and is rejected as unauthenticated.
 * The EEC will *not* function for all users because it is not able to set the SameSite attribute for cookies on `adobemc.com domain`. Without this attribute, the browser rejects these cookies, causing the EEC to fail.
 
-To check which cookies are blocked because of the SameSite cookie enforcement policies, use the Developer Tools in Chrome.
+### Determine which cookies are blocked
+
+To determine which cookies are blocked because of the SameSite cookie enforcement policies, use the Developer Tools in Chrome.
 
 1. To access the Developer Tools, while viewing the VEC in Chrome, click the **[!UICONTROL ellipsis]** icon at the top-right corner of Chrome > **[!UICONTROL More Tools]** > **[!UICONTROL Developer Tools]**.
 1. Click the **[!UICONTROL Network]** tab > then look for blocked cookies.
+
+   >[!NOTE]
+   >
+   >Use the **[!UICONTROL Has blocked cookies]** checkbox to make finding blocked cookies easier. 
 
    The following illustration shows a blocked cookie:
 
    ![Developer Tools > Network tab showing a blocked cookie](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/chrome-developer-tools.png)
 
-Adobe has submitted an updated VEC Helper extension to the Google Chrome Store. This extension overwrites the cookie attributes to set the `SameSite="none"` attribute, when needed. The [updated extension can be found here](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). For more information about installing and using the VEC Helper Extension, see [Visual Experience Composer helper extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+### Google VEC Helper extension
+
+ Adobe has submitted an updated VEC Helper extension to the Google Chrome Store. This extension overwrites the cookie attributes to set the `SameSite="none"` attribute, when needed. The [updated extension can be found here](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). For more information about installing and using the VEC Helper Extension, see [Visual Experience Composer helper extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
 
 For your own site cookies, you must specify the cookies by name.
 
