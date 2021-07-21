@@ -44,7 +44,7 @@ To determine which cookies are blocked because of the SameSite cookie enforcemen
 
 ### Google VEC Helper extension
 
-Adobe has submitted an updated VEC Helper extension to the Google Chrome Store. This extension overwrites the cookie attributes to set the `SameSite="none"` attribute, when needed. The [updated extension can be found here](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). For more information about installing and using the VEC Helper Extension, see [Visual Experience Composer helper extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+ Adobe has submitted an updated VEC Helper extension to the Google Chrome Store. This extension overwrites the cookie attributes to set the `SameSite="none"` attribute, when needed. The [updated extension can be found here](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). For more information about installing and using the VEC Helper Extension, see [Visual Experience Composer helper extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
 
 For your own site cookies, you must specify the cookies by name.
 
