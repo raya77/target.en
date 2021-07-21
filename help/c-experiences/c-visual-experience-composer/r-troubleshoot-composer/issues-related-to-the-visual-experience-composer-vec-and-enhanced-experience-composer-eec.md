@@ -11,7 +11,13 @@ Display problems and other issues sometimes occur in the [!DNL Adobe Target] [!U
 
 ## How do the Google Chrome SameSite cookie enforcement policies impact the VEC and EEC? {#samesite}
 
-Be aware of the changes that impact the VEC and EEC when using the following Chrome releases: 
+Be aware of the changes that impact the VEC and EEC when using the following Chrome releases:
+
+>[!NOTE]
+>
+>The following change affects all three updates outlined below: 
+>
+> * Will *not* be able to use the VEC (with or without the VEC Helper extension installed and enabled) in password-protected pages of their sites. Your site login cookies are considered a 3rd-party cookie and are sent with the login request. The only exception is when your site login cookie already has the SameSite parameter set to “none.”
 
 **Chrome 94 (September 21, 2021)**: With the impending changes planned for the Chrome 94 release (September 21, 2021), the following change impacts all users with Chrome 94+ browser versions:
 
@@ -23,7 +29,6 @@ Be aware of the changes that impact the VEC and EEC when using the following Chr
 
 **Chrome 80 (August 2020)**: With the changes implemented in August 2020, all users with Chrome 80+ browser versions:
 
-* Will *not* be able to use the VEC (with or without the VEC Helper extension installed and enabled) in password-protected pages of their sites. Your site login cookies are considered a 3rd-party cookie and are sent with the login request. The only exception is when your site login cookie already has the SameSite parameter set to “none.”
 * Will *not* be able to download [!DNL Target] libraries while editing an activity (when these aren’t already on the site). This is because the download call is made from the customer domain towards a secured Adobe domain and is rejected as unauthenticated.
 * The EEC will *not* function for all users because it is not able to set the SameSite attribute for cookies on `adobemc.com domain`. Without this attribute, the browser rejects these cookies, causing the EEC to fail.
 
