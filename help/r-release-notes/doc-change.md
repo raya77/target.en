@@ -1,7 +1,7 @@
 ---
 keywords: target documentation change log;documentation updates;new topics;edits;updates;update
 description: Keep up to date with important additions and changes to the Adobe [!DNL Target] product documentation.
-title: Where Can I View Documentation Updates for Target?
+title: Where Can I See Documentation Updates for Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 ---
@@ -13,6 +13,8 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|July 21|[Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)|Updated the following section:<ul><li>How do the Google Chrome SameSite cookie enforcement policies impact the VEC and EEC?</li></ul>|
+|July 19|[Classifications - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)|Added information about event code -1 or 65535.|
 |July 16|[Target release notes (current)](/help/r-release-notes/release-notes.md)<br>and<br>[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about the at.js 2.6.0 release.|
 ||[Troubleshooting issues related to the [!UICONTROL Enhanced Experience Composer]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF)|Updated the list of IP address to allowlist.|
 |July 12|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added information about the following events:<ul><li>Webinar: Quantifying the significant ROI, insights, and time-savings of integrating Adobe Analytics + [!DNL Adobe Target].</li><li>[!DNL Adobe Target] Community Q&A Coffee Break to be held Wednesday, July 21, 2021 at 8 a.m. (PDT, GMT-7).</li></ul>|
