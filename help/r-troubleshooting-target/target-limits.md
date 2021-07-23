@@ -113,6 +113,10 @@ Character limits and other limits (offer size, audiences, profiles, values, para
 
   30,000 experiences per Automated Personalization (AP) activity.
 
+### Modifications per experience
+
+* **Limit**: 50 per experience on any activity
+
 ## mboxes
 
 ### In-mbox profile attribute value

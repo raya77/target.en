@@ -1,6 +1,6 @@
 ---
 keywords: response tokens;tokens;plugins;plug-ins;at.js;response
-description: Learn how to use response tokens in Adobe [!DNL Target] output-specific information to use in debugging and integrating with 3rd-party tools.
+description: Learn how to use response tokens in [!DNL Adobe Target] to output-specific information for debugging and integrating with 3rd-party tools.
 title: What are Response Tokens and How Do I Use Them?
 feature: Administration & Configuration
 role: Admin
@@ -174,7 +174,7 @@ The following code sample adds an [!DNL at.js] custom event handler directly to 
 
 Response tokens can be activated or deactivated only by users with the [!DNL Target] [!UICONTROL Administrator] role.
 
-**What happens if I am running [!DNL Platform Web SDK] 2.6.0 (or earlier)?
+**What happens if I am running [!DNL Platform Web SDK] 2.6.0 (or earlier)?**
 
 You do not have access to response tokens.
 
