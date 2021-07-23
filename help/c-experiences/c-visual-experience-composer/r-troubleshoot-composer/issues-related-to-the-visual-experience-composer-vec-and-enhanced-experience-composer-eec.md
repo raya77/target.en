@@ -17,7 +17,7 @@ Be aware of the changes that impact the VEC and EEC when using the following Chr
 >
 >The following change affects all three updates outlined below: 
 >
-> * Will *not* be able to use the VEC (with or without the VEC Helper extension installed and enabled) in password-protected pages of their sites. Your site login cookies are considered a 3rd-party cookie and are sent with the login request. The only exception is when your site login cookie already has the SameSite parameter set to “none.”
+> * Will *not* be able to use the VEC (with or without the VEC Helper extension installed and enabled) in password-protected pages of your sites. Your site login cookies are considered a 3rd-party cookie and are sent with the login request. The only exception is when your site login cookie already has the SameSite parameter set to `none` and `Secure.`
 
 **Chrome 94 (September 21, 2021)**: With the impending changes planned for the Chrome 94 release (September 21, 2021), the following change impacts all users with Chrome 94+ browser versions:
 
@@ -29,7 +29,7 @@ Be aware of the changes that impact the VEC and EEC when using the following Chr
 
 **Chrome 80 (August 2020)**: With the changes implemented in August 2020, all users with Chrome 80+ browser versions:
 
-* Will *not* be able to download [!DNL Target] libraries while editing an activity (when these aren’t already on the site). This is because the download call is made from the customer domain towards a secured Adobe domain and is rejected as unauthenticated.
+* Will *not* be able to download [!DNL Target] libraries while editing an activity (when these aren’t already on the site). This is because the download call is made from the customer domain towards a secured [!DNL Adobe] domain and is rejected as unauthenticated.
 * The EEC will *not* function for all users because it is not able to set the SameSite attribute for cookies on `adobemc.com domain`. Without this attribute, the browser rejects these cookies, causing the EEC to fail.
 
 ### Determine which cookies are blocked
@@ -49,7 +49,7 @@ To determine which cookies are blocked because of the SameSite cookie enforcemen
 
 ### Google VEC Helper extension
 
- Adobe has submitted an updated VEC Helper extension to the Google Chrome Store. This extension overwrites the cookie attributes to set the `SameSite="none"` attribute, when needed. The [updated extension can be found here](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). For more information about installing and using the VEC Helper Extension, see [Visual Experience Composer helper extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+ [!DNL Adobe] has submitted an updated VEC Helper extension to the Google Chrome Store. This extension overwrites the cookie attributes to set the `SameSite="none"` attribute, when needed. The [updated extension can be found here](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). For more information about installing and using the VEC Helper Extension, see [Visual Experience Composer helper extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
 
 For your own site cookies, you must specify the cookies by name.
 
@@ -67,7 +67,7 @@ Use one of the following options to ensure that your VEC and EEC continue to wor
 
 * Download and use the updated [VEC Helper extension](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
 * Use the Mozilla Firefox browser. Firefox is not yet enforcing this policy.
-* Use the following flags to run Google Chrome from the command line until September 21, 2021. After September 21, your website will no longer work in the VEC. If you update to Chrome 94, you must manually generate cookies with `SameSite=none` and `Secure` on your websites.
+* Use the following flags to run Google Chrome from the command line until September 21, 2021. After September 21, features that require cookies will no longer work in the VEC, such as login or cookie consent popups. If you update to Chrome 94, you must manually generate cookies with `SameSite=none` and `Secure` on your websites.
 
   ```
   --disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure
