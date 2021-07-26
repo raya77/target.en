@@ -18,10 +18,6 @@ A key difference between plug-ins and response tokens is that plug-ins deliver J
 >
 >Response tokens are available with at.js version 1.1 or later. 
 
->[!IMPORTANT] 
->
->Response token will be available with the [!DNL Adobe Experience Platform Web SDK] in a future release (date to be determined). The documentation below about response tokens and the Platform Web SDK is included as a sneak peak.
-
 | Target SDK | Suggested actions |
 |--- |--- |
 |[Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)|Ensure that you are using Platform Web SDK version 2.6.0 or later. For information about downloading the latest version of Platform Web SDK, see [Install the SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) in the *Platform Web SDK overview* guide. For information about new functionality in each version of the Platform Web SDK, see [Release notes](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) in the *Platform Web SDK overview* guide.|
