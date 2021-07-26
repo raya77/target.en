@@ -1,5 +1,5 @@
 ---
-keywords: response tokens;tokens;plugins;plug-ins;at.js;response
+keywords: response tokens;tokens;plugins;plug-ins;at.js;response;platform web sdk
 description: Learn how to use response tokens in [!DNL Adobe Target] to output-specific information for debugging and integrating with 3rd-party tools.
 title: What are Response Tokens and How Do I Use Them?
 feature: Administration & Configuration
