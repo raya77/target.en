@@ -21,6 +21,6 @@ In addition to the [!DNL Platform Web SKD] documentation mentioned above, topics
 
 |Topic|Description|
 | --- | --- |
-|[Activity QA](/help/c-activities/c-activity-qa/activity-qa.md)|Use QA URLs in [!DNL Adobe Target] to perform easy end-to-end activity QA with preview links that never change, optional audience targeting, and QA reporting that stays segmented from live activity data. [!UICONTROL Activity QA] lets you fully test your [!DNL Target] activities before launching them live.<br>See [Target JavaScript library [!UICONTROL QA Mode] compatibility](/help/c-activities/c-activity-qa/activity-qa.md#compatibility).|
+|[Activity QA](/help/c-activities/c-activity-qa/activity-qa.md)|QA URLs in [!DNL Adobe Target] let to perform easy end-to-end activity QA with preview links that never change, optional audience targeting, and QA reporting that stays segmented from live activity data. You fully test your [!DNL Target] activities before launching them live.<br>See [Target JavaScript library [!UICONTROL QA Mode] compatibility](/help/c-activities/c-activity-qa/activity-qa.md#compatibility).|
 |[Response tokens](/help/administrating-target/response-tokens.md)|Response tokens let you send Target data to Google Analytics and other 3rd-party integrations.<br>See [Sending data to Google Analytics via Platform Web SDK](/help/administrating-target/response-tokens.md#platform-web-sdk).
 
