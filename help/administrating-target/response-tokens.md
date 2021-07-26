@@ -78,7 +78,7 @@ A key difference between plug-ins and response tokens is that plug-ins deliver J
 
 The process you use to listen for [!DNL Target] responses and read response tokens differs depending on whether you have a [!DNL Platform Web SDK] or at.js implementation.
 
-### ![Adobe Experience Platform Web SDK badge](/help/assets/platform.png) [!DNL Platform Web SDK] using the Handle object class
+### ![Adobe Experience Platform Web SDK badge](/help/assets/platform.png) [!DNL Platform Web SDK] using the Handle object class {#platform-web-sdk}
 
 Use the Handle object class, which has a meta data object and a data object to listen for [!DNL Target] responses and read the response tokens.
 
