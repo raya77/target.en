@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|July 27|[Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)|Added the following section:<ul><li>Recommended documentation in this guide</li></ul>|
 |July 26|[Using Adobe Target with the Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=en) in the *Adobe Experience Platform Web SDK overview* guide|Added new section:<ul><li>Platform Web SDK system diagram</li></ul>|
 |July 23|[Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)|Updated the following section to provide more detail:<ul><li>How do the Google Chrome SameSite cookie enforcement policies impact the VEC and EEC?</li></ul>|
 ||[Limits](/help/r-troubleshooting-target/target-limits.md)|Added new section "Modifications per experience" under "Experiences."|
