@@ -56,7 +56,7 @@ Character limits and other limits (offer size, audiences, profiles, values, para
 
 ## Content delivery {#content-delivery}
 
-* **Limit**: 100 concurrent [!DNL Target] content delivery requests.
+* **Limit**: 100 concurrent [!DNL Target] content delivery requests per user session.
 
   If a customer exceeds 100 concurrent [!DNL Target] content delivery requests for a given user session, all subsequent requests for that user session are blocked. Two or more requests are considered to be concurrent if they are all sent to the [!DNL Target] server before the response is received for any of them. [!DNL Target] processes concurrent requests for the same session sequentially. 
 
