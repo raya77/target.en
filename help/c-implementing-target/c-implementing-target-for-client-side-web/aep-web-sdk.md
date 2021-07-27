@@ -17,7 +17,7 @@ For more information, see the following links in the *Adobe Experience Platform 
 
 ## Recommended documentation in this guide
 
-In addition to the [!DNL Platform Web SKD] documentation mentioned above, topics in this guide also have information specific to the [!DNL Platform Web SDK] as it relates to [!DNL Target] features and functionality.
+In addition to the [!DNL Platform Web SDK] documentation mentioned above, topics in this guide also have information specific to the [!DNL Platform Web SDK] as it relates to [!DNL Target] features and functionality.
 
 |Feature|Description/Link|
 | --- | --- |
