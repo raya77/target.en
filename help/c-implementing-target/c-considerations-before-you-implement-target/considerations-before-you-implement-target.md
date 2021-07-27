@@ -14,7 +14,7 @@ This section includes information for developers specific to their implementatio
 
 >[!IMPORTANT]
 >
->Modifications to at.js or the Adobe Experience Platform Web SDK are not supported by Adobe Customer Care.
+>Modifications to at.js or the [!DNL Adobe Experience Platform Web SDK] are not supported by Adobe Customer Care.
 
 - [Prepare to implement Target](prepare-to-implement-target.md)
 - [Privacy](c-privacy/privacy.md)
