@@ -24,7 +24,7 @@ There are two types of audiences in [!DNL Target]:
 
   In [!DNL Target], you can configure reporting audiences only if you use [!DNL Target] as your reporting source. If you use [Adobe Analytics as your reporting source](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), you must configure your reporting audiences within [!DNL Analytics].
 
-## Use the [!UICONTROL Audiences] list
+## Use the [!UICONTROL Audiences] list {#use-list}
 
 To access the [!UICONTROL Audiences] list, click **[!UICONTROL Audiences]** in the top menu bar:
 
