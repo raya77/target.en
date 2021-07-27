@@ -54,7 +54,7 @@ Character limits and other limits (offer size, audiences, profiles, values, para
 
 * **Limit**: 250 characters.
 
-##  Content delivery {#content-delivery}
+## Content delivery {#content-delivery}
 
 * **Limit**: 100 concurrent [!DNL Target] content delivery requests.
 
@@ -65,8 +65,10 @@ Character limits and other limits (offer size, audiences, profiles, values, para
   * Delivery API and Batch Mbox v2:
     * Error code: HTTP 420 Too Many Requests
     * Error message: "Too many requests with same session ID"
+  
   * Legacy mbox API:
     * Default content with comment "Too many requests with same session ID"
+  
   * at.js:
     * Default content displayed
 
