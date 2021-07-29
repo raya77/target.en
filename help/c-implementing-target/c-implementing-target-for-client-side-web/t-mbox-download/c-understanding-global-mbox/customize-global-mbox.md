@@ -8,7 +8,7 @@ exl-id: 6d3eab89-818c-405c-81af-90dfbede7390
 ---
 # Customize a global mbox
 
-Information to help you customize a global mbox for at.js.
+Information to help you customize an [!DNL Adobe Target] global mbox for at.js.
 
 1. Click **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
@@ -34,4 +34,5 @@ Information to help you customize a global mbox for at.js.
 
    >[!IMPORTANT]
    >
-   >All activities in your account sync with this mbox. If this mbox is not on your site, all activities stop functioning.
+   >All activities in your account sync with this mbox. Ensure that the global mbox is present on your site so that activities continue functioning. Be sure to edit and re-save affected activities that were created with the Visual Experience Composer (VEC) that sync with this mbox. It is not necessary to re-save activities created in the Form-Based Experience Composer or via API.
+

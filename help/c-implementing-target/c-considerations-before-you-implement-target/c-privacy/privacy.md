@@ -55,12 +55,6 @@ Any visitor who clicks this link is not included in any mbox requests called fro
 
 Even if you use a first-party cookie implementation, the provided opt-out is set via a 3rd-party cookie. If the client is using a first-party cookie only, Target checks whether an opt-out cookie is set. 
 
-## Collection of feature-usage data {#feature-usage}
-
-Individual feature-usage data is collected for internal [!DNL Adobe] purposes to identify whether [!DNL Target] features are performing as intended or to identify features that are being under-utilized. Various measurements of latency are collected to help address performance concerns. Personal data is not collected.
-
-You can opt out of reporting usage data by setting `telemetryEnabled` in your config file to `false`.
-
 ## Privacy and data protection regulations
 
 See [Privacy and data protection regulations](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) for information about the European Union's General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and other international privacy requirements, and how these regulations impact your organization and Adobe Target.

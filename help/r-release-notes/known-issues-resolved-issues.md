@@ -17,6 +17,10 @@ Information about known issues for [!DNL Adobe Target]. Also includes informatio
 
 The following sections list the known issues for [!DNL Target]:
 
+### The Enhanced Experience Composer (EEC) does not support PUT requests.
+
+An issue with the EEC currently prevents it from supporting PUT requests and results in a 504 timeout error. (TGT-41493)
+
 ### [!DNL Adobe Experience Platform] segment names do not display in the [!UICONTROL Important Attributes] report.
 
 [!DNL Adobe Experience Platform] segment names do not display in the [!UICONTROL Important Attributes] report for [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] (AT) activities. (TOP-3813)
