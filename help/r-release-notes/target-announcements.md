@@ -20,17 +20,15 @@ Announcements and information about upcoming events, including [!DNL Adobe Targe
 
 ## [!DNL Adobe Target] Community Q&A Coffee Break
 
-* **Wednesday, July 21, 2021**
+* **Wednesday, August 11, 2021**
 * **8 a.m. (PDT, UTC -7)**
-* **[Click here for more information and to register](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-7-21-21-8am-pt-david-son/td-p/412171).**
+* **[Click here for more information and to register](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-8-11-21-8am-pt-jim-mctiernan/m-p/410332/thread-id/2742).**
 
-David Son, [!DNL Target] Senior Product Manager will answer your questions pertaining to his areas of expertise:
+Principal Solutions Consultant for [!DNL Adobe Target], James McTiernan will be answering customer questions pertaining to his areas of expertise within [!DNL Target]:
 
-* [!DNL Adobe Experience Platform Web SDK]
-* On-device decisioning
-* at.js
-* Mobile
-* Target APIs 
+* Recommendations
+* A/B and Multivariate (MVT) testing
+* Personalization
 
 ## Webinar: Personalize and test at zero latency with on-device decisions from Adobe Target
 
