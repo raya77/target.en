@@ -109,9 +109,15 @@ Character limits and other limits (offer size, audiences, profiles, values, para
 
   Multi-value entity custom attributes can contain no more than 500 values. Each individual value is limited to 100 characters. The total number of characters across all values must conform to the limitations for the maximum length of single-value entity custom attributes (see above.)
 
-### entityID parameters
+### entity.id
 
-* **Limit**: 1,000 characters.
+* **Limit for implementations that require capturing purchase information**: 50 characters.
+ 
+  This limit is enforced because the `productPurchasedId` mbox parameter captures the entity.ids, which limits the character count to 50.
+
+* **Limit for implementations that require view-based algorithms only:**: 1,000 characters.
+
+  View-based algorithms include view/view, most viewed, recently viewed, and so forth.
 
 ## excludedIds {#excludedid}
 
