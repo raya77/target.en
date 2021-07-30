@@ -235,7 +235,7 @@ The following size limits apply to offers:
 
 ## productPurchasedId parameter
 
-* **Limit**: 47 characters per comma-separated value and 250 characters in total. Individual values longer than 47 characters may be truncated by the system. Total lengths above 250 characters may result in a 400 error.
+* **Limit**: 50 characters per comma-separated value and 250 characters in total. Individual values longer than 50 characters are truncated by the system. Total lengths above 250 characters result in a 400 error.
 
 ## Profile scripts
 
