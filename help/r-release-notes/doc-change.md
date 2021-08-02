@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|August 2 |[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md)|Added the following known issue:<ul><li>Traffic distribution of Auto-Allocate activities using A4T</li></ul>|
 |July 30|[Limits](/help/r-troubleshooting-target/target-limits.md)|Updated the following sections:<ul><li>entity.id</li><li>productPurchasedId parameter</li></ul>|
 |July 29|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added the information about the [!DNL Adobe Target] Community Q&A Coffee Break: Wednesday, August 11, 2021.|
 ||[Customize a global mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)|Updated Important note to indicate that you must edit and re-save affected activities created in the VEC after customizing a global mbox.|
