@@ -19,7 +19,9 @@ The following sections list the known issues for [!DNL Target]:
 
 ### Traffic distribution of Auto-Allocate activities using A4T {#aa-a4t}
 
-In some cases, the traffic distribution of [!UICONTROL Auto-Allocate] activities using [!UICONTROL Analytics for Target] (A4T) might vary from what should occur based on the reported conversion rate of each experience. This occurs more often for activities with a high proportion of return visitor traffic. Affected customers will be notified about affected activities. (TOP-131)
+In some cases, the traffic distribution of [!UICONTROL Auto-Allocate] activities using [!UICONTROL Analytics for Target] (A4T) might vary from what should occur based on the reported conversion rate of each experience. This occurs more often for activities with a high proportion of return visitor traffic. Affected customers will be notified about affected activities.
+
+Until this issue is resolved, use [!UICONTROL Auto-Allocate] with standard [!DNL Target] reporting or use standard A/B tests with [!DNL Analytics] reporting as an alternative to [!UICONTROL Auto-Allocate] with [!DNL Analytics] reporting. (TOP-131)
 
 ### Analytics for Adobe Target (A4T) metrics for Auto-Allocate and Auto-Target activities
 
