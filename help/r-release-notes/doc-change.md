@@ -13,7 +13,8 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|August 3|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the upcoming [!DNL Target Standard/Premium] 21.8.1 release (August 4, 2021).|
+|August 3|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the [!UICONTROL Target Delivery API] release.|
+||[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the upcoming [!DNL Target Standard/Premium] 21.8.1 release (August 4, 2021).|
 |August 2 |[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md)|Added the following known issue:<ul><li>Traffic distribution of Auto-Allocate activities using A4T</li></ul>|
 ||[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the upcoming [!UICONTROL Target Delivery API] release.|
 |July 30|[Limits](/help/r-troubleshooting-target/target-limits.md)|Updated the following sections:<ul><li>entity.id</li><li>productPurchasedId parameter</li></ul>|
