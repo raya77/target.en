@@ -23,7 +23,7 @@ To view information about the current release, see [Target Release Notes](releas
 
 This release contains the following enhancements:
 
-* The limit for mbox parameters has been increased to 100 parameters. The previous limit was 50 parameters.
+* The limit for mbox parameters has been increased to 100 parameters. The previous limit was 50 parameters. (TNT-41717)
 * The limit for `categoryId` has been increased to 256 characters. The previous limit was 128 characters.
 * The following [!DNL Adobe Audience Manager] (AAM) details have been added to the Delivery API:    
 
