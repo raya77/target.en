@@ -19,6 +19,12 @@ To view information about the current release, see [Target Release Notes](releas
 >
 >To avoid any potential issues with your sites, migrate to the most recent version of the new [!DNL Adobe Experience Platform Web SDK] or the at.js JavaScript library. For more information, see [Overview: implement Target for client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
+## [!DNL Target Standard/Premium] 21.8.1 (August 4, 2021)
+
+This maintenance release contains many backend enhancements, including the following customer-facing change:
+
+* Fixed an issue that caused reports for [!UICONTROL Auto Personalization] activities created in the [!UICONTROL Form-Based Experience Composer] to reference deleted offers in reports. This issued caused the following error message to display, "We are having trouble retrieving data for this report. Please contact Adobe Client Care if the problem persists." (TGT-41028)
+
 ## Target Delivery API (Date to be determined)
 
 This release contains the following enhancements:
