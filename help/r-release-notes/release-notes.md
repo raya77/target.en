@@ -25,9 +25,9 @@ This release contains the following enhancements:
 * The limit for `categoryId` has been increased to 256 characters. The previous limit was 128 characters.
 * The following [!DNL Adobe Audience Manager] (AAM) details have been added to the Delivery API:    
 
-  * AAM UUID (Adobe Audience Manager Unique User ID)
-  * dataPartnerId
-  * dataPartnerUserId
+  * AAM UUID: The internal AAM ID used to uniquely identify a user. 
+  * dataPartnerId: The ID for a data partner.
+  * dataPartnerUserId: The user ID provided by a data partner.
   
   Previously, the Delivery API included `dcsLocationHint` and `blob` only. (TNT-41644)
 

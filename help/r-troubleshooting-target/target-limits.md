@@ -52,7 +52,7 @@ Character limits and other limits (offer size, audiences, profiles, values, para
 
 ## categoryId parameter
 
-* **Limit**: 250 characters.
+* **Limit**: 256 characters.
 
 ## Content delivery {#content-delivery}
 
@@ -190,7 +190,7 @@ Character limits and other limits (offer size, audiences, profiles, values, para
 
   **Delivery API endpoint**: 
 
-  * mbox parameters 50
+  * mbox parameters 100
   * mbox parameter name max length 128
   * mbox parameter value cannot be null
   * mbox parameter value 5000
