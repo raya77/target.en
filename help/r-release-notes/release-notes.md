@@ -17,6 +17,20 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## Target Delivery API (August 3, 2021)
+
+This release contains the following enhancements:
+
+* The limit for mbox parameters has been increased to 100 parameters. The previous limit was 50 parameters. (TNT-41717)
+* The limit for `categoryId` has been increased to 256 characters. The previous limit was 128 characters.
+* The following [!DNL Adobe Audience Manager] (AAM) details have been added to the Delivery API:    
+
+  * AAM UUID (Adobe Audience Manager Unique User ID)
+  * dataPartnerId
+  * dataPartnerUserId
+  
+  Previously, the Delivery API included `dcsLocationHint` and `blob` only. (TNT-41644)
+
 ## at.js 2.6.0 (July 16, 2021)
 
 * Added secure attribute to cookies whenever at.js settings `secureOnly` is set to `true`.

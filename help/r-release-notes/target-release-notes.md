@@ -25,7 +25,7 @@ This maintenance release contains many backend enhancements, including the follo
 
 * Fixed an issue that caused reports for [!UICONTROL Auto Personalization] activities created in the [!UICONTROL Form-Based Experience Composer] to reference deleted offers in reports. This issued caused the following error message to display, "We are having trouble retrieving data for this report. Please contact Adobe Client Care if the problem persists." (TGT-41028)
 
-## Target Delivery API (Date to be determined)
+## Target Delivery API (August 3, 2021)
 
 This release contains the following enhancements:
 
