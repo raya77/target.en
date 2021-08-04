@@ -17,6 +17,14 @@ Release notes are arraigned in descending order by month and year of release.
 
 ## Release notes - 2021
 
+### [!DNL Target Standard/Premium] 21.6.1 (June 30, 2021)
+
+This release contains the following new features and enhancements. The issue numbers in parentheses are for internal [!DNL Adobe] use.
+
+|Feature|Details|
+| --- | --- |
+|[!UICONTROL Analytics for Target] (A4T)|Clicking the "[!UICONTROL View in Analytics]" link on the [!UICONTROL Reports] page from an activity that uses [!DNL Analytics] as the reporting source (A4T), [!DNL Analysis Workspace] now opens. Previously, the link opened [!DNL Analytics] reporting. (TGT-36959)|
+
 ### Python SDK 1.0.0 (June 16, 2021)
 
 The new [!DNL Adobe Target] Python SDK with on-device decisioning capabilities is now available. This newest addition bolsters the [!DNL Target] suite of server-side SDKs. These SDKS help you integrate with [!DNL Target] and expedite your time to value, in the language of your choice. Server-side integrations are becoming a popular choice given that the market is shifting to a cookie-less world in which first-party data is valuable. Target SDKs are available in the most popular programming languages in the market (Python, Java, JavaScript, C# / .Net).

@@ -9,6 +9,12 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 
 This page lists significant changes made to the [!DNL Adobe Target] product documentation.
 
+## Adobe [!DNL Target] Standard/Premium 21.8.1 (August 4, 2021)
+
+|Date|Topic|Changes|
+| --- | --- | --- |
+|August 4|[Target release notes (current)](/help/r-release-notes/release-notes.md): 21.6.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
+
 ## Adobe [!DNL Target] Standard/Premium 21.6.1 (June 30, 2021)
 
 |Date|Topic|Changes|
