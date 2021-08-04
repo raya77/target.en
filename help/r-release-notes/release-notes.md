@@ -7,7 +7,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 ---
 # Target release notes (current)
 
-These release notes provide information about features, enhancements, and fixes for each [!DNL Adobe Target Standard] and [!DNL Target Premium] release. In addition, release notes for Target APIs, SDKs, the JavaScript library (at.js), and other platform changes are also included, when applicable.
+These release notes provide information about features, enhancements, and fixes for each [!DNL Adobe Target Standard] and [!DNL Target Premium] release. In addition, release notes for Target APIs, SDKs, the [!DNL Adobe Experience Platform Web SDK], at.js, and other platform changes are also included, when applicable.
 
 >[!IMPORTANT]
 >
@@ -17,7 +17,13 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## Target Delivery API (August 3, 2021)
+## [!DNL Target Standard/Premium] 21.8.1 (August 4, 2021)
+
+This maintenance release contains many backend enhancements, including the following customer-facing change:
+
+* Fixed an issue that caused reports for [!UICONTROL Auto Personalization] activities created in the [!UICONTROL Form-Based Experience Composer] to reference deleted offers in reports. This issued caused the following error message to display, "We are having trouble retrieving data for this report. Please contact Adobe Client Care if the problem persists." (TGT-41028)
+
+## [!DNL Target Delivery API] (August 3, 2021)
 
 This release contains the following enhancements:
 
@@ -31,7 +37,7 @@ This release contains the following enhancements:
   
   Previously, the Delivery API included `dcsLocationHint` and `blob` only. (TNT-41644)
 
-## at.js 2.6.0 (July 16, 2021)
+## at.js 2.6.0 (July 27, 2021)
 
 * Added secure attribute to cookies whenever at.js settings `secureOnly` is set to `true`.
 * Response tokens are now available when using `triggerView()`.
@@ -41,32 +47,11 @@ This release contains the following enhancements:
 * The `sessionId` cookie expiry is correctly extended on every network call.
 * The [!UICONTROL Single Page Application] (SPA) view cache initialization is now correctly handled and honors `viewsEnable` settings.
 
-## [!DNL Target Standard/Premium] 21.6.1 (June 30, 2021)
-
-This release contains the following new features and enhancements. The issue numbers in parentheses are for internal [!DNL Adobe] use.
-
-|Feature|Details|
-| --- | --- |
-|[!UICONTROL Analytics for Target] (A4T)|Clicking the "[!UICONTROL View in Analytics]" link on the [!UICONTROL Reports] page from an activity that uses [!DNL Analytics] as the reporting source (A4T), [!DNL Analysis Workspace] now opens. Previously, the link opened [!DNL Analytics] reporting. (TGT-36959)|
-
-## Python SDK 1.0.0 (June 16, 2021)
-
-The new [!DNL Adobe Target] Python SDK with on-device decisioning capabilities is now available. This newest addition bolsters the [!DNL Target] suite of server-side SDKs. These SDKS help you integrate with [!DNL Target] and expedite your time to value, in the language of your choice. Server-side integrations are becoming a popular choice given that the market is shifting to a cookie-less world in which first-party data is valuable. Target SDKs are available in the most popular programming languages in the market (Python, Java, JavaScript, C# / .Net).
-
-For more information, see the [Python SDK documentation](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk) in the [Adobe Target SDKs guide](https://adobetarget-sdks.gitbook.io/docs/).
-
-## ![Adobe Experience Platform Web SDK badge](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] version 2.5.0 (June 1, 2021)
-
-This release of the [!DNL Platform Web SDK] includes support for the following:
-
-|Feature|Details|
-| --- | --- |
-|Redirect support with [!UICONTROL Analytics for Target] (A4T)|The Platform Web SDK now supports [!DNL Target] redirects when using [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>For more information, see see [Analytics for [!DNL Target] implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md).|
-
 ## Additional release notes and version details
 
 |Resource|Details|
 |--- |--- |
+|[Release notes: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en)|Details about changes in each version of the Platform Web SDK.|
 |[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Details about changes in each version of the [!DNL Adobe Target] at.js JavaScript library.|
 
 ## Documentation Changes, Past Release Notes, and Experience Cloud Release Notes
