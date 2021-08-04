@@ -71,37 +71,37 @@ You can override the following settings:
 * **Other Values**: on-device, hybrid 
 * **Description**: See Decisioning Methods below.
 
-**Decisioning Methods** 
+  **Decisioning Methods** 
 
-With on-device decisioning, Target introduces a new setting called [!UICONTROL Decisioning Method] that dictates how at.js delivers your experiences. The `decisioningMethod` has three values: server-side only, on-device only, and hybrid. When `decisioningMethod` is set in `targetGlobalSettings()`, it acts as the default decisioning method for all [!DNL Target] decisions.
+  With on-device decisioning, Target introduces a new setting called [!UICONTROL Decisioning Method] that dictates how at.js delivers your experiences. The `decisioningMethod` has three values: server-side only, on-device only, and hybrid. When `decisioningMethod` is set in `targetGlobalSettings()`, it acts as the default decisioning method for all [!DNL Target] decisions.
 
-[!UICONTROL Server-side only]:
+  **[!UICONTROL Server-side only]**:
 
-[!UICONTROL Server-side only] is the default decisioning method that is set out of the box when at.js 2.5+ is implemented and deployed on your web properties.
+  [!UICONTROL Server-side only] is the default decisioning method that is set out of the box when at.js 2.5+ is implemented and deployed on your web properties.
 
-Using [!UICONTROL server-side only] as the default configuration means that all decisions are made on the [!DNL Target] edge network, which involves a blocking server call. This approach can introduce incremental latency, but it also provides significant benefits, such as giving you the ability to apply Target’s machine-learning capabilities that include [Recommendations](/help/c-recommendations/recommendations.md), [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP), and [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) activities. 
+  Using [!UICONTROL server-side only] as the default configuration means that all decisions are made on the [!DNL Target] edge network, which involves a blocking server call. This approach can introduce incremental latency, but it also provides significant benefits, such as giving you the ability to apply Target’s machine-learning capabilities that include [Recommendations](/help/c-recommendations/recommendations.md), [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP), and [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) activities. 
 
-Furthermore, enhancing your personalized experiences by using Target’s user profile, which is persisted across sessions and channels, can provide powerful outcomes for your business. 
+  Furthermore, enhancing your personalized experiences by using Target’s user profile, which is persisted across sessions and channels, can provide powerful outcomes for your business. 
 
-Lastly, [!UICONTROL server-side only] lets you use the Adobe Experience Cloud and fine-tune audiences that can be targeted against through Audience Manager and Adobe Analytics segments.
+  Lastly, [!UICONTROL server-side only] lets you use the Adobe Experience Cloud and fine-tune audiences that can be targeted against through Audience Manager and Adobe Analytics segments.
 
-[!UICONTROL On-device only]:
+  **[!UICONTROL On-device only]**:
 
-[!UICONTROL On-Device only] is the decisioning method that must be set in at.js 2.5+ when on-device decisioning should be used only throughout your web pages. 
+  [!UICONTROL On-Device only] is the decisioning method that must be set in at.js 2.5+ when on-device decisioning should be used only throughout your web pages. 
 
-On-device decisioning can deliver your experiences and personalization activities at blazing fast speed because the decisions are made from a cached rules artifact that contains all of your activities that qualify for on-device decisioning. 
+  On-device decisioning can deliver your experiences and personalization activities at blazing fast speed because the decisions are made from a cached rules artifact that contains all of your activities that qualify for on-device decisioning. 
 
-To learn more about which activities qualify for on-device decisioning, see the supported features section. 
+  To learn more about which activities qualify for on-device decisioning, see the supported features section. 
 
-This decisioning method should be used only if performance is highly critical across all the pages that require decisions from [!DNL Target]. Furthermore, keep in mind that when this decisioning method is selected, your [!DNL Target] activities that do not qualify for on-device decisioning will not be delivered or executed. The at.js library 2.5+ is configured to only look for the cached rules artifact to make decisions.
+  This decisioning method should be used only if performance is highly critical across all the pages that require decisions from [!DNL Target]. Furthermore, keep in mind that when this decisioning method is selected, your [!DNL Target] activities that do not qualify for on-device decisioning will not be delivered or executed. The at.js library 2.5+ is configured to only look for the cached rules artifact to make decisions.
 
-Hybrid:
+  **Hybrid**:
 
-[!UICONTROL Hybrid] is the decisioning method that must be set in at.js 2.5+ when both on-device decisioning and activities that require a network call to the Adobe Target Edge network must be executed. 
+  [!UICONTROL Hybrid] is the decisioning method that must be set in at.js 2.5+ when both on-device decisioning and activities that require a network call to the Adobe Target Edge network must be executed. 
 
-When you are managing both on-device decisioning activities and server-side activities, it can be a bit complicated and tedious when thinking about how to deploy and provision [!DNL Target] on your pages. With hybrid as the decisioning method, [!DNL Target] knows when it must make a server call to the Adobe Target Edge network for activities that require server-side execution, and also when to only execute on-device decisions. 
+  When you are managing both on-device decisioning activities and server-side activities, it can be a bit complicated and tedious when thinking about how to deploy and provision [!DNL Target] on your pages. With hybrid as the decisioning method, [!DNL Target] knows when it must make a server call to the Adobe Target Edge network for activities that require server-side execution, and also when to only execute on-device decisions. 
 
-The JSON rules artifact includes metadata to inform at.js whether an mbox has a server-side activity running or an on-device decisioning activity. This decisioning method ensures that activities you intend to be delivered quickly are done through on-device decisioning and for activities that require more powerful ML-driven personalization, those activities are done via the Adobe Target Edge network.
+  The JSON rules artifact includes metadata to inform at.js whether an mbox has a server-side activity running or an on-device decisioning activity. This decisioning method ensures that activities you intend to be delivered quickly are done through on-device decisioning and for activities that require more powerful ML-driven personalization, those activities are done via the Adobe Target Edge network.
 
 ### defaultContentHiddenStyle
 
@@ -144,6 +144,12 @@ The JSON rules artifact includes metadata to inform at.js whether an mbox has a 
 * **Type**: Sting 
 * **Default Value**: true
 * **Description**: Represents the IMS ORG ID.
+
+### optinEnabled
+
+* **Type**: Boolean
+* **Default Value**: false
+* **Description**: [!DNL Target] provides opt-in functionality support via [!DNL Adobe Platform Launch] to help support your consent management strategy. Opt-in functionality lets customers control how and when the [!DNL Target] tag is fired. There is also an option via [!DNL Platform Launch] to pre-approve the [!DNL Target] tag. To enable the ability to use Opt-In in the [!DNL Target] at.js library, add the `optinEnabled=true` setting. In [!DNL Platform Launch] you must select “enable” from the [!UICONTROL GDPR Opt-In] drop-down list in the Launch extension installation view. See the [Platform Launch documentation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) for more details.
 
 ### optoutEnabled
 
