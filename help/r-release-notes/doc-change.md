@@ -13,6 +13,8 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|August 5|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added note indicating that the [!DNL Target Standard/Premium] 18.8.1 release is delayed.|
+||[[!UICONTROL Auto-Allocate] overview](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#change-reporting)|Added the following FAQ:<ul><li>Can I change the reporting source midway through an [!UICONTROL Auto-Allocate] activity?</li></ul>|
 |August 4|[targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)|Added information about the `optinEnabled` setting.|
 |August 3|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the [!UICONTROL Target Delivery API] release.|
 ||[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the upcoming [!DNL Target Standard/Premium] 21.8.1 release (August 4, 2021).|
