@@ -9,17 +9,11 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 
 This page lists significant changes made to the [!DNL Adobe Target] product documentation.
 
-## Adobe [!DNL Target] Standard/Premium 21.8.1 (August 4, 2021)
-
-|Date|Topic|Changes|
-| --- | --- | --- |
-|August 4|[targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)|Added information about the `optinEnabled` setting.|
-||[Target release notes (current)](/help/r-release-notes/release-notes.md): 21.8.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
-
 ## Adobe [!DNL Target] Standard/Premium 21.6.1 (June 30, 2021)
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|August 4|[targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)|Added information about the `optinEnabled` setting.|
 |August 3|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the [!UICONTROL Target Delivery API] release.|
 ||[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the upcoming [!DNL Target Standard/Premium] 21.8.1 release (August 4, 2021).|
 |August 2 |[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md)|Added the following known issue:<ul><li>Traffic distribution of Auto-Allocate activities using A4T</li></ul>|
