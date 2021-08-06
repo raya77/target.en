@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|August 6|[Before you implement [!UICONTROL Analytics for Target] (A4T) with at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md)|Updated following note:<ul><li>at.js 1.8.0+ and at.js 2.x+ no longer work with Visitor API versions older than 2.5.0 for passing Adobe Audience Manager (AAM) parameters.</li></ul>|
 |August 5|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added note indicating that the [!DNL Target Standard/Premium] 18.8.1 release is delayed.|
 ||[[!UICONTROL Auto-Allocate] overview](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#change-reporting)|Added the following FAQ:<ul><li>Can I change the reporting source midway through an [!UICONTROL Auto-Allocate] activity?</li></ul>|
 |August 4|[targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)|Added information about the `optinEnabled` setting.|
