@@ -18,7 +18,7 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## [!DNL Target] node.js SDK 2.1.8 (August 11, 2021)
+## [!DNL Target] node.js SDK 2.2.0 (August 11, 2021)
 
 * Added SDK telemetry data collection
 * Automated Delivery API client openapi codegen
