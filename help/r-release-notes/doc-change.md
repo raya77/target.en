@@ -13,7 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|August 11|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target] node.js SDK.|
+|August 11|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target] node.js SDK version 2.2.0.|
 |August 9|[Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)|Updated topic.|
 |August 6|[Before you implement [!UICONTROL Analytics for Target] (A4T) with at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md)|Updated following note:<ul><li>at.js 1.8.0+ and at.js 2.x+ no longer work with Visitor API versions older than 2.5.0 for passing Adobe Audience Manager (AAM) parameters.</li></ul>|
 |August 5|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added note indicating that the [!DNL Target Standard/Premium] 18.8.1 release is delayed.|
