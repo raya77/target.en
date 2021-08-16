@@ -18,6 +18,10 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## at.js 2.6.1 (August 16, 2021)
+
+* Bug fix for "No cached artifact available for hybrid mode" when using on-device decisioning.
+
 ## [!DNL Target] node.js SDK 2.2.0 (August 11, 2021)
 
 * Added SDK telemetry data collection
