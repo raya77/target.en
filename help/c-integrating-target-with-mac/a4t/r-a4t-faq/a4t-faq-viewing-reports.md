@@ -135,9 +135,9 @@ The following list explains reasons why the same visitor could be counted in mul
 * If the visitor is using the `mbox3rdPartyId`, when the anonymous visitor is merged with the 3rd-party ID profile, [!DNL Target] could put the visitor into a different experience to match up with the 3rd-party ID. For more information, see [Real-Time Profile Syncing for mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732). 
 * [!DNL Analytics] might be tracking different devices as the same visitor in a different way than [!DNL Target] tracks those devices: the 3rd-party ID setup in [!DNL Target] is different than in Analytics.
 
-## Does A4T support virtual report suites?
+## Does A4T support virtual report suites? {#virtual}
 
-Virtual report suites are *not* included in the [!UICONTROL Report Suite] list and audiences from virtual report suites are not supported in A4T reporting.
+Although virtual report suites are not included in the [!UICONTROL Report Suite] list, any A4T data shared with a report suite that is linked to a virtual report suite in [!DNL Analytics] has access to that data. Note that any audience created from a virtual report suites cannot be shared back to [!DNL Target].
 
 ## Can I change the percentage of traffic allocation in an activity that uses A4T after the activity has been activated?
 
