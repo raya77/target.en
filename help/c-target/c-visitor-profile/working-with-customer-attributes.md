@@ -139,7 +139,6 @@ If you are using the Experience Cloud ID service, you must set a Customer ID and
 For more information about using customer attributes in [!DNL Target], see the following resources:
 
 * [Create a customer attribute source and upload the data file](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) in the *Experience Cloud Services and Administration documentation* 
-* [Customer Attributes: The More You Know, The Better You Connect](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/) in the *Digital Marketing Blog*
 
 ## Issues frequently encountered by customers {#section_BE0F70E563F64294B17087DE2BC1E74C}
 
