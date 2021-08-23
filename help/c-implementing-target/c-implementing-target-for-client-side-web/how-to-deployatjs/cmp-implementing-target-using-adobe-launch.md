@@ -17,8 +17,8 @@ The following table lists the various sources where you can get more information
 | Resource | Details |
 |--- |--- |
 |[Implementing [!DNL Target] using the [!UICONTROL Adobe Target Extension Tutorial]](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html#implement-solutions)|This tutorial provides step-by-step instructions to implement [!DNL Target] in a website with [!DNL Platform Launch]. Topics include adding the at.js JavaScript library, firing the global mbox, adding parameters, and integrating with other solutions. This article is part of a larger tutorial that shows you how to implement [!DNL Platform Launch], and other [!DNL Adobe Experience Cloud] solutions.|
-|[[!DNL Adobe Platform Launch] Documentation](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html#get-started)|Information about deploying and managing the analytics, marketing, and advertising tags necessary to power relevant customer experiences.|
-|[Adobe [!DNL Target] Extension Documentation](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/target-extension/overview.html)|Information about implementing [!DNL Target] using [!DNL Platform Launch].|
+|[Quickstart guide for tags in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html)|Information about deploying and managing the analytics, marketing, and advertising tags necessary to power relevant customer experiences.|
+|[Adobe [!DNL Target] Extension Documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html)|Information about implementing [!DNL Target] using [!DNL Platform Launch].|
 
 ## Advantages of implementing at.js using the [!DNL Target] [!DNL Platform Launch] extension {#section_48B3F938B6F8491DAF798E0DB54EF304}
 

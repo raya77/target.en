@@ -17,12 +17,12 @@ Learn how [!DNL Adobe Target] works, including information about the [!DNL Adobe
 * **at.js:** The at.js library is an implementation library for [!DNL Target]. The at.js library improves page-load times for web implementations and provides better implementation options for single-page applications. at.js is updated frequently with new capabilities. Adobe recommends that all customers using at.js update their implementations to the [latest version of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 * **mbox.js:** The mbox.js library is the legacy implementation library for [!DNL Target]. The mbox.js library is no longer supported after March 31, 2021.
 
-Reference the [!DNL Experience Platform Web SDK] or at.js on every page on your site. For example, you can add one of these libraries to your global header. Alternatively, consider using [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html) to implement [!DNL Target].
+Reference the [!DNL Experience Platform Web SDK] or at.js on every page on your site. For example, you can add one of these libraries to your global header. Alternatively, consider using [tags in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) to implement [!DNL Target].
 
 The following resources contain detailed information to help you implement the Experience Platform Web SDK or at.js:
 
-* [Adobe Experience Platform Web SDK Extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension)
-* [Implement [!DNL Target] using Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [Adobe Experience Platform Web SDK extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=en)
+* [Implement [!DNL Target] using Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 Each time a visitor requests a page that has been optimized for [!DNL Target], a request is sent to the targeting system. The request helps to determine what content to serve to that visitor. This process occurs in real time. Every time a page is loaded, a request for the content is made and fulfilled by the system. The content is governed by the rules of marketer-controlled activities and experiences and is targeted to the individual site visitor. Content is served that each site visitor is most likely to respond to, interact with, or ultimately purchase. Personalized content helps maximize response rates, acquisition rates, and revenue.
 
