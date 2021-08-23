@@ -49,8 +49,8 @@ For more information, see:
 
 Experience fragments are created in [!DNL AEM]. For more information, see:
 
-* **[!DNL AEM] 6.3**: [Experience Fragments](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html) in the *Adobe Experience Manager 6.3* documentation.
-* **[!DNL AEM] 6.4**: [Experience Fragments](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html) in the *Adobe Experience Manager 6.4* documentation.
+* **[!DNL AEM] 6.3**: [Experience Fragments](https://experienceleague.adobe.com/docs/) in the *Adobe Experience Manager 6.3* documentation.
+* **[!DNL AEM] 6.4**: [Experience Fragments](https://experienceleague.adobe.com/docs/) in the *Adobe Experience Manager 6.4* documentation.
 * **[!DNL AEM] 6.5**: [Experience Fragments](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html) in the *Adobe Experience Manager 6.5* documentation.
 
 ### Step 3: Configure [!DNL AEM] to share the experience fragment with [!DNL Target]
