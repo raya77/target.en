@@ -20,15 +20,16 @@ Announcements and information about upcoming events, including [!DNL Adobe Targe
 
 ## [!DNL Adobe Target] Community Q&A Coffee Break
 
-* **Wednesday, August 11, 2021**
+* **Wednesday, September 8, 2021**
 * **8 a.m. (PDT, UTC -7)**
-* **[Click here for more information and to register](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-8-11-21-8am-pt-jim-mctiernan/m-p/410332/thread-id/2742).**
+* **[Click here for more information and to register](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-9-8-21-8am-pt-vishal-chordia/td-p/419497).**
 
-Principal Solutions Consultant for [!DNL Adobe Target], James McTiernan will be answering customer questions pertaining to his areas of expertise within [!DNL Target]:
+Vishal Chordia, Senior Product Manager for [!DNL Adobe Target], will be answering customer questions pertaining to his areas of expertise:
 
-* Recommendations
-* A/B and Multivariate (MVT) testing
-* Personalization
+* [!DNL Adobe Experience Platform]
+* Audience-based personalization
+* [!DNL Real-time Customer Data Platform] (RTCDP) integration with [!DNL Target]
+* General [!DNL Target] topics
 
 ## Webinar: Personalize and test at zero latency with on-device decisions from Adobe Target
 
