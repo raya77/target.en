@@ -23,7 +23,7 @@ This function lets you apply more than one offer that was retrieved by `adobe.ta
 
 >[!NOTE]
 >
->Consult the [Delivery API documentation](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) for information about the acceptable types for all fields listed below.
+>Consult the [Delivery API documentation](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) for information about the acceptable types for all fields listed below.
 
 |Field Name|Description|
 | --- | --- |
