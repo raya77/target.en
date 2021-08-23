@@ -16,7 +16,7 @@ Among other benefits, [!DNL at.js] improves page-load times for web implementati
 
 >[!NOTE]
 >
->Adobe Experience Manager (AEM) 6.2 with FP-11577 (or later) supports at.js implementations with its Adobe Target Cloud Services integration. For more information, see [Feature Packs](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html) and [Integrating with Adobe Target](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html) in the *Adobe Experience Manager 6.2 documentation*.
+>Adobe Experience Manager (AEM) 6.2 with FP-11577 (or later) supports at.js implementations with its Adobe Target Cloud Services integration. For more information, see [Feature Packs](https://experienceleague.adobe.com/docs/) and [Integrating with Adobe Target](https://experienceleague.adobe.com/docs/) in the *Adobe Experience Manager 6.2 documentation*.
 
 ## Implement at.js {#implement}
 
