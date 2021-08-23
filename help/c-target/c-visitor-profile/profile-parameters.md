@@ -135,7 +135,7 @@ The following guidelines are meant to help write simplified profile scripts that
   * Profile scripts should be performance-tested before being added to [!DNL Target]. All profile scripts execute on every mbox request. If profile scripts do not execute correctly, mbox requests take longer to execute, which can impact traffic and conversion.
   * If profile scripts become too complex, consider using [response tokens](/help/administrating-target/response-tokens.md) instead.
 
-* See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
+* See the JS Rhino engine documentation for more information.
 
 ## Debug profile scripts {#section_E9F933DE47EC4B4E9AF2463B181CE2DA}
 

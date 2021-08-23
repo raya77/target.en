@@ -60,7 +60,7 @@ You can provide your own certificate. However, [!DNL Adobe] does not recommend t
 
 ### How long until my new SSL certificate expires?
 
-Certificates issued before September 1, 2020 are two-year certificates. Certificates issued on or after September 1, 2020 are one-year certificates. You can read more about the move to one-year certificates [here](https://www.digicert.com/position-on-1-year-certificates).
+Certificates issued before September 1, 2020 are two-year certificates. Certificates issued on or after September 1, 2020 are one-year certificates.
 
 ### What hostnames should I choose? How many hostnames per domain should I choose?
 

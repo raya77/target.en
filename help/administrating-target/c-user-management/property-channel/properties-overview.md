@@ -142,7 +142,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
     * **Via a "Global Parameter in [!DNL Adobe Launch]:**
 
-      For more information, see [Add Global Target Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
+      For more information, see [Add Global Target Params](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
     
     * **Via the targetPageParams() function:** Place the following code in the `<head>` tags, above the at.js reference.
 
