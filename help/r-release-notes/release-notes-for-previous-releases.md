@@ -1952,7 +1952,7 @@ This [!DNL Target] release includes the following enhancements and fixes: :
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Manager] 6.2 with FP-11577 (or later) now supports [!DNL at.js] implementations with its [!UICONTROL Adobe Target Cloud Services] integration. For more information, see [Feature Packs](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html) and [Integrating with Adobe Target](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html) in the *Adobe Experience Manager 6.2* documentation.
+>[!DNL Adobe Experience Manager] 6.2 with FP-11577 (or later) now supports [!DNL at.js] implementations with its [!UICONTROL Adobe Target Cloud Services] integration. For more information, see [Feature Packs](https://experienceleague.adobe.com/docs/) and [Integrating with Adobe Target](https://experienceleague.adobe.com/docs/) in the *Adobe Experience Manager 6.2* documentation.
 
 This [!DNL Target] release focuses on usability and performance improvements and includes the following enhancements and fixes (issue numbers in parentheses are for internal Adobe use):
 

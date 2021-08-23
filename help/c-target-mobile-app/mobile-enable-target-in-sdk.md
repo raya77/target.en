@@ -10,7 +10,7 @@ exl-id: c34bd50c-e17f-4dfb-8470-8f4c8639ee9f
 
 Add the Adobe Mobile Services SDK to your app.
 
-1. If you haven't installed the Adobe Mobile Services SDK in your app, use your Analytics or Experience Cloud credentials and download the SDK from the [Adobe Mobile Services](https://mobilemarketing.adobe.com) website.
+1. If you haven't installed the Adobe Mobile Services SDK in your app, use your Analytics or Experience Cloud credentials and download the SDK from the [Adobe Mobile Services](https://mobilemarketing.adobe.com/) website.
 
 1. Add the Adobe Mobile Services SDK to your app.
 

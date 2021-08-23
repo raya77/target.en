@@ -22,7 +22,7 @@ Complete the following tasks in the [!DNL Adobe Experience Cloud] [Admin Console
 
 Your [!DNL Analytics] and [!DNL Target] user accounts must be linked to your Adobe ID.
 
-For more information, see [Organizations and account linking](https://docs.adobe.com/help/en/core-services/interface/manage-users-and-products/organizations.html).
+For more information, see [Organizations and account linking](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en).
 
 ### Configure Experience Cloud group membership
 
