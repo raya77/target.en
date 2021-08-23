@@ -27,7 +27,7 @@ To set up profile attributes:
 
    | Parameter Type | Description |
    |--- |--- |
-   |mbox|Passed in directly through page code when creating the mbox. See [Pass Parameters to a Global Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Note**: [!DNL Target] has a limit of 50 unique profile attributes per mbox call. If you must pass more than 50 profile attributes to [!DNL Target], pass them using the Profile Update API method. For more information, see [Profile Update in the [!DNL Adobe Target] API documentation](http://developers.adobetarget.com/api/#updating-profiles).|
+   |mbox|Passed in directly through page code when creating the mbox. See [Pass Parameters to a Global Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Note**: [!DNL Target] has a limit of 50 unique profile attributes per mbox call. If you must pass more than 50 profile attributes to [!DNL Target], pass them using the Profile Update API method. For more information, see [Profile Update in the [!DNL Adobe Target] API documentation](https://developers.adobetarget.com/api/#updating-profiles).|
    |Profile|Defined directly with a JavaScript code snippet. These snippets can store running totals like total money spent by consumer and are executed on each mbox request. See Profile Script Attributes below.|
 
 ## Profile script attributes {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
