@@ -172,7 +172,7 @@ To download [!DNL at.js] using the API.
 
 at.js should be implemented in the `<head>` element of every page of your website. 
 
-A typical implementation of Target not using a tag manager like tags in [!DNL Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) looks like this:
+A typical implementation of Target not using a tag manager, such as tags in [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) looks like this:
 
 ```
 <!doctype html> 

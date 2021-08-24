@@ -48,7 +48,7 @@ Now, wherever `triggerView()` is implemented on your SPA, the Views and actions 
 
 ## Deploy at.js 2.*x* {#deploy-atjs-200}
 
-1. Deploy at.js 2.*x* via tags in [!DNL Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) extension. 
+1. Deploy at.js 2.*x* via tags in [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) extension. 
 
    >[!NOTE]
    >
