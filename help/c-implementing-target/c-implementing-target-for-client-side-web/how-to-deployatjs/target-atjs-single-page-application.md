@@ -64,7 +64,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    First, we need to install at.js 2.x. This version of at.js was developed with SPAs in mind. Previous versions of at.js and mbox.js do not support Adobe Target Views and the VEC for SPAs.
 
-   Download at.js 2.x via the Adobe Target UI located in [!UICONTROL Administration > Implementation]. at.js 2.x can also be deployed via Adobe Launch. However, the Adobe Target Extensions are currently not up to date and supported.
+   Download at.js 2.x via the Adobe Target UI located in [!UICONTROL Administration > Implementation]. at.js 2.x can also be deployed via tags in [!DNL Adobe Experience Platform]. However, the [!DNL Adobe Target] extensions are currently not up to date and supported.
 
 1. Implement at.js 2.x’s newest function, `triggerView()` on your sites.
 
@@ -262,7 +262,7 @@ document.addEventListener("at-view-end", function(e) {
 >
 >You must fire the `at-view-start` and `at-view-end` events. These events are not part of at.js custom events.
 
-Although these examples use JavaScript code, all this can be simplified if you are using a tag manager, such as [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
+Although these examples use JavaScript code, all this can be simplified if you are using a tag manager, such as tags in [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
 
 If the preceding steps are followed you should have a robust A4T solution for SPAs.
 
