@@ -29,11 +29,7 @@ These release notes provide information about features, enhancements, and fixes 
 
 For more information about this and previous releases, see the [Change log](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md) in the [Target node.js SDK documentation](https://github.com/adobe/target-nodejs-sdk) on Github.
 
-## [!DNL Target Standard/Premium] 21.8.1 (Date to be determined)
-
->[!NOTE]
->
->The [!DNL Target Standard/Premium] 21.8.1 release has been delayed. Instead of being released on August 4, 2021, version 21.8.1 will be released in the next few days. More details when available.
+## [!DNL Target Standard/Premium] 21.8.1 (August 10, 2021)
 
 This maintenance release contains many backend enhancements, including the following customer-facing change:
 
