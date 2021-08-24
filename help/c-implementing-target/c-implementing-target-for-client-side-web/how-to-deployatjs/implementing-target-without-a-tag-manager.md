@@ -8,11 +8,11 @@ exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 ---
 # Implement [!DNL Target] without a tag manager
 
-Information about implementing [!DNL Adobe Target] without using a tag manager ([!DNL Adobe Experience Platform Launch]).
+Information about implementing [!DNL Adobe Target] without using a tag manager or tags in [!DNL Adobe Experience Platform].
 
 >[!NOTE]
 >
->[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) is the preferred method for implementing Target and the at.js library. The following information is not applicable when using Adobe Platform Launch to implement Target.
+>Tags in [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) is the preferred method for implementing [!DNL Target] and the at.js library. The following information is not applicable when using tags in [!DNL Adobe Experience Platform] to implement [!DNL Target].
 
 To access the [!UICONTROL Implementation] page, click **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
@@ -26,7 +26,7 @@ You can specify the following settings on this page:
 
 >[!NOTE]
 >
->You can override settings in the at.js library, rather than configuring the settings in the Target Standard/Premium UI or by using REST APIs. For more information, see [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
+>You can override settings in the at.js library, rather than configuring the settings in the [!DNL Target Standard/Premium] UI or by using REST APIs. For more information, see [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 
 ## Account details
 
@@ -34,9 +34,9 @@ You can view the following account details. These settings cannot be changed.
 
 | Setting | Description |
 | --- | --- |
-|[!UICONTROL Client Code]|The client code is a client-specific sequence of characters often required when using the  Target  APIs.|
+|[!UICONTROL Client Code]|The client code is a client-specific sequence of characters often required when using the [!DNL Target] APIs.|
 |[!UICONTROL IMS Organization ID]|This ID ties your implementation to your [!DNL Adobe Experience Cloud] account.|
-|[!UICONTROL On-Device Decisioning]|To enable on-device decisioning, slide the toggle to the "on" position.<br>On-device decisioning lets you cache your A/B and Experience Targeting (XT) campaigns on your server and perform in-memory decisioning at near-zero latency. For more information, see [Introduction to on-device decisioning](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) in the *Adobe Target SDKs* guide.|
+|[!UICONTROL On-Device Decisioning]|To enable on-device decisioning, slide the toggle to the "on" position.<br>On-device decisioning lets you cache your A/B and [!UICONTROL Experience Targeting] (XT) campaigns on your server and perform in-memory decisioning at near-zero latency. For more information, see [Introduction to on-device decisioning](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) in the *[!DNL Adobe Target] SDKs* guide.|
 |[!UICONTROL Include all existing on-device decisioning qualified activities in the artifact.]|(Conditional) This option displays if you enable on-device decisioning.<br>Slide the toggle to the "on" position if you want all your live Target activities that qualify for on-device decisioning to be automatically included in the artifact.<br>Leaving this toggle off means you must re-create and activate any on-device decisioning activities in order for them to be included in the generated rules artifact.|
 
 ## Implementation methods
