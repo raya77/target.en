@@ -48,11 +48,11 @@ Now, wherever `triggerView()` is implemented on your SPA, the Views and actions 
 
 ## Deploy at.js 2.*x* {#deploy-atjs-200}
 
-1. Deploy at.js 2.*x* via the [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) extension. 
+1. Deploy at.js 2.*x* via tags in [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) extension. 
 
    >[!NOTE]
    >
-   > Deploying at.js using Adobe Launch is the preferred method.
+   > Deploying at.js using tags in [!DNL Adobe Experience Platform] is the preferred method.
 
    Or
 
@@ -354,7 +354,7 @@ The following tables explain at.js. 2.*x* compatibility with different activity 
 |Audiences|Yes|
 |Customer Attributes|Yes|
 |AEM Experience Fragments|Yes|
-|Adobe Launch extension|[Yes](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)|
+|[!DNL Adobe Experience Platform] extension|[Yes](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)|
 |Debugger|Yes|
 |Auditor|Rules have not yet been updated for at.js 2.*x*|
 |Opt-In| No. Opt-in support for [GDPR](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) is supported in [at.js version 2.1.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).  |

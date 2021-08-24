@@ -1,6 +1,6 @@
 ---
 keywords: implement;at.js;javascript library
-description: Learn how to deploy the Adobe [!DNL Target] at.js JavaScript library using Adobe Experience Platform Launch or without a tag manager.
+description: Learn how to deploy the Adobe [!DNL Target] at.js JavaScript library using tags in Adobe Experience Platform or without a tag manager.
 title: How Do I Deploy at.js?
 feature: Implement Server-side
 role: Developer
@@ -12,7 +12,7 @@ Information about how to deploy the [!DNL Adobe Target] JavaScript library, at.j
 
 You can deploy at.js using the following methods:
 
-* **[Implement [!DNL Target] using  tags in [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)**: Tags in [!DNL Adobe Experience Platform] are the next generation of tag management capabilities from [!DNL Adobe]. Tags give customers a simple way to deploy and manage the analytics, marketing, and advertising tags necessary to power relevant customer experiences.
+* **[Implement [!DNL Target] using tags in [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)**: Tags in [!DNL Adobe Experience Platform] are the next generation of tag management capabilities from [!DNL Adobe]. Tags give customers a simple way to deploy and manage the analytics, marketing, and advertising tags necessary to power relevant customer experiences.
 
   >[!NOTE]
   >

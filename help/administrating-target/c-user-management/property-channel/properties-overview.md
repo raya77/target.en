@@ -18,11 +18,11 @@ The following table lists the tasks you should perform to create properties and 
 
 | Task | Performed In |
 |--- |--- |
-|1. Add Users (Optional)|[!DNL Adobe Admin Console for Enterprise]|
-|2. Create a Workspace (Product Profile)|[!DNL Adobe Admin Console for Enterprise]|
-|3. Create User Groups (Optional)|[!DNL Adobe Admin Console for Enterprise]|
-|4. Create Properties|[!DNL Target] UI|
-|5: Update Your Implementation to Include the `at_property` Parameter|[!DNL Target] UI, at.js functions, or [!DNL Adobe Experience Platform Launch]|
+|1. Add users (optional)|[!DNL Adobe Admin Console for Enterprise]|
+|2. Create a workspace (product profile)|[!DNL Adobe Admin Console for Enterprise]|
+|3. Create user groups (Optional)|[!DNL Adobe Admin Console for Enterprise]|
+|4. Create properties|[!DNL Target] UI|
+|5: Update your implementation to include the `at_property` parameter|[!DNL Target] UI, at.js functions, or tags in [!DNL Adobe Experience Platform]|
 |6: Specify Roles and Permissions|[!DNL Adobe Admin Console for Enterprise]|
 
 For those tasks performed in the [!DNL Adobe Admin Console for Enterprise], access the console by following these steps:
@@ -140,9 +140,9 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
    There are several ways to update your [!DNL Target] implementation. For example, the following methods can be used for web pages:
 
-    * **Via a "Global Parameter in [!DNL Adobe Launch]:**
+    * **Via a "Global Parameter in tags in  [!DNL Adobe Experience Platform]:**
 
-      For more information, see [Add Global Target Params](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
+      For more information, see [Add Global Target Params](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params) in the *Tags overview* documentation.
     
     * **Via the targetPageParams() function:** Place the following code in the `<head>` tags, above the at.js reference.
 

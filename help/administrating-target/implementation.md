@@ -14,7 +14,7 @@ For more information, see the various topics under [Implement Target](/help/c-im
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Platform Launch] is the preferred method to implement [!DNL Target]. [!DNL Launch] gives customers a simple way to deploy and manage all of the analytics, marketing, and advertising tags necessary to power relevant customer experiences. For more information, see [Implement Target using Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).  
+>Tags in [!DNL Adobe Experience Platform] is the preferred method to implement [!DNL Target]. Tags in [!DNL Adobe Experience Platform] are the next generation of tag management capabilities from [!DNL Adobe]. Tags give customers a simple way to deploy and manage the analytics, marketing, and advertising tags necessary to power relevant customer experiences. For more information, see [Implement [!DNL Target] using [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).  
 
 1. To access the [!UICONTROL Implementation] page, click **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 

@@ -83,7 +83,7 @@ The at.js 1.0.0 release makes it possible to load the Target library asynchronou
 
 To load at.js asynchronously:
 
-* The recommended approach is via [!DNL Adobe Experience Platform Launch]. See the [Add Adobe Target](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html) lesson of the [Implementing the Experience Cloud in Websites with Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html) tutorial for more information. 
+* The recommended approach is via tags in [!DNL Adobe Experience Platform]. 
 * You can also load at.js asynchronously by adding the async attribute to the script tag that loads at.js. Use something like this:
 
   ```
@@ -103,7 +103,7 @@ Loading at.js asynchronously is a great way to avoid blocking the browser from r
 
 You can avoid flicker by using a pre-hiding snippet that hides the page (or specified portions) and then reveals it after at.js and the global request have loaded. The snippet must be added before loading at.js.
 
-If you are deploying at.js through an asynchronous Launch implementation, be sure to include the pre-hiding snippet directly on your pages, before the Launch Embed code, as described in the [Add the Target Pre-Hiding Snippet](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) section of the [Implementing the Experience Cloud in Websites with Launch tutorial](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html).
+If you are deploying at.js through an asynchronous [!DNL Adobe Experience Platform] implementation, be sure to include the pre-hiding snippet directly on your pages, before the Implement [!DNL Target] using [!DNL Adobe Experience Platform] Embed code.
 
 If you are deploying at.js through a synchronous DTM implementation, the pre-hiding snippet can be added through a Page Load rule triggered at the top of the page.
 
