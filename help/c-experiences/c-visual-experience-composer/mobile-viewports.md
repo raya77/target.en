@@ -23,7 +23,7 @@ Below are the viewports and resolutions for popular devices. Remember to use the
 
 >[!NOTE]
 >
->Various websites list viewport sizes for popular devices. For example, see [https://viewportsizer.com/devices/](https://viewportsizer.com/devices/). Consult the device maker's website for the most accurate, up-to-date information.
+>Various websites list viewport sizes for popular devices. For example, see `https://viewportsizer.com/devices/`. Consult the device maker's website for the most accurate, up-to-date information.
 
 |  Device  | Viewport Size (width x height)  | Device Resolution (width x height) |
 |---|---|---|
