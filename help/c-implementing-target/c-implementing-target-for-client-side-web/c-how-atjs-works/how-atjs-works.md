@@ -18,7 +18,7 @@ The at.js library is the new implementation library for Target. The at.js librar
 
 For more information, see [Target JavaScript libraries](/help/c-intro/how-target-works.md#libraries).
 
-In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe Experience Cloud] solutions are implemented: Analytics, Target, and Audience Manager. In addition, the following Experience Cloud core services are implemented: Adobe Launch, Audiences, and Visitor ID Service.
+In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe Experience Cloud] solutions are implemented: Analytics, Target, and Audience Manager. In addition, the following Experience Cloud core services are implemented: [!DNL Adobe Experience Platform], [!DNL Audiences], and [!DNL Visitor ID Service].
 
 ## What is the difference between at.js 1.*x* and at.js 2.x workflow diagrams?
 

@@ -14,7 +14,7 @@ Details about changes in each version of the [!DNL Adobe Target] at.js JavaScrip
 >
 >The Target team supports both at.js 1.*x* and at.js 2.*x*. Please upgrade to the most recent update of either major version of at.js to ensure that you are running a supported version.
 >
->[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) is the preferred method to upgrade at.js. Extension developers continually add new features to their extensions, and frequently fix bugs. These updates are packaged into new versions of an extension and made available in the [!DNL Launch] catalog as upgrades. For more information, see [Extension upgrades](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) in the *Tags overview* guide.
+>Tags in [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) is the preferred method to upgrade at.js. Extension developers continually add new features to their extensions, and frequently fix bugs. These updates are packaged into new versions of an extension and made available in the [!DNL Adobe Experience Platform] catalog as upgrades. For more information, see [Extension upgrades](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) in the *Tags overview* guide.
 
 ## at.js 2.6.1 (August 16, 2021)
 
@@ -44,7 +44,7 @@ This release also removes support for Microsoft Internet Explorer 10 and above v
 This release of at.js is a maintenance release and includes the following enhancements and fixes:
 
 * Fixed an issue with `targetPageParams` being included in mbox requests. `targetPageParams` should be included in `pageLoad` requests only. (TNT-40247)
-* Optimized window and document globals referencing in the [!DNL Adobe Experience Platform Launch] extension. (TNT-37124)
+* Optimized window and document globals referencing in the [!DNL Adobe Experience Platform] extension. (TNT-37124)
 
 ## at.js 2.4.0 (January 14, 2021)
 
@@ -77,7 +77,7 @@ This release of at.js is a maintenance release and includes the following enhanc
 
 * Made the `deviceIdLifetime` setting overridable via [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). (TNT-36349)
 * Fixed an issue when using CNAME and edge override, at.js 2.*x* might incorrectly create the server domain, which resulted in the [!DNL Target] request failing. (TNT-35065)
-* Fixed an issue when using the [!DNL Target] [!DNL Launch] extension v2 and the [!DNL Adobe Analytics] [!DNL Launch] extension, [!DNL Target] delayed the [!DNL Analytics] `sendBeacon` call. (TNT-36407, TNT-35990, TNT-36000)
+* Fixed an issue when using the [!DNL Target] extension v2 and the [!DNL Adobe Analytics] [!DNL Launch] extension, [!DNL Target] delayed the [!DNL Analytics] `sendBeacon` call. (TNT-36407, TNT-35990, TNT-36000)
 
 ## at.js version 2.3.0 (March 25, 2020)
 
@@ -104,7 +104,7 @@ This release of at.js includes the following enhancements and fixes:
 
   >[!NOTE]
   >
-  >Upgrade your ECID Launch Extension to v4.4 to take advantage of this performance enhancement.
+  >Upgrade your ECID Extension to v4.4 to take advantage of this performance enhancement.
 
 * at.js version 2.2 also provides a new setting called `serverState`. This setting can be used to optimize page performance when a hybrid integration of Target is implemented. Hybrid integration means that you are using both at.js v2.2+ on the client-side and the delivery API or a Target SDK on the server-side to deliver experiences. `serverState` gives at.js v2.2+ the ability to apply experiences directly from content fetched on the server side and returned to the client as part of the page being served. For more information, see "serverState" in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
 
@@ -117,7 +117,7 @@ This release of at.js includes the following enhancements and fixes:
 
 >[!NOTE]
 >
->Upgrade your ECID Launch Extension to v4.4 to take advantage of this performance enhancement.
+>Upgrade your ECID Extension to v4.4 to take advantage of this performance enhancement.
 
 ## at.js version 2.1.1 (July 24, 2019)
 

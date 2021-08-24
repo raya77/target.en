@@ -36,7 +36,7 @@ The following terms are used throughout this section and might be new to users w
 
 ### Property
 
-Properties are similar in nature to properties within [!DNL Adobe Platform Launch] in that they use a unique snippet of code to differentiate them.
+Properties are similar in nature to properties within [!DNL Adobe Experience Platform] in that they use a unique snippet of code to differentiate them.
 
 A web property is a library of rules and one embed code. A web property can be any grouping of one or more domains and subdomains.
 
@@ -259,7 +259,7 @@ Activities created before the migration continue to run the same way in the Defa
 
 ### Why do I get an error message indicating that no property is associated with this activity, even though there is a property assigned?
 
-If you implemented [!DNL Target] with [!DNL Adobe Experience Platform Launch] and get an error message indicating that there is no property associated with the activity, pass the `at_property` parameter with the `targetPageParams` function.
+If you implemented [!DNL Target] with tags in [!DNL Adobe Experience Platform] and get an error message indicating that there is no property associated with the activity, pass the `at_property` parameter with the `targetPageParams` function.
 
 ### Are click-track conversions recorded if a redirect page and the activity URL belong to different properties?
 

@@ -10,7 +10,7 @@ exl-id: 1ddd8345-e753-4608-9293-939e092cb16d
 
 List of frequently asked questions about [!DNL Target] for mobile apps.
 
-## Should I use [!DNL Adobe Experience Platform Launch] to deploy the SDK, or can I deploy the SDK without using [!DNL Launch]?
+## Should I use tags in [!DNL Adobe Experience Platform] to deploy the SDK, or can I deploy the SDK without using [!DNL Launch]?
 
 The SDK is available on the [Adobe Marketing Cloud git](https://github.com/Adobe-Marketing-Cloud/acp-sdks/). If you don't use [tags in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html), you must manage your own settings file and manage it in your app. 
 
