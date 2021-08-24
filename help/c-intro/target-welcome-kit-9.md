@@ -30,7 +30,7 @@ We’ve compiled an organized list of valuable information to help you gain even
 * **Adobe Customer Care Office hours**: "Office Hours" is an initiative led by the Adobe Customer Care team. These sessions are designed to inform as well as help participants troubleshoot problems, and provide tips and tricks to be successful with the [!DNL Adobe Experience Cloud] solutions, including [!DNL Target]. See [Adobe Customer Care Office Hours](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7).
 * **Adobe Summit**: Attend the biggest professional event of the year for digital marketers. 
   * [Adobe Summit](https://summit.adobe.com/na/) (North America)
-  * [Adobe Summit](http://summit-emea.adobe.com/emea/) (EMEA)
+  * [Adobe Summit](https://summit-emea.adobe.com/emea/) (EMEA)
  
 ## Additional resources
 
