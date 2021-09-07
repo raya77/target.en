@@ -14,6 +14,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 |Date|Topic|Changes|
 | --- | --- | --- |
 |September 7|[Mobile](/help/c-target/c-audiences/c-target-rules/mobile.md)|Updated the "Considerations" section with information about targeting devices running Safari 14.0.2 (or later).|
+||[Classifications - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)|Updated information about `targettype` and `algorithmId`, which are internal identifiers used by [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities.|
 |August 24|[Implement [!DNL Target] using [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)|[!DNL Adobe Experience Platform Launch] has been rebranded as a suite of data collection technologies in [!DNL Adobe Experience Platform]. Several terminology changes have rolled out across the product documentation as a result.|
 |August 23|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added information about the following event:<ul><li>[!DNL Adobe Target] Community Q&A Coffee Break<ul><li>Wednesday, September 8, 2021</li><li>8 a.m. (PDT, UTC -7)</li></ul></li></ul>|
 |August 19|[View reports - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual)|Updated the following FAQ:<ul><li>Does A4T support virtual report suites?</li></ul>|
