@@ -9,16 +9,22 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 
 This page lists significant changes made to the [!DNL Adobe Target] product documentation.
 
-## Adobe [!DNL Target] Standard/Premium 21.6.1 (June 30, 2021)
+## Adobe [!DNL Target] Standard/Premium 21.8.1 (August 10, 2021)
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|September 7|[Mobile](/help/c-target/c-audiences/c-target-rules/mobile.md)|Updated the "Considerations" section with information about targeting devices running Safari 14.0.2 (or later).|
 |August 24|[Implement [!DNL Target] using [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)|[!DNL Adobe Experience Platform Launch] has been rebranded as a suite of data collection technologies in [!DNL Adobe Experience Platform]. Several terminology changes have rolled out across the product documentation as a result.|
 |August 23|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added information about the following event:<ul><li>[!DNL Adobe Target] Community Q&A Coffee Break<ul><li>Wednesday, September 8, 2021</li><li>8 a.m. (PDT, UTC -7)</li></ul></li></ul>|
 |August 19|[View reports - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual)|Updated the following FAQ:<ul><li>Does A4T support virtual report suites?</li></ul>|
 |August 16|[Target release notes (current)](/help/r-release-notes/release-notes.md)<br>and<br>[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added release notes for at.js 2.6.1.|
 ||[On-device decisioning](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)|Added "Best practices" section.|
 |August 11|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target] node.js SDK version 2.2.0.|
+
+## Adobe [!DNL Target] Standard/Premium 21.6.1 (June 30, 2021)
+
+|Date|Topic|Changes|
+| --- | --- | --- |
 |August 9|[Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)|Updated topic.|
 |August 6|[Before you implement [!UICONTROL Analytics for Target] (A4T) with at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md)|Updated following note:<ul><li>at.js 1.8.0+ and at.js 2.x+ no longer work with Visitor API versions older than 2.5.0 for passing Adobe Audience Manager (AAM) parameters.</li></ul>|
 |August 5|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added note indicating that the [!DNL Target Standard/Premium] 18.8.1 release is delayed.|
