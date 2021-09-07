@@ -56,7 +56,7 @@ After a custom attribute is sent as a valid JSON array, the attribute is treated
 
 ## Implementing multi-value attributes {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-Multi-value custom entity attributes are supported when using feeds (CSV), `targetPageParams`, Delivery API, and the Save entities API to upload products. New values replace current values; they are not appended. Empty arrays ( [] ) are treated as having no values.
+Multi-value custom entity attributes are supported when using feeds (CSV), `targetPageParams`, and the Delivery API to upload products. New values replace current values; they are not appended. Empty arrays ( [] ) are treated as having no values.
 
 Double quotes must be escaped. For example, `"[""test"", ""value""]"` is a valid JSON array that can be used in CSV.
 
