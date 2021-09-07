@@ -1,6 +1,6 @@
 ---
 keywords: targeting;mobile;target mobile;deviceatlas;iphone;iphone models;device atlas;displaywidth;display width;display height;type of device;displayheight;phone;tablet;device model
-description: Learn how to create audiences in [!DNL Adobe Target] to target mobile devices based on parameters such as mobile device, type of device, device vendor, screen dimensions (by pixels), and more.
+description: Learn how to create audiences in [!DNL Adobe Target] to target mobile devices.
 title: Can I Target Visitors Based on Mobile Options?
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
@@ -50,12 +50,6 @@ Customers who are using a custom integration (not using at.js or the Mobile SDK)
 
    >[!NOTE]
    >
-   >Due to the new changes introduced in iOS 12.2, creating an audience with rules defined by [!UICONTROL Device Marketing Name] and [!UICONTROL Device Model] that specify iPhone Models is impacted. [!DNL Target] can no longer target users who have iPhones with iOS 12.2 (or later) installed on them. However, if those users do not have iOS 12.2 (or later), then the iPhone Model targeting continues to work correctly.
-   >
-   >The iOS 12.2 (or later) update does not affect the identification of the following models because these models do not support upgrading to iOS 12.2: iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad / Retina display, iPad Retina (4th Generation), iPod Touch 4, and iPod Touch 5.
-
-   >[!NOTE]
-   >
    >You can target by mobile device carrier using the [Geo settings](/help/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670).
 
 1. (Optional) Set up additional rules for the audience. 
@@ -64,6 +58,20 @@ Customers who are using a custom integration (not using at.js or the Mobile SDK)
 The following illustration shows an audience targeting visitors using devices manufactured by Google that are mobile devices.
 
 ![Target mobile devices](assets/target_mobile.png)
+
+## Considerations
+
+Consider the following information when targeting mobile devices: 
+
+### Targeting devices running iOS 12.2 or later
+
+Due to the new changes introduced in iOS 12.2, creating an audience with rules defined by [!UICONTROL Device Marketing Name] and [!UICONTROL Device Model] that specify iPhone Models is impacted. [!DNL Target] can no longer target users who have iPhones with iOS 12.2 (or later) installed on them. However, if those users do not have iOS 12.2 (or later), then the iPhone Model targeting continues to work correctly.
+
+The iOS 12.2 (or later) update does not affect the identification of the following models because these models do not support upgrading to iOS 12.2: iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad / Retina display, iPad Retina (4th Generation), iPod Touch 4, and iPod Touch 5.
+
+### Targeting devices running Safari 14.0.2 (or later)
+
+When using mobile rules to target devices running Safari version 14.0.2 (or later) on macOS, due to a known issue involving Apple's user agents and DeviceAtlas, [!DNL Target] incorrectly identifies Safari on Mac devices as an iPad version. This issue will be addressed in the future.
 
 ## Training video: Creating Audiences
 
