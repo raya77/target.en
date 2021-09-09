@@ -17,6 +17,37 @@ Release notes are arraigned in descending order by month and year of release.
 
 ## Release notes - 2021
 
+### at.js 2.6.1 (August 16, 2021)
+
+* Bug fix for "No cached artifact available for hybrid mode" when using on-device decisioning.
+
+### [!DNL Target] node.js SDK 2.2.0 (August 11, 2021)
+
+* Added SDK telemetry data collection
+* Automated Delivery API client openapi codegen
+
+For more information about this and previous releases, see the [Change log](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md) in the [Target node.js SDK documentation](https://github.com/adobe/target-nodejs-sdk) on Github.
+
+### [!DNL Target Standard/Premium] 21.8.1 (August 10, 2021)
+
+This maintenance release contains many backend enhancements, including the following customer-facing change:
+
+* Fixed an issue that caused reports for [!UICONTROL Auto Personalization] activities created in the [!UICONTROL Form-Based Experience Composer] to reference deleted offers in reports. This issued caused the following error message to display, "We are having trouble retrieving data for this report. Please contact Adobe Client Care if the problem persists." (TGT-41028)
+
+### Target Delivery API (August 3, 2021)
+
+This release contains the following enhancements:
+
+* The limit for mbox parameters has been increased to 100 parameters. The previous limit was 50 parameters. (TNT-41717)
+* The limit for `categoryId` has been increased to 256 characters. The previous limit was 128 characters.
+* The following [!DNL Adobe Audience Manager] (AAM) details have been added to the Delivery API:    
+
+  * AAM UUID: The internal AAM ID used to uniquely identify a user. 
+  * dataPartnerId: The ID for a data partner.
+  * dataPartnerUserId: The user ID provided by a data partner.
+  
+  Previously, the Delivery API included `dcsLocationHint` and `blob` only. (TNT-41644)
+
 ### [!DNL Target Standard/Premium] 21.6.1 (June 30, 2021)
 
 This release contains the following new features and enhancements. The issue numbers in parentheses are for internal [!DNL Adobe] use.
