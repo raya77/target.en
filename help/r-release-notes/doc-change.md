@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|September 14|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the [!DNL Target Standard/Premium] 21.9.1 (September 14, 2021) release. This information will be moved to the [Target release notes (current)](/help/r-release-notes/release-notes.md) later today.|
 |September 7|[Mobile](/help/c-target/c-audiences/c-target-rules/mobile.md)|Updated the "Considerations" section with information about targeting devices running Safari 14.0.2 (or later).|
 ||[Classifications - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)|Updated information about `targettype` and `algorithmId`, which are internal identifiers used by [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities.|
 |August 24|[Implement [!DNL Target] using [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)|[!DNL Adobe Experience Platform Launch] has been rebranded as a suite of data collection technologies in [!DNL Adobe Experience Platform]. Several terminology changes have rolled out across the product documentation as a result.|
