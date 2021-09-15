@@ -9,11 +9,15 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 
 This page lists significant changes made to the [!DNL Adobe Target] product documentation.
 
-## Adobe [!DNL Target] Standard/Premium 21.8.1 (August 10, 2021)
-
+## [!DNL Adobe Target Standard/Premium] 21.9.1 (September 14, 2021)
 |Date|Topic|Changes|
 | --- | --- | --- |
-|September 14|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the [!DNL Target Standard/Premium] 21.9.1 (September 14, 2021) release. This information will be moved to the [Target release notes (current)](/help/r-release-notes/release-notes.md) later today.|
+|September 14|[Release Notes](/help/r-release-notes/release-notes.md): 21.9.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
+
+## Adobe [!DNL Target] Standard/Premium 21.8.1 (August 10, 2021)
+|Date|Topic|Changes|
+| --- | --- | --- |
+|September 14|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the [!DNL Target Standard/Premium] 21.9.1 (September 14, 2021) release.|
 |September 7|[Mobile](/help/c-target/c-audiences/c-target-rules/mobile.md)|Updated the "Considerations" section with information about targeting devices running Safari 14.0.2 (or later).|
 ||[Classifications - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)|Updated information about `targettype` and `algorithmId`, which are internal identifiers used by [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities.|
 |August 24|[Implement [!DNL Target] using [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)|[!DNL Adobe Experience Platform Launch] has been rebranded as a suite of data collection technologies in [!DNL Adobe Experience Platform]. Several terminology changes have rolled out across the product documentation as a result.|
@@ -22,6 +26,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 |August 16|[Target release notes (current)](/help/r-release-notes/release-notes.md)<br>and<br>[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added release notes for at.js 2.6.1.|
 ||[On-device decisioning](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)|Added "Best practices" section.|
 |August 11|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target] node.js SDK version 2.2.0.|
+|August 10|[Release Notes](/help/r-release-notes/release-notes.md): 21.8.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
 
 ## Adobe [!DNL Target] Standard/Premium 21.6.1 (June 30, 2021)
 
