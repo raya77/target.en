@@ -18,46 +18,22 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## at.js 2.6.1 (August 16, 2021)
+## [!DNL Target Standard/Premium] 21.9.1 (September 14, 2021)
 
-* Bug fix for "No cached artifact available for hybrid mode" when using on-device decisioning.
+This maintenance release contains the following enhancements, fixes, and changes.
 
-## [!DNL Target] node.js SDK 2.2.0 (August 11, 2021)
-
-* Added SDK telemetry data collection
-* Automated Delivery API client openapi codegen
-
-For more information about this and previous releases, see the [Change log](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md) in the [Target node.js SDK documentation](https://github.com/adobe/target-nodejs-sdk) on Github.
-
-## [!DNL Target Standard/Premium] 21.8.1 (August 10, 2021)
-
-This maintenance release contains many backend enhancements, including the following customer-facing change:
-
-* Fixed an issue that caused reports for [!UICONTROL Auto Personalization] activities created in the [!UICONTROL Form-Based Experience Composer] to reference deleted offers in reports. This issued caused the following error message to display, "We are having trouble retrieving data for this report. Please contact Adobe Client Care if the problem persists." (TGT-41028)
-
-## [!DNL Target Delivery API] (August 3, 2021)
-
-This release contains the following enhancements:
-
-* The limit for mbox parameters has been increased to 100 parameters. The previous limit was 50 parameters. (TNT-41717)
-* The limit for `categoryId` has been increased to 256 characters. The previous limit was 128 characters.
-* The following [!DNL Adobe Audience Manager] (AAM) details have been added to the Delivery API:    
-
-  * AAM UUID: The internal AAM ID used to uniquely identify a user. 
-  * dataPartnerId: The ID for a data partner.
-  * dataPartnerUserId: The user ID provided by a data partner.
-  
-  Previously, the Delivery API included `dcsLocationHint` and `blob` only. (TNT-41644)
-
-## at.js 2.6.0 (July 27, 2021)
-
-* Added secure attribute to cookies whenever at.js settings `secureOnly` is set to `true`.
-* Response tokens are now available when using `triggerView()`.
-* Fixed an issue related to the `CONTENT_RENDERING_NO_OFFERS` event. Now this event is triggered correctly whenever there is no content returned from [!DNL Target].
-* [!DNL Analytics for Target] (A4T) click metrics details are correctly returned when using `prefetch` requests.
-* UUID generation no longer uses `Math.random()`, but relies on `window.crypto`.
-* The `sessionId` cookie expiry is correctly extended on every network call.
-* The [!UICONTROL Single Page Application] (SPA) view cache initialization is now correctly handled and honors `viewsEnable` settings.
+* Fixed issues that prevented customers from logging in to the [!UICONTROL Visual Experience Composer] (VEC) due to new security policies for third-party cookies in some web browsers. This issue was discussed in "Pages not loading in the Visual Experience Composer (VEC) or Enhanced Experience Composer (EEC) when using Google Chrome version 80+" in [Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md).
+* Fixed an issue that caused offer names in the VEC to display the offer's path instead of the offer's friendly name. (TGT-41300)
+* Experience names are now reflected in [!DNL Analysis Workspace] for A4T activities (TGT-38674) 
+* Fixed an issue in [!DNL Recommendations] that erroneously applied entity ID changes in a promotion in a duplicated activity to the original activity. (TGT-41482)
+* Fixed an issue that prevented the "Edit Criteria" button from displaying properly on the [!UICONTROL Experiences] page for [!DNL Recommendations] activities in the VEC. (TGT-39512)
+* Fixed an issue that prevented synchronization of activities when duplicated and copied to a test workspace. (TGT-40686)
+* Fixed an issue that prevented modifications to a selector with [experience fragments](/help/c-experiences/c-manage-content/aem-experience-fragments.md) when using "[!UICONTROL Insert After]" in the VEC. (TGT-41802)
+* Fixed an issue that prevented empty JSON content in an offer from being sent to the backend. [!DNL Target] now sends the JSON object even though it is empty. (TGT-41555)
+* Fixed an issue that caused legacy [!DNL Analytics] reporting to open instead of [!DNL Analysis Workspace] when customers clicked "[!UICONTROL View in Analytics]" while viewing a report. (TGT-41867)
+* Added additional clarification to the displayed UI message when a customer attempts to select [!DNL Analytics] as the reporting source (A4T) for an [!UICONTROL Automated Personalization] activity. The message states that, "[!DNL Target] is the only supported source for [!UICONTROL Automated Personalization] activities." (TGT-41954)
+* Added additional clarification to the error message when customers attempt to separate hosts with "newline" instead of commas. (TGT-40671) 
+* Fixed an issue that caused some activities' "[!UICONTROL Last Updated]" dates to differ from the English UI for Spanish and Japanese customers (when viewing the UI in Spanish and Japanese). (TGT-38980) 
 
 ## Additional release notes and version details
 
