@@ -13,8 +13,8 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-||[Customize a design using Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md)|Changed `$Double` to `$double` in code samples to prevent ambiguity.|
-|September 22|[Design FAQ](/help/c-recommendations/c-design-overview/template-faq.md)|Updated the following FAQ:<ul><li>Can I use a profile script in a [!DNL Recommendations] design?</li></ul>|
+|September 22|[Customize a design using Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md)|Changed `$Double` to `$double` in code samples to prevent possible ambiguity.|
+||[Design FAQ](/help/c-recommendations/c-design-overview/template-faq.md)|Updated the following FAQ:<ul><li>Can I use a profile script in a [!DNL Recommendations] design?</li></ul>|
 ||[Click tracking](/help/c-activities/r-success-metrics/click-tracking.md)|Added the following considerations:<ul><li>Click-tracking metrics are not linked to any specific experience in an activity.</li><li>Use audiences if it is necessary to restrict the scope of the click-tracking metrics.</li><li>Multiple activities can define a click-track metric for the same selector. If so, when a visitor qualifies for one of those activities and clicks that selector, the click-track metric increases for all associated activities that the visitor qualified for.</li></ul>|
 ||[Implement [!DNL Target] using [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)|Added note in the "Advantages of implementing at.js using the [!DNL Target] extension" section.|
 ||[Real-time profile syncing for mbox3rdPartyId](/help/c-target/c-visitor-profile/3rd-party-id.md)|Updated the "Considerations" section with new information.|
