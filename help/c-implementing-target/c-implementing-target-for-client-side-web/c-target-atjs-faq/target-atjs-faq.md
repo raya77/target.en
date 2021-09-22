@@ -8,7 +8,7 @@ exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
 ---
 # at.js Frequently Asked Questions
 
-Answers to frequently asked questions about at.js.
+Answers to frequently asked questions about the [!DNL Adobe Target] at.js JavaScript library.
 
 ## What are the advantages of using at.js versus mbox.js? {#section_FE30D01A577C46ACB0F787B85F5E0F6B}
 
@@ -41,45 +41,45 @@ The following sections describe the sequence of actions for new and returning vi
 1. If global mbox auto-create is enabled, the Target JavaScript library:
 
    * Instantiates the Visitor object.
-   * The Target library tries to retrieve Experience Cloud Visitor ID data.
+   * The [!DNL Target] library tries to retrieve [!DNL Experience Cloud Visitor ID] data.
    * Because this visitor is a new, the Visitor API fires a cross-domain request to demdex.net.
-   * After Experience Cloud Visitor ID data is retrieved, a request to Target is fired.
+   * After [!DNL Experience Cloud Visitor ID] data is retrieved, a request to [!DNL Target] is fired.
 
 ### Returning Visitors
 
 1. The Visitor API is loaded, parsed, and executed.
 1. at.js / mbox.js is loaded, parsed, and executed.
-1. If global mbox auto-create is enabled, the Target JavaScript library:
+1. If global mbox auto-create is enabled, the [!DNL Target] JavaScript library:
 
    * Instantiates the Visitor object.
-   * The Target library tries to retrieve Experience Cloud Visitor ID data.
+   * The [!DNL Target] library tries to retrieve [!DNL Experience Cloud Visitor ID] data.
    * The Visitor API retrieves data from cookies.
-   * After Experience Cloud Visitor ID data is retrieved, a request to Target is fired.
+   * After [!DNL Experience Cloud Visitor ID] data is retrieved, a request to [!DNL Target] is fired.
 
 >[!NOTE]
 >
->For new visitors, when the Visitor API is present, Target has to go over the wire multiple times to make sure that Target requests contain Experience Cloud Visitor ID data. For returning visitors, Target goes over the wire only to Target to retrieve the personalized content. 
+>For new visitors, when the Visitor API is present, [!DNL Target] has to go over the wire multiple times to make sure that [!DNL Target] requests contain [!DNL Experience Cloud Visitor ID] data. For returning visitors, [!DNL Target] goes over the wire only to [!DNL Target] to retrieve the personalized content. 
 
 ## Why does it seem like I see slower response times after upgrading from a previous version of at.js to version 1.0.0? {#section_DFBA5854FFD142B49AD87BFAA09896B0}
 
-[!DNL at.js] version 1.0.0 and later fires all the requests in parallel. Previous versions execute the requests sequentially, meaning the requests are put in a queue and Target waits for first request to complete before moving on to the next request.
+[!DNL at.js] version 1.0.0 and later fires all the requests in parallel. Previous versions execute the requests sequentially, meaning the requests are put in a queue and [!DNL Target] waits for first request to complete before moving on to the next request.
 
-The way previous versions of [!DNL at.js] execute requests is susceptible to the so-called "head of line blocking." In [!DNL at.js] 1.0.0 and later, Target switched to parallel request execution.
+The way previous versions of [!DNL at.js] execute requests is susceptible to the so-called "head of line blocking." In [!DNL at.js] 1.0.0 and later, [!DNL Target] switched to parallel request execution.
 
 If you check the network tab waterfall for [!DNL at.js] 0.9.1, for example, you'll see that next [!DNL Target] request doesn't start until the previous one has finished. This sequence is not the case with [!DNL at.js] 1.0.0 and later where all the requests basically start at the same time.
 
 From a response-time perspective, mathematically, this sequence can be summed like this
 
 <ul class="simplelist"> 
- <li> at.js 0.9.1: Response time of all Target requests = sum of requests response time </li> 
- <li> at.js 1.0.0 and later: Response time of all Target requests = maximum of requests response time </li> 
+ <li> at.js 0.9.1: Response time of all [!DNL Target] requests = sum of requests response time </li> 
+ <li> at.js 1.0.0 and later: Response time of all [!DNL Target] requests = maximum of requests response time </li> 
 </ul>
 
-The [!DNL at.js] library version 1.0.0 completes the requests faster. In addition, [!DNL at.js] requests are asynchronous, so [!DNL Target] doesn't block page rendering. Even if requests take seconds to complete, you still see the rendered page, only some portions of the page are blanked out until Target gets a response from the Target edge.
+The [!DNL at.js] library version 1.0.0 completes the requests faster. In addition, [!DNL at.js] requests are asynchronous, so [!DNL Target] doesn't block page rendering. Even if requests take seconds to complete, you still see the rendered page, only some portions of the page are blanked out until [!DNL Target] gets a response from the [!DNL Target] edge.
 
 ## Can I load the [!DNL Target] library asynchronously? {#section_AB9A0CA30C5440C693413F1455841470}
 
-The at.js 1.0.0 release makes it possible to load the Target library asynchronously.
+The at.js 1.0.0 release makes it possible to load the [!DNL Target] library asynchronously.
 
 To load at.js asynchronously:
 
@@ -109,7 +109,7 @@ If you are deploying at.js through a synchronous DTM implementation, the pre-hid
 
 For more information, see [How at.js manages flicker](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md). 
 
-## Is at.js compatible with the Adobe Experience Manager integration (Experience Manager)? {#section_6177AE10542344239753764C6165FDDC}
+## Is at.js compatible with the [!DNL Adobe Experience Manager] integration (Experience Manager)? {#section_6177AE10542344239753764C6165FDDC}
 
 [!DNL Adobe Experience Manager] 6.2 with FP-11577 (or later) now supports [!DNL at.js] implementations with its [!UICONTROL Adobe Target Cloud Services] integration.
 
@@ -143,7 +143,7 @@ To support Safari visitors, a better X-Domain would be “disabled” (sets only
 
 Yes, you can use the VEC for your SPA if you use at.js 2.x. For more information, see [Single Page (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md).
 
-## Can I use the Adobe Experience Cloud Debugger with at.js implementations? {#section_FF3CF4C5FD2F4DB1BF1A6B39DA161637}
+## Can I use the [!DNL Adobe Experience Cloud] Debugger with at.js implementations? {#section_FF3CF4C5FD2F4DB1BF1A6B39DA161637}
 
 Yes. You can also use mboxTrace for debugging purposes or your browser's Developer Tools to inspect the Network requests, filtering to "mbox" to isolate mbox calls.
 
@@ -153,13 +153,13 @@ Yes, same as with mbox.js.
 
 ## Why are my mboxes not firing on my web pages? {#section_4BA5DA424B734324AAB51E4588FA50F5}
 
-Target customers sometimes use cloud-based instances with [!DNL Target] for testing or simple proof-of-concept purposes. These domains, and many others, are part of the [Public Suffix List](https://publicsuffix.org/list/public_suffix_list.dat).
+[!DNL Target] customers sometimes use cloud-based instances with [!DNL Target] for testing or simple proof-of-concept purposes. These domains, and many others, are part of the [Public Suffix List](https://publicsuffix.org/list/public_suffix_list.dat).
 
 Modern browsers do not save cookies if you are using these domains unless you customize the `cookieDomain` setting using targetGlobalSettings(). For more information, see [Using Cloud-Based Instances with Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md).
 
 ## Can IP addresses be used as the cookie domain when using at.js? {#section_8BEEC91A3410459D9E442840A3C88AF7}
 
-Yes, if you are using [at.js version 1.2 or later](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A). Adobe strongly recommends that you keep current with the latest version, however.
+Yes, if you are using [at.js version 1.2 or later](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A). [!DNL Adobe] strongly recommends that you keep current with the latest version, however.
 
 >[!NOTE]
 >
@@ -195,8 +195,8 @@ The following are possible root causes if you see this warning message:
 
 * The page is being built dynamically and at.js cannot find the element.
 * The page is being built slowly (due to a slow network) and at.js cannot find the selector in the DOM.
-* The page structure that activity is running on has been changed. If you reopen the activity in the Visual Experience Composer (VEC), you should get a warning message. Update the activity so that all the necessary elements can be found. 
-* The underlying page is part of a Single Page Application (SPA) or the page contains elements that appear farther down the page and the [!DNL at.js] "selector polling mechanism" cannot find those elements. Increasing the `selectorsPollingTimeout` might help. For more information, see [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). 
+* The page structure that activit[!UICONTROL y is running on has been changed. If you reopen the activity in the ]Visual Experience Composer (VEC), you should get a warning message. Update the activity so that all the necessary elements can be found. 
+* The underlying page is part of a [!UICONTROL Single Page Application] (SPA) or the page contains elements that appear farther down the page and the [!DNL at.js] "selector polling mechanism" cannot find those elements. Increasing the `selectorsPollingTimeout` might help. For more information, see [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). 
 * Any click-tracking metric tries to add itself to every page, regardless of the URL on which the metric was set up. Although harmless, this situation makes many of these messages display.
   
   For best results, please download and use the latest version of [!DNL at.js]. For more information, see [at.js Version Details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) and [Download at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md).
@@ -205,17 +205,17 @@ The following are possible root causes if you see this warning message:
 
 [!DNL tt.omtrdc.net] is the domain name for Adobe's EDGE network, used to receive all server calls for Target.
 
-## Why don't at.js and mbox.js use HttpOnly and Secure cookie flags? {#section_74527E3B41B54B0A83F217C3E664ED1F}
+## Why doesn't at.js always use HttpOnly and Secure cookie flags? {#section_74527E3B41B54B0A83F217C3E664ED1F}
 
-HttpOnly can be set only via server-side code. Target cookies, such as mbox, are created and saved via JavaScript code, so Target can't use the HttpOnly cookie flag.
+HttpOnly can be set only via server-side code. [!DNL Target] cookies, such as mbox, are created and saved via JavaScript code, so [!DNL Target] can't use the HttpOnly cookie flag. [!DNL Target] does use set HttpOnly for third-party cookies set from the server side when cross-domain is enabled.
 
-Secure can be set via JavaScript only when the page has been loaded via HTTPS. If the page initially loads via HTTP, JavaScript can't set this flag. In addition, if the Secure flag is used, the cookie is available only on HTTPS pages.
+Secure can be set via JavaScript only when the page has been loaded via HTTPS. If the page initially loads via HTTP, JavaScript can't set this flag. In addition, if the Secure flag is used, the cookie is available only on HTTPS pages. For pages loaded via HTTPS, [!DNL Target] sets the Secure and SameSite=None attributes.
 
-To ensure that Target can properly track users, and because the cookies are generated client-side, Target doesn't use either of these flags.
+To ensure that [!DNL Target] can properly track users, and because the cookies are generated client-side, [!DNL Target] doesn't use either of these flags except in the situations mentioned above.
 
 ## How often does at.js fire a network request? {#section_57C5235DF7694AF093A845D73EABADFD}
 
-Adobe Target executes all of its decisioning on the server side. This means that at.js fires a network request every time the page reloads or an at.js public API is invoked.
+[!DNL Target] executes all of its decisioning on the server side. This means that at.js fires a network request every time the page reloads or an at.js public API is invoked.
 
 ## In the best case scenario, can we expect that the user doesn't experience any visible effects on page load relating to hiding, replacing, and showing content? {#section_CB3C566AD61F417FAC0EC5AC706723EB}
 
@@ -228,11 +228,11 @@ The at.js request is an async `XMLHttpRequest`, so we execute the following step
 1. The page loads. 
 1. at.js pre-hides the HTML BODY. There is a setting to pre-hide a particular container instead of the HTML BODY. 
 1. The at.js request fires. 
-1. After the Target response is received, Target extracts the CSS selectors. 
-1. Using CSS selectors, Target creates STYLE tags to pre-hide the DOM elements that will be customized. 
+1. After the [!DNL Target] response is received, [!DNL Target] extracts the CSS selectors. 
+1. Using CSS selectors, [!DNL Target] creates STYLE tags to pre-hide the DOM elements that will be customized. 
 1. The HTML BODY pre-hiding STYLE is removed. 
-1. Target starts polling for DOM elements. 
-1. If a DOM element is found, Target applies DOM changes and the element pre-hiding STYLE is removed. 
+1. [!DNL Target] starts polling for DOM elements. 
+1. If a DOM element is found, [!DNL Target] applies DOM changes and the element pre-hiding STYLE is removed. 
 1. If DOM elements are not found, a global timeout unhides the elements to avoid having a broken page.
 
 ## How often is the page's content fully loaded and visible when at.js finally unhides the element the activity is changing? {#section_01AFF476EFD046298A2E17FE3ED85075}
@@ -243,17 +243,17 @@ at.js doesn't block the page from rendering. A user might notice some blank regi
 
 ## How would a fully cached page affect the above scenario? Would it be more likely for the activity's content to become visible noticeably after the rest of the page's content loads? {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
 
-If a page is cached on a CDN that is close to user's location, but not near the Target edge, that user might see some delays. Target edges are well distributed across the globe, so this is not an issue most of the time.
+If a page is cached on a CDN that is close to user's location, but not near the [!DNL Target] edge, that user might see some delays. [!DNL Target] edges are well distributed across the globe, so this is not an issue most of the time.
 
 ## Is it possible for a hero image to be displayed and then swapped out after a short delay? {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
 
 Considering the following scenario:
 
-The Target timeout is five seconds. A user loads a page that has an activity to customize a hero image. at.js sends the request to determine if there is an activity to apply, but there is no initial response. Assume the user sees the regular content of the hero image, because no response was received from Target regarding whether there is an associated activity. After four seconds, Target does return a response with the activity contents.
+The [!DNL Target] timeout is five seconds. A user loads a page that has an activity to customize a hero image. at.js sends the request to determine if there is an activity to apply, but there is no initial response. Assume the user sees the regular content of the hero image, because no response was received from [!DNL Target] regarding whether there is an associated activity. After four seconds, [!DNL Target] does return a response with the activity contents.
 
 At this stage, would it be possible for the alternative version to be shown? So after four seconds, the hero image could be swapped out and the user could notice this image swap?
 
-Initially, the image hero DOM element is hidden. After a response from Target is received, at.js applies the DOM changes, such as replacing the IMG and displaying the customized hero image.
+Initially, the image hero DOM element is hidden. After a response from [!DNL Target] is received, at.js applies the DOM changes, such as replacing the IMG and displaying the customized hero image.
 
 ## What HTML doctype does at.js require?
 
@@ -263,4 +263,4 @@ This syntax is:
 
 `<!DOCTYPE html>`
 
-The HTML 5 doctype ensures that the page loads in standard mode. When loading in quirks mode, some JS APIs that at.js depends on are disabled. Target disables at.js in quirks mode.
+The HTML 5 doctype ensures that the page loads in standard mode. When loading in quirks mode, some JS APIs that at.js depends on are disabled. [!DNL Target] disables at.js in quirks mode.
