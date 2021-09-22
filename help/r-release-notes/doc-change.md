@@ -13,6 +13,11 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|September 22|[Click tracking](/help/c-activities/r-success-metrics/click-tracking.md)|Added the following considerations:<ul><li>Click-tracking metrics are not linked to any specific experience in an activity.</li><li>Use audiences if it is necessary to restrict the scope of the click-tracking metrics.</li><li>Multiple activities can define a click-track metric for the same selector. If so, when a visitor qualifies for one of those activities and clicks that selector, the click-track metric increases for all associated activities that the visitor qualified for.</li></ul>|
+||[Implement [!DNL Target] using [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)|Added note in the "Advantages of implementing at.js using the [!DNL Target] extension" section.|
+||[Real-time profile syncing for mbox3rdPartyId](/help/c-target/c-visitor-profile/3rd-party-id.md)|Updated the "Considerations" section with new information.|
+||[targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)|Updated the "secureOnly" section.|
+||[at.js Frequently Asked Questions](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#section_74527E3B41B54B0A83F217C3E664ED1F)|Updated the following FAQ: "Why doesn't at.js always use HttpOnly and Secure cookie flags?"|
 |September 14|[Release Notes](/help/r-release-notes/release-notes.md): 21.9.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
 
 ## Adobe [!DNL Target] Standard/Premium 21.8.1 (August 10, 2021)

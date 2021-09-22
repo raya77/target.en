@@ -181,7 +181,7 @@ You can override the following settings:
 
 * **Type**: Boolean
 * **Default Value**: false
-* **Description**: Indicates whether at.js should use HTTPS only or be allowed to switch between HTTP and HTTPS based on the page protocol.
+* **Description**: Indicates whether at.js should use HTTPS only or be allowed to switch between HTTP and HTTPS based on the page protocol. When set to true, secureOnly also sets the Secure and SameSite attributes to the mbox cookie.
 
 ### selectorsPollingTimeout
 
