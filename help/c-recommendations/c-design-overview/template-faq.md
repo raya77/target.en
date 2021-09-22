@@ -7,7 +7,7 @@ exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 ---
 # ![PREMIUM](/help/assets/premium.png) Design FAQ 
 
-List of frequently asked questions (FAQs) about [!DNL Adobe Target] recommendations designs.
+List of frequently asked questions (FAQs) about [!DNL Adobe Target] [!DNL Recommendations] designs.
 
 ## My recommended item's price isn't displaying both values to the right of the decimal point. How can I display them?
 
@@ -23,7 +23,7 @@ Two options are available to address this issue:
 
   `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
-## Why isn't category showing in the design? I'm using $entity1.categoryId. {#section_073309B8051049C7953D396A93EA0713}
+## Why isn't category showing in the design? I'm using `$entity1.categoryId`. {#section_073309B8051049C7953D396A93EA0713}
 
 Category ID can't be displayed in the design. Because multiple categories can be stored, the system wouldn't know which category to display.
 
@@ -43,6 +43,6 @@ Version 1.7 with no additional tools or libraries added in. Basic Velocity funct
 
 Sending in a JavaScript non-breaking space seems to do this. Have the developers send in `\u00A0` as the value. Example: `entity.message=\u00A0`. You might consider having that be the default value when no value is present instead of a null.
 
-## Can I use a profile script in a Recommendations design? {#section_6BD55203984A4D80A0C6F241AD7806DF}
+## Can I use a profile script in a [!DNL Recommendations] design? {#section_6BD55203984A4D80A0C6F241AD7806DF}
 
-Yes. However, you must add a backslash (\) before the $ in the profile script name.
+Yes. To use a profile script in a [!DNL Recommendations] design, wrap the name in `\${...}`. For example, if your profile script is named `user.basket`, refer it as `\${user.basket}` in the design. Note that the backslash implies that the profile script is not rendered by Velocity. Therefore, you cannot perform any operations on the profile script in a Velocity template. The value will be directly printed on the page.
