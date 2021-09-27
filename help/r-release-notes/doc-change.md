@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|September 27|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added information about the following event:<ul><li>[!DNL Adobe Target] Community Q&A Coffee Break<ul><li>Wednesday, October 13, 2021</li><li>8 a.m. (PDT, UTC -7)</li></ul></li></ul>|
 |September 22|[Customize a design using Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md)|Changed `$Double` to `$double` in code samples to prevent possible ambiguity.|
 ||[Design FAQ](/help/c-recommendations/c-design-overview/template-faq.md)|Updated the following FAQ:<ul><li>Can I use a profile script in a [!DNL Recommendations] design?</li></ul>|
 ||[Click tracking](/help/c-activities/r-success-metrics/click-tracking.md)|Added the following considerations:<ul><li>Click-tracking metrics are not linked to any specific experience in an activity.</li><li>Use audiences if it is necessary to restrict the scope of the click-tracking metrics.</li><li>Multiple activities can define a click-track metric for the same selector. If so, when a visitor qualifies for one of those activities and clicks that selector, the click-track metric increases for all associated activities that the visitor qualified for.</li></ul>|
