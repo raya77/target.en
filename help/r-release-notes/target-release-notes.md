@@ -9,7 +9,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: September 14, 2021**
+**Last Updated: September 27, 2021**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages could be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
@@ -19,22 +19,13 @@ To view information about the current release, see [Target Release Notes](releas
 >
 >To avoid any potential issues with your sites, migrate to the most recent version of the new [!DNL Adobe Experience Platform Web SDK] or the at.js JavaScript library. For more information, see [Overview: implement Target for client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## [!DNL Target Standard/Premium] 21.9.1 (September 14, 2021)
+## [!DNL Target Standard/Premium] 21.10.1 (October 6, 2021)
 
-This maintenance release contains the following enhancements, fixes, and changes.
+This release contains the following new features:
 
-* Fixed issues that prevented customers from logging in to the [!UICONTROL Visual Experience Composer] (VEC) due to new security policies for third-party cookies in some web browsers. This issue was discussed in "Pages not loading in the Visual Experience Composer (VEC) or Enhanced Experience Composer (EEC) when using Google Chrome version 80+" in [Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md).
-* Fixed an issue that caused offer names in the VEC to display the offer's path instead of the offer's friendly name. (TGT-41300)
-* Experience names are now reflected in [!DNL Analysis Workspace] for A4T activities (TGT-38674) 
-* Fixed an issue in [!DNL Recommendations] that erroneously applied entity ID changes in a promotion in a duplicated activity to the original activity. (TGT-41482)
-* Fixed an issue that prevented the "Edit Criteria" button from displaying properly on the [!UICONTROL Experiences] page for [!DNL Recommendations] activities in the VEC. (TGT-39512)
-* Fixed an issue that prevented synchronization of activities when duplicated and copied to a test workspace. (TGT-40686)
-* Fixed an issue that prevented modifications to a selector with [experience fragments](/help/c-experiences/c-manage-content/aem-experience-fragments.md) when using "[!UICONTROL Insert After]" in the VEC. (TGT-41802)
-* Fixed an issue that prevented empty JSON content in an offer from being sent to the backend. [!DNL Target] now sends the JSON object even though it is empty. (TGT-41555)
-* Fixed an issue that caused legacy [!DNL Analytics] reporting to open instead of [!DNL Analysis Workspace] when customers clicked "[!UICONTROL View in Analytics]" while viewing a report. (TGT-41867)
-* Added additional clarification to the displayed UI message when a customer attempts to select [!DNL Analytics] as the reporting source (A4T) for an [!UICONTROL Automated Personalization] activity. The message states that, "[!DNL Target] is the only supported source for [!UICONTROL Automated Personalization] activities." (TGT-41954)
-* Added additional clarification to the error message when customers attempt to separate hosts with "newline" instead of commas. (TGT-40671) 
-* Fixed an issue that caused some activities' "[!UICONTROL Last Updated]" dates to differ from the English UI for Spanish and Japanese customers (when viewing the UI in Spanish and Japanese). (TGT-38980) 
+|Feature|Details|
+| --- | --- |
+|Audiences UI refresh|We are gradually rewriting the entire [!DNL Target] UI using a new tech stack to be able to offer improved performance, reduce the maintenance time required when releasing new features, and to improve the user experience across the product. The [Administration](/help/administrating-target/administrating-target.md) section refreshed in 2020. The [!UICONTROL Audiences] section is the second major UI refresh.|
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 
