@@ -41,6 +41,10 @@ The length of the boxplot bar represents how large the confidence interval is in
 
 The confidence of an experience or offer represents the probability that the lift of the associated experience/offer over the control experience/offer is “real” (not caused by random chance). Typically, 95% is the recommended level of confidence for the lift to be considered significant.
 
+## Understand how the confidence interval for lift is determined {#pdf}
+
+Download the [Confidence Interval for Lift pdf](/help/assets/confidence_interval_lift.pdf) for more information.
+
 ## How are lift bounds calculated? {#section_1D360781D972483693680BE0F07AEAD1}
 
 The lift bounds represent the 95% confidence intervals of the lift that the specific experience or offer has over the control experience or offer. Loosely speaking, it means the actual lift has about a 95% chance of being between these bounds.
