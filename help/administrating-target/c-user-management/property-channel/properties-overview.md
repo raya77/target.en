@@ -102,8 +102,6 @@ Properties belong to specific channels (Web, Mobile, Email, and API/Other).
 1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Properties]** to display the [!UICONTROL Properties] list. 
 1. Click **Create Property**.
 
-   ![New Property dialog box](/help/administrating-target/c-user-management/property-channel/assets/new_property1.png)
-
    Fill in the fields:
 
     * **Property Name (Required):** Specify a descriptive name for the property.
@@ -138,7 +136,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
    There are several ways to update your [!DNL Target] implementation. For example, the following methods can be used for web pages:
 
-    * **Via a "Global Parameter in tags in  [!DNL Adobe Experience Platform]:**
+    * **Via a global parameter in tags in  [!DNL Adobe Experience Platform]:**
 
       For more information, see [Add Global Target Params](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params) in the *Tags overview* documentation.
     
@@ -155,12 +153,6 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
       ```
 
       For more information about how to do this with at.js, see [targetPageParamsAll](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md). 
-    
-    * **Via the mboxCreate() function:**
-
-      ![](assets/property_token_3.png)
-
-      For more information about how to do this with at.js, see [targetPageParamsAll](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) and  [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md).
 
 ## Step 6: Specify roles and permissions {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
