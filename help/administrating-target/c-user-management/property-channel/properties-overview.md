@@ -134,8 +134,6 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
     1. Right-click the highlighted implementation code to copy it to your clipboard.
 
-       ![Property code](/help/administrating-target/c-user-management/property-channel/assets/code_property_2_new.png)
-
 1. Update your [!DNL Target] implementation with the implementation code obtained in the previous step.
 
    There are several ways to update your [!DNL Target] implementation. For example, the following methods can be used for web pages:
