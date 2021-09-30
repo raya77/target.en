@@ -14,7 +14,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 |Date|Topic|Changes|
 | --- | --- | --- |
 |September 30|Send activity information to [!DNL Adobe Analytics]|Removed entire topic because the steps described are no longer necessary in order to send [!DNL Target] mobile app activity information to [!DNL Analytics] for post hoc segmentation.|
-||[Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md)|Changed `targetPageParams` to `targetPageParamsAll` in Step 2.|
+||[Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md)|Changed `targetPageParams` to `targetPageParamsAll` in "Step 5 Update your implementation to include the `at_property` parameter."|
 |September 27|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added information about the following event:<ul><li>[!DNL Adobe Target] Community Q&A Coffee Break<ul><li>Wednesday, October 13, 2021</li><li>8 a.m. (PDT, UTC -7)</li></ul></li></ul>|
 |September 22|[Customize a design using Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md)|Changed `$Double` to `$double` in code samples to prevent possible ambiguity.|
 ||[Design FAQ](/help/c-recommendations/c-design-overview/template-faq.md)|Updated the following FAQ:<ul><li>Can I use a profile script in a [!DNL Recommendations] design?</li></ul>|

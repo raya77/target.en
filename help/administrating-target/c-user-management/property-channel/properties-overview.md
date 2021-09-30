@@ -144,17 +144,25 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
       For more information, see [Add Global Target Params](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params) in the *Tags overview* documentation.
     
-    * **Via the targetPageParams() function:** Place the following code in the `<head>` tags, above the at.js reference.
+    * **Via the targetPageParamsAll() function:** Place the following code in the `<head>` tags, above the at.js reference.
 
-      ![](assets/property_token_1.png)
+      ```javascript
+      <script>
+       function targetPageParamsAll() {
+        return {
+         "at_property": "5f8bd98b-1456-a84c-2a96-11s9b8e2b112"
+        };
+       }
+      </script>
+      ```
 
-      For more information about how to do this with at.js, see [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). 
+      For more information about how to do this with at.js, see [targetPageParamsAll](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md). 
     
     * **Via the mboxCreate() function:**
 
       ![](assets/property_token_3.png)
 
-      For more information about how to do this with at.js, see [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) and  [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md).
+      For more information about how to do this with at.js, see [targetPageParamsAll](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) and  [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md).
 
 ## Step 6: Specify roles and permissions {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
