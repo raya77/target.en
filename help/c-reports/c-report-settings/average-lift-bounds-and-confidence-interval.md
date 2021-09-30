@@ -43,7 +43,7 @@ The confidence of an experience or offer represents the probability that the lif
 
 ## Understand how the confidence interval for lift is determined {#pdf}
 
-Download the [Confidence Interval for Lift pdf](/help/assets/confidence_interval_lift.pdf) for more information.
+Download the [Confidence Interval for Lift pdf file](/help/assets/confidence_interval_lift.pdf) for more information.
 
 ## How are lift bounds calculated? {#section_1D360781D972483693680BE0F07AEAD1}
 
