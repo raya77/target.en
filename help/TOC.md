@@ -143,7 +143,6 @@ feature-set: Target
       + [Enable Target in the SDK](c-target-mobile-app/mobile-enable-target-in-sdk.md)
       + [iOS - create a Target location and success metric](c-target-mobile-app/mobile-create-location-and-metric.md)
       + [iOS - send custom user data](c-target-mobile-app/mobile-custom-user-data.md)
-      + [Send activity information to Adobe Analytics](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [Target mobile preview](c-target-mobile-app/target-mobile-preview.md)
       + [Prefetch offer content](c-target-mobile-app/prefetch-offer-content.md)
       + [Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
