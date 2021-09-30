@@ -136,9 +136,9 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
    There are several ways to update your [!DNL Target] implementation. For example, the following methods can be used for web pages:
 
-    * **Via a global parameter in tags in  [!DNL Adobe Experience Platform]:**
+    * **Via a “Custom Parameter” in tags within [!DNL Adobe Experience Platform]:**
 
-      For more information, see [Add Global Target Params](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params) in the *Tags overview* documentation.
+      For more information, see [Add Mbox Params](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-mbox-params) in the *Tags overview* documentation.
     
     * **Via the targetPageParamsAll() function:** Place the following code in the `<head>` tags, above the at.js reference.
 
