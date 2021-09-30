@@ -105,7 +105,7 @@ Therefore, the lift bounds for Experience B would be:
 >
 >Expect minor variances between manual calculations using the above formulas and the numbers displayed in the report. The difference can be attributed to the fact that the page views numbers used in manual calculations are rounded-off. The lift shown in the [!DNL Target] report is based on the exact numbers obtained from the total engagement and the engagement count. The engagement numbers can be obtained via the performance report API.
 
-## When Are lift bounds not displayed? {#section_C5622E1E94684DAD937249B51A9E42CC}
+## When are lift bounds not displayed? {#section_C5622E1E94684DAD937249B51A9E42CC}
 
 In certain cases, [!DNL Target] does not display lift bounds:
 
