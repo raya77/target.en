@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|October 4|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Updated prerelease notes for the Target Standard/Premium 21.10.1 release (October 6, 2021).|
 |September 30|Send activity information to [!DNL Adobe Analytics]|Removed entire topic because the steps described are no longer necessary in order to send [!DNL Target] mobile app activity information to [!DNL Analytics] for post hoc segmentation.|
 ||[Average Lift, Lift Bounds, and Confidence Interval](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf)|Added a pdf file to explain how the confidence interval for lift is calculated.|
 ||[Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md)|Changed `targetPageParams` to `targetPageParamsAll` in "Step 5 Update your implementation to include the `at_property` parameter."|

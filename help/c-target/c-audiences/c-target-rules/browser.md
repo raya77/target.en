@@ -34,7 +34,7 @@ There are two ways to target browsers:
 
   1. In the [!DNL Target] interface, click **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**. 
   1. Name the audience and add an optional description. 
-  1. Drag and drop **[!UICONTROL Browser]** into the audience builder pane.
+  1. Drag and drop **[!UICONTROL Browser]** into the Audience Builder.
 
      ![Rules > Browser](assets/target_browser.png)
 
