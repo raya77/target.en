@@ -30,43 +30,43 @@ This function lets you retrieve multiple offers by passing in multiple mboxes. A
 |Field name|Required?|Limitations|Description|
 | --- | --- | --- | --- |
 |request > id|No||One of `tntId`, `thirdPartyId`, or `marketingCloudVisitorId` is required.|
-|Request > id > thirdPartyId|No|Maximum size = 128|||
+|Request > id > thirdPartyId|No|Maximum size = 128.|||
 |Request > experienceCloud|No|||
 |Request > experienceCloud > analytics|No||Adobe Analytics integration|
 |Request > experienceCloud > analytics > logging|No|The following must be implemented on page:<ul><li>Visitor ID Service</li><li>Appmeasurement.js</li></ul>|The following values are supported:<br>**client_side**: When specified, an analytics payload will be returned to the caller which should be used to send to Adobe Analytics via the Data Insertion API.<br>**server_side**: This is the default value where the Target and Analytics backend will use the SDID to stitch the calls together for reporting purposes.|
 |Request > prefetch|No|||
-|Request > prefetch > views|No|Maximim count 50<br>Name not blank<br>Name length `<=` 128<br>Value length `<=` 5000<br>Name should not start with "profile"<br>Not allowed names: "orderId", "orderTotal", "productPurchasedId"|Pass in parameters to be used to retrieve relevant views in active activities.|
-|Request > prefetch > views > profileParameters|No|Maximim count 50<br>Name not blank<br>Name length `<=` 128<br>Value length `<=` 5000<br>Name should not start with "profile"|Pass in profile parameters to be used to retrieve relevant views in active activities.|
+|Request > prefetch > views|No|Maximum count 50.<br>Name not blank.<br>Name length `<=` 128.<br>Value length `<=` 5000.<br>Name should not start with "profile".<br>Not allowed names: "orderId", "orderTotal", "productPurchasedId".|Pass in parameters to be used to retrieve relevant views in active activities.|
+|Request > prefetch > views > profileParameters|No|Maximim count 50.<br>Name not blank.<br>Name length `<=` 128.<br>Value length `<=` 5000.<br>Accepts String values only.<br>Name should not start with "profile".|Pass in profile parameters to be used to retrieve relevant views in active activities.|
 |Request > prefetch > views > product|No|||
-|Request > prefetch > views > product -> id|No|Not blank<br>maximum size = 128|Pass in product IDs to be used to retrieve relevant views in active activities.|
-|Request > prefetch > views > product > categoryId|No|Not blank<br>maximum size = 128|Pass in product category IDs to be used to retrieve relevant views in activities.|
+|Request > prefetch > views > product -> id|No|Not blank.<br>maximum size = 128.|Pass in product IDs to be used to retrieve relevant views in active activities.|
+|Request > prefetch > views > product > categoryId|No|Not blank.<br>maximum size = 128.|Pass in product category IDs to be used to retrieve relevant views in activities.|
 |Request > prefetch > views > order|No|||
-|Request > prefetch > views > order > id|No|Maximum length = 250|Pass in order IDs to be used to retrieve relevant views in in active activities.|
-|Request > prefetch > views > order > total|No|Total `>=` 0|Pass in order totals to be used to retrieve relevant views in active activities.|
-|Request > prefetch > views > order > purchasedProductIds|No|No blank values<br>Each value's max length 50<br>Concatenated and separated by comma<br>Product IDs total length `<=` 250|Pass in purchased product IDs to be used to retrieve relevant views in active activities.|
+|Request > prefetch > views > order > id|No|Maximum length = 250.|Pass in order IDs to be used to retrieve relevant views in in active activities.|
+|Request > prefetch > views > order > total|No|Total `>=` 0.|Pass in order totals to be used to retrieve relevant views in active activities.|
+|Request > prefetch > views > order > purchasedProductIds|No|No blank values.<br>Each value's max length 50.<br>Concatenated and separated by comma.<br>Product IDs total length `<=` 250.|Pass in purchased product IDs to be used to retrieve relevant views in active activities.|
 |Request > execute|No|||
 |Request > execute > pageLoad|No|||
-|Request > execute > pageLoad > parameters|No|Maximum count 50<br>Name not blank<br>Name length `<=` 128<br>Value length `<=` 5000<br>Name should not start with "profile."<br>Not allowed names: "orderId", "orderTotal", "productPurchasedId"|Retrieve offers with specified parameters when page loads.|
-|Request > execute > pageLoad > profileParameters|No|Maximum count 50<br>Name not blank<br>Name length `<=` 128<br>Value length `<=`256<br>Name should not start with "profile."|Retrieve offers with specified profile parameters when page loads.|
+|Request > execute > pageLoad > parameters|No|Maximum count 50.<br>Name not blank.<br>Name length `<=` 128.<br>Value length `<=` 5000.<br>Accepts String values only.<br>Name should not start with "profile".<br>Not allowed names: "orderId", "orderTotal", "productPurchasedId".|Retrieve offers with specified parameters when page loads.|
+|Request > execute > pageLoad > profileParameters|No|Maximum count 50.<br>Name not blank.<br>Name length `<=` 128.<br>Value length `<=`256.<br>Name should not start with "profile".<br>Accepts String values only.|Retrieve offers with specified profile parameters when page loads.|
 |Request > execute > pageLoad > product|No|||
-|Request > execute > pageLoad > product -> id|No|Not blank<br>Maximum size = 128|Retrieve offers with specified product IDs when page loads.|
-|Request > execute > pageLoad > product > categoryId|No|Not blank<br>Maximum size = 128|Retrieve offers with specified product category IDs when page loads.|
+|Request > execute > pageLoad > product -> id|No|Not blank.<br>Maximum size = 128.|Retrieve offers with specified product IDs when page loads.|
+|Request > execute > pageLoad > product > categoryId|No|Not blank.<br>Maximum size = 128.|Retrieve offers with specified product category IDs when page loads.|
 |Request > execute > pageLoad > order|No|||
-|Request > execute > pageLoad > order > id|No|Maximum length = 250|Retrieve offers with specified order IDs when page loads.|
-|Request > execute > pageLoad > order > total|No|`>=` 0|Retrieve offers with specified order totals when page loads.|
-|Request > execute > pageLoad > order > purchasedProductIds|No|No blank values<br>Each value's max length 50<br>Concatenated and separated by comma<br>Product IDs total length `<=` 250|Retrieve offers with specified purchased product IDs when page loads.|
-|Request > execute > mboxes|No|Maximum size = 50<br>No null elements||
-|Request > execute > mboxes>mbox|Yes|Not blank<br>No '-clicked' suffix<br>Maximum size = 250<br>Allowed characters: `'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'`|Name of mbox.|
-|Request > execute > mboxes>mbox>index|Yes|Not null<br>Unique<br>`>=` 0|Note that the index does not represent the order in which the mboxes will be processed. Same as in a web page with several regional mboxes, the order in which they will be processed cannot be specified.|
-|Request > execute > mboxes > mbox > parameters|No|Maximum count = 50<br>Name not blank<br>Name length `<=` 128<br>Value length `<=` 5000<br>Name should not start with "profile."<br>Not allowed names: "orderId", "orderTotal", "productPurchasedId"|Retrieve offers for a given mbox with the specified parameters.|
-|Request > execute > mboxes>mbox>profileParameters|No|Maximum count = 50<br>Name not blank<br>Name length `<=` 128<br>Value length `<=`256<br>Name should not start with "profile."|Retrieve offers for a given mbox with the specified profile parameters.|
+|Request > execute > pageLoad > order > id|No|Maximum length = 250.|Retrieve offers with specified order IDs when page loads.|
+|Request > execute > pageLoad > order > total|No|`>=` 0.|Retrieve offers with specified order totals when page loads.|
+|Request > execute > pageLoad > order > purchasedProductIds|No|No blank values.<br>Each value's max length 50.<br>Concatenated and separated by comma.<br>Product IDs total length `<=` 250.|Retrieve offers with specified purchased product IDs when page loads.|
+|Request > execute > mboxes|No|Maximum size = 50.<br>No null elements.||
+|Request > execute > mboxes>mbox|Yes|Not blank.<br>No '-clicked' suffix.<br>Maximum size = 250.<br>Allowed characters: `'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'`|Name of mbox.|
+|Request > execute > mboxes>mbox>index|Yes|Not null.<br>Unique.<br>`>=` 0.|Note that the index does not represent the order in which the mboxes will be processed. Same as in a web page with several regional mboxes, the order in which they will be processed cannot be specified.|
+|Request > execute > mboxes > mbox > parameters|No|Maximum count = 50.<br>Name not blank.<br>Name length `<=` 128.<br>Accepts String values only.<br>Value length `<=` 5000.<br>Name should not start with "profile."<br>Not allowed names: "orderId", "orderTotal", "productPurchasedId".|Retrieve offers for a given mbox with the specified parameters.|
+|Request > execute > mboxes>mbox>profileParameters|No|Maximum count = 50.<br>Name not blank.<br>Name length `<=` 128.<br>Accepts String values only.<br>Value length `<=`256.<br>Name should not start with "profile."|Retrieve offers for a given mbox with the specified profile parameters.|
 |Request > execute > mboxes>mbox > product|No|||
-|Request > execute > mboxes > mbox > product > id|No|Not blank<br>Maximum size = 128|Retrieve offers for a given mbox with the specified product IDs.|
-|Request > execute > mboxes > mbox > product > categoryId|No|Not blank<br>Maximum size = 128|Retrieve offers for a given mbox with the specified product category IDs.|
+|Request > execute > mboxes > mbox > product > id|No|Not blank.<br>Maximum size = 128.|Retrieve offers for a given mbox with the specified product IDs.|
+|Request > execute > mboxes > mbox > product > categoryId|No|Not blank.<br>Maximum size = 128.|Retrieve offers for a given mbox with the specified product category IDs.|
 |Request > execute > mboxes > mbox > order|No|||
-|Request > execute > mboxes>mbox > order > id|No|Maximum length = 250|Retrieve offers for a given mbox with the specified order IDs.|
-|Request > execute > mboxes > mbox > order > total|No|`>=` 0|Retrieve offers for a given mbox with the specified order totals.|
-|Request > execute > mboxes > mbox > order > purchasedProductIds|No|No blank values<br>Each value's maximum length = 50<br>Concatenated and separated by comma<br>Product ids total length `<=` 250|Retrieve offers for a given mbox with the specified order purchased product IDs.|
+|Request > execute > mboxes>mbox > order > id|No|Maximum length = 250.|Retrieve offers for a given mbox with the specified order IDs.|
+|Request > execute > mboxes > mbox > order > total|No|`>=` 0.|Retrieve offers for a given mbox with the specified order totals.|
+|Request > execute > mboxes > mbox > order > purchasedProductIds|No|No blank values.<br>Each value's maximum length = 50.<br>Concatenated and separated by comma.<br>Product ids total length `<=` 250.|Retrieve offers for a given mbox with the specified order purchased product IDs.|
 
 ## Call getOffers() for all views
 
