@@ -1,7 +1,7 @@
 ---
 keywords: Targeting;audiences
 description: Learn how to use audiences in [!DNL Adobe Target] to target different content and experiences to specific audiences to optimize your web marketing efforts.
-title: How Can I Use Audiences to Target Different Content to Specific Segments?
+title: How Can I Use [!UICONTROL Audiences] to Target Different Content to Specific Segments?
 feature: Audiences
 exl-id: 5c52ddf1-11e1-4b99-9f74-1af03190136a
 ---

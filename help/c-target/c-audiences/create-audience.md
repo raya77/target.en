@@ -1,6 +1,6 @@
 ---
 keywords: audience;audience rules;create audience;creating audience
-description: Learn how to create customized audiences and save them to the [!DNL Adobe Target] [!UICONTROL Audiences] library for use in your activities.
+description: Learn how to create customized audiences and save them to the [!DNL Adobe Target] [!UICONTROL Audiences] library for use in activities.
 title: How Do I Build Audiences?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
@@ -54,7 +54,7 @@ For example, the following rule targets visitors who use either Chrome *or* Fire
 
 1. (Conditional) Continue adding and defining the desired attributes.
 
-   To create another container, click **[!UICONTROL Add container]** or simply drag another attribute into the middle frame. You can then adjust the operator (AND or OR) using the drop-down list.
+   To create another container, click **[!UICONTROL Add container]** or simply drag another attribute into the Audience Builder pane. You can then adjust the operator (AND or OR) using the drop-down list.
 
 1. Click **[!UICONTROL Done]**.
 
