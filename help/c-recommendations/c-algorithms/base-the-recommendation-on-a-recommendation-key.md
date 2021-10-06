@@ -77,6 +77,8 @@ If you select the Most Viewed by Category algorithm, you can select the followin
 
 ### Most Viewed by Item Attribute
 
+(Info coming soon)
+
 ### Top Sellers Across the Site {#top-sellers}
 
 Displays the items that are included in the most completed orders from across the site. Multiple units of the same item in a single order are counted as one order.
@@ -96,7 +98,11 @@ If you select the Most Viewed by Category algorithm, you can select the followin
 
 ### Top Sellers by Item Attribute
 
+(Info coming soon)
+
 ### Top by Analytics Metric
+
+(Info coming soon)
 
 ## [!UICONTROL Item Based]
 
