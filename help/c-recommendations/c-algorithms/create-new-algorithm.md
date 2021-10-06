@@ -75,7 +75,6 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
    |Cart-Based|(Coming Soon) Make recommendations based on the user's cart contents.|<ul><li>People Who Viewed These, Viewed Those</li><li>People Who Viewed These, Bought Those</li><li>People Who Bought These, Bought Those</li></ul>|
    |[!UICONTROL Custom Criteria]|Make recommendations based on a custom file you upload.|<ul><li>Custom Algorithm</li></ul>|
 
-   For more information about basing criteria on a key, see [Base the recommendation on a recommendation key](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). For more information about recommendation logic options, see [Criteria](/help/c-recommendations/c-algorithms/algorithms.md).
 
    >[!NOTE]
    >
@@ -83,9 +82,11 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
 
 1.  As required, select an **Item Attribute** and **Profile Attribute to Match**, a **Recommendation Key**, **Filtering Key**, and/or **Analytics Metric** to configure the algorithm.
 
+For more information about choosing a Recommendation Key, see [Base the recommendation on a recommendation key](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
+
 ## [!UICONTROL Data Source] {#data-source}
 
-1. (Conditional) Select the desired **[!UICONTROL Behavioral Data Source]**: [!UICONTROL Adobe Target] or [!UICONTROL Analytics].
+1. Select the desired **[!UICONTROL Behavioral Data Source]**: [!UICONTROL Adobe Target] or [!UICONTROL Analytics].
 
    >[!NOTE]
    >
@@ -103,29 +104,29 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
 
    For more information, see [Use Adobe Analytics with Target Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
-1. Set the **[!UICONTROL Lookback Window]** to determine the time range of available historical user behavior data to use when determining which recommendations to show.
+1. Set the **[!UICONTROL Lookback Window]** to determine the time range of available historical user behavior data to use when determining which recommendations to show. This option is available for all algorithms with the exception of Items with Similar Attributes and Custom Algorithms.
 
    ![Lookback Window slider](assets/data-range.png)
 
    If your site has a lot of traffic and behaviors change frequently, choose a shorter data window. A shorter window enables [!DNL Recommendations] to be more responsive to changes in the market and in your business. For example, a shorter window means that [!DNL Recommendations] will detect changes in visitor behavior as your visitors begin seasonal shopping, such as back-to-school shopping or Christmas, and will recommend items appropriate to those shopping seasons.
 
-   If you don't have a lot of data, or visitor behavior does not change frequently, you might select a longer window. However, for many sites, a shorter window results in better recommendations.
+   If you don't have a lot of data, or visitor behavior does not change frequently, you might select a longer window. However, for many sites, a shorter window results in higher-quality recommendations.
 
    The available data ranges are:
 
    |Lookback Window option|Updated frequency (displayed on hover)|Supported alogrithms|
    | --- | --- | --- |
-   |Six hours|Algorithm runs every 3-6 hours|<ul><li>All [!UICONTROL Popularity-Based] algorithms except [!UICONTROL Top by Analytics Metric]</li>Supported only when the selected [!UICONTROL Behavioral Data Source] is [!DNL Adobe Target]. Changing the algorithm configuration in any way that no longer allows a six-hour lookback should result in the 1-day lookback being selected.</ul>|
-   |One day|Algorithm runs every 12-24 hours|<ul><li>All [!UICONTROL Popularity-Based] algorithms</li><li>[!UICONTROL Site Affinity] algorithm</li></ul>|
-   |Two days|Algorithm runs every 12-24 hours|<ul><li>All [!UICONTROL Popularity-Based] algorithms</li><li>All [!UICONTROL Item-Based] algorithms except [!UICONTROL Items with Similar Attributes]</li><li>All [!UICONTROL User-Based] algorithms</li><li>All [!UICONTROL Cart-Based] algorithms</li></ul>|
-   |One week|Algorithm runs every 24-48 hours|<ul><li>All [!UICONTROL Popularity-Based] algorithms</li><li>All [!UICONTROL Item-Based] algorithms except [!UICONTROL Items with Similar Attributes]</li><li>All [!UICONTROL User-Based] algorithms</li><li>All [!UICONTROL Cart-Based] algorithms</li></ul>|
-   |Two weeks|Algorithm runs every 24-48 hours|<ul><li>All [!UICONTROL Popularity-Based] algorithms</li><li>All [!UICONTROL Item-Based] algorithms except [!UICONTROL Items with Similar Attributes]</li><li>All [!UICONTROL User-Based] algorithms</li><li>All [!UICONTROL Cart-Based] algorithms</li></ul>|
-   |One month (30 days)|Algorithm runs every 24-48 hours|<ul><li>All [!UICONTROL Popularity-Based] algorithms</li><li>All [!UICONTROL Item-Based] algorithms except [!UICONTROL Items with Similar Attributes]</li><li>All [!UICONTROL User-Based] algorithms</li><li>All [!UICONTROL Cart-Based] algorithms</li></ul>|
-   |Two months (61 days)|Algorithm runs every 24-48 hours|<ul><li>All [!UICONTROL Popularity-Based] algorithms</li><li>All [!UICONTROL Item-Based] algorithms except [!UICONTROL Items with Similar Attributes]</li><li>All [!UICONTROL User-Based] algorithms except [!UICONTROL Site Affinity]</li><li>All [!UICONTROL Cart-Based] algorithms</li></ul>|
+   |Six hours|Algorithm runs every 3-6 hours|[!UICONTROL Popularity-Based] algorithms when the selected [!UICONTROL Behavioral Data Source] is [!DNL Adobe Target]|
+   |One day|Algorithm runs every 12-24 hours|[!UICONTROL Popularity-Based] algorithms|
+   |Two days|Algorithm runs every 12-24 hours|<ul><li>[!UICONTROL Popularity-Based] algorithms</li><li>[!UICONTROL Item-Based] algorithms</li><li>[!UICONTROL User-Based] algorithms</li><li>[!UICONTROL Cart-Based] algorithms</li></ul>|
+   |One week|Algorithm runs every 24-48 hours|<ul><li>[!UICONTROL Popularity-Based] algorithms</li><li>[!UICONTROL Item-Based] algorithms</li><li>[!UICONTROL User-Based] algorithms</li><li>[!UICONTROL Cart-Based] algorithms</li></ul>|
+   |Two weeks|Algorithm runs every 24-48 hours|<ul><li>[!UICONTROL Popularity-Based] algorithms</li><li>[!UICONTROL Item-Based] algorithms</li><li>All [!UICONTROL User-Based] algorithms</li><li>[!UICONTROL Cart-Based] algorithms</li></ul>|
+   |One month (30 days)|Algorithm runs every 24-48 hours|<ul><li>[!UICONTROL Popularity-Based] algorithms</li><li>[!UICONTROL Item-Based] algorithms</li><li>[!UICONTROL User-Based] algorithms</li><li>[!UICONTROL Cart-Based] algorithms</li></ul>|
+   |Two months (61 days)|Algorithm runs every 24-48 hours|<ul><li>[!UICONTROL Popularity-Based] algorithms</li><li>[!UICONTROL Item-Based] algorithms</li><li>[!UICONTROL User-Based] algorithms</li><li>[!UICONTROL Cart-Based] algorithms</li></ul>|
 
 ## [!UICONTROL Backup Content] {#content}
 
-[!UICONTROL Backup Content] rules determine what happens if the number of recommended items does not fill your [recommendations design](/help/c-recommendations/c-design-overview/design-overview.md). It is possible for [!DNL Recommendations] criteria to return fewer recommendations than your design calls for. As an example, if your design has slots for four items, but your criteria causes only two items to be recommended, you can leave the remaining slots empty, or you can use backup recommendations to fill the extra slots.
+[!UICONTROL Backup Content] rules determine what happens if the number of recommended items does not fill your [recommendations design](/help/c-recommendations/c-design-overview/design-overview.md). It is possible for [!DNL Recommendations] criteria to return fewer recommendations than your design calls for. As an example, if your design has slots for four items, but your criteria causes only two items to be recommended, you can leave the remaining slots empty, you can use backup recommendations to fill the extra slots, or you can choose to display no recommendations.
 
 ![Content section](assets/content.png)
 
