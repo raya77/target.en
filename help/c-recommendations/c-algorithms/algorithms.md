@@ -1,13 +1,13 @@
 ---
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
-description: Learn how to use criteria in Adobe [!DNL Target] Recommendations. Criteria are rules that determine which content to recommend based on a predetermined set of visitor behaviors.
+description: Learn how to use criteria in Adobe [!DNL Target] [!DNL Recommendations].
 title: How Do I Use Criteria in [!DNL Target] Recommendations?
 feature: Recommendations
 exl-id: a6e4c857-f991-4293-9d33-8d7c2ca5dade
 ---
 # ![PREMIUM](/help/assets/premium.png) Criteria
 
-Criteria in [!DNL Adobe Target] are rules that determine which products or content to recommend based on a predetermined set of visitor behaviors. Criteria can be based on popular trends, a visitor's current and past behaviors, or similar products and content. You can test multiple recommendation types against each other by adding multiple criteria.
+Criteria in [!DNL Adobe Target] [!DNL Recommendations] are rules that determine which products or content to recommend based on a predetermined set of visitor behaviors. Criteria can be based on popular trends, a visitor's current and past behaviors, or similar products and content. You can test multiple recommendation types against each other by adding multiple criteria.
 
 The following sections explain more about criteria keys and the recommendation logic you can use for each key. Click the links for more detailed information.
 
@@ -23,21 +23,23 @@ While creating a criteria, you select an industry vertical based on the goals of
 
 Other criteria options change based on the industry vertical you select. You can set your default industry vertical on the **[!UICONTROL Recommendations > Settings]** page or you can specify the industry vertical for each criteria.
 
-## Recommendation key {#section_885B3BB1B43048A88A8926F6B76FC482}
+## Algorithm Type {#section_885B3BB1B43048A88A8926F6B76FC482}
 
-The recommendation key you select determines the criteria type. There are several criteria types, which are represented as criteria cards when you set up a [!DNL Recommendations] activity.
+The algorithm type you select determines the available algorithms. There are several algorithm types, which are represented as criteria cards when you set up a [!DNL Recommendations] activity.
 
-![Criteria page](/help/c-recommendations/c-algorithms/assets/criteria-page.png)
+![Criteria page](assets/criteria-page.png)
 
-The following table explains the various criteria types and their accompanying keys. Click the links for more detailed information about each key.
+The following table explains the various algorithm types and their accompanying algorithms.
 
-| Criteria Type | Keys |
-|--- |--- |
-|Current Page Activity|Recommend items based on what users do on the current page. For example, visitors who view a particular article might want to see other articles from the same category.<ul><li>[Current Item](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#current-item)</li><li>[Current Category](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#current-category)</li></ul>|
-|Custom|Recommend items based on custom attributes.<ul><li>[Custom Attribute](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#custom)</li></ul>When you base recommendations on custom attributes, you must select the custom attribute and then select the recommendation type.|
-|Past Behavior|Recommend items based on how visitors have responded to an item in the past. For example, people who have purchased a particular brand have been more likely to purchase another item from that brand.<ul><li>[Last Purchased Item](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-purchased)</li><li>[Last Viewed Item](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-viewed)</li><li>[Most Viewed Item](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#most-viewed-logic)</li><li>[Favorite Category](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#favorite-category)</li></ul>|
-|Popularity|Recommend the most popular items, such as the most popular videos in a related category or the products that have been viewed most often on your site.<ul><li>[Popularity](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#popularity)</li></ul>|
-|[Recently Viewed Items](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed)|Recommend items a visitor has viewed most recently, such as the items a visitor looked at the last time he or she visited your site, or the articles that are trending most highly right now.|
+|Algorithm type|When to use|Available algorithms|
+| --- | --- | --- |
+|[!UICONTROL Popularity-Based]|Make recommendations based on the overall popularity of an item across your site or based on the popularity of items within a user's favorite or most-viewed category, brand, genre, and so forth.|<ul><li>Most Viewed Across the Site</li><li>Most Viewed by Category</li><li>Most Viewed by Item Attribute</li><li>Top Sellers Across the Site</li><li>Top Sellers by Category</li><li>Top Sellers by Item Attribute</li><li>Top by Analytics Metric</li></ul>|
+|[!UICONTROL Item-Based]|Make recommendations based on finding similar items to an item that the user is currently viewing or has recently viewed.|<ul><li>People Who Viewed This, Viewed That</li><li>People Who Viewed This, Bought That</li><li>People Who Bought This, Bought That</li><li>Items with Similar Attributes</li></ul>|
+|[!UICONTROL User-Based]|Make recommendations based on the user's behavior.|<ul><li>Recently Viewed Items</li><li>Recommended for You</li></ul>|
+|Cart-Based|(Coming Soon) Make recommendations based on the user's cart contents.|<ul><li>People Who Viewed These, Viewed Those</li><li>People Who Viewed These, Bought Those</li><li>People Who Bought These, Bought Those</li></ul>|
+|[!UICONTROL Custom Criteria]|Make recommendations based on a custom file you upload.|<ul><li>Custom Algorithm</li></ul>|
+
+For more information about each algorithm, see [Base the recommendation on a recommendation key](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
 ## Using a custom recommendation key {#custom-key}
 
@@ -45,54 +47,23 @@ You can also base recommendations on the value of a custom profile attribute.
 
 >[!NOTE]
 >
->Custom profile parameters can be passed to Target through JavaScript, API, or integrations. For more information about custom profile attributes, see [Visitor profiles](/help/c-target/c-visitor-profile/visitor-profile.md).
+>Custom profile parameters can be passed to [!DNL Target] through JavaScript, API, or integrations. For more information about custom profile attributes, see [Visitor profiles](/help/c-target/c-visitor-profile/visitor-profile.md).
 
 For example, suppose that you want to display recommended movies based on the movie that a user most recently added to the queue.
 
-1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Last Show Added to Watchlist]).
+1. Click **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**.
 
-1. Select your [!UICONTROL Recommendation Logic] (for example, [!UICONTROL People Who Viewed This, Viewed That]).
+1. Click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**.
 
-   ![Create New Criteria dialog box](/help/c-recommendations/c-algorithms/assets/custom-key1.png)
+1. Fill in the information in the [Basic Information section](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info).
 
-If your custom profile attribute does not directly match to a single entity ID, it is necessary to explain to [!DNL Recommendations] how you want the match to an entity to occur.
+1. In the [Recommended Algorithm](/help/c-recommendations/c-algorithms/create-new-algorithm.md#rec-algo) section, select **[!UICONTROL Item Based]** from the **[!UICONTROL Algorithm Type]** list.
 
-For example, suppose that you want to display the top-selling items from a user’s favorite brand.
+1. Select **[!UICONTROL People Who Viewed This, Viewed That]** from the **[!UICONTROL Algorithm]** list.
 
-1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Favorite Brand]).
+1. Select your custom profile attribute from the **[!UICONTROL Recommendation Key]** list (for example, [!UICONTROL Last Show Added to Watchlist]).
 
-1. Select the [!UICONTROL Recommendation Logic] you want to use with this key (for example, [!UICONTROL Top Sellers]).
-
-   The [!UICONTROL Group By Unique Value Of] option displays. 
-
-1. Select the entity attribute that matches to the key you’ve chosen. In this case [!UICONTROL Favorite Brand] matches to `entity.brand`.
-
-   [!DNL Recommendations] now produces a “Top Sellers” list for each brand and shows the user the appropriate “Top Sellers” list based on the value stored in the [!UICONTROL Favorite Brand] profile attribute.
-
-   ![Top Sellers attribute](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
-
-## Criteria/algorithms {#criteria-algorithms}
-
-[!DNL Target Recommendations] uses sophisticated algorithms to determine when a visitor's actions qualify for the criteria set in your activity. The recommendation key determines the recommendations logic options that are available.
-
-| Criteria | Description |
-|--- |--- |
-|[Items/Media with Similar Attributes](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#similar-attributes)|Recommends items or media similar to items or media based on current page activity or past visitor behavior.|
-|[People Who Viewed This, Viewed That](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#viewed-viewed)|Recommends items that are most often viewed in the same session that the specified item is viewed.|
-|[People Who Viewed This, Bought That](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#viewed-bought)|Recommends items that are most often purchased in the same session that the specified item is viewed.|
-|[People Who Bought This, Bought That](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#bought-bought)|Recommends items that are most often purchased by customers at the same time as the specified item.|
-|[Site Affinity](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#site-affinity)|Recommends items based on the certainty of a relationship between items.|
-|[Top Sellers](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#top-sellers)|The items that are included in the most completed orders. Multiple units of the same item in a single order are counted as one order.|
-|[Most Viewed](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#most-viewed)|The items or media that are viewed most often.|
-|[User-Based Recommendations](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#user-based)|Recommends items based off of each visitor's browsing, viewing, and purchasing history. These items are generally referred to as "Recommended for You."|
-
->[!NOTE]
->
->If you are running a recommendation and change its criteria, you will lose your reporting data.
-
-You can also use additional known information about a visitor to enhance your recommendations.
-
-All one-day criteria run twice daily. All one-week and longer criteria run once daily. Site Affinity criteria run once daily. Backup criteria run twice daily.
+   ![Create New Criteria dialog box](assets/custom-key1.png)
 
 ## Viewing criteria information {#section_7162DE58E4594FD688A4D7FDB829FD8B}
 

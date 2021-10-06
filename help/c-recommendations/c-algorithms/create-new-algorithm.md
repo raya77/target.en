@@ -1,5 +1,5 @@
 ---
-keywords: criteria;algorithm;industry vertical;page type;recommendation key;recommendation logic;logic;data range;behavior data source;partial design;backup recommendations;inclusion rules;attribute weighting;current category;custom attribute;last purchased item;last viewed item;most viewed item;most viewed item;favorite category;popularity;recently viewed item;last purchased;last viewed;most viewed;favorite;recently viewed
+keywords: criteria;algorithm;industry vertical;page type;recommendation key;recommendation logic;logic;data range;lookback window;behavior data source;partial design;backup recommendations;inclusion rules;attribute weighting;current category;custom attribute;last purchased item;last viewed item;most viewed item;most viewed item;favorite category;popularity;recently viewed item;last purchased;last viewed;most viewed;favorite;recently viewed
 description: Learn how to create criteria that controls the content of your Adobe Recommendations activities to show the recommendations that are most appropriate for your activity.
 title: How Do I Create Criteria in Recommendations?
 feature: Recommendations
@@ -25,17 +25,17 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
 
 1. Click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**.
 
-   ![Create New Criteria](/help/c-recommendations/c-algorithms/assets/CreateNewCriteria_full-new.png)
+   ![Create New Criteria](assets/CreateNewCriteria_full-new.png)
 
 1. Configure the information in the following sections.
 
-## Basic Information {#info}
+## [!UICONTROL Basic Information] {#info}
 
 1. Type a **[!UICONTROL Criteria Name]**.
 
    This is the "internal" name used to describe the criteria. For example, you might want to call your criteria "Highest margin products," but you don't want that title to display publicly. See the next step to set the public-facing title.
 
-   ![Basic Information section](/help/c-recommendations/c-algorithms/assets/basic-information.png)
+   ![Basic Information section](assets/basic-information.png)
 
 1. Type a public-facing **[!UICONTROL Display Title]** to appear on the page for any recommendations that use this criteria.
 
@@ -61,43 +61,37 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
 
    Together, the industry vertical and page types are used to categorize your saved criteria, making it easier to reuse criteria for other [!DNL Recommendations] activities.
 
-1. Select a **[!UICONTROL Recommendation Key]**.
+## [!UICONTROL Recommendations Algorithm] {#rec-algo}
 
-   For more information about basing criteria on a key, see [Base the recommendation on a recommendation key](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
+1. Select an **[!UICONTROL Algorithm Type]** and **[!UICONTROL Algorithm]**:
 
-1. Select the **[!UICONTROL Recommendation Logic]**.
+   ![Recommended Algorithm section](assets/recommended-algorithm.png)
 
-   For more information about recommendation logic options, see [Criteria](/help/c-recommendations/c-algorithms/algorithms.md).
+   |Algorithm type|When to use|Available algorithms|
+   | --- | --- | --- |
+   |[!UICONTROL Popularity-Based]|Make recommendations based on the overall popularity of an item across your site or based on the popularity of items within a user's favorite or most-viewed category, brand, genre, and so forth.|<ul><li>Most Viewed Across the Site</li><li>Most Viewed by Category</li><li>Most Viewed by Item Attribute</li><li>Top Sellers Across the Site</li><li>Top Sellers by Category</li><li>Top Sellers by Item Attribute</li><li>Top by Analytics Metric</li></ul>|
+   |[!UICONTROL Item-Based]|Make recommendations based on finding similar items to an item that the user is currently viewing or has recently viewed.|<ul><li>People Who Viewed This, Viewed That</li><li>People Who Viewed This, Bought That</li><li>People Who Bought This, Bought That</li><li>Items with Similar Attributes</li></ul>|
+   |[!UICONTROL User-Based]|Make recommendations based on the user's behavior.|<ul><li>Recently Viewed Items</li><li>Recommended for You</li></ul>|
+   |Cart-Based|(Coming Soon) Make recommendations based on the user's cart contents.|<ul><li>People Who Viewed These, Viewed Those</li><li>People Who Viewed These, Bought Those</li><li>People Who Bought These, Bought Those</li></ul>|
+   |[!UICONTROL Custom Criteria]|Make recommendations based on a custom file you upload.|<ul><li>Custom Algorithm</li></ul>|
+
+   For more information about basing criteria on a key, see [Base the recommendation on a recommendation key](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). For more information about recommendation logic options, see [Criteria](/help/c-recommendations/c-algorithms/algorithms.md).
 
    >[!NOTE]
    >
    >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](#similarity).
 
-## Data Source {#data-source}
+1.  As required, select an **Item Attribute** and **Profile Attribute to Match**, a **Recommendation Key**, **Filtering Key**, and/or **Analytics Metric** to configure the algorithm.
 
-1. Set the **[!UICONTROL Data Range]** to determine the time range of available historical user behavior data to use when determining which recommendations to show.
+## [!UICONTROL Data Source] {#data-source}
 
-   ![Data range slider](/help/c-recommendations/c-algorithms/assets/data-range.png)
-
-   If your site has a lot of traffic and behaviors change frequently, choose a shorter data window. A shorter window enables [!DNL Recommendations] to be more responsive to changes in the market and in your business. For example, a shorter window means that [!DNL Recommendations] will detect changes in visitor behavior as your visitors begin seasonal shopping, such as back-to-school shopping or Christmas, and will recommend items appropriate to those shopping seasons.
-
-   If you don't have a lot of data, or visitor behavior does not change frequently, you might select a longer window. However, for many sites, a shorter window results in better recommendations.
-
-   The available data ranges are:
-
-   * Two days 
-   * One week 
-   * Two weeks 
-   * One month 
-   * Two months
-
-1. (Conditional) Select the desired **[!UICONTROL Behavioral Data Source]**: [!UICONTROL mboxes] or [!UICONTROL Analytics].
+1. (Conditional) Select the desired **[!UICONTROL Behavioral Data Source]**: [!UICONTROL Adobe Target] or [!UICONTROL Analytics].
 
    >[!NOTE]
    >
    >The [!UICONTROL Behavioral Data Source] section displays only if your implementation uses [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
 
-   ![Behavioral Data Source section](/help/c-recommendations/c-algorithms/assets/behavioural-data-source.png)
+   ![Behavioral Data Source section](assets/data-source.png)
 
    If you chose [!UICONTROL Analytics], select the desired report suite.
 
@@ -109,11 +103,31 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
 
    For more information, see [Use Adobe Analytics with Target Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
-## Content {#content}
+1. Set the **[!UICONTROL Lookback Window]** to determine the time range of available historical user behavior data to use when determining which recommendations to show.
 
-Content rules determine what happens if the number of recommended items does not fill your [recommendations design](/help/c-recommendations/c-design-overview/design-overview.md). It is possible for [!DNL Recommendations] criteria to return fewer recommendations than your design calls for. As an example, if your design has slots for four items, but your criteria causes only two items to be recommended, you can leave the remaining slots empty, or you can use backup recommendations to fill the extra slots.
+   ![Lookback Window slider](assets/data-range.png)
 
-![Content section](/help/c-recommendations/c-algorithms/assets/content.png)
+   If your site has a lot of traffic and behaviors change frequently, choose a shorter data window. A shorter window enables [!DNL Recommendations] to be more responsive to changes in the market and in your business. For example, a shorter window means that [!DNL Recommendations] will detect changes in visitor behavior as your visitors begin seasonal shopping, such as back-to-school shopping or Christmas, and will recommend items appropriate to those shopping seasons.
+
+   If you don't have a lot of data, or visitor behavior does not change frequently, you might select a longer window. However, for many sites, a shorter window results in better recommendations.
+
+   The available data ranges are:
+
+   |Lookback Window option|Updated frequency (displayed on hover)|Supported alogrithms|
+   | --- | --- | --- |
+   |Six hours|Algorithm runs every 3-6 hours|<ul><li>All [!UICONTROL Popularity-Based] algorithms except [!UICONTROL Top by Analytics Metric]</li>Supported only when the selected [!UICONTROL Behavioral Data Source] is [!DNL Adobe Target]. Changing the algorithm configuration in any way that no longer allows a six-hour lookback should result in the 1-day lookback being selected.</ul>|
+   |One day|Algorithm runs every 12-24 hours|<ul><li>All [!UICONTROL Popularity-Based] algorithms</li><li>[!UICONTROL Site Affinity] algorithm</li></ul>|
+   |Two days|Algorithm runs every 12-24 hours|<ul><li>All [!UICONTROL Popularity-Based] algorithms</li><li>All [!UICONTROL Item-Based] algorithms except [!UICONTROL Items with Similar Attributes]</li><li>All [!UICONTROL User-Based] algorithms</li><li>All [!UICONTROL Cart-Based] algorithms</li></ul>|
+   |One week|Algorithm runs every 24-48 hours|<ul><li>All [!UICONTROL Popularity-Based] algorithms</li><li>All [!UICONTROL Item-Based] algorithms except [!UICONTROL Items with Similar Attributes]</li><li>All [!UICONTROL User-Based] algorithms</li><li>All [!UICONTROL Cart-Based] algorithms</li></ul>|
+   |Two weeks|Algorithm runs every 24-48 hours|<ul><li>All [!UICONTROL Popularity-Based] algorithms</li><li>All [!UICONTROL Item-Based] algorithms except [!UICONTROL Items with Similar Attributes]</li><li>All [!UICONTROL User-Based] algorithms</li><li>All [!UICONTROL Cart-Based] algorithms</li></ul>|
+   |One month (30 days)|Algorithm runs every 24-48 hours|<ul><li>All [!UICONTROL Popularity-Based] algorithms</li><li>All [!UICONTROL Item-Based] algorithms except [!UICONTROL Items with Similar Attributes]</li><li>All [!UICONTROL User-Based] algorithms</li><li>All [!UICONTROL Cart-Based] algorithms</li></ul>|
+   |Two months (61 days)|Algorithm runs every 24-48 hours|<ul><li>All [!UICONTROL Popularity-Based] algorithms</li><li>All [!UICONTROL Item-Based] algorithms except [!UICONTROL Items with Similar Attributes]</li><li>All [!UICONTROL User-Based] algorithms except [!UICONTROL Site Affinity]</li><li>All [!UICONTROL Cart-Based] algorithms</li></ul>|
+
+## [!UICONTROL Backup Content] {#content}
+
+[!UICONTROL Backup Content] rules determine what happens if the number of recommended items does not fill your [recommendations design](/help/c-recommendations/c-design-overview/design-overview.md). It is possible for [!DNL Recommendations] criteria to return fewer recommendations than your design calls for. As an example, if your design has slots for four items, but your criteria causes only two items to be recommended, you can leave the remaining slots empty, or you can use backup recommendations to fill the extra slots.
+
+![Content section](assets/content.png)
 
 1. (Optional) Slide the **[!UICONTROL Partial Design Rendering]** toggle to the "on" position.
 
@@ -121,7 +135,7 @@ Content rules determine what happens if the number of recommended items does not
 
    Enable this option if you want recommendations served with blank slots. Use backup recommendations if you want recommendation slots to be filled with content based on your criteria with empty slots filled with similar or popular content from your site, as explained in the next step.
 
-1. (Optional) Slide the **[!UICONTROL Show Backup Recommendations]** toggle to the "on" position.
+1. (Optional) Slide the **[!UICONTROL Show Backup Content]** toggle to the "on" position.
 
    Fill any remaining empty slots in the design with a random selection of most-viewed products from across your site.
 
@@ -131,9 +145,9 @@ Content rules determine what happens if the number of recommended items does not
 
    Suppose your criteria causes only two items to be recommended. If you enable the [!UICONTROL Partial Design Rendering] option, the fist two slots are filled, but the remaining two slots remain empty. However, if you enable the [!UICONTROL Show Backup Recommendations] option, the first two slots are filled based on your specified criteria and the remaining two slots are filled based on your backup recommendations.
 
-   The following matrix shows the result you'll observe when using the [!UICONTROL Partial Design Rendering] and [!UICONTROL Backup Recommendations] options:
+   The following matrix shows the result you'll observe when using the [!UICONTROL Partial Design Rendering] and [!UICONTROL Backup Content] options:
 
-   | Partial Design Rendering | Backup Recommendations | Result |
+   | Partial Design Rendering | Backup Content | Result |
    |--- |--- |--- |
    |Disabled|Disabled|If fewer recommendations are returned than the design calls for, the recommendations design is replaced by default content and no recommendations are displayed.|
    |Enabled|Disabled|The design is rendered, but may include blank space if fewer recommendations are returned than the design calls for.|
@@ -142,7 +156,7 @@ Content rules determine what happens if the number of recommended items does not
 
    For more information, see [Use a backup recommendation](/help/c-recommendations/c-algorithms/backup-recs.md).
 
-1. (Conditional) If you selected **[!UICONTROL Show Backup Recommendations]** in the previous step, you can enable **[!UICONTROL Apply inclusion rules to backup recommendations]**.
+1. (Conditional) If you selected **[!UICONTROL Show Backup Content]** in the previous step, you can enable **[!UICONTROL Apply inclusion rules to backup recommendations]**.
 
    Inclusion rules determine which items are included in your recommendations. The options available depend on your industry vertical.
 
@@ -158,13 +172,13 @@ Use [!UICONTROL Content Similarity] rules to make recommendations based on item 
 
 >[!NOTE]
 >
->If you selected **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]** as your [recommendation logic](#info), you will have the option to set content similarity rules.
+>If you selected **[!UICONTROL Item-Based]**/ **[!UICONTROL Media with Similar Attributes]** as your Algorithm Type and Algorithm, you have the option to set content similarity rules.
 
 Content similarity compares item attribute keywords and makes recommendations based on how many keywords different items have in common. Recommendations based on content similarity do not require past data to deliver strong results. 
 
 Using content similarity to generate recommendations is especially effective for new items, which are not likely to show up in recommendations using *People Who Viewed This, Viewed That* and other logic based on past behavior. You can also use content similarity to generate useful recommendations for new visitors, who have no past purchases or other historical data. 
 
-When you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you have the option to create rules to increase or decrease the importance of specific item attributes in determining recommendations. For items such as books, you might want to boost the importance of attributes like *genre*, *author*, *series*, and so on, to recommend similar books.
+When you select **[!UICONTROL Item-Based]**/ **[!UICONTROL Media with Similar Attributes]**, you have the option to create rules to increase or decrease the importance of specific item attributes in determining recommendations. For items such as books, you might want to boost the importance of attributes like *genre*, *author*, *series*, and so on, to recommend similar books.
 
 ![](assets/ContentSimilarity.png)
 
