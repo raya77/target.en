@@ -55,7 +55,7 @@ For example, viewing surfboardA then surfboardB in one session results in A: 10,
 
 Use this algorithm on general pages, such as home or landing pages and offsite ads.
 
-### Most Viewed by Category {#favorite-category}
+### Most Viewed by Category {#most-viewed-category}
 
 The recommendation is determined by the category that has received the most activity, using the same method used for "most viewed item" except that categories are scored instead of products.
 
