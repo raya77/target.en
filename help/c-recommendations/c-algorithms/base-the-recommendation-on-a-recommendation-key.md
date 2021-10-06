@@ -104,7 +104,7 @@ If you select the Most Viewed by Category algorithm, you can select the followin
 
 (Info coming soon)
 
-## [!UICONTROL Item Based]
+## [!UICONTROL Item-Based]
 
 The [!UICONTROL Item-Based] recommendation type lets you make recommendations based on finding similar items to an item that the user is currently viewing or has recently viewed.
 
@@ -201,7 +201,7 @@ Use this algorithm on general pages, such as home or landing pages and offsite a
 >
 >[!UICONTROL Recently Viewed Items] respects both exclusions global settings and the selected collection setting for the activity. If an item is excluded by a global exclusion, or is not contained in the selected collection, it will not be displayed. Therefore, when using a [!UICONTROL Recently Viewed Items] criteria, the "All Collections" setting should generally be used.
 
-### Recommended for You {#user-based}
+### Recommended for You {#recommended-for-you}
 
 Recommends items based off each visitor's browsing, viewing, and purchasing history.
 
