@@ -18,22 +18,16 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## [!DNL Target Standard/Premium] 21.9.1 (September 14, 2021)
+## [!DNL Target Standard/Premium] 21.10.1 (October 6, 2021)
 
-This maintenance release contains the following enhancements, fixes, and changes.
+This release contains the following new features:
 
-* Fixed issues that prevented customers from logging in to the [!UICONTROL Visual Experience Composer] (VEC) due to new security policies for third-party cookies in some web browsers. This issue was discussed in "Pages not loading in the Visual Experience Composer (VEC) or Enhanced Experience Composer (EEC) when using Google Chrome version 80+" in [Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md).
-* Fixed an issue that caused offer names in the VEC to display the offer's path instead of the offer's friendly name. (TGT-41300)
-* Experience names are now reflected in [!DNL Analysis Workspace] for A4T activities (TGT-38674) 
-* Fixed an issue in [!DNL Recommendations] that erroneously applied entity ID changes in a promotion in a duplicated activity to the original activity. (TGT-41482)
-* Fixed an issue that prevented the "Edit Criteria" button from displaying properly on the [!UICONTROL Experiences] page for [!DNL Recommendations] activities in the VEC. (TGT-39512)
-* Fixed an issue that prevented synchronization of activities when duplicated and copied to a test workspace. (TGT-40686)
-* Fixed an issue that prevented modifications to a selector with [experience fragments](/help/c-experiences/c-manage-content/aem-experience-fragments.md) when using "[!UICONTROL Insert After]" in the VEC. (TGT-41802)
-* Fixed an issue that prevented empty JSON content in an offer from being sent to the backend. [!DNL Target] now sends the JSON object even though it is empty. (TGT-41555)
-* Fixed an issue that caused legacy [!DNL Analytics] reporting to open instead of [!DNL Analysis Workspace] when customers clicked "[!UICONTROL View in Analytics]" while viewing a report. (TGT-41867)
-* Added additional clarification to the displayed UI message when a customer attempts to select [!DNL Analytics] as the reporting source (A4T) for an [!UICONTROL Automated Personalization] activity. The message states that, "[!DNL Target] is the only supported source for [!UICONTROL Automated Personalization] activities." (TGT-41954)
-* Added additional clarification to the error message when customers attempt to separate hosts with "newline" instead of commas. (TGT-40671) 
-* Fixed an issue that caused some activities' "[!UICONTROL Last Updated]" dates to differ from the English UI for Spanish and Japanese customers (when viewing the UI in Spanish and Japanese). (TGT-38980) 
+|Feature|Details|
+| --- | --- |
+|[!UICONTROL Audiences] UI refresh|As part of the [!DNL Adobe Target] team's ongoing effort to improve the user-experience for [!DNL Target] users, this release refreshes the [!UICONTROL Audiences] and [!UICONTROL Profile Scripts] pages in the [!DNL Target] UI. This update unifies and standardizes design patterns that were previously inconsistent, while adding new enhancements, such as:<ul><li>The ability to select and delete multiple audiences simultaneously</li><li>A refreshed [audience builder design](/help/c-target/c-audiences/create-audience.md)</li><li>Exclusion rule support in the [!UICONTROL Audience] library rule builder</li><li>A new “Audience Source” filter, to allow for faster audience discovery</li><li>Session persistent search and filter options</li></ul>For more information, see [Audiences](/help/c-target/target.md).|
+|[!UICONTROL Profile Scripts] UI refresh|The [!UICONTROL Profile Scripts] library was also updated, and includes a refreshed interface along and several productivity updates:<ul><li>The ability to select and delete multiple profile scripts simultaneously</li><li>A new code editor for profile scripts</li><li>Syntax highlighting and error checking inside the code editor</li><li>Auto-complete tokens (mbox or profile) parameters through keyboard shortcuts</li></ul>For more information, see [Visitor Profiles](/help/c-target/c-visitor-profile/visitor-profile.md).|
+|![Premium badge](/help/assets/premium.png) Recommendations Criteria create and edit|The [!UICONTROL Recommendations Criteria] creation and editing workflow has been streamlined to simplify choosing the right recommendations algorithm and settings to achieve your goals.<br>For more information, see [Create criteria](/help/c-recommendations/c-algorithms/create-new-algorithm.md).|
+|![Premium badge](/help/assets/premium.png) Trending item recommendations|You can now run "Most Viewed" and "Top Sellers" algorithms with a six-hour lookback window to capture the content that's trending most recently. When the six-hour lookback window is selected, your recommendations results are updated every 3-6 hours throughout the day.<br>For more information, see [Data Source](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) in *Create criteria*.|
 
 ## Additional release notes and version details
 

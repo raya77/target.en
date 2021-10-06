@@ -9,6 +9,15 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 
 This page lists significant changes made to the [!DNL Adobe Target] product documentation.
 
+## [!DNL Adobe Target Standard/Premium] 21.10.1 (October 6, 2021)
+
+|Date|Topic|Changes|
+| --- | --- | --- |
+|October 6|[Build audiences in [!DNL Target]](/help/c-target/c-audiences/create-audience.md)|Updated text and images to reflect the updated [!DNL Target] [!UICONTROL Audiences] UI. Similar changes have been made throughout the [!UICONTROL Audiences] topics.|
+||[Create criteria](/help/c-recommendations/c-algorithms/create-new-algorithm.md)|Updated the following sections:<ul><li>Basic Information</li><li>Data Source</li></ul>|
+||[Upload custom criteria](/help/c-recommendations/c-algorithms/recommendations-csv.md)|Updated instructions to reflect new workflow.|
+||[Release Notes](/help/r-release-notes/release-notes.md): 21.10.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
+
 ## [!DNL Adobe Target Standard/Premium] 21.9.1 (September 14, 2021)
 
 |Date|Topic|Changes|
