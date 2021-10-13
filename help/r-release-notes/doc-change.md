@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|October 13|[Release Notes](/help/r-release-notes/release-notes.md): 21.10.2|Added information about the [!DNL Target Standard/Premium] 21.10.2 release (October 13, 2021).|
 |October 11|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the Target Standard/Premium 21.10.2 release (October 13, 2021).|
 |October 6|[Build audiences in [!DNL Target]](/help/c-target/c-audiences/create-audience.md)|Updated text and images to reflect the updated [!DNL Target] [!UICONTROL Audiences] UI. Similar changes have been made throughout the [!UICONTROL Audiences] topics.|
 ||[Create criteria](/help/c-recommendations/c-algorithms/create-new-algorithm.md)|Updated the following sections:<ul><li>Basic Information</li><li>Data Source</li></ul>|
