@@ -21,7 +21,7 @@ For more information, see "While configuring my goal metrics, why can't I access
 
 ## I just created an activity. Why don't I see any data coming in? {#section_9F8092BE4225442896F926540292F221}
 
-When an activity is created, [!DNL Target] sends a classification file to [!DNL Analytics]. Although [!DNL Analytics] is capturing and processing the data, it does not show that in the reports until the classification file has been updated. This process can take up to 24 hours. If after 48 hours you don't see your data, please [contact Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Alternately, if you know you will launch an activity, you can create the activity a few days beforehand and the classifications are sent when the activity is saved. That way, data appears in the reports upon launch. Please note that it takes 45-90 minutes for data to be processed in [!DNL Analytics].
+When an activity is created, [!DNL Target] sends a classification file to [!DNL Analytics]. Although [!DNL Analytics] is capturing and processing the data, it does not show that in the reports until the classification file has been updated. This process can take up to 24 hours. If after 48 hours you don't see your data, please [contact Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Alternately, if you know you launch an activity, you can create the activity a few days beforehand and the classifications are sent when the activity is saved. That way, data appears in the reports upon launch. Please note that it takes 45-90 minutes for data to be processed in [!DNL Analytics].
 
 ## Why can't I select Analytics as my reporting source when I create an activity? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
@@ -46,3 +46,8 @@ If the percentages are not adjusted mid-activity, a visitor who initially sees t
 
 * After being in the targeted “bucket” of traffic, the visitor can be sent to a different experience from visit to visit if the machine-learning models determine that a different experience is relevant for the new visit.
 * After being assigned to the control "bucket" of traffic, a visitor will always see the same experience because experience assignment is based on a deterministic pseudo-random hash of the visitor's visitorId.
+
+
+## Can I use a binomial [!DNL Analytics] metric with a segment applied as the optimizing goal in an [!UICONTROL Auto-Allocate] activity? {#binomial}
+
+You cannot use an [!DNL Analytics] metric with a segment applied as the optimizing goal in an [!UICONTROL Auto-Allocate] activity. As a workaround you can define a Custom Event that achieves the same objective and use that as the optimizing goal metric.
