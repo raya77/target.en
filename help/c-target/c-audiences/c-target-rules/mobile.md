@@ -71,7 +71,7 @@ The iOS 12.2 (or later) update does not affect the identification of the followi
 
 ### Targeting devices running Safari 14.0.2 (or later)
 
-When using mobile rules to target devices running Safari version 14.0.2 (or later) on macOS, due to a known issue involving Apple's user agents and DeviceAtlas, [!DNL Target] incorrectly identifies Safari on Mac devices as an iPad version. This issue will be addressed in the future.
+When using mobile rules to target devices running Safari version 14.0.2 (or later) on macOS, due to a known issue involving Apple's user agents and DeviceAtlas, [!DNL Target] incorrectly identifies Safari on Mac and iPad devices. This issue will be addressed in the future.
 
 ## Training video: Creating Audiences
 
