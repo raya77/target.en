@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|October 19|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the [!DNL Target Standard/Premium] 21.10.3 release (October 19, 2021).|
 |October 14|[Activity settings - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial)|Added the following FAQ: "Can I use a binomial [!DNL Analytics] metric with a segment applied as the optimizing goal in an [!UICONTROL Auto-Allocate] activity?"|
 |October 13|[Release Notes](/help/r-release-notes/release-notes.md): 21.10.2|Added information about the [!DNL Target Standard/Premium] 21.10.2 release (October 13, 2021).|
 |October 11|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the Target Standard/Premium 21.10.2 release (October 13, 2021).|
