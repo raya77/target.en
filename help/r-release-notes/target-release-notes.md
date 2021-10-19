@@ -24,9 +24,9 @@ To view information about the current release, see [Target Release Notes](releas
 This maintenance release contains the following enhancements, fixes, and changes:
 
 * Fixed issues that prevented customers from opening the [!UICONTROL A4T] panel in [!DNL Analysis Workspace] by clicking the [!UICONTROL View in Analytics] button in [!DNL Target] activity reporting. (TGT-42099, TGT-42100)
-* Fixed an issue that caused the [!UICONTROL Edit Design] button to not appear while editing [!UICONTROL A/B Test] and [!UICONTROL Experience Targeting] (XT) activities using the [!UICONTROL Form-Based Experience Composer]. (TGT-41980)
+* Fixed an issue that caused the [!UICONTROL Edit Design] button to not display while editing [!UICONTROL A/B Test] and [!UICONTROL Experience Targeting] (XT) activities using the [!UICONTROL Form-Based Experience Composer]. (TGT-41980)
 * Fixed an issue that prevented the [!UICONTROL Compatible] checkbox from displaying in criteria selection while creating a new [!UICONTROL Recommendations] activity. (TGT-42053)
-* Fixed an incorrect error message when not being able to select [!DNL Analytics] as the reporting source (A4T) because of lack of [!DNL Analytics] permissions. (TGT-41954)
+* Fixed an incorrect error message that displayed when not being able to select [!DNL Analytics] as the reporting source (A4T) because of lack of [!DNL Analytics] permissions. (TGT-41954)
 * Implemented multiple accessibility fixes to improve keyboard navigation across the [!DNL Target] UI.
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 

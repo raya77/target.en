@@ -18,6 +18,16 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Target Standard/Premium] 21.10.3 (October 19, 2021)
+
+This maintenance release contains the following enhancements, fixes, and changes:
+
+* Fixed issues that prevented customers from opening the [!UICONTROL A4T] panel in [!DNL Analysis Workspace] by clicking the [!UICONTROL View in Analytics] button in [!DNL Target] activity reporting. (TGT-42099, TGT-42100)
+* Fixed an issue that caused the [!UICONTROL Edit Design] button to not display while editing [!UICONTROL A/B Test] and [!UICONTROL Experience Targeting] (XT) activities using the [!UICONTROL Form-Based Experience Composer]. (TGT-41980)
+* Fixed an issue that prevented the [!UICONTROL Compatible] checkbox from displaying in criteria selection while creating a new [!UICONTROL Recommendations] activity. (TGT-42053)
+* Fixed an incorrect error message that displayed when not being able to select [!DNL Analytics] as the reporting source (A4T) because of lack of [!DNL Analytics] permissions. (TGT-41954)
+* Implemented multiple accessibility fixes to improve keyboard navigation across the [!DNL Target] UI.
+
 ## [!DNL Target Standard/Premium] 21.10.2 (October 13, 2021)
 
 The following enhancements have been added when using [!DNL Target] [!UICONTROL Audiences] with the [!DNL Adobe Experience Platform Web SDK]:
