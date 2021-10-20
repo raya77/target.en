@@ -17,6 +17,14 @@ Release notes are arraigned in descending order by month and year of release.
 
 ## Release notes - 2021
 
+### [!DNL Target Standard/Premium] 21.10.4 (October 21, 2021)
+
+This maintenance release contains the following enhancement:
+
+|Feature|Details|
+| --- | --- |
+|Cart-based Recommendations|A new family of algorithms to deliver recommendations based on the contents of the visitor's cart.<br>For more information, see "Cart-Based" in [Create criteria](/help/c-recommendations/c-algorithms/create-new-algorithm.md) and "Cart adds/cart views/checkout pages" and "Exclude items already in the visitor's cart" in [Plan and implement Recommendations](/help/c-recommendations/plan-implement.md).|
+
 ### [!DNL Target Standard/Premium] 21.10.3 (October 19, 2021)
 
 This maintenance release contains the following enhancements, fixes, and changes:
