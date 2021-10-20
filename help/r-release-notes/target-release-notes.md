@@ -9,7 +9,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: October 18, 2021**
+**Last Updated: October 20, 2021**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages could be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
@@ -18,6 +18,14 @@ To view information about the current release, see [Target Release Notes](releas
 >**mbox.js end-of-life**: As of March 31, 2021, [!DNL Adobe Target] no longer supports the mbox.js library. Post March 31, 2021, all calls made from mbox.js gracefully fail and impact your pages that have [!DNL Target] activities running by serving default content.
 >
 >To avoid any potential issues with your sites, migrate to the most recent version of the new [!DNL Adobe Experience Platform Web SDK] or the at.js JavaScript library. For more information, see [Overview: implement Target for client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+
+## [!DNL Target Standard/Premium] 21.10.4 (October 21, 2021)
+
+This maintenance release contains the following enhancement:
+
+|Feature|Details|
+| --- | --- |
+|Cart-based Recommendations|A new family of algorithms to deliver recommendations based on the contents of the visitor's cart.<br>For more information, see "Cart-Based" in [Create criteria](/help/c-recommendations/c-algorithms/create-new-algorithm.md) and "Cart adds/cart views/checkout pages" and "Exclude items already in the visitor's cart" in [Plan and implement Recommendations](/help/c-recommendations/plan-implement.md).|
 
 ## [!DNL Target Standard/Premium] 21.10.3 (October 19, 2021)
 

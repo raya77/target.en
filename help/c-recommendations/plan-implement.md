@@ -1,192 +1,116 @@
 ---
 keywords: Recommendations;settings;preferences;industry vertical;filter incompatible criteria;default host group;thumb base url;recommendations api token
-description: Learn how to implement Recommendations activities in Adobe Target. Ensure that your implementation meets the necessary prerequisite requirements. 
+description: Learn how to implement Recommendations activities in Adobe Target. 
 title: How Do I Implement Recommendations Activities?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
 ---
 # ![PREMIUM](/help/assets/premium.png) Plan and implement Recommendations 
 
-What you need to know before creating a Recommendations activity.
+Before setting up your first [!DNL Recommendations] activity in [!DNL Adobe Target], complete the following steps:
 
-## Plan and Implement Recommendations {#concept_02AA644A4C7D4D5CB1D9CADA208CF8D1}
-
-What you need to know before creating a [!DNL Recommendations] activity.
-
-[!DNL Recommendations] requires that you set up the following hierarchy of information:
-
-| Step | Information | Details |
-|--- |--- |--- |
-|![Step 1](/help/c-recommendations/assets/step1_red.png) |JavaScript library|Each page requires a reference to at.js  version 0.9.1 (or later) or  mbox.js  version 55 (or later). This implementation step is required on all pages where a [!DNL Target] activity will be used, and can include keys such as a product or category ID.|
-|![Step 2](/help/c-recommendations/assets/step2_red.png)|Keys|The key determines the type of product or content that displays in your recommendations. For example, the key might be a product category. See [Base the Recommendation on a Recommendation Key](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).|
-|![Step 3](/help/c-recommendations/assets/step3_red.png)|Attributes|Attributes provide more specific information about the products you want to display. For example, you might want to show products within a certain price range, or items that meet an inventory threshold. Attributes can be provided in the mbox or through a [feed](/help/c-recommendations/c-products/feeds.md).<br>See [Specify inclusion rules](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion).|
-|![Step 4](/help/c-recommendations/assets/step4_red.png)|Exclusions|Exclusions determine which specific items do not appear in your recommendations.<br>See [Exclusions](/help/c-recommendations/c-products/exclusions.md).|
-|![Step 5](/help/c-recommendations/assets/step5_red.png)|Purchase details|Purchase details provide information about purchased items and the order when the purchase has been completed.|
-
-## Base Implementation {#concept_D1154A3FB0FB4467A29AD2BDD21C82D5}
-
-The base implementation requires that you pass parameters to your page that determine which products or services appear in your recommendations.
-
-Before you begin setting up a [!DNL Recommendations] activity, you should understand how product data is provided to [!DNL Recommendations], and decide which method works best for your needs.
-
-There are two methods to provide information about products and services to [!DNL Recommendations]:
-
-| Method | Description |
+| Step |Details |
 |--- |--- |
-|Pass parameters directly to the page|This method works well for items that change frequently. However, because it requires that changes be made directly to the page, in many organizations, this method requires the involvement of IT and the people who implement the pages.|
-|Pass parameters through a Google or CSV feed|This method works well for collections that do not change frequently. It is usually not necessary to change your implementation or other page code to provide product information through a feed. However, the product list remains static, so quick changes are more difficult. For more information, see [Feeds](/help/c-recommendations/c-products/feeds.md).|
+|![Step 1](/help/c-recommendations/assets/step1_red.png)|[Implement [!DNL Adobe Target]](#implement-target) on the web and mobile app surfaces that you want to use for capturing user behavior and delivering recommendations.|
+|![Step 2](/help/c-recommendations/assets/step2_red.png)|[Set up your [!DNL Recommendations] catalog](#rec-catalog) of products or content that you want to recommend to your users.|
+|![Step 3](/help/c-recommendations/assets/step3_red.png)|[Pass behavioral information and context](#pass-behavioral) to [!DNL Adobe Target Recommendations] to allow it to deliver personalized recommendations.|
+|![Step 4](/help/c-recommendations/assets/step4_red.png)|[Configure global exclusions](#exclusions).|
+|![Step 5](/help/c-recommendations/assets/step5_red.png)|[Configure [!DNL Recommendations] settings](#concept_C1E1E2351413468692D6C21145EF0B84).|
 
-These methods can be used separately or together, as in the following examples.
+## Implement Adobe Target {#implement-target}
 
-## Example One: Combine Page and Feeds {#section_DF6BAE4BF11548BD9C44D0A426BCF5A7}
+[!DNL Target Recommendations] requires you to implement the [!DNL Adobe Experience Platform Web SDK] or at.js 0.9.2 (or later). See [Implement Target](/help/c-implementing-target/implementing-target.md) for more information.
 
-One common [!DNL Recommendations] implementation option uses both page parameters and feeds.
+## Set up your Recommendations catalog {#rec-catalog}
 
-This method might be preferred by a retailer who has a relatively set product catalog, but who might want to emphasize specific seasonal items or items that are on sale. Most customers might provide their information primarily through the feed, with only occasional adjustments on the page.
+To deliver high-quality recommendations, [!DNL Target] must know about the products or content that you want to recommend. Your catalog should usually include three types of information about the items you want to recommend. Suppose that you are recommending movies. Include the following:
 
-Use a feed to provide information that does not change frequently. Whether using a CSV file or Google feed, use the following parameters:
+1. Data that you want to display to the user receiving the recommendation. For example, you can display the name of the movie and a URL for a thumbnail image of the movie poster.
+1. Data that is useful for applying marketing and merchandising controls. For example, you can display the rating of the movie so that you do not recommend NC-17 movies.
+1. Data that is useful for determining the similarity of items to other pieces of items. For example, you can display the genre of the movie and director of the movie.
 
-* Required parameters
+[!DNL Target] offers multiple integration options to populate your catalog. These options can be used in combination to update different items in the catalog or to update different item attributes on different frequencies.
 
-    * `entity.id`
+|Method|What it is|When to use it|Additional information|
+| --- | --- | --- | --- |
+|Catalog feed|Schedule a feed (CSV, Google Product XML, or [!DNL Analytics Product Classifications]) to be uploaded and ingested on a daily basis.|For sending information about multiple items at a time. For sending information that changes infrequently.|See [Feeds](/help/c-recommendations/c-products/feeds.md).|
+|Entities API|Call an API to send to-the-minute updates for a single item.|For sending updates as they happen about one item at a time. For sending information that changes frequently (for example price, inventory/stock level).|See the [Entities API developer documentation](https://developers.adobetarget.com/api/recommendations/#tag/Entities).|
+|Pass updates on the page|Send to-the-minute updates for a single item using JavaScript on the page or using the Delivery API.|For sending updates as they happen about one item at a time. For sending information that changes frequently (for example price, inventory/stock level).|See Item views/product pages below.|
 
-* Helpful parameters
+Most customers should implement at least one feed. You can then choose to complement your feed with updates for frequently changed attributes or items using either the Entities API or on-the-page method.
 
-    * `entity.name` 
-    * `entity.categoryId` 
-    * `entity.brand` 
-    * `entity.pageUrl` 
-    * `entity.thumbnailUrl` 
-    * `entity.message`
-    * All custom attributes
+## Pass behavioral information and context {#pass-behavioral}
 
-Once the feed is set up and passed to [!DNL Recommendations], pass parameters on the page for attributes that change frequently, i.e. more often than daily.
+The behavioral information and context that you should pass to [!DNL Target] depends on the action your visitor is taking, which is often associated with the type of page that your visitor is interacting with.
 
-* Required parameters
+### Item views/product pages
 
-    * `entity.id` 
-    * `entity.categoryId`
+On pages where a visitor is viewing a single item, such as a product detail page, you should pass the identity of the item the visitor is viewing. You should also pass the most granular category of the item that the visitor is viewing, to allow filtering recommendations to the current category.
 
-* Helpful parameters
-
-    * `entity.inventory` 
-    * `entity.value`
-
-Priority is given to whichever set of data runs most recently. If you pass the feed first and then update the page parameters, changes that are made in the page parameters will be shown, replacing item information passed in the feed.
-
-## Example Two: Pass All Parameters on the Product (or Content) Details Page {#section_D5A4F69457604CA7AACFD7BFF79B58A9}
-
-If you pass all parameters on the page, you can quickly make updates by updating the page. In some organizations, this requires the involvement of IT or your Web Design team.
-
-This example might be especially useful for a media company, with content that constantly changes.
-
-* Required parameters
-
-    * `entity.id` 
-    * `entity.categoryId` 
-    * All other attributes
-
-## Sample Code {#section_6E8A73376F30468BB549F337C4C220B1}
-
-For example, you can use the following code in the header section of your product or content pages:
+You can also pass certain quickly changing attributes on the product page itself. For example, you can pass the price (`value`) and inventory/stock level.
 
 ```
-function targetPageParams() {
- return {
-    "entity": {
-       "id": "32323",
-       "categoryId": "My Category",
-       "value": 105.56,
-       "inventory": 329
-    }
- }
-}
-```
-
-For more examples of the code you might use on different types of pages, see [Implementation According to Page Type](/help/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC).
-
-## Implementation According to Page Type {#reference_DE38BB07BD3C4511B176CDAB45E126FC}
-
-Page type will influence your [!DNL Recommendations] implementation.
-
-For example, the types of recommendations you want to present may be different on a product page than on a category page or your home page. For each page, you can run specific functions prior to the mbox call to display the appropriate recommendations.
-
-For information about the attributes in the examples, see [Entity Attributes](/help/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F).
-
-Valid JSON formatting is required.
-
-The `targetPageParams` function shown below is especially helpful if you are using a tag management solution to implement your pages. Tags in [!DNL Adobe Experience Platform] places the at.js/mbox.js reference and the `targetPageParams` function on your page and allows you to configure the values. You should either place that function before your at.js/mbox.js call, or put it in the Extra JavaScript section of your at.js/mbox.js.
-
-## All Pages {#section_A22061788BAB42BB82BA087DEC3AA4AD}
-
-All pages that contain recommendations require either an [!DNL at.js] or [!DNL mbox.js] reference on the page. Add one of the following references to all pages with recommendations:
-
-```
-<script src="/help/at.js /></script>
-```
-
-```
-<script src="/help/mbox.js /></script>
-```
-
-This implementation requires:
-
-* [!DNL at.js] version 0.9.2 (or later)
-
-For more information about implementing [!DNL at.js], see [How to Deploy at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md#topic_ECF2D3D1F3384E2386593A582A978556).
-
-## Category Page {#section_F51A1AAEAC0E4B788582BBE1FEC3ABDC}
-
-On a category page, you probably want to restrict your recommendations to products or content within that category. To set up a category page, you set up the keys used by the page. For more information about keys, see [Base the Recommendation on a Recommendation Key](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
-
-```
-function targetPageParams() { 
-   return { 
-      "entity": { 
-         "categoryId": "My Category" 
-      } 
-   } 
-}
-```
-
-## Product Page {#section_205B3953C9664125A17CA8574FA6B2A3}
-
-On a product page, you might want to recommend specific items, or items with a particular price or inventory level. For a product page, you might need to set up frequently changing attributes (such as value and inventory), in addition to the keys required for a category page.
-
-```
+<script type="text/javascript">
 function targetPageParams() { 
    return { 
       "entity": { 
          "id": "32323", 
-         "categoryId": "My Category", 
-         "value": 105.56, 
+         "categoryId": "running-shoes", 
+         "value": 119.99, 
          "inventory": 329 
+      } 
+   } 
+}
+</script>
+```
+
+### Category views/category pages
+
+On a category page, you likely want to restrict your recommendations to products or content within that category. To do so, ensure you pass the identity of the currently viewed category.
+
+```
+function targetPageParams() { 
+   return { 
+      "entity": { 
+         "categoryId": "running-shoes" 
       } 
    } 
 }
 ```
 
-## Cart Page {#section_D37E48700F074556B925D0CA0291405E}
+### Cart adds/cart views/checkout pages
 
-On a cart page, you likely want to exclude some items from your recommendations, such as the items that are already in the cart.
+On a cart page, you can recommend items based on the contents of the visitor's current cart. To do so, pass the IDs of all items in the visitor's current cart using the special parameter `cartIds`.
 
 ```
-<script type="text/javascript">
 function targetPageParams() {
    return {
-      "excludedIds": [352, 223, 23432, 432, 553]
+      "cartIds": ["352", "223", "23432", "432", "553"]
       }
 }
-</script>
 ```
 
-## Thank You Page {#section_C6126A4517A1478693AB7EC2A1D4ACCA}
+### Exclude items already in the visitor's cart
 
-On the Thank You page, you might want to show the order total, and the order ID, and show the products that were purchased, without recommending additional items. You can implement a second mbox to capture the order information.
+On pages throughout your site, you can exclude some items from recommendations. For example, you might not want to recommend items that are already in the visitor’s current cart. To do so, pass the IDs of all items you want to exclude using the special parameter `excludedIds`.
 
-* If you are using at.js, see [Track Conversions](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053). 
+```
+function targetPageParams() {
+   return {
+      "excludedIds": ["352", "223", "23432", "432", "553"]
+      }
+}
+```
 
-## Settings {#concept_C1E1E2351413468692D6C21145EF0B84}
+### Purchases/order confirmation pages
+
+When a purchase event occurs, pass the identity of the purchased item or items. See [Track Conversions](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053) in *Implement [!DNL Target] without a tag manager*.
+
+## Configure global exclusions {#exclusions}
+
+Exclude any items on a global level that you never want recommended to a visitor. See [Exclusions](/help/c-recommendations/c-products/exclusions.md). 
+ 
+## Configure [!DNL Recommendations] settings {#concept_C1E1E2351413468692D6C21145EF0B84}
 
 Use settings to manage your [!DNL Recommendations] implementation.
 
@@ -199,8 +123,8 @@ The following options are available:
 | Setting | Description |
 |--- |--- |
 |Custom Global Mbox|(Optional) Specify the custom global mbox used to serve [!DNL Target] activities. By default, the global mbox used by [!DNL Target] is used for [!DNL Recommendations].<br>Note: This option is set on the [!DNL Target] [!UICONTROL Administration] page. Open [!DNL Target], then click [!UICONTROL Administration] > [!UICONTROL Visual Experience Composer].|
-|Industry Vertical|The industry vertical is used to help categorize your recommendations criteria. This helps members of your team find criteria that make sense for a particular page, such as criteria that are best for the shopping cart page or for a media page.|
-|Filter Incompatible Criteria|Enable this option to show only those criteria where the selected page passes the required data. Not every criteria will run correctly on every page. The page or mbox needs to pass in `entity.id` or `entity.categoryId` for the current item/current category recommendations to be compatible. In general, it is best to show only compatible criteria. However, if you want incompatible criteria to be available for the activity, uncheck this option.<br>It is recommended that you disable this option if using a tag management solution.<br>For more information about this option, see [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md).|
+|Industry Vertical|The industry vertical is used to help categorize your recommendations criteria. This information helps members of your team find criteria that make sense for a particular page, such as criteria that are best for the shopping cart page or for a media page.|
+|Filter Incompatible Criteria|Enable this option to show only those criteria where the selected page passes the required data. Not every criteria runs correctly on every page. The page or mbox must pass in `entity.id` or `entity.categoryId` for the current item/current category recommendations to be compatible. In general, it is best to show only compatible criteria. However, if you want incompatible criteria to be available for the activity, uncheck this option.<br>It is recommended that you disable this option if using a tag management solution.<br>For more information about this option, see [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md).|
 |Default Host Group|Select your default host group.<br>The host group can be used to separate the available items in your catalog for different uses. For example, you can use host groups for Development and Production environments, different brands, or different geographies. By default, preview results in Catalog Search, Collections, and Exclusions are based on the default host group. (You can also select a different host group to preview results, by using the Environment filter.) By default, newly added items are available in all host groups unless an environment ID is specified when creating or updating the item. Delivered recommendations depend on the host group specified in the request.<br>If you don't see your products, make sure that you are using the correct host group. For example, if you set up your recommendation to use a staging environment and you set your host group to Staging, you might need to re-create your collections in the staging environment for the products to show. To see which products are available in each environment, use Catalog Search with each environment. You can also preview the contents of Recommendations collections and exclusions for a selected environment (host group).<br>**Note:** After changing the selected environment, you must click Search to update the returned results.<br>The [!UICONTROL Environment] filter is available from the following places in the [!DNL Target] UI:<ul><li>Catalog Search ([!UICONTROL Recommendations] > Catalog Search)</li><li>Create Collection dialog box ([!UICONTROL Recommendations > Collections > Create New])</li><li>Update Collection dialog box ([!UICONTROL Recommendations > Collections > Edit])</li><li>Create Exclusion dialog box ([!UICONTROL Recommendations > Exclusions > Create New])</li><li>Update Exclusion dialog box ([!UICONTROL Recommendations > Exclusions > Edit])</li></ul>For more information, see [Hosts](/help/administrating-target/hosts.md).|
 |Thumbnail Base URL|Setting a base URL for your product catalog makes it possible to use relative URLs when specifying thumbnails of your products when passing in your thumbnail URL.<br>For example:<br>`"entity.thumbnailURL=/Images/Homepage/product1.jpg"`<br>sets a URL relative to the thumbnail base URL.|
 |Recommendations API Token|Use this token in Recommendations API calls, such as the Download API.|
