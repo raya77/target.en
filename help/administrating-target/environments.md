@@ -75,7 +75,7 @@ An environment can be used to separate the available items in your catalog for d
 
 >[!NOTE]
 >
->Delivered recommendations depend on the host group specified in the request.
+>Delivered recommendations depend on the host group or environment id specified in the request.
 
 
 If you don't see your products, make sure that you are using the correct host group. For example, if you set up your recommendation to use a staging environment and you set your host group to Staging, you might need to re-create your collections in the staging environment for the products to show. To see which products are available in each environment, use Catalog Search with each environment. You can also preview the contents of Recommendations collections and exclusions for a selected environment (host group).
