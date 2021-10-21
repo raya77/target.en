@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|October 21|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added information about the following events:<ul><li>[!DNL Adobe Target] Community Q&A Coffee Break (November 10, 2021)</li><li>[!DNL Adobe Target] Community Q&A Coffee Break (December 8, 2021)</li></ul>|
 |October 20|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the [!DNL Target Standard/Premium] 21.10.4 release (October 21, 2021).|
 ||[Plan and implement Recommendations](/help/c-recommendations/plan-implement.md)|Updated entire topic.|
 |October 19|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the [!DNL Target Standard/Premium] 21.10.3 release (October 19, 2021).|
