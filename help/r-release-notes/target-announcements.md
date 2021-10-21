@@ -9,19 +9,6 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 
 Announcements and information about upcoming events, including [!DNL Adobe Target] Skill Builder sessions, developer chats, webinars, and [!DNL Target] Coffee Break sessions.
 
-## [!DNL Adobe Target] Community Q&A Coffee Break
-
-* **Wednesday, October 13, 2021**
-* **8 a.m. (PDT, UTC -7)**
-* **[Click here for more information and to register](https://adobe.ly/3CoUIVz).**
-
-Gentry Lin, Senior Solutions Consultant for [!DNL Adobe Target], will be answering customer questions pertaining to her areas of expertise:
-
-* Implementation
-* Personalization
-* Core web authoring workflows
-* [!DNL Adobe Experience Cloud] integrations
-
 ## Webinar: Personalize and test at zero latency with on-device decisions from Adobe Target
 
 More than ever, marketers, product owners, and developers are being tasked with optimizing the overall customer experience on sites, in apps, and everywhere else they connect with their customers. Multiple tools with data silos and complicated implementations won’t cut it.
