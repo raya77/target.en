@@ -5,21 +5,19 @@ title: How Do I Implement Recommendations Activities?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
 ---
-# ![PREMIUM](/help/assets/premium.png) Plan and implement Recommendations 
+# ![PREMIUM](/help/assets/premium.png) Plan and implement [!DNL Recommendations] 
 
 Before setting up your first [!DNL Recommendations] activity in [!DNL Adobe Target], complete the following steps:
 
-| Step |Details |
-|--- |--- |
-|![Step 1](/help/c-recommendations/assets/step1_red.png)|[Implement [!DNL Adobe Target]](#implement-target) on the web and mobile app surfaces that you want to use for capturing user behavior and delivering recommendations.|
-|![Step 2](/help/c-recommendations/assets/step2_red.png)|[Set up your [!DNL Recommendations] catalog](#rec-catalog) of products or content that you want to recommend to your users.|
-|![Step 3](/help/c-recommendations/assets/step3_red.png)|[Pass behavioral information and context](#pass-behavioral) to [!DNL Adobe Target Recommendations] to allow it to deliver personalized recommendations.|
-|![Step 4](/help/c-recommendations/assets/step4_red.png)|[Configure global exclusions](#exclusions).|
-|![Step 5](/help/c-recommendations/assets/step5_red.png)|[Configure [!DNL Recommendations] settings](#concept_C1E1E2351413468692D6C21145EF0B84).|
+1. [Implement [!DNL Target]](#implement-target) on the web and mobile app surfaces that you want to use for capturing user behavior and delivering recommendations.
+1. [Set up your [!DNL Recommendations] catalog](#rec-catalog) of products or content that you want to recommend to your users.
+1. [Pass behavioral information and context](#pass-behavioral) to [!DNL Target Recommendations] to allow it to deliver personalized recommendations.
+1. [Configure global exclusions](#exclusions).
+1. [Configure [!DNL Recommendations] settings](#concept_C1E1E2351413468692D6C21145EF0B84).
 
-## Implement Adobe Target {#implement-target}
+## Implement [!DNL Target] {#implement-target}
 
-[!DNL Target Recommendations] requires you to implement the [!DNL Adobe Experience Platform Web SDK] or at.js 0.9.2 (or later). See [Implement Target](/help/c-implementing-target/implementing-target.md) for more information.
+[!DNL Target Recommendations] requires you to implement the [!DNL Adobe Experience Platform Web SDK] or at.js 0.9.2 (or later). See [Implement [!DNL Target]](/help/c-implementing-target/implementing-target.md) for more information.
 
 ## Set up your Recommendations catalog {#rec-catalog}
 
@@ -35,7 +33,7 @@ To deliver high-quality recommendations, [!DNL Target] must know about the produ
 | --- | --- | --- | --- |
 |Catalog feed|Schedule a feed (CSV, Google Product XML, or [!DNL Analytics Product Classifications]) to be uploaded and ingested on a daily basis.|For sending information about multiple items at a time. For sending information that changes infrequently.|See [Feeds](/help/c-recommendations/c-products/feeds.md).|
 |Entities API|Call an API to send to-the-minute updates for a single item.|For sending updates as they happen about one item at a time. For sending information that changes frequently (for example price, inventory/stock level).|See the [Entities API developer documentation](https://developers.adobetarget.com/api/recommendations/#tag/Entities).|
-|Pass updates on the page|Send to-the-minute updates for a single item using JavaScript on the page or using the Delivery API.|For sending updates as they happen about one item at a time. For sending information that changes frequently (for example price, inventory/stock level).|See Item views/product pages below.|
+|Pass updates on the page|Send to-the-minute updates for a single item using JavaScript on the page or using the Delivery API.|For sending updates as they happen about one item at a time. For sending information that changes frequently (for example price, inventory/stock level).|See [Item views/product pages](#items-product-pages) below.|
 
 Most customers should implement at least one feed. You can then choose to complement your feed with updates for frequently changed attributes or items using either the Entities API or on-the-page method.
 
@@ -43,7 +41,7 @@ Most customers should implement at least one feed. You can then choose to comple
 
 The behavioral information and context that you should pass to [!DNL Target] depends on the action your visitor is taking, which is often associated with the type of page that your visitor is interacting with.
 
-### Item views/product pages
+### Item views/product pages {#items-product-pages}
 
 On pages where a visitor is viewing a single item, such as a product detail page, you should pass the identity of the item the visitor is viewing. You should also pass the most granular category of the item that the visitor is viewing, to allow filtering recommendations to the current category.
 
