@@ -148,7 +148,7 @@ You can check the [!DNL Target] response in the browser or using mboxTrace. See 
 
 at.js does not fire Target requests if you are using an invalid doctype. at.js requires the HTML 5 doctype.
 
-## Ensure that [!DNL Target] activities handle URLs with query string parameters correctly {#query-strings}
+## Ensure that [!DNL Target] activities handle URLs with query string parameters correctly. {#query-strings}
 
 The [!UICONTROL Activity URL] determines the page that qualifies visitors for the activity and renders the activity experiences to users. When prompted during activity creation, typing the complete URL does not always ensure that the content is delivered on that site page, especially with URLs that contain query string parameters.
 
