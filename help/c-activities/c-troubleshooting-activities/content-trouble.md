@@ -13,7 +13,7 @@ If your page does not display the expected content, there are a few steps you ca
 * Use mboxTrace or mboxDebug to troubleshoot the [!DNL Target] request. 
 * Use the Adobe Experience Cloud Debugger, an easy-to-use tool that provides much of the same information as mboxDebug, to troubleshoot the [!DNL Target] request.
 
-mboxDebug is especially useful when you are setting up [!DNL Target] on your page to make sure the [!DNL Target] request is firing and the cookie is being set. However, it does not go into the kind of detail that is useful when debugging content delivery. If your activity does not appear on your page or undesired content appears, use mboxTrace to examine and debug the page in detail.
+mboxDebug is especially useful when you are setting up [!DNL Target] on your page to make sure that the Target request is firing and the cookie is being set. However, it does not go into the kind of detail that is useful when debugging content delivery. If your activity does not appear on your page or undesired content appears, use mboxTrace to examine and debug the page in detail.
 
 ## Retrieve the authorization token to use with debugging tools {#section_BED130298E794D1FA229DB7C3358BA54}
 
@@ -50,7 +50,7 @@ The following parameters are available:
 
 | mboxTrace Options | Outcome |
 |--- |--- |
-|`?mboxTrace=console`|Prints into console log as objects.<br>For at.js, instead of popping a new browser window or outputting to the console as was in  mbox.js, you will need to inspect the Network request and look under Preview (Chrome) or Response (Firefox).|
+|`?mboxTrace=console`|Prints into console log as objects.<br>For at.js, instead of popping a new browser window or outputting to the console as was in  mbox.js, you need to inspect the Network request and look under Preview (Chrome) or Response (Firefox).|
 |`?mboxTrace=json`|Prints into console log as a literal JSON string|
 |`?mboxTrace=window`|Prints into a popup window as a JSON string|
 |`?mboxTrace=disable`|Turns off tracing session mode|
@@ -59,7 +59,7 @@ The following parameters are available:
 
 `https://www.mysite.com/page.html?mboxTrace=window&authorization=f543abf-0111-4061-9619-d41d665c59a6`
 
-The output displays very detailed information about your content. mboxTrace shows details about your campaign or activity and profile It also provides a snapshot of the profile before execution, and a snapshot of what changed after execution. It also shows which campaigns or activities were evaluated for each location.
+The output displays detailed information about your content. mboxTrace shows details about your campaign or activity and profile. It also provides a snapshot of the profile before execution, and a snapshot of what changed after execution. It also shows which campaigns or activities were evaluated for each location.
 
 Some of the information includes matched and unmatched segment and target IDs:
 
@@ -79,7 +79,7 @@ Some of the information includes matched and unmatched segment and target IDs:
 
 You do not need to include `=console`, `=json`, or `=window` in the query parameter. When you are done with the mboxTrace details, add `=disable` and press **[!UICONTROL Enter]** to return to the normal display mode.
 
-The normal functioning and appearance of your site is not affected by mboxTrace. Visitors will see your regular Recommendations design.
+The normal functioning and appearance of your site is not affected by mboxTrace. Visitors see your regular Recommendations design.
 
 ## mboxDebug {#mboxdebug}
 
@@ -108,7 +108,7 @@ The Adobe Experience Cloud Debugger makes it fast and easy to understand your Ta
 
 For more information, see the training videos below:
 
-For more detailed information, see [Debug at.js using the Adobe Experience Cloud debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
+For more detailed information, see [Debug at.js using the Adobe Experience Cloud Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
 
 ## Top sellers are not appearing in Recommendations {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -126,11 +126,11 @@ Target no longer supports IE 8.
 
 If your site has a sub domain, such as [!DNL us.domain.com], but you need the Target cookie set on [!DNL domain.com] (instead of [!DNL us.domain.com]), you must override the `cookieDomain` setting. For more information, see [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 
-## Target content flickers or is not shown if an element is also part of AEM personalization. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
+## Target content flickers or is not shown if an element is also part of Adobe Experience Manager personalization. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
 If a DOM element is part of Adobe Experience Manager (AEM) personalization targeting and a Target activity, Target content might flicker or not be shown.
 
-To remedy this, you can disable AEM personalization on pages on which Target is running.
+To remedy this situation, you can disable AEM personalization on pages on which Target is running.
 
 ## Redirect and remote offers fail to deliver due to an invalid URL. {#section_7D09043B687F43B39DAEDF17D00375AC}
 
@@ -144,9 +144,45 @@ For remote offers, the [!DNL Target] response can contain `/* invalid remote off
 
 You can check the [!DNL Target] response in the browser or using mboxTrace. See [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) for more information on valid URLs. 
 
-## Target requests are not firing on my site.
+## [!DNL Target] requests are not firing on my site.
 
 at.js does not fire Target requests if you are using an invalid doctype. at.js requires the HTML 5 doctype.
+
+## Ensure that [!DNL Target] activities handle URLs with query string parameters correctly {#query-strings}
+
+The [!UICONTROL Activity URL] determines the page that qualifies visitors for the activity and renders the activity experiences to users. When prompted during activity creation, typing the complete URL does not always ensure that the content is delivered on that site page, especially with URLs that contain query string parameters.
+
+By default, the [!UICONTROL Visual Experience Composer] (VEC) opens the page that is specified in your [Visual Experience Composer settings](/help/administrating-target/visual-experience-composer-set-up.md). You can also specify a different page during activity creation.
+
+To display a different page after the VEC opens, click the **[!UICONTROL Configure gear icon]** > select **[!UICONTROL Page Delivery]** > then specify the desired URL in the [!UICONTROL Activity URL] field. 
+
+![Configure Page Delivery settings UI](assets/configure-page-delivery.png)
+
+But what if the URL contains query string parameters? Will it work and show the personalized content? In this scenario, irrespective of your targeted audience, you can include template rules in addition to the base URL to define your query parameters.
+
+The following options can be used to include additional template rules:
+
+### Option 1: Replicate the URL and keep it in the template rule with the “contains” option.
+
+This option ensures that this URL qualifies for the activity, but be aware that there are corner cases attached to it that can influence your reporting data with additional records to URLs that contains the base URL.
+
+In this scenario, the URL is `https://shopping.mycart.com?type=Summers%20Offers` and additional template rules "contains" the same URL, separated by an OR operator:
+
+![Replicate URL in template rules](assets/option1.png)
+
+### Option 2: Restrict the URL “contains” condition with only the query string.
+
+The corner case discussed in the previous option is applied in this option, but here the conditional setup is limited to the query string only.
+
+In this scenario, the URL is `https://shopping.mycart.com?type=Summers%20Offers` and additional template rules "contains" only the query string, separated by an OR operator:
+
+![Template rule contains only the query string](assets/option2.png)
+
+### Option 3: Instead of targeting the complete URL, leverage a specific part of the URL.
+
+In this scenario, the URL is `https://shopping.mycart.com?type=Summers%20Offers` and additional template rules specify a [!UICONTROL Query] with [!UICONTROL type] > [!UICONTROL is (case sensitive)] > type=Summers%20Offers, separated by an OR operator:
+
+![Template rule leveraging a specific part of the URL](assets/option3.png)
 
 ## Training videos
 
