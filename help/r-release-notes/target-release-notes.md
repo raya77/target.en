@@ -25,7 +25,7 @@ This maintenance release contains the following enhancement:
 
 |Feature|Details|
 | --- | --- |
-|[!UICONTROL Visual Experience Composer] (VEC)|Added support for Web Components. Personalized experiences and offers can be created and tested on Custom Elements and on elements inside Custom Elements.|
+|[!UICONTROL Visual Experience Composer] (VEC)|Added support for [Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Personalized experiences and offers can be created and tested on custom elements and on elements inside custom elements.|
 
 ## [!DNL Target Standard/Premium] 21.10.4 (October 21, 2021)
 
