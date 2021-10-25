@@ -1,5 +1,5 @@
 ---
-keywords: visual experience composer options;experience composer options;experience options;edit text;edit html;edit text/html;edit background color;background color;insert element;edit link;link;visual experience composer link;edit css class;css class;swap offer;offer swap;swap image;image swap;remove item;item remove;hide item;item hide;rearrange;move element;element move;resize element;element resize;element;expand selection;navigate to this link;navigate link;link navigate;navigate;link;undo;redo;undo/redo
+keywords: visual experience composer options;experience composer options;experience options;edit text;edit html;edit text/html;edit background color;background color;insert element;edit link;link;visual experience composer link;edit css class;css class;swap offer;offer swap;swap image;image swap;remove item;item remove;hide item;item hide;rearrange;move element;element move;resize element;element resize;element;expand selection;navigate to this link;navigate link;link navigate;navigate;link;undo;redo;undo/redo;custom events;web components
 description: Explore the options available in Adobe Target's Visual Experience Composer (VEC). Simply click an element to see which options are available for that element.
 title: How Do I Use the Visual Experience Composer (VEC) Options?
 feature: Visual Experience Composer (VEC)
@@ -56,15 +56,15 @@ The [!UICONTROL Styles] panel displays on the right side of the VEC. The panel c
 
 ![Styles panel](/help/c-experiences/c-visual-experience-composer/assets/styles-panel-new.png)
 
-As you apply different styles, you can always revert your changes by clicking the [!UICONTROL Revert] icon that displays at the top right corner of the [!UICONTROL Styles] panel after you make a change to any section. Note that clicking the [!UICONTROL Revert] icon reverts all changes on the current section's panel.
+As you apply different styles, you can always revert your changes by clicking the [!UICONTROL Revert] icon that displays at the top-right corner of the [!UICONTROL Styles] panel after you change any section. Clicking the [!UICONTROL Revert] icon reverts all changes on the current section's panel.
 
 Expand each section to edit or add styles, as explained below. To save your changes, click the Back icon at the top of the panel to return to the panel's main display, then click **[!UICONTROL Save]**. 
 
-Note that blue dots on the main panel and next to each option on the various section panels indicate that you have made changes to the corresponding styles. This makes it easy for you to review your changes before clicking [!UICONTROL Save].
+Blue dots on the main panel and next to each option on the various section panels indicate that you have changed the corresponding styles. This visual indicator makes it easy for you to review your changes before clicking [!UICONTROL Save].
 
 >[!NOTE]
 >
->Quick actions for layout changes, background color, resizing, and move are also available as separate actions in the VEC menu. These options can be leveraged as separate actions or you can use the Styles menu, as explained here.
+>Quick actions for layout changes, background color, resizing, and move are also available as separate actions in the VEC menu. These options can be used as separate actions or you can use the Styles menu, as explained here.
 
 * **Background**
 
@@ -84,7 +84,7 @@ Note that blue dots on the main panel and next to each option on the various sec
 
   Change the typography of an element. Typography edits are quick and easy. 
 
-  Although the rich text editor (Edit Text/HTML) is available for fine tuning, quick actions to make changes to the entire element is available via this option. If you want to apply typography changes to only a part of the text (not to the full text), use the [rich text editor](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md). 
+  Although the rich text editor (Edit Text/HTML) is available for fine tuning, quick actions to change the entire element is available via this option. If you want to apply typography changes to only a part of the text (not to the full text), use the [rich text editor](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md). 
 
   You can edit the following typography styles:
 
@@ -107,7 +107,7 @@ Note that blue dots on the main panel and next to each option on the various sec
 
   Margin supports positive and negative values.
 
-  Target also supports other size units, such as rem, pc, em, etc. For more information about these units, see [Web Style Sheets CSS Tips and Tricks](https://www.w3.org/Style/Examples/007/units.en.html).
+  Target also supports other size units, such as rem, pc, em. For more information about these units, see [Web Style Sheets CSS Tips and Tricks](https://www.w3.org/Style/Examples/007/units.en.html).
 
 * **Padding**
 
@@ -117,7 +117,7 @@ Note that blue dots on the main panel and next to each option on the various sec
 
   Padding supports width scales from 0 onwards.
 
-  Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
+  Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em.
 
 * **Border**
 
@@ -131,7 +131,7 @@ Note that blue dots on the main panel and next to each option on the various sec
 
   Border supports width scales from 0 onwards.
 
-  Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
+  Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em.
 
 * **Position**
 
@@ -152,7 +152,7 @@ Note that blue dots on the main panel and next to each option on the various sec
 
   Position supports positive and negative values.
 
-  Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
+  Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em.
 
 * **Size**
 
@@ -185,11 +185,11 @@ Note that blue dots on the main panel and next to each option on the various sec
 
   ![CSS editor with changes](/help/c-experiences/c-visual-experience-composer/assets/css-changes.png)
 
-  Notice the blue dots next to the [!UICONTROL Typography], [!UICONTROL Border], and [!UICONTROL Size] options in the preceding illustration. These dots indicate that you have made changes to these sections. If you open these section panels, blue dots display next to the specific options that you changed.
+  Notice the blue dots next to the [!UICONTROL Typography], [!UICONTROL Border], and [!UICONTROL Size] options in the preceding illustration. These dots indicate that you have changed these sections. If you open these section panels, blue dots display next to the specific options that you changed.
 
   You can type your own code if your desired style is not available by default in the [!UICONTROL Styles].
 
-  Be aware that the CSS Editor shows details for the current session only. If you save changes and then reopen the editor, details about your previous change do not display in the editor, even if you select the same element again.
+  The CSS Editor shows details for the current session only. If you save changes and then reopen the editor, details about your previous change do not display in the editor, even if you select the same element again.
 
   >[!IMPORTANT]
   >
@@ -283,7 +283,7 @@ Select a different offer from the [!UICONTROL Content Library].
 
 **Note:** HTML Offers are stored on [!DNL Target] servers.
 
-An HTML offer can be up to 256 KB in size.
+An HTML offer can be up to 256 KB.
 
 #### Recommendation
 
@@ -305,15 +305,15 @@ Drag the element to another location inside the same parent element or DIV. Othe
 
 #### Resize
 
-Resize an element on your page. When you select [!UICONTROL Resize], a handle appears in the bottom right corner of the element that lets you drag that corner to resize. Hold the Shift key to retain the same aspect ratio.
+Resize an element on your page. When you select [!UICONTROL Resize], a handle appears in the bottom-right corner of the element that lets you drag that corner to resize. Hold the Shift key to retain the same aspect ratio.
 
 **Note:** Inline elements cannot be resized.
 
 #### Move {#move}
 
-Move elements on your page. Unlike the [!UICONTROL Rearrange] option, [!UICONTROL Move] does not shift other elements to make room for the element being moved. Use the arrow keys to fine tune the move. (Planned enhancement: support for making sure moved elements are not hidden behind other elements.)
+Move elements on your page. Unlike the [!UICONTROL Rearrange] option, [!UICONTROL Move] does not shift other elements to make room for the element being moved. Use the arrow keys to fine tune the move. (Planned enhancement: support to ensure moved elements are not hidden behind other elements.)
 
-In some cases, such as when a CSS restriction requires an element to remain inside its parent element, you cannot move the element outside its parent. An element cannot be moved outside of a container that has following CSS property: `overflow: hidden`.
+In certain situations, such as when a CSS restriction requires an element to remain inside its parent element, you cannot move the element outside its parent. An element cannot be moved outside of a container that has following CSS property: `overflow: hidden`.
 
 #### Hide
 
@@ -340,6 +340,25 @@ Undo changes you make to your activities during an editing session. You can also
 ## Considerations {#considerations}
 
 * If an offer contains HTML content, see "How at.js renders offers with HTML content" in [How at.js works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) for more information.
+
+## Custom element support (Coming October 26, 2021) {#custom}
+
+The VEC supports [Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components) to let you create and test personalized experiences and offers on custom elements and on elements inside custom elements. This functionality is available in the VEC for all [!DNL Target] activity types.
+
+>[!NOTE]
+>
+>VEC support for custom elements is supported in [at.js version](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 2.7.0 (or later). Ensure that your website has the required version deployed. If you are using the [Visual Experience Composer helper extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), it must also have the required version of at.js deployed. The VEC options described above are not visible and available for use with non-supported versions of at.js.
+>
+>VEC support for custom elements is currently not supported with the [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
+
+Most VEC actions are supported on custom events and inside custom events. The following actions are not available:
+
+* Edit
+  * Text/HTML
+  * Link
+  * Edit Source
+
+* Replace Content
 
 ## Navigate elements using the DOM path {#dom-path}
 
