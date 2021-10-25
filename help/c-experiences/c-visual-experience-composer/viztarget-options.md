@@ -5,11 +5,11 @@ title: How Do I Use the Visual Experience Composer (VEC) Options?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
 ---
-# Visual Experience Composer Options
+# Visual Experience Composer options
 
 When you click a page element in the [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC), a menu shows the options that are available for that element type. In addition, a DOM path displays at the bottom of the page that lets you easily navigate through the page structure.
 
-## VEC Options
+## VEC options
 
 The various Visual Experience Composer (VEC) actions are grouped appropriate menu options to make your job quicker and more efficient:
 
@@ -19,11 +19,11 @@ The various Visual Experience Composer (VEC) actions are grouped appropriate men
 >
 >The available options depend on the activity type you are editing.
 
-### Edit
+### [!UICONTROL Edit]
 
 The following options are available:
 
-#### Text/HTML {#edit-text-html}
+#### [!UICONTROL Text/HTML] {#edit-text-html}
 
 Change the HTML code for the element, such as the text for a text area, button, or link.
 
@@ -40,13 +40,13 @@ The following HTML5 tags can be nested:
 |`<del>`|`<ul>`, `<ol>`, `<menu>`, `<h1-h6>`, `<p>`|
 |`<label>`|`<p>`|
 
-#### Background Color
+#### [!UICONTROL Background Color]
 
 Use the color picker to select or configure a background color. You can select a color swatch, and adjust it using RGB values or color hex codes. The red x in the color picker makes the background transparent.
 
 **Note:** This option is not available for an element where a background image is set. 
 
-#### Styles {#styles}
+#### [!UICONTROL Styles] {#styles}
 
 Use the [!UICONTROL Styles] panel to view or edit the value of existing styles for the selected element. You can also add additional styling.
 
@@ -66,7 +66,7 @@ Blue dots on the main panel and next to each option on the various section panel
 >
 >Quick actions for layout changes, background color, resizing, and move are also available as separate actions in the VEC menu. These options can be used as separate actions or you can use the Styles menu, as explained here.
 
-* **Background**
+* **[!UICONTROL Background]**
 
   Change the background color and image.
 
@@ -80,7 +80,7 @@ Blue dots on the main panel and next to each option on the various section panel
     * Click the top drop-down list to select border-box, padding-box, content-box, or text
     * Click the bottom drop-down list to select auto audio or audio
 
-* **Typography**
+* **[!UICONTROL Typography]**
 
   Change the typography of an element. Typography edits are quick and easy. 
 
@@ -88,28 +88,28 @@ Blue dots on the main panel and next to each option on the various section panel
 
   You can edit the following typography styles:
 
-  * Font size
-  * Font weight
-  * Font style
-  * Color (specify the color code or use the color picker)
-  * Word spacing
-  * Line height
-  * Text alignment
+  * [!UICONTROL Font size]
+  * [!UICONTROL Font weight]
+  * [!UICONTROL Font style]
+  * [!UICONTROL Color] (specify the color code or use the color picker)
+  * [!UICONTROL Word spacing]
+  * [!UICONTROL Line height]
+  * [!UICONTROL Text alignment]
 
-* **Margin**
+* **[!UICONTROL Margin]**
 
   Change the margin for the selected element. You can change the left, right, bottom, and top margins.
 
   Click the drop-down icon for each margin to choose from the following options:
 
-  * Auto 
-  * Value (drag the slider to set the margin or specify the number of pixels for each margin)
+  * [!UICONTROL Auto] 
+  * [!UICONTROL Value] (drag the slider to set the margin or specify the number of pixels for each margin)
 
   Margin supports positive and negative values.
 
   Target also supports other size units, such as rem, pc, em. For more information about these units, see [Web Style Sheets CSS Tips and Tricks](https://www.w3.org/Style/Examples/007/units.en.html).
 
-* **Padding**
+* **[!UICONTROL Padding]**
 
   Change the padding for the selected element. You can change the left, right, bottom, and top padding.
 
@@ -119,65 +119,65 @@ Blue dots on the main panel and next to each option on the various section panel
 
   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em.
 
-* **Border**
+* **[!UICONTROL Border]**
 
   Click the border icons at the top of the panel to change the selected element's border.
 
   You can edit the following styles for each border (top, right, bottom, and left):
 
-  * Border style (none, hidden, dotted, dashed, solid, or double)
-  * Border color (specify the color code or use the color picker)
-  * Border width (drag the slider to select a border width or specify the width in pixels)
+  * [!UICONTROL Border style] (none, hidden, dotted, dashed, solid, or double)
+  * [!UICONTROL Border color] (specify the color code or use the color picker)
+  * [!UICONTROL Border width] (drag the slider to select a border width or specify the width in pixels)
 
   Border supports width scales from 0 onwards.
 
   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em.
 
-* **Position**
+* **[!UICONTROL Position]**
 
   Move the selected element from its current position. You can change the element's top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
 
   Click the [!UICONTROL Static] drop-down list to choose from the following position options:
 
-  * Static
-  * Relative
-  * Absolute
-  * Sticky
-  * Fixed
+  * [!UICONTROL Static]
+  * [!UICONTROL Relative]
+  * [!UICONTROL Absolute]
+  * [!UICONTROL Sticky]
+  * [!UICONTROL Fixed]
 
   Click the drop-down icon for each position to choose from the following options:
 
-  * Auto 
-  * Value (drag the slider to position the element or specify the number of pixels you want to move the element)
+  * [!UICONTROL Auto] 
+  * [!UICONTROL Value] (drag the slider to position the element or specify the number of pixels you want to move the element)
 
   Position supports positive and negative values.
 
   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em.
 
-* **Size**
+* **[!UICONTROL Size]**
 
   Change the selected element's width and height.
 
   Click the drop-down icon next to [!UICONTROL Width] and [!UICONTROL Height] to choose from the following options:
 
-  * Auto 
-  * Value (drag the slider to size the element or specify the number of pixels for each dimension)
+  * [!UICONTROL Auto] 
+  * [!UICONTROL Value] (drag the slider to size the element or specify the number of pixels for each dimension)
 
-* **Filter**
+* **[!UICONTROL Filter]**
 
   Drag the slider for each filter option or specify the desired percentage:
 
-  * Sepia
-  * Contrast
-  * Brightness
-  * GrayScale
-  * Blur
-  * Opacity
-  * Invert
-  * Hue-rotate
-  * Saturate
+  * [!UICONTROL Sepia]
+  * [!UICONTROL Contrast]
+  * [!UICONTROL Brightness]
+  * [!UICONTROL GrayScale]
+  * [!UICONTROL Blur]
+  * [!UICONTROL Opacity]
+  * [!UICONTROL Invert]
+  *[!UICONTROL  Hue-rotate]
+  * [!UICONTROL Saturate]
 
-* **CSS Editor**
+* **[!UICONTROL CSS Editor]**
 
   The real-time CSS Editor lets you view changes and add styles if you are comfortable using Cascading Style Sheets (CSS) or if you receive code from your developer.
 
@@ -195,23 +195,23 @@ Blue dots on the main panel and next to each option on the various section panel
   >
   >You can apply a background image using the CSS Editor, but it might cause flicker. Test your changes before deployment.
 
-#### CSS Class
+#### [!UICONTROL CSS Class]
 
 Specify the predefined CSS class used for the element. If more than one element is selected, separate multiple CSS classes with a space.
 
 Available for [!UICONTROL A/B], [!UICONTROL Automated Personalization], and [!UICONTROL Multivariate Test] activities.
 
-#### Link
+#### [!UICONTROL Link]
 
 Change the URL in the link.
 
 Use Edit Link to update the selector to point to the same image element. However, linking to a different image element is not supported. To link to a different image element, delete the original action from the code editor and use the [!UICONTROL Visual Experience Composer] to apply the action on the other image element.
 
-### Insert Before
+### [!UICONTROL Insert Before]
 
 The following options are available:
 
-#### Image, HTML, and Text
+#### [!UICONTROL Image], [!UICONTROL HTML], and [!UICONTROL Text]
 
 Add any kind of element to your page in addition to modifying existing content. Add text, code, lists, and more to create entirely different experiences to test.
 
@@ -227,15 +227,15 @@ The behavior of the inserted element depends on the structure of your page, your
 
 Include recommendations inside A/B Test (including Auto-Allocate and Auto-Target) and Experience Targeting (XT) activities. For more information, see [Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md).
 
-#### Experience Fragment
+#### [!UICONTROL Experience Fragment]
 
 Insert experience fragments created in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activities to aid optimization or personalization. For more information, see [AEM Experience Fragments](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
-### Insert After
+### [!UICONTROL Insert After]
 
 The following options are available:
 
-#### Image, HTML, and Text
+#### [!UICONTROL Image], [!UICONTROL HTML], and [!UICONTROL Text]
 
 Add any kind of element to your page in addition to modifying existing content. Add text, code, lists, and more to create entirely different experiences to test.
 
@@ -251,15 +251,15 @@ The behavior of the inserted element depends on the structure of your page, your
 
 Include recommendations inside A/B Test (including Auto-Allocate and Auto-Target) and Experience Targeting (XT) activities. For more information, see [Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md).
 
-#### Experience Fragment
+#### [!UICONTROL Experience Fragment]
 
 Insert experience fragments created in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activities to aid optimization or personalization. For more information, see [AEM Experience Fragments](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
-### Replace With
+### [!UICONTROL Replace With]
 
 The following options are available:
 
-#### Image
+#### [!UICONTROL Image]
 
 Select a different image from the Content Library. The images available for swapping include the images uploaded to the Experience Cloud assets folder or uploaded in the Content Library in Target.
 
@@ -277,7 +277,7 @@ Recommendations supports Replace With in DIV, SECTION, and ARTICLE tags.
 
 **Note:** Swapping images requires an Adobe Scene7 Publishing System Account.
 
-#### HTML Offer
+#### [!UICONTROL HTML Offer]
 
 Select a different offer from the [!UICONTROL Content Library].
 
@@ -289,51 +289,51 @@ An HTML offer can be up to 256 KB.
 
 Include recommendations inside A/B Test (including Auto-Allocate and Auto-Target) and Experience Targeting (XT) activities. For more information, see [Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md).
 
-#### Experience Fragment
+#### [!UICONTROL Experience Fragment]
 
 Insert experience fragments created in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activities to aid optimization or personalization. For more information, see [AEM Experience Fragments](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
-### Layout
+### [!UICONTROL Layout]
 
 The following options are available:
 
-#### Rearrange
+#### [!UICONTROL Rearrange]
 
 Drag the element to another location inside the same parent element or DIV. Other elements shift location to make space for the rearranged element.
 
 **Note:** Click tracking does not work on rearranged items.
 
-#### Resize
+#### [!UICONTROL Resize]
 
 Resize an element on your page. When you select [!UICONTROL Resize], a handle appears in the bottom-right corner of the element that lets you drag that corner to resize. Hold the Shift key to retain the same aspect ratio.
 
 **Note:** Inline elements cannot be resized.
 
-#### Move {#move}
+#### [!UICONTROL Move] {#move}
 
 Move elements on your page. Unlike the [!UICONTROL Rearrange] option, [!UICONTROL Move] does not shift other elements to make room for the element being moved. Use the arrow keys to fine tune the move. (Planned enhancement: support to ensure moved elements are not hidden behind other elements.)
 
 In certain situations, such as when a CSS restriction requires an element to remain inside its parent element, you cannot move the element outside its parent. An element cannot be moved outside of a container that has following CSS property: `overflow: hidden`.
 
-#### Hide
+#### [!UICONTROL Hide]
 
 Hide the element. The white space remains, but the content is removed.
 
-#### Remove
+#### [!UICONTROL Remove]
 
 Remove the element. The white space behind the image is removed and the space where the element was is collapsed.
 
 **Note:** Items within a "classic" mbox (an mbox created within a Target Classic campaign) cannot be removed using this option.
 
-### Expand Section
+### [!UICONTROL Expand Section]
 
 Select the parent element in addition to the originally selected element. When you select any parent element, all children of that element are automatically selected. You can expand the selection multiple times.
 
-### Navigate to Link
+### [!UICONTROL Navigate to Link]
 
 Open the destination of the link.
 
-### Undo/Redo
+### [!UICONTROL Undo]/[!UICONTROL Redo]
 
 Undo changes you make to your activities during an editing session. You can also redo changes that have been previously undone.
 
@@ -351,14 +351,21 @@ The VEC supports [Web Components](https://developer.mozilla.org/en-US/docs/Web/W
 >
 >VEC support for custom elements is currently not supported with the [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
 
-Most VEC actions are supported on custom events and inside custom events. The following actions are not available:
+Most VEC actions are supported on custom events and inside custom events, with the following exceptions: 
 
-* Edit
-  * Text/HTML
-  * Link
-  * Edit Source
+The following actions are not available on custom elements:
 
-* Replace Content
+* [!UICONTROL Edit]
+  * [!UICONTROL Text/HTML]
+  * [!UICONTROL Link]
+  * [!UICONTROL Edit Source]
+
+* [!UICONTROL Replace Content]
+
+The following action is not available inside custom elements:
+
+* [!UICONTROL Layout]
+  * [!UICONTROL Rearrange]
 
 ## Navigate elements using the DOM path {#dom-path}
 
