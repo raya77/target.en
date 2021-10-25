@@ -19,7 +19,7 @@ To view information about the current release, see [Target Release Notes](releas
 >
 >To avoid any potential issues with your sites, migrate to the most recent version of the new [!DNL Adobe Experience Platform Web SDK] or the at.js JavaScript library. For more information, see [Overview: implement Target for client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## [!DNL Target Standard/Premium] 21.10.5 (October 26, 2021)
+## [!DNL Target Standard/Premium] 21.10.5 (October 28, 2021)
 
 This maintenance release contains the following enhancement:
 

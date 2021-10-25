@@ -341,7 +341,7 @@ Undo changes you make to your activities during an editing session. You can also
 
 * If an offer contains HTML content, see "How at.js renders offers with HTML content" in [How at.js works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) for more information.
 
-## Custom element support (Coming October 26, 2021) {#custom}
+## Custom element support (Coming October 28, 2021) {#custom}
 
 The VEC supports [Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components) to let you create and test personalized experiences and offers on custom elements and on elements inside custom elements. This functionality is available in the VEC for all [!DNL Target] activity types.
 
