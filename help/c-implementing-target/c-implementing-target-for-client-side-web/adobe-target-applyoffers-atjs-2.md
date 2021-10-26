@@ -102,7 +102,7 @@ adobe.target.applyOffers({response:{
 }});
 ```
 
-## Example call of Promise chaining with `getOffers()` and `applyOffers()`, because these functions are Promise based
+## Example calls of Promise chaining with `getOffers()` and `applyOffers()`, because these functions are Promise based
 
 ```javascript
 adobe.target.getOffers({...})
@@ -110,3 +110,22 @@ adobe.target.getOffers({...})
 .then(() => console.log("Success"))
 .catch(error => console.log("Error", error));
 ```
+
+For more examples on how to use getOffers(), please refer the getOffers [documentation](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html)
+
+### Page Load Request Example
+
+
+```javascript
+adobe.target.getOffers({
+    request: {
+        execute: {
+            pageLoad: {}
+        }
+    }
+}).
+then(response => adobe.target.applyOffers({ response: response }))
+.then(() => console.log("Success"))
+.catch(error => console.log("Error", error));
+```
+
