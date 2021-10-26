@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|October 25|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the [!DNL Target Standard/Premium] 21.10.5 release (October 28, 2021).|
 |October 22|[Troubleshoot content delivery](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings)|Added the following section:<ul><li>Ensure that [!DNL Target] activities handle URLs with query string parameters correctly</li></ul>|
 |October 21|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added information about the following events:<ul><li>[!DNL Adobe Target] Community Q&A Coffee Break (November 10, 2021)</li><li>[!DNL Adobe Target] Community Q&A Coffee Break (December 8, 2021)</li></ul>|
 |October 20|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the [!DNL Target Standard/Premium] 21.10.4 release (October 21, 2021).|
