@@ -1,16 +1,16 @@
 ---
 keywords: client care;cname;certificate program;canonical name;cookies;certificate;amc;adobe managed certificate;digicert;domain control validation;dcv
-description: Work with Adobe Client Care to implement CNAME (Canonical Name) support in Adobe [!DNL Target] to handle ad-blocking issues.
+description: Work with [!DNL Adobe] Client Care to implement CNAME (Canonical Name) support in [!DNL Adobe Target] to handle ad-blocking issues.
 title: How Do I Use CNAME in Target?
 feature: Privacy & Security
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
 ---
-# CNAME and Target
+# CNAME and [!DNL Target]
 
 Instructions for working with [!DNL Adobe] Client Care to implement CNAME (Canonical Name) support in [!DNL Adobe Target]. Use CNAME to handle ad blocking issues or ITP-related (Intelligent Tracking Prevention) cookie policies. With CNAME, calls are made to a domain owned by the customer rather than a domain owned by [!DNL Adobe].
 
-## Request CNAME support in Target
+## Request CNAME support in [!DNL Target]
 
 1. Determine the list of hostnames you need for your SSL certificate (see FAQ below).
 
@@ -24,13 +24,13 @@ Instructions for working with [!DNL Adobe] Client Care to implement CNAME (Canon
 
    >[!IMPORTANT]
    >
-   >Adobe's certificate authority, DigiCert, cannot issue a certificate until this step is complete. Therefore, [!DNL Adobe] cannot fulfill your request for a CNAME implementation until this step is complete.
+   >[!DNL Adobe]'s certificate authority, DigiCert, cannot issue a certificate until this step is complete. Therefore, [!DNL Adobe] cannot fulfill your request for a CNAME implementation until this step is complete.
 
-1. [Fill out this form](/help/assets/FPC_Request_Form.xlsx) and include it when you [open an Adobe Client Care ticket requesting CNAME support](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
+1. [Fill out this form](/help/assets/FPC_Request_Form.xlsx) and include it when you [open an [!DNL Adobe] Client Care ticket requesting CNAME support](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
 
-   * Adobe [!DNL Target] client code:
+   * [!DNL Adobe Target] client code:
    * SSL certificate hostnames (example: `target.example.com target.example.org`):
-   * SSL certificate purchaser (Adobe is highly recommended, see FAQ): Adobe/customer
+   * SSL certificate purchaser ([!DNL Adobe] is highly recommended, see FAQ): Adobe/customer
    * If the customer is purchasing the certificate, also known as "Bring Your Own Certificate" (BYOC), fill out these additional details:
       * Certificate organization (example: Example Company Inc):
       * Certificate organizational unit (optional, example: Marketing):
@@ -38,7 +38,7 @@ Instructions for working with [!DNL Adobe] Client Care to implement CNAME (Canon
       * Certificate state/region (example: California):
       * Certificate city (example: San Jose):
 
-1. If [!DNL Adobe] is purchasing the certificate, [!DNL Adobe] works with DigiCert to purchase and deploy your certificate on Adobe's production servers.
+1. If [!DNL Adobe] is purchasing the certificate, [!DNL Adobe] works with DigiCert to purchase and deploy your certificate on [!DNL Adobe]'s production servers.
 
    If the customer is purchasing the certificate (BYOC), [!DNL Adobe] Client Care sends you the certificate signing request (CSR). Use the CSR when purchasing the certificate through your certificate authority of choice. After the certificate is issued, send a copy of the certificate and any intermediate certificates to [!DNL Adobe] Client Care for deployment.
 
@@ -60,13 +60,13 @@ You can provide your own certificate. However, [!DNL Adobe] does not recommend t
 
 ### How long until my new SSL certificate expires?
 
-All Adobe-purchased certificates are valid for one year. See [DigiCert's article on 1-year certificates](https://www.digicert.com/blog/position-on-1-year-certificates) for more information.
+All [!DNL Adobe]-purchased certificates are valid for one year. See [DigiCert's article on 1-year certificates](https://www.digicert.com/blog/position-on-1-year-certificates) for more information.
 
 ### What hostnames should I choose? How many hostnames per domain should I choose?
 
-[!DNL Target] CNAME implementations require only one hostname per domain on the SSL certificate and in the customer's DNS. Adobe recommends one hostname per domain. Some customers require more hostnames per domain for their own purposes (testing in staging, for example), which is supported.
+[!DNL Target] CNAME implementations require only one hostname per domain on the SSL certificate and in the customer's DNS. [!DNL Adobe] recommends one hostname per domain. Some customers require more hostnames per domain for their own purposes (testing in staging, for example), which is supported.
 
-Most customers choose a hostname like `target.example.com`. Adobe recommends following this practice, but the choice is ultimately yours. Do not request a hostname of an existing DNS record. Doing so causes a conflict and delays time to resolution of your [!DNL Target] CNAME request.
+Most customers choose a hostname like `target.example.com`. [!DNL Adobe] recommends following this practice, but the choice is ultimately yours. Do not request a hostname of an existing DNS record. Doing so causes a conflict and delays time to resolution of your [!DNL Target] CNAME request.
 
 ### I already have a CNAME implementation for [!DNL Adobe Analytics], can I use the same certificate or hostname?
 
@@ -74,8 +74,7 @@ No, [!DNL Target] requires a separate hostname and certificate.
 
 ### Is my current implementation of [!DNL Target] impacted by ITP 2.x?
 
-Apple Intelligent Tracking Prevention (ITP) version 2.3 introduced its CNAME Cloaking Mitigation feature, which is able to detect Adobe Target CNAME implementations and reduces the cookie's expiration to seven days. Currently [!DNL Target] has no workaround for ITP's CNAME Cloaking Mitigation. For more information about ITP, see [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
-
+Apple Intelligent Tracking Prevention (ITP) version 2.3 introduced its CNAME Cloaking Mitigation feature, which is able to detect [!DNL Adobe Target] CNAME implementations and reduces the cookie's expiration to seven days. Currently [!DNL Target] has no workaround for ITP's CNAME Cloaking Mitigation. For more information about ITP, see [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
 
 ### What kind of service disruptions can I expect when my CNAME implementation is deployed?
 
@@ -324,7 +323,7 @@ Use the following set of commands (in the macOS or Linux command-line terminal, 
 
    >[!NOTE]
    >
-   >If this validation command fails on DNS validation but you've already made the necessary DNS changes, you may need to wait for your DNS updates to fully propagate. DNS records have an associated [TTL (time-to-live)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) that dictates cache expiration time for DNS replies of those records. As a result, you might need to wait at least as long as your TTLs. You can use the `dig target.example.com` command or [the G Suite Toolbox](https://toolbox.googleapps.com/apps/dig/#CNAME) to look up your specific TTLs. To check DNS propagation around the world, see [whatsmydns.net](https://whatsmydns.net/#CNAME).
+   >If this validation command fails on DNS validation but you've already made the necessary DNS changes, you might need to wait for your DNS updates to fully propagate. DNS records have an associated [TTL (time-to-live)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) that dictates cache expiration time for DNS replies of those records. As a result, you might need to wait at least as long as your TTLs. You can use the `dig target.example.com` command or [the G Suite Toolbox](https://toolbox.googleapps.com/apps/dig/#CNAME) to look up your specific TTLs. To check DNS propagation around the world, see [whatsmydns.net](https://whatsmydns.net/#CNAME).
 
 ### How do I use an opt-out link with CNAME
 
