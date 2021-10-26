@@ -9,18 +9,30 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 
 Announcements and information about upcoming events, including [!DNL Adobe Target] Skill Builder sessions, developer chats, webinars, and [!DNL Target] Coffee Break sessions.
 
-## [!DNL Adobe Target] Community Q&A Coffee Break
+## [!DNL Adobe Target] Community Q&A Coffee Break (November 10, 2021)
 
-* **Wednesday, October 13, 2021**
-* **8 a.m. (PDT, UTC -7)**
-* **[Click here for more information and to register](https://adobe.ly/3CoUIVz).**
+* **Wednesday, November 10, 2021**
+* **8:00 a.m. (PST, UTC -8)**
+* **[More information and registration information](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-11-10-21-cristinel-quot-muti/td-p/426696)**
 
-Gentry Lin, Senior Solutions Consultant for [!DNL Adobe Target], will be answering customer questions pertaining to her areas of expertise:
+Cristinel "Muti" Anastasoaie, Senior Product Manager for [!DNL Adobe Target], will answer your questions pertaining to his areas of expertise:
 
-* Implementation
-* Personalization
-* Core web authoring workflows
-* [!DNL Adobe Experience Cloud] integrations
+* [!DNL Target] user interface
+* [!DNL Target] integrations
+* [!UICONTROL Enterprise permissions] and [!UICONTROL workspaces]
+
+## [!DNL Adobe Target] Community Q&A Coffee Break (December 8, 2021)
+
+* **Wednesday, December 8, 2021**
+* **8:00 a.m. (PST, UTC -8)**
+* **[More information and registration information](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697)**
+
+Robert Calangiu, Senior Product Manager for [!DNL Adobe Target], will answer your questions pertaining to his areas of expertise:
+
+* [!DNL Target] set up and admin UI
+* [!UICONTROL Analytics for Target] (A4T) integration
+* [!DNL Adobe Audience Manager] (AEM) integration
+* General [!DNL Target] UI
 
 ## Webinar: Personalize and test at zero latency with on-device decisions from Adobe Target
 
