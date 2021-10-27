@@ -76,7 +76,7 @@ function targetPageParams() {
 }
 ```
 
-### Cart adds/cart views/checkout pages
+### Cart adds/cart views/checkout pages {#cart}
 
 On a cart page, you can recommend items based on the contents of the visitor's current cart. To do so, pass the IDs of all items in the visitor's current cart using the special parameter `cartIds`.
 
@@ -87,6 +87,22 @@ function targetPageParams() {
       }
 }
 ```
+
+Cart-based recommendation logic is similar to the "[!UICONTROL Recommended For You]"  user-based algorithm and to the "[!UICONTROL People Who Viewed These, Bought Those]" and "[!UICONTROL People Who Bought These, Bought Those]" item-based algorithms. 
+
+[!DNL Target] uses collaborative filtering techniques to determine similarities for each item in the visitor's cart, then combines these behavioral similarities across each item to get a merged list. 
+
+[!DNL Target] also gives marketers the choice of looking at visitor behavior within a single session or across multiple sessions:
+
+* **Within a single session**: Based on what other visitors did within a single session. 
+
+* **Across multiple sessions**: Based on what other visitors did across multiple sessions. 
+
+Regardless of whether you look at visitor behavior within a single session or over multiple sessions, [!DNL Target] makes recommendations for this visitor based on the items in their current cart.
+
+Looking at behavior within a single session might make sense when there's a sense that products strongly "go with" each other based on a usage, occasion, or event. For example, a visitor is buying a printer and might also need ink and paper. Or, a visitor is buying peanut butter and might also need bread and jelly. 
+
+Looking at behavior across multiple sessions might make sense when there's a sense that products strongly "go with" each other based on visitor preference or taste. For example, a visitor likes Star Wars and might also like Indiana Jones, even if the visitor doesn't necessarily want to watch both movies in the same sitting. Or, a visitor likes the board game "Codenames" and might also like the board game "Avalon," even if the visitor cannot play both games simultaneously.
 
 ### Exclude items already in the visitor's cart
 
