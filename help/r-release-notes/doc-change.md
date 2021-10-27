@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|October 27|[Plan and implement [!DNL Recommendations]](/help/c-recommendations/plan-implement.md#cart)|Added additional information about cart-based recommendations.|
 |October 26|[CNAME and [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)|Updated entire topic.|
 |October 25|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the [!DNL Target Standard/Premium] 21.10.5 release (October 28, 2021).|
 |October 22|[Troubleshoot content delivery](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings)|Added the following section:<ul><li>Ensure that [!DNL Target] activities handle URLs with query string parameters correctly</li></ul>|
