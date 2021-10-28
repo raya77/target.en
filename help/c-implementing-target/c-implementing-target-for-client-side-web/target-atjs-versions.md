@@ -16,6 +16,12 @@ Details about changes in each version of the [!DNL Adobe Target] at.js JavaScrip
 >
 >Tags in [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) is the preferred method to upgrade at.js. Extension developers continually add new features to their extensions, and frequently fix bugs. These updates are packaged into new versions of an extension and made available in the [!DNL Adobe Experience Platform] catalog as upgrades. For more information, see [Extension upgrades](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) in the *Tags overview* guide.
 
+## at.js version 2.7.0 (October 28, 2021)
+
+This release contains the following enhancement:
+
+* Added support for [Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components). This version of at.js is required to create and test personalized experiences and offers on custom elements and on elements inside custom elements. This functionality is included in the [!DNL Target Standard/Premium] 21.10.5 release.
+
 ## at.js 2.6.1 (August 16, 2021)
 
 * Bug fix for "No cached artifact available for hybrid mode" when using on-device decisioning.
