@@ -102,7 +102,7 @@ Cart-based recommendation logic is similar to the "[!UICONTROL Recommended For Y
 
   Looking at behavior across multiple sessions might make sense when there's a sense that products strongly "go with" each other based on visitor preference or taste. For example, a visitor likes Star Wars and might also like Indiana Jones, even if the visitor doesn't necessarily want to watch both movies in the same sitting. Or, a visitor likes the board game "Codenames" and might also like the board game "Avalon," even if the visitor cannot play both games simultaneously. 
 
-Regardless of whether you look at visitor behavior within a single session or across multiple sessions, [!DNL Target] makes recommendations for each visitor based on the items in their current cart.
+Regardless whether you look at visitor behavior within a single session or across multiple sessions, [!DNL Target] makes recommendations for each visitor based on the items in their current cart.
 
 ### Exclude items already in the visitor's cart
 
