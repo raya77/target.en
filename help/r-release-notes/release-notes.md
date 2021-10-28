@@ -18,6 +18,20 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## at.js version 2.7.0 (October 28, 2021)
+
+This release contains the following enhancement:
+
+* Added support for [Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components). This version of at.js is required to create and test personalized experiences and offers on custom elements and on elements inside custom elements. This functionality is included in the [!DNL Target Standard/Premium] 21.10.5 release.
+
+## [!DNL Target Standard/Premium] 21.10.5 (October 28, 2021)
+
+This maintenance release contains the following enhancement:
+
+|Feature|Details|
+| --- | --- |
+|[!UICONTROL Visual Experience Composer] (VEC)|Added support for [Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Personalized experiences and offers can be created and tested on custom elements and on elements inside custom elements.<br>For more information, see [Visual Experience Composer options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom).|
+
 ## [!DNL Target Standard/Premium] 21.10.4 (October 21, 2021)
 
 This maintenance release contains the following enhancement:
