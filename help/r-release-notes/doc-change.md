@@ -16,7 +16,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 |October 28|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added the information about the following releases:<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5.</li></ul>|
 ||[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about the at.js 2.7.0 release.|
 ||[Visual Experience Composer options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom)|Added the following section: "Custom element support."|
-|October 27|[Plan and implement [!DNL Recommendations]](/help/c-recommendations/plan-implement.md#cart)|Added additional information about cart-based recommendations.|
+|October 27|[Base the recommendation on a recommendation key](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)|Added information about cart-based recommendations.|
 |October 26|[CNAME and [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)|Updated entire topic.|
 |October 25|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the [!DNL Target Standard/Premium] 21.10.5 release (October 28, 2021).|
 |October 22|[Troubleshoot content delivery](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings)|Added the following section:<ul><li>Ensure that [!DNL Target] activities handle URLs with query string parameters correctly</li></ul>|

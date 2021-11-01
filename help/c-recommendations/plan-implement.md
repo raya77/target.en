@@ -88,21 +88,7 @@ function targetPageParams() {
 }
 ```
 
-Cart-based recommendation logic is similar to the "[!UICONTROL Recommended For You]"  user-based algorithm and to the "[!UICONTROL People Who Viewed These, Bought Those]" and "[!UICONTROL People Who Bought These, Bought Those]" item-based algorithms. 
-
-[!DNL Target] uses collaborative filtering techniques to determine similarities for each item in the visitor's cart, then combines these behavioral similarities across each item to get a merged list. 
-
-[!DNL Target] also gives marketers the choice of looking at visitor behavior within a single session or across multiple sessions:
-
-* **Within a single session**: Based on what other visitors did within a single session.
-
-  Looking at behavior within a single session might make sense when there's a sense that products strongly "go with" each other based on a usage, occasion, or event. For example, a visitor is buying a printer and might also need ink and paper. Or, a visitor is buying peanut butter and might also need bread and jelly.
-
-* **Across multiple sessions**: Based on what other visitors did across multiple sessions.
-
-  Looking at behavior across multiple sessions might make sense when there's a sense that products strongly "go with" each other based on visitor preference or taste. For example, a visitor likes Star Wars and might also like Indiana Jones, even if the visitor doesn't necessarily want to watch both movies in the same sitting. Or, a visitor likes the board game "Codenames" and might also like the board game "Avalon," even if the visitor cannot play both games simultaneously. 
-
-[!DNL Target] makes recommendations for each visitor based on the items in their current cart, regardless whether you look at visitor behavior within a single session or across multiple sessions.
+For more information about [!UICONTROL Cart-Based] recommendations, see [Cart-Based](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) in *Base the recommendation on a recommendation key*.
 
 ### Exclude items already in the visitor's cart
 
