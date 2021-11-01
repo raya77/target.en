@@ -13,7 +13,7 @@ Using [!DNL Analytics] as the behavioral data source can act as a rich source of
 
 While [creating criteria](/help/c-recommendations/c-algorithms/create-new-algorithm.md) in Recommendations, there are two radio buttons that let you choose which data source is to be used: [!UICONTROL mboxes] or [!UICONTROL Analytics].
 
-![Behavioral data source buttons](/help/c-recommendations/c-algorithms/assets/behavioral-data-source.png)
+![Behavioral data source buttons](assets/behavioral-data-source.png)
 
 >[!NOTE]
 >
