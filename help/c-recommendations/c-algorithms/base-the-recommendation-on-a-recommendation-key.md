@@ -10,8 +10,9 @@ exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
 
 Recommendations based on algorithms use visitor behavior context to show relevant results in [!DNL Adobe Target] [!DNL Recommendations] activities. 
 
-There are four algorithm types in [!DNL Target Recommendations]:
+There are five algorithm types in [!DNL Target Recommendations]:
 
+* [!UICONTROL Cart-Based]
 * [!UICONTROL Popularity-Based]
 * [!UICONTROL Item-Based]
 * [!UICONTROL User-Based]
@@ -25,10 +26,10 @@ Each algorithm type provides different algorithms appropriate for its type, as s
 
 |Algorithm type|When to use|Available algorithms|
 | --- | --- | --- |
+|[!UICONTROL Cart-Based]|(Coming Soon) Make recommendations based on the user's cart contents.|<ul><li>People Who Viewed These, Viewed Those</li><li>People Who Viewed These, Bought Those</li><li>People Who Bought These, Bought Those</li></ul>|
 |[!UICONTROL Popularity-Based]|Make recommendations based on the overall popularity of an item across your site or based on the popularity of items within a user's favorite or most-viewed category, brand, genre, and so forth.|<ul><li>Most Viewed Across the Site</li><li>Most Viewed by Category</li><li>Most Viewed by Item Attribute</li><li>Top Sellers Across the Site</li><li>Top Sellers by Category</li><li>Top Sellers by Item Attribute</li><li>Top by Analytics Metric</li></ul>|
 |[!UICONTROL Item-Based]|Make recommendations based on finding similar items to an item that the user is currently viewing or has recently viewed.|<ul><li>People Who Viewed This, Viewed That</li><li>People Who Viewed This, Bought That</li><li>People Who Bought This, Bought That</li><li>Items with Similar Attributes</li></ul>|
 |[!UICONTROL User-Based]|Make recommendations based on the user's behavior.|<ul><li>Recently Viewed Items</li><li>Recommended for You</li></ul>|
-|Cart-Based|(Coming Soon) Make recommendations based on the user's cart contents.|<ul><li>People Who Viewed These, Viewed Those</li><li>People Who Viewed These, Bought Those</li><li>People Who Bought These, Bought Those</li></ul>|
 |[!UICONTROL Custom Criteria]|Make recommendations based on a custom file you upload.|<ul><li>Custom Algorithm</li></ul>|
 
 Each criteria is defined in its own tab. Traffic is split evenly across your different criteria tests. In other words, if you have two criteria, traffic is divided equally between them. If you have two criteria and two designs, traffic is split evenly between the four combinations. You can also specify a percentage of site visitors who see the default content, for comparison. In that case, the specified percentage of visitors sees the default content, and the rest are split between your criteria and design combinations. 
@@ -36,6 +37,73 @@ Each criteria is defined in its own tab. Traffic is split evenly across your dif
 For more information about creating criteria and defining its algorithm types and algorithms, see [Create criteria](/help/c-recommendations/c-algorithms/create-new-algorithm.md). 
 
 Different recommendations algorithms lend themselves to placement on different types of pages. Refer to the following sections for more information about each algorithm type and its available algorithms.
+
+## Cart-Based {#cart-based}
+
+The [!UICONTROL Cart-Based] algorithm type lets recommend items based on the contents of the visitor’s current cart.
+
+Cart-based recommendation logic is similar to the "[!UICONTROL Recommended For You]"  user-based algorithm and to the "[!UICONTROL People Who Viewed These, Bought Those]" and "[!UICONTROL People Who Bought These, Bought Those]" item-based algorithms. 
+
+[!DNL Target] uses collaborative filtering techniques to determine similarities for each item in the visitor's cart, then combines these behavioral similarities across each item to get a merged list. 
+
+[!DNL Target] also gives marketers the choice of looking at visitor behavior within a single session or across multiple sessions:
+
+* **Within a single session**: Based on what other visitors did within a single session.
+
+  Looking at behavior within a single session might make sense when there's a sense that products strongly "go with" each other based on a usage, occasion, or event. For example, a visitor is buying a printer and might also need ink and paper. Or, a visitor is buying peanut butter and might also need bread and jelly.
+
+* **Across multiple sessions**: Based on what other visitors did across multiple sessions.
+
+  Looking at behavior across multiple sessions might make sense when there's a sense that products strongly "go with" each other based on visitor preference or taste. For example, a visitor likes Star Wars and might also like Indiana Jones, even if the visitor doesn't necessarily want to watch both movies in the same sitting. Or, a visitor likes the board game "Codenames" and might also like the board game "Avalon," even if the visitor cannot play both games simultaneously. 
+
+[!DNL Target] makes recommendations for each visitor based on the items in their current cart, regardless whether you look at visitor behavior within a single session or across multiple sessions.
+
+The following algorithms are available with the [!UICONTROL Cart-Based] algorithm type:
+
+### [!UICONTROL People Who Viewed This, Viewed Those]
+
+Recommends items that are most often viewed in the same session that the specified item is viewed.
+
+This logic returns other products people viewed after viewing this one; the specified product is not included in the results set.
+
+This logic lets you create additional conversion opportunities by recommending items that other visitors who viewed an item also viewed. For example, visitors who view road bikes on your site might also look at bike helmets, cycling kits, locks, and so forth. You can create a recommendation using this logic that suggests other products help you increase revenue.
+
+If you select this algorithm, you can select the following Recommendations Keys:
+
+* Current Item
+* Last Purchased Item
+* Last Viewed Item
+* Most Viewed Item
+
+### People Who Viewed This, Bought Those
+
+Recommends items that are most often purchased in the same session that the specified item is viewed. This criteria returns other products people purchased after viewing this one, the specified product is not included in the results set.
+
+This logic returns other products people purchased after viewing this one; the specified product is not included in the results set.
+
+This logic lets you increase cross-selling opportunities by displaying a recommendation on a product page, for example, that displays items that other visitors who viewed the item purchased. For example if the visitor is viewing a fishing pole, the recommendation could show additional items other visitors purchased, such as tackle boxes, waders, and fishing lures. As visitors browse your site, you provide them with additional purchasing recommendations.
+
+If you select this algorithm, you can select the following Recommendations Keys:
+
+* Current Item
+* Last Purchased Item
+* Last Viewed Item
+* Most Viewed Item
+
+### People Who Bought This, Bought That Those
+
+Recommends items that are most often purchased by customers at the same time as the specified item.
+
+This logic returns other products people purchased after buying this one; the specified product is not included in the results set.
+
+This logic lets you increase cross-selling opportunities by displaying a recommendation on a shopping cart summary page, for example, that displays items that other buyers also purchased. For example if the visitor is purchasing a suit, the recommendation could display additional items other visitors purchased along with the suit, such as ties, dress shoes, and cufflinks. As visitors review their purchases, you provide them with additional recommendations.
+
+If you select this algorithm, you can select the following Recommendations Keys:
+
+* Current Item
+* Last Purchased Item
+* Last Viewed Item
+* Most Viewed Item
 
 ## [!UICONTROL Popularity-Based]
 
