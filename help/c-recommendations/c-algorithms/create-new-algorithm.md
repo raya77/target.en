@@ -81,7 +81,9 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
 
 1.  As required, select an **Item Attribute** and **Profile Attribute to Match**, a **Recommendation Key**, **Filtering Key**, and/or **Analytics Metric** to configure the algorithm.
 
-For more information about choosing a Recommendation Key, see [Base the recommendation on a recommendation key](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
+The remaining algorithm configuration options vary depending on the selected algorithm. To finish configuring the algorithm, select a [!UICONTROL Recommendation Key], [!UICONTROL Filtering Key], [!UICONTROL Co-Occurrence Basis], [!UICONTROL Analytics Metric], and/or [!UICONTROL Item Attribute] and [!UICONTROL Profile Attribute to Match].
+
+For more information about choosing a [!UICONTROL Recommendation Key], see [Base the recommendation on a recommendation key](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
 ## [!UICONTROL Data Source] {#data-source}
 
