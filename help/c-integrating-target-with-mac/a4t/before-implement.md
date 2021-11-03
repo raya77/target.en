@@ -21,7 +21,11 @@ Before you decide to use this integration, review the following sections and con
 >
 >Before you can begin using A4T, you must request that your account is provisioned for the integration. Use the [Marketing Cloud Integrations Provisioning Form](https://www.adobe.com/go/audiences) to request to be provisioned.
 
-This A4T integration requires that you implement the following library versions (or newer), depending on whether you want to use redirect offers with A4T or not:
+This A4T integration requires that you implement the following library versions (or newer), depending on whether you want to use redirect offers with A4T or not.
+
+>[!NOTE]
+>
+>The following requirements list the *minimum* versions of at.js needed to implement A4T. The [!DNL Target] team maintains only two versions of [!DNL at.js]—the current version and the second-latest version. Please upgrade [!DNL at.js] as necessary to ensure that you are running a supported version. For more information about what's in each version, see [at.js Version Details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 
 ### Requirements needed if *not* using redirect offers with A4T
 
