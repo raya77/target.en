@@ -35,6 +35,8 @@ This integration requires that you implement the following library versions (or 
 * [!DNL Adobe Target]: at.js version 0.9.1
 * Adobe Analytics: appMeasurement.js version 1.7.0
 
+For information about implementing A4T with the [!DNL Platform Web SDK], see [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
+
 ### Requirements needed if using redirect offers with A4T
 
 To use redirect offers with A4T, you must implement the following library versions (or newer). The order listed is the order of operations.
@@ -50,6 +52,8 @@ To use redirect offers with A4T, you must implement the following library versio
 * Adobe Analytics: appMeasurement.js version 2.1
 
 Download and deployment instructions are listed in [Analytics for Target Implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md).
+
+For information about implementing A4T with the [!DNL Platform Web SDK], see [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
 
 ## Things to know before you implement {#section_50D49CC52E11414089C89FB67F9B88F5}
 
