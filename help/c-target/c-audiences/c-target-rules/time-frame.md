@@ -12,7 +12,7 @@ You can add start and end dates and times in [!DNL Adobe Target] to target users
 For example, using the [combined, ad hoc audiences feature](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5), you can target low-spenders with specific content during the three days leading up to Black Friday and other content after Black Friday.
 
 1. In the [!DNL Target] interface, click **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**. 
-1. 1. Name the audience and add an optional description. 
+1. Name the audience and add an optional description. 
 1. Drag and drop **[!UICONTROL Time Frame]** into the audience builder pane.
 
    ![](assets/target_timeframe_dialog.png)

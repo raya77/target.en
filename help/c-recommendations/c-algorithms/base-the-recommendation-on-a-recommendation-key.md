@@ -20,10 +20,6 @@ There are five algorithm types in [!DNL Target Recommendations]:
 
 Each algorithm type provides different algorithms appropriate for its type, as shown in the following table:
 
->[!NOTE]
->
->The [!UICONTROL Cart-Based] type is described in the table below and is coming soon.
-
 |Algorithm type|When to use|Available algorithms|
 | --- | --- | --- |
 |[!UICONTROL Cart-Based]|(Coming Soon) Make recommendations based on the user's cart contents.|<ul><li>People Who Viewed These, Viewed Those</li><li>People Who Viewed These, Bought Those</li><li>People Who Bought These, Bought Those</li></ul>|
@@ -48,11 +44,11 @@ Cart-based recommendation logic is similar to the "[!UICONTROL Recommended For Y
 
 [!DNL Target] also gives marketers the choice of looking at visitor behavior within a single session or across multiple sessions:
 
-* **Within a single session**: Based on what other visitors did within a single session.
+* **[!UICONTROL Single Session]**: Based on what other visitors did within a single session.
 
   Looking at behavior within a single session might make sense when there's a sense that products strongly "go with" each other based on a usage, occasion, or event. For example, a visitor is buying a printer and might also need ink and paper. Or, a visitor is buying peanut butter and might also need bread and jelly.
 
-* **Across multiple sessions**: Based on what other visitors did across multiple sessions.
+* **[!UICONTROL Across Sessions]**: Based on what other visitors did across multiple sessions.
 
   Looking at behavior across multiple sessions might make sense when there's a sense that products strongly "go with" each other based on visitor preference or taste. For example, a visitor likes Star Wars and might also like Indiana Jones, even if the visitor doesn't necessarily want to watch both movies in the same sitting. Or, a visitor likes the board game "Codenames" and might also like the board game "Avalon," even if the visitor cannot play both games simultaneously. 
 
