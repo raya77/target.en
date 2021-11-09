@@ -10,19 +10,11 @@ exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
 
 Recommendations based on algorithms use visitor behavior context to show relevant results in [!DNL Adobe Target] [!DNL Recommendations] activities. 
 
-There are five algorithm types in [!DNL Target Recommendations]:
-
-* [!UICONTROL Cart-Based]
-* [!UICONTROL Popularity-Based]
-* [!UICONTROL Item-Based]
-* [!UICONTROL User-Based]
-* [!UICONTROL Custom Criteria]
-
 Each algorithm type provides different algorithms appropriate for its type, as shown in the following table:
 
 |Algorithm type|When to use|Available algorithms|
 | --- | --- | --- |
-|[!UICONTROL Cart-Based]|(Coming Soon) Make recommendations based on the user's cart contents.|<ul><li>People Who Viewed These, Viewed Those</li><li>People Who Viewed These, Bought Those</li><li>People Who Bought These, Bought Those</li></ul>|
+|[!UICONTROL Cart-Based]|Make recommendations based on the user's cart contents.|<ul><li>People Who Viewed These, Viewed Those</li><li>People Who Viewed These, Bought Those</li><li>People Who Bought These, Bought Those</li></ul>|
 |[!UICONTROL Popularity-Based]|Make recommendations based on the overall popularity of an item across your site or based on the popularity of items within a user's favorite or most-viewed category, brand, genre, and so forth.|<ul><li>Most Viewed Across the Site</li><li>Most Viewed by Category</li><li>Most Viewed by Item Attribute</li><li>Top Sellers Across the Site</li><li>Top Sellers by Category</li><li>Top Sellers by Item Attribute</li><li>Top by Analytics Metric</li></ul>|
 |[!UICONTROL Item-Based]|Make recommendations based on finding similar items to an item that the user is currently viewing or has recently viewed.|<ul><li>People Who Viewed This, Viewed That</li><li>People Who Viewed This, Bought That</li><li>People Who Bought This, Bought That</li><li>Items with Similar Attributes</li></ul>|
 |[!UICONTROL User-Based]|Make recommendations based on the user's behavior.|<ul><li>Recently Viewed Items</li><li>Recommended for You</li></ul>|
