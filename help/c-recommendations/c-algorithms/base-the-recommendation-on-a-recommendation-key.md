@@ -133,7 +133,11 @@ If you select the Most Viewed by Category algorithm, you can select the followin
 
 ### Most Viewed by Item Attribute
 
-(Info coming soon)
+Recommends items or media similar to the most-viewed items or media on your site.
+
+This algorithm lets you select which item attribute you want to base the recommendation on, for example, "Name," or "Brand."
+
+You then select which profile attributes stored in the visitor's profile to match, for example "Favorite Brand," "Last Item Added to Cart," or "Most Viewed Show."
 
 ### Top Sellers Across the Site {#top-sellers}
 
