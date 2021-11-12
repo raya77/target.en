@@ -15,7 +15,7 @@ Three methods for integrating [!DNL Target Recommendations] with your Email Serv
 | --- | --- |
 |[Method 1: [!DNL Adobe Target Delivery API]](#delivery-api) (Preferred)|Use the [!DNL Adobe Target Delivery API] to make per-customer/per-email requests for recommendations.|
 |[Method 2: [!DNL Adobe Rawbox API]](#rawbox)|Use the [!DNL Adobe Target Rawbox API] to make per-customer/per-email requests for recommendations.|
-|[Method 3: [!DNL Recommendations Download API]](download-api)|Use the Recommendations Download API to request bulk recommendations for a list of products or categories in CSV format.|
+|[Method 3: [!DNL Recommendations Download API]](#download-api)|Use the Recommendations Download API to request bulk recommendations for a list of products or categories in CSV format.|
 
 Using method 1 or method 2 requires your ESP to make calls to an external API on a per-customer/per-email basis and wait for content to be returned. These methods are not supported by all ESPs; contact your ESP to determine if it is compatible with this integration pattern.
  
