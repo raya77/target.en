@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|November 12|[Integrate [!DNL Recommendations] with email](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md)|Added new introductory information.|
 |October 28|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added the information about the following releases:<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5.</li></ul>|
 ||[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about the at.js 2.7.0 release.|
 ||[Visual Experience Composer options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom)|Added the following section: "Custom element support."|
