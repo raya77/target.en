@@ -34,7 +34,7 @@ Examples of unsupported metrics or use cases include:
 
 ## How does A4T handle confidence calculations? {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
-A4T computes confidence/p-values in a manner that is different to regular t-tests using binary metrics. Specifically, the calculations used by A4T allow for each user to have a continuous metric outcome (not just 1 or 0 for each user), so that the variance (or relatedly, the standard deviation) for each Experience must be calculated exactly. Extreme orders are not considered. Also, the confidence calculation does not apply a Bonferroni correction for multiple offers.
+[!DNL Adobe Analytics] treats all metrics as non-binary, and therefore, computes confidence/p-values in a manner that is different to the use of binary metrics in a regular t-test. Specifically, the calculations used by A4T allow for each user to have a continuous metric outcome (not just 1 or 0 for each user), so that the variance (or relatedly, the standard deviation) for each experience must be calculated appropriately. Extreme orders are not considered. Also, the confidence calculation does not apply a Bonferroni correction for multiple offers.
 
 ## Do lift and confidence work in Ad Hoc and Report Builder? If it's not native, can I do it in there myself? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
