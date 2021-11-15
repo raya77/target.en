@@ -44,7 +44,7 @@ If control is 0, there is no percentage lift.
 
 AOV, RPV, and Sales data are displayed for each experience if you inserted a Place Order (`orderConfirmPage`) mbox and selected it as the conversion mbox. 
 
-## Confidence and Confidence Interval {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
+## Confidence Level and Confidence Interval {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
 For each experience, the confidence and confidence interval are displayed.
 
@@ -52,7 +52,9 @@ You can perform offline calculations for Analytics for Target (A4T), but it requ
 
 ### Confidence {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
 
-The confidence of an experience or offer that is displayed is a probability (expressed as a percentage) of obtaining a result less extreme than the one that is actually observed, if the null hypothesis is true, i.e. if there is no difference in conversion rates between that experience or offer, and the control experience/offer. In terms of p-values, this confidence displayed is 1 - p-value. Put more simply, higher confidence indicates that the data is less consistent with the assumption that the the control and non-control offer/experience have equal conversion rates. The confidence rounds up to 100.00% when the confidence is greater than or equal to 99.995%. 
+The confidence of an experience or offer that is displayed is a probability (expressed as a percentage) of obtaining a result less extreme than the one that is actually observed, if the null hypothesis is true, (in essence, if there is no difference in conversion rates between that experience or offer, and the control experience/offer). In terms of p-values, this confidence displayed is 1 - p-value. Put more simply, higher confidence indicates that the data is less consistent with the assumption that the the control and non-control offer/experience have equal conversion rates. 
+
+The confidence rounds up to 100.00% when the confidence is greater than or equal to 99.995%. 
 
 ![](assets/conf_report.png)  ![](assets/conf_report_detail.png)
 
