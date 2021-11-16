@@ -5,7 +5,7 @@ title: What Are Customer Attributes and How Do I Use Them?
 feature: Audiences
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
 ---
-# Customer attributes
+# [undefined](/help/c-target/c-visitor-profile/working-with-customer-attributes.md)
 
 Information about using enterprise customer data from Customer Relationship Management (CRM) databases for content targeting in [!DNL Adobe Target] by using customer attributes in the [!DNL Adobe Enterprise Cloud People] service.
 
@@ -13,7 +13,7 @@ Enterprise customer data collected through multiple sources and stored inside CR
 
 ## Customer attributes overview {#section_B4099971FA4B48598294C56EAE86B45A}
 
-[Customer Attributes](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) in the [!DNL People] service is part of the [!DNL Adobe Experience Cloud] and provides enterprises a tool to push their customer data to the [!DNL Experience Cloud] platform. 
+[Customer Attributes](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html) in the [!DNL People] service is part of the [!DNL Adobe Experience Cloud] and provides enterprises a tool to push their customer data to the [!DNL Experience Cloud] platform. 
 
 Data onboarded to the [!DNL Experience Cloud] is available for all [!DNL Experience Cloud] workflows. [!DNL Target] uses this data for targeting returning customer based on attributes. [!DNL Adobe Analytics] consumes these attributes and they can be used for analysis and segmentation.
 
@@ -22,10 +22,10 @@ Data onboarded to the [!DNL Experience Cloud] is available for all [!DNL Experie
 Consider the following information as your work with customer attributes and [!DNL Target]:
 
 * There are some prerequisite requirements that you must meet before you can use the [!UICONTROL Customer attributes] feature in the [!DNL People] service. For more information, see "Prerequisites for uploading Customer Attributes" in [Customer attributes](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) in the *Experience Cloud Services and Administration documentation*. 
+* Be aware of the limitations concerning file uploads, as documented in [About data file and data sources for Customer Attributes](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en) in the *Experience Cloud Central Interface Components Guide*. As best practice:
 
-  >[!NOTE]
-  >
-  >[!DNL at.js] (any version) or [!DNL mbox.js] version 58 or later is required.
+  * Upload single large files (within the [limits specified](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en)). Single large files are preferred over multiple smaller files.
+  * If you must split the upload into several files, ensure that files are fully processed before submitting new files and ensure that at least 30 minutes has passed between multiple uploads.
 
 * [!DNL Adobe] does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. In the current design, there is a possibility that a small percentage of data (up to 0.1% of large production batches) might not be onboarded. 
 * The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. For more information, see [Visitor Profile Lifetime](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD). 
@@ -51,7 +51,7 @@ Complete the following steps to use CRM data in [!DNL Target], as illustrated be
 
 ![crm workflow](/help/c-target/c-visitor-profile/assets/crm_workflow.png)
 
-Detailed instructions for completing each of the following tasks can be found in [Create a customer attribute source and upload the data file](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) in the *Experience Cloud Services and Administration documentation*.
+Detailed instructions for completing each of the following tasks can be found in [Create a customer attribute source and upload the data file](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html) in the *Experience Cloud Services and Administration documentation*.
 
 1. Create a data file.
 
