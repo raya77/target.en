@@ -5,7 +5,7 @@ title: What Are Customer Attributes and How Do I Use Them?
 feature: Audiences
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
 ---
-# [undefined](/help/c-target/c-visitor-profile/working-with-customer-attributes.md)
+# Customer attributes
 
 Information about using enterprise customer data from Customer Relationship Management (CRM) databases for content targeting in [!DNL Adobe Target] by using customer attributes in the [!DNL Adobe Enterprise Cloud People] service.
 
