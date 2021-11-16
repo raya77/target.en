@@ -17,7 +17,7 @@ Be aware of the changes that impact the VEC and EEC when using the following Chr
 >
 >The following change affects all three updates outlined below: 
 >
-> * Will *not* be able to use the VEC (with or without the VEC Helper extension installed and enabled) in password-protected pages of your sites. Your site login cookies are considered a 3rd-party cookie and are sent with the login request. The only exception is when your site login cookie already has the SameSite parameter set to `none` and `Secure.`
+> * Will *not* be able to use the VEC without the VEC Helper extension installed and enabled for password-protected pages of your sites. Your site login cookies are considered 3rd-party cookies and are not sent with login requests inside the VEC editor in Browse mode. The only exception is when your site login cookies already have the `SameSite=None` and `Secure` attributes set.
 
 **Chrome 94 (September 21, 2021)**: With the impending changes planned for the Chrome 94 release (September 21, 2021), the following change impacts all users with Chrome 94+ browser versions:
 
@@ -47,19 +47,11 @@ To determine which cookies are blocked because of the SameSite cookie enforcemen
 
    ![Developer Tools > Network tab showing a blocked cookie](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/chrome-developer-tools.png)
 
-### Google VEC Helper extension
+### [!DNL Adobe Target] VEC Helper extension
 
- [!DNL Adobe] has submitted an updated VEC Helper extension to the Google Chrome Store. This extension overwrites the cookie attributes to set the `SameSite="none"` attribute, when needed. The [updated extension can be found here](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). For more information about installing and using the VEC Helper Extension, see [Visual Experience Composer helper extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+Starting with version 0.7.1, the [!DNL Adobe Target] VEC Helper browser extension adds the `SameSite=None` and `Secure` attributes to all cookies on responses originating from webpages edited inside the VEC when the "Cookies" toggle is turned ON in the extension UI:
 
-For your own site cookies, you must specify the cookies by name.
-
->[!NOTE]
->
->This approach is suitable only when all the cookies are set in a single domain. The VEC helper does not allow [!DNL Target] to specify cookies for more than one domain.
-
-Toggle the [!UICONTROL Cookie] slider to the on position, then specify the cookie by name and the cookie domain. The cookie name is "mbox" and the cookie domain is the second and top levels of the domains from which you serve the mbox. Because it is served from your company's domain, the cookie is a first party cookie. Example: `mycompany.com`. For more information, see [Adobe Target Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) in the *Experience Cloud Interface User Guide*.
-
-![Cookies toggle in the VEC helper extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
+![Adobe Target VEC Helper extension UIAdobe Target VEC Helper extension UI](assets/cookies-vec-helper.png)
 
 ### Alternatives and workarounds
 
