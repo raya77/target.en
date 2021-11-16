@@ -13,6 +13,8 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|November 16|[Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)|Updated the "How do the Google Chrome SameSite cookie enforcement policies impact the VEC and EEC?" section with information about the newest version of the helper extension.|
+||[Visual Experience Composer helper extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)|Updated the "Obtain and install the VEC Helper browser extension" section. |
 |November 12|[Integrate [!DNL Recommendations] with email](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md)|Added new introductory information.|
 |October 28|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added the information about the following releases:<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5.</li></ul>|
 ||[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about the at.js 2.7.0 release.|
