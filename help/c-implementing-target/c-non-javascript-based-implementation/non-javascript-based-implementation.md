@@ -1,5 +1,5 @@
 ---
-keywords: Implementation;mbox.js non javascript;adbox;redirector;mbox
+keywords: Implementation;at.js non javascript;adbox;redirector;mbox
 description: Learn how to implement Adobe [!DNL Target] in non-JavaScript scenarios, such as using an AdBox or Redirector.
 title: How Do I Implement [!DNL Target] for Email?
 feature: Implement Email
@@ -10,7 +10,7 @@ exl-id: 3287cf3d-3ed4-471f-aa06-25bb12e23ead
 
 Information about implementing Target in non-JavaScript scenarios, such as using an AdBox or Redirector.
 
-You can track visits to ads and other offsite content. You can also identify the same user on and off your site and deliver a consistent experience throughout their web experience. Using a single URL, the AdBox allows testing without JavaScript or [!DNL at.js] or [!DNL mbox.js].
+You can track visits to ads and other offsite content. You can also identify the same user on and off your site and deliver a consistent experience throughout their web experience. Using a single URL, the AdBox allows testing without JavaScript or [!DNL at.js].
 
 An AdBox is useful for sites that do not have [!DNL at.js], such as affiliates. If your activity needs dynamic creative (for example, you need to show a product in the ad that was abandoned in the cart), you cannot use an AdBox.
 

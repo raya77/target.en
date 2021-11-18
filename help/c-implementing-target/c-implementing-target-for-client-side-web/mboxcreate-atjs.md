@@ -14,7 +14,7 @@ Executes a request and applies the offer to the closest DIV with mboxDefault cla
 >
 >This function is available for at.js versions 1.*x* only. This function was deprecated with the release of at.js 2.x. This function returns default content if used with at.js 2.x.
 
-This function is built into [!DNL at.js] mostly to ease the transition from [!DNL mbox.js] to [!DNL at.js]. A newer alternative to `mboxCreate()` is `adobe.target.getOffer()`/ `adobe.target.applyOffer()` or the Angular directive.
+This function is built into [!DNL at.js] mostly to ease the transition from [!DNL mbox.js] (now deprecated) to [!DNL at.js]. A newer alternative to `mboxCreate()` is `adobe.target.getOffer()`/ `adobe.target.applyOffer()` or the Angular directive.
 
 ## Example
 

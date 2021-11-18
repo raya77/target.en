@@ -429,7 +429,7 @@ The following enhancements and fixes are included in [!DNL at.js] version 0.9.6:
 **Date:** July 14, 2016
 
 * Provides at.js a timeout for the Visitor Id Service, which is independent of the service’s own timeout. 
-* Corrects an issue in 0.9.0 that impacted implementations using at.js on some pages and mbox.js on other pages. 
+* Corrects an issue in 0.9.0 that impacted implementations using at.js on some pages and mbox.js (now deprecated) on other pages. 
 * If you use Adobe Analytics as your activity's reporting source, you do not need to specify a tracking server during activity creation if you are using mbox.js version 61 (or later) or at.js version 0.9.1 (or later). The at.js library automatically sends tracking server values to [!DNL Target]. During activity creation, you can leave the [!UICONTROL Tracking Server] field empty on the [!UICONTROL Goals & Settings] page.
 
 ## at.js Version 0.9.0 {#section_2981CC9792F245389B39BB5B69F84C4E}

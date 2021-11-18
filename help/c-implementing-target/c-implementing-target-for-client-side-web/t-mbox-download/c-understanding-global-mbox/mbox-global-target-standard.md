@@ -26,7 +26,7 @@ To use your existing global mbox for both [!DNL Target] and your legacy implemen
 
 1. Click **[!UICONTROL Save]**.
 
-   The mbox.js settings for your account are updated.
+   The settings for your account are updated.
 
 1. Download the new at.js file and reference it on your site.
 

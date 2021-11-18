@@ -50,7 +50,7 @@ The following parameters are available:
 
 | mboxTrace Options | Outcome |
 |--- |--- |
-|`?mboxTrace=console`|Prints into console log as objects.<br>For at.js, instead of popping a new browser window or outputting to the console as was in  mbox.js, you need to inspect the Network request and look under Preview (Chrome) or Response (Firefox).|
+|`?mboxTrace=console`|Prints into console log as objects.<br>For at.js, instead of popping a new browser window or outputting to the console as was in  mbox.js (now deprecated), you need to inspect the Network request and look under Preview (Chrome) or Response (Firefox).|
 |`?mboxTrace=json`|Prints into console log as a literal JSON string|
 |`?mboxTrace=window`|Prints into a popup window as a JSON string|
 |`?mboxTrace=disable`|Turns off tracing session mode|

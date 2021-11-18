@@ -238,9 +238,9 @@ This issue was fixed in the Target 19.7.1 release.
 
 On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be "false" by default for a newly provisioned tenant.
 
-When mbox.js is downloaded for the first time after provisioning, the [!UICONTROL Global Mbox Auto Create] field is set to "true" in the downloaded mbox.js file and in the [!DNL Target] backend, but it will continue to display as "false" on the [!UICONTROL Implementation] page in the UI until the page is refreshed (after the page is refreshed, the status will be "true.")
+When at.js is downloaded for the first time after provisioning, the [!UICONTROL Global Mbox Auto Create] field is set to "true" in the downloaded at.js file and in the [!DNL Target] backend, but it will continue to display as "false" on the [!UICONTROL Implementation] page in the UI until the page is refreshed (after the page is refreshed, the status will be "true.")
 
-at.js will be downloaded with `global_mbox_autocreate = false` for a newly provisioned tenant. If mbox.js is downloaded first, global\_mbox\_autocreate is set to "true" and at.js will also be downloaded with `global_mbox_autocreate = true`. (TGT-15929)
+at.js will be downloaded with `global_mbox_autocreate = false` for a newly provisioned tenant. If mbox.js (now deprecated) was downloaded first, global\_mbox\_autocreate is set to "true" and at.js will also be downloaded with `global_mbox_autocreate = true`. (TGT-15929)
 
 ### Enterprise Permissions support in [!DNL Target] APIs {#api}
 
@@ -434,7 +434,7 @@ This issue was fixed after the Recommendations release (March 22, 2018). After t
 
 ### at.js {#at-js-7}
 
-When users attempt to download at.js from the Implementations details page after updating at.js settings, mbox.js is downloaded instead of at.js . (TGT-23069)
+When users attempt to download at.js from the Implementations details page after updating at.js settings,  is downloaded instead of at.js . (TGT-23069)
 
 Fixed in the Target 17.3.1 release (March 30, 2017).
 
