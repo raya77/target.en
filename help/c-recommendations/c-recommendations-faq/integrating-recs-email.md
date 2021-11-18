@@ -75,7 +75,7 @@ See [Delivery API documentation](https://developers.adobetarget.com/api/#server-
 
 ## Method 2: Use a rawbox email template {#rawbox}
 
-A rawbox is similar to an mbox request, but for non-Web environments, such as email service providers (ESPs). Because you don't have [!DNL mbox.js] or [!DNL at.js] to use in rawbox requests, you must create your requests manually. The examples below explain how to work with rawbox requests in email.
+A rawbox is similar to an mbox request, but for non-Web environments, such as email service providers (ESPs). Because you don't have the [!DNL Adobe Experience Platform Web SDK] or [!DNL at.js] to use in rawbox requests, you must create your requests manually. The examples below explain how to work with rawbox requests in email.
 
 >[!NOTE]
 >

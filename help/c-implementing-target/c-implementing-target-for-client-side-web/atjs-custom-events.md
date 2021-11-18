@@ -10,7 +10,7 @@ exl-id: 4073210b-b782-48a7-8b69-29eb5cd98fd5
 
 Information about `at.js custom events`, which lets you know when an mbox request or offer fails or succeeds.
 
-Historically, mbox.js didn't let other JavaScript code that runs on the page know what happens behind the scenes. With the advancement of at.js, we had a unique opportunity to fix this issue.
+Historically, mbox.js (now deprecated) didn't let other JavaScript code that runs on the page know what happens behind the scenes. With the advancement of at.js, we had a unique opportunity to fix this issue.
 
 According to our customers there are several scenarios that they would like to be notified of, including:
 

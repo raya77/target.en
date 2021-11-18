@@ -78,7 +78,7 @@ This page lists profiles, variables, and parameters that are useful in profile s
 |Parameters passed with order mboxes:<ul><li>mbox.param('orderId')</li><li>mbox.param('orderTotal')</li><li>mbox.param('productPurchasedId')</li></ul>|
 |mbox3rdPartyId|An mbox parameter to sync a customer ID to Target's mboxPCID. A customer ID is an ID your company uses to track visitors, such as a CRM ID, membership ID, or something similar. This ID can then be used to add information via the Profile APIs and [Customer Attributes](/help/c-target/c-visitor-profile/working-with-customer-attributes.md).|
 |mboxPageValue|In each mbox call the page is assigned a value.|
-|mboxDebug|Only used for debug info. Added to the page url where the mbox.js looks for it.|
+|mboxDebug|Only used for debug info. Added to the page url where the at.js looks for it.|
 |mboxOverride.browserIp|Sets a different geo than the actual location so you can test how something would look in another location.<br>**Note:** Using mboxOverride parameters should be used only while testing the activity and not in production. The use of any  mboxOverride  parameters can cause reporting discrepancies when using  [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md)  (A4T). You should use [Activity QA mode](/help/c-activities/c-activity-qa/activity-qa.md) while testing to ensure that your activity works as expected before pushing the activity into your live environment.|
 
 ## Customer Attributes {#section_62B4821EB6564FF4A14159A837AD4EDB}

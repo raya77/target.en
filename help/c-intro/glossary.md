@@ -222,6 +222,10 @@ A specific content area on a page, often contained by a single DOM element. In M
 
 "Marketing box," the location on your Web page where content is displayed and visitor behavior is recorded. Some mboxes do not display anything. They might track a visitor's progress through your Web site, or might track whether the visitor completes a specific success metric, such as adding an item to the shopping cart or completing a purchase. One such type of mbox is a *conversion mbox*.
 
+**mbox.js**
+
+A [!DNL Target] JavaScript implementation library that has been deprecated.
+
 **mbox parameter**
 
 Passed in the page, not the URL. Parameters are used to pass data from your database and to track sales data or to run Adobe Recommendations. Also known as page parameter.
