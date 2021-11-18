@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|November 18|[Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)|Added a note in the Mbox row indicating that mboxes are no longer supported in the [!UICONTROL Visual Experience Composer] (VEC) in pages that use at.js 2.*x*.|
 |November 16|[Customer attributes](/help/c-target/c-visitor-profile/working-with-customer-attributes.md)|Added information about the limitations concerning file uploads with a link to [About data file and data sources for Customer Attributes](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en) in the *Experience Cloud Central Interface Components Guide*.|
 ||[Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)|Updated the "How do the Google Chrome SameSite cookie enforcement policies impact the VEC and EEC?" section with information about the newest version of the helper extension.|
 ||[Visual Experience Composer helper extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)|Updated the "Obtain and install the VEC Helper browser extension" section. |
