@@ -1,6 +1,6 @@
 ---
 keywords: dynamic data;assets;data;offers;personalized offers;personal offers;token replace
-description: Learn how to pass dynamic data into [!DNL Adobe Target] Offers. Explore business cases that show why you might want to use dynamic offers and view examples and implementation information.
+description: Learn how to pass dynamic data into [!DNL Adobe Target] Offers.
 title: How Do I Pass Dynamic Data into Offers?
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
@@ -17,14 +17,14 @@ You can dynamically display visitor information that is stored in the [!DNL Adob
 
 ## Technical advantages
 
-Because user-specific preferences, behaviors, status, etc. can stored in the user's profile, you can repeat this message on his or her next visits. Dynamic offers enable greater scale by allowing you to set up a single offer within an activity that displays personalized messages for all your visitors. As the visitor's intent changes, your website content automatically reflects those changes.
+Because visitor-specific preferences, behaviors, status, can be stored in the visitor's profile, you can repeat this message on their next visits. Dynamic offers enable greater scale by allowing you to set up a single offer within an activity that displays personalized messages for all your visitors. As the visitor's intent changes, your website content automatically reflects those changes.
 
 ## Example
 
 * `mboxCreate("landingpage"`, `"profile.keyword=World Cup");` 
 
 * HTML Offer code: `Get your ${profile.keyword} information here!` 
-* User sees: Get your World Cup information here!
+* Visitor sees: Get your World Cup information here!
 
 The following values can be "token replaced":
 
@@ -41,7 +41,7 @@ The following values can be "token replaced":
 
 Log information in the console for debugging purposes, such as `${campaign.name}`, `${campaign.id}`, `${campaign.recipe.name}`, `${campaign.recipe.id}`, `${offer.name}`, `${offer.id}`, `${campaign.name}`
 
-For Recommendations designs, see additional examples in [Design Overview](/help/c-recommendations/c-design-overview/design-overview.md).
+For [!DNL Recommendations] designs, see additional examples in [Design Overview](/help/c-recommendations/c-design-overview/design-overview.md).
 
 ## Implementation
 
@@ -53,7 +53,7 @@ For profile parameters created in a profile script, use the syntax:
 
 `${user.parameter}`
 
-When using dynamic attributes in a [!DNL Recommendations] design, you must insert a backslash ( &#92; ) before the dollar sign ( $ ) in order for the dynamic value to render properly: 
+When using dynamic attributes in a [!DNL Recommendations] design, you must insert a backslash ( &#92; ) before the dollar sign ( $ ) for the dynamic value to render properly: 
 
 `\${user.endpoint.lastViewedEntity}`
 
@@ -63,12 +63,16 @@ Default values can also be specified for values you want to expose to offers. Th
 
 `${user.testAttribute default="All Items!"}`
 
-When `testAttribute` doesn’t exist or is blank, "All Items!" will be written out. If an empty attribute value is valid, and you want to write it out instead of showing the default, you can use:
+When `testAttribute` doesn’t exist or is blank, "All Items!" is written out. If an empty attribute value is valid, and you want to write it out instead of showing the default, you can use:
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 
-You can also escape and unescape values to be displayed. If your value has an apostrophe for example, you would want to escape the value so it does not break the JavaScript on the page. (Offers are written in JavaScript, so a single apostrophe can be confused for a quote.) For example:
+You can also escape and unescape values to be displayed. If your value has an apostrophe, for example, you can escape the value so it does not break the JavaScript on the page. (Offers are written in JavaScript, so a single apostrophe can be confused for a quote.) For example:
 
 `${user.encodedValue encode="unescape"}`
 
 `${user.unencodedValue encode="escape"}`
+
+For offer parameters (offer.name, offer.id) used in an offer's content:
+
+If that offer is one of several sets on an experience, the value of the last added offer populates the parameter's value. Meaning, these parameters are evaluated on the experience level.
