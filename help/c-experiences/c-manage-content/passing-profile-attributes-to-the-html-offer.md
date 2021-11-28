@@ -75,4 +75,4 @@ You can also escape and unescape values to be displayed. If your value has an ap
 
 For offer parameters (offer.name, offer.id) used in an offer's content:
 
-If that offer is one of several sets on an experience, the value of the last added offer populates the parameter's value. Meaning, these parameters are evaluated on the experience level.
+If that offer is one of several offers set on an experience, the value of the last added offer populates the parameter's value. Meaning, these parameters are evaluated on the experience level.
