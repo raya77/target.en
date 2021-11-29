@@ -36,7 +36,7 @@ A key difference between plug-ins and response tokens is that plug-ins deliver J
 
    ![](assets/response_tokens-new.png)
 
-1. Activate the desired response tokens, such as `activity.id` and `option.id`.
+1. Activate the desired response tokens, such as `activity.id` and `offer.id`.
 
    The following parameters are available by default:
 
@@ -429,8 +429,8 @@ The equivalent of the ttMeta plugin for debugging purposes can be created by add
         'CampaignId' : token["activity.id"], 
         'RecipeName': token["experience.name"], 
         'RecipeId': token["experience.id"], 
-        'OfferId': token["option.id"], 
-        'OfferName': token["option.name"], 
+        'OfferId': token["offer.id"], 
+        'OfferName': token["offer.name"], 
         'MboxName': e.detail.mbox}); 
       console.log(ttMETA); 
     }); 
@@ -465,5 +465,7 @@ The following video explains how to use response tokens and at.js custom events 
 >[!NOTE]
 >
 >The [!DNL Target] [!UICONTROL Administration] menu UI (formerly [!UICONTROL Setup]) has been redesigned to provide improved performance, reduce the maintenance time required when releasing new features, and to improve the user experience across the product. The information in the following video is correct; however, options are in slightly different locations.
+>
+>The video mentions `option.name` and `option.id`, which have been replaced with `offer.name` and `offer.id`, respectively. 
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
