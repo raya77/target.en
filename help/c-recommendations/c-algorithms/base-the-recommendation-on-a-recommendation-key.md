@@ -162,7 +162,7 @@ If you select the Most Viewed by Category algorithm, you can select the followin
 
 ### Top by Analytics Metric
 
-Displays the “Top x” where x is an arbitrary [!DNL Analytics] metric. When using behavioral data from mboxes, you can only use Top Sold or Top Viewed (x = “Sold” or x = “Viewed”). If you’re using behavioral data from [!DNL Adobe Analytics], you could use  x = “Cart Adds” or some other [!DNL Analytics] metric.
+Displays the “Top x” where *x* is an arbitrary [!DNL Analytics] metric. When using behavioral data from mboxes, you can use Top Sold or Top Viewed (x = “Sold” or x = “Viewed”). If you’re using behavioral data from [!DNL Adobe Analytics], you could use  x = “Cart Adds” or some other [!DNL Analytics] metric.
 
 ## [!UICONTROL Item-Based]
 
