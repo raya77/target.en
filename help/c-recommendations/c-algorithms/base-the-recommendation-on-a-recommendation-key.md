@@ -28,7 +28,7 @@ Different recommendations algorithms lend themselves to placement on different t
 
 ## Cart-Based {#cart-based}
 
-The [!UICONTROL Cart-Based] algorithm type lets recommend items based on the contents of the visitor’s current cart.
+The [!UICONTROL Cart-Based] algorithm type lets recommend items based on the contents of the visitor’s current cart. The recommendation keys are supplied through mbox parameter `cartIds` in comma-separated values. Only the first 10 values are considered.
 
 Cart-based recommendation logic is similar to the "[!UICONTROL Recommended For You]"  user-based algorithm and to the "[!UICONTROL People Who Viewed These, Bought Those]" and "[!UICONTROL People Who Bought These, Bought Those]" item-based algorithms. 
 
