@@ -9,18 +9,6 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 
 Announcements and information about upcoming events, including [!DNL Adobe Target] Skill Builder sessions, developer chats, webinars, and [!DNL Target] Coffee Break sessions.
 
-## [!DNL Adobe Target] Community Q&A Coffee Break (November 10, 2021)
-
-* **Wednesday, November 10, 2021**
-* **8:00 a.m. (PST, UTC -8)**
-* **[More information and registration information](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-11-10-21-cristinel-quot-muti/td-p/426696)**
-
-Cristinel "Muti" Anastasoaie, Senior Product Manager for [!DNL Adobe Target], will answer your questions pertaining to his areas of expertise:
-
-* [!DNL Target] user interface
-* [!DNL Target] integrations
-* [!UICONTROL Enterprise permissions] and [!UICONTROL workspaces]
-
 ## [!DNL Adobe Target] Community Q&A Coffee Break (December 8, 2021)
 
 * **Wednesday, December 8, 2021**
