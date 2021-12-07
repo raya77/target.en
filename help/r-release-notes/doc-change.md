@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|December 7|[The science behind Target's recommendations algorithms](/help/c-recommendations/c-algorithms/recommendations-algorithms.md)|New topic.|
 |December 2|[Base the recommendation on a recommendation key](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)|Updated the Cart-Based algorithm to include that the recommendation keys are supplied through mbox parameter cartIds in comma-separated values. Only the first 10 values are considered.|
 |November 18|[Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)|Added a note in the Mbox row indicating that mboxes are no longer supported in the [!UICONTROL Visual Experience Composer] (VEC) in pages that use at.js 2.*x*.|
 |November 16|[Customer attributes](/help/c-target/c-visitor-profile/working-with-customer-attributes.md)|Added information about the limitations concerning file uploads with a link to [About data file and data sources for Customer Attributes](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en) in the *Experience Cloud Central Interface Components Guide*.|

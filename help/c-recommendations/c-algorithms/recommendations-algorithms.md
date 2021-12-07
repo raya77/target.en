@@ -1,11 +1,11 @@
 ---
 keywords: recommendations algorithms;model training;model serving;content delivery;item-based;user-based;popularity-based;cart-based;custom criteria
 description: Learn about the algorithms used in [!DNL Target Recommendations], including model training and model serving.
-title: Where Can I Learn About The Science Behind Recommendations Algorithms?
+title: Where Can I Learn About The Science Behind Target's Recommendations Algorithms?
 feature: Recommendations
 mini-toc-levels: 2
 ---
-# ![PREMIUM](/help/assets/premium.png) The science behind Recommendations algorithms
+# ![PREMIUM](/help/assets/premium.png) The science behind Target's recommendations algorithms
 
 An in-depth description of the algorithms used in [!DNL Adobe Target Recommendations], including the logic and mathematical details of model training and the process of model serving.
 
@@ -100,7 +100,7 @@ Details of these steps are as follows:
 
     To avoid significant complexity in computing similarities between all N x N items, the *tf-idf* vector is truncated to contain only its largest 500 entries, and then compute cosine similarities between items using this truncated vector representation. This approach proves to be more robust for sparse vector similarity computations, as compared to other approximate nearest neighbor (ANN) techniques, such as locality sensitive hashing.
 
-* **Model serving**: This process is identical to item-item collaborative filtering techniques described in the previous section.
+  * **Model serving**: This process is identical to item-item collaborative filtering techniques described in the previous section.
 
 ## Multi-key recommendations
 
@@ -131,7 +131,7 @@ Details of these steps are as follows:
 
   ![FormulaFormula](assets/formula4.png)
 
-  * **Item similarity model evaluation**: The model evaluation is done by taking the recommendations generated in the previous step and making predictions on the test data set. The online scoring phase is mimicked by chronologically ordering each user's item usages in the test dataset, then making 100 recommendations for ordered subsets of items in an attempt to predict subsequent views and purchases. An information retrieval metric, the [Mean Average Precision](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision)), is used to evaluate the quality of these recommendations. This metric takes into account the order of recommendations, and favors relevant items higher up in the list of recommendations, which is an important property for ranking systems.
+  * **Item similarity model evaluation**: The model evaluation is done by taking the recommendations generated in the previous step and making predictions on the test data set. The online scoring phase is mimicked by chronologically ordering each user's item usages in the test dataset, then making 100 recommendations for ordered subsets of items in an attempt to predict subsequent views and purchases. An information retrieval metric, the [Mean Average Precision](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision), is used to evaluate the quality of these recommendations. This metric takes into account the order of recommendations, and favors relevant items higher up in the list of recommendations, which is an important property for ranking systems.
   * **Model selection**: After offline evaluation, the model that has the highest Mean Average Precision is selected, and all individual item-item recommendations computed for it.
   * **Offline filtering**: The final stage of model training is the application of any applicable dynamic filters. After this step, pre-computed recommendations are cached globally to be available for serving.
 
