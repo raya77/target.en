@@ -372,7 +372,7 @@ feature-set: Target
       + [Create criteria](c-recommendations/c-algorithms/create-new-algorithm.md)
       + [Create criteria sequences](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [Base the recommendation on a recommendation key](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
-      + [The Science Behind Recommendations algorithms](/help/c-recommendations/c-algorithms/recommendations-algorithms.md)
+      + [The science behind Recommendations algorithms](/help/c-recommendations/c-algorithms/recommendations-algorithms.md)
       + [Upload custom criteria](c-recommendations/c-algorithms/recommendations-csv.md)
       + Dynamic and static inclusion rules {#dynamic-static}
          + [Use dynamic and static inclusion rules](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)

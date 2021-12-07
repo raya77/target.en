@@ -5,7 +5,7 @@ title: Where Can I Learn About The Science Behind Recommendations Algorithms?
 feature: Recommendations
 mini-toc-levels: 2
 ---
-# ![PREMIUM](/help/assets/premium.png) The Science Behind Recommendations algorithms
+# ![PREMIUM](/help/assets/premium.png) The science behind Recommendations algorithms
 
 An in-depth description of the algorithms used in [!DNL Adobe Target Recommendations], including the logic and mathematical details of model training and the process of model serving.
 
