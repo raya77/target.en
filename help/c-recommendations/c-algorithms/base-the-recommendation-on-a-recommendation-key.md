@@ -306,7 +306,7 @@ Possible use-cases include:
 * You want to run an offline algorithm and use the results to power your recommendations, but you must ensure that out-of-stock items are never recommended.
 * You want to include only items that are from this visitor's favorite category.
 
-## Recommendation keys
+## Recommendation keys {#keys}
 
 The following recommendation keys are available from the [!UICONTROL Recommendation Key] drop-down list:
 
