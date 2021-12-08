@@ -47,13 +47,13 @@ One example of such a similarity is the co-occurrence between items: a simple co
 
 For example, if
 
-![Formula](assets/formula.png)
+![Formula for the viewed/bought algorithm](assets/formula.png)
 
 then item B should not be recommended with item A. Full details of this log likelihood ratio similarity calculation are provided [in this PDF](/help/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf).
 
 The logical flow of the actual algorithm implementation is shown in the following schematic diagram:
 
-![Schematic diagram](assets/diagram1.png)
+![Schematic diagram of an viewed/bought algorithm](assets/diagram1.png)
 
 Details of these steps are as follows:
 
@@ -77,7 +77,7 @@ In this type of algorithm, two items are considered to be related if their names
 
 Although the model serving and content delivery aspects of [!DNL Target]'s content similarity algorithms are identical to other item-based algorithms, the model training steps are drastically different and involve a series of natural language processing and preprocessing steps as depicted in the following diagram. The core of the similarity calculation is the use of the cosine similarity of modified tf-idf vectors that represent each item in the catalog.
 
-![Diagram 2](assets/diagram2.png)
+![Diagram showing the flow of the content similarity process](assets/diagram2.png)
 
 Details of these steps are as follows:
 
@@ -90,13 +90,13 @@ Details of these steps are as follows:
   * **n-gram creation**: After the previous steps, each word is treated as a token. The process of combining contiguous sequences of tokens into a single token is referred to as n-gram creation. [!DNL Target]'s algorithms consider up to 2-grams.
   * **tf-idf computation**: The next step involves the creation of tf-idf vectors to reflect the relative importance of tokens in the item description. For each token/term t in an item i, in a catalog D with |D| items, the term frequency TF(t, i) is computed first (the number of times the term appears in the item i), as well as the document frequency DF(t, D). In essence, the number of items where the token t exists. The tf-idf measure is then
 
-    ![Formula](assets/formula2.png)
+    ![Formula showing tf-idf measure](assets/formula2.png)
 
     [!DNL Target] uses Apache Spark's *tf-idf* featurization implementation, which under the hood hashes each token to a space of 218 tokens. In this step, customer-specified attribute boosting and burying is also applied by adjusting the term frequencies in each vector based on settings specified in the [criteria](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity). 
     
   * **Item similarity computation**: The final item similarity computation is done using an approximate cosine similarity. For two items, *A* and *B*, with vectors tA and tB, the cosine similarity is defined as:
 
-    ![FormulaFormula](assets/formula3.png)
+    ![Formula showing the item similarity computation](assets/formula3.png)
 
     To avoid significant complexity in computing similarities between all N x N items, the *tf-idf* vector is truncated to contain only its largest 500 entries, and then compute cosine similarities between items using this truncated vector representation. This approach proves to be more robust for sparse vector similarity computations, as compared to other approximate nearest neighbor (ANN) techniques, such as locality sensitive hashing.
 
@@ -115,7 +115,7 @@ These algorithms build on the foundational collaborative filtering techniques de
 
 The logic of model training and scoring steps are shown in the following diagram:
 
-![Diagram](assets/diagram3.png)
+![Diagram showing the logic of model training and scoring steps](assets/diagram3.png)
 
 Details of these steps are as follows:
 
@@ -129,7 +129,7 @@ Details of these steps are as follows:
 
   The training step computes several types of vector similarities: LLR similarity ([discussed here](/help/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)), cosine similarity (defined previously), and a normalized L2 similarity, defined as:
 
-  ![FormulaFormula](assets/formula4.png)
+  ![Formula showing training computation](assets/formula4.png)
 
   * **Item similarity model evaluation**: The model evaluation is done by taking the recommendations generated in the previous step and making predictions on the test data set. The online scoring phase is mimicked by chronologically ordering each user's item usages in the test dataset, then making 100 recommendations for ordered subsets of items in an attempt to predict subsequent views and purchases. An information retrieval metric, the [Mean Average Precision](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision), is used to evaluate the quality of these recommendations. This metric takes into account the order of recommendations, and favors relevant items higher up in the list of recommendations, which is an important property for ranking systems.
   * **Model selection**: After offline evaluation, the model that has the highest Mean Average Precision is selected, and all individual item-item recommendations computed for it.
@@ -142,7 +142,7 @@ Details of these steps are as follows:
 
 These processes are illustrated in the following image, where a visitor has viewed item A and purchased item B. Individual recommendations are retrieved with the offline similarity scores shown beneath each item label. After retrieval, the recommendations are merged with weighted similarity scores summed. Finally, in a scenario where the customer has specified that previously viewed and purchased items must be filtered out, the filtering step removes items A and B from the list of recommendations.
 
-![DiagramDiagram](assets/diagram4.png)
+![Diagram showing the processing of multi-key algorithms](assets/diagram4.png)
 
 ## Popularity-Based
 
