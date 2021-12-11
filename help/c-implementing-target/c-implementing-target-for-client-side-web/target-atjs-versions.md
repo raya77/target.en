@@ -4,8 +4,8 @@ description: View the details about changes in each version of the Adobe [!DNL T
 title: What is Included in Each Version of at.js?
 feature: at.js
 role: Developer
+exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
 ---
-
 # at.js version details
 
 Details about changes in each version of the [!DNL Adobe Target] at.js JavaScript library.

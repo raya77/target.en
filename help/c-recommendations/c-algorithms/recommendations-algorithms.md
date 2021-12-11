@@ -4,6 +4,7 @@ description: Learn about the algorithms used in [!DNL Target Recommendations], i
 title: Where Can I Learn About The Science Behind Target's Recommendations Algorithms?
 feature: Recommendations
 mini-toc-levels: 2
+exl-id: c156952b-8eda-491d-a68e-d3d09846f640
 ---
 # ![PREMIUM](/help/assets/premium.png) The science behind Target's recommendations algorithms
 
