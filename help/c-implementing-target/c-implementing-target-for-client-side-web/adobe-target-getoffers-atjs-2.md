@@ -80,7 +80,7 @@ adobe.target.getOffers({
 });
 ```
 
-## getCallOffers() to make an on-device decisioning
+## Call getOffers() to make an on-device decisioning
 
 ```javascript
 adobe.target.getOffers({ 
