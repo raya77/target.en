@@ -1,0 +1,79 @@
+---
+keywords: visual experience composer options;experience composer options;experience options;offer decision;offer decisioning;ajo;journey optimizer
+description: Learn how to add an offer decision created in [!DNL Adobe Journey Optimizer] to an activity.
+title: How Do I Use Offer Decisions? 
+feature: Visual Experience Composer (VEC)
+---
+# Use offer decisions
+
+Add an offer created in [!DNL Adobe Journey Optimizer] (AJO) to an [!DNL Adobe Target] activity to present the best dynamic offer and experience to your visitors on your website or mobile site using offer decisioning.
+
+For more information, see [About Decision Management](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) in the *[!DNL Journey Optimizer] documentation*.
+
+## Prerequisites 
+
+To use offer decisions in [!DNL Target], you need the following:
+
+* [!DNL Adobe Target Standard] or [!DNL Adobe Target Premium]
+* [!DNL Adobe Journey Optimizer Ultimate] (AJ0 + Offer Decisioning) or [!DNL Adobe Experience Platform] and the [!UICONTROL Offer Decisioning] add-on
+
+## Use cases
+
+The following examples are use cases of how you can use the [!DNL Target]/AJO integration to use offer decisions in [!DNL Target] activities:
+
+### Sports merchandising
+
+As a marketer for a sporting league, you want to personalize content on your homepage (on both desktop and mobile website). You want to personalize content based on the visitor's favorite team and recent player moves to present them an offer to shop related franchise merchandise. For example, to deliver a personalized experience for each of the following regions: Dortmund, Frankfurt, and Bochum and for users that are implicit and explicit fans of these teams. As metrics, you want to look at visits and clicks to the merchandise site.
+
+You want to design an A/B Test activity (50/50 split) between the default experience and the personalized experience (which includes an offer decision with offers for each region and team). You want to use this activity to determine the conversion and the lift for the personalized experience versus control.
+
+### Game streaming platform
+
+As a marketer for a sporting organization, you want to deliver a personalized offer for a game streaming platform for desktop and mobile users from different geographies: Germany, France, Mexico, and Brazil. When a visitor accesses the desktop or mobile website from one of those geographies, you want to deliver an offer for game streaming in the local language and with a corresponding price for the local currency.
+
+In AJO, you can create a personalized homepage hero offer for each of the geographies targeted plus a fallback offer with a default homepage hero. You can then create an offer decision that incorporates the these offers and their eligibility rules. Then, in [!DNL Target], you can create an [!DNL Experience Targeting] (XT) activity and insert that offer decision in your desktop or mobile website to deliver the personalized experience to visitors.
+
+## Create an experience that uses offer decisions:
+
+1. While editing or creating a manual [!UICONTROL A/B Test] or [!UICONTROL Experience Targeting] (XT) activity in the [!UICONTROL Visual Experience Composer] (VEC), click a page element to display the [options menu](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+
+   ![Options menu in the Visual Experience Composer](assets/options-menu1.png)
+
+   >[!NOTE]
+   >
+   >You can also create an experience that uses [!UICONTROL Offer Decisions] in the [[!UICONTROL Form-Based Experience Composer]](/help/c-experiences/form-experience-composer.md).
+
+1. Click **[!UICONTROL Insert Before]**, **[!UICONTROL Insert After]**, or **[!UICONTROL Replace Content]**, then click **[!UICONTROL Offer Decision]**.
+
+   The [!UICONTROL Offer Decision] option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types. The available options in the menu vary depending on the selected element.
+
+   ![Options menu in the Visual Experience Composer](assets/options-menu.png)
+
+1. In the **[!UICONTROL Add Offer Decision]** dialog box, select the desired placement.
+
+   A [placement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/create-components/creating-placements.html){target=_blank} in AJO helps ensure that the right offer content displays in the right location.
+
+   ![Placements drop-down list in the Add Offer Decision dialog box](assets/placements.png)
+
+1. Select the desired offer decision, then click **[!UICONTROL Create]**.
+
+   ![Selected offer decision in the Add Offer Decision dialog box](assets/offer-decision.png)
+
+   Your web site displays in the VEC where you can see the newly created offer decision in the [!UICONTROL Modifications] pane on the right side. You can hover over the modification and click the [!UICONTROL Preview] icon to examine the offer decision.
+
+   ![Preview icon](assets/preview-icon.png)
+
+   You can examine the various offers contained in the offer by clicking the appropriate icon at the bottom of the [!UICONTROL Offer Preview] dialog box, including the fallback offer. A fallback offer is the default offer displayed when a visitor is not eligible for any of the personalized offers in the collection.
+
+   ![Offer preview](assets/offer-preview.png)
+
+1. Finish creating the activity by completing the [!UICONTROL Targeting] and [!UICONTROL Goals & Settings] steps of the three-part guided workflow.
+
+   >[!IMPORTANT]
+   >
+   >When configuring the [!UICONTROL Duration] ([!UICONTROL Start]/[!UICONTROL End] dates and times), ensure that the decision offer configured in AJO does not end before your [!DNL Target] activity. If the decision offer ends before the [!DNL Target] activity ends, the decision offer is not available.  
+
+
+
+
+
