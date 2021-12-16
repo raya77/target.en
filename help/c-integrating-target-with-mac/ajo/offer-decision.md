@@ -90,7 +90,7 @@ Consider the following notes and limitations as you work with offer decisions:
 
   The feature is not available when implementing [!DNL Target] with at.js or other [!DNL Target] SDKs.
 
-* The Target/Adobe Journey Optimizer integration supports [manual [!UICONTROL A/B Test]](/help/c-activities/t-test-ab/test-ab.md#types) and [[!UICONTROL Experience Targeting]](/help/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
+* The Target/Adobe Journey Optimizer integration supports [manual [!UICONTROL A/B Test]](/help/c-activities/t-test-ab/test-ab.md#types) and [[!UICONTROL Experience Targeting]](/help/c-activities/t-experience-target/experience-target.md) (XT) activities only. This feature is not available for other activity types.
 
 * Offers with the text/html content type do not support deliveryURL content delivery. The deliveryURL is only supportable through the Form-Based Experience Composer where the client is responsible for explicitly fetching and composing the content.
 
