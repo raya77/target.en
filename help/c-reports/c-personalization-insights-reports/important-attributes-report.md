@@ -1,17 +1,17 @@
 ---
 keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;faq;frequently asked questions;important attributes
-description: Learn how to use the Important Attributes report in Adobe [!DNL Target] that shows the top attributes that influenced the personalization model and their relative importance.
+description: Learn how to use the [!UICONTROL Important Attributes] report that shows the top attributes that influenced the personalization model and their relative importance.
 title: What Is the Important Attributes Report?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
 ---
 # ![PREMIUM](/help/assets/premium.png) Important Attributes report
 
-Information about the Important Attributes report, one of the two specialized reports available to users of Automated Personalization (AP) and Auto-Target (AT) activities.
+Information about the [!UICONTROL Important Attributes] report, one of the two specialized reports available to users of [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] (AT) activities.
 
 >[!NOTE]
 >
->Consider the following when using Personalization Insights reports:
+>Consider the following when using [!UICONTROL Personalization Insights] reports:
 >
 >* AP and AT activities are available as part of the [!DNL Target Premium] solution. They are not included with [!DNL Target Standard] without a [!DNL Target Premium] license.
 >
@@ -25,7 +25,7 @@ Information about the Important Attributes report, one of the two specialized re
 
 In different activities, different attributes are more, or less, important to how the model decides to personalize. This report shows the top attributes that influenced the model and their relative importance.
 
-## Access the Important Attributes report {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
+## Access the [!UICONTROL Important Attributes] report {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
 1. Click **[!UICONTROL Activities]**, then click the desired [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) activity from the list.
 
@@ -33,15 +33,19 @@ In different activities, different attributes are more, or less, important to ho
 
 1. Click **[!UICONTROL Reports]**.
 
-   The [Automated Personalization Summary](/help/c-reports/reports-ap.md) or [Auto-Target Summary](/help/c-reports/auto-target-summary-report.md) report displays, which provides information about the performance of your activities, represented by the first screen icon. The two additional icons represent the two Personalization Insights reports: Automated Segments and Important Attributes. Note that Auto-Target has an additional graph icon for the graphical view of the [!UICONTROL Summary] report.
+   The [Automated Personalization Summary](/help/c-reports/reports-ap.md) or [Auto-Target Summary](/help/c-reports/auto-target-summary-report.md) report displays, which provides information about the performance of your activities, represented by the first screen icon. The two additional icons represent the two [!UICONTROL Personalization Insights] reports: [!UICONTROL Automated Segments] and [!UICONTROL Important Attributes]. 
+   
+   ![Summary report for Automated Personalization activity](assets/summary-report-ap.png)
+   
+   Note that [!UICONTROL Auto-Target] has an additional graph icon for the graphical view of the [!UICONTROL Summary] report.
 
-   ![](assets/personalization_insights.png)
+   ![Summary report for Auto-Target activity](assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
-   >The [!UICONTROL Important Attributes] report won't be available until at least 15 days after you've activated your activity. During this initial period, you won't be able to access this report or click the [!UICONTROL Important Attributes] icon. After 15 days have passed, assuming there is sufficient personalized traffic in your activity, the [!UICONTROL Important Attributes] report will be available.
+   >The [!UICONTROL Important Attributes] report won't be available until at least 15 days after you've activated your activity. During this initial period, you won't be able to access this report or click the [!UICONTROL Important Attributes] icon. After 15 days have passed, assuming there is sufficient personalized traffic in your activity, the [!UICONTROL Important Attributes] report is available.
 
-1. After 15 days from activating the activity, you can click the **[!UICONTROL Important Attributes]** icon.
+1. After 15 days from activating the activity, click the **[!UICONTROL Important Attributes]** icon.
 
    ![](assets/model_attribute_ranking.png)
 
