@@ -12,7 +12,7 @@ Add offer decisions created in [!DNL Adobe Journey Optimizer] to [!DNL Target] a
 
 For more information about [!DNL Adobe Journey Optimizer], see [Get Started with Journey Optimizer](https://experienceleague-review.corp.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) in the *Journey Optimizer* documentation.
 
-For more information, see [About Decision Management](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) in the *[!DNL Journey Optimizer] documentation*.
+For more information about offer decisions, see [About Decision Management](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) in the *[!DNL Journey Optimizer] documentation*.
 
 ## Prerequisites 
 
@@ -24,7 +24,7 @@ To use offer decisions in [!DNL Target], you need the following:
 
 * [!DNL Adobe Journey Optimizer Ultimate] (AJ0 + Offer Decisioning) or [!DNL Adobe Experience Platform] and the [!UICONTROL Offer Decisioning] application service add-on.
 
-## Use cases
+## Sample use cases
 
 The following examples are use cases of how you can use the [!DNL Target]/[!DNL Adobe Journey Optimizer] integration to use offer decisions in [!DNL Target] activities:
 
@@ -34,13 +34,13 @@ As a marketer for a sporting league, you want to personalize content on your hom
 
 You want to design an A/B Test activity (50/50 split) between the default experience and the personalized experience (which includes an offer decision with offers for each region and team). You want to use this activity to determine the conversion and the lift for the personalized experience versus control.
 
-### Game streaming platform
+### Game streaming platforms
 
 As a marketer for a sporting organization, you want to deliver a personalized offer for a game streaming platform for desktop and mobile users from different geographies: Germany, France, Mexico, and Brazil. When a visitor accesses the desktop or mobile website from one of those geographies, you want to deliver an offer for game streaming in the local language and with a corresponding price for the local currency.
 
 In [!DNL Adobe Journey Optimizer], you can create a personalized homepage hero offer for each of the geographies targeted plus a fallback offer with a default homepage hero. You can then create an offer decision that incorporates the these offers and their eligibility rules. Then, in [!DNL Target], you can create an [!DNL Experience Targeting] (XT) activity and insert that offer decision in your desktop or mobile website to deliver the personalized experience to visitors.
 
-## Create an experience that uses offer decisions:
+## Create an experience that uses an offer decision:
 
 1. While editing or creating a manual [!UICONTROL A/B Test] or [!UICONTROL Experience Targeting] (XT) activity in the [!UICONTROL Visual Experience Composer] (VEC), click a page element to display the [options menu](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -86,13 +86,11 @@ In [!DNL Adobe Journey Optimizer], you can create a personalized homepage hero o
 
 Consider the following notes and limitations as you work with offer decisions:
 
-* The offer decisioning integration works for [!DNL Target] implementations based on the [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
-
-  The feature is not available when implementing [!DNL Target] with at.js or other [!DNL Target] SDKs.
+* The offer decisioning integration works for [!DNL Target] implementations based on the [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). This feature is not available when implementing [!DNL Target] with at.js or other [!DNL Target] SDKs.
 
 * The Target/Adobe Journey Optimizer integration supports [manual [!UICONTROL A/B Test]](/help/c-activities/t-test-ab/test-ab.md#types) and [[!UICONTROL Experience Targeting]](/help/c-activities/t-experience-target/experience-target.md) (XT) activities only. This feature is not available for other activity types.
 
-* Offers with the text/html content type do not support deliveryURL content delivery. The deliveryURL is only supportable through the Form-Based Experience Composer where the client is responsible for explicitly fetching and composing the content.
+* Offers with the text/html content type do not support deliveryURL content delivery. The deliveryURL is supported through the Form-Based Experience Composer only where the client is responsible for explicitly fetching and composing the content.
 
 * [!DNL Target] reporting does not provide offer-decision level reporting.
 
