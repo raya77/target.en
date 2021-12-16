@@ -6,7 +6,11 @@ feature: Visual Experience Composer (VEC)
 ---
 # Use offer decisions
 
-Add an offer created in [!DNL Adobe Journey Optimizer] (AJO) to an [!DNL Adobe Target] activity to present the best dynamic offer and experience to your visitors on your website or mobile site using offer decisioning.
+Use [!DNL Adobe Target] with [!DNL Adobe Journey Optimizer] offer decisions to determine and deliver the next best offer for your visitors on web and mobile.
+
+Add offer decisions created in [!DNL Adobe Journey Optimizer] to [!DNL Target] activities (manual [!UICONTROL A/B Test] or [!UICONTROL Experience Targeting]) using either the [!UICONTROL Visual Experience Composer] (VEC) or the [!UICONTROL Form-Based Composer] to test and deliver personalized offers to your visitors on your inbound channels powered by [!DNL Target].
+
+For more information about [!DNL Adobe Journey Optimizer], see [Get Started with Journey Optimizer](https://experienceleague-review.corp.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) in the *Journey Optimizer* documentation.
 
 For more information, see [About Decision Management](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) in the *[!DNL Journey Optimizer] documentation*.
 
@@ -14,12 +18,15 @@ For more information, see [About Decision Management](https://experienceleague.a
 
 To use offer decisions in [!DNL Target], you need the following:
 
-* [!DNL Adobe Target Standard] or [!DNL Adobe Target Premium]
-* [!DNL Adobe Journey Optimizer Ultimate] (AJ0 + Offer Decisioning) or [!DNL Adobe Experience Platform] and the [!UICONTROL Offer Decisioning] add-on
+* [!DNL Adobe Target Standard] or [!DNL Adobe Target Premium] implemented using the [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
+
+  The feature is not available when implementing [!DNL Target] with at.js or other [!DNL Target] SDKs.
+
+* [!DNL Adobe Journey Optimizer Ultimate] (AJ0 + Offer Decisioning) or [!DNL Adobe Experience Platform] and the [!UICONTROL Offer Decisioning] application service add-on.
 
 ## Use cases
 
-The following examples are use cases of how you can use the [!DNL Target]/AJO integration to use offer decisions in [!DNL Target] activities:
+The following examples are use cases of how you can use the [!DNL Target]/[!DNL Adobe Journey Optimizer] integration to use offer decisions in [!DNL Target] activities:
 
 ### Sports merchandising
 
@@ -31,7 +38,7 @@ You want to design an A/B Test activity (50/50 split) between the default experi
 
 As a marketer for a sporting organization, you want to deliver a personalized offer for a game streaming platform for desktop and mobile users from different geographies: Germany, France, Mexico, and Brazil. When a visitor accesses the desktop or mobile website from one of those geographies, you want to deliver an offer for game streaming in the local language and with a corresponding price for the local currency.
 
-In AJO, you can create a personalized homepage hero offer for each of the geographies targeted plus a fallback offer with a default homepage hero. You can then create an offer decision that incorporates the these offers and their eligibility rules. Then, in [!DNL Target], you can create an [!DNL Experience Targeting] (XT) activity and insert that offer decision in your desktop or mobile website to deliver the personalized experience to visitors.
+In [!DNL Adobe Journey Optimizer], you can create a personalized homepage hero offer for each of the geographies targeted plus a fallback offer with a default homepage hero. You can then create an offer decision that incorporates the these offers and their eligibility rules. Then, in [!DNL Target], you can create an [!DNL Experience Targeting] (XT) activity and insert that offer decision in your desktop or mobile website to deliver the personalized experience to visitors.
 
 ## Create an experience that uses offer decisions:
 
@@ -51,7 +58,7 @@ In AJO, you can create a personalized homepage hero offer for each of the geogra
 
 1. In the **[!UICONTROL Add Offer Decision]** dialog box, select the desired placement.
 
-   A [placement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/create-components/creating-placements.html){target=_blank} in AJO helps ensure that the right offer content displays in the right location.
+   A [placement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/create-components/creating-placements.html){target=_blank} in [!DNL Adobe Journey Optimizer] helps ensure that the right offer content displays in the right location.
 
    ![Placements drop-down list in the Add Offer Decision dialog box](assets/placements.png)
 
@@ -71,7 +78,28 @@ In AJO, you can create a personalized homepage hero offer for each of the geogra
 
    >[!IMPORTANT]
    >
-   >When configuring the [!UICONTROL Duration] ([!UICONTROL Start]/[!UICONTROL End] dates and times), ensure that the decision offer configured in AJO does not end before your [!DNL Target] activity. If the decision offer ends before the [!DNL Target] activity ends, the decision offer is not available.  
+   >To ensure that the [!DNL Target] activity is personalized, make sure the current activity start/end dates are in sync with the offer decision's start/end dates in [!DNL Adobe Journey Optimizer]. If the [!DNL Target] start/end dates are outside the offer decision's start/end date range, the default [!DNL Target] content displays to visitors.
+
+   ![Offer decision warning message](/help/c-integrating-target-with-mac/ajo/assets/offer-decision-warning.png)
+
+## Notes and limitations
+
+Consider the following notes and limitations as you work with offer decisions:
+
+* The offer decisioning integration works for [!DNL Target] implementations based on the [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
+
+  The feature is not available when implementing [!DNL Target] with at.js or other [!DNL Target] SDKs.
+
+* The Target/Adobe Journey Optimizer integration supports [manual [!UICONTROL A/B Test]](/help/c-activities/t-test-ab/test-ab.md#types) and [[!UICONTROL Experience Targeting]](/help/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
+
+* Offers with the text/html content type do not support deliveryURL content delivery. The deliveryURL is only supportable through the Form-Based Experience Composer where the client is responsible for explicitly fetching and composing the content.
+
+* [!DNL Target] reporting does not provide offer-decision level reporting.
+
+* Visualizing [QA links](/help/c-activities/c-activity-qa/activity-qa.md) for [!DNL Target] experiences that contain offer decisions affects frequency capping set in [!DNL Adobe Journey Optimizer] for those offer decisions.
+
+
+
 
 
 
