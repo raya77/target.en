@@ -100,7 +100,7 @@ If you are creating a [!UICONTROL Recommendations] activity, there are no experi
 
    Add an offer created in [!DNL Adobe Journey Optimizer] (AJO) to an [!DNL Adobe Target] activity to present the best dynamic offer and experience to your visitors on your website or mobile site using offer decisioning. This option is available for manual [!UICONTROL A/B Test] and [!UICONTROL Experience Targeting] (XT) activities only. 
    
-   For more information, see [Use offer decisions](/help/c-experiences/c-visual-experience-composer/offer-decision.md).
+   For more information, see [Use offer decisions](/help/c-integrating-target-with-mac/ajo/offer-decision.md).
 
 1. (Optional, for [!UICONTROL A/B Test], [!UICONTROL Automated Personalization], and [!UICONTROL Experience Targeting] activiites) To repeat this process for additional locations, click **[!UICONTROL Add Location]** and configure the location and content.
 1. Click **[!UICONTROL Next]**, then complete the activity creation steps as usual for your activity type.

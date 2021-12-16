@@ -215,7 +215,7 @@ Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleagu
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
-For more information, see [Use offer decisions](/help/c-experiences/c-visual-experience-composer/offer-decision.md).
+For more information, see [Use offer decisions](/help/c-integrating-target-with-mac/ajo/offer-decision.md).
 
 ### [!UICONTROL Image], [!UICONTROL HTML], and [!UICONTROL Text]
 
@@ -247,7 +247,7 @@ Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleagu
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
-For more information, see [Use offer decisions](/help/c-experiences/c-visual-experience-composer/offer-decision.md).
+For more information, see [Use offer decisions](/help/c-integrating-target-with-mac/ajo/offer-decision.md).
 
 ### [!UICONTROL Image], [!UICONTROL HTML], and [!UICONTROL Text]
 
@@ -279,7 +279,7 @@ Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleagu
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
-For more information, see [Use offer decisions](/help/c-experiences/c-visual-experience-composer/offer-decision.md).
+For more information, see [Use offer decisions](/help/c-integrating-target-with-mac/ajo/offer-decision.md).
 
 ### [!UICONTROL Image]
 
