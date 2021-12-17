@@ -58,7 +58,7 @@ In [!DNL Adobe Journey Optimizer], you can create a personalized homepage hero o
 
 1. In the **[!UICONTROL Add Offer Decision]** dialog box, select the desired sandbox and placement.
 
-   A [sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} lets you partition your instance into virtual environments. For example, you might have a production environment and a staging environment. 
+   A [sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} in the [!DNL Adobe Experience Platform] lets you partition your instance into virtual environments. For example, you might have a production environment and a staging environment. 
 
    A [placement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/create-components/creating-placements.html){target=_blank} in [!DNL Adobe Journey Optimizer] helps ensure that the right offer content displays in the right location.
 
