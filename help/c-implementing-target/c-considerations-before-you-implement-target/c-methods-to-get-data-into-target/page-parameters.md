@@ -61,10 +61,6 @@ targetPageParams (appends the parameters to the global mbox on the page):
 
 `function targetPageParams() { return "param1=value1&param2=value2&p3=hello%20world";`
 
-Parameters in mboxCreate code:
-
-`<div class="mboxDefault"> default content to replace by offer </div> <script> mboxCreate('mboxName','param1=value1','param2=value2'); </script>`
-
 ## Links to relevant information
 
 Recommendations: [Implementation According to Page Type](/help/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC)
