@@ -25,7 +25,7 @@ This release contains the following new feature:
 
 |Feature|Details|
 | --- | --- |
-|Use Offer decisions in Target activities|You can now use [!DNL Adobe Journey Optimizer] offer decisions in [!DNL Adobe Target] A/B Test and Experience Targeting (XT) activities to determine and deliver the next best offer for your visitors on web and mobile.<br>For more information, see Use offer decisions.<br>**Note**: This capability is available for [!DNL Target] customers who also have access to Offer Decisioning and have a [!DNL Target] implementation based on Adobe Experiene Platform Web SDK.|
+|Use offer decisions in [!DNL Target] activities|You can now use [!DNL Adobe Journey Optimizer] offer decisions in [!DNL Target] [!UICONTROL A/B Test] and [!UICONTROL Experience Targeting] (XT) activities to determine and deliver the next best offer for your visitors on web and mobile.<br>For more information, see [Use offer decisions](/help/c-integrating-target-with-mac/ajo/offer-decision.md).<br>**Note**: This capability is available for [!DNL Target] customers who also have access to Offer Decisioning and have a [!DNL Target] implementation based on the Adobe Experience Platform Web SDK.|
 
 ## at.js version 2.7.0 (October 28, 2021)
 
