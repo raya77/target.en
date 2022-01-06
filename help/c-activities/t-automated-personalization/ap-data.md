@@ -49,75 +49,76 @@ To block one or more specific features from [!DNL Target] machine-learning algor
 
 |Attribute name|Attribute description|Sample values|System name|
 | --- | --- | --- | --- |
-|Mobile - Device - Brand|The brand of the mobile device the visitor used to access the activity.|Apple||
-|Mobile - Device - eReader|Specifies whether the device is an eReader.|0 is False, 1 is True||
-|Mobile - Device - Game Console|Specifies whether the device is a game console.|0 is False, 1 is True||
-|Mobile - Device - Media Player|Specifies whether the device is a media player.|0 is False, 1 is True||
-|Mobile - Device - Mobile Phone|Specifies whether the device is a mobile phone.|0 is False, 1 is True||
-|Mobile - Device - Model Name|The model name of the mobile device the visitor used to access the activity.|iPhone XS||
-|Device - Set-Top Box|Specifies whether the device is a set-top box.|0 is False, 1 is True||
-|Mobile - Device - Tablet|Specifies whether the device is a tablet.|0 is False, 1 is True||
-|Mobile - Pixel Density (ppi)|The mobile device's pixel density the visitor used to access the activity.|1, 2, 3, etc.||
-|Mobile - OS – OSX (Android, Windows, etc.)|Specifies whether the user used an OSX (or Android, Windows, etc.) device to access the activity.|0 is False, 1 is True||
-|Mobile - Screen Height (px)|The mobile device's screen height (in pixels) the visitor used to access the activity.|1, 2, 3, etc.||
-|Mobile - Screen Width (px)|The mobile device's screen width (in pixels) the visitor used to access the activity.|1, 2, 3, etc.||
+|Mobile - Device - Brand|The brand of the mobile device the visitor used to access the activity.|Apple|MOB_targeting.mobile.vendor|
+|Mobile - Device - eReader|Specifies whether the device is an eReader.|0 is False, 1 is True|MOB_targeting.mobile.ereader|
+|Mobile - Device - Game Console|Specifies whether the device is a game console.|0 is False, 1 is True|MOB_targeting.mobile.gamesConsole|
+|Mobile - Device - Media Player|Specifies whether the device is a media player.|0 is False, 1 is True|MOB_targeting.mobile.mediaPlayer|
+|Mobile - Device - Mobile Phone|Specifies whether the device is a mobile phone.|0 is False, 1 is True|MOB_targeting.mobile.mobilePhone|
+|Mobile - Device - Model Name|The model name of the mobile device the visitor used to access the activity.|iPhone XS|MOB_targeting.mobile.modelName|
+|Device - Set-Top Box|Specifies whether the device is a set-top box.|0 is False, 1 is True|MOB_targeting.mobile.setTopBox|
+|Mobile - Device - Tablet|Specifies whether the device is a tablet.|0 is False, 1 is True|MOB_targeting.mobile.tablet|
+|Mobile - Pixel Density (ppi)|The mobile device's pixel density the visitor used to access the activity.|1, 2, 3, etc.|MOB_targeting.mobile.displayPpi|
+|Mobile - OS – OSX (Android, Windows, etc.)|Specifies whether the user used an OSX (or Android, Windows, etc.) device to access the activity.|0 is False, 1 is True|MOB_targeting.mobile.os[OS]<br>For example, MOB_targeting.mobile.osOSx, MOB_targeting.mobile.osAndroid, MOB_targeting.mobile.osLinux|
+|Mobile - Screen Height (px)|The mobile device's screen height (in pixels) the visitor used to access the activity.|1, 2, 3, etc.|MOB_targeting.mobile.displayHeight|
+|Mobile - Screen Width (px)|The mobile device's screen width (in pixels) the visitor used to access the activity.|1, 2, 3, etc.|MOB_targeting.mobile.displayWidth|
 
 ## Environmental data {#env}
 
 |Attribute name|Attribute description|Sample values|System name|
 | --- | --- | --- | -- |
-|Browser - Day of Week|The day of the week when the visitor accessed the activity.|0 to 6.<br>(0 is Sunday)||
-|Browser - Hour of Day|The hour of the day when the visitor accessed the activity.|0 to 23<br>(0 is midnight)||
-|Browser - Hour of Week|The hour of the week when the visitor accessed the activity.|0 to 168<br>(Sunday midnight is 0)||
-|Browser - Language Setting|The language specified in the visitor's browser used to access the activity.|English<br>German||
-|Browser - Screen Height (px)|The device's browser screen height (in pixels) the visitor used to access the activity.|1, 2, 3, etc.||
-|Browser - Time of Day|The browser's time of day when the visitor accessed the activity.|0, 6, 12, 18<br>(0 is night, 6 is morning,<br>12 is afternoon, 18 is evening)||
-|Browser - Timezone|The visitor's time zone while accessing the activity.|Pacific Time<br>Eastern Time<br>GMT||
-|Browser - Type|The type of browser the visitor used while accessing the activity.|Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>Other||
-|Browser - Weekday/Weekend|The work status when the visitor accessed the activity (weekend, work hours, or weekday free-time).|Saturday and Sunday is weekend<br>Monday-Friday 0900 to 1800 is work time<br>Monday-Friday after 1800 until 0900 is weekday free time||
-|Browser - Window Height (px)|The browser's window height (in pixels) the visitor used to access the activity.|1, 2, 3, etc.||
-|Browser - Window Width (px)|The browser's window width (in pixels) the visitor used to access the activity.|1, 2, 3, etc.||
-|Device - Screen Height|The device's screen height the visitor used to access the activity.|1, 2, 3, etc.||
-|Device - Screen Width|The device's screen width the visitor used to access the activity.|1, 2, 3, etc.||
-|Operating System|The operating system on the visitor's device used to access the activity.|Mac OS<br>Windows<br>Linux<br>Search Bot<br>Unknown OS||
-|Operating System - Version|The operating system's version the visitor used to access the activity.|Windows 10<br>Mac OS 10||
-|Traffic Sources - Referring Landing Page URL|The first page the visitor saw when accessing your site.|`https://www.adobe.com/ecloud.html`||
+|Browser - Day of Week|The day of the week when the visitor accessed the activity.|0 to 6.<br>(0 is Sunday)|ENV_DAY_OF_WEEK_HOUR|
+|Browser - Hour of Day|The hour of the day when the visitor accessed the activity.|0 to 23<br>(0 is midnight)|ENV_USER_HOUR|
+|Browser - Hour of Week|The hour of the week when the visitor accessed the activity.|0 to 168<br>(Sunday midnight is 0)|ENV_WEEK_HOUR|
+|Browser - Language Setting|The language specified in the visitor's browser used to access the activity.|English<br>German|ENV_LANGUAGE|
+|Browser - Screen Height (px)|The device's browser screen height (in pixels) the visitor used to access the activity.|1, 2, 3, etc.|ENV_browserHeight|
+|Browser - Screen Width (px)|The device's browser screen width (in pixels) the visitor used to access the activity.|1, 2, 3, etc.|ENV_browserWidth|
+|Browser - Time of Day|The browser's time of day when the visitor accessed the activity.|0, 6, 12, 18<br>(0 is night, 6 is morning,<br>12 is afternoon, 18 is evening)|ENV_LOCAL_TIME_PERIOD|
+|Browser - Timezone|The visitor's time zone while accessing the activity.|Pacific Time<br>Eastern Time<br>GMT|ENV_BrowserTimezoneOffsetMinutes|
+|Browser - Type|The type of browser the visitor used while accessing the activity.|Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>Other|ENV_Browser|
+|Browser - Weekday/Weekend|The work status when the visitor accessed the activity (weekend, work hours, or weekday free-time).|Saturday and Sunday is weekend<br>Monday-Friday 0900 to 1800 is work time<br>Monday-Friday after 1800 until 0900 is weekday free time|ENV_USER_HOUR_TYPE|
+|Browser - Window Height (px)|The browser's window height (in pixels) the visitor used to access the activity.|1, 2, 3, etc.|ENV_BrowserHeight|
+|Browser - Window Width (px)|The browser's window width (in pixels) the visitor used to access the activity.|1, 2, 3, etc.|ENG_BrowserWidth|
+|Device - Screen Height|The device's screen height the visitor used to access the activity.|1, 2, 3, etc.|ENV_SCREEN_HEIGHT|
+|Device - Screen Width|The device's screen width the visitor used to access the activity.|1, 2, 3, etc.|ENV_SCREEN_WIDTH|
+|Operating System|The operating system on the visitor's device used to access the activity.|Mac OS<br>Windows<br>Linux<br>Search Bot<br>Unknown OS|ENV_OperatingSystem|
+|Operating System - Version|The operating system's version the visitor used to access the activity.|Windows 10<br>Mac OS 10|ENV_OPERATING_SYSTEM_VERSION|
+|Traffic Sources - Referring Landing Page URL|The first page the visitor saw when accessing your site.|`https://www.adobe.com/ecloud.html`|ENG_REFERRER|
 
 ## Geographical data {#geo}
 
 |Attribute name|Attribute description|Sample values|System name|
 | --- | --- | --- | --- |
-|Geo - City|The city from which the visitor accessed the activity.|San Francisco||
-|Geo - Country|The country from which the visitor accessed the activity.|Germany||
-|Geo - DMA|The Designated Marketing Area (DMA) from which the visitor accessed the activity.|Charlottesville||
-|Geo - Latitude|The latitude from which the visitor accessed the activity.|47.269<br>Rounded to 3 decimal places (approximately 100 meters accuracy)||
-|Geo - Longitude|The longitude from which the visitor accessed the activity.|-122.269<br>Rounded to 3 decimal places (approximately 100 meters accuracy)||
-|Geo - State/Region|The state or region from which the visitor accessed the activity.|Utah<br>New South Wales||
-|Geo - Zip Code|The Zip Code from which the visitor accessed the activity.|84004||
-|Mobile - Carrier|The mobile carrier the visitor used when accessing the activity.|Vodafone<br>T-Mobile||
-|Network - Connection Speed|The network connection speed of the device when the visitor accessed the activity.|Broadband<br>Cable<br>DSL<br>Mobile<br>Wireless<br>Satellite||
-|Network - Domain Name|The name of the network domain from which the visitor accessed the activity.|`nnt.net`||
-|Network - ISP|The network from which the visitor accessed the activity.|nnt communications corporation||
+|Geo - City|The city from which the visitor accessed the activity.|San Francisco|Geo_City|
+|Geo - Country|The country from which the visitor accessed the activity.|Germany|Geo_County|
+|Geo - DMA|The Designated Marketing Area (DMA) from which the visitor accessed the activity.|Charlottesville|Geo_DMA|
+|Geo - Latitude|The latitude from which the visitor accessed the activity.|47.269<br>Rounded to 3 decimal places (approximately 100 meters accuracy)|GEO_Latitude|
+|Geo - Longitude|The longitude from which the visitor accessed the activity.|-122.269<br>Rounded to 3 decimal places (approximately 100 meters accuracy)|GEO_Longitude|
+|Geo - State/Region|The state or region from which the visitor accessed the activity.|Utah<br>New South Wales|GEO_State<br>GEO_Region|
+|Geo - Zip Code|The Zip Code from which the visitor accessed the activity.|84004|GEO_ZipCode|
+|Mobile - Carrier|The mobile carrier the visitor used when accessing the activity.|Vodafone<br>T-Mobile|GEO_mobileCarrier|
+|Network - Connection Speed|The network connection speed of the device when the visitor accessed the activity.|Broadband<br>Cable<br>DSL<br>Mobile<br>Wireless<br>Satellite|GEO_ConnectionSpeed|
+|Network - Domain Name|The name of the network domain from which the visitor accessed the activity.|`nnt.net`|GEO_DomainName|
+|Network - ISP|The network from which the visitor accessed the activity.|nnt communications corporation|GEO_IspName|
 
 ## Session data {#session}
 
 |Attribute name|Attribute description|Sample values|System name|
 | --- | --- | --- | --- |
-|Visitor Profile - Activity Lifetime Order Value|Specifies the sum of all order values across all visits/sessions to a particular activity.|Double||
-|Visitor Profile - Activity Lifetime Time on Site|Specifies the visitor's total time spent on site, excluding the current session, and is updated when the session expires.|Double, milliseconds||
-|Visitor Profile -Average Page Views per Visit during Activity|Specifies the average number of page views per session, excluding the current session.|Double||
-|Visitor Profile - Average Time per Visit|Specifies the average time spent per visit/session. This does not include the current session.|Double, milliseconds||
-|Visitor Profile - First Visit|Specifies the time of the first visit that the user interacted with Target.|Double, milliseconds||
-|Visitor Profile - Hours since Last Visit|Specifies the hours since the last visit to this particular activity.|Double (Only integer positive number) 1, 2, 3, etc.||
-|Visitor Profile - Impressions of Location/Content|Specifies the number of impressions to a particular location/content combination in a particular activity.|Double (Only integer positive number) 1, 2, 3, etc.||
-|Visitor Profile - Last Target Interaction|Specifies the time of last interaction with Target. Interaction happens on every [!DNL Target] request because the current implementation of [!DNL Target] updates the profile on each request.|Double, milliseconds||
-|Visitor Profile - Pages Seen Before Activity|Specifies the number of total page views (impressions), including current visit/session until the visitor enters the activity.|Double (Only integer positive number) 1, 2, 3, etc.||
-|Visitor Profile - Page Views in Current Visit|Specifies the number of page views in current visit/session until the visitor enters the activity. More precisely, the number of impressions. These impressions are not real page views, rather this is the number of times the request reached Target. Target is not capable of distinguishing between timeouts or any other reasons the user did not receive or view the content.|Double (Only integer positive number)||
-|Visitor Profile - Start of Current Visit|Specifies the time when the current visit/session with Target started. The visit with Target can be initiated without entering an activity. All that is required is a call to any [!DNL Target] request. A visitor might take awhile until entering the activity and the snapshot is taken.|Double, milliseconds||
-|Visitor Profile - Start of Most Recent Visit|Specifies the time of when last visit/session with Target started. This attribute gets updated when the session expires.<br>If this is the first session for the visitor, it will result in `LAST_SESSION_START = 0.`|Double, milliseconds||
-|Visitor Profile - Time Since Most Recent Visit When First Enter Activity|Specifies the duration between the previous session and the time when the user enters the activity and the snapshot is performed.|Double, milliseconds||
-|Visitor Profile - Time in Visit Before Enter Activity|Specifies the difference between the last interaction with Target and when the current visit started. This attribute could be considered visit/session duration until the user enters the activity and the snapshot is performed.<br>Negative values happen when the session start and the last update time is triggered by the same [!DNL Target] call. Negatives values should be considered as 0 (zero).|Double, milliseconds||
-|Visitor Profile -Total Visits|Specifies the total number of visits/sessions. Does not include the current visit/session.|Double (Only integer positive number) 1, 2, 3, etc.||
-|Visitor Profile - Total Visits to Activity|Specifies the number of visits to a particular activity. If there is no previous visit, returns 0 (zero).|Double (Only integer positive number) 1, 2, 3, etc.||
-|Visitor Profile - Total Visits to Activity with Conversion|Specifies the number of visits/sessions to a particular activity when there was at least one conversion during the visit.|Double||
-|Visitor Profile - Visits to Activity with No Conversion|Number of visits/sessions with no conversions to a particular activity. This value is reset to zero after conversion, or -1 if conversion never happened.|Double (Only integer positive number) 1, 2, 3, etc.||
+|Visitor Profile - Activity Lifetime Order Value|Specifies the sum of all order values across all visits/sessions to a particular activity.|Double|SES_CUMULATIVE_ORDER_VALUE|
+|Visitor Profile - Activity Lifetime Time on Site|Specifies the visitor's total time spent on site, excluding the current session, and is updated when the session expires.|Double, milliseconds|SES_TOTAL_TIME|
+|Visitor Profile -Average Page Views per Visit during Activity|Specifies the average number of page views per session, excluding the current session.|Double|SES_REQUESTS_PER_SESSION|
+|Visitor Profile - Average Time per Visit|Specifies the average time spent per visit/session. This does not include the current session.|Double, milliseconds|SES_TIME_PER_SESSION|
+|Visitor Profile - First Visit|Specifies the time of the first visit that the user interacted with Target.|Double, milliseconds|SES_PROFILE_CREATION_TIME|
+|Visitor Profile - Hours since Last Visit|Specifies the hours since the last visit to this particular activity.|Double (Only integer positive number) 1, 2, 3, etc.|SES_HOURS_SINCE_LAST_VISIT|
+|Visitor Profile - Impressions of Location/Content|Specifies the number of impressions to a particular location/content combination in a particular activity.|Double (Only integer positive number) 1, 2, 3, etc.|SES_CUMULATIVE_ACTION_[LOCATION_ID]_[CONTENT_ID]|
+|Visitor Profile - Last Target Interaction|Specifies the time of last interaction with Target. Interaction happens on every [!DNL Target] request because the current implementation of [!DNL Target] updates the profile on each request.|Double, milliseconds|SES_PROFILE_UPDATE_TIME|
+|Visitor Profile - Pages Seen Before Activity|Specifies the number of total page views (impressions), including current visit/session until the visitor enters the activity.|Double (Only integer positive number) 1, 2, 3, etc.|SES_TOTAL_PAGE_VIEWS|
+|Visitor Profile - Page Views in Current Visit|Specifies the number of page views in current visit/session until the visitor enters the activity. More precisely, the number of impressions. These impressions are not real page views, rather this is the number of times the request reached Target. Target is not capable of distinguishing between timeouts or any other reasons the user did not receive or view the content.|Double (Only integer positive number)|SES_SESSION_POSITION|
+|Visitor Profile - Start of Current Visit|Specifies the time when the current visit/session with Target started. The visit with Target can be initiated without entering an activity. All that is required is a call to any [!DNL Target] request. A visitor might take awhile until entering the activity and the snapshot is taken.|Double, milliseconds|SES_SESSION_START|
+|Visitor Profile - Start of Most Recent Visit|Specifies the time of when last visit/session with Target started. This attribute gets updated when the session expires.<br>If this is the first session for the visitor, it will result in `LAST_SESSION_START = 0.`|Double, milliseconds|SES_LAST_SESSION_START|
+|Visitor Profile - Time Since Most Recent Visit When First Enter Activity|Specifies the duration between the previous session and the time when the user enters the activity and the snapshot is performed.|Double, milliseconds|SES_RECENCY|
+|Visitor Profile - Time in Visit Before Enter Activity|Specifies the difference between the last interaction with Target and when the current visit started. This attribute could be considered visit/session duration until the user enters the activity and the snapshot is performed.<br>Negative values happen when the session start and the last update time is triggered by the same [!DNL Target] call. Negatives values should be considered as 0 (zero).|Double, milliseconds|SES_SESSION_TIME|
+|Visitor Profile -Total Visits|Specifies the total number of visits/sessions. Does not include the current visit/session.|Double (Only integer positive number) 1, 2, 3, etc.|SES_TOTAL_SESSIONS|
+|Visitor Profile - Total Visits to Activity|Specifies the number of visits to a particular activity. If there is no previous visit, returns 0 (zero).|Double (Only integer positive number) 1, 2, 3, etc.|SES_PREVIOUS_VISIT_COUNT|
+|Visitor Profile - Total Visits to Activity with Conversion|Specifies the number of visits/sessions to a particular activity when there was at least one conversion during the visit.|Double|SES_CUMULATIVE_SUCCESSES|
+|Visitor Profile - Visits to Activity with No Conversion|Number of visits/sessions with no conversions to a particular activity. This value is reset to zero after conversion, or -1 if conversion never happened.|Double (Only integer positive number) 1, 2, 3, etc.|SES_SUCCESS_RECENCY|
