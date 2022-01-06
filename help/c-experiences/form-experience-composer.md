@@ -7,28 +7,30 @@ exl-id: d06a271b-f058-4c83-af75-da2a29774967
 ---
 # Form-Based Experience Composer
 
-The [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] is a non-visual experience and offer creation interface that’s useful in creating experiences for use in A/B Tests, Experience Targeting, Automated Personalization, and Recommendations activities when the visual experience composer is not available or practical for use. For example, you might use the form-based composer to create experiences and offers for delivery in emails, kiosks, and voice assistants.
+The [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] is a non-visual experience and offer creation interface that’s useful in creating experiences for use in [!UICONTROL A/B Test], [!UICONTROL Experience Targeting], [!UICONTROL Automated Personalization], and [!UICONTROL Recommendations] activities when the [!UICONTROL Visual Experience Composer] (VEC) is not available or practical for use. For example, you might use the Form-Based Experience Composer to create experiences and offers for delivery in emails, kiosks, and voice assistants.
 
-If you are creating a Recommendations activity, there are no experiences. Choose your criteria and design. If you choose multiple criteria or designs, Target automatically generates the experiences. 
+If you are creating a [!UICONTROL Recommendations] activity, there are no experiences. Choose your criteria and design. If you choose multiple criteria or designs, [!UICONTROL Target] automatically generates the experiences. 
 
 1. Click **[!UICONTROL Create Activity]**, then select the type of activity you want to create.
 
-   The Form-Based Experience Composer is available for A/B tests, Experience Targeting, Automated Personalization, and Recommendations activities. 
-1. Select **[!UICONTROL Form-Based Experience Composer]** from the [!UICONTROL Create Activity] dialog box.
+   The [!UICONTROL Form-Based Experience Composer] is available for [!UICONTROL A/B Test], [!UICONTROL Experience Targeting], [!UICONTROL Automated Personalization], and [!UICONTROL Recommendations] activities.
+
+1. Select **[!UICONTROL Form]** from the [!UICONTROL Create Activity] dialog box.
 
 1. (Conditional) Choose a workspace and property.
 
 1. Click **[!UICONTROL Next]**.
 
-   The Form-Based Experience Composer opens.
+   The [!UICONTROL Form-Based Experience Composer] opens.
 
    ![](assets/location_refinements.png)
 
-   This screen is different if you are creating a Recommendations activity. Recommendations activities do not include experiences. 
+   This screen is different if you are creating a [!UICONTROL Recommendations] activity. [!UICONTROL Recommendations] activities do not include experiences.
+
 1. Name the activity by clicking "[!UICONTROL Untitled Activity]."
 1. Select a location.
 
-   When you click in the [!UICONTROL Select Location] box, a list of available locations appears. Select one of those locations. To choose the global location delivered via target.js, choose “target-global-mbox.”
+   When you click in the [!UICONTROL Select Location] box, a list of available locations appears. Select one of those locations.
 
    You can also enter a location that is not listed here. This can be useful if the mbox has not yet been created or viewed on a page. Type the name of the location. Be careful when entering a location that does not yet exist. If the spelling or capitalization does not match the spelling and capitalization when the mbox call is made, the activity will not deliver. Manually entered locations are saved to the list of available locations. The next time you try to select a manually entered location, it will be available from the [!UICONTROL Select Location] drop-down list for that activity.
 
@@ -36,11 +38,12 @@ If you are creating a Recommendations activity, there are no experiences. Choose
    >
    >Creating a manually entered location during activity creation does not automatically create a new location. The location name is saved only in the context of the activity. The location is created when there is a content delivery call. Subsequent to the location being created, it will be available for use in other activities, for creating audiences, etc. from the drop-down list of available locations.
    
-1. Click **[!UICONTROL Add Audience Refinements]**, then choose one or more [audience](/help/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) for this activity.
+1. Click **[!UICONTROL Add Audience Refinements]**, choose one or more [audience](/help/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) for this activity, then click **[!UICONTROL Done]**.
 
    ![](assets/location_refinements_2.png)
 
-   In the Form-based Experience Composer, Refinements have been replaced with full audience functionality. Refinements for existing activities have been migrated to [activity-only audiences](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). 
+   In the [!UICONTROL Form-based Experience Composer], refinements have been replaced with full audience functionality. Refinements for existing activities have been migrated to [activity-only audiences](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
+
 1. Select the type of content you want to appear in that location.
 
    ![](assets/form_content.png)
@@ -59,7 +62,7 @@ If you are creating a Recommendations activity, there are no experiences. Choose
 
    **Change JSON offer:** Choose a json offer.
 
-   **Change Experience Fragment:** Choose an Experience Fragment.
+   **Change Experience Fragment:** Choose an Experience Fragment. For more information, see [Experience Fragment](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
    **Change Redirect Offer:** Choose a redirect offer. For more information, see [Create redirect offers](/help/c-experiences/c-manage-content/offer-redirect.md).
 
@@ -81,7 +84,9 @@ If you are creating a Recommendations activity, there are no experiences. Choose
       1. Type or paste your JSON code in the Code box.
       1. Click [!UICONTROL Save].
 
-   For a Recommendations activity, the Content drop-down gives you the Add Recommendation option. Click **[!UICONTROL Add Recommendation]**, then select the page type. Then follow the usual steps as defined in the interface to [create a Recommendations activity](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
+   **Add Recommendation:**
+   
+   For a Recommendations activity, the Content drop-down gives you the [!UICONTROL Add Recommendation] option. Click **[!UICONTROL Add Recommendation]**, then select the page type. Then follow the usual steps as defined in the interface to [create a Recommendations activity](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
 
    While selecting Recommendations criteria in the Form-Based Experience Composer, there is now a direct link to the selected Criteria card so you can quickly and easily edit the criteria.
 
@@ -91,7 +96,13 @@ If you are creating a Recommendations activity, there are no experiences. Choose
 
    ![](assets/change_criteria_2.png)
 
-1. (Optional, for AB activities, Automated Personalization, and Experience Targeting) To repeat this process for additional locations, click **[!UICONTROL Add Location]** and configure the location and content.
+   **Add Offer Decision:**
+
+   Add an offer created in [!DNL Adobe Journey Optimizer] (AJO) to an [!DNL Adobe Target] activity to present the best dynamic offer and experience to your visitors on your website or mobile site using offer decisioning. This option is available for manual [!UICONTROL A/B Test] and [!UICONTROL Experience Targeting] (XT) activities only. 
+   
+   For more information, see [Use offer decisions](/help/c-integrating-target-with-mac/ajo/offer-decision.md).
+
+1. (Optional, for [!UICONTROL A/B Test], [!UICONTROL Automated Personalization], and [!UICONTROL Experience Targeting] activiites) To repeat this process for additional locations, click **[!UICONTROL Add Location]** and configure the location and content.
 1. Click **[!UICONTROL Next]**, then complete the activity creation steps as usual for your activity type.
 
 * [Create an A/B Test](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) 
