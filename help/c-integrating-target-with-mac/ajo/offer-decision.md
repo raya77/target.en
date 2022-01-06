@@ -10,6 +10,10 @@ Use [!DNL Adobe Target] with [!DNL Adobe Journey Optimizer] offer decisions to d
 
 Add offer decisions created in [!DNL Adobe Journey Optimizer] to [!DNL Target] activities (manual [!UICONTROL A/B Test] or [!UICONTROL Experience Targeting]) using either the [!UICONTROL Visual Experience Composer] (VEC) or the [!UICONTROL Form-Based Composer] to test and deliver personalized offers to your visitors on your inbound channels powered by [!DNL Target].
 
+>[!NOTE]
+>
+>Offer-decision functionality described in this topic is scheduled to be released January 13, 2022 with the [!DNL Target Standard/Premium] 22.1.1 release.
+
 For more information about [!DNL Adobe Journey Optimizer], see [Get Started with Journey Optimizer](https://experienceleague-review.corp.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) in the *Journey Optimizer* documentation.
 
 For more information about offer decisions, see [About Decision Management](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) in the *[!DNL Journey Optimizer] documentation*.
