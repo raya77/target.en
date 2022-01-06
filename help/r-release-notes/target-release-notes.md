@@ -19,7 +19,7 @@ To view information about the current release, see [Target Release Notes](releas
 >
 >To avoid any potential issues with your sites, migrate to the most recent version of the new [!DNL Adobe Experience Platform Web SDK] or the at.js JavaScript library. For more information, see [Overview: implement Target for client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## !DNL Target Standard/Premium] 22.1.1 (January 6, 2022)
+## [!DNL Target Standard/Premium] 22.1.1 (January 6, 2022)
 
 This release contains the following new feature:
 
