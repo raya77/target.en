@@ -25,7 +25,7 @@ The following table shows the data collected by [!UICONTROL Automated Personaliz
 
 ## Custom Adobe Target attribute categories
 
-The following table shows the customer-provided data collected by by [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] activities. This data is collected only if you provide it, and as such, Adobe cannot describe this data like we can describe the data for other categories.
+The following table shows the customer-provided data collected by by [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] activities. This data is collected only if you provide it. Specific attribute names and sample values will be particular to your system configuration.
 
 |Data category|System prefix|Description|Display name in [!UICONTROL Insights] reports|
 | --- | --- | --- | --- |
