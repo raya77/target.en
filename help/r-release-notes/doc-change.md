@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|December 17|[Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)|Added following note about date ranges when viewing Important Attributes reports:<ul><li>The [!DNL Target] UI currently lets you choose 45-day and 90-day date ranges. However, the [!DNL Target] backend does not process these two ranges. Because of usage patterns and in an effort to improve performance, these date ranges have been deprecated. The UI will be updated to reflect the currently allowed ranges: 15, 30, and 60 days.</li></ul>|
 |December 7|[The science behind Target's recommendations algorithms](/help/c-recommendations/c-algorithms/recommendations-algorithms.md)|New topic.|
 |December 2|[Base the recommendation on a recommendation key](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)|Updated the Cart-Based algorithm to include that the recommendation keys are supplied through mbox parameter cartIds in comma-separated values. Only the first 10 values are considered.|
 |November 18|[Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)|Added a note in the Mbox row indicating that mboxes are no longer supported in the [!UICONTROL Visual Experience Composer] (VEC) in pages that use at.js 2.*x*.|

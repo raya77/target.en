@@ -51,7 +51,13 @@ In different activities, different attributes are more, or less, important to ho
 
 1. Select the desired date range.
 
-   Unlike the [!UICONTROL Summary] report (performance reporting), [!UICONTROL Personalization Insights], including [!UICONTROL Important Attributes], is available only for fixed date ranges: 15 days, 30 days, 45 days, 60 days, and 90 days. These fixed date ranges allow [!UICONTROL Personalization Insights] to use a large enough range of data to reduce the likelihood that you derive insights from a short-lived pattern in your activity. The two decisions you can make for your date range is the "End Date" and the "Duration." You'll notice that the "Start" is greyed out. The start date automatically changes based on your selections for the end date and duration.
+   Unlike the [!UICONTROL Summary] report (performance reporting), [!UICONTROL Personalization Insights], including [!UICONTROL Important Attributes], is available only for fixed date ranges: 15 days, 30 days, and 60 days. 
+   
+   >[!NOTE]
+   >
+   >The [!DNL Target] UI currently lets you choose 45-day and 90-day date ranges. However, the [!DNL Target] backend does not process these two ranges. Because of usage patterns and in an effort to improve performance, these date ranges have been deprecated. The UI will be updated to reflect the currently allowed ranges: 15, 30, and 60 days.
+   
+   These fixed date ranges allow [!UICONTROL Personalization Insights] to use a large enough range of data to reduce the likelihood that you derive insights from a short-lived pattern in your activity. The two decisions you can make for your date range is the "End Date" and the "Duration." You'll notice that the "Start" is greyed out. The start date automatically changes based on your selections for the end date and duration.
 
    ![](assets/personalization_insights_calendar_1.png)
 
