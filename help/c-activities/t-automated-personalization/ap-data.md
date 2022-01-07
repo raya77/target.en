@@ -1,17 +1,17 @@
 ---
 keywords: environmental data;session data;geo data;geographical data;device data;mobile data;attributes;profile attributes;personalization algorithms;machine-learning algorithms;machine learning algorithms
-description: Learn which data Adobe [!DNL Target] collects and uses to build its machine-learning algorithms in Automated Personalization (AP) and Auto-Target (AT) activities.
-title: What Data is Collected to Build Machine-Learing Algorithms?
+description: Learn which data Adobe [!DNL Target] collects and uses to build its machine-learning algorithms in [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] (AT) activities.
+title: What Data is Collected to Build Machine-Learning Algorithms?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
 ---
-# ![PREMIUM](/help/assets/premium.png) Data used by [!DNL Target] machine learning algorithms
+# ![PREMIUM](/help/assets/premium.png) Data used by [!DNL Target] machine-learning algorithms
 
 [!DNL Adobe Target] automatically collects and uses a variety of data to build its personalization algorithms in [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] (AT) activities. When a visitor enters an AP or AT activity, a snapshot of information is passed to a set of "training records" (the visitor data that the personalization algorithms will learn on).
 
 To learn more about the [!DNL Target] personalization algorithms, see [Random Forest Algorithm](/help/c-activities/t-automated-personalization/algo-random-forest.md).
 
-## Default Adobe Target attribute categories
+## Default [!DNL Adobe Target] attribute categories
 
 The following table shows the data collected by [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] activities by default, without any configuration of [!DNL Target] or other [!DNL Adobe] solutions, as well as the naming convention used to indicate these attributes in [Personalization Insights Reports](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). You can augment the input data set at any time. To learn more about how to upload additional data, see [Uploading data for the [!DNL Target] personalization algorithms](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
@@ -30,8 +30,8 @@ The following table shows the customer-provided data collected by by [!UICONTROL
 |Data category|System prefix|Description|Display name in [!UICONTROL Insights] reports|
 | --- | --- | --- | --- |
 |Page parameters|BOX|Custom page parameters (“mbox parameters”) passed in the call to [!DNL Target].|Custom - Mbox Parameter - [parameter name]|
-|Target profile|PRO|Custom profile attributes directly uploaded to the [!DNL Target] profile via API or page parameter and [!DNL Target] profile scripts.|Custom - Visitor Profile - [attribute name]|
-|Customer attributes|CRS|Customer Attributes uploaded to the Target Profile via the [Adobe Experience Cloud Customer Attributes Service](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank}.|Custom - Visitor Profile - [attribute name]|
+|[!DNL Target] profile|PRO|Custom profile attributes directly uploaded to the [!DNL Target] profile via API or page parameter and [!DNL Target] profile scripts.|Custom - Visitor Profile - [attribute name]|
+|Customer attributes|CRS|Customer Attributes uploaded to the [!DNL Target] profile via the [Adobe Experience Cloud Customer Attributes Service](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank}.|Custom - Visitor Profile - [attribute name]|
 |URL parameters|URL|URL and any URL parameters for the currently-viewed page.|Custom - URL Parameter - [URL Parameter]|
 |Referring URL|REF|Referring URL and any URL parameters for the referring URL.|Custom - [Referring URL Parameter] - [Parameter value]|
 |Adobe Experience Cloud shared audiences|AAM|All audiences shared with [!DNL Target] from other [!DNL Adobe Experience Cloud] solutions (for example, [!DNL Adobe Audience Manager] and [!DNL Adobe Analytics], via the [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}).|Custom - Experience Cloud Audience - [Audience Name]|
@@ -108,16 +108,16 @@ To block one or more specific features from [!DNL Target] machine-learning algor
 |Visitor Profile - Activity Lifetime Time on Site|Specifies the visitor's total time spent on site, excluding the current session, and is updated when the session expires.|Double, milliseconds|SES_TOTAL_TIME|
 |Visitor Profile -Average Page Views per Visit during Activity|Specifies the average number of page views per session, excluding the current session.|Double|SES_REQUESTS_PER_SESSION|
 |Visitor Profile - Average Time per Visit|Specifies the average time spent per visit/session. This does not include the current session.|Double, milliseconds|SES_TIME_PER_SESSION|
-|Visitor Profile - First Visit|Specifies the time of the first visit that the user interacted with Target.|Double, milliseconds|SES_PROFILE_CREATION_TIME|
+|Visitor Profile - First Visit|Specifies the time of the first visit that the user interacted with [!DNL Target].|Double, milliseconds|SES_PROFILE_CREATION_TIME|
 |Visitor Profile - Hours since Last Visit|Specifies the hours since the last visit to this particular activity.|Double (Only integer positive number) 1, 2, 3, etc.|SES_HOURS_SINCE_LAST_VISIT|
 |Visitor Profile - Impressions of Location/Content|Specifies the number of impressions to a particular location/content combination in a particular activity.|Double (Only integer positive number) 1, 2, 3, etc.|SES_CUMULATIVE_ACTION_[LOCATION_ID]_[CONTENT_ID]|
-|Visitor Profile - Last Target Interaction|Specifies the time of last interaction with Target. Interaction happens on every [!DNL Target] request because the current implementation of [!DNL Target] updates the profile on each request.|Double, milliseconds|SES_PROFILE_UPDATE_TIME|
+|Visitor Profile - Last [!DNL Target] Interaction|Specifies the time of last interaction with [!DNL Target]. Interaction happens on every [!DNL Target] request because the current implementation of [!DNL Target] updates the profile on each request.|Double, milliseconds|SES_PROFILE_UPDATE_TIME|
 |Visitor Profile - Pages Seen Before Activity|Specifies the number of total page views (impressions), including current visit/session until the visitor enters the activity.|Double (Only integer positive number) 1, 2, 3, etc.|SES_TOTAL_PAGE_VIEWS|
 |Visitor Profile - Page Views in Current Visit|Specifies the number of page views in current visit/session until the visitor enters the activity. More precisely, the number of impressions. These impressions are not real page views, rather this is the number of times the request reached Target. Target is not capable of distinguishing between timeouts or any other reasons the user did not receive or view the content.|Double (Only integer positive number)|SES_SESSION_POSITION|
 |Visitor Profile - Start of Current Visit|Specifies the time when the current visit/session with Target started. The visit with Target can be initiated without entering an activity. All that is required is a call to any [!DNL Target] request. A visitor might take awhile until entering the activity and the snapshot is taken.|Double, milliseconds|SES_SESSION_START|
-|Visitor Profile - Start of Most Recent Visit|Specifies the time of when last visit/session with Target started. This attribute gets updated when the session expires.<br>If this is the first session for the visitor, it will result in `LAST_SESSION_START = 0.`|Double, milliseconds|SES_LAST_SESSION_START|
+|Visitor Profile - Start of Most Recent Visit|Specifies the time of when last visit/session with [!DNL Target] started. This attribute gets updated when the session expires.<br>If this is the first session for the visitor, it will result in `LAST_SESSION_START = 0.`|Double, milliseconds|SES_LAST_SESSION_START|
 |Visitor Profile - Time Since Most Recent Visit When First Enter Activity|Specifies the duration between the previous session and the time when the user enters the activity and the snapshot is performed.|Double, milliseconds|SES_RECENCY|
-|Visitor Profile - Time in Visit Before Enter Activity|Specifies the difference between the last interaction with Target and when the current visit started. This attribute could be considered visit/session duration until the user enters the activity and the snapshot is performed.<br>Negative values happen when the session start and the last update time is triggered by the same [!DNL Target] call. Negatives values should be considered as 0 (zero).|Double, milliseconds|SES_SESSION_TIME|
+|Visitor Profile - Time in Visit Before Enter Activity|Specifies the difference between the last interaction with [!DNL Target] and when the current visit started. This attribute could be considered visit/session duration until the user enters the activity and the snapshot is performed.<br>Negative values happen when the session start and the last update time is triggered by the same [!DNL Target] call. Negatives values should be considered as 0 (zero).|Double, milliseconds|SES_SESSION_TIME|
 |Visitor Profile -Total Visits|Specifies the total number of visits/sessions. Does not include the current visit/session.|Double (Only integer positive number) 1, 2, 3, etc.|SES_TOTAL_SESSIONS|
 |Visitor Profile - Total Visits to Activity|Specifies the number of visits to a particular activity. If there is no previous visit, returns 0 (zero).|Double (Only integer positive number) 1, 2, 3, etc.|SES_PREVIOUS_VISIT_COUNT|
 |Visitor Profile - Total Visits to Activity with Conversion|Specifies the number of visits/sessions to a particular activity when there was at least one conversion during the visit.|Double|SES_CUMULATIVE_SUCCESSES|
