@@ -13,6 +13,11 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|January 7|[Release Notes](/help/r-release-notes/release-notes.md)|Added information about the at.js version 2.8.0 release.|
+||[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about the at.js version 2.8.0 release.|
+||[targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry)|Added information about the `telemetry` setting.|
+||[Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)|Added the following section: "Collection of feature-usage data."|
+||[Data used by [!DNL Target] machine-learning algorithms](/help/c-activities/t-automated-personalization/ap-data.md)|Updated entire topic, including:<ul><li>New section: "Blocking features from [!DNL Target] machine-learning algorithms"</li><li>Added "System name" columns and information to several tables.</li></ul>|
 |January 6|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the [!DNL Target Standard/Premium] 22.1.1 release.|
 |December 17|[Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)|Added following note about date ranges when viewing Important Attributes reports:<ul><li>The [!DNL Target] UI currently lets you choose 45-day and 90-day date ranges. However, the [!DNL Target] backend does not process these two ranges. Because of usage patterns and in an effort to improve performance, these date ranges have been deprecated. The UI will be updated to reflect the currently allowed ranges: 15, 30, and 60 days.</li></ul>|
 |December 7|[The science behind Target's recommendations algorithms](/help/c-recommendations/c-algorithms/recommendations-algorithms.md)|New topic.|

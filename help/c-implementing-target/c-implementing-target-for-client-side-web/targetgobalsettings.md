@@ -205,6 +205,12 @@ You can override the following settings:
 * **Default Value**: See [Hybrid personalization](#server-state) below.
 * **Description**: See [Hybrid personalization](#server-state) below.
 
+### telemetryEnabled {#telemetry}
+
+* **Type**: Boolean
+* **Default Value**: true
+* **Description**: When enabled, [!DNL Adobe] collects SDK feature usage and performance telemetry data. Personal data is not collected.
+
 ### timeout
 
 * **Type**: Number
