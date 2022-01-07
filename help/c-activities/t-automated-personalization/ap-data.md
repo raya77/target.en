@@ -70,7 +70,6 @@ To block one or more specific features from [!DNL Target] machine-learning algor
 |Browser - Hour of Day|The hour of the day when the visitor accessed the activity.|0 to 23<br>(0 is midnight)|ENV_UserHour|
 |Browser - Hour of Week|The hour of the week when the visitor accessed the activity.|0 to 168<br>(Sunday midnight is 0)|ENV_WeekHour|
 |Browser - Language Setting|The language specified in the visitor's browser used to access the activity.|English<br>German|ENV_Language|
-|Browser - Screen Height (px)|The device's browser screen height (in pixels) the visitor used to access the activity.|1, 2, 3, etc.|ENV_browserHeight|
 |Browser - Screen Width (px)|The device's browser screen width (in pixels) the visitor used to access the activity.|1, 2, 3, etc.|ENV_browserWidth|
 |Browser - Time of Day|The browser's time of day when the visitor accessed the activity.|0, 6, 12, 18<br>(0 is night, 6 is morning,<br>12 is afternoon, 18 is evening)|ENV_LocalTimePeriod|
 |Browser - Timezone|The visitor's time zone while accessing the activity.|Pacific Time<br>Eastern Time<br>GMT|ENV_BrowserTimezoneOffsetMinutes|
