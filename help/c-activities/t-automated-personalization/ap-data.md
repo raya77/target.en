@@ -70,19 +70,18 @@ To block one or more specific features from [!DNL Target] machine-learning algor
 |Browser - Hour of Day|The hour of the day when the visitor accessed the activity.|0 to 23<br>(0 is midnight)|ENV_USER_HOUR|
 |Browser - Hour of Week|The hour of the week when the visitor accessed the activity.|0 to 168<br>(Sunday midnight is 0)|ENV_WeekHour|
 |Browser - Language Setting|The language specified in the visitor's browser used to access the activity.|English<br>German|ENV_Language|
-|Browser - Screen Height (px)|The device's browser screen height (in pixels) the visitor used to access the activity.|1, 2, 3, etc.|ENV_browserHeight|
 |Browser - Screen Width (px)|The device's browser screen width (in pixels) the visitor used to access the activity.|1, 2, 3, etc.|ENV_browserWidth|
 |Browser - Time of Day|The browser's time of day when the visitor accessed the activity.|0, 6, 12, 18<br>(0 is night, 6 is morning,<br>12 is afternoon, 18 is evening)|ENV_LOCAL_TIME_PERIOD|
 |Browser - Timezone|The visitor's time zone while accessing the activity.|Pacific Time<br>Eastern Time<br>GMT|ENV_BrowserTimezoneOffsetMinutes|
 |Browser - Type|The type of browser the visitor used while accessing the activity.|Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>Other|ENV_Browser|
 |Browser - Weekday/Weekend|The work status when the visitor accessed the activity (weekend, work hours, or weekday free-time).|Saturday and Sunday is weekend<br>Monday-Friday 0900 to 1800 is work time<br>Monday-Friday after 1800 until 0900 is weekday free time|ENV_USER_HOUR_TYPE|
 |Browser - Window Height (px)|The browser's window height (in pixels) the visitor used to access the activity.|1, 2, 3, etc.|ENV_BrowserHeight|
-|Browser - Window Width (px)|The browser's window width (in pixels) the visitor used to access the activity.|1, 2, 3, etc.|ENG_BrowserWidth|
+|Browser - Window Width (px)|The browser's window width (in pixels) the visitor used to access the activity.|1, 2, 3, etc.|ENV_BrowserWidth|
 |Device - Screen Height|The device's screen height the visitor used to access the activity.|1, 2, 3, etc.|ENV_SCREEN_HEIGHT|
 |Device - Screen Width|The device's screen width the visitor used to access the activity.|1, 2, 3, etc.|ENV_SCREEN_WIDTH|
 |Operating System|The operating system on the visitor's device used to access the activity.|Mac OS<br>Windows<br>Linux<br>Search Bot<br>Unknown OS|ENV_OperatingSystem|
 |Operating System - Version|The operating system's version the visitor used to access the activity.|Windows 10<br>Mac OS 10|ENV_OPERATING_SYSTEM_VERSION|
-|Traffic Sources - Referring Landing Page URL|The first page the visitor saw when accessing your site.|`https://www.adobe.com/ecloud.html`|ENG_REFERRER|
+|Traffic Sources - Referring Landing Page URL|The first page the visitor saw when accessing your site.|`https://www.adobe.com/ecloud.html`|ENV_REFERRER|
 
 ## Geographical data {#geo}
 
