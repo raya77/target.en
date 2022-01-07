@@ -10,6 +10,12 @@ exl-id: fb632923-fa36-4553-88a6-f27860472eb6
 
 [!DNL Adobe Target] has enabled processes and settings that allow you to use [!DNL Target] in compliance with applicable data privacy laws.
 
+## Collection of feature-usage data
+
+Individual feature-usage data is collected for internal [!DNL Adobe] purposes to identify whether [!DNL Target] features are performing as intended or to identify features that are being under-utilized. Various measurements of latency are collected to help address performance concerns. Personal data is not collected.
+
+You can opt out of reporting usage data in our SDKs by setting `telemetryEnabled` to false in the client initialization options. For more information, see [telemetryEnabled in targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
+
 ## Collection of IP addresses {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
 The IP address of a visitor to your website is transmitted to an Adobe Data Processing Center (DPC). Depending on the network configuration for the visitor, the IP address does not necessarily represent the IP address of the visitor’s computer. For example, the IP address could be the external IP address of a Network Address Translation (NAT) firewall, HTTP proxy, or Internet gateway. Target doesn't store any IP addresses of the user or any Personally Identifiable Information (PII). IP addresses are used only by Target during the session (in-memory, never persisted).
