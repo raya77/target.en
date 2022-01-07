@@ -54,11 +54,11 @@ To block one or more specific features from [!DNL Target] machine-learning algor
 |Mobile - Device - Game Console|Specifies whether the device is a game console.|0 is False, 1 is True|MOB_targeting.mobile.gamesConsole|
 |Mobile - Device - Media Player|Specifies whether the device is a media player.|0 is False, 1 is True|MOB_targeting.mobile.mediaPlayer|
 |Mobile - Device - Mobile Phone|Specifies whether the device is a mobile phone.|0 is False, 1 is True|MOB_targeting.mobile.mobilePhone|
-|Mobile - Device - Model Name|The model name of the mobile device the visitor used to access the activity.|iPhone XS|MOB_targeting.mobile.modelName|
+|Mobile - Device - Model Name|The model name of the mobile device the visitor used to access the activity.|iPhone XS|MOB_targeting.mobile.model|
 |Device - Set-Top Box|Specifies whether the device is a set-top box.|0 is False, 1 is True|MOB_targeting.mobile.setTopBox|
 |Mobile - Device - Tablet|Specifies whether the device is a tablet.|0 is False, 1 is True|MOB_targeting.mobile.tablet|
 |Mobile - Pixel Density (ppi)|The mobile device's pixel density the visitor used to access the activity.|1, 2, 3, etc.|MOB_targeting.mobile.displayPpi|
-|Mobile - OS – OSX (Android, Windows, etc.)|Specifies whether the user used an OSX (or Android, Windows, etc.) device to access the activity.|0 is False, 1 is True|MOB_targeting.mobile.os[OS]<br>For example, MOB_targeting.mobile.osOSx, MOB_targeting.mobile.osAndroid, MOB_targeting.mobile.osLinux|
+|Mobile - OS – OSX (Android, Windows, etc.)|Specifies whether the user used an OSX (or Android, Windows, etc.) device to access the activity.|0 is False, 1 is True|MOB_targeting.mobile.os[OS]<br>For example, MOB_targeting.mobile.osOSx, MOB_targeting.mobile.osWindows, MOB_targeting.mobile.osAndroid, MOB_targeting.mobile.osLinux|
 |Mobile - Screen Height (px)|The mobile device's screen height (in pixels) the visitor used to access the activity.|1, 2, 3, etc.|MOB_targeting.mobile.displayHeight|
 |Mobile - Screen Width (px)|The mobile device's screen width (in pixels) the visitor used to access the activity.|1, 2, 3, etc.|MOB_targeting.mobile.displayWidth|
 
@@ -66,23 +66,23 @@ To block one or more specific features from [!DNL Target] machine-learning algor
 
 |Attribute name|Attribute description|Sample values|System name|
 | --- | --- | --- | -- |
-|Browser - Day of Week|The day of the week when the visitor accessed the activity.|0 to 6.<br>(0 is Sunday)|ENV_DAY_OF_WEEK_HOUR|
-|Browser - Hour of Day|The hour of the day when the visitor accessed the activity.|0 to 23<br>(0 is midnight)|ENV_USER_HOUR|
+|Browser - Day of Week|The day of the week when the visitor accessed the activity.|0 to 6.<br>(0 is Sunday)|ENV_DayOfWeek|
+|Browser - Hour of Day|The hour of the day when the visitor accessed the activity.|0 to 23<br>(0 is midnight)|ENV_UserHour|
 |Browser - Hour of Week|The hour of the week when the visitor accessed the activity.|0 to 168<br>(Sunday midnight is 0)|ENV_WeekHour|
 |Browser - Language Setting|The language specified in the visitor's browser used to access the activity.|English<br>German|ENV_Language|
 |Browser - Screen Height (px)|The device's browser screen height (in pixels) the visitor used to access the activity.|1, 2, 3, etc.|ENV_browserHeight|
 |Browser - Screen Width (px)|The device's browser screen width (in pixels) the visitor used to access the activity.|1, 2, 3, etc.|ENV_browserWidth|
-|Browser - Time of Day|The browser's time of day when the visitor accessed the activity.|0, 6, 12, 18<br>(0 is night, 6 is morning,<br>12 is afternoon, 18 is evening)|ENV_LOCAL_TIME_PERIOD|
+|Browser - Time of Day|The browser's time of day when the visitor accessed the activity.|0, 6, 12, 18<br>(0 is night, 6 is morning,<br>12 is afternoon, 18 is evening)|ENV_LocalTimePeriod|
 |Browser - Timezone|The visitor's time zone while accessing the activity.|Pacific Time<br>Eastern Time<br>GMT|ENV_BrowserTimezoneOffsetMinutes|
 |Browser - Type|The type of browser the visitor used while accessing the activity.|Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>Other|ENV_Browser|
-|Browser - Weekday/Weekend|The work status when the visitor accessed the activity (weekend, work hours, or weekday free-time).|Saturday and Sunday is weekend<br>Monday-Friday 0900 to 1800 is work time<br>Monday-Friday after 1800 until 0900 is weekday free time|ENV_USER_HOUR_TYPE|
+|Browser - Weekday/Weekend|The work status when the visitor accessed the activity (weekend, work hours, or weekday free-time).|Saturday and Sunday is weekend<br>Monday-Friday 0900 to 1800 is work time<br>Monday-Friday after 1800 until 0900 is weekday free time|ENV_UserHourType|
 |Browser - Window Height (px)|The browser's window height (in pixels) the visitor used to access the activity.|1, 2, 3, etc.|ENV_BrowserHeight|
-|Browser - Window Width (px)|The browser's window width (in pixels) the visitor used to access the activity.|1, 2, 3, etc.|ENG_BrowserWidth|
-|Device - Screen Height|The device's screen height the visitor used to access the activity.|1, 2, 3, etc.|ENV_SCREEN_HEIGHT|
-|Device - Screen Width|The device's screen width the visitor used to access the activity.|1, 2, 3, etc.|ENV_SCREEN_WIDTH|
+|Browser - Window Width (px)|The browser's window width (in pixels) the visitor used to access the activity.|1, 2, 3, etc.|ENV_BrowserWidth|
+|Device - Screen Height (px)|The device's screen height the visitor used to access the activity.|1, 2, 3, etc.|ENV_ScreenHeight|
+|Device - Screen Width (px)|The device's screen width the visitor used to access the activity.|1, 2, 3, etc.|ENV_ScreenWidth|
 |Operating System|The operating system on the visitor's device used to access the activity.|Mac OS<br>Windows<br>Linux<br>Search Bot<br>Unknown OS|ENV_OperatingSystem|
-|Operating System - Version|The operating system's version the visitor used to access the activity.|Windows 10<br>Mac OS 10|ENV_OPERATING_SYSTEM_VERSION|
-|Traffic Sources - Referring Landing Page URL|The first page the visitor saw when accessing your site.|`https://www.adobe.com/ecloud.html`|ENG_REFERRER|
+|Operating System - Version|The operating system's version the visitor used to access the activity.|Windows 10<br>Mac OS 10|ENV_OperatingSystemVersion|
+|Traffic Sources - Referring Landing Page URL|The first page the visitor saw when accessing your site.|`https://www.adobe.com/ecloud.html`|ENV_Referrer|
 
 ## Geographical data {#geo}
 
