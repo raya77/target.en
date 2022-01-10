@@ -266,6 +266,10 @@ Enables visitors to opt-out of all tracking and content delivery.
 
 An engagement metric that measures the number of pages seen in a visit from the point the visitor first sees the activity's first display mbox.
 
+**page view**
+
+Page view means a single view of a mobile or browser application, e-mail, or web page of an internet site, including application screen views, application screen states, mobile web pages, and social network pages. Page views occur each time a web page is loaded or refreshed, an application is loaded, when targeted content renders or is generated, or is shown through an opened or viewed e-mail.
+
 **priority**
 
 Priority is used if multiple activities are assigned to the same location with the same audience. If two or more activities are assigned to the location, the activity with the highest priority displays.
