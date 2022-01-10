@@ -15,7 +15,7 @@ Add offer decisions created in [!DNL Adobe Journey Optimizer] to [!DNL Target] a
 >
 >Offer-decision functionality described in this topic is scheduled to be released January 13, 2022 with the [!DNL Target Standard/Premium] 22.1.1 release.
 
-For more information about [!DNL Adobe Journey Optimizer], see [Get Started with Journey Optimizer](https://experienceleague-review.corp.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) in the *Journey Optimizer* documentation.
+For more information about [!DNL Adobe Journey Optimizer], see [Get Started with Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) in the *Journey Optimizer* documentation.
 
 For more information about offer decisions, see [About Decision Management](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) in the *[!DNL Journey Optimizer] documentation*.
 
@@ -35,15 +35,20 @@ The following examples are use cases of how you can use the [!DNL Target]/[!DNL 
 
 ### Sports merchandising
 
-As a marketer for a sporting league, you want to personalize content on your homepage (on both desktop and mobile website). You want to personalize content based on the visitor's favorite team and recent player moves to present them an offer to shop related franchise merchandise. For example, to deliver a personalized experience for each of the following regions: Dortmund, Frankfurt, and Bochum and for users that are implicit and explicit fans of these teams. As metrics, you want to look at visits and clicks to the merchandise site.
+As a marketer for a sporting league, you want to personalize content on your homepage (on both desktop and mobile website). You want to personalize content based multiple dimensions and present an offer to shop related franchise merchandise. You are interested in:
 
-You want to design an A/B Test activity (50/50 split) between the default experience and the personalized experience (which includes an offer decision with offers for each region and team). You want to use this activity to determine the conversion and the lift for the personalized experience versus control.
+* The visitor’s favorite team
+* Recent athlete / player activity (for example, team movement, contract updates, or injuries)
+
+For example, you want to deliver a personalized experience for each of the following regions: Dortmund, Frankfurt, and Bochum and for users that are implicit and explicit fans of these teams. As metrics, you want to look at visits and clicks to the merchandise site.
+
+You want to design an [!UICONTROL A/B Test] activity (50/50 split) between the default experience and the personalized experience (which includes an offer decision with offers for each region and team). You want to use this activity to determine the conversion and the lift for the personalized experience versus control.
 
 ### Game streaming platforms
 
-As a marketer for a sporting organization, you want to deliver a personalized offer for a game streaming platform for desktop and mobile users from different geographies: Germany, France, Mexico, and Brazil. When a visitor accesses the desktop or mobile website from one of those geographies, you want to deliver an offer for game streaming in the local language and with a corresponding price for the local currency.
+As a marketer for a gaming organization, you want to deliver a personalized offer for a game streaming platform for desktop and mobile users from different geographies: Germany, France, Mexico, and Brazil. When a visitor accesses the desktop or mobile website from one of those geographies, you want to deliver an offer for game streaming in the local language and with a corresponding price for the local currency.
 
-In [!DNL Adobe Journey Optimizer], you can create a personalized homepage hero offer for each of the geographies targeted plus a fallback offer with a default homepage hero. You can then create an offer decision that incorporates the these offers and their eligibility rules. Then, in [!DNL Target], you can create an [!DNL Experience Targeting] (XT) activity and insert that offer decision in your desktop or mobile website to deliver the personalized experience to visitors.
+In [!DNL Adobe Journey Optimizer], you can create a personalized homepage hero offer for each of the geographies targeted plus a fallback offer with a default homepage hero. You can then create an offer decision that incorporates these offers and their eligibility rules. Then, in [!DNL Target], you can create an [!DNL Experience Targeting] (XT) activity and insert that offer decision in your desktop or mobile website to deliver the personalized experience to visitors.
 
 ## Create an experience that uses an offer decision:
 
