@@ -64,7 +64,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    First, we need to install at.js 2.x. This version of at.js was developed with SPAs in mind. Previous versions of at.js and mbox.js (now deprecated) do not support Adobe Target Views and the VEC for SPAs.
 
-   Download at.js 2.x via the Adobe Target UI located in [!UICONTROL Administration > Implementation]. at.js 2.x can also be deployed via tags in [!DNL Adobe Experience Platform]. However, the [!DNL Adobe Target] extensions are currently not up to date and supported.
+   Download at.js 2.x via the Adobe Target UI located in [!UICONTROL Administration > Implementation]. at.js 2.x can also be deployed via tags in [!DNL Adobe Experience Platform].
 
 1. Implement at.js 2.x’s newest function, `triggerView()` on your sites.
 
