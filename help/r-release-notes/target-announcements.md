@@ -9,18 +9,17 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 
 Announcements and information about upcoming events, including [!DNL Adobe Target] Skill Builder sessions, developer chats, webinars, and [!DNL Target] Coffee Break sessions.
 
-## [!DNL Adobe Target] Community Q&A Coffee Break (December 8, 2021)
+## [!DNL Adobe Target] Community Q&A Coffee Break (January 19, 2022)
 
-* **Wednesday, December 8, 2021**
+* **Wednesday, January 19, 2022**
 * **8:00 a.m. (PST, UTC -8)**
-* **[More information and registration information](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697)**
+* **[More information and registration information](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/new-in-2022-at-community-q-amp-a-coffee-break-1-19-22-8am-pt-jon/td-p/434460)**
 
-Robert Calangiu, Senior Product Manager for [!DNL Adobe Target], will answer your questions pertaining to his areas of expertise:
+Jon Tehero, Group Product Manager for [!DNL Adobe Target], will answer your questions pertaining to his areas of expertise:
 
-* [!DNL Target] set up and admin UI
-* [!UICONTROL Analytics for Target] (A4T) integration
-* [!DNL Adobe Audience Manager] (AEM) integration
-* General [!DNL Target] UI
+* [!DNL Adobe Target] integration with [!DNL Adobe Journey Optimizer] (AJO)
+* [!DNL Adobe Target] UI
+* General [!DNL Adobe Target] topics
 
 ## Webinar: Personalize and test at zero latency with on-device decisions from Adobe Target
 
