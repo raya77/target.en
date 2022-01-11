@@ -13,7 +13,7 @@ Add offer decisions created in [!DNL Adobe Journey Optimizer] to [!DNL Target] a
 
 >[!NOTE]
 >
->Offer-decision functionality described in this topic is scheduled to be released January 13, 2022 with the [!DNL Target Standard/Premium] 22.1.1 release.
+>Offer-decision functionality described in this topic currently in Beta and available to select customers only.
 
 For more information about [!DNL Adobe Journey Optimizer], see [Get Started with Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) in the *Journey Optimizer* documentation.
 
