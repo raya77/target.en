@@ -1,6 +1,6 @@
 ---
 keywords: target documentation change log;documentation updates;new topics;edits;updates;update
-description: Keep up to date with important additions and changes to the Adobe [!DNL Target] product documentation.
+description: Keep up to date with important additions and changes to the [!DNL Adobe Target] documentation.
 title: Where Can I See Documentation Updates for Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|January 11|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added information about the following event:<ul><li>[!DNL Adobe Target] Community Q&A Coffee Break (January 19, 2022)</li></ul>|
 |January 7|[Release Notes](/help/r-release-notes/release-notes.md)|Added information about the at.js version 2.8.0 release.|
 ||[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about the at.js version 2.8.0 release.|
 ||[targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry)|Added information about the `telemetry` setting.|
