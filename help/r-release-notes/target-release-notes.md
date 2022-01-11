@@ -19,14 +19,6 @@ To view information about the current release, see [Target Release Notes](releas
 >
 >To avoid any potential issues with your sites, migrate to the most recent version of the new [!DNL Adobe Experience Platform Web SDK] or the at.js JavaScript library. For more information, see [Overview: implement Target for client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## [!DNL Target Standard/Premium] 22.1.1 (January 13, 2022)
-
-This release contains the following new feature:
-
-|Feature|Details|
-| --- | --- |
-|Use offer decisions in [!DNL Target] activities|You can now use [!DNL Adobe Journey Optimizer] offer decisions in [!DNL Target] [!UICONTROL A/B Test] and [!UICONTROL Experience Targeting] (XT) activities to determine and deliver the next best offer for your visitors on web and mobile.<br>For more information, see [Use offer decisions](/help/c-integrating-target-with-mac/ajo/offer-decision.md).<br>**Note**: This capability is available for [!DNL Target] customers who also have access to Offer Decisioning and have a [!DNL Target] implementation based on the Adobe Experience Platform Web SDK.|
-
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 
 To receive advance notifications about upcoming product enhancements to Target and other Adobe Experience Cloud solutions, sign up for the Adobe Priority Product Update:
