@@ -21,7 +21,7 @@ Jon Tehero, Group Product Manager for [!DNL Adobe Target], will answer your ques
 * [!DNL Adobe Target] UI
 * General [!DNL Adobe Target] topics
 
-## Webinar: Personalize and test at zero latency with on-device decisions from Adobe Target
+## Webinar: Personalize and test at zero latency with on-device decisions from [!DNL Adobe Target]
 
 More than ever, marketers, product owners, and developers are being tasked with optimizing the overall customer experience on sites, in apps, and everywhere else they connect with their customers. Multiple tools with data silos and complicated implementations won’t cut it.
 

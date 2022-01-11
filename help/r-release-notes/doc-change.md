@@ -1,6 +1,6 @@
 ---
 keywords: target documentation change log;documentation updates;new topics;edits;updates;update
-description: Keep up to date with important additions and changes to the Adobe [!DNL Target] product documentation.
+description: Keep up to date with important additions and changes to the [!DNL Adobe Target] documentation.
 title: Where Can I See Documentation Updates for Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb

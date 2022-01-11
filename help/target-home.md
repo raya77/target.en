@@ -15,7 +15,7 @@ exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 
 >[!NOTE]
 >
->Adobe Target was recently named a Leader in the following reports:
+>[!DNL Adobe Target] was recently named a Leader in the following reports:
 >
 >**[Forrester wave report for experience optimization platforms.](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)** Adobe Target was named a Leader in The Forrester Wave: Experience Optimization Platforms, Q4 2020 report.
 >
