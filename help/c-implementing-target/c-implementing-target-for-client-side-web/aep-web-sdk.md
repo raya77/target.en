@@ -15,6 +15,10 @@ For more information, see the following links in the *Adobe Experience Platform 
 * For comprehensive information: [What is Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * For information specific to [!DNL Target]: [Target Overview](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)
 
+## Tutorial: Implement Adobe Experience Cloud with Platform Web SDK
+
+Learn how to [implement Experience Cloud applications using Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target=_blank}. For information specific to Target, see [Set up Target with Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-target.html){target=_blank} within the tutorial.
+
 ## Recommended documentation
 
 In addition to the [!DNL Platform Web SDK] documentation mentioned above, topics in this guide also have information specific to the [!DNL Platform Web SDK] as it relates to [!DNL Target] features and functionality.
