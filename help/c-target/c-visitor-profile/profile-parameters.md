@@ -228,9 +228,9 @@ else if (mbox.param("adobeQA"))
 
 Creates a variable called `adobeQA` to track a user for [Activity QA](/help/c-activities/c-activity-qa/activity-qa.md).
 
-### Objects and methods
+### Objects and methods {#objects}
 
-The following properties and methods can be referenced by script profile parameters:
+The following objects and methods can be referenced by script profile parameters:
 
 |Object or Method|Details|
 | --- | --- |
