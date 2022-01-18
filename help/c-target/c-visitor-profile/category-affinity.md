@@ -11,7 +11,7 @@ The category affinity feature in [!DNL Adobe Target] automatically captures the 
 
 ## Passing category affinity information into [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
-Whenever a user visits your site, profile parameters specific to the visitor are recorded in the [!DNL Target] database. This data is tied to the user's cookie. One useful parameter is `user.categoryId`, an mbox parameter assigned on a product page. As the visitor continues to browse, or returns for another session, the categories of products a particular user views can be recorded. You can also record category information by passing it as the mbox parameter `user.categoryId` in any mbox (including a nested mbox), as a URL parameter `user.categoryId`, or in Target page parameters with a global mbox. See your account representative for more details.
+Whenever a user visits your site, profile parameters specific to the visitor are recorded in the [!DNL Target] database. This data is tied to the user's cookie. One useful parameter is `user.categoryId`, an mbox parameter assigned on a product page. As the visitor continues to browse, or returns for another session, the categories of products a particular user views can be recorded. You can also record category information by passing it as the mbox parameter `user.categoryId` in any mbox (including a nested mbox), as a URL parameter `user.categoryId`, or in [!DNL Target] page parameters with a global mbox. See your account representative for more details.
 
 Separate categories with a comma to include an item in multiple categories. For example:
 
@@ -19,15 +19,15 @@ Separate categories with a comma to include an item in multiple categories. For 
 
 Based on the frequency and recency of visits to your product categories, the category affinity (if any) a user has is recorded. Category affinity can be used to target populations for your activities.
 
-You can use `user.categoryAffinities[]` in a profile script to return an array of the affinities that a visitor has populated.
+You can use `user.categoryAffinities[]` in a profile script to return an array of the affinities that a visitor has populated. For more information, see [user.categoryAffinities under Objects and methods in Profile attributes](/help/c-target/c-visitor-profile/profile-parameters.md#objects).
 
 >[!IMPORTANT]
 >
->The `user.categoryId` attribute used for category affinity algorithm is distinct from the `entity.categoryId` attribute used for [!DNL Adobe Target Recommendations]' product and content recommendations. `user.categoryId` is required to track a user's favorite category. `entity.categoryId` is required to base recommendations on the current page's or current item's category. Pass both values to Adobe Target if you want to use both capabilities.
+>The `user.categoryId` attribute used for category affinity algorithm is distinct from the `entity.categoryId` attribute used for [!DNL Adobe Target Recommendations]' product and content recommendations. `user.categoryId` is required to track a user's favorite category. `entity.categoryId` is required to base recommendations on the current page's or current item's category. Pass both values to [!DNL Target] if you want to use both capabilities.
 
 ## Business case for category affinity {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
-A visitor's activity in one session, such as which category he or she views the most often, can be used for targeting in subsequent visits. Each category page a visitor views during a session is captured, and his or her "favorite" category is calculated based on a recency and frequency model. Then, every time the visitor returns to the home page, the hero image area can be targeted to show content related to that user's favorite category.
+A visitor's activity in one session, such as which category they view most often, can be used for targeting in subsequent visits. Each category page a visitor views during a session is captured, and his or her "favorite" category is calculated based on a recency and frequency model. Then, every time the visitor returns to the home page, the hero image area can be targeted to show content related to that user's favorite category.
 
 ## Example of using category affinity {#section_A4AC0CA550924CB4875F4F4047554C18}
 
@@ -108,7 +108,8 @@ The following sections contain information to help you use a category affinity a
 
 1. Select the desired category:
 
-    ![Category Affinity > Category](/help/c-target/c-visitor-profile/assets/affinity-category.png)
+    ![Category Affinity > Category](
+        assets/affinity-category.png)
 
     Categories include:
 
