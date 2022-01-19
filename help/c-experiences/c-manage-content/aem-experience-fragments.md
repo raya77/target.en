@@ -17,7 +17,7 @@ Using experience fragments created in [!DNL AEM] in [!DNL Target] activities let
 
 [!DNL AEM] brings together all of your content and assets in a central location to fuel your personalization strategy. [!DNL AEM] lets you easily create content for desktops, tablets, and mobile devices in one location without writing code. There’s no need to create pages for every device. [!DNL AEM] automatically adjusts each experience using your content.
 
-[!DNL Target] lets you deliver personalized experiences at scale based on a combination of rules-based and AI-driven machine learning approaches that incorporate behavioral, contextual, and offline variables. With Target,] you can easily set up and run [A/B Test](/help/c-activities/t-test-ab/test-ab.md) and [Multivariate](/help/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) activities to determine the best offers, content, and experiences.
+[!DNL Target] lets you deliver personalized experiences at scale based on a combination of rules-based and AI-driven machine learning approaches that incorporate behavioral, contextual, and offline variables. With [!DNL Target], you can easily set up and run [A/B Test](/help/c-activities/t-test-ab/test-ab.md) and [Multivariate](/help/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) activities to determine the best offers, content, and experiences.
 
 Experience fragments represent a huge step forward to link the content/experience creators and managers to the optimization and personalization professionals who are driving business outcomes using [!DNL Target].
 
@@ -136,7 +136,7 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 * The experience fragment is imported into [!DNL Target] as an HTML offer. The experience fragment "primary" version remains in [!DNL AEM]. You cannot edit the experience fragment in [!DNL Target].
 * You cannot create experience fragments using [!DNL Adobe I/O]. Create experience fragments using AEM, as explained above.
 
-## Training video: Using AEM experience fragments with [!DNL Adobe Target] ![Tutorial badge](/help/assets/overview.png) {#section_C0EDC54063464F41A182492D2045BC64}
+## Training video: Using AEM experience fragments with [!DNL Adobe Target]
 
 The following video shows you how to set up and use experience fragments: 
 
@@ -146,4 +146,4 @@ The following video shows you how to set up and use experience fragments:
 >
 >The [!DNL AEM] deeplink feature discussed at 4:54 has been removed.
 
-For more information, see [Using Experience Fragments with Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html) on the *AEM Sites Videos and Tutorials* page.
+For more detailed information, see [Using Experience Fragments with Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html) on the *AEM Sites Videos and Tutorials* page.
