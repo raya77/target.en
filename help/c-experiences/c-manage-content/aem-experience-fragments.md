@@ -1,25 +1,23 @@
 ---
 keywords: experience;json;aem;adobe experience manager;export to adobe target;experience fragments;fragments;XF
-description: Learn how to use AEM experience fragments in Adobe [!DNL Target] activities. Combine the ease-of-use and power of AEM with powerful AI and ML capabilities in [!DNL Target].
-title: How Do I Use Adobe Experience Manager (AEM) Experience Fragments?
+description: Learn how to use [!DNL Adobe Experience Manager] experience fragments in [!DNL Adobe Target] activities.
+title: How Do I Use [!DNL Adobe Experience Manager] (AEM) Experience Fragments?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
 ---
 # AEM experience fragments
 
-Information about using experience fragments created in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activities to aid optimization or personalization.
+Use experience fragments created in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activities to aid optimization or personalization.
 
 >[!NOTE]
 >
->This feature requires that you are an [!DNL Adobe Experience Manager] ([!DNL AEM]) customer. See [Requirements](/help/c-experiences/c-manage-content/aem-experience-fragments.md#section_AE6F0971E1574B3AA324003599B96E5A), below, for more information.
+>This feature requires that you are an [!DNL Adobe Experience Manager] (AEM) customer. For more information, see [Requirements](#section_AE6F0971E1574B3AA324003599B96E5A) below.
 
-## Overview {#section_95A91830530F493B81C5C9CDB9B783EA}
-
-Using experience fragments created in [!DNL AEM] in [!DNL Target] activities lets you combine the ease-of-use and power of [!DNL AEM] with powerful Automated Intelligence (AI) and Machine Learning (ML) capabilities in [!DNL Target] to test and personalize experiences at scale.
+Using experience fragments created in [!DNL AEM] in [!DNL Target] activities lets you combine the ease-of-use and power of [!DNL AEM] with powerful Artificial Intelligence (AI) and Machine Learning (ML) capabilities in [!DNL Target] to test and personalize experiences at scale.
 
 [!DNL AEM] brings together all of your content and assets in a central location to fuel your personalization strategy. [!DNL AEM] lets you easily create content for desktops, tablets, and mobile devices in one location without writing code. There’s no need to create pages for every device. [!DNL AEM] automatically adjusts each experience using your content.
 
-[!DNL Target] lets you deliver personalized experiences at scale based on a combination of rules-based and AI-driven machine learning approaches that incorporate behavioral, contextual, and offline variables. With [!DNL Target] you can easily set up and run [A/B Test](/help/c-activities/t-test-ab/test-ab.md) and [Multivariate](/help/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) activities to determine the best offers, content, and experiences.
+[!DNL Target] lets you deliver personalized experiences at scale based on a combination of rules-based and AI-driven machine learning approaches that incorporate behavioral, contextual, and offline variables. With Target,] you can easily set up and run [A/B Test](/help/c-activities/t-test-ab/test-ab.md) and [Multivariate](/help/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) activities to determine the best offers, content, and experiences.
 
 Experience fragments represent a huge step forward to link the content/experience creators and managers to the optimization and personalization professionals who are driving business outcomes using [!DNL Target].
 
@@ -27,10 +25,12 @@ Experience fragments represent a huge step forward to link the content/experienc
 
 You must be provisioned with the experience fragments functionality within [!DNL Target]. In addition, you must be using [!DNL AEM] 6.3 with the appropriate service pack or [!DNL AEM] 6.4 (or later). Your account representative can help ensure that you meet the requirements to use this feature:
 
-* [!DNL Adobe Experience Manager] 6.4 (or later). 
+* [!DNL Adobe Experience Manager] 6.5.
+* [!DNL Adobe Experience Manager] 6.4. 
 * [!DNL Adobe Experience Manager] 6.3 SP2 (or later). 
 * [!DNL Adobe Target Standard] or [!DNL Adobe Target Premium] account. 
-* Contact [Adobe Target Customer Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) to enable the integration and to provide you with authentication details.
+
+Contact [Adobe Target Customer Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) to enable the integration and to provide you with authentication details.
 
 ## Creating and configuring experience fragments in [!DNL AEM] {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
@@ -51,7 +51,7 @@ Experience fragments are created in [!DNL AEM]. For more information, see:
 
 * **[!DNL AEM] 6.3**: [Experience Fragments](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) in the *Adobe Experience Manager 6.3* documentation.
 * **[!DNL AEM] 6.4**: [Experience Fragments](https://experienceleague.adobe.com/docs/experience-manager-64/authoring/authoring/experience-fragments.html?lang=en) in the *Adobe Experience Manager 6.4* documentation.
-* **[!DNL AEM] 6.5**: [Experience Fragments](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html) in the *Adobe Experience Manager 6.5* documentation.
+* **[!DNL AEM] 6.5**: [Experience Fragments](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/experience-fragments.html?lang=en) in the *Adobe Experience Manager 6.5* documentation.
 
 ### Step 3: Configure [!DNL AEM] to share the experience fragment with [!DNL Target]
 
@@ -68,9 +68,9 @@ Experience fragments are created in [!DNL AEM]. For more information, see:
 
 Depending on your [!DNL AEM] version, see the following links for step-by-step instructions:
 
-* **[!DNL AEM] 6.3**: [Exporting an Experience Fragment to Target](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html) in the *Adobe Experience Manager 6.3* documentation.
+* **[!DNL AEM] 6.3**: [Exporting an Experience Fragment to Target](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) in the *Adobe Experience Manager 6.3* documentation.
 * **[!DNL AEM] 6.4**: [Exporting an Experience Fragment to Target](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html) in the *Adobe Experience Manager 6.4* documentation.
-* **[!DNL AEM] 6.5**: [Exporting an Experience Fragment to Target](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) in the *Adobe Experience Manager 6.5* documentation.
+* **[!DNL AEM] 6.5**: [Exporting an Experience Fragment to Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=en) in the *Adobe Experience Manager 6.5* documentation.
 
 ## Using experience fragments in [!DNL Target] activities {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
@@ -78,11 +78,9 @@ After performing the preceding tasks, the experience fragment displays on the [!
 
 >[!NOTE]
 >
->[!DNL Target] currently looks for experience fragments to import every ten minutes. The imported experience fragment should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
-
->[!IMPORTANT]
+>* [!DNL Target] currently looks for experience fragments to import every ten minutes. The imported experience fragment should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
 >
->The experience fragment is currently imported into [!DNL Target] as an HTML offer. Note that the experience fragment "primary" version remains in [!DNL AEM]. You cannot edit the experience fragment in [!DNL Target].
+>* The experience fragment is imported into [!DNL Target] as an HTML offer. That experience fragment "primary" version remains in [!DNL AEM]. You cannot edit the experience fragment in [!DNL Target].
 
 You can hover over an experience fragment in the list, then click the [!UICONTROL View] icon ![View icon](assets/icon_info.png) to see additional information about the experience fragment, including its public offer delivery URL and its [!DNL AEM] path.
 
@@ -90,7 +88,7 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 
 >[!NOTE]
 >
->To fully utilize the [!DNL Target] AI and ML functionality, you can select [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) or [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) while creating an A/B Test.
+>To fully use the [!DNL Target] AI and ML functionality, you can select [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) or [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) while creating an A/B Test.
 
 **To consume experience fragments using the VEC:**
 
@@ -100,7 +98,7 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
    * [!UICONTROL Insert After]
    * [!UICONTROL Swap with Experience Fragment]
 
-   The [!UICONTROL Experience Fragment] list displays all of the content created in [!DNL AEM] that is now natively available from within [!DNL Target].
+   The [!UICONTROL Experience Fragment] list displays the content created in [!DNL AEM] that is now natively available from within [!DNL Target].
 
    >[!NOTE]
    >
@@ -127,7 +125,7 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 
    ![](assets/experience_fragment_list.png)
 
-   The [!UICONTROL Experience Fragment] list displays all of the content created in [!DNL AEM] that is now natively available from within [!DNL Target]. 
+   The [!UICONTROL Experience Fragment] list displays the content created in [!DNL AEM] that is now natively available from within [!DNL Target]. 
 
 1. Select the desired experience fragment, then click **[!UICONTROL Save]**. 
 1. Finish configuring the activity.
@@ -135,10 +133,10 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 ## Considerations {#considerations}
 
 * [!DNL Target] currently looks for experience fragments to import every ten minutes. The imported experience fragment should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
-* The experience fragment is currently imported into [!DNL Target] as an HTML offer. Note that the experience fragment "primary" version remains in [!DNL AEM]. You cannot edit the experience fragment in [!DNL Target].
-* You cannot create experience fragments using Adobe IO. You must create experience fragments using AEM, as explained above.
+* The experience fragment is imported into [!DNL Target] as an HTML offer. The experience fragment "primary" version remains in [!DNL AEM]. You cannot edit the experience fragment in [!DNL Target].
+* You cannot create experience fragments using [!DNL Adobe I/O]. Create experience fragments using AEM, as explained above.
 
-## Training video: Using AEM experience fragments with Adobe Target ![Tutorial badge](/help/assets/overview.png) {#section_C0EDC54063464F41A182492D2045BC64}
+## Training video: Using AEM experience fragments with [!DNL Adobe Target] ![Tutorial badge](/help/assets/overview.png) {#section_C0EDC54063464F41A182492D2045BC64}
 
 The following video shows you how to set up and use experience fragments: 
 
