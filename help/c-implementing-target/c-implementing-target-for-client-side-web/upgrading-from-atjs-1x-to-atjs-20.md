@@ -325,6 +325,11 @@ The following at.js 1.x parameters are *NOT* currently supported for audience cr
 * screenOrientation
 * colorDepth
 * devicePixelRatio
+* vst.* parameters ([see below](#vst))
+
+### at.js 2.*x* does not support creating audiences using vst.* parameters {#vst}
+
+Customers on at.js 1.*x* were able to use vst.* mbox parameters to create audiences. This was an unintended side-effect of how at.js 1.*x* sent mbox parameters to the [!DNL Target] back-end. After migrating to at.js 2.*x*, you can no longer create audiences using these parameters because at.js 2.*x* sends mbox parameters differently.
 
 ## at.js compatibility
 

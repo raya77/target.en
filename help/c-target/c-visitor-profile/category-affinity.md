@@ -1,13 +1,13 @@
 ---
 keywords: affinity;category affinity
-description: Learn about category affinity in Adobe [!DNL Target] that automatically captures categories a user visits and then calculates the user's affinity for the category so it can be targeted and segmented on.
+description: Learn about category affinity in [!DNL Adobe Target] that automatically captures categories a user visits and then calculates the user's affinity for the category so it can be targeted and segmented on.
 title: What Is Category Affinity?
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
 ---
 # Category affinity
 
-The category affinity feature in [!DNL Adobe Target] automatically captures the categories a user visits and then calculates the user's affinity for the category so it can be targeted and segmented on. Category affinity helps to ensure that content is targeted to visitors who are most likely to act on that information.
+The category affinity feature in [!DNL Adobe Target] automatically captures the categories on your site that a user visits and then calculates the user's affinity for each category so it can be targeted and segmented on. Category affinity helps to ensure that content is targeted to visitors who are most likely to act on that information.
 
 ## Passing category affinity information into [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
