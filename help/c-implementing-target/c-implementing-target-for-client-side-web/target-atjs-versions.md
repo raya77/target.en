@@ -26,6 +26,13 @@ This release contains the following enhancement:
 
 * Added support for [Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components). This version of at.js is required to create and test personalized experiences and offers on custom elements and on elements inside custom elements. This functionality is included in the [!DNL Target Standard/Premium] 21.10.5 release.
 
+## at.js 1.8.3 (September 21, 2021) {#183}
+
+This release contains the following changes:
+
+* Removed the `reactor-window` and `reactor-document` [!DNL Adobe Experience Platform Launch] modules to ensure that the [!DNL Platform Launch] build functions correctly for customers who have `window.default` or `document-default` set.
+* at.js 1.8.3 now explicitly sets `Samesite=None` and `Secure` to ensure that third-party domain cookies are set properly.
+
 ## at.js 2.6.1 (August 16, 2021)
 
 * Bug fix for "No cached artifact available for hybrid mode" when using on-device decisioning.
