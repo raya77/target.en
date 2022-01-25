@@ -18,6 +18,14 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## Adobe Experience Platform audiences in [!DNL Target] (January 26, 2022)
+
+You can now consume and use [!DNL Adobe Experience Platform] audiences in [!DNL Target]. The [!DNL Target] team, [!DNL Experience Platform] [!DNL Destinations] team and the [!DNL Unified Profile Service] team is pleased to announce the general availability of the “Same Page/Next Page Personalization” use cases.
+
+Using audiences created in [!DNL Adobe Experience Platform] provide richer customer data that leads to more impactful personalization. The [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCP), built on [!DNL Adobe Experience Platform] helps companies bring together known and anonymous data from multiple enterprise sources to create customer profiles that can be used to provide personalized customer experiences across all channels and devices in real time.
+
+For more information, see [Use audiences from Adobe Experience Platform](/help/c-target/c-audiences/audiences.md#aep) in *Create audiences*.
+
 ## at.js version 2.8.0 (January 7, 2022)
 
 The [!DNL Target] at.js JavaScript library now collects feature usage and performance telemetry data. Personal data is not collected. Opt-out for this feature is available by setting `telemetryEnabled` to false in `targetGlobalSettings`. For more information, see [telemetryEnabled in targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).

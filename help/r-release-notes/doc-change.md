@@ -13,6 +13,9 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|January 6|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the Adobe Experience Platform audiences functionality that enables “Same Page/Next Page Personalization.”|
+||[Create audiences](/help/c-target/c-audiences/audiences.md)|Added information about [!DNL Adobe Experience Platform] audiences.|
+||[Combine multiple audiences](/help/c-target/combining-multiple-audiences.md)|Added information about [!DNL Adobe Experience Platform] audiences.|
 |January 21|[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#183)|Added information about the at.js 1.8.3 release.|
 |January 19|[Upgrading from at.js 1.*x* to at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst) |Added following section: "at.js 2.*x* does not support creating audiences using vst.* parameters"|
 |January 12|[Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)|Added link to tutorial with instructions to implement [!DNL Adobe Experience Cloud] with Web SDK.|
