@@ -41,7 +41,9 @@ The [!UICONTROL Audiences] list contains the audiences that you can use in your 
   >
   >The [!DNL Adobe Experience Platform] source is available to all [!DNL Target] customers using the [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Audiences available from the [!DNL Adobe Experience Platform] can be used as is or [combined with existing audiences](/help/c-target/combining-multiple-audiences.md).
   >
-  >Users must have [!UICONTROL Approver] or above status in [!DNL Target] to configure [!DNL Target] [!UICONTROL Destinations] cards in AEP/RTCDP ([!DNL Real-Time Customer Data Platform]).
+  >Users must have [!UICONTROL Approver] or above status in [!DNL Target] to configure [!DNL Target] [!UICONTROL Destinations] cards in AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
+  >
+  >For more information see [Use audiences from Adobe Experience Platform](#aep).
 
 Predefined audiences, such as "[!UICONTROL New Visitors]" and "[!UICONTROL Returning Visitors]," cannot be renamed.
 
@@ -96,6 +98,28 @@ Keep the following points in mind as you work with imported audiences:
 
 * Expression target audiences are no longer supported in Target Standard/Premium. 
 * Target Standard/Premium does not support some deprecated audiences or has improved operators for ease of use. Because of this, the definition of an imported audience, although working as per definition, does not mean that same is now available for creation in the Standard/Premium interface. For example, Social Audiences are visible with their rules but Target Standard/Premium does not allow social audiences to be created.-->
+
+## Use audiences from [!DNL Adobe Experience Platform] {#aep}
+
+Using audiences created in [!DNL Adobe Experience Platform] provide richer customer data that leads to more impactful personalization. The [!DNL [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank}] (RTCP), built on [!DNL Adobe Experience Platform] helps companies bring together known and anonymous data from multiple enterprise sources to create customer profiles that can be used to provide personalized customer experiences across all channels and devices in real time.
+
+By connecting [!DNL Target] to the [!DNL Real-time Customer Data Platform], customers can enrich their web personalization by unlocking new segments that might have been previously inaccessible to [!DNL Target] to enable real-time millisecond personalization on the first page of a customer's web visit. Using audiences created in [!DNL Adobe Experience Platform] let you expand the available data points for richer personalization.
+
+For more information, see the following topics:
+
+* [Custom personalization connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} in the *Destinations overview* guide
+* [Adobe Target connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} in the *Destinations overview* guide
+* [Configure personalization destinations for same page and next page personalization use cases](https://git.corp.adobe.com/AdobeDocs/experience-platform.en/pull/2439){target=_blank} (not live yet)
+
+The following table shows the evaluation time for events coming from different implementation scenarios:
+
+|Scenario|Edge segment (millisecond evaluation)|Streaming segment (minute evaluation)|Batch segment evaluation|
+| --- | --- | --- | --- |
+|Events/data from Adobe Experience Platform SDKs|Yes|Yes|N/A|
+|Events from at.js|No|Yes|N/A|
+|Events from Target Mobile SDKs|No|Yes|N/A|
+|Events from batch upload|No|No|Yes|
+|Events from offline data (stream)|No|Yes|Yes|
 
 ## Training video: Using Audiences ![Tutorial badge](/help/assets/tutorial.png)
 
