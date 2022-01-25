@@ -109,9 +109,9 @@ For more information, see the following topics:
 
 * [Custom personalization connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} in the *Destinations overview* guide
 * [Adobe Target connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} in the *Destinations overview* guide
-* [Configure personalization destinations for same page and next page personalization use cases](https://git.corp.adobe.com/AdobeDocs/experience-platform.en/pull/2439){target=_blank} (not live yet)
+* [Configure personalization destinations for same page and next page personalization use cases](https://git.corp.adobe.com/AdobeDocs/experience-platform.en/pull/2439){target=_blank} (Not live yet and in githup. I'll coordinate with Vlad to get the final URL after it is published.)
 
-The following table shows the evaluation time for events coming from different implementation scenarios:
+The following table shows the segment evaluation time for events coming from different implementation scenarios:
 
 |Scenario|Edge segment (millisecond evaluation)|Streaming segment (minute evaluation)|Batch segment evaluation|
 | --- | --- | --- | --- |
