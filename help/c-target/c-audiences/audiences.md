@@ -107,6 +107,7 @@ By connecting [!DNL Target] to the [!DNL Real-time Customer Data Platform], cust
 
 For more information, see the following topics:
 
+* [Release notes](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} (not live yet)
 * [Custom personalization connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} in the *Destinations overview* guide
 * [Adobe Target connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} in the *Destinations overview* guide
 * [Configure personalization destinations for same page and next page personalization use cases](https://git.corp.adobe.com/AdobeDocs/experience-platform.en/pull/2439){target=_blank} (Not live yet and in githup. I'll coordinate with Vlad to get the final URL after it is published.)
