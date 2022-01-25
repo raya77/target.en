@@ -1,6 +1,6 @@
 ---
 keywords: audience;audience rules;create audience;creating audience;targeting audience;reporting audience;report audience;segment;custom profile parameters;audience definition;audiences list
-description: Learn how to use the [!UICONTROL Audiences] list in [!DNL Adobe Target].
+description: Learn how to use audiences in [!DNL Adobe Target].
 title: How Do I Use the Audience List?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415

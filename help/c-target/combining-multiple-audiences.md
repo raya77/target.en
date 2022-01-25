@@ -11,7 +11,7 @@ Combine multiple audiences (including [!DNL Adobe Experience Cloud], [!DNL Adobe
 
 >[!NOTE]
 >
->The [!DNL Adobe Experience Platform] source is in a Beta testing program, but is available to all [!DNL Target] customers using the [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Audiences available from the [!DNL Adobe Experience Platform] can be used as is or [combined with existing audiences](/help/c-target/combining-multiple-audiences.md).
+>The [!DNL Adobe Experience Platform] source is available to all [!DNL Target] customers using the [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Audiences available from the [!DNL Adobe Experience Platform] can be used as is or combined with existing audiences, as explained in this topic).
 
 Suppose that you have a "New Visitors" audience and a "Chrome Users" audience. For a specific activity, you might want to combine these existing audiences to target new visitors using Chrome browsers. Instead of creating a third audience and storing it in the [!UICONTROL Audiences] library, you can combine these two audiences during activity creation or while editing an existing activity.
 
@@ -31,7 +31,7 @@ You can create an ad hoc combined audience on the activity's [!UICONTROL Target]
 
 1. On the [!UICONTROL Choose Audience] page, select the check boxes next to the desired audiences that you want to use as building blocks for your combined audience.
 
-   Click the [!UICONTROL Filters] button to narrow your search for the desired audience. You can filter audiences by their source: ([!DNL Adobe Target], [!DNL Adobe Target Classic], [!DNL Experience Cloud], [!DNL Adobe Experience Platform] (beta)). 
+   Click the [!UICONTROL Filters] button to narrow your search for the desired audience. You can filter audiences by their source: [!DNL Adobe Target], [!DNL Adobe Target Classic], [!DNL Experience Cloud], [!DNL Adobe Experience Platform]. 
 
    ![Step Result](assets/combine_multiple_audiences1.png)
 
