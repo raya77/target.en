@@ -12,6 +12,8 @@ Combine multiple audiences (including [!DNL Adobe Experience Cloud], [!DNL Adobe
 >[!NOTE]
 >
 >The [!DNL Adobe Experience Platform] source is available to all [!DNL Target] customers using the [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Audiences available from the [!DNL Adobe Experience Platform] can be used as is or combined with existing audiences, as explained in this topic).
+>
+>For more information see [Use audiences from Adobe Experience Platform](/help/c-target/c-audiences/audiences.md#aep).
 
 Suppose that you have a "New Visitors" audience and a "Chrome Users" audience. For a specific activity, you might want to combine these existing audiences to target new visitors using Chrome browsers. Instead of creating a third audience and storing it in the [!UICONTROL Audiences] library, you can combine these two audiences during activity creation or while editing an existing activity.
 
