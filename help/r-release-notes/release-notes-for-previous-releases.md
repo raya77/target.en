@@ -15,6 +15,14 @@ Release notes are arraigned in descending order by month and year of release.
 >
 >See [Target release notes (current)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) for information about the current month's Target releases (platform and Target Standard/Premium).
 
+## Release notes - 2022
+
+### [!DNL Target Standard/Premium] 22.1.2 (January 12, 2022)
+
+|Feature|Details|
+| --- | --- |
+|Use Offer decisions in [!DNL Target] activities|You can now use [!DNL Adobe Journey Optimizer] offer decisions in [!DNL Adobe Target] A/B Test and Experience Targeting (XT) activities to determine and deliver the next best offer for your visitors on web and mobile.<br>**Note**: This capability is available for [!DNL Target] customers who also have access to [!DNL Offer Decisioning] and are having a [!DNL Target] implementation based on Adobe Experience Platform Web SDK.<br>For more information, see [Use offer decisions](/help/c-integrating-target-with-mac/ajo/offer-decision.md).|
+
 ## Release notes - 2021
 
 ### at.js version 2.7.0 (October 28, 2021)

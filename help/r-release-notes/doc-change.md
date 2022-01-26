@@ -9,16 +9,22 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 
 This page lists significant changes made to the [!DNL Adobe Target] product documentation.
 
-## [!DNL Adobe Target Standard/Premium] 21.10.1 (October 6, 2021)
+## [!DNL Adobe Target Standard/Premium] 22.1.1 (January 12, 2022)
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|January 6|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the Adobe Experience Platform audiences functionality that enables “Same Page/Next Page Personalization.”|
+|January 26|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the Target Standard/Premium 22.1.1 release.|
 ||[Create audiences](/help/c-target/c-audiences/audiences.md)|Added information about [!DNL Adobe Experience Platform] audiences.|
 ||[Combine multiple audiences](/help/c-target/combining-multiple-audiences.md)|Added information about [!DNL Adobe Experience Platform] audiences.|
 |January 21|[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#183)|Added information about the at.js 1.8.3 release.|
 |January 19|[Upgrading from at.js 1.*x* to at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst) |Added following section: "at.js 2.*x* does not support creating audiences using vst.* parameters"|
-|January 12|[Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)|Added link to tutorial with instructions to implement [!DNL Adobe Experience Cloud] with Web SDK.|
+|January 12|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the Target Standard/Premium 22.1.1 release.|
+||[Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)|Added link to tutorial with instructions to implement [!DNL Adobe Experience Cloud] with Web SDK.|
+
+## [!DNL Adobe Target Standard/Premium] 21.10.1 (October 6, 2021)
+
+|Date|Topic|Changes|
+| --- | --- | --- |
 |January 11|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added information about the following event:<ul><li>[!DNL Adobe Target] Community Q&A Coffee Break (January 19, 2022)</li></ul>|
 |January 7|[Release Notes](/help/r-release-notes/release-notes.md)|Added information about the at.js version 2.8.0 release.|
 ||[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about the at.js version 2.8.0 release.|
