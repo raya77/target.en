@@ -10,12 +10,6 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 
 These release notes provide information about features, enhancements, and fixes for each [!DNL Adobe Target Standard] and [!DNL Target Premium] release. In addition, release notes for Target APIs, SDKs, the [!DNL Adobe Experience Platform Web SDK], at.js, and other platform changes are also included, when applicable.
 
->[!IMPORTANT]
->
->**mbox.js end-of-life**: As of March 31, 2021, [!DNL Adobe Target] no longer supports the mbox.js library. Post March 31, 2021, all calls made from mbox.js will gracefully fail and impact your pages that have [!DNL Target] activities running by serving default content.
->
->Migrate to the most recent version of the new [!DNL Adobe Experience Platform Web SDK] or the at.js JavaScript library to avoid any potential issues with your sites. For more information, see [Overview: implement Target for client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
-
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
 ## [!DNL Target Standard/Premium] 22.1.2 (January 26, 2022)
@@ -23,12 +17,12 @@ These release notes provide information about features, enhancements, and fixes 
 |Feature|Details|
 | --- | --- |
 |[!DNL Adobe Experience Platform] audiences in [!DNL Target]|You can now consume and use [!DNL Adobe Experience Platform] audiences in [!DNL Target]. The [!DNL Target] team, [!DNL Experience Platform] [!DNL Destinations] team and the [!DNL Unified Profile Service] team is pleased to announce the general availability of the “Same Page/Next Page Personalization” use cases.<br>Using audiences created in [!DNL Adobe Experience Platform] provide richer customer data that leads to more impactful personalization. The [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCP), built on [!DNL Adobe Experience Platform] helps companies bring together known and anonymous data from multiple enterprise sources to create customer profiles that can be used to provide personalized customer experiences across all channels and devices in real time.<br>For more information, see [Use audiences from Adobe Experience Platform](/help/c-target/c-audiences/audiences.md#aep) in *Create audiences*.|
+|[!UICONTROL Audiences] UI refresh|As part of the [!DNL Adobe Target] team's ongoing effort to improve the user-experience for [!DNL Target] users, this release refreshes the [!UICONTROL Audiences] and [!UICONTROL Profile Scripts] pages in the [!DNL Target] UI. This update unifies and standardizes design patterns that were previously inconsistent, while adding new enhancements, such as:<ul><li>The ability to select and delete multiple audiences simultaneously</li><li>A refreshed [audience builder design](/help/c-target/c-audiences/create-audience.md)</li><li>Exclusion rule support in the [!UICONTROL Audience] library rule builder</li><li>A new “Audience Source” filter, to allow for faster audience discovery</li><li>Session persistent search and filter options</li></ul>**NOTE**: This feature will be rolled out to customers in different regions in the near future.<ul>For more information, see [Audiences](/help/c-target/target.md).|
+|[!UICONTROL Profile Scripts] UI refresh|The [!UICONTROL Profile Scripts] library was also updated, and includes a refreshed interface along and several productivity updates:<ul><li>The ability to select and delete multiple profile scripts simultaneously</li><li>A new code editor for profile scripts</li><li>Syntax highlighting and error checking inside the code editor</li><li>Auto-complete tokens (mbox or profile) parameters through keyboard shortcuts</li></ul>**NOTE**: This feature will be rolled out to customers in different regions in the near future.</ul>For more information, see [Visitor Profiles](/help/c-target/c-visitor-profile/visitor-profile.md).|
 
-## [!DNL Target Standard/Premium] 22.1.2 (January 12, 2022)
+## [!DNL Target Standard/Premium] 22.1.1 (January 12, 2022)
 
-|Feature|Details|
-| --- | --- |
-|Use Offer decisions in [!DNL Target] activities|You can now use [!DNL Adobe Journey Optimizer] offer decisions in [!DNL Adobe Target] A/B Test and Experience Targeting (XT) activities to determine and deliver the next best offer for your visitors on web and mobile.<br>**Note**: This capability is available for [!DNL Target] customers who also have access to [!DNL Offer Decisioning] and are having a [!DNL Target] implementation based on Adobe Experience Platform Web SDK.<br>For more information, see [Use offer decisions](/help/c-integrating-target-with-mac/ajo/offer-decision.md).|
+This release includes bug fixes and pre-requisite capabilities for future integrations.
 
 ## at.js version 2.8.0 (January 7, 2022)
 
