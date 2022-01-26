@@ -13,7 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|January 26|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the Target Standard/Premium 22.1.1 release.|
+|January 26|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the Target Standard/Premium 22.1.2 release.|
 ||[Create audiences](/help/c-target/c-audiences/audiences.md)|Added information about [!DNL Adobe Experience Platform] audiences.|
 ||[Combine multiple audiences](/help/c-target/combining-multiple-audiences.md)|Added information about [!DNL Adobe Experience Platform] audiences.|
 |January 21|[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#183)|Added information about the at.js 1.8.3 release.|
