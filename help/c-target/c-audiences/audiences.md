@@ -101,16 +101,16 @@ Keep the following points in mind as you work with imported audiences:
 
 ## Use audiences from [!DNL Adobe Experience Platform] {#aep}
 
-Using audiences created in [!DNL Adobe Experience Platform] provide richer customer data that leads to more impactful personalization. The [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCP), built on [!DNL Adobe Experience Platform] helps companies bring together known and anonymous data from multiple enterprise sources to create customer profiles that can be used to provide personalized customer experiences across all channels and devices in real time.
+Using audiences created in [!DNL Adobe Experience Platform] provide richer customer data that leads to more impactful personalization. The [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCP), built on [!DNL Adobe Experience Platform], helps companies bring together known and anonymous data from multiple enterprise sources. This process lets you create customer profiles that can be used to provide personalized customer experiences across all channels and devices in real time.
 
-By connecting [!DNL Target] to the [!DNL Real-time Customer Data Platform], customers can enrich their web personalization by unlocking new segments that might have been previously inaccessible to [!DNL Target] to enable real-time millisecond personalization on the first page of a customer's web visit. Using audiences created in [!DNL Adobe Experience Platform] let you expand the available data points for richer personalization.
+By connecting [!DNL Target] to the [!DNL Real-time Customer Data Platform], customers can enrich their web personalization by unlocking new segments that might have been previously inaccessible to [!DNL Target] to enable real-time millisecond personalization on the first page of a customer's web visit. Using audiences created in [!DNL Adobe Experience Platform] lets you expand the available data points for richer personalization.
 
 For more information, see the following topics:
 
-* [Release notes](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} (not live yet)
+* [Release notes](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en#platform){target=_blank}
 * [Custom personalization connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} in the *Destinations overview* guide
 * [Adobe Target connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} in the *Destinations overview* guide
-* [Configure personalization destinations for same page and next page personalization use cases](https://git.corp.adobe.com/AdobeDocs/experience-platform.en/pull/2439){target=_blank} (Not live yet and in githup. I'll coordinate with Vlad to get the final URL after it is published.)
+* [Configure personalization destinations for same page and next page personalization use cases](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank}
 
 The following table shows the segment evaluation time for events coming from different implementation scenarios:
 
