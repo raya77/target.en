@@ -87,7 +87,7 @@ To block one or more specific features from [!DNL Target] machine-learning algor
 |Attribute name|Attribute description|Sample values|System name|
 | --- | --- | --- | --- |
 |Geo - City|The city from which the visitor accessed the activity.|San Francisco|Geo_City|
-|Geo - Country|The country from which the visitor accessed the activity.|Germany|Geo_County|
+|Geo - Country|The country from which the visitor accessed the activity.|Germany|Geo_Country|
 |Geo - DMA|The Designated Marketing Area (DMA) from which the visitor accessed the activity.|Charlottesville|Geo_DMA|
 |Geo - Latitude|The latitude from which the visitor accessed the activity.|47.269<br>Rounded to 3 decimal places (approximately 100 meters accuracy)|GEO_Latitude|
 |Geo - Longitude|The longitude from which the visitor accessed the activity.|-122.269<br>Rounded to 3 decimal places (approximately 100 meters accuracy)|GEO_Longitude|
