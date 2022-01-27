@@ -1,6 +1,6 @@
 ---
 keywords: environmental data;session data;geo data;geographical data;device data;mobile data;attributes;profile attributes;personalization algorithms;machine-learning algorithms;machine learning algorithms
-description: Learn which data Adobe [!DNL Target] collects and uses to build its machine-learning algorithms in [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] (AT) activities.
+description: Learn which data Adobe [!DNL Target] collects and uses to build its machine-learning algorithms.
 title: What Data is Collected to Build Machine-Learning Algorithms?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
