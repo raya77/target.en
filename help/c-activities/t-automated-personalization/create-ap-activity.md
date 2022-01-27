@@ -1,11 +1,11 @@
 ---
 keywords: automated personalization;ap;audiences;ensemble;random forest;residual variance;error variance;lifetime value
-description: Learn how to create an Automated Personalization (AP) activity in Adobe [!DNL Target] using the Visual Experience Composer (VEC).
-title: How Do I Create an Automated Personalization Activity?
+description: Learn how to create an [!UICONTROL Automated Personalization] (AP) activity in [!DNL Adobe Target] using the Visual Experience Composer.
+title: How Do I Create an [!UICONTROL Automated Personalization] Activity?
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 ---
-# ![PREMIUM](/help/assets/premium.png) Create an Automated Personalization activity
+# ![PREMIUM](/help/assets/premium.png) Create an [!UICONTROL Automated Personalization] activity
 
 The [!UICONTROL Automated Personalization] (AP) activity workflow in [!DNL Adobe Target] varies from the workflow of the other activity types.
 
