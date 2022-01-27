@@ -72,7 +72,7 @@ Experience fragments are created in [!DNL AEM]. For more information, see:
 
 Depending on your [!DNL AEM] version, see the following links for step-by-step instructions:
 
-* **AEM as a Cloud Service**:
+* **AEM as a Cloud Service**: [Exporting Experience Fragments to Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target.html?lang=en){target=_blank}
 * **[!DNL AEM] 6.5**: [Exporting an Experience Fragment to Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=en){target=_blank} in the *Adobe Experience Manager 6.5* documentation. 
 * **[!DNL AEM] 6.4**: [Exporting an Experience Fragment to Target](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html){target=_blank} in the *Adobe Experience Manager 6.4* documentation.
 
