@@ -119,6 +119,7 @@ Key features include:
 For more information, see the following topics:
 
 * [Destinations release notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank}
+* [Configure personalization destinations for same-page and next-page personalization](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank}
 * [Custom personalization connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} in the *Destinations overview* guide
 * [Adobe Target connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} in the *Destinations overview* guide
 * [Configure personalization destinations for same page and next page personalization use cases](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank}
