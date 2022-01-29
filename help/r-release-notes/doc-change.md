@@ -13,6 +13,8 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|January 28|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the at.js 2.8.1 release.|
+||[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about the at.js 2.8.1 release.|
 |January 27|[AEM experience fragments](/help/c-experiences/c-manage-content/aem-experience-fragments.md)|Updated topic and added information about [!DNL AEM as a Cloud Service] and [!DNL Adobe I/0].|
 |January 26|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the Target Standard/Premium 22.1.2 release.|
 ||[Create audiences](/help/c-target/c-audiences/audiences.md)|Added information about [!DNL Adobe Experience Platform] audiences.|

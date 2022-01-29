@@ -12,6 +12,12 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## at.js version 2.8.1 (January 28, 2022)
+
+* Fixed `pageLoad` not being mapped to target-global-mbox in [!UICONTROL On Device Decisioning] (ODD) hybrid execution mode.
+* Fixed an issue with analytics details for mbox request.
+* Upgraded dev dependencies to fix security vulnerabilities.
+
 ## [!DNL Target Standard/Premium] 22.1.2 (January 26, 2022)
 
 |Feature|Details|
