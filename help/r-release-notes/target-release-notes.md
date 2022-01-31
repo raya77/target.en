@@ -9,15 +9,16 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: January 10, 2022**
+**Last Updated: January 31, 2022**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages could be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
->[!IMPORTANT]
->
->**mbox.js end-of-life**: As of March 31, 2021, [!DNL Adobe Target] no longer supports the mbox.js library. Post March 31, 2021, all calls made from mbox.js gracefully fail and impact your pages that have [!DNL Target] activities running by serving default content.
->
->To avoid any potential issues with your sites, migrate to the most recent version of the new [!DNL Adobe Experience Platform Web SDK] or the at.js JavaScript library. For more information, see [Overview: implement Target for client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+## Target Standard/Premium 22.2.1 (February 1, 2022)
+
+This maintenance release contains the following fixes and enhancements for the new [!UICONTROL Audiences] UI announced in the [Target Standard/Premium 22.1.2 release](/help/r-release-notes/release-notes.md) that is rolling out to customers across all regions in the next six weeks. These fixes align the functionality of audiences created in [!DNL Adobe Target Standard/Premium].
+
+* Fixed an issue that prevented imported audiences from [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud], and [!DNL Adobe Target Classic] from being assigned as reporting audiences. (TGT-43140)
+* Added a [!UICONTROL Delete] option in the [!UICONTROL Audiences] list for imported audiences from [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud], and [!DNL Adobe Target Classic]. Also added bulk-delete functionality. (TGT-42914)
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 
