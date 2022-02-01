@@ -9,6 +9,11 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 
 This page lists significant changes made to the [!DNL Adobe Target] product documentation.
 
+## Adobe Target Standard/Premium 22.2.1 (February 1, 2022)
+|Date|Topic|Changes|
+| --- | --- | --- |
+|February 1|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the [!DNL Target Standard/Premium] 22.2.1 release.|
+
 ## [!DNL Adobe Target Standard/Premium] 22.1.1 (January 12, 2022)
 
 |Date|Topic|Changes|
