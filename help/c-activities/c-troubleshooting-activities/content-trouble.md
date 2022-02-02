@@ -92,10 +92,7 @@ To use mboxDebug, append an mboxDebug parameter to the end of your URL. The foll
 | URL Parameters | Purpose |
 |--- |--- |
 |`mboxDebug=1`|Debugger<br>Adding this parameter to any URL with Target requests defined opens a pop-up window with valuable debugging details. Cookie information, PCid and Session ID values are written out, and all of the URLs are visible. Click on a Target request URL to show the response for that [!DNL Target] request. More details are available in [mbox_debug.pdf](/help/assets/mbox_debug.pdf).|
-|`mboxDebug=x-cookie`|Modify the cookie|
 |`mboxDisable=1`|Disable mboxes on the page|
-|`mboxDebug=x-profile`|View profiles set.|
-|`mboxDebug=x-time`|Show response time for each [!DNL Target] request|
 |`mboxOverride.browserIp=<Insert IP address>`|Test geotargeting<br>Test geotargeting with this URL parameter. Type an IP address as the value for this attribute, and Test&Target's geotargeting evaluates that IP address to match against any geotargeting or segmentation set in a campaign.|
 
 >[!NOTE]
@@ -183,6 +180,19 @@ In this scenario, the URL is `https://shopping.mycart.com?type=Summers%20Offers`
 In this scenario, the URL is `https://shopping.mycart.com?type=Summers%20Offers` and additional template rules specify a [!UICONTROL Query] with [!UICONTROL type] > [!UICONTROL is (case sensitive)] > type=Summers%20Offers, separated by an OR operator:
 
 ![Template rule leveraging a specific part of the URL](assets/option3.png)
+
+## Escaping double quotes in [!DNL Target] profile attribute value is not working as expected. {#escape}
+
+When you send values containing double quotes in a [!DNL Target] profile attribute, you must double escape it as show below.
+
+```
+adobe.target.trackEvent({
+    "mbox": "data-collection",
+    "params":    {
+        "profile.tagLine": "Escape \\\"Double Quotes\\\" like this."
+    }
+});
+```
 
 ## Training videos
 
