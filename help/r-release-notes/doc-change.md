@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|February 2|[Troubleshoot content delivery](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape)|Added following section: "Escaping double quotes in [!DNL Target] profile attribute value is not working as expected."|
 |February 1|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the [!DNL Target Standard/Premium] 22.2.1 release.|
 
 ## [!DNL Adobe Target Standard/Premium] 22.1.1 (January 12, 2022)
