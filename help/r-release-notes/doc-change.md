@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|February 7|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added information about the following event:<ul><li>[!DNL Adobe Target] Community Q&A Coffee Break (February 23, 2022)</li></ul>|
 |February 3|[Create audiences](/help/c-target/c-audiences/audiences.md#RTCDP)|Added new section and video: "Video: Next-hit personalization with Real-time CDP and [!DNL Adobe Target]."|
 |February 2|[Troubleshoot content delivery](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape)|Added following section: "Escaping double quotes in [!DNL Target] profile attribute value is not working as expected."|
 |February 1|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the [!DNL Target Standard/Premium] 22.2.1 release.|
