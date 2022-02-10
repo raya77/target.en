@@ -17,6 +17,10 @@ Information about known issues for [!DNL Adobe Target]. Also includes informatio
 
 The following sections list the known issues for [!DNL Target]:
 
+### Visual Experience Composer (VEC) loading websites with Service Workers
+
+There are some current limitations when trying to use the VEC to open a website that is using Service Workers. One workaround is to disable Service Workers from the Chrome Developer Tools > Application tab, then to enable the "Bypass for network" checkbox under the Service Workers section. (KB-2006)
+
 ### Traffic distribution of Auto-Allocate activities using A4T {#aa-a4t}
 
 In some cases, the traffic distribution of [!UICONTROL Auto-Allocate] activities using [!UICONTROL Analytics for Target] (A4T) might vary from what should occur based on the reported conversion rate of each experience. This occurs more often for activities with a high proportion of return visitor traffic. Affected customers will be notified about affected activities.
