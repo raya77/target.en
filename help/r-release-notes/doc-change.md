@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|February 10|[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md)|Added the following known issue:<ul><li>Visual Experience Composer (VEC) loading websites with Service Workers</li></ul>|
 |February 7|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added information about the following event:<ul><li>[!DNL Adobe Target] Community Q&A Coffee Break (February 23, 2022)</li></ul>|
 |February 3|[Create audiences](/help/c-target/c-audiences/audiences.md#RTCDP)|Added new section and video: "Video: Next-hit personalization with Real-time CDP and [!DNL Adobe Target]."|
 |February 2|[Troubleshoot content delivery](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape)|Added following section: "Escaping double quotes in [!DNL Target] profile attribute value is not working as expected."|
