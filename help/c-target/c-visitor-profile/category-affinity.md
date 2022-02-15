@@ -108,8 +108,7 @@ The following sections contain information to help you use a category affinity a
 
 1. Select the desired category:
 
-    ![Category Affinity > Category](
-        assets/affinity-category.png)
+    ![Category Affinity > Category](assets/affinity-category.png)
 
     Categories include:
 
