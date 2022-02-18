@@ -35,7 +35,7 @@ The following table shows the customer-provided data collected by by [!UICONTROL
 |URL parameters|URL|URL and any URL parameters for the currently-viewed page.|Custom - URL Parameter - [URL Parameter]|
 |Referring URL|REF|Referring URL and any URL parameters for the referring URL.|Custom - [Referring URL Parameter] - [Parameter value]|
 |Adobe Experience Cloud shared audiences|AAM|All audiences shared with [!DNL Target] from other [!DNL Adobe Experience Cloud] solutions (for example, [!DNL Adobe Audience Manager] and [!DNL Adobe Analytics], via the [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}).|Custom - Experience Cloud Audience - [Audience Name]|
-|Adobe Experience Platform RTCDP audiences|UPS|AEP RTCDP Audiences shared with [!DNL Target] via Destinations.<br>Note that this functionality is not yet in [!DNL Target] but will be implemented in the future.||
+|Adobe Experience Platform RTCDP audiences|UPS|AEP RTCDP Audiences shared with [!DNL Target] via Destinations.||
 
 ## Blocking features from [!DNL Target] machine-learning algorithms
 
