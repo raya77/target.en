@@ -67,7 +67,7 @@ You can delete an environment when it is no longer needed.
 
 You can preview the contents of Recommendations collections and exclusions for a selected environment (host group).
 
-{{#premium-note}}
+{{premium-note}}
 
 An environment can be used to separate the available items in your catalog for different uses. For example, you can use host groups for [!UICONTROL Development] and [!UICONTROL Production] environments, different brands, or different geographies. By default, preview results in Catalog Search, Collections, and Exclusions are based on the default host group. (You can also select a different host group to preview results, by using the Environment filter.) By default, newly added items are available in all host groups unless an environment ID is specified when creating or updating the item. 
 
