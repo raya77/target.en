@@ -1,6 +1,6 @@
 # Includes
 
-## Target Premium features {premium-note}
+## Target Premium features {#premium-note}
 
 >[!NOTE]
 >
