@@ -76,6 +76,6 @@ Any of the following reasons describe why 0% displays in the report's [!UICONTRO
 
 The "No Winner Yet" and "Winner" badges are currently not available in the [!UICONTROL A4T] panel in [!DNL Analysis Workspace]. These badges are also not available if the same report is viewed in [!DNL Target]. A winner "star" badge shown in a [!DNL Target] report for an [!UICONTROL Auto-Allocate] activity using A4T should be ignored. 
 
-For more information about this and other limitations and notes, see [Auto-Allocate](help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa) in *A4T support for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities*.
+For more information about this and other limitations and notes, see [Auto-Allocate](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa) in *A4T support for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities*.
 
 
