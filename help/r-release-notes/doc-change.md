@@ -13,6 +13,8 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|February 25|[A4T support for Auto-Allocate and Auto-Target activities](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)|Updated the following sections:<ul><li>[Auto-Allocate and Auto-Target](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Auto-Allocate](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul>|
+||[Interpret Auto-Allocate reports](/help/c-activities/automated-traffic-allocation/determine-winner.md)|Added new FAQ:<ul><li>Are the "No Winner," "Winner," and "star" badges available for [!UICONTROL Auto-Allocate] activities that use [!UICONTROL Analytics as the reporting source] (A4T)?</li></ul>|
 |February 10|[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md)|Added the following known issue:<ul><li>Visual Experience Composer (VEC) loading websites with Service Workers</li></ul>|
 |February 7|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added information about the following event:<ul><li>[!DNL Adobe Target] Community Q&A Coffee Break (February 23, 2022)</li></ul>|
 |February 3|[Create audiences](/help/c-target/c-audiences/audiences.md#RTCDP)|Added new section and video: "Video: Next-hit personalization with Real-time CDP and [!DNL Adobe Target]."|

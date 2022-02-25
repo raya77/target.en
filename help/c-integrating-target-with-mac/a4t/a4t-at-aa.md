@@ -73,18 +73,23 @@ The following metric types are unsupported as primary goal metrics:
 
 Some limitations and notes apply to both [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities. Other limitations and notes apply to one activity type or the other.
 
-### Auto-Allocate and Auto-Target
+### Auto-Allocate and Auto-Target {#both}
 
 * When using [!DNL Adobe Analytics] as the reporting source for [!UICONTROL Auto-Allocate] or [!UICONTROL Auto-Target], you should always view reports in [!DNL Analytics].
 * The reporting source cannot be changed from [!DNL Analytics] to [!DNL Target] or conversely after an activity has been activated.
 * Although calculated metrics are not supported as primary goal metrics, it is often possible to achieve the intended result by instead selecting a custom event as the primary goal metric. For example, if you want to optimize for a metric such as "form completions per visitor," select a custom event corresponding to "form completions" as your primary goal metric. [!DNL Target] automatically normalizes conversion metrics on a per-visit basis to account for uneven traffic distribution, so it is not necessary to use a calculated metric to perform normalization.
-* [!DNL Target] uses the "Same Touch" attribution model in the [!UICONTROL Auto-Allocate] feature: Analytics for Target (A4T).
+* When using [!DNL Adobe Analytics] as the reporting source for [!UICONTROL Auto-Allocate] or [!UICONTROL Auto-Target] activities, you should always view reports in [!DNL Analytics].
+* The reporting source cannot be changed from [!DNL Analytics] to [!DNL Target] or vice versa after an activity has been activated.
+* Although calculated metrics are not supported as primary goal metrics, it is often possible to achieve the intended result by instead selecting a custom event as the primary goal metric. For example, if you want to optimize for a metric such as “form completions per visitor,” select a custom event corresponding to “form completions” as your primary goal metric. [!DNL Target] automatically normalizes conversion metrics on a per-visitor basis for [!UICONTROL Auto-Allocate] activities, so it is not necessary to use a calculated metric to perform normalization.
 
-### Auto-Allocate
+### Auto-Allocate {#aa}
 
-* [!UICONTROL Auto-Allocate] models continue to train every two hours, as usual.
+* **Training Frequency**: [!UICONTROL Auto-Allocate] models continue to train every hour, as usual.
+* **Attribution Models**: [!DNL Target] uses the [!DNL Adobe Analytics] default attribution model for[!UICONTROL  Auto-Allocate] activities that use A4T.
+* **Confidence**: The confidence formula used by [!UICONTROL Auto-Allocate] activities is different than the formula shown by default in the [!DNL Adobe Analytics] [!UICONTROL A4T] panel. [As described here](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [!UICONTROL Auto-Allocate] uses more conservative confidence intervals than regular [!UICONTROL A/B Test] activities. These conservative confidence levels compensate for repeated evaluations (peeks) at data. As a result, the default report in [!DNL Adobe Analytics] shows narrower confidence intervals compared to those being used by the [!UICONTROL Auto-Allocate] algorithm. Nevertheless, you can determine which experience is favored by the algorithms based on which experience has more unique visitors being sent to it. 
+* **Winner Status**: Currently, the ["No Winner Yet" and "Winner" badges](/help/c-activities/automated-traffic-allocation/determine-winner.md) are not available in the [!UICONTROL A4T] panel in [!DNL Analysis Workspace]. These badges are also not available if the same report is viewed in [!DNL Target]. A winner "star" badge shown in a [!DNL Target] report for an [!UICONTROL Auto-Allocate] activity using A4T should be ignored. This badge reflects regular confidence calculations, and not those used by [!UICONTROL Auto-Allocate].
 
-### Auto-Target
+### Auto-Target {#at}
 
 * [!UICONTROL Auto-Target] models continue to train every 24 hours, as usual. However, conversion event data coming from [!DNL Analytics] is delayed by an extra six to 24 hours. This delay means the distribution of traffic by [!DNL Target] trails the latest events recorded in [!DNL Analytics]. This delay has the largest effect in the first 48 hours after an activity is initially activated. The activity’s performance will more closely mirror [!DNL Analytics] conversion behavior after five days have elapsed. Consider using [!UICONTROL Auto-Allocate] instead of [!UICONTROL Auto-Target] for short-duration activities in which most traffic occurs within the first five days of the activity’s life.
 * When using [!DNL Analytics] as the data source for an [!UICONTROL Auto-Target] activity, sessions end after six hours have elapsed. Conversions occurring after six hours are not counted.
