@@ -41,3 +41,9 @@ Keep the following information in mind as you work with activity-only audiences:
 * Activity-only audiences have a status of [!UICONTROL Used] or [!UICONTROL Unused]. Unused activity-only audiences display until the activity is saved. If left unused and you try to save the activity, a warning message displays informing you that unused activity-only audiences will be deleted. 
 * You can view audience definition details on a pop-up card accessed from the audience picker without opening the audience. 
 * You can [combine multiple audiences](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) to create activity-only audiences.
+* Activity-only audiences don't support exclude rules.
+
+  You can use the following alternatives to use exclude rules:
+
+  * [Create and use a library audience](/help/c-target/c-audiences/create-audience.md) instead of an activity-only audience.
+  * [Combine multiple](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) (up to 20) library audiences into an activity-only audience. When combining audiences, include and exclude rules in individual library audiences can be used even when the combined audience is saved as an activity-only audience.
