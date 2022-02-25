@@ -57,7 +57,9 @@ A “Confidence” number is also reported next to the currently leading or winn
 
 ## Frequently Asked Questions {#section_C8E068512A93458D8C006760B1C0B6A2}
 
-**It has been a few days into the activity. Why are all confidence values still showing 0%?**
+Consider the following answers to frequently asked questions:
+
+### It has been a few days into the activity. Why are all confidence values still showing 0%?
 
 Any of the following reasons describe why 0% displays in the report's [!UICONTROL Confidence] column for all activities:
 
@@ -69,3 +71,11 @@ Any of the following reasons describe why 0% displays in the report's [!UICONTRO
 
 * Auto-Allocate starts showing confidence only after the winning experience gathers 60% confidence. These confidence levels typically appear in about half the time that a normal A/B test would take to complete (although this is not guaranteed). To determine how long a normal A/B test would run, please use a [sample size calculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html): plug control's conversion-rate in "Baseline conversion rate," "5%" for "Lift," and 95% for "Confidence." Typically, confidence starts showing after each experience has amassed at least 50% of the required samples per-experience. This will give you an idea of when confidence will start appearing. 
 * If the report is showing 0% across the board, it is likely too early into the activity.
+
+## Are the "No Winner," "Winner," and "star" badges available for [!UICONTROL Auto-Allocate] activities that use [!UICONTROL Analytics as the reporting source] (A4T)?
+
+The "No Winner Yet" and "Winner" badges are currently not available in the [!UICONTROL A4T] panel in [!DNL Analysis Workspace]. These badges are also not available if the same report is viewed in [!DNL Target]. A winner "star" badge shown in a [!DNL Target] report for an [!UICONTROL Auto-Allocate] activity using A4T should be ignored. 
+
+For more information about this and other limitations and notes, see [Auto-Allocate](help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa) in *A4T support for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities*.
+
+
