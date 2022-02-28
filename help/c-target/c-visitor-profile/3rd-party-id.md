@@ -52,11 +52,13 @@ When the visitor logs out, the merged profile is maintained.
      * `customerIds` is the parameter name used when you set it in the Delivery API payload directly and is usually done on server-side or IOT (Internet of Things) implementations.
      * Unlike `mbox3rdPartyId`/`thirdPartyId`, you can send multiple IDs as a list in this approach, but because [!DNL Target] supports only a single customer ID per TnT Id, it uses the first ID in the list with a known alias (alias configured in the Customer Attributes UI).
 
-  >[!IMPORTANT]
-  >
-  > Using both approaches mentioned above interchangeably for a single visitor can result in incorrect profile merges of the unauthenticated and authenticated [!DNL Target] profiles. 
-  >
-  >Adobe does not recommend that you use both `mbox3rdPartyId`/`thirdPartyId` and `setCustomerID`/`customerIds` together.
-  >
-  >If you must use both approaches interchangeably, ensure that the first ID in the list used by `setCustomerID`/`customerIds` is what is used by `thirdPartyId`/`mbox3rdPartyId` and vice-versa. 
+   You can use `mbox3rdPartyId`/`thirdPartyId` if [!DNL Target] is your only [!DNL Adobe Experience Cloud] solution and you do not want to use Customer Attributes. For all other cases, we recommend that you use `setCustomerId`/`customerIds` for sending your customer IDs.
+
+   >[!IMPORTANT]
+   >
+   > Using both approaches mentioned above interchangeably for a single visitor can result in incorrect profile merges of the unauthenticated and authenticated [!DNL Target] profiles. 
+   >
+   >Adobe does not recommend that you use both `mbox3rdPartyId`/`thirdPartyId` and `setCustomerID`/`customerIds` together.
+   >
+   >If you must use both approaches interchangeably, ensure that the first ID in the list used by `setCustomerID`/`customerIds` is what is used by `thirdPartyId`/`mbox3rdPartyId` and vice versa. 
 
