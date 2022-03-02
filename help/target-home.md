@@ -13,25 +13,11 @@ exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 
 **Last Updated: February 25, 2022 ( [See What Changed](r-release-notes/doc-change.md) )**
 
->[!NOTE]
->
->[!DNL Adobe Target] was recently named a Leader in the following reports:
->
->**[Forrester wave report for experience optimization platforms.](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)** Adobe Target was named a Leader in The Forrester Wave: Experience Optimization Platforms, Q4 2020 report.
->
->**[Gartner Magic Quadrant for personalization engines.](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)** Adobe Target was once again named a Leader in the third-annual Gartner Magic Quadrant for Personalization Engines, 2020 report.
-
 The following sections point you to useful links in this guide, arranged by intended audience based on typical job functions:
-
-- [All Target users](#all)
-- [Marketers](#marketers)
-- [Developers](#developers)
-- [Target and Adobe Experience Cloud admins](#admins)
-- [Analysts](#analysts)
-- [QA engineers](#qa)
 
 ## All [!DNL Target] users {#all}
 
++++Links
 Marketers, developers, administrators, analysts, and quality assurance engineers.
 
 - [Target release notes](r-release-notes/release-notes.md): Contains information about the current release, information about known issues that affect [!DNL Target], a list of important changes to this documentation, and an archive of past release notes.
@@ -42,15 +28,21 @@ Marketers, developers, administrators, analysts, and quality assurance engineers
 - [Target for mobile apps](c-target-mobile-app/target-mobile-app.md): Explains how [!DNL Target] can be used for mobile app optimization and personalization.
 - [Resources and contact information](cmp-resources-and-contact-information.md): Provides information about more resources to help you learn about [!DNL Target] features and how to contact [!DNL Adobe] should you need help.
 
++++
+
 ## Marketers {#marketers}
 
++++Links
 - [Activities](c-activities/activities.md): Explains how to set up, manage, and QA [!DNL Target] activities.
 - [Audiences](c-target/target.md): Explains how to determine who sees content and experiences in targeted activities.
 - [Experiences and offers](c-experiences/experiences.md): Explains how to specify which content displays when a visitor meets the audience criteria for an activity.
 - [Recommendations](c-recommendations/recommendations.md): Explains how [!DNL Recommendations] activities automatically display products or content that might interest your customers based on previous user activity or other algorithms.
 
++++
+
 ## Developers {#developers}
 
++++Links
 - [Implement Target](c-implementing-target/implementing-target.md): Explains how to implement [!DNL Target] on web sites, mobile apps, Single-Page Apps (SPAs), and iOT/OTT platforms.
 - [Target Server-Side APIs](https://developers.adobetarget.com/api/delivery-api/): Describes the resources that make up the Adobe Target Delivery API.
 - [Target NodeJS SDK](https://github.com/adobe/target-nodejs-sdk): Explains how to deploy Target server-side. This Node.js SDK helps you easily integrate Target with other Adobe Experience Cloud solutions.
@@ -58,18 +50,29 @@ Marketers, developers, administrators, analysts, and quality assurance engineers
 - [Target Recommendations API](https://developers.adobetarget.com/api/recommendations/): Describes the resources that make up the official Adobe Target Recommendations API.
 - [Target Adobe.IO documentation](https://developers.adobetarget.com/api/#introduction): Describes how to use Target’s Admin and Profile REST APIs that use the Adobe.IO integration to manage activities, audiences, offers, properties, reports, mboxes, environments, and profiles.
 
++++
+
 ## Target and Adobe Experience Cloud admins {#admins}
 
++++Click for links
 - [Administer Target](administrating-target/administrating-target.md): Explains how to add users and configure your [!DNL Target] account.
+
++++
 
 ## Analysts {#analysts}
 
++++Click for links
 - [Audiences](c-target/target.md): Explains how to determine who sees content and experiences in targeted activities.
 - [Reports](c-reports/reports.md): Explains how to interpret the performance of your activities.
 
++++
+
 ## QA engineers {#qa}
 
++++Click for links
 - [Activities](c-activities/activities.md): Explains how to set up, manage, and QA [!DNL Target] activities.
+
++++
 
 ## Additional Resources {#additional}
 
