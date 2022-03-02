@@ -136,6 +136,14 @@ The following table shows the segment evaluation time for events coming from dif
 |Events from batch upload|No|No|Yes|
 |Events from offline data (stream)|No|Yes|Yes|
 
+The following table shows which type of personalization use case (next-session or same-page) is available when using the Platform Web SDK versus using at.js:
+
+|Implementation|Product/Use Case Enabled|
+| --- | --- |
+|at.js|**Product**:<ul><li>Adobe Audience Manager (AAM) and Target</li><li>RTCDP (Premium or Ultimate) and Target</li><li>RTCDP (any SKU), AAM, and Target</li></ul>**Use Case**: Next-session personalization|
+|Platform Web SDK or AEP Server-Side API|**Product**:<ul><li>RTCDP (any SKU) and Target</li></ul>**Use case**:<ul><li>Next-session personalization</li><li>Same-page personalization via Edge</li><li>Governance enforced when sharing segments</li></ul>**Product**:<ul><li>RTCDP (any SKU), AAM, and Target</li></ul>**Use case**:<ul><li>Next-session personalization</li><ul><li>AAM segments</li><li>3rd-party segments via AAM</li></ul><li>Same-page personalization via Edge</li><ul><li>RTCDP segments</li><li>Governance enforced when sharing segments</li></ul>|
+|Mix of at.js and Platform Web SDK|**Product**:<ul><li>RTCDP (any SKU) and Target</li></ul>**Use case**:<ul><li>Next-session personalization</li><ul><li>For all pages with at.js</li></ul><li>Same-page personalization</li><ul><li>For all pages with Platform Web SDK</li></ul></ul>**Product**:<ul><li>RTCDP (any SKU), AAM, and Target</li></ul>**Use case**:<ul><li>Next-session personalization</li><ul><li>For all pages with at.js</li><li>AAM segments</li><li>3rd-party segments via AAM</li></ul>|
+
 ### Video: Next-hit personalization with Real-time CDP and [!DNL Adobe Target]{#RTCDP}
 
 Learn how to personalize on the next hit with [!DNL Real-time Customer Data Platform] and [!DNL Adobe Target]. The [!DNL Adobe Target] destination in [!DNL Real-time CDP] allows you to use [!DNL Experience Platform] segments in [!DNL Adobe Target] for same page and next-page personalization with governance and privacy support.
