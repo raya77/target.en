@@ -15,6 +15,13 @@ exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 
 The following sections point you to useful links in this guide, arranged by intended audience based on typical job functions:
 
+- [All Target users](#all)
+- [Marketers](#marketers)
+- [Developers](#developers)
+- [Target and Adobe Experience Cloud admins](#admins)
+- [Analysts](#analysts)
+- [QA engineers](#qa)
+
 ## All [!DNL Target] users {#all}
 
 Marketers, developers, administrators, analysts, and quality assurance engineers.
