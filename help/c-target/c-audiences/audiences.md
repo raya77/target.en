@@ -130,7 +130,7 @@ Consider the following information when using audiences from [!DNL Adobe Experie
 
 #### Personalization use cases
 
-The following table shows which type of personalization use case (next-session or same-page) is available when using the Platform Web SDK versus using at.js:
+The following table shows which type of personalization use case (next-session or same-page) is available when using the [!DNL Adobe Experience Platform Web SDK] versus using at.js:
 
 |Implementation|Solutions/Use Case Enabled|
 | --- | --- |
