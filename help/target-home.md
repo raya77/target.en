@@ -11,15 +11,7 @@ exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 
 [!DNL Adobe Target] is the [!DNL Adobe Experience Cloud] solution that provides everything you need to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 
-**Last Updated: February 25, 2022 ( [See What Changed](r-release-notes/doc-change.md) )**
-
->[!NOTE]
->
->[!DNL Adobe Target] was recently named a Leader in the following reports:
->
->**[Forrester wave report for experience optimization platforms.](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)** Adobe Target was named a Leader in The Forrester Wave: Experience Optimization Platforms, Q4 2020 report.
->
->**[Gartner Magic Quadrant for personalization engines.](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)** Adobe Target was once again named a Leader in the third-annual Gartner Magic Quadrant for Personalization Engines, 2020 report.
+**Last Updated: March 7, 2022 ( [See What Changed](r-release-notes/doc-change.md) )**
 
 The following sections point you to useful links in this guide, arranged by intended audience based on typical job functions:
 

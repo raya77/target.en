@@ -126,13 +126,27 @@ For more information, see the following topics:
 
 ### Additional information
 
+Consider the following information when using audiences from [!DNL Adobe Experience Platform]:
+
+#### Personalization use cases
+
+The following table shows which type of personalization use case (next-session or same-page) is available when using the [!DNL Adobe Experience Platform Web SDK] versus using at.js:
+
+|Implementation|Solutions/Use Case Enabled|
+| --- | --- |
+|at.js|**Solutions**:<ul><li>[!DNL Adobe Audience Manager] (AAM) and [!DNL Target]</li><li>[!DNL RTCDP] (Premium or Ultimate) and [!DNL Target]</li><li>[!DNL RTCDP] (any SKU), [!DNL AAM], and [!DNL Target]</li></ul>**Use Case**:<ul><li>Next-session personalization</li></ul>|
+|[!DNL Platform Web SDK] or [!DNL AEP Server-Side API]|**Solutions**:<ul><li>[!DNL RTCDP] (any SKU) and [!DNL Target]</li></ul>**Use case**:<ul><li>Next-session personalization</li><li>Same-page personalization via Edge</li><li>Governance enforced when sharing segments</li></ul>**Solutions**:<ul><li>[!DNL RTCDP] (any SKU), [!DNL AAM], and [!DNL Target]</li></ul>**Use case**:<ul><li>Next-session personalization</li><ul><li>[!DNL AAM] segments</li><li>3rd-party segments via [!DNL AAM]</li></ul><li>Same-page personalization via Edge</li><ul><li>[!DNL RTCDP] segments</li><li>Governance enforced when sharing segments</li></ul>|
+|Mix of [!UICONTROL at.js] and [!DNL Platform Web SDK]|**Solutions**:<ul><li>[!DNL RTCDP] (any SKU) and [!DNL Target]</li></ul>**Use case**:<ul><li>Next-session personalization</li><ul><li>For all pages with [!UICONTROL at.js]</li></ul><li>Same-page personalization</li><ul><li>For all pages with [!DNL Platform Web SDK]</li></ul></ul>**Solutions**:<ul><li>[!DNL RTCDP] (any SKU), [!DNL AAM], and [!DNL Target]</li></ul>**Use case**:<ul><li>Next-session personalization</li><ul><li>For all pages with [!UICONTROL at.js]</li><li>[!DNL AAM] segments</li><li>3rd-party segments via [!DNL AAM]</li></ul>|
+
+#### Segment evaluation time
+
 The following table shows the segment evaluation time for events coming from different implementation scenarios:
 
 |Scenario|Edge segment (millisecond evaluation)|Streaming segment (minute evaluation)|Batch segment evaluation|
 | --- | --- | --- | --- |
-|Events/data from Adobe Experience Platform SDKs|Yes|Yes|N/A|
-|Events from at.js|No|Yes|N/A|
-|Events from Target Mobile SDKs|No|Yes|N/A|
+|Events/data from [!DNL Adobe Experience Platform] SDKs|Yes|Yes|N/A|
+|Events from [!UICONTROL at.js]|No|Yes|N/A|
+|Events from [!DNL Target Mobile] SDKs|No|Yes|N/A|
 |Events from batch upload|No|No|Yes|
 |Events from offline data (stream)|No|Yes|Yes|
 
