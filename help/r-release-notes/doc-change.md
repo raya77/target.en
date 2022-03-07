@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|March 7|[Create audiences](/help/c-target/c-audiences/audiences.md#aep)|Added new section under "Use audiences from [!DNL Adobe Experience Platform]:"<ul><li>Personalization use cases</li></ul>|
 |February 25|[A4T support for Auto-Allocate and Auto-Target activities](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)|Updated the following sections:<ul><li>[Auto-Allocate and Auto-Target](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Auto-Allocate](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul>|
 ||[Interpret Auto-Allocate reports](/help/c-activities/automated-traffic-allocation/determine-winner.md)|Added new FAQ:<ul><li>Are the "No Winner," "Winner," and "star" badges available for [!UICONTROL Auto-Allocate] activities that use [!UICONTROL Analytics as the reporting source] (A4T)?</li></ul>|
 ||[Create an activity-only audience](/help/c-target/creating-activity-only-audience.md)|Added information in the "Considerations" section discussing exclude rules.|
