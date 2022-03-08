@@ -13,7 +13,7 @@ Announcements and information about upcoming events, including [!DNL Adobe Targe
 
 * **Wednesday, March 30, 2022**
 * **8:00 a.m. (PDT, UTC -7)**
-* **[More information and registration information](https://adobe.ly/3skO6DV)**
+* **[More information and registration information](https://adobe.ly/3sIS5Mg)**
 
 Senior Solutions Consultant, Ryan Pizzuto, will be answering customer questions pertaining to his following areas of expertise:
 
