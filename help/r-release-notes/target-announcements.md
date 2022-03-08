@@ -9,18 +9,18 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 
 Announcements and information about upcoming events, including [!DNL Adobe Target] Skill Builder sessions, developer chats, webinars, and [!DNL Target] Coffee Break sessions.
 
-## [!DNL Adobe Target] Community Q&A Coffee Break (February 23, 2022)
+## [!DNL Adobe Target] Community Q&A Coffee Break (March 30, 2022)
 
-* **Wednesday, February 23, 2022**
-* **8:00 a.m. (PST, UTC -8)**
+* **Wednesday, March 30, 2022**
+* **8:00 a.m. (PDT, UTC -7)**
 * **[More information and registration information](https://adobe.ly/3skO6DV)**
 
-Senior Product Manager Vishal Chordia will be answering customer questions pertaining to his following areas of expertise:
+Senior Solutions Consultant, Ryan Pizzuto, will be answering customer questions pertaining to his following areas of expertise:
 
-* [!DNL Adobe Experience Platform]
-* Audience-based personalization
-* [!DNL Real-time Customer Data Platform] (RTCDP) integration with [!DNL Target]
-* General [!DNL Target] topics
+* [!UICONTROL Auto-Target]
+* [!UICONTROL Automated Personalization]
+* [!UICONTROL Recommendations]
+* General [!UICONTROL Adobe Target] topics
  
 Technical Support engineer Mihnea Docea will be assisting Vishal.
 
