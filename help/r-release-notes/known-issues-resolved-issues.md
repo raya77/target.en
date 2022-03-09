@@ -29,6 +29,10 @@ Unfortunately, the Chrome extension APIs that intercept web requests don’t rec
 
 As a potential workaround, you can disable Service Workers from the Chrome Developer Tools > Application tab, then to enable the "Bypass for network" checkbox under the Service Workers section. (KB-2006)
 
+### Deleting locations that have ad-hoc offers in activities created in the Form-Based Experience Composer {#ad-hoc}
+
+Avoid deleting locations in an activity created in the Form-Based Experience Composer if those locations use ad-hoc offers (offers created inside the activity). Deleting locations can cause the activity to become corrupt. The [!DNL Target] team is working on a fix for this. As a workaround, you can create global offers from the [!UICONTROL Offer library] and use them with locations, or you can create new experiences, if needed. (KB-2014)
+
 ### Traffic distribution of Auto-Allocate activities using A4T {#aa-a4t}
 
 In some cases, the traffic distribution of [!UICONTROL Auto-Allocate] activities using [!UICONTROL Analytics for Target] (A4T) might vary from what should occur based on the reported conversion rate of each experience. This occurs more often for activities with a high proportion of return visitor traffic. Affected customers will be notified about affected activities.
