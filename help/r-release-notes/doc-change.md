@@ -14,6 +14,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 |Date|Topic|Changes|
 | --- | --- | --- |
 |March 9|[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#ad-hoc)|Added the following known issue:<ul><li>Deleting locations that have ad-hoc offers in activities created in the Form-Based Experience Composer</li></ul>|
+||[Real-time profile syncing for mbox3rdPartyId](/help/c-target/c-visitor-profile/3rd-party-id.md)|Updated following sentence regarding profile syncing: "Updates are synced with the profile store every 5-10 minutes."|
 |March 8|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added information about the following event:<ul><li>[!DNL Adobe Target] Community Q&A Coffee Break (March 30, 2022)</li></ul>|
 |March 7|[Create audiences](/help/c-target/c-audiences/audiences.md#aep)|Added new section under "Use audiences from [!DNL Adobe Experience Platform]:"<ul><li>Personalization use cases</li></ul>|
 |February 25|[A4T support for Auto-Allocate and Auto-Target activities](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)|Updated the following sections:<ul><li>[Auto-Allocate and Auto-Target](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Auto-Allocate](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul>|
