@@ -18,7 +18,7 @@ To view information about the current release, see [Target Release Notes](releas
 This maintenance release contains the following fixes and enhancements:
 
 * Fixed an issue that prevented [!DNL Analytics] payload data from being returned for `prefetch` views and `pageLoad` click metrics when using the [!UICONTROL Delivery API] with activities that use [!UICONTROL Analytics as the reporting source] (A4T). (TNT-43198)
-* Added fixes to remove inactive client [!DNL Analytics] and audit table data. (TNT-43405 & TNT-43406)
+* Added fixes to remove inactive client data, including [!DNL Analytics] and audit table data. (TNT-43405 & TNT-43406)
 * Updated the bot filtering user agent list to allow a browser type commonly used in Japan. (TNT-43867)
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
