@@ -13,12 +13,13 @@ This article contains prerelease information. Release dates, features, and other
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages could be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## Target Standard/Premium 22.2.1 (February 1, 2022)
+## Target Standard/Premium 22.3.1 (March 22, 2022)
 
-This maintenance release contains the following fixes and enhancements for the new [!UICONTROL Audiences] UI announced in the [Target Standard/Premium 22.1.2 release](/help/main/r-release-notes/release-notes.md) that is rolling out to customers across all regions in the next six weeks. These fixes align the functionality of audiences created in [!DNL Adobe Target Standard/Premium].
+This maintenance release contains the following fixes and enhancements:
 
-* Fixed an issue that prevented imported audiences from [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud], and [!DNL Adobe Target Classic] from being assigned as reporting audiences. (TGT-43140)
-* Added a [!UICONTROL Delete] option in the [!UICONTROL Audiences] list for imported audiences from [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud], and [!DNL Adobe Target Classic]. Also added bulk-delete functionality. (TGT-42914)
+* Fixed an issue that prevented [!DNL Analytics] payload data from being returned for `prefetch` views and `pageLoad` click metrics when using the [!UICONTROL Delivery API] with activities that use [!UICONTROL Analytics as the reporting source] (A4T). (TNT-43198)
+* Added fixes to remove inactive client [!DNL Analytics] and audit table data. (TNT-43405 & TNT-43406)
+* Removed "Yahoo! Slurp" from the bot filtering user agent list. This allows a browser type commonly used in the Japanese market. (TNT-43867)
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 
