@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|March 17|[Target release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease information about the [!DNL Target Standard/Premium] 22.3.1 release.|
 |March 9|[Known issues and resolved issues](/help/main/r-release-notes/known-issues-resolved-issues.md#ad-hoc)|Added the following known issue:<ul><li>Deleting locations that have ad-hoc offers in activities created in the Form-Based Experience Composer</li></ul>|
 ||[Real-time profile syncing for mbox3rdPartyId](/help/main/c-target/c-visitor-profile/3rd-party-id.md)|Updated following sentence regarding profile syncing: "Updates are synced with the profile store every 5-10 minutes."|
 |March 8|[Target announcements and events](/help/main/r-release-notes/target-announcements.md)|Added information about the following event:<ul><li>[!DNL Adobe Target] Community Q&A Coffee Break (March 30, 2022)</li></ul>|
