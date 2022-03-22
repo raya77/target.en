@@ -13,12 +13,21 @@ This article contains prerelease information. Release dates, features, and other
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages could be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## Target Standard/Premium customer engineering fixes (March 22, 2022)
+## Target Standard/Premium 22.3.1 (staggered release)
 
-This maintenance release contains the following enhancements:
+This release will be available according to the following staggered schedule:
 
-* Added functionality to return [!DNL Analytics] payload data for `prefetch` views and `pageLoad` click metrics when using the [!UICONTROL Delivery API] with activities that use [!UICONTROL Analytics as the reporting source] (A4T). (TNT-43198)
-* Updated the bot filtering user agent list to allow a browser type commonly used in Japan. (TNT-43867)
+* Asia-Pacific (APAC) region: March 30
+* Europe, Middle East, and Africa (EMEA) region: March 31
+* North America (NA) region: April 4
+
+This release contains the following changes and enhancements:
+
+* Changed the list of metrics available in the [!DNL Target] UI when building [!UICONTROL Auto-Allocate] activities with [!DNL Adobe Analytics] as the reporting source (A4T). (TGT-43294)
+* Fixed an issue that caused edits to profile scripts to revert to the original, unedited script after the script is edited, activated, and then deactivated. The profile script now remains in its edited state. (TGT-43249)
+* Fixed an issue that caused the following error message in the [!DNL Target] UI when moving an audience used in an activity with the "draft" status: "We cannot complete your request. Please contact Adobe client-care if the problem persists." (TGT-43212)
+* Fixed an issue that caused the [!DNL Target] UI to prematurely time out for some customers. (TGT-42590)
+* Changed the way the metrics for "page view" are created for [!UICONTROL Single Page Applications] (SPAs). Instead of an URL being provided for the metric, the [!DNL Target] UI selects the view. (TGT-41200)  
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 
