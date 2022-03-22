@@ -1,5 +1,5 @@
 ---
-keywords: Release notes
+keywords: Release notes;prerelease notes;future enhancements;future fixes;future features;upcoming release
 description: View a list of features, enhancements, and fixes included in previous releases of Adobe Target.
 title: What Features Are Included in Previous Releases?
 feature: Release Notes
