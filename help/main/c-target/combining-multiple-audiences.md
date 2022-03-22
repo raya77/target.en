@@ -11,7 +11,7 @@ Combine multiple audiences (including [!DNL Adobe Experience Cloud], [!DNL Adobe
 
 >[!NOTE]
 >
->The [!DNL Adobe Experience Platform] source is available to all [!DNL Target] customers using the [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Audiences available from the [!DNL Adobe Experience Platform] can be used as is or combined with existing audiences, as explained in this topic).
+>The [!DNL Adobe Experience Platform] source is available to all [!DNL Target] customers using the [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Audiences available from the [!DNL Adobe Experience Platform] can be used as is or combined with existing audiences, as explained in this topic.
 >
 >For more information see [Use audiences from Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep).
 
@@ -19,7 +19,7 @@ Suppose that you have a "New Visitors" audience and a "Chrome Users" audience. F
 
 As another example, you can target all loyalty customers. For example, you can include a specific [!DNL Audience Manager] audience for loyalty status and combine it with a [!DNL Target] audience made up of people who signed up for your loyalty program during the current session. Combining these two audiences is easier than creating a third, permanent audience.
 
-You can combine up to ten audiences using AND and OR operators.
+You can combine up to 20 audiences using AND and OR operators.
 
 You can create and use combined audiences in various places throughout the [!DNL Target] UI.
 
@@ -31,13 +31,13 @@ You can create an ad hoc combined audience on the activity's [!UICONTROL Target]
 
    ![Step Result](assets/edit_audience.png)
 
-1. On the [!UICONTROL Choose Audience] page, select the check boxes next to the desired audiences that you want to use as building blocks for your combined audience.
+1. On the **[!UICONTROL Choose Audience]** page, select the check boxes next to the desired audiences that you want to use as building blocks for your combined audience.
 
-   Click the [!UICONTROL Filters] button to narrow your search for the desired audience. You can filter audiences by their source: [!DNL Adobe Target], [!DNL Adobe Target Classic], [!DNL Experience Cloud], [!DNL Adobe Experience Platform]. 
+   Use the [!UICONTROL Search Audiences] box to narrow your search for the desired audience. 
 
    ![Step Result](assets/combine_multiple_audiences1.png)
 
-1. Click **[!UICONTROL Combine Audiences]** in the top-right corner.
+1. Click **[!UICONTROL Combine Multiple Audiences]** in the top-right corner.
 
    ![Step Result](assets/combine_multiple_audiences2.png)
 
@@ -51,7 +51,7 @@ You can create an ad hoc combined audience on the activity's [!UICONTROL Target]
 
        ![](assets/combine_multiple_audiences3.png)
 
-       Notice that the operator between the two browser-type audiences is "AND." Select the And drop-down list and change it to "OR" to create a new combined audience for new visitors using either Firefox or Safari. Be careful to avoid creating rules that exclude all potential audience members. For example, it is not possible for someone to visit a page using Firefox and Safari simultaneously.
+       Notice that the operator between the two browser-type audiences is "AND." Select the [!UICONTROL And] drop-down list and change it to "OR" to create a new combined audience for new visitors using either Firefox or Safari. Be careful to avoid creating rules that exclude all potential audience members. For example, it is not possible for someone to visit a page using Firefox and Safari simultaneously.
 
        >[!NOTE]
        >

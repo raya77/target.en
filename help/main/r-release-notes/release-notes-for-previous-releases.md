@@ -1,5 +1,5 @@
 ---
-keywords: Release notes
+keywords: Release notes;prerelease notes;future enhancements;future fixes;future features;upcoming release
 description: View a list of features, enhancements, and fixes included in previous releases of Adobe Target.
 title: What Features Are Included in Previous Releases?
 feature: Release Notes
@@ -16,6 +16,13 @@ Release notes are arraigned in descending order by month and year of release.
 >See [Target release notes (current)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) for information about the current month's Target releases (platform and Target Standard/Premium).
 
 ## Release notes - 2022
+
+### Target Standard/Premium 22.2.1 (February 1, 2022)
+
+This maintenance release contains the following fixes and enhancements for the new [!UICONTROL Audiences] UI announced in the Target Standard/Premium 22.1.2 release that is rolling out to customers across all regions in the next six weeks. These fixes align the functionality of audiences created in [!DNL Adobe Target Standard/Premium].
+
+* Fixed an issue that prevented imported audiences from [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud], and [!DNL Adobe Target Classic] from being assigned as reporting audiences. (TGT-43140)
+* Added a [!UICONTROL Delete] option in the [!UICONTROL Audiences] list for imported audiences from [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud], and [!DNL Adobe Target Classic]. Also added bulk-delete functionality. (TGT-42914)
 
 ### at.js version 2.8.1 (January 28, 2022)
 
