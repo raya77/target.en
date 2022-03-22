@@ -12,26 +12,12 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## Target Standard/Premium 22.2.1 (February 1, 2022)
+## Target Standard/Premium customer engineering fixes (March 22, 2022)
 
-This maintenance release contains the following fixes and enhancements for the new [!UICONTROL Audiences] UI announced in the Target Standard/Premium 22.1.2 release that is rolling out to customers across all regions in the next six weeks. These fixes align the functionality of audiences created in [!DNL Adobe Target Standard/Premium].
+This maintenance release contains the following enhancements:
 
-* Fixed an issue that prevented imported audiences from [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud], and [!DNL Adobe Target Classic] from being assigned as reporting audiences. (TGT-43140)
-* Added a [!UICONTROL Delete] option in the [!UICONTROL Audiences] list for imported audiences from [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud], and [!DNL Adobe Target Classic]. Also added bulk-delete functionality. (TGT-42914)
-
-## at.js version 2.8.1 (January 28, 2022)
-
-* Fixed `pageLoad` not being mapped to target-global-mbox in [!UICONTROL On Device Decisioning] (ODD) hybrid execution mode.
-* Fixed an issue with analytics details for mbox request.
-* Upgraded dev dependencies to fix security vulnerabilities.
-
-## [!DNL Target Standard/Premium] 22.1.2 (January 26, 2022)
-
-|Feature|Details|
-| --- | --- |
-|[!DNL Adobe Experience Platform] audiences in [!DNL Target]|You can now consume and use [!DNL Adobe Experience Platform] audiences in [!DNL Target]. The [!DNL Target] team, [!DNL Experience Platform] [!DNL Destinations] team and the [!DNL Unified Profile Service] team is pleased to announce the general availability of the “Same Page/Next Page Personalization” use cases.<br>Using audiences created in [!DNL Adobe Experience Platform] provide richer customer data that leads to more impactful personalization. The [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCDP), built on [!DNL Adobe Experience Platform] helps companies bring together known and anonymous data from multiple enterprise sources to create customer profiles that can be used to provide personalized customer experiences across all channels and devices in real time.<br>For more information, see [Use audiences from Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep) in *Create audiences* and [Same-page and next-page personalization use cases](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} in the *Destinations overview* guide.|
-|[!UICONTROL Audiences] UI refresh|As part of the [!DNL Adobe Target] team's ongoing effort to improve the user-experience for [!DNL Target] users, this release refreshes the [!UICONTROL Audiences] and [!UICONTROL Profile Scripts] pages in the [!DNL Target] UI. This update unifies and standardizes design patterns that were previously inconsistent, while adding new enhancements, such as:<ul><li>The ability to select and delete multiple audiences simultaneously</li><li>A refreshed [audience builder design](/help/main/c-target/c-audiences/create-audience.md)</li><li>Exclusion rule support in the [!UICONTROL Audience] library rule builder</li><li>A new “Audience Source” filter, to allow for faster audience discovery</li><li>Session persistent search and filter options</li><li>The ability to move audiences between workspaces for [!DNL Target Premium] customers.</li></ul>For more information, see [Audiences](/help/main/c-target/target.md).<br>**NOTE**: This feature will be rolled out to customers in different regions in the next eight weeks.|
-|[!UICONTROL Profile Scripts] UI refresh|The [!UICONTROL Profile Scripts] library was also updated, and includes a refreshed interface along and several productivity updates:<ul><li>The ability to select and delete multiple profile scripts simultaneously</li><li>A new code editor for profile scripts</li><li>Syntax highlighting and error checking inside the code editor</li><li>Auto-complete tokens (mbox or profile) parameters through keyboard shortcuts</li></ul>For more information, see [Visitor Profiles](/help/main/c-target/c-visitor-profile/visitor-profile.md).<br>**NOTE**: This feature will be rolled out to customers in different regions in the next eight weeks.|
+* Added functionality to return [!DNL Analytics] payload data for `prefetch` views and `pageLoad` click metrics when using the [!UICONTROL Delivery API] with activities that use [!UICONTROL Analytics as the reporting source] (A4T). (TNT-43198)
+* Updated the bot filtering user agent list to allow a browser type commonly used in Japan. (TNT-43867)
 
 ## Additional release notes and version details
 
