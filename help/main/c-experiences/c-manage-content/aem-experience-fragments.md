@@ -93,6 +93,8 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 >[!NOTE]
 >
 >To fully use the [!DNL Target] AI and ML functionality, you can select [Auto-Allocate](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) or [Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md) while creating an A/B Test.
+>
+>Experience fragments are not supported in [!DNL Recommendations] activities. However, to use experience fragments for recommendations you can create an [!UICONTROL A/B Test] activity (including [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target]) or an [!UICONTROL Experience Targeting] (XT) activity and [include recommendations as an offer](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). 
 
 **To consume experience fragments using the VEC:**
 
