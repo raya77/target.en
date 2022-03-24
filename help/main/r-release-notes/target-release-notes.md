@@ -17,9 +17,9 @@ To view information about the current release, see [Target Release Notes](releas
 
 This release will be available according to the following staggered schedule:
 
-* Asia-Pacific (APAC) region: March 30
-* Europe, Middle East, and Africa (EMEA) region: March 31
-* North America (NA) region: April 4
+* Asia-Pacific (APAC) region: April 6
+* Europe, Middle East, and Africa (EMEA) region: April 5
+* North America (NA) region: April 7
 * The new [!UICONTROL Audiences] UI will be enabled for all [!DNL Target Standard] customers on March 28.
 
 This release contains the following changes and enhancements:
