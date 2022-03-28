@@ -25,8 +25,9 @@ As the Data Controller, you determine the personal data that [!DNL Adobe] proces
 
 For more information, see:
 
-* [Adobe General Data Protection Regulation API website](https://www.adobe.io/apis/experienceplatform/gdpr.html) 
-* [GDPR Documentation](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)
+* [Adobe Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target=-blank}
+* [Privacy Service API guide](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target=_blank}
+* [Privacy Service UI overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target=_blank}
 
 ## California Consumer Privacy Act (CCPA) overview
 

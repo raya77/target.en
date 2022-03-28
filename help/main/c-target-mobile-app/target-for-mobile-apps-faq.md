@@ -20,7 +20,7 @@ The Adobe Experience Platform Mobile SDKs currently support iOS, Android, and Re
 
 ## What is the frequency of the location-based feature, in terms of verification about the latitude and longitude?
 
-See the [Adobe Places documentation](https://placesdocs.com/places-services-by-adobe-documentation/) for more information.
+See the [Adobe Places Service documentation](https://experienceleague.adobe.com/docs/places/using/home.html) for more information.
 
 ## Do I need at.js for the Adobe Experience Platform Mobile SDKs to work?
 
