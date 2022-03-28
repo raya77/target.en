@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|March 28|[Target release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease information about the [!DNL Target Standard/Premium] maintenance releases scheduled for March 28 and March 30.
 |March 22|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release information about the [!DNL Target Standard/Premium] customer engineering fixes release.|
 ||[Target release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease information about the [!DNL Target Standard/Premium] 22.3.1 release.|
 |March 17|[Target release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease information about the [!DNL Target Standard/Premium] customer engineering fixes release.|
