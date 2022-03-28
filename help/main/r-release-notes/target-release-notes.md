@@ -1,7 +1,7 @@
 ---
 keywords: release notes;releases;updates;future release;enhancements;new features;fixes;updates;prerelease
 description: Learn about the new features, enhancements, and fixes included in the upcoming release of Adobe Target, including SDKs, APIs, and JavaScript libraries.
-title: What New Features Are Included in the Upcoming Release?
+title: What New Features and Enhancements Are Included in the Upcoming Release?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 ---
@@ -13,12 +13,11 @@ This article contains prerelease information. Release dates, features, and other
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages could be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## [!DNL Target Standard/Premium] maintenance releases (March 28 & March 30)
+## [!DNL Target] Platform release (March 30)
 
-The following maintenance releases are scheduled:
+This release contains the following enhancement:
 
-* **March 28**: The new [!UICONTROL Audiences] UI will be enabled for all [!DNL Target Standard] customers.
-* **March 30**: Click-track metrics will include analytics payload in Delivery API requests for activities that use Analytics as the reporting source (A4T) and process events on client-side. (TNT-43882)
+* Click-track metrics will include analytics payload in Delivery API requests for activities that use Analytics as the reporting source (A4T) and process events on client-side. (TNT-43073)
 
 ## [!DNL Target Standard/Premium] 22.3.1 (staggered release)
 
