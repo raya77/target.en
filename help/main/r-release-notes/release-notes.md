@@ -12,6 +12,12 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Target Standard] Audiences refresh (March 28)
+
+This release contains the following update:
+
+* The new [!UICONTROL Audiences] UI will be enabled for all [!DNL Target Standard] customers.
+
 ## Target Standard/Premium customer engineering fixes (March 22, 2022)
 
 This maintenance release contains the following enhancements:
