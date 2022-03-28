@@ -18,7 +18,7 @@ To view information about the current release, see [Target Release Notes](releas
 The following maintenance releases are scheduled:
 
 * **March 28**: The new [!UICONTROL Audiences] UI will be enabled for all [!DNL Target Standard] customers.
-* **March 30**: Click-track metrics will include analytics payload in Delivery API requests for activities that use Analytics as the reporting source (A4T) and process events on client-side.
+* **March 30**: Click-track metrics will include analytics payload in Delivery API requests for activities that use Analytics as the reporting source (A4T) and process events on client-side. (TNT-43882)
 
 ## [!DNL Target Standard/Premium] 22.3.1 (staggered release)
 
