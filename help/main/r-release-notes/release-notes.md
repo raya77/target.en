@@ -12,6 +12,12 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Target] Platform release (March 30)
+
+This release contains the following enhancement:
+
+* Click-track metrics will include analytics payload in Delivery API requests for activities that use Analytics as the reporting source (A4T) and process events on client-side. (TNT-43073)
+
 ## [!DNL Target Standard] Audiences refresh (March 28)
 
 This release contains the following update:
