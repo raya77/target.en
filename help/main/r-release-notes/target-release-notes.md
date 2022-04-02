@@ -23,7 +23,6 @@ This release will be available according to the following staggered schedule:
 
 This release contains the following changes and enhancements:
 
-* Changed the list of metrics available in the [!DNL Target] UI when building [!UICONTROL Auto-Allocate] activities with [!DNL Adobe Analytics] as the reporting source (A4T). (TGT-43294)
 * Fixed an issue that caused edits to profile scripts to revert to the original, unedited script after the script is edited, activated, and then deactivated. The profile script now remains in its edited state. (TGT-43249)
 * Fixed an issue that caused the following error message in the [!DNL Target] UI when moving an audience used in an activity with the "draft" status: "We cannot complete your request. Please contact Adobe client-care if the problem persists." (TGT-43212)
 * Fixed an issue that caused the [!UICONTROL Include] and [!UICONTROL Exclude] options to be disabled for combined audiences when editing an activity. (TGT-43422)
