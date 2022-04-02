@@ -12,6 +12,26 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Target Standard/Premium] 22.3.1 (staggered release)
+
+This release will be available according to the following staggered schedule:
+
+* **April 5**: Europe, Middle East, and Africa (EMEA) region
+* **April 6**: Asia-Pacific (APAC) region
+* **April 7**: North America (NA) region
+
+This release contains the following changes and enhancements:
+
+* Fixed an issue that caused edits to profile scripts to revert to the original, unedited script after the script is edited, activated, and then deactivated. The profile script now remains in its edited state. (TGT-43249)
+* Fixed an issue that caused the following error message in the [!DNL Target] UI when moving an audience used in an activity with the "draft" status: "We cannot complete your request. Please contact Adobe client-care if the problem persists." (TGT-43212)
+* Fixed an issue that caused the [!UICONTROL Include] and [!UICONTROL Exclude] options to be disabled for combined audiences when editing an activity. (TGT-43422)
+* Fixed an issue that prevented some customers from seeing the list of available audiences while editing an activity. (TGT-43404)
+* Fixed an issue that prevented some customers from deleting an IP address from the "[!UICONTROL IPs to exclude from [!DNL Target] reporting data]" list in [!UICONTROL Administration] > [!UICONTROL Reporting]. (TGT-43384)
+* Fixed an issue that prevented the use of negative numbers in audience criterion that check that any variable is "greater than," "greater than or equal to," "less than," or "less than or equal to." (TGT-43367)
+* Fixed an issue that prevented customers from seeing the [!UICONTROL Audience Details] card when creating combined audiences. (TGT-43303)
+* Fixed an issue that caused the [!DNL Target] UI or new [!UICONTROL Audiences] UI to prematurely time out for some customers. (TGT-42590 & TGT-43273)
+* Changed the way the metrics for "page view" are created for [!UICONTROL Single Page Applications] (SPAs). Instead of an URL being provided for the metric, the [!DNL Target] UI selects the view. (TGT-41200)
+
 ## [!DNL Target] Platform release (March 30)
 
 This release contains the following enhancement:
