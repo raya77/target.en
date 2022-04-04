@@ -31,7 +31,6 @@ This release contains the following changes and enhancements:
 * Fixed an issue that prevented the use of negative numbers in audience criterion that check that any variable is "greater than," "greater than or equal to," "less than," or "less than or equal to." (TGT-43367)
 * Fixed an issue that prevented customers from seeing the [!UICONTROL Audience Details] card when creating combined audiences. (TGT-43303)
 * Fixed an issue that caused the [!DNL Target] UI or new [!UICONTROL Audiences] UI to prematurely time out for some customers. (TGT-42590 & TGT-43273)
-* Changed the way the metrics for "page view" are created for [!UICONTROL Single Page Applications] (SPAs). Instead of an URL being provided for the metric, the [!DNL Target] UI selects the view. (TGT-41200)
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 

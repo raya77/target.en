@@ -15,7 +15,6 @@ This process reduces the load time, prevents multiple network calls, and allows 
 Consider the following limitations when using the prefetch method with the iOS and Android Mobile SDKs:
 
 * Prefetch content does not persist across launches. The prefetch content is cached as long as the application lives or until the `clearPrefetchCache()` method is called.
-* Prefetch functionality is not supported for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] traffic allocation methods, for [!UICONTROL Automated Personalization] or [!UICONTROL Recommendations] activity types, or for [recommendations offers within an A/B or XT activity](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 For more information, including prefetch methods, public classes, and code samples, see:
 
