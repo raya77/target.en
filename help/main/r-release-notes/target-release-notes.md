@@ -9,17 +9,11 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: April 1, 2022**
+**Last Updated: April 11, 2022**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages could be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## [!DNL Target Standard/Premium] 22.3.1 (staggered release)
-
-This release will be available according to the following staggered schedule:
-
-* **April 5**: Europe, Middle East, and Africa (EMEA) region
-* **April 6**: Asia-Pacific (APAC) region
-* **April 7**: North America (NA) region
+## [!DNL Target Standard/Premium] 22.3.1 (staggered release, date to be determined)
 
 This release contains the following changes and enhancements:
 
