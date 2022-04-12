@@ -12,13 +12,7 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## [!DNL Target Standard/Premium] 22.3.1 (staggered release)
-
-This release will be available according to the following staggered schedule:
-
-* **April 5**: Europe, Middle East, and Africa (EMEA) region
-* **April 6**: Asia-Pacific (APAC) region
-* **April 7**: North America (NA) region
+## [!DNL Target Standard/Premium] 22.3.1 (staggered release, date to be determined)
 
 This release contains the following changes and enhancements:
 
