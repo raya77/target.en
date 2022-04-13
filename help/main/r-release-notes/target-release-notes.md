@@ -13,12 +13,6 @@ This article contains prerelease information. Release dates, features, and other
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages could be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## Target Platform release (April 13, 2022)
-
-This release contains the following update:
-
-* Fixed issue to ensure that the last octet of IP addresses are properly obfuscated when captured using profile scripts. (TNT-44076)
-
 ## [!DNL Target Standard/Premium] 22.3.1 (staggered release, date to be determined)
 
 This release contains the following changes and enhancements:

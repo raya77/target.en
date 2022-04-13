@@ -9,20 +9,21 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 
 Announcements and information about upcoming events, including [!DNL Adobe Target] Skill Builder sessions, developer chats, webinars, and [!DNL Target] Coffee Break sessions.
 
-## [!DNL Adobe Target] Community Q&A Coffee Break (March 30, 2022)
+## [!DNL Adobe Target] Community Q&A Coffee Break (April 27, 2022)
 
-* **Wednesday, March 30, 2022**
+* **Wednesday, April 27, 2022**
 * **8:00 a.m. (PDT, UTC -7)**
-* **[More information and registration information](https://adobe.ly/3sIS5Mg)**
+* **[More information and registration information](https://adobe.ly/371Uny2)**
 
-Senior Solutions Consultant, Ryan Pizzuto, will be answering customer questions pertaining to his following areas of expertise:
+Principal Solutions Consultant, James McTiernan will be answering customer questions pertaining to his following areas of expertise:
 
-* [!UICONTROL Auto-Target]
-* [!UICONTROL Automated Personalization]
-* [!UICONTROL Recommendations]
+* [!UICONTROL A/B Test] activities
+* [!UICONTROL Multivariate Test] activities
+* [!UICONTROL Recommendations] activities
+* Personalization
 * General [!UICONTROL Adobe Target] topics
  
-Technical Support engineer Mihnea Docea will be assisting Vishal.
+Technical Support engineer Simon Chen will be assisting James.
 
 ## Webinar: Personalize and test at zero latency with on-device decisions from [!DNL Adobe Target]
 
