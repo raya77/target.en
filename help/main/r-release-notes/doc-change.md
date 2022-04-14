@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|April 14|[Visual Experience Composer options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)|Added information to the Rearrange section to explain how to deal with inconsistent VEC behavior with the [!UICONTROL Move] and [!UICONTROL Rearrange] actions due to lazy loading of DOM elements.|
 |April 13|[Target announcements and events](/help/main/r-release-notes/target-announcements.md)|Added information about the following event:<ul><li>[!DNL Adobe Target] Community Q&A Coffee Break (April 27, 2022)</li></ul>|
 ||[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release information about the [!DNL Target] Platform release.|
 |April 4|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Updated information about the [!DNL Target Standard/Premium] 22.3.1 release.|

@@ -323,7 +323,9 @@ The following options are available:
 
 Drag the element to another location inside the same parent element or DIV. Other elements shift location to make space for the rearranged element.
 
-**Note:** Click tracking does not work on rearranged items.
+**Note**: Click-tracking does not work on rearranged items.
+
+Currently, certain VEC actions, such as [!UICONTROL Rearrange] and [!UICONTROL Move], assume that the sibling elements of the source and destination parent elements are completely loaded. If lazy loading occurs under the parent DOM elements (source or destination), these VEC actions can cause inconsistent behavior. We are working on a more reliable approach to make VEC actions work in lazy-loaded DOM elements. As a temporary workaround, you can use [!UICONTROL Custom Code] in these scenarios to render your experiences.
 
 ### [!UICONTROL Resize]
 
@@ -336,6 +338,8 @@ Resize an element on your page. When you select [!UICONTROL Resize], a handle ap
 Move elements on your page. Unlike the [!UICONTROL Rearrange] option, [!UICONTROL Move] does not shift other elements to make room for the element being moved. Use the arrow keys to fine tune the move. (Planned enhancement: support to ensure moved elements are not hidden behind other elements.)
 
 In certain situations, such as when a CSS restriction requires an element to remain inside its parent element, you cannot move the element outside its parent. An element cannot be moved outside of a container that has following CSS property: `overflow: hidden`.
+
+See [!UICONTROL Rearrange] above for more information about inconsistent behavior with the [!UICONTROL Move] and [!UICONTROL Rearrange] actions due to lazy loading of DOM elements.
 
 ### [!UICONTROL Hide]
 
