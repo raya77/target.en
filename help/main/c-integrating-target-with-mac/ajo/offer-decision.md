@@ -11,9 +11,11 @@ Use [!DNL Adobe Target] with [!DNL Adobe Journey Optimizer] offer decisions to d
 
 Add offer decisions created in [!DNL Adobe Journey Optimizer] to [!DNL Target] activities (manual [!UICONTROL A/B Test] or [!UICONTROL Experience Targeting]) using either the [!UICONTROL Visual Experience Composer] (VEC) or the [!UICONTROL Form-Based Composer] to test and deliver personalized offers to your visitors on your inbound channels powered by [!DNL Target].
 
-For more information about [!DNL Adobe Journey Optimizer], see [Get Started with Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) in the *Journey Optimizer* documentation.
+For more information about [!DNL Adobe Journey Optimizer] and offer decisions, see the following topics in the *[!DNL Journey Optimizer]* documentation:
 
-For more information about offer decisions, see [About Decision Management](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) in the *[!DNL Journey Optimizer]* documentation.
+* [Get Started with Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
+
+* [About Decision Management](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html)
 
 ## Prerequisites 
 
@@ -90,7 +92,7 @@ In [!DNL Adobe Journey Optimizer], you can create a personalized homepage hero o
 
 ## Notes and limitations
 
-Consider the following notes and limitations as you work with offer decisions:
+Consider the following information as you work with offer decisions:
 
 * The offer decisioning integration works for [!DNL Target] implementations based on the [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). This feature is not available when implementing [!DNL Target] with at.js or other [!DNL Target] SDKs.
 
