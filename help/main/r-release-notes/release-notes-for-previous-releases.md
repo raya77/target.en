@@ -17,6 +17,25 @@ Release notes are arraigned in descending order by month and year of release.
 
 ## Release notes - 2022
 
+### [!DNL Target] Platform release (March 30)
+
+This release contains the following enhancement:
+
+* Click-track metrics will include analytics payload in Delivery API requests for activities that use Analytics as the reporting source (A4T) and process events on client-side. (TNT-43073)
+
+### [!DNL Target Standard] Audiences refresh (March 28)
+
+This release contains the following update:
+
+* The new [!UICONTROL Audiences] UI will be enabled for all [!DNL Target Standard] customers.
+
+### Target Standard/Premium customer engineering fixes (March 22, 2022)
+
+This maintenance release contains the following enhancements:
+
+* Added functionality to return [!DNL Analytics] payload data for `prefetch` views and `pageLoad` click metrics when using the [!UICONTROL Delivery API] with activities that use [!UICONTROL Analytics as the reporting source] (A4T). (TNT-43198)
+* Updated the bot filtering user agent list to allow a browser type commonly used in Japan. (TNT-43867)
+
 ### Target Standard/Premium 22.2.1 (February 1, 2022)
 
 This maintenance release contains the following fixes and enhancements for the new [!UICONTROL Audiences] UI announced in the Target Standard/Premium 22.1.2 release that is rolling out to customers across all regions in the next six weeks. These fixes align the functionality of audiences created in [!DNL Adobe Target Standard/Premium].
