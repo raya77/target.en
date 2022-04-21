@@ -9,9 +9,15 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: April 20, 2022**
+**Last Updated: April 21, 2022**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages could be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
+
+## [!DNL Target] platform release (April 27, 2022)
+
+This release contains the following change:
+
+* With this release you can prefetch content for [!UICONTROL Auto Personalization] (AP) and [!UICONTROL Auto-Target] (AT) activities (previously not returned by [!DNL Target]). This might change the experiences the end users see in case of a pre-fetch call (no changes to the "execute" flow) if an AP/AT activity is on the delivery path and is higher in priority than other AB/XT activities that use the same location for content delivery.
 
 ## [!DNL Target Standard/Premium] 22.4.1 (April 28, 2022)
 
