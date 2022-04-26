@@ -21,8 +21,6 @@ This release contains the following change:
 
 ## [!DNL Target Standard/Premium] 22.4.1 (April 28, 2022)
 
-This release will be available according to the following staggered schedule:
-
 This release contains the following fix:
 
 * Fixed an issue that caused three cart-based algorithms to use the same Bought/Bought condition on the [!DNL Target] backend. (TGT-43456)
