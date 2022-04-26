@@ -1,9 +1,8 @@
 ---
-keywords:aem;experience manager;adobe experience manager;integrate;integration;experience fragments
+keywords: aem;experience manager;adobe experience manager;integrate;integration;experience fragments
 description: Learn how to use the Target/Experience Manager integration.
 title: How Do I Integrate [!DNL Target] with Adobe Experience Manager (AEM)?
 feature: Integrations
-exl-id:
 ---
 # Integrate [!DNL Target] with [!DNL Adobe Experience Manager] (AEM)
 
