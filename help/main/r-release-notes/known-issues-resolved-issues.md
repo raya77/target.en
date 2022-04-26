@@ -71,9 +71,6 @@ A known issue prevents preview if criteria used in the activity is item-based or
 
 ### Redirect offers {#redirect}
 
-The following are known issues with redirect offers:
-
-* A limited number of customers have reported higher degrees of variance in traffic distribution when using redirect offers in activities configured with Analytics for Target (A4T).
 * Redirect activities in at.js implementations might cause the preview URL to enter into a loop (the offer is delivered repeatedly). You can use [QA Mode](/help/main/c-activities/c-activity-qa/activity-qa.md) instead to perform Preview and QA. This issue does not impact the actual delivery of the offer. (TGT-23019)
 
 ### Cancel loading of a page within the Visual Experience Composer (VEC) {#cancel}

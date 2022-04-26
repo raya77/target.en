@@ -29,7 +29,22 @@ The three libraries must be included on both the page with the redirect offer an
 
 ## Why are there sometimes data discrepancies between A4T and Analytics?
 
-Some data discrepancies are expected. For more information, see [Expected data variances between Target and Analytics when using and not using A4T](/help/main/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md). 
+Some data discrepancies are expected. For more information, see [Expected data variances between Target and Analytics when using and not using A4T](/help/main/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
+
+## How can I minimize discrepancies in traffic distribution when using redirect offers in A4T activities? {#discrepancies}
+
+A limited number of customers have reported higher degrees of variance in traffic distribution when using redirect offers in activities configured with [!UICONTROL Analytics for Target] (A4T).
+
+Consider the following:
+
+* Incorrect order of [!DNL Target] and [!DNL Analytics] calls might be responsible for higher degrees of variance.
+
+  The [!DNL Target] call must precede the [!DNL Analytics] call on the source page (where redirect occurs) and on the destination page (where redirect ends).
+
+* Ensure that you use redirect offers in A4T redirect activities.
+* If there are multiple [!DNL Target] location requests on the source page (where the redirect occurs), [!DNL Adobe] recommends that you run the redirect activity on the first [!DNL Target] location request.
+
+  Running the redirect activity on the first [!DNL Target] location request reduces the chances of any activity qualifications happening on other [!DNL Target] location requests and getting counted in the report. Visitors who are redirected need not be counted in the reports of other activities as they will not see the experiences.
 
 ## Why are page views on the original page and on the redirect page sometimes counted? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
