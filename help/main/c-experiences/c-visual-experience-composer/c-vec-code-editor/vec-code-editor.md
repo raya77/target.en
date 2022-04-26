@@ -155,20 +155,6 @@ Use the **[!UICONTROL Custom Code]** tab to:
   </script> 
   ```
 
-* Swap with DOM-polling via `elementOnLoad` plugin
-
-  The advantage of this is the swap occurs earlier than on DOM-ready. The plugin handles pre-hiding and reveal, and requires an id on the element.
-
-  ```javascript
-  <style>#default_content {visibility:hidden;}</style> 
-  <script> 
-  /*elementOnLoad DOM Swizzling v3 ==>Mbox.js Extra Javascript*/window.elementOnLoad=function(e,l){var m=document.getElementById(e);if(m){setTimeout(function(){l(m);setTimeout(function(){m.style.visibility='visible';m.style.display='block'},20)},20)}else{setTimeout(function(){elementOnLoad(e,l)},20)}},addEvent=function(a){var d=document,w=window,wa=w.addEventListener,da=d.addEventListener,e='load',o='on'+e;if(wa){wa(e,a,false)}else if(da){da(e,a,false)}else if(d.attachEvent){w.attachEvent(o,a)}};addEvent(function(){setTimeout("elementOnLoad=function(){}",500)}); 
-  elementOnLoad('default_content',function(e){ 
-      e.innerHTML = "<span style='color:red'>Hello <strong>Again</strong></span>"; 
-  }); 
-  </script> 
-  ```
-
 * Custom redirect passing existing params, `s_tnt` param (for legacy integration to Analytics), referrer param, and mbox session
 
   ```javascript
