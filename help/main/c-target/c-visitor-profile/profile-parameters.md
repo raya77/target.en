@@ -65,7 +65,10 @@ if (mbox.name == 'Track_Interest') {
 Keep the following information in mind:
 
 * Refer to profile script attributes (including itself) in the code with `user.get('parameterName')`. 
-* Save variables that can be accessed the next time the script is run (on the next mbox request) with `user.setLocal('variable_name', 'value')`. Reference the variable with `user.getLocal('variable_name')`. This process is useful for situations where you want to reference the date and time of the last request. 
+* Save variables that can be accessed the next time the script is run (on the next mbox request) with `user.setLocal('variable_name', 'value')`. Reference the variable with `user.getLocal('variable_name')`. This process is useful for situations where you want to reference the date and time of the last request.
+
+  These values persist just like a profile script, but you only have access to them within the script they were set.
+
 * Parameters and values are case-sensitive. Match the case of the parameters and values you receive during the activity or test. 
 * See the "JavaScript reference for script profile parameters" section below for more JavaScript syntax.
 * The parameter remains in the profile after disabling the script. Users whose profiles already contain a parameter that is used in an activity's audience qualify in that activity.
