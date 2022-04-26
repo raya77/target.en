@@ -25,6 +25,36 @@ Principal Solutions Consultant, James McTiernan will be answering customer quest
  
 Technical Support engineer Simon Chen will be assisting James.
 
+## Webinar: Real-Time Personalization with Adobe Target (April 28, 2022)
+
+* **Thursday, April 28, 2022**
+* **1 p.m. to 2 p.m. (EDT, UTC -4)**
+* **[More information and registration information](https://real-time.dxfieldmarketing.adobeevents.com/)**
+
+How can you personalize your digital experiences using those various profile sources today? How do you position your team for success in the future? What are the benefits of enabling brands to truly know and respect their customers while optimizing every customer interaction?  
+
+In this session, learn how [!DNL Adobe Target] bridges the gap on combining data across multiple sources for Real-Time Personalization as we discuss:
+
+* Why personalization performance and speed matter for driving faster business growth
+* How teams can build first-party data strategies and solve their data fragmentation challenges
+* End-to-end workflows for delivering personalized experiences in milliseconds
+* Unique use cases for brands for engaging customers and prospects in real-time with relevant messaging, content, and offers.
+
+## [!DNL Adobe Target] Community Q&A Coffee Break (May 25, 2022)
+
+* **Wednesday, May 25, 2022**
+* **8:00 a.m. (PDT, UTC -7)**
+* **[More information and registration information](https://adobe.ly/3LbOj4G)**
+
+Brent Kostak and Drew Burns of the Adobe Target Product Marketing team will be answering customer questions pertaining to their areas of expertise. Customers are invited to post questions pertaining to the following topics that have been covered during the 4/28/22 Real-time Personalization webinar:
+
+* Creating shared audiences with Adobe Target and Real-Time CDP 
+* Building first-party data strategies to solve data fragmentation challenges
+* Deploying end-to-end workflows for millisecond personalization
+* Delivering relevant messaging, content, and offers in real-time to drive engagement
+
+Kai Motoyama, Technical Support Engineer, will also be on the discussion thread providing additional support.
+
 ## Webinar: Personalize and test at zero latency with on-device decisions from [!DNL Adobe Target]
 
 More than ever, marketers, product owners, and developers are being tasked with optimizing the overall customer experience on sites, in apps, and everywhere else they connect with their customers. Multiple tools with data silos and complicated implementations won’t cut it.
