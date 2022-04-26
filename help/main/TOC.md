@@ -185,6 +185,7 @@ feature-set: Target
    + Integrate Target with Adobe Journey Optimizer {#ajo}
       + [Use offer decisions](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
+   + [Integrate Target with Adobe Experience Manager](/help/main/c-integrating-target-with-mac/aem-target-integration.md)
    + [Integrate Target with Adobe Audience Manager](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Integrate Target with Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
 + Activities {#activities}

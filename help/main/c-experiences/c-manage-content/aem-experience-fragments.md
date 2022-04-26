@@ -143,6 +143,12 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 * You cannot create experience fragments using [!DNL Adobe I/O]. Create experience fragments using AEM, as explained above.
 * If you update your experience fragment in AEM, the experience fragment must be published and exported to [!DNL Target] again so [!DNL Target] can use the latest changes.
 
+## Removing ClientLibs from Experience Fragments exported to Target
+
+When using an experience fragment offer with [!DNL Target] on a page delivered by AEM, the targeted page already contains all of the necessary Client Libraries. In addition, the extraneous html in the XF Offer is also not needed.
+
+For more information, see [this blog post](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}.
+
 ## Training video: Using AEM experience fragments with [!DNL Adobe Target]
 
 The following video shows you how to set up and use experience fragments: 
