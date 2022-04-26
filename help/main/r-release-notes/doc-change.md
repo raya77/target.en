@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|April 26|[Redirect offers - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies)|Added the following FAQ:<ul><li>How can I minimize discrepancies in traffic distribution when using redirect offers in A4T activities?</li></ul>|
 |April 21|[Target release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease information about the [!DNL Target] platform release scheduled for April 17, 2022.|
 |April 20|[Target release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease information about the [!DNL Target Standard/Premium] 22.4.1 release.|
 |April 14|[Visual Experience Composer options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)|Added information to the Rearrange section to explain how to deal with inconsistent VEC behavior with the [!UICONTROL Move] and [!UICONTROL Rearrange] actions due to lazy loading of DOM elements.|
