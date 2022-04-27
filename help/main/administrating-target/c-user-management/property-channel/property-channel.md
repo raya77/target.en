@@ -209,7 +209,7 @@ Consider the following when using or configuring properties and permissions in [
     * When creating an activity, audience, or offer in the All My Workspaces view, you must select the workspace where the item is to be created. Only those workspaces can be selected for which you have the Editor or Approver permission. 
     * When copying an activity, audience, or offer in the All My Workspaces view, you must select the workspace where the item is to be copied. Only those workspaces can be selected for which you have the Editor or Approver permission.
 
-* Any setting on the following the Administration pages can be controlled by any Approver in any workspace:
+* Any setting on the following the Administ[!UICONTROL ]ration pages can be controlled by any Approver in any workspace:
 
     * Visual Experience Composer 
     * Reporting
@@ -271,7 +271,7 @@ Yes, you can move audiences between workspaces by using the [!UICONTROL More Act
 
 >[!NOTE]
 >
->You must have the appropriate rights to edit an audience. In addition, the audience must not be used in other activities. If the audience is being used in other activities and you still want to move the audience to another workstation, remove the audience from the other activities where they are being use.
+>You must have the appropriate rights to edit an audience. In addition, the audience must not be used in other activities. If the audience is being used in other activities and you still want to move the audience to another workstation, remove the audience from the other activities where they are being used.
 
 ### Why do I get an error message indicating that no property is associated with this activity, even though there is a property assigned?
 
