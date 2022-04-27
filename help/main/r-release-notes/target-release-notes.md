@@ -18,7 +18,7 @@ To view information about the current release, see [Target Release Notes](releas
 This release contains the following fix:
 
 * Fixed an issue that caused three cart-based algorithms to use the same Bought/Bought condition on the [!DNL Target] backend. (TGT-43456)
-* Enabled [!DNL Target] UI token refresh for T2E & PBA (Policy Based Authentication) enabled organizations (TGT-42590).
+* Enabled [!DNL Target] UI token refresh for organizations enabled with [Business ID accounts](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} and Policy Based Authentication (PBA). (TGT-42590)
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 
