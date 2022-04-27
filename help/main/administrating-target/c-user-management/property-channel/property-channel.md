@@ -257,6 +257,22 @@ Unfortunately, you cannot move activities from one workspace to another. However
 
 Activities created before the migration continue to run the same way in the Default Workspace unless they are edited and assigned properties. Activities under a specific workspace honor properties assigned to that workspace and, therefore, behavior might not remain same as before the migration.
 
+### Can I move an audience from one workspace to another? {#move-audience}
+
+Yes, you can move audiences between workspaces by using the [!UICONTROL More Actions] option on the [!UICONTROL Audiences] page.
+
+1. Click the **[!UICONTROL More Actions]** button (the three ellipses), then click **[!UICONTROL Move]**.
+
+   ![More Actions > Move](/help/main/administrating-target/c-user-management/property-channel/assets/move-audience.png)
+
+1. Select the desired workspace from the **[!UICONTROL Workspace]** drop-down list, then click **[!UICONTROL Move]**.
+
+   ![Select desired audience to move to new workspace](/help/main/administrating-target/c-user-management/property-channel/assets/workspace-move.png)
+
+>[!NOTE]
+>
+>You must have the appropriate rights to edit an audience. In addition, the audience must not be used in other activities. If the audience is being used in other activities and you still want to move the audience to another workstation, remove the audience from the other activities where they are being use.
+
 ### Why do I get an error message indicating that no property is associated with this activity, even though there is a property assigned?
 
 If you implemented [!DNL Target] with tags in [!DNL Adobe Experience Platform] and get an error message indicating that there is no property associated with the activity, pass the `at_property` parameter with the `targetPageParams` function.
