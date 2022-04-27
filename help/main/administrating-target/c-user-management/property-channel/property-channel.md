@@ -271,7 +271,7 @@ Yes, you can move audiences between workspaces by using the [!UICONTROL More Act
 
 >[!NOTE]
 >
->You must have the appropriate rights to edit an audience. In addition, the audience must not be used in other activities. If the audience is being used in other activities and you still want to move the audience to another workstation, remove the audience from the other activities where they are being used.
+>You must have the appropriate rights to edit an audience. In addition, the audience must not be used in other activities. If the audience is being used in other activities and you still want to move the audience to another workplace, remove the audience from the other activities where they are being used.
 
 ### Why do I get an error message indicating that no property is associated with this activity, even though there is a property assigned?
 
