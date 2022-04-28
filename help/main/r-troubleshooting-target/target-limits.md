@@ -1,7 +1,7 @@
 ---
 keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID;troubleshooting
-description: View a list of character limits and other limits (offer size, audiences, profiles, values, parameters, etc.) that affect activities and other elements in Adobe Target.
-title: What are the various character, size, and other limits in Adobe Target?
+description: View a list of character limits and other limits that affect activities and other elements in [!DNL Adobe Target].
+title: What are the various character, size, and other limits in [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
