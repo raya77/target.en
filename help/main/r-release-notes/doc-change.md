@@ -14,6 +14,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 |Date|Topic|Changes|
 | --- | --- | --- |
 |April 28|[Enterprise user permissions](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#move-audience)|Added the following FAQ:<ul><li>Can I move an audience from one workspace to another?</li></ul>|
+||[[!UICONTROL Auto-Allocate] overview](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3)|Added the following FAQs:<ul><li>Can an [!UICONTROL Auto-Allocate] activity adjust the lookback window over the course of a test to take into consideration changing trends over time?</li><li>Does [!UICONTROL Auto-Allocate] show a winning experience to a returning visitor if the winning experience is different from what the visitor saw when qualifying for the activity?</li></ul>|
 ||[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added information about the [!DNL Target Standard/Premium] 22.4.1 and Target platform (April 27, 2022) releases.|
 
 ## Adobe Target Standard/Premium 22.3.1 (April 5)
