@@ -133,7 +133,7 @@ Character limits and other limits (offer size, audiences, profiles, values, para
 
 ### Experiences per activity
 
-* **Limit**: 2,000 experiences per Experience Targeting (XT), A/B Test, Multivariate Test (MVT), and Auto-Target activity.
+* **Limit**: 2,000 experiences per [!UICONTROL Experience Targeting] (XT), [!UICONTROL A/B Test], [!UICONTROL Multivariate Test] (MVT), and [!UICONTROL Auto-Target] activity.
 
   30,000 experiences per Automated Personalization (AP) activity.
 
