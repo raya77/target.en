@@ -207,7 +207,7 @@ Character limits and other limits (offer size, audiences, profiles, values, para
 
 ### mbox3rdPartyId parameter
 
-* **Limit**: 60 characters.
+* **Limit**: 256 characters.
 
 ## Offers
 
