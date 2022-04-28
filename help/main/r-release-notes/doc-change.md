@@ -9,7 +9,14 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 
 This page lists significant changes made to the [!DNL Adobe Target] product documentation.
 
-## Adobe Target Standard/Premium 22.3.1 (April 4-6, 2022; staggered release)
+## Adobe Target Standard/Premium 22.4.1 (April 28)
+
+|Date|Topic|Changes|
+| --- | --- | --- |
+|April 28|[Enterprise user permissions](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#move-audience)|Added the following FAQ:<ul><li>Can I move an audience from one workspace to another?</li></ul>|
+||[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added information about the [!DNL Target Standard/Premium] 22.4.1 and Target platform (April 27, 2022) releases.|
+
+## Adobe Target Standard/Premium 22.3.1 (April 5)
 
 |Date|Topic|Changes|
 | --- | --- | --- |

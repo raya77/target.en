@@ -61,6 +61,22 @@ This maintenance release contains the following fixes and enhancements for the n
 
 This release includes bug fixes and pre-requisite capabilities for future integrations.
 
+### Target Platform release (April 13, 2022)
+
+This release contains the following update:
+
+* Fixed issue to ensure that the last octet of IP addresses are properly obfuscated when captured using profile scripts. (TNT-44076)
+
+### [!DNL Target Standard/Premium] 22.3.1 (April 5, 2022)
+
+This release contains the following changes and enhancements:
+
+* Fixed an issue that caused the [!UICONTROL Include] and [!UICONTROL Exclude] options to be disabled for combined audiences when editing an activity. (TGT-43422)
+* Fixed an issue that prevented some customers from seeing the list of available audiences while editing an activity. (TGT-43404)
+* Fixed an issue that prevented some customers from deleting an IP address from the "[!UICONTROL IPs to exclude from [!DNL Target] reporting data]" list in [!UICONTROL Administration] > [!UICONTROL Reporting]. (TGT-43384)
+* Fixed an issue that prevented the use of negative numbers in audience criterion that check that any variable is "greater than," "greater than or equal to," "less than," or "less than or equal to." (TGT-43367)
+* Fixed an issue that prevented customers from seeing the [!UICONTROL Audience Details] card when creating combined audiences. (TGT-43303)
+
 ### at.js version 2.8.0 (January 7, 2022)
 
 The [!DNL Target] at.js JavaScript library now collects feature usage and performance telemetry data. Personal data is not collected. Opt-out for this feature is available by setting `telemetryEnabled` to false in `targetGlobalSettings`. For more information, see [telemetryEnabled in targetGlobalSettings](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
