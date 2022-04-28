@@ -12,27 +12,18 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Target Standard/Premium] 22.4.1 (April 28, 2022)
+
+This release contains the following fix:
+
+* Fixed an issue that caused three cart-based algorithms to use the same Bought/Bought condition on the [!DNL Target] backend. (TGT-43456)
+* Enabled [!DNL Target] UI token refresh for organizations enabled with [Business ID accounts](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} and Policy Based Authentication (PBA). (TGT-42590)
+
 ## [!DNL Target] platform release (April 27, 2022)
 
 This release contains the following change:
 
 * With this release you can prefetch content for [!UICONTROL Auto Personalization] (AP) and [!UICONTROL Auto-Target] (AT) activities (previously not returned by [!DNL Target]). This might change the experiences the end users see in case of a pre-fetch call (no changes to the "execute" flow) if an AP/AT activity is on the delivery path and is higher in priority than other AB/XT activities that use the same location for content delivery.
-
-## Target Platform release (April 13, 2022)
-
-This release contains the following update:
-
-* Fixed issue to ensure that the last octet of IP addresses are properly obfuscated when captured using profile scripts. (TNT-44076)
-
-## [!DNL Target Standard/Premium] 22.3.1 (April 5, 2022)
-
-This release contains the following changes and enhancements:
-
-* Fixed an issue that caused the [!UICONTROL Include] and [!UICONTROL Exclude] options to be disabled for combined audiences when editing an activity. (TGT-43422)
-* Fixed an issue that prevented some customers from seeing the list of available audiences while editing an activity. (TGT-43404)
-* Fixed an issue that prevented some customers from deleting an IP address from the "[!UICONTROL IPs to exclude from [!DNL Target] reporting data]" list in [!UICONTROL Administration] > [!UICONTROL Reporting]. (TGT-43384)
-* Fixed an issue that prevented the use of negative numbers in audience criterion that check that any variable is "greater than," "greater than or equal to," "less than," or "less than or equal to." (TGT-43367)
-* Fixed an issue that prevented customers from seeing the [!UICONTROL Audience Details] card when creating combined audiences. (TGT-43303)
 
 ## Additional release notes and version details
 

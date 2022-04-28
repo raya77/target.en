@@ -191,7 +191,8 @@ The new Permissions functionality can be seen in various places in the [!DNL Tar
 
   ![](assets/channel_options.png)
 
-* **Audience Creation:** When you create an audience, it is created in the currently selected workspace. 
+* **Audience Creation:** When you create an audience, it is created in the currently selected workspace.
+* **Audience list:** You can move audiences between workspaces by using the [!UICONTROL More Actions] > [!DNL Move] option on the [!UICONTROL Audiences] page.
 * **Offer Creation:** When you create an offer, it is created in the currently selected workspace. 
 * **Properties page (Administration > Properties):** You can use the [!UICONTROL Search] box to search the [!UICONTROL Property] list.
 
@@ -209,7 +210,7 @@ Consider the following when using or configuring properties and permissions in [
     * When creating an activity, audience, or offer in the All My Workspaces view, you must select the workspace where the item is to be created. Only those workspaces can be selected for which you have the Editor or Approver permission. 
     * When copying an activity, audience, or offer in the All My Workspaces view, you must select the workspace where the item is to be copied. Only those workspaces can be selected for which you have the Editor or Approver permission.
 
-* Any setting on the following the Administ[!UICONTROL ]ration pages can be controlled by any Approver in any workspace:
+* Any setting on the following the [!UICONTROL Administration] pages can be controlled by any [!UICONTROL Approver] in any workspace:
 
     * Visual Experience Composer 
     * Reporting
