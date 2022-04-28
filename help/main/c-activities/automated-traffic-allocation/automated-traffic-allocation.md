@@ -201,6 +201,16 @@ If a hit occurs in another (non-default) environment, traffic is distributed acc
 
 When selecting another environment, the report shows traffic and conversions for that environment. The default selected environment for a report is the account-wide default that is selected. The default environment cannot be set on a per-activity basis.
 
+### Can an [!UICONTROL Auto-Allocate] activity adjust the lookback window over the course of a test to take into consideration changing trends over time?
+
+For example, can the activity consider the month of December for deciding how to allocate traffic, rather than looking at September visitor data (when the test began)?
+
+No, [!UICONTROL Auto-Allocate] considers performance of the entire activity. 
+
+### Does [!UICONTROL Auto-Allocate] show a winning experience to a returning visitor if the winning experience is different from what the visitor saw when qualifying for the activity?
+
+[!UICONTROL Auto-Allocate] uses sticky decisioning for the same reasons that [!UICONTROL A/B Test] activities are sticky. The traffic allocation works for new visitors only.
+
 ## Training videos {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
 The following videos contain more information about the concepts discussed in this article.
