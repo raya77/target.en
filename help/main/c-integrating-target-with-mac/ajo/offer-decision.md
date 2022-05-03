@@ -25,7 +25,7 @@ To use offer decisions in [!DNL Target], you need the following:
 
   The feature is not available when implementing [!DNL Target] with at.js or other [!DNL Target] SDKs.
 
-* [!DNL Adobe Journey Optimizer Ultimate] (AJ0 + Offer Decisioning) or [!DNL Adobe Experience Platform] and the [!UICONTROL Offer Decisioning] application service add-on.
+* [!DNL Adobe Journey Optimizer Ultimate] (AJO + Offer Decisioning) or [!DNL Adobe Experience Platform] and the [!UICONTROL Offer Decisioning] application service add-on.
 
 ## Sample use cases
 
