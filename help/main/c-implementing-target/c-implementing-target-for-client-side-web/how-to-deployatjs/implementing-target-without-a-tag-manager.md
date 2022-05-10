@@ -77,6 +77,19 @@ In addition to the settings explained above, the following specific at.js settin
 |Custom Library Header|Add any custom JavaScript to include at the top of the library.|
 |Custom Library Footer|Add any custom JavaScript to include at the bottom of the library.|
 
+### Implementation methods with On-Device Decisioning
+
+Starting with version 2.5.0, at.js offers on-device decisioning. On-device decisioning lets you cache your [A/B Test](/help/main/c-activities/t-test-ab/test-ab.md) and [Experience Targeting](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities on the browser to perform in-memory decisioning without a blocking network request to the [!DNL Adobe Target] Edge Network. 
+
+For more information, see:
+
+* Client-side: [On-device decisioning for at.js](/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
+* Server-side: [On-device decisioning](/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md){target=_blank}
+* Node.js: [Enable On-Device Decisioning for your organization](https://adobetarget-sdks.gitbook.io/docs/getting-started/node.js){target=_blank}
+* Java: [Enable On-Device Decisioning for your organization](https://adobetarget-sdks.gitbook.io/docs/getting-started/java){target=_blank}
+* .NET: [Enable On-Device Decisioning for your organization](https://adobetarget-sdks.gitbook.io/docs/getting-started/dotnet){target=_blank}
+* Python: [Enable On-Device Decisioning for your organization](https://adobetarget-sdks.gitbook.io/docs/getting-started/python){target=_blank}
+
 ### Profile API
 
 Enable or disable authentication for batch updates via API and generate a profile authentication token.
