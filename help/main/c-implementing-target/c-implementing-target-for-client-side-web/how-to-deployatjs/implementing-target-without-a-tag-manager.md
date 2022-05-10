@@ -83,8 +83,9 @@ Starting with version 2.5.0, at.js offers on-device decisioning. On-device decis
 
 For more information, see:
 
-* Client-side: [On-device decisioning for at.js](/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
-* Server-side: [On-device decisioning](/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md){target=_blank}
+* Client-side: [On-device decisioning for at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
+* Server-side: [Introduction to on-device decisioning](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
+* Server-side: [On-device decisioning](/help/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md){target=_blank}
 * Node.js: [Enable On-Device Decisioning for your organization](https://adobetarget-sdks.gitbook.io/docs/getting-started/node.js){target=_blank}
 * Java: [Enable On-Device Decisioning for your organization](https://adobetarget-sdks.gitbook.io/docs/getting-started/java){target=_blank}
 * .NET: [Enable On-Device Decisioning for your organization](https://adobetarget-sdks.gitbook.io/docs/getting-started/dotnet){target=_blank}
