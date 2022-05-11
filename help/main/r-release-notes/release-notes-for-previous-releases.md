@@ -17,6 +17,19 @@ Release notes are arraigned in descending order by month and year of release.
 
 ## Release notes - 2022
 
+### [!DNL Target Standard/Premium] 22.4.1 (April 28, 2022)
+
+This release contains the following fix:
+
+* Fixed an issue that caused three cart-based algorithms to use the same Bought/Bought condition on the [!DNL Target] backend. (TGT-43456)
+* Enabled [!DNL Target] UI token refresh for organizations enabled with [Business ID accounts](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} and Policy Based Authentication (PBA). (TGT-42590)
+
+### [!DNL Target] platform release (April 27, 2022)
+
+This release contains the following change:
+
+* With this release you can prefetch content for [!UICONTROL Auto Personalization] (AP) and [!UICONTROL Auto-Target] (AT) activities (previously not returned by [!DNL Target]). This might change the experiences the end users see in case of a pre-fetch call (no changes to the "execute" flow) if an AP/AT activity is on the delivery path and is higher in priority than other AB/XT activities that use the same location for content delivery.
+
 ### [!DNL Target] Platform release (March 30)
 
 This release contains the following enhancement:
