@@ -13,7 +13,9 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|May 11|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added information about the [!DNL Target Standard/Premium] 22.5.1 and Target platform (May 11-13, 2022) releases.|
+|May 11|[Target announcements and events](/help/main/r-release-notes/target-announcements.md#webinar-series)|Added information and registration links for the following webinars:<ul><li>Dick's Sporting Goods: Personalization and the Changing Landscape in Retail</li><li>Adobe: Personalization Industry Insider - Financial Services and Insurance</li><li>City National Bank: How to Achieve the Top 1% in Digital Optimization</li><li>Adobe: Personalization with Precision - [!DNL Adobe Analytics] and [!DNL Target]</li><li>City National Bank: Zero to Hero - Starting & Scaling a Personalization Program</li><li>Adobe: Uncover High-Impact Optimization Opportunities</li><li>Adobe: Personalization Industry Insider - Retail</li></ul>Added the recording for the following webinar:<ul><li>Real-Time Personalization with [!DNL Adobe Target]</li></ul>|
+||[Content Security Policy (CSP) directives](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)|Added FAQ section.|
+||[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added information about the [!DNL Target Standard/Premium] 22.5.1 and Target platform (May 11-13, 2022) releases.|
 
 ## Adobe Target Standard/Premium 22.4.1 (April 28)
 
