@@ -9,37 +9,122 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 
 Announcements and information about upcoming events, including [!DNL Adobe Target] Skill Builder sessions, developer chats, webinars, and [!DNL Target] Coffee Break sessions.
 
-## Webinar: Real-Time Personalization with Adobe Target (April 28, 2022)
-
-* **Thursday, April 28, 2022**
-* **1 p.m. to 2 p.m. (EDT, UTC -4)**
-* **[More information and registration information](https://real-time.dxfieldmarketing.adobeevents.com/)**
-
-How can you personalize your digital experiences using those various profile sources today? How do you position your team for success in the future? What are the benefits of enabling brands to truly know and respect their customers while optimizing every customer interaction?  
-
-In this session, learn how [!DNL Adobe Target] bridges the gap on combining data across multiple sources for Real-Time Personalization as we discuss:
-
-* Why personalization performance and speed matter for driving faster business growth
-* How teams can build first-party data strategies and solve their data fragmentation challenges
-* End-to-end workflows for delivering personalized experiences in milliseconds
-* Unique use cases for brands for engaging customers and prospects in real-time with relevant messaging, content, and offers.
-
 ## [!DNL Adobe Target] Community Q&A Coffee Break (May 25, 2022)
 
 * **Wednesday, May 25, 2022**
 * **8:00 a.m. (PDT, UTC -7)**
 * **[More information and registration information](https://adobe.ly/3LbOj4G)**
 
-Brent Kostak and Drew Burns of the Adobe Target Product Marketing team will be answering customer questions pertaining to their areas of expertise. Customers are invited to post questions pertaining to the following topics that have been covered during the 4/28/22 Real-time Personalization webinar:
+Brent Kostak and Drew Burns of the [!DNL Adobe Target] Product Marketing team will be answering customer questions pertaining to their areas of expertise. Customers are invited to post questions pertaining to the following topics that have been covered during the 4/28/22 Real-time Personalization webinar (access recording below):
 
-* Creating shared audiences with Adobe Target and Real-Time CDP 
+* Creating shared audiences with [!DNL Adobe Target] and Real-Time CDP 
 * Building first-party data strategies to solve data fragmentation challenges
 * Deploying end-to-end workflows for millisecond personalization
 * Delivering relevant messaging, content, and offers in real-time to drive engagement
 
 Kai Motoyama, Technical Support Engineer, will also be on the discussion thread providing additional support.
 
-## Webinar: Personalize and test at zero latency with on-device decisions from [!DNL Adobe Target]
+## [!DNL Adobe Target] webinar series {#webinar-series}
+
+Register for the following webinars to see how customers are using [!DNL Adobe Target] to achieve their personalization and optimization goals:
+
+### Dick's Sporting Goods: Personalization and the Changing Landscape in Retail
+
+* **Thursday, May 19, 2022**
+* **1:00 to 2:00 p.m. (EDT, UTC-4)**
+* **[More information and registration information](https://changing-landscape.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
+Join Shawn Wilkinson (eCommerce Perssonalization Manager) to learn how [!DNL Target] is helping turn average visitors into returning athletes.
+
+Learn how Dick’s Sporting Goods is driving double-digit growth as we unpack:
+
+* How to plan and launch a high-performance personalization program for retail
+* Why getting buy-in across the organization is critical to overcome roadblocks and obstacles
+* Overall business impact by scaling personalization and experimentation activities across web and mobile
+* Retail tips and tricks for using analytics data to turn average visitors into returning athletes
+
+### Adobe: Personalization Industry Insider - Financial Services and Insurance
+
+* **Tuesday, May 24, 2022**
+* **1:00 to 2:00 p.m. (EDT, UTC-4)**
+* **[More information and registration information](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
+Join Christopher Young (Director, Industry Strategy Financial Services) and
+James Capasso (Target Consultant, Adobe Premier Support), to learn how brands are responding to immediate changes in demand while putting personalization at the center of their customer engagements. Learn how financial services companies are supporting and informing customers all over the world who are concerned about recent inflation patterns and circumstances on their investments. 
+
+### City National Bank: How to Achieve the Top 1% in Digital Optimization
+
+* **Thursday, May 26, 2022**
+* **1:00 to 2:00 p.m. (EDT, UTC-4)**
+* **[More information and registration information](https://digital-optimization.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
+Join Heather Adkins (SVP Marketing Technology Manager) to learn how City National Bank became one of the most sophisticated "Digitally-Enabled Relationship Banks."
+
+Learn how City National Bank is leveraging [!DNL Target] to:
+
+* Scale testing and experimentation, personalization, and AI automation activities
+* Drive winning experiences cross-channel to develop authentic relationships
+* Accelerate business growth with increased engagement and adoption of personalized offers
+* Optimize multichannel campaigns for time-to-value and ROI.
+
+### Adobe: Personalization with Precision - [!DNL Adobe Analytics] and [!DNL Target]
+
+* **Thursday, June 2, 2022**
+* **1:00 to 2:00 p.m. (EDT, UTC-4)**
+* **[More information and registration information](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
+Join Jordan Ison (Principal Expert Solution Consultant at [!DNL Adobe]) to discuss: 
+
+* How marketers, developers, and product teams can open the ‘black box’ of AI to drive future testing and personalization strategies 
+* Overcome challenges in optimizing web, mobile app, email, IoT, and each digital touchpoint for higher conversion and engagement 
+* Step-by-step guided tour of [!DNL Adobe Analytics] and [!DNL Target] workflows for personalization, targeting, and testing 
+* Top use cases to unlock which attributes predict visitor behavior and which attributes are most important for key visualizations and segmentation analysis
+
+### City National Bank: Zero to Hero - Starting & Scaling a Personalization Program
+
+* **Thursday, June 9, 2022**
+* **1:00 to 2:00 p.m. (EDT, UTC-4)**
+* **More information and registration information coming soon**
+
+Join Heather Adkins (SVP Marketing Technology) to learn best practices to become a "relationship bank" to increase brand loyalty and how to drive people and processes to build and scale successful personalization programs.
+
+### Adobe: Uncover High-Impact Optimization Opportunities
+
+* **Thursday, June 16, 2022**
+* **1:00 to 2:00 p.m. (EDT, UTC-4)**
+* **[More information and registration information](https://optimization.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
+Join Kaitlin White (Adobe Product Marketing Manager) as we share tried-and-true strategies to help you kickstart your personalization program, including: 
+
+* Out-of-the-box thinking to acquiring new leads or customers 
+* Fixing user friction for a more intuitive experience 
+* Tapping into customer affinity for personalization 
+* And many more ideas to help you uncover high-impact opportunities at your organization 
+
+### Adobe: Personalization Industry Insider - Retail 
+
+* **Thursday, June 21, 2022**
+* **1:00 to 2:00 p.m. (EDT, UTC-4)**
+* **[More information and registration information](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
+Join Michael Klein (Director, Industry Strategy Retail) and Leina Betzer (Target Consultant, Adobe Premier Support) to discuss how retail ecommerce sales are skyrocketing as consumer buying patterns and behaviors shift, with higher demand for goods and services in certain markets.
+
+## Recordings of past webinars and skill-builder sessions
+
+Register and view recordings of recent events:
+
+### Real-Time Personalization with [!DNL Adobe Target]
+
+**[Register to view the webinar recording](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
+In this session, learn how [!DNL Adobe Target] bridges the gap on combining data across multiple sources for Real-Time Personalization as we discuss:
+
+ * Why personalization performance and speed matter for driving faster business growth 
+* How teams can build first-party data strategies and solve their data fragmentation challenges 
+* End-to-end workflows for delivering personalized experiences in milliseconds 
+* Unique use cases for brands for engaging customers and prospects in real-time with relevant messaging, content, and offers
+
+### Webinar: Personalize and test at zero latency with on-device decisions from [!DNL Adobe Target]
 
 More than ever, marketers, product owners, and developers are being tasked with optimizing the overall customer experience on sites, in apps, and everywhere else they connect with their customers. Multiple tools with data silos and complicated implementations won’t cut it.
 
@@ -47,7 +132,7 @@ In this recorded webinar, Adobe Target product experts discuss how moving critic
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
 
-## Webinar: How HSBC leverages Adobe [!DNL Target] and AI to rapidly optimize and deliver personalization at scale
+### Webinar: How HSBC leverages Adobe [!DNL Target] and AI to rapidly optimize and deliver personalization at scale
 
 * **[View the webinar recording here](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
@@ -63,18 +148,9 @@ Join Adobe and HSBC for this webinar to learn:
 
 *McKinsey article: “[The COVID-19 recovery will be digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),” May 2020
 
-## Adobe [!DNL Target] Skill Builder: Developer chat, migrate Adobe [!DNL Target]'s mbox.js to at.js {#skill-builder}
-
-With the deprecation of mbox.js on March 31, 2021, David Son, Adobe Target Product Manager recently hosted a developer chat to discuss the benefits of migrating mbox.js to at.js. 
+### Adobe [!DNL Target] Skill Builder: Developer chat, migrate Adobe [!DNL Target]'s mbox.js to at.js {#skill-builder}
 
 * **[View the webinar recording here](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
 
-## Recognition for [!DNL Adobe Target]
-
-[!DNL Adobe Target] was recently recognized by both Forrester and Gartner as a market leader.
-
-|Research service|Details|
-| --- | --- |
-|Forrester|**Adobe named a Leader in Forrester wave report for experience optimization platforms.**<br>Adobe was named a Leader in The Forrester Wave: Experience Optimization Platforms, Q4 2020 report for its offering in this space, Adobe Target Premium. Adobe received the highest score of all participating vendors in the current offering and market presence categories, as well in the recommendations and platform experience criteria. Target Premium also received the highest score possible in the experience optimization technique innovation and supporting services criteria. The report is based on a thorough evaluation of 10 experience optimization platform providers across 22 criteria.<br>Read about it on the [Adobe Blog](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html).|
-|Gartner|**Adobe again named a Leader in Gartner Magic Quadrant for personalization engines.**<br>Adobe was once again named a Leader in the third-annual Gartner Magic Quadrant for Personalization Engines, 2020 report. The Gartner Magic Quadrant for Personalization Engines evaluated vendors across 15 criteria that fall into two categories: completeness of vision and ability to execute.<br>[Read about it on The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).|
+With the deprecation of mbox.js on March 31, 2021, David Son, Adobe Target Product Manager recently hosted a developer chat to discuss the benefits of migrating mbox.js to at.js. 
 

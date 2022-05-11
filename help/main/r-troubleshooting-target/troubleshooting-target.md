@@ -139,6 +139,10 @@ The following sections contain troubleshooting information about implementing Ta
 
 * [Search Engine Optimization (SEO) friendly testing](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
 
+## Security
+
+* [Content Security Policy (CSP) directives](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
+
 ## System status
 
 * [System status updates](/help/main/r-release-notes/system-status-updates.md)
