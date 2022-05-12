@@ -55,8 +55,7 @@ Learn how Dick’s Sporting Goods is driving double-digit growth as we unpack:
 * **1:00 to 2:00 p.m. (EDT, UTC-4)**
 * **[More information and registration information](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
-Join Christopher Young (Director, Industry Strategy Financial Services) and
-James Capasso (Target Consultant, Adobe Premier Support), to learn how brands are responding to immediate changes in demand while putting personalization at the center of their customer engagements. Learn how financial services companies are supporting and informing customers all over the world who are concerned about recent inflation patterns and circumstances on their investments.
+Join Christopher Young (Director, Industry Strategy Financial Services) and James Capasso (Target Consultant, Adobe Premier Support), to learn how brands are responding to immediate changes in demand while putting personalization at the center of their customer engagements. Learn how financial services companies are supporting and informing customers all over the world who are concerned about recent inflation patterns and circumstances on their investments.
 +++ 
 
 ### City National Bank: How to Achieve the Top 1% in Digital Optimization (May 26, 2022)
