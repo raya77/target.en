@@ -28,7 +28,9 @@ Kai Motoyama, Technical Support Engineer, will also be on the discussion thread 
 
 Register for the following webinars to see how customers are using [!DNL Adobe Target] to achieve their personalization and optimization goals:
 
-### Dick's Sporting Goods: Personalization and the Changing Landscape in Retail
+### Dick's Sporting Goods: Personalization and the Changing Landscape in Retail (May 19, 2022)
+
++++Click me
 
 * **Thursday, May 19, 2022**
 * **1:00 to 2:00 p.m. (EDT, UTC-4)**
@@ -43,16 +45,23 @@ Learn how Dick’s Sporting Goods is driving double-digit growth as we unpack:
 * Overall business impact by scaling personalization and experimentation activities across web and mobile
 * Retail tips and tricks for using analytics data to turn average visitors into returning athletes
 
-### Adobe: Personalization Industry Insider - Financial Services and Insurance
++++
+
+### Adobe: Personalization Industry Insider - Financial Services and Insurance (May 24, 2022)
+
++++Click me
 
 * **Tuesday, May 24, 2022**
 * **1:00 to 2:00 p.m. (EDT, UTC-4)**
 * **[More information and registration information](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
 Join Christopher Young (Director, Industry Strategy Financial Services) and
-James Capasso (Target Consultant, Adobe Premier Support), to learn how brands are responding to immediate changes in demand while putting personalization at the center of their customer engagements. Learn how financial services companies are supporting and informing customers all over the world who are concerned about recent inflation patterns and circumstances on their investments. 
+James Capasso (Target Consultant, Adobe Premier Support), to learn how brands are responding to immediate changes in demand while putting personalization at the center of their customer engagements. Learn how financial services companies are supporting and informing customers all over the world who are concerned about recent inflation patterns and circumstances on their investments.
++++ 
 
-### City National Bank: How to Achieve the Top 1% in Digital Optimization
+### City National Bank: How to Achieve the Top 1% in Digital Optimization (May 26, 2022)
+
++++Click me
 
 * **Thursday, May 26, 2022**
 * **1:00 to 2:00 p.m. (EDT, UTC-4)**
@@ -67,7 +76,11 @@ Learn how City National Bank is leveraging [!DNL Target] to:
 * Accelerate business growth with increased engagement and adoption of personalized offers
 * Optimize multichannel campaigns for time-to-value and ROI.
 
-### Adobe: Personalization with Precision - [!DNL Adobe Analytics] and [!DNL Target]
++++
+
+### Adobe: Personalization with Precision - [!DNL Adobe Analytics] and [!DNL Target] (June 2, 2022)
+
++++Click me
 
 * **Thursday, June 2, 2022**
 * **1:00 to 2:00 p.m. (EDT, UTC-4)**
@@ -80,15 +93,22 @@ Join Jordan Ison (Principal Expert Solution Consultant at [!DNL Adobe]) to discu
 * Step-by-step guided tour of [!DNL Adobe Analytics] and [!DNL Target] workflows for personalization, targeting, and testing 
 * Top use cases to unlock which attributes predict visitor behavior and which attributes are most important for key visualizations and segmentation analysis
 
-### City National Bank: Zero to Hero - Starting & Scaling a Personalization Program
++++
+
+### City National Bank: Zero to Hero - Starting & Scaling a Personalization Program (June 9, 2022)
+
++++Click me
 
 * **Thursday, June 9, 2022**
 * **1:00 to 2:00 p.m. (EDT, UTC-4)**
 * **More information and registration information coming soon**
 
 Join Heather Adkins (SVP Marketing Technology) to learn best practices to become a "relationship bank" to increase brand loyalty and how to drive people and processes to build and scale successful personalization programs.
++++
 
-### Adobe: Uncover High-Impact Optimization Opportunities
+### Adobe: Uncover High-Impact Optimization Opportunities (June 16, 2022)
+
++++Click me
 
 * **Thursday, June 16, 2022**
 * **1:00 to 2:00 p.m. (EDT, UTC-4)**
@@ -99,15 +119,20 @@ Join Kaitlin White (Adobe Product Marketing Manager) as we share tried-and-true 
 * Out-of-the-box thinking to acquiring new leads or customers 
 * Fixing user friction for a more intuitive experience 
 * Tapping into customer affinity for personalization 
-* And many more ideas to help you uncover high-impact opportunities at your organization 
+* And many more ideas to help you uncover high-impact opportunities at your organization
 
-### Adobe: Personalization Industry Insider - Retail 
++++
+
+### Adobe: Personalization Industry Insider - Retail (June 21, 2022)
+
++++Click me
 
 * **Thursday, June 21, 2022**
 * **1:00 to 2:00 p.m. (EDT, UTC-4)**
 * **[More information and registration information](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
 Join Michael Klein (Director, Industry Strategy Retail) and Leina Betzer (Target Consultant, Adobe Premier Support) to discuss how retail ecommerce sales are skyrocketing as consumer buying patterns and behaviors shift, with higher demand for goods and services in certain markets.
++++
 
 ## Recordings of past webinars and skill-builder sessions
 
