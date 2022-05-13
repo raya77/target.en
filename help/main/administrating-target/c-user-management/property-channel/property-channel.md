@@ -226,7 +226,7 @@ Consider the following when using or configuring properties and permissions in [
 * When viewing audiences from the [!DNL Audiences] page, the page loads slower than expected. If you interact with the search bar in any way, audiences display faster. This issue is known and will be fixed in an upcoming update. This issue does not affect selecting audiences during the activity-creation workflow. 
 * The following resources are part of the new Enterprise Permissions model:
 
-  * Activities, audiences, and code offers created within Target Standard/Premium after the customer is enabled for permissions. (Note: customers must be entitled to Target Premium.)
+  * Activities, audiences, and code offers created within [!DNL Target Standard/Premium] are available for use after the customer is enabled for permissions. (Note: customers must be entitled to [!DNL Target Premium].)
   * Properties can be added to existing activities in the Default Workspace; however, this approach is subject to change.
   * Only new resources (such as activities, code offers, and audiences) created within Target Premium (after Enterprise Permissions are enabled) are available to restrict by permissions.
   * External resources are available only to users in the Default Workspace. A user's role in the Default Workspace applies globally (to all Target requests and all Target resources).
