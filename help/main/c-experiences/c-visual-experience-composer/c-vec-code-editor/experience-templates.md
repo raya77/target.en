@@ -1,7 +1,7 @@
 ---
 keywords: experience template;custom code;banner;lightbox;carousel;countdown;ribbon;buttons
 description: Learn how to use Experience Templates, which are pre-coded samples with configurable inputs to be used to execute common marketer use-cases in Adobe Target.
-title: Which Experience Templates Are Avaialble in Target?
+title: Which Experience Templates Are Available in Target?
 feature: Visual Experience Composer (VEC)
 exl-id: 83bee583-656f-47d4-8892-e41b6629696f
 ---
