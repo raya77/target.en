@@ -21,6 +21,8 @@ Some examples of times you would use exclusions include:
 
 >[!IMPORTANT]
 >
+>Exclusion rules are applied globally to all environments.
+>
 >Static and dynamic exclusion rules are powerful features that can help you with your marketing efforts. For detailed information, examples, and use-case scenarios, see [Use Dynamic and Static Inclusion Rules](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
 ## Create an exclusion

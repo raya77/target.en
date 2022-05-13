@@ -31,7 +31,7 @@ Link: [Server Side Delivery APIs](https://developers.adobetarget.com/api/deliver
 
 `/rest/v1/delivery`
 
-Throught the [!DNL Target] Delivery API, you can:
+Using the [!DNL Target] Delivery API, you can:
 
 * Deliver experiences across web, including SPAs, and mobile channels as well as non-browser based IoT devices, such as connected TVs, kiosks, or in-store digital screens.
 * Deliver experiences from any server-side platform or application that can make HTTP/s calls.
