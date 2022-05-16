@@ -31,7 +31,6 @@ This release contains the following enhancements and fixes:
 * Fixed an issue that prevented customers from creating duplicate audiences, but in different workspaces. (TGT-43423)
 * Fixed an issue that prevented customers from deleting locations that have ad-hoc offers in activities created in the [!UICONTROL Form-Based Experience Composer]. (TGT-43315)
 * Fixed an issue that prevented customers from accessing code offers after clicking image offers and then refreshing the UI. (TGT-43566)
-* Ensured that the list of metrics available in the [!DNL Target] UI when creating activities that use [!DNL Analytics for Target] (A4T) displays only those metrics that were collected by [!DNL Adobe Analytics]. (TGT-43294)
 * Fixed an issue that caused edits to profile scripts to revert to the original, unedited script after the script is edited, activated, and then deactivated. The profile script now remains in its edited state. (TGT-43249)
 * Fixed an issue that caused the following error when attempting to move an audience to another workspace: "We cannot complete your request. Please contact Adobe Client Care if the problem persists". (TGT-43212)
 * Fixed an error that caused an error when cloning custom code modifications for Single Page App (SPA) pages. (TGT-43137)
