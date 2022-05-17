@@ -42,7 +42,7 @@ You can avoid flicker by using a pre-hiding snippet that will be visible after t
 
 at.js can be loaded asynchronously, either directly embedded on the page or via a tag manager (for example [!DNL Adobe Experience Platform Launch]).
 
-If at.js is embedded on the page, the snippet must be added before loading at.js. If you load at.js via a tag manager, which is also loaded asynchronously, you must add the snippet before loading the tag manager. If the tag manager is loaded syncronously, the script might be included within the tag manager before at.js.
+If at.js is embedded on the page, the snippet must be added before loading at.js. If you load at.js via a tag manager, which is also loaded asynchronously, you must add the snippet before loading the tag manager. If the tag manager is loaded synchronously, the script might be included within the tag manager before at.js.
 
 The pre-hiding code snippet is as follows:
 
