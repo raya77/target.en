@@ -18,7 +18,7 @@ To view information about the current release, see [Target Release Notes](releas
 This release will be available according to the following staggered schedule:
 
 * **May 11**: Asia-Pacific (APAC) region
-* **May 12**: North America (NA) region
+* **May 12**: Americas region
 * **May 13**: Europe, Middle East, and Africa (EMEA) region
 
 This release contains the following enhancements and fixes:
