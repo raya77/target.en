@@ -142,6 +142,7 @@ The following example shows how to properly detect a Windows OS in a profile scr
 "return (((user.browser != null) && (user.browser.indexOf(\"Windows\") > -1)) || " + 
       "((user.clientHint('sec-ch-ua-platform') != null) && 
 (user.clientHint('sec-ch-ua-platform') === 'Windows')));" 
+```
 
 The following sections show Client Hints headers and their corresponding profile script usage semantics.
 
