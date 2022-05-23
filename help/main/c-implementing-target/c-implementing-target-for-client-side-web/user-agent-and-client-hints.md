@@ -209,9 +209,7 @@ The following sections contain more information about how to pass Client Hints, 
 
 Starting with at.js 2.9.0, User Agent Client Hints will be collected automatically from the browser and sent to [!DNL Target] when `getOffer/getOffers()` is called. By default, at.js collects only "Low Entropy" Client Hints. If performing audience segmentation or using profile scripts based on data categorized as "High Entropy" from the preceding sections, you need to configure at.js to collect "High Entropy" Client Hints from the browser via `targetGlobalSettings`. 
 
-```
-window.targetGlobalSettings = { allowHighEntropyClientHints: true }; 
-```
+`window.targetGlobalSettings = { allowHighEntropyClientHints: true };`
 
 ### Server-side SDKs
 
