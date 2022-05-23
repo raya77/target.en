@@ -9,9 +9,14 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: May 9, 2022**
+**Last Updated: May 23, 2022**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages could be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
+
+## at.js version 2.9.0 (May 25, 2022) 
+
+* Added User Agent Client Hints support.
+* Fixed a bug where multiple mbox requests on the same page have different impression IDs. 
 
 ## [!DNL Target Standard/Premium] 22.5.1 (staggered release; May 11-13, 2022)
 
