@@ -188,6 +188,7 @@ feature-set: Target
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
    + [Integrate Target with Adobe Experience Manager](/help/main/c-integrating-target-with-mac/aem-target-integration.md)
    + [Integrate Target with Adobe Audience Manager](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
+   + [Integrate with Real-time Customer Data Platform](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
    + [Integrate Target with Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
 + Activities {#activities}
    + [Activities overview](c-activities/activities.md)

@@ -2,7 +2,7 @@
 keywords: visual experience composer options;experience composer options;experience options;offer decision;offer decisioning;ajo;journey optimizer
 description: Learn how to add an offer decision created in [!DNL Adobe Journey Optimizer] to an activity.
 title: How Do I Use Offer Decisions?
-feature: Visual Experience Composer (VEC)
+feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
 ---
 # Use offer decisions
