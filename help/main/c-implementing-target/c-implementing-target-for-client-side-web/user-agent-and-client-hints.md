@@ -4,6 +4,7 @@ description: Learn how [!DNL Adobe Target] uses the user-agent and Client Hints 
 title: User Agent and Client Hints
 feature: at.js
 role: Developer
+exl-id: 22d29bfe-e022-44b2-913f-c8c32c65bc48
 ---
 # User-agent and Client Hints
 
@@ -214,16 +215,4 @@ Starting with at.js 2.9.0, User Agent Client Hints will be collected automatical
 
 ### Server-side SDKs
 
-For more information on how to pass client hints via server-side SDKs, see [Client Hints](https://adobetarget-sdks.gitbook.io/docs/core-principles/audience-targeting#client-hints){target=_blank} in the *Adobe Target SDKs* documentation.  
-
-
-
-
-
-
-
-
-
-
-
-
+For more information on how to pass client hints via server-side SDKs, see [Client Hints](https://adobetarget-sdks.gitbook.io/docs/core-principles/audience-targeting#client-hints){target=_blank} in the *Adobe Target SDKs* documentation.
