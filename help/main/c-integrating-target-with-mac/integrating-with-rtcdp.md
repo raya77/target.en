@@ -3,8 +3,8 @@ keywords: Real-time Customer Data Platform;rtcdp;personalization;aep audiences;a
 description: Learn how to use the [!DNL Target]/[!DNL Real-time Customer Data Platform] (RTCDP) integration to provide richer customer data and more impactful personalization.
 title: How Do I Integrate [!DNL Target] with the [!DNL Real-time Customer Data Platform]?
 feature: Integrations
+exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
 ---
-
 # Integrate with Real-time Customer Data Platform
 
 Built on [!DNL Adobe Experience Platform], [!DNL Real-time Customer Data Platform] (RTCDP) helps companies bring together known and anonymous data from multiple enterprise sources in order to create customer profiles that can be used to provide personalized customer experiences across all channels and devices in real time.
