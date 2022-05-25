@@ -13,6 +13,10 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|May 25|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added information about the Target platform release (May 25, 2022) and the at.js 2.9.0 release (May 27, 2022).|
+||[at.js version details](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about the at.js 2.9.0 release.|
+||[User-agent and Client Hints](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md)|New topic.|
+||[Target announcements and events](/help/main/r-release-notes/target-announcements.md#webinar-series)|Added link for recording of the following webinar: Dick's Sporting Goods: Personalization and the Changing Landscape in Retail (May 19, 2022)|
 |May 23|[Target release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease notes for at.js version 2.9.0 (May 25, 2022).|
 |May 11|[Target announcements and events](/help/main/r-release-notes/target-announcements.md#webinar-series)|Added information and registration links for the following webinars:<ul><li>Dick's Sporting Goods: Personalization and the Changing Landscape in Retail</li><li>Adobe: Personalization Industry Insider - Financial Services and Insurance</li><li>City National Bank: How to Achieve the Top 1% in Digital Optimization</li><li>Adobe: Personalization with Precision - [!DNL Adobe Analytics] and [!DNL Target]</li><li>City National Bank: Zero to Hero - Starting & Scaling a Personalization Program</li><li>Adobe: Uncover High-Impact Optimization Opportunities</li><li>Adobe: Personalization Industry Insider - Retail</li></ul>Added the recording for the following webinar:<ul><li>Real-Time Personalization with [!DNL Adobe Target]</li></ul>|
 ||[Content Security Policy (CSP) directives](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)|Added FAQ section.|
