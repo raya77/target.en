@@ -9,26 +9,6 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 
 Announcements and information about upcoming events, including [!DNL Adobe Target] Skill Builder sessions, developer chats, webinars, and [!DNL Target] Coffee Break sessions.
 
-## [!DNL Adobe Target] Community Q&A Coffee Break (May 25, 2022)
-
-Brent Kostak and Drew Burns of the [!DNL Adobe Target] Product Marketing team will be answering customer questions pertaining to their areas of expertise.
-
-+++Click me
-
-* **Wednesday, May 25, 2022**
-* **8:00 a.m. (PDT, UTC -7)**
-* **[More information and registration information](https://adobe.ly/3LbOj4G)**
-
-Customers are invited to post questions pertaining to the following topics that have been covered during the 4/28/22 Real-time Personalization webinar (access recording below):
-
-* Creating shared audiences with [!DNL Adobe Target] and Real-Time CDP 
-* Building first-party data strategies to solve data fragmentation challenges
-* Deploying end-to-end workflows for millisecond personalization
-* Delivering relevant messaging, content, and offers in real-time to drive engagement
-
-Kai Motoyama, Technical Support Engineer, will also be on the discussion thread providing additional support.
-+++
-
 ## [!DNL Adobe Target] webinar series {#webinar-series}
 
 Register for the following webinars to see how customers are using [!DNL Adobe Target] to achieve their personalization and optimization goals:
@@ -37,13 +17,11 @@ Register for the following webinars to see how customers are using [!DNL Adobe T
 
 Learn best practices on ramping up personalization programs at scale. See how Dick's Sporting Goods uses [!DNL Adobe Target] to engage top athletes and brands.
 
+* [Recording link](https://video.tv.adobe.com/v/343042){target=_blank}
+
 +++Click me
 
-* **Thursday, May 19, 2022**
-* **1:00 to 2:00 p.m. (EDT, UTC-4)**
-* **[More information and registration information](https://changing-landscape.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
-Join Shawn Wilkinson (eCommerce Perssonalization Manager) to learn how [!DNL Target] is helping Dick's Sporting Goods turn average visitors into returning athletes.
+Join Shawn Wilkinson (eCommerce Personalization Manager) to learn how [!DNL Target] is helping Dick's Sporting Goods turn average visitors into returning athletes.
 
 Learn how Dick’s Sporting Goods is driving double-digit growth as we unpack:
 

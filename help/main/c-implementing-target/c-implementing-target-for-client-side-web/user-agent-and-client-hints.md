@@ -10,6 +10,11 @@ exl-id: 22d29bfe-e022-44b2-913f-c8c32c65bc48
 
 [!DNL Adobe Target] uses the user-agent to qualify visitors for segmentation and personalization.
 
+>[!NOTE]
+>
+>The information in this article applies to [at.js version 2.9.0](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) (or later).
+
+
 Each time a web browser makes a request to a server, included in the header of the request is information about the browser and the environment where the browser runs. Since the early days of the Internet, this data has been aggregated in a single string called the user-agent. 
 
 The following text is a sample user-agent of a Mac OS X-based computer using a Safari Browser:
@@ -158,14 +163,14 @@ Profile script usage: `user.clientHint('sec-ch-ua')`
 
 Entropy: High
 Documentation: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch){target=_blank}
-Audience attribute:
+Audience attribute: Exposed to users via profile scripts.
 Profile script usage: `user.clientHint('sec-ch-ua-arch')`
 
 #### Sec-CH-UA-Bitness 
 
 Entropy: High
 Documentation: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness){target=_blank}
-Audience attribute: 
+Audience attribute: Exposed to users via profile scripts.
 Profile script usage: `user.clientHint('sec-ch-ua-bitness')`
 
 #### Sec-CH-UA-Full-Version-List
@@ -200,7 +205,7 @@ Profile script usage: `user.clientHint('sec-ch-ua-platform')`
 
 Entropy: High
 Documentation: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version){target=_blank}
-Audience attribute: 
+Audience attribute: Exposed to users via profile scripts.
 Profile script usage: `user.clientHint('sec-ch-ua-platform-version')`
 
 ## How to pass Client Hints to [!DNL Adobe Target]

@@ -12,6 +12,18 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## Target platform release (May 25, 2022)
+
+This release contains the following enhancements and fixes:
+
+* Added [User Agent Client Hints](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) support.
+* Fixed an issue that intermittently caused timeouts when rendering [!UICONTROL Offer Decisions] in [!UICONTROL Experience Targeting] (XT) activities. (TNT-44611)
+
+## at.js version 2.9.0 (May 27, 2022) 
+
+* Added [User Agent Client Hints](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) support.
+* Fixed a bug where multiple mbox requests on the same page have different impression IDs.
+
 ## [!DNL Target Standard/Premium] 22.5.1 (staggered release; May 11-13, 2022)
 
 This release will be available according to the following staggered schedule:

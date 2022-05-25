@@ -30,7 +30,7 @@ This release contains the following change:
 
 * With this release you can prefetch content for [!UICONTROL Auto Personalization] (AP) and [!UICONTROL Auto-Target] (AT) activities (previously not returned by [!DNL Target]). This might change the experiences the end users see in case of a pre-fetch call (no changes to the "execute" flow) if an AP/AT activity is on the delivery path and is higher in priority than other AB/XT activities that use the same location for content delivery.
 
-### [!DNL Target] Platform release (March 30)
+### [!DNL Target] platform release (March 30)
 
 This release contains the following enhancement:
 

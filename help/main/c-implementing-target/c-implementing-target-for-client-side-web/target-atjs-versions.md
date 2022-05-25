@@ -16,6 +16,11 @@ Details about changes in each version of the [!DNL Adobe Target] at.js JavaScrip
 >
 >Tags in [Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) is the preferred method to upgrade at.js. Extension developers continually add new features to their extensions, and frequently fix bugs. These updates are packaged into new versions of an extension and made available in the [!DNL Adobe Experience Platform] catalog as upgrades. For more information, see [Extension upgrades](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) in the *Tags overview* guide.
 
+## at.js version 2.9.0 (May 27, 2022) 
+
+* Added [User Agent Client Hints](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) support.
+* Fixed a bug where multiple mbox requests on the same page have different impression IDs. 
+
 ## at.js version 2.8.1 (January 28, 2022)
 
 * Fixed `pageLoad` not being mapped to target-global-mbox in [!UICONTROL On Device Decisioning] (ODD) hybrid execution mode.
