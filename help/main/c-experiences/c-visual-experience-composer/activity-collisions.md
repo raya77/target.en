@@ -18,7 +18,7 @@ The [!UICONTROL Collisions] list helps you:
 * Identify whether a test is already running on a page before you set up a new activity 
 * Troubleshoot an activity if the expected content does not appear
 
-The [!UICONTROL Collisions] list shows every [!DNL Target] scenario where the mbox is used and that uses the same URL. For each potential collision, the list shows the Activity URL, the mbox name where the collision might occur, and any activities that match bot of those criteria. If there are multiple mboxes, they are each listed.
+The [!UICONTROL Collisions] list shows every [!DNL Target] scenario where the mbox is used and that uses the same URL. For each potential collision, the list shows the Activity URL, the mbox name where the collision might occur, and any activities that match both of those criteria. If there are multiple mboxes, they are each listed.
 
 The list shows the status and priority of each potential collision, along with other information. You can use the status and priority to help you determine the likelihood of a collision occurring. For example, if there is a potential collision between two activities and one is inactive, there will be no actual collision unless the inactive activity is activated. If the potential collision is between two live activities with the same priority and the same audience, a collision will occur. You can change the priority or status to prevent the collision.
 
