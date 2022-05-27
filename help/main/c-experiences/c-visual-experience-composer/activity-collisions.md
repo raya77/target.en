@@ -11,7 +11,7 @@ The [!UICONTROL Collisions] tab on the [!UICONTROL Activity Overview] page in [!
 
 An activity collision occurs when multiple activities are set up to deliver content to the same page. If an activity collision occurs, you may not see the expected content on your page.
 
-If your activity contains potential collisions, the [!UICONTROL Collisions] tab is available the on the activity overview page. All activities on the same URL are listed, regardless of any audience targeting in each activity. Open this tab for a list of activities that might be colliding. Click an activity in the list to view the overview page for that activity. If the collision alters the expected experience, edit the activity.
+The [!UICONTROL Collisions] tab is available on the activity overview page and can inform you if your activity contains potential collisions. All activities on the same URL are listed, regardless of any audience targeting in each activity. Open this tab for a list of activities that might be colliding. Click an activity in the list to view the overview page for that activity. If the collision alters the expected experience, edit the activity.
 
 The [!UICONTROL Collisions] list helps you:
 
