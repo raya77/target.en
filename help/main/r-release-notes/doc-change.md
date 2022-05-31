@@ -13,7 +13,8 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|May 25|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added information about the Target platform release (May 25, 2022) and the at.js 2.9.0 release (May 27, 2022).|
+|May 31|[Target announcements and events](/help/main/r-release-notes/target-announcements.md#webinar-series)|Added information about the upcoming [!DNL Adobe Target] Community Coffee Break (June 29, 2022)|
+|May 25|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added information about the [!DNL Target] platform release (May 25, 2022) and the at.js 2.9.0 release (May 27, 2022).|
 ||[at.js version details](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about the at.js 2.9.0 release.|
 ||[User-agent and Client Hints](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md)|New topic.|
 ||[Target announcements and events](/help/main/r-release-notes/target-announcements.md#webinar-series)|Added link for recording of the following webinar: Dick's Sporting Goods: Personalization and the Changing Landscape in Retail (May 19, 2022)|
