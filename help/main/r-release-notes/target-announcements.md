@@ -9,7 +9,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 
 Announcements and information about upcoming [!DNL Adobe Target] events, including [!DNL Target] Coffee Break sessions, [!DNL Target] webinar series, [!DNL Target] Skill Builder sessions, developer chats, and more. Links to past recordings are included if available.
 
-## Adobe Target Community Coffer Break (June 29, 2022)
+## Adobe Target Community Coffee Break (June 29, 2022)
 
 +++Click me
 
