@@ -113,17 +113,17 @@ Changing [!DNL Recommendations] collections, criteria, promotions, or design set
 
 To avoid disrupting a live activity, we recommend taking the following approach when modifying a live activity:
 
-1. Duplicate the activity and criteria you want to modify.
-1. Make changes to the duplicated activity and criteria and wait for the algorithm to generate results.
-1. Preview the new, modified activity and confirm that results are as desired.
-1. Activate the new activity.
-1. Deactivate the old activity.
+1. Duplicate the original activity (activity 1) and the criteria you want to modify to create a new activity (activity 2).
+1. Make changes to the duplicated activity (activity 2) and the criteria and wait for the algorithm to generate results.
+1. Preview the new, modified activity (activity 2) and confirm that results are as desired.
+1. Activate the new activity (activity 2).
+1. Deactivate the original activity (activity 1).
 
 If you need to retain historical reporting results in the same activity, an alternative approach is possible, which might result in a temporary disruption to recommendations availability:
 
-1. Duplicate the activity and criteria you want to modify.
-1. Make changes to the duplicated activity and criteria and wait for the algorithm to generate results.
-1. Preview the new, modified activity and confirm that results are as desired.
-1. Pause the existing activity and swap the settings/criteria to the new criteria.
-1. Preview the existing activity and confirm that results are as desired.
-1. Re-activate the activity.
+1. Duplicate the original activity (activity 1) and the criteria you want to modify to create a new activity (activity 2).
+1. Make changes to the duplicated activity (activity 2) and the criteria and wait for the algorithm to generate results.
+1. Preview the new, modified activity (activity 2) and confirm that results are as desired.
+1. Pause the new, modified activity (activity 2) and swap the settings/criteria to the original activity (activity 1).
+1. Preview the original activity (activity 1) and confirm that results are as desired.
+1. Re-activate the original activity (activity 1).
