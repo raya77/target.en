@@ -92,7 +92,7 @@ System admin users must add users to the system. Users are not automatically add
    | Role | Description |
    |--- |--- |
    |Approver|Can create, edit, and activate or stop activities.|
-   |Editor|Can create and edit activities before they are live, but cannot approve the launch of an activity.|
+   |Editor|Can create and edit activities before they are live, but cannot approve the launch of an activity. Can edit audiences in live activities.|
    |Observer|Can view activities, but cannot create or edit them.|
    |Publisher|Similar to the Observer role (can view activities, but cannot create or edit them). However, the Publisher role has the additional permission to activate activities.|
 
