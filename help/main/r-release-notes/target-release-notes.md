@@ -9,44 +9,24 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: May 25, 2022**
+**Last Updated: June 6, 2022**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages could be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## Target platform release (May 25, 2022)
-
-This release contains the following enhancements and fixes:
-
-* Added [User Agent Client Hints](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) support.
-* Fixed an issue that intermittently caused timeouts when rendering [!UICONTROL Offer Decisions] in [!UICONTROL Experience Targeting] (XT) activities. (TNT-44611)
-
-## at.js version 2.9.0 (May 27, 2022) 
-
-* Added [User Agent Client Hints](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) support.
-* Fixed a bug where multiple mbox requests on the same page have different impression IDs.
-
-## [!DNL Target Standard/Premium] 22.5.1 (staggered release; May 11-13, 2022)
+## [!DNL Target Standard/Premium] 22.6.1 (staggered release; June 7-9, 2022)
 
 This release will be available according to the following staggered schedule:
 
-* **May 11**: Asia-Pacific (APAC) region
-* **May 12**: Americas region
-* **May 13**: Europe, Middle East, and Africa (EMEA) region
+* **June 7**: Asia-Pacific (APAC) region
+* **June 8**: Americas region
+* **June 9**: Europe, Middle East, and Africa (EMEA) region
 
 This release contains the following enhancements and fixes:
 
-* Fixed an issue that caused a JavaScript error and prevented some customers from accessing the activity details for certain [!UICONTROL Automated Personalization] (AP) activities. (TGT-43526)
-* Fixed an issue that prevented some customers from adding (or editing) a specific offer to an AP activity. (TGT-43503)
-* Fixed an issue in the [!DNL Target] UI that displayed the following error message: "Your global mbox may not be in sync. Please try resaving it." This issue was a UI issue and did not impact customers' implementations. (TGT-43475)
-* Fixed an issue that prevented one customer from editing experience-level refinements and audiences for an activity if the refinements and audiences were created before the new [!UICONTROL Audiences] UI was deployed. (TGT-43433)
-* Fixed an issue that allowed customers to select duplicate [!DNL Adobe Audience Manager] (AAM) audiences while editing reporting audiences for an activity. (TGT-43430)
-* Fixed an issue that prevented customers from creating duplicate audiences, but in different workspaces. (TGT-43423)
-* Fixed an issue that prevented customers from deleting locations that have ad-hoc offers in activities created in the [!UICONTROL Form-Based Experience Composer]. (TGT-43315)
-* Fixed an issue that prevented customers from accessing code offers after clicking image offers and then refreshing the UI. (TGT-43566)
-* Fixed an issue that caused edits to profile scripts to revert to the original, unedited script after the script is edited, activated, and then deactivated. The profile script now remains in its edited state. (TGT-43249)
-* Fixed an issue that caused the following error when attempting to move an audience to another workspace: "We cannot complete your request. Please contact Adobe Client Care if the problem persists". (TGT-43212)
-* Fixed an error that caused an error when cloning custom code modifications for Single Page App (SPA) pages. (TGT-43137)
-* Fixed an issue that caused the original promotion to be affected after duplicating an experience and then editing the promotion. (TGT-41775)
+* Users with the [!UICONTROL Editor] role can now edit audiences in live activities. (TGT-43582)
+* An exclamation mark ( ! ) is not a valid character at the beginning of an audience name. A message now displays if a user attempts to save an audience with an exclamation mark as the first character (for example !London). (TGT-43643)
+* Fixed an issue that prevented some customers from editing all attributes while editing audiences in the [!DNL Target] UI. The [!UICONTROL Edit Audience] page displayed one attribute for editing, despite the audience having multiple attributes. (TGT-43552)
+* Fixed an issue that prevented some customers from saving combined audiences caused by the Target UI creating "empty" containers. (TGT-43588)
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 

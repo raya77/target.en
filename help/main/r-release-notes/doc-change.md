@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|June 6|[Target release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease information for the [!DNL Target Standard/Premium] 22.6.1 release.|
 |May 31|[Target announcements and events](/help/main/r-release-notes/target-announcements.md#webinar-series)|Added information about the upcoming [!DNL Adobe Target] Community Coffee Break (June 29, 2022)|
 |May 25|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added information about the [!DNL Target] platform release (May 25, 2022) and the at.js 2.9.0 release (May 27, 2022).|
 ||[at.js version details](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about the at.js 2.9.0 release.|
