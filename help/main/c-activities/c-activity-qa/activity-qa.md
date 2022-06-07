@@ -87,6 +87,7 @@ Use QA URLs in [!DNL Adobe Target] to perform easy end-to-end activity QA with p
   |`adobe_mc_sdid`|||Passes the [!DNL Supplemental Data Id] (SDID) and [!DNL Experience Cloud Org Id] from the default page to the new page. Passing these IDs allow [!UICONTROL Analytics for Target] (A4T) to "stitch" together the [!DNL Target] request on the default page with the [!DNL Analytics] request on the new page.|
 
 * The [!UICONTROL Target QA Mode] UI shows only the first URL of an experience in a multi-page activity. The assumption is that you are creating a journey test and you move from URL1 to URL2. However, if you want to go to URL2 independently, copy all the URL parameters provided against URL1 and apply them to URL2 after placing a "?" just like you see in URL1.
+* Activity QA preview links for saved activities might not load if there are too many saved activities in your account. Retry the preview links. Archive saved activities that are no longer actively used to prevent this issue from continuing to happen.
 
 ## Target JavaScript library [!UICONTROL QA Mode] compatibility {#compatibility}
 
