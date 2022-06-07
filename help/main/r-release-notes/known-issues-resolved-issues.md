@@ -84,15 +84,6 @@ In an MVT activity, the winner shown in the table and graph is not consistent wh
 
 The following are known issues with at.js:
 
-* Using at.js versions before 2.2.0, click tracking does not report conversions in Analytics for Target (A4T) if Adobe Analytics code is not present on page elements (such as buttons). A fix was introduced for this issue in at.js 2.2.0. [Please upgrade to the latest at.js version](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) if you experience this problem.
-* If you create an experience with no modifications using at.js 2.1.1 or earlier (for example, a default experience), the experience might not be counted in reports, Analytics for Target (A4T), Adobe Analytics, or Google Analytics. In addition, the ttMeta plug-in might not work correctly.
-
-  As a workaround, use a whitespace in the experience content. (TNT-33366)
-
-  >[!NOTE]
-  >
-  >A fix for this issue was included in at.js 2.2.0. Upgrade to the [latest version or at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) or use the workaround mentioned above only for at.js versions earlier than 2.2.0.
-
 * When a page is loaded into the Visual Experience Composer (VEC), Target must determine if the global mbox setting is enabled or disabled and whether entityID or categoryID is present at the location where the user is trying to apply the recommendation in the VEC. Based on this information the criteria list is filtered. The default list has filtered algorithms, but the [Compatible checkbox](/help/main/c-recommendations/t-create-recs-activity/algo-select-recs.md) lets you view the complete algorithms list.
 
   When using at.js, the Compatibility checkbox is hidden, so you cannot see incompatible algorithms.
@@ -131,6 +122,18 @@ The source of truth is always the displayed report in the [!DNL Target] UI.
 ## Resolved Issues {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 As known issues above are resolved, they are moved to the following sections. Additional notes, if necessary, are added.
+
+### at.js
+
+* If you create an experience with no modifications using at.js 2.1.1 or earlier (for example, a default experience), the experience might not be counted in reports, Analytics for Target (A4T), Adobe Analytics, or Google Analytics. In addition, the ttMeta plug-in might not work correctly.
+
+  As a workaround, use a whitespace in the experience content.
+
+  A fix for this issue was included in at.js 2.2.0. Upgrade to the [latest version or at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) or use the workaround mentioned above only for at.js versions earlier than 2.2.0.  (TNT-33366)
+
+* Using at.js versions before 2.2.0, click tracking does not report conversions in [!UICONTROL Analytics for Target] (A4T) if [!DNL Adobe Analytics] code is not present on page elements (such as buttons). 
+
+  A fix was introduced for this issue in at.js 2.2.0. [Please upgrade to the latest at.js version](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) if you experience this problem.
 
 ### GEO targeting
 
