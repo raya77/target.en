@@ -155,7 +155,7 @@ Learn how City National Bank is leveraging [!DNL Target] to:
 
 In this session, learn how [!DNL Adobe Target] bridges the gap on combining data across multiple sources for Real-Time Personalization as we discuss:
 
- * Why personalization performance and speed matter for driving faster business growth 
+* Why personalization performance and speed matter for driving faster business growth 
 * How teams can build first-party data strategies and solve their data fragmentation challenges 
 * End-to-end workflows for delivering personalized experiences in milliseconds 
 * Unique use cases for brands for engaging customers and prospects in real-time with relevant messaging, content, and offers

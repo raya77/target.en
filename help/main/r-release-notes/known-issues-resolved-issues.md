@@ -17,18 +17,6 @@ Information about known issues for [!DNL Adobe Target]. Also includes informatio
 
 The following sections list the known issues for [!DNL Target]:
 
-### Visual Experience Composer (VEC) loading websites with Service Workers
-
-There are some current limitations when trying to use the VEC to open a website that is using [Service Workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW).
-
-A SW is a web technology that can be used to intercept requests for the domain they are installed on by a web page. The SW survives the page visit and activates itself on subsequent visits. The SW decides which requests go through and which ones are intercepted and served from a cache instead.
-
-The SW can control the caching; can cache the web page itself, static resources like JS, CSS, IMG, AJAX requests, their contents, and their response headers, including the ones that our [Target VEC Helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) tries to remove, like X-Frame-Options: SAMEORIGIN, CSP (Content-Security-Policy), or Set-Cookie.
-
-Unfortunately, the Chrome extension APIs that intercept web requests don’t receive the requests that were intercepted and handled by a SW. Therefore, the extension can’t fix the headers and the cookies if the web page request was served from a cache by a SW because the web page won’t load inside the VEC because of the X-Frame-Options or CSP headers that were also cached.
-
-As a potential workaround, you can disable Service Workers from the Chrome Developer Tools > Application tab, then to enable the "Bypass for network" checkbox under the Service Workers section. (KB-2006)
-
 ### Deleting locations that have ad-hoc offers in activities created in the Form-Based Experience Composer {#ad-hoc}
 
 Avoid deleting locations in an activity created in the Form-Based Experience Composer if those locations use ad-hoc offers (offers created inside the activity). Deleting locations can cause the activity to become corrupt. The [!DNL Target] team is working on a fix for this. As a workaround, you can create global offers from the [!UICONTROL Offer library] and use them with locations, or you can create new experiences, if needed. (KB-2014)

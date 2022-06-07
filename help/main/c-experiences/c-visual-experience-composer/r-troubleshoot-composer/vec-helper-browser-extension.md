@@ -19,6 +19,16 @@ The [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper bro
 * The website is in an iframe.
 * The at.js library is not yet implemented on the website.
 * The customer's QA and/or stage site is not available to the outside world (the site is internal).
+* There are some current limitations when trying to use the VEC to open a website that is using [Service Workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW).
+
+A SW is a web technology that can be used to intercept requests for the domain they are installed on by a web page. The SW survives the page visit and activates itself on subsequent visits. The SW decides which requests go through and which ones are intercepted and served from a cache instead.
+
+The SW can control the caching; can cache the web page itself, static resources like JS, CSS, IMG, AJAX requests, their contents, and their response headers, including the ones that our [Target VEC Helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) tries to remove, like X-Frame-Options: SAMEORIGIN, CSP (Content-Security-Policy), or Set-Cookie.
+
+Unfortunately, the Chrome extension APIs that intercept web requests don’t receive the requests that were intercepted and handled by a SW. Therefore, the extension can’t fix the headers and the cookies if the web page request was served from a cache by a SW because the web page won’t load inside the VEC because of the X-Frame-Options or CSP headers that were also cached.
+
+As a potential workaround, you can disable Service Workers from the Chrome Developer Tools > Application tab, then to enable the "Bypass for network" checkbox under the Service Workers section.
+
 * You are using Google Chrome 80+ with enhanced SameSite cookie enforcement policies. For more information, see [How do the recently announced Google Chrome SameSite cookie enforcement policies impact the VEC and EEC](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)?
 
 The VEC Helper browser extension for Chrome solves site-loading issues for which customers now rely on the [!DNL Target] [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) or third-party extensions, such as Requestly.
