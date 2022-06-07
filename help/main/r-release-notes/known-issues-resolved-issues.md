@@ -45,18 +45,6 @@ An issue with the EEC currently prevents it from supporting PUT requests and res
 
 Attempting to archive inactive [!UICONTROL Auto-Target] activities might lead to synchronization issues. Until this issue is fixed, do not archive [!UICONTROL Auto-Target] activities. Leave them in the [!UICONTROL Inactive] state. (TGT-40885)
 
-### Page delivery {#page-delivery}
-
-If you add a template rule, such as URL contains (/checkout, /cart) in [page delivery](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), extra spaces are prefixed to your rules. These extra spaces are cosmetic and do not affect audience-definition creation and offer delivery. (TGT-35920)
-
-### QA preview links
-
-Activity QA preview links for saved activities might not load if there are too many saved activities in your account. Retry the preview links. Archive saved activities that are no longer actively used to prevent this issue from continuing to happen. (TNT-37294)
-
-### QA mode for Recommendations activities
-
-A known issue prevents preview if criteria used in the activity is item-based or category-based. (TNT-37455)
-
 ### Redirect offers {#redirect}
 
 * Redirect activities in at.js implementations might cause the preview URL to enter into a loop (the offer is delivered repeatedly). You can use [QA Mode](/help/main/c-activities/c-activity-qa/activity-qa.md) instead to perform Preview and QA. This issue does not impact the actual delivery of the offer. (TGT-23019)
@@ -78,14 +66,6 @@ A known issue prevents preview if criteria used in the activity is item-based or
 ### Recommendations
 
 The following are known issues with [!UICONTROL Recommendations] activities:
-
-* When copying a [!UICONTROL Recommendation] activity with an active promotion, any change in the duplicate activity currently also affects the original activity, and conversely. (TGT-39155)
-
-  As a temporary workaround:
-
-  * Disable activity promotions
-  * Duplicate the activity
-  * Enable promotions again in each activity
 
 * When [!DNL Target] returns a JSON offer with getOffer(), it returns with type of JSON. However, if you return a JSON Recommendations design it returns with a type of HTML.
 * Entities are correctly expired after 60 days of receiving no updates via feed or API; however, the expired entities are not removed from the Catalog Search index after expiration. (IRI-857)
@@ -142,10 +122,6 @@ All current Analytics packages can add this model with Attribution IQ. If you do
 
 Customers cannot perform CRUD operations on Auto-Allocate activities through the v3 version of the A/B Activities API on Adobe I/O.
 
-### GEO targeting
-
-On May 10, 2020 Adobe updated the GEO provider files, which introduced some inconsistencies. For example, some values containing commas were added; although, values in existing audiences had no comma. Not all of Adobe delivery servers were affected by this change. As a result, audiences using such values might not have qualified all the correct visitors between May 10 and July 22 2020.
-
 ### Reporting - Inconsistent data in the downloadable .csv report versus the displayed report in the [!DNL Target] UI. {#csv}
 
 Reports generated for download as .csv files are inconsistent if the activity uses more than one metric. The downloadable report is generated based on the report settings only and considers the same value for any other metrics used.
@@ -154,7 +130,27 @@ The source of truth is always the displayed report in the [!DNL Target] UI.
 
 ## Resolved Issues {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
-As known issues above are resolved, they are moved to the following sections.Additional notes, if necessary, are added.
+As known issues above are resolved, they are moved to the following sections. Additional notes, if necessary, are added.
+
+### GEO targeting
+
+On May 10, 2020 Adobe updated the GEO provider files, which introduced some inconsistencies. For example, some values containing commas were added; although, values in existing audiences had no comma. Not all of Adobe delivery servers were affected by this change. As a result, audiences using such values might not have qualified all the correct visitors between May 10 and July 22 2020.
+
+### Copying a [!UICONTROL Recommendations] activity
+
+When copying a [!UICONTROL Recommendations] activity with an active promotion, any change in the duplicate activity currently also affects the original activity, and conversely. (TGT-39155)
+
+This issue was fixed in the [!DNL Target Standard/Premium] 21.2.1 release.
+
+### QA mode for Recommendations activities
+
+A known issue prevents preview if criteria used in the activity is item-based or category-based. (TNT-37455)
+
+This issue was fixed in January 2022. (TNT-37455)
+
+### Page delivery {#page-delivery}
+
+If you add a template rule, such as URL contains (/checkout, /cart) in [page delivery](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), extra spaces are prefixed to your rules. These extra spaces are cosmetic and do not affect audience-definition creation and offer delivery. (TGT-35920)
 
 ### Image offers showing “Processing” label
 
