@@ -38,29 +38,6 @@ This release contains the following enhancements and fixes:
 * Added [User Agent Client Hints](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) support.
 * Fixed a bug where multiple mbox requests on the same page have different impression IDs.
 
-## [!DNL Target Standard/Premium] 22.5.1 (staggered release; May 11-13, 2022)
-
-This release will be available according to the following staggered schedule:
-
-* **May 11**: Asia-Pacific (APAC) region
-* **May 12**: Americas region
-* **May 13**: Europe, Middle East, and Africa (EMEA) region
-
-This release contains the following enhancements and fixes:
-
-* Fixed an issue that caused a JavaScript error and prevented some customers from accessing the activity details for certain [!UICONTROL Automated Personalization] (AP) activities. (TGT-43526)
-* Fixed an issue that prevented some customers from adding (or editing) a specific offer to an AP activity. (TGT-43503)
-* Fixed an issue in the [!DNL Target] UI that displayed the following error message: "Your global mbox may not be in sync. Please try resaving it." This issue was a UI issue and did not impact customers' implementations. (TGT-43475)
-* Fixed an issue that prevented one customer from editing experience-level refinements and audiences for an activity if the refinements and audiences were created before the new [!UICONTROL Audiences] UI was deployed. (TGT-43433)
-* Fixed an issue that allowed customers to select duplicate [!DNL Adobe Audience Manager] (AAM) audiences while editing reporting audiences for an activity. (TGT-43430)
-* Fixed an issue that prevented customers from creating duplicate audiences, but in different workspaces. (TGT-43423)
-* Fixed an issue that prevented customers from deleting locations that have ad-hoc offers in activities created in the [!UICONTROL Form-Based Experience Composer]. (TGT-43315)
-* Fixed an issue that prevented customers from accessing code offers after clicking image offers and then refreshing the UI. (TGT-43566)
-* Fixed an issue that caused edits to profile scripts to revert to the original, unedited script after the script is edited, activated, and then deactivated. The profile script now remains in its edited state. (TGT-43249)
-* Fixed an issue that caused the following error when attempting to move an audience to another workspace: "We cannot complete your request. Please contact Adobe Client Care if the problem persists". (TGT-43212)
-* Fixed an error that caused an error when cloning custom code modifications for Single Page App (SPA) pages. (TGT-43137)
-* Fixed an issue that caused the original promotion to be affected after duplicating an experience and then editing the promotion. (TGT-41775)
-
 ## Additional release notes and version details
 
 |Resource|Details|
