@@ -13,7 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|June 14|[Plan and implement Recommendations](/help/main/c-recommendations/plan-implement.md)]|Updated code samples in the following sections:<ul><li>Cart adds/cart views/checkout pages</li><li>Exclude items already in the visitor's cart</li></ul>|
+|June 14|[Plan and implement Recommendations](/help/main/c-recommendations/plan-implement.md)|Updated code samples in the following sections:<ul><li>Cart adds/cart views/checkout pages</li><li>Exclude items already in the visitor's cart</li></ul>|
 |June 7|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 22.6.1 release.|
 
 ## Adobe Target Standard/Premium 22.5.1 (staggered release; May 11-13, 2022)
