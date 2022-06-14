@@ -12,7 +12,7 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## [!DNL Target Standard/Premium] customer engineering fixes (staggered release: June 7-9, 2022)
+## [!DNL Target Standard/Premium] 22.6.1 (staggered release: June 7-9, 2022)
 
 This release will be available according to the following staggered schedule:
 
