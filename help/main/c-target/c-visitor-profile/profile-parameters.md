@@ -239,7 +239,7 @@ The following objects and methods can be referenced by script profile parameters
 | --- | --- |
 |`page.url`|The current URL.|
 |`page.protocol`|The protocol used for the page (http or https).|
-|`page.domain`|The current URL domain (everything before the first slash). For example, `www.acme.com` in `http://www.acme.com/categories/men_jeans?color=blu e&size=small`.|
+|`page.domain`|The current URL domain (everything before the first slash). For example, `www.acme.com` in `http://www.acme.com/categories/men_jeans?color=blue&size=small`.|
 |`page.query`|The query string for the current page. Everything after the ‘?’. For example, `blue&size=small` in `http://www.acme.com/categories/mens_jeans?color=blue&size=small`.|
 |`page.param(‘<par_name>’)`|The value of the parameter indicated by `<par_name>`. If your current URL is Google’s search page and you had inputted `page.param('hl')`, you would get “en” for the URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`.|
 |`page.referrer`|The same set of operations as above apply for referrer and landing (i.e. referrer.url is the url address of the referrer).|
