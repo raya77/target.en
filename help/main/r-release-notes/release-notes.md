@@ -22,7 +22,6 @@ This release will be available according to the following staggered schedule:
 
 This release contains the following enhancements and fixes:
 
-* Users with the [!UICONTROL Editor] role can no longer edit audiences in live activities. (TGT-43582)
 * An enhancement was delivered for the new [!UICONTROL Audiences] page to prevent an inconsistent state between the old database where the audiences were stored in the past and the new architecture that is retrieving the information directly from the backend. (TGT-43552)
 * Fixed an issue that prevented some customers from saving combined audiences caused by the Target UI creating "empty" containers. (TGT-43588)
 
