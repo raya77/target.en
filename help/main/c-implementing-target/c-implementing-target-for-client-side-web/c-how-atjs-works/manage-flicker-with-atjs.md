@@ -102,7 +102,7 @@ body {opacity: 0 !important}
 
 ## Manage flicker in at.js 2.x for triggerView()
 
-When using `triggerView()` to show targeted content in your SPA, flicker management is provided out of the box. This means that pre-hiding logic does not need to be added manually. Instead, at.js 2.x pre-hides the location where your view needs to be shown before applying the targeted content.
+DOM pre-hiding applies to the initial page load only. For SPAs, the DOM is updated when `triggerView()` is called. There might be a brief flicker between the time the SPA renders content to the DOM and at.js updates [!DNL Target] offers.  To minimize flicker, if you use `triggerView` to modify page load content, 'triggerView' should be called as soon as the page is rendered.
 
 ## Manage flicker with getOffer() and applyOffer()
 
