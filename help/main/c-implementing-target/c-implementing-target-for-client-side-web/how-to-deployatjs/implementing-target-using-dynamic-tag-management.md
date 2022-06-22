@@ -12,5 +12,5 @@ exl-id: 87df1326-a2d5-4bdb-82ba-ec58eaf17773
 
 Tags in [!DNL Adobe Experience Platform] are the next generation of tag management capabilities from [!DNL Adobe]. Tags give customers a simple way to deploy and manage the analytics, marketing, and advertising tags necessary to power relevant customer experiences.
 
-For more information, see [Implement [!DNL Target] using [!DNL Adobe Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
+For more information, see [Implement [!DNL Target] using [!DNL Adobe Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/).
 

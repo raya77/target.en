@@ -79,7 +79,7 @@ If a [!DNL Target] request is made on an unauthorized host, the call responds wi
 
 >[!IMPORTANT]
 >
->**Security best practices**: If you use ubox functionality of [!DNL Target], this allowlist also controls the list of domains to which your [redirectors](/help/main/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) can navigate. Ensure that you add any domains to which you want to redirect when you use ubox as a part of your implementation. If the allowlist is left unspecified, [!DNL Adobe] is not able to verify the redirect URLs and protect from potential malicious redirects.
+>**Security best practices**: If you use ubox functionality of [!DNL Target], this allowlist also controls the list of domains to which your [redirectors](https://developer.adobe.com/target/implement/email/working-with-redirectors/) can navigate. Ensure that you add any domains to which you want to redirect when you use ubox as a part of your implementation. If the allowlist is left unspecified, [!DNL Adobe] is not able to verify the redirect URLs and protect from potential malicious redirects.
 >
 >The allowlist takes precedence over environments. Clear out all hosts before using the allowlist feature, then only the hosts allowed by the allowlist appear in your hosts list. You can then move the hosts into the desired environment.
 

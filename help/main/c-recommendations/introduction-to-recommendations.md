@@ -98,7 +98,7 @@ Next, you should add tags or leverage you existing [!DNL Analytics] implementati
 
 You need to ensure that [!DNL Target] is aware of the items that your users are viewing and purchasing. If purchasing isn’t relevant to your context, you might want to track a different type of conversion event, for example, downloading a PDF, completing a survey, subscribing to a newsletter, watching a video, and so forth.
 
-If you are already using [!DNL Target] to run A/B Tests activities on your site, you might have already completed this step. Or if you are already using [!DNL Adobe Analytics] to report on site visits and conversion behavior, you can use [!DNL Analytics] as your behavioral datasource. If not, it’s easiest to set this up using a tag manager such as tags in [[!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). It’s also possible to send offline or in-app interactions to [!DNL Target] via real-time API.
+If you are already using [!DNL Target] to run A/B Tests activities on your site, you might have already completed this step. Or if you are already using [!DNL Adobe Analytics] to report on site visits and conversion behavior, you can use [!DNL Analytics] as your behavioral datasource. If not, it’s easiest to set this up using a tag manager such as tags in [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/). It’s also possible to send offline or in-app interactions to [!DNL Target] via real-time API.
 
 ### Get recommendations with the right context
 

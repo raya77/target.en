@@ -29,11 +29,11 @@ The Adobe Target JS SDK gives customers the flexibility to choose between perfor
 * Audience targeting
 * Allocation method
 
-For more information, see [Supported features for on-device decisioning](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md).
+For more information, see [Supported features for on-device decisioning](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/).
 
 ## How does on-device decisioning work?
 
-When you deploy and initialize at.js with on-device decisioning enabled, a [rule artifact](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md) that includes your on-device decisioning for A/B and XT activities, audiences, and assets, is downloaded from the closest Akamai CDN to your visitor and cached locally on your visitor's browser. When a request is made from at.js to retrieve an experience, the decision regarding which experience to return is made in-memory, based on the metadata encoded in the cached rule artifact.
+When you deploy and initialize at.js with on-device decisioning enabled, a [rule artifact](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/) that includes your on-device decisioning for A/B and XT activities, audiences, and assets, is downloaded from the closest Akamai CDN to your visitor and cached locally on your visitor's browser. When a request is made from at.js to retrieve an experience, the decision regarding which experience to return is made in-memory, based on the metadata encoded in the cached rule artifact.
 
 ## Decisioning method
 
@@ -82,7 +82,7 @@ The following list corresponds to the numbers in the diagram:
 
 On-device decisioning can deliver your experiences and personalization activities at blazing fast speed because the decisions are made from a cached rules artifact that contains all of your activities that qualify for on-device decisioning. 
 
-To learn more about which activities qualify for on-device decisioning, see [Supported features in on-device decisioning](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md). 
+To learn more about which activities qualify for on-device decisioning, see [Supported features in on-device decisioning](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/). 
 
 This decisioning method should be used only if performance is highly critical across all the pages that require decisions from [!DNL Target]. Furthermore, keep in mind that when this decisioning method is selected, your [!DNL Target] activities that do not qualify for on-device decisioning will not be delivered or executed. The at.js library 2.5.0+ is configured to only look for the cached rules artifact to make decisions.  
 
@@ -216,7 +216,7 @@ To enable on-device decisioning:
 
    Leaving this toggle off means you must re-create and activate any on-device decisioning activities for them to be included in the generated rules artifact. In other words, any activity in live state before turning on the [!UICONTROL On-Device Decisioning] toggle are not included in the rules artifact.
 
-After enabling the [!UICONTROL On-Device Decisioning] toggle, [!DNL Target] begins generating and propagating [rule artifacts](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md) for your client.
+After enabling the [!UICONTROL On-Device Decisioning] toggle, [!DNL Target] begins generating and propagating [rule artifacts](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/) for your client.
 
 >[!IMPORTANT]
 >
@@ -243,7 +243,7 @@ After enabling the [!UICONTROL On-Device Decisioning] toggle, [!DNL Target] begi
 
 ### Global settings
 
-You can configure a default [!UICONTROL Decisioning Method] for all of [!DNL Target] decisions. The various decisioning methods are [!UICONTROL Server-side only], [!UICONTROL On-device only], and [!UICONTROL Hybrid]. The decisioning method that is selected in the Target UI is configured in `window.targetGlobalSettings` under the `decisioningMethod` field. Learn more about the `decisioningMethod` in [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
+You can configure a default [!UICONTROL Decisioning Method] for all of [!DNL Target] decisions. The various decisioning methods are [!UICONTROL Server-side only], [!UICONTROL On-device only], and [!UICONTROL Hybrid]. The decisioning method that is selected in the Target UI is configured in `window.targetGlobalSettings` under the `decisioningMethod` field. Learn more about the `decisioningMethod` in [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
 
 ```javascript
 <head> 
@@ -263,7 +263,7 @@ You can configure a default [!UICONTROL Decisioning Method] for all of [!DNL Tar
 
 ### Customized setting
 
-If you set the `decisioningMethod` in `window.targetGlobalSettings`, but would like to override the `decisioningMethod` for each Adobe Target decision according to your use case, you can do this procedure by specifying `decisioningMethod` in At.js2.5.0+’s [getOffers()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) call.
+If you set the `decisioningMethod` in `window.targetGlobalSettings`, but would like to override the `decisioningMethod` for each Adobe Target decision according to your use case, you can do this procedure by specifying `decisioningMethod` in At.js2.5.0+’s [getOffers()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/) call.
 
 ```javascript
 adobe.target.getOffers({ 
@@ -315,6 +315,6 @@ You can filter for all activities that are on-device decisioning eligible on the
 
    The first JSON rules artifact generation can take up to 10 minutes. 
 
-1. Create and activate an [activity type that is supported by on-device decisioning](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md), and verify that it is on-device decisioning eligible. 
+1. Create and activate an [activity type that is supported by on-device decisioning](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/), and verify that it is on-device decisioning eligible. 
 1. Set the **[!UICONTROL Decisioning Method]** to either **[!UICONTROL “Hybrid”]** or **[!UICONTROL “On-device only”]** through the at.js settings UI. 
 1. Download and deploy At.js 2.5.0+ to your pages.

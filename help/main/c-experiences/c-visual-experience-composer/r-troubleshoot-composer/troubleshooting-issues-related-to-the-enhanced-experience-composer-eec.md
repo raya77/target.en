@@ -37,13 +37,13 @@ The following are reasons that you might see this error message and remedies to 
 
   **Remedy:** Allowlist the IP addresses listed above. 
 
-* **Issue:** The IP addresses are allowlisted but your website does not support TLS version 1.2. [!DNL Target] currently uses the default configuration of 1.2. Prior to the [!DNL Target] 18.4.1 (April 25, 2018), the default configuration supported TLS 1.0. For more information, see [TLS (Transport Layer Security) Encryption Changes](/help/main/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+* **Issue:** The IP addresses are allowlisted but your website does not support TLS version 1.2. [!DNL Target] currently uses the default configuration of 1.2. Prior to the [!DNL Target] 18.4.1 (April 25, 2018), the default configuration supported TLS 1.0. For more information, see [TLS (Transport Layer Security) Encryption Changes](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/).
 
   **Solution:** See the following question (The [!UICONTROL Enhanced Visual Experience Composer] won't load on secure pages on my site that use TLS 1.2).
 
 ## The EEC won't load on secure pages on my site that use TLS 1.0. (EEC only) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-You might see the error message described above in "The [!UICONTROL Enhanced Visual Experience Composer] won't load on secure pages on my site." if the above IP addresses are allowlisted but your website does not support TLS version 1.2. [!DNL Target] currently uses the default configuration of 1.2. Prior to the [!DNL Target] 18.4.1 (April 25, 2018), the default configuration supported TLS 1.0. For more information, see [TLS (Transport Layer Security) Encryption Changes](/help/main/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+You might see the error message described above in "The [!UICONTROL Enhanced Visual Experience Composer] won't load on secure pages on my site." if the above IP addresses are allowlisted but your website does not support TLS version 1.2. [!DNL Target] currently uses the default configuration of 1.2. Prior to the [!DNL Target] 18.4.1 (April 25, 2018), the default configuration supported TLS 1.0. For more information, see [TLS (Transport Layer Security) Encryption Changes](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/).
 
 To check the TLS version on your website using Firefox (other browsers have similar steps):
 
@@ -60,7 +60,7 @@ To check the TLS version on your website using Firefox (other browsers have simi
 
    ![](assets/firefox_more_info_3.png)
 
-1. If you find that your website is showing TLS 1.0, see [TLS (Transport Layer Security) Encryption Changes](/help/main/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451) for information about Target's TLS support policy. To remedy the situation for now (valid until September 12, 2018), reach out to [Customer Care](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) for configuration with your TLS version and the domain.
+1. If you find that your website is showing TLS 1.0, see [TLS (Transport Layer Security) Encryption Changes](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/) for information about Target's TLS support policy. To remedy the situation for now (valid until September 12, 2018), reach out to [Customer Care](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) for configuration with your TLS version and the domain.
 
 ## I'm seeing timeouts or "access denied" errors when loading sites with proxy enabled. (EEC only) {#section_60CBB9022DC449F593606C0E6252302D}
 

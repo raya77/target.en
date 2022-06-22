@@ -48,7 +48,7 @@ If you were busy getting ready for Europe’s privacy law (GDPR) last year, some
 
 ## Adobe [!DNL Target] and [!DNL Adobe Experience Platform] opt-in {#section_6F7B53F5E40C4425934627B653E831B0}
 
-[!DNL Target] provides opt-in functionality support via tags in [!DNL Adobe Experience Platform] to help support your consent management strategy. Opt-in functionality lets customers control how and when the [!DNL Target] tag is fired. There is also an option via [!DNL Adobe Experience Platform] to pre-approve the [!DNL Target] tag. To enable the ability to use Opt-In in the [!DNL Target] at.js library, you should use `targetGlobalSettings` and add the `optinEnabled=true` setting. In [!DNL Adobe ExperiencePlatform], select "enable" from the [!UICONTROL GDPR Opt-In] drop-down list in the extension installation view. See [Implement [!DNL Target] using [!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) for more details.
+[!DNL Target] provides opt-in functionality support via tags in [!DNL Adobe Experience Platform] to help support your consent management strategy. Opt-in functionality lets customers control how and when the [!DNL Target] tag is fired. There is also an option via [!DNL Adobe Experience Platform] to pre-approve the [!DNL Target] tag. To enable the ability to use Opt-In in the [!DNL Target] at.js library, you should use `targetGlobalSettings` and add the `optinEnabled=true` setting. In [!DNL Adobe ExperiencePlatform], select "enable" from the [!UICONTROL GDPR Opt-In] drop-down list in the extension installation view. See [Implement [!DNL Target] using [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) for more details.
 
 The following code snippet shows you how to enable the `optinEnabled=true` setting:
 
@@ -281,7 +281,7 @@ The following table contains description of the illustrative profile JSON fields
 
 | Field | Description |
 |--- |--- |
-|Sample_Parameter|Many pieces of information in the [!DNL Target] profile are uploaded or directly provided by the Data Controller. In this example, a parameter was uploaded into the [!DNL Target] profile using the Profile Update API. For more information, see [Methods to get Data into [!DNL Target]](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md).|
+|Sample_Parameter|Many pieces of information in the [!DNL Target] profile are uploaded or directly provided by the Data Controller. In this example, a parameter was uploaded into the [!DNL Target] profile using the Profile Update API. For more information, see [Methods to get Data into [!DNL Target]](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/).|
 |user.ReturnTimeOfDay|This standard field includes the time of day of a user’s most recent return visit.|
 |firstSessionStart|This standard field includes the time of day the user’s first session began.|
 |user.sessionCountScript|Many pieces of information in the [!DNL Target] profile are uploaded or directly provided by the Data Controller. In this example, a profile script is incrementing the number of sessions this visitor has made to the Data Controller’s site. For more information, see [Profile Script Attributes](/help/main/c-target/c-visitor-profile/profile-parameters.md).|
@@ -292,7 +292,7 @@ The following table contains description of the illustrative profile JSON fields
 
 ### Does [!DNL Target] support IP obfuscation? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-[!DNL Target] supports IP obfuscation if you choose to use it as part of your GDPR or CCPA implementation strategy. For more information, see [Privacy](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
+[!DNL Target] supports IP obfuscation if you choose to use it as part of your GDPR or CCPA implementation strategy. For more information, see [Privacy](https://developer.adobe.com/target/before-implement/privacy/privacy/).
 
 ### Should I do something to prevent my data from being shared or sold to third parties?
 

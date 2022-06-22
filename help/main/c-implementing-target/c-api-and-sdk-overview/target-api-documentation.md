@@ -12,7 +12,7 @@ Information to help you use transition from the Target legacy APIs to the new AP
 
 With the decommissioning of Adobe Target Classic, the APIs that are connected to your Target Classic account have also been made unavailable. This document will help you transition your legacy API-based integrations to the Target APIs powered by Adobe I/O.
 
-For more information about the Target API documentation, see [Target APIs and NodeJS SDK](/help/main/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md#concept_5718EC1FF2ED4436935D0BCCD7AA29A6).
+For more information about the Target API documentation, see [Target APIs and NodeJS SDK](https://developer.adobe.com/target/implement/server-side/).
 
 ## Terminology {#section_D8286EDAE3B24D208DA432AEF2E88FD9}
 
