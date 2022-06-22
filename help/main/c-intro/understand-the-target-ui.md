@@ -110,6 +110,11 @@ To edit your notifications preferences:
    * Updates on content: When someone edits, deletes, or comments on an object you created or follow.
    * Others:
 
+   >[!NOTE]
+   >
+   >"New releases" and "Updates on content" are the only notification categories that apply to [!DNL Target]. The other categories apply to other Adobe solutions.  
+
+
 1. Select the categories that you want to be considered high priority.
 1. Select the notifications for which you would like to see alerts display in your browser. 
 
