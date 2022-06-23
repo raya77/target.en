@@ -9,7 +9,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: June 20, 2022**
+**Last Updated: June 23, 2022**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages could be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
@@ -18,7 +18,6 @@ To view information about the current release, see [Target Release Notes](releas
 This release contains the following enhancements and fixes:
 
 * Users with the [!UICONTROL Editor] role can no longer edit audiences in live activities. (TGT-43582)
-* Customer attributes shared from [!DNL Adobe Experience Platform] to [!DNL Target] in the [!DNL Platform] UI are visible in the [!DNL Target] UI. (TGT-43150)
 * A warning message displays if a customer attempts to save an audience with an exclamation mark ( ! ) as the first character of the audience's name (for example !London). (TGT-43643)
 * Fixed an issue that caused audiences definition details cards for some customers to indicate that an ended activity is still live. (TGT-43527)
 
