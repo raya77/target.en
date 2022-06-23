@@ -16,11 +16,11 @@ This section includes information for developers specific to their implementatio
 >
 >Modifications to at.js or the [!DNL Adobe Experience Platform Web SDK] are not supported by Adobe Customer Care.
 
-- [Prepare to implement Target](prepare-to-implement-target.md)
-- [Privacy](c-privacy/privacy.md)
-- [Methods to get data into Target](c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
-- [Target security overview](target-security-overview.md)
-- [Supported browsers](supported-browsers.md)
-- [TLS (Transport Layer Security) encryption changes](tls-transport-layer-security-encryption.md)
-- [CNAME and Adobe Target](implement-cname-support-in-target.md)
-- [Allowlist Target edge nodes](/help/main/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+- [Prepare to implement Target](https://developer.adobe.com/target/before-implement/prepare-to-implement-target/)
+- [Privacy](https://developer.adobe.com/target/before-implement/privacy/privacy/)
+- [Methods to get data into Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)
+- [Target security overview](https://developer.adobe.com/target/before-implement/target-security-overview/)
+- [Supported browsers](https://developer.adobe.com/target/before-implement/supported-browsers/)
+- [TLS (Transport Layer Security) encryption changes](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/)
+- [CNAME and Adobe Target](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/)
+- [Allowlist Target edge nodes](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/)

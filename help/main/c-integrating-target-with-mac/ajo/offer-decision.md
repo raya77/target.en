@@ -21,7 +21,7 @@ For more information about [!DNL Adobe Journey Optimizer] and offer decisions, s
 
 To use offer decisions in [!DNL Target], you need the following:
 
-* [!DNL Adobe Target Standard] or [!DNL Adobe Target Premium] implemented using the [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
+* [!DNL Adobe Target Standard] or [!DNL Adobe Target Premium] implemented using the [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/).
 
   The feature is not available when implementing [!DNL Target] with at.js or other [!DNL Target] SDKs.
 
@@ -94,7 +94,7 @@ In [!DNL Adobe Journey Optimizer], you can create a personalized homepage hero o
 
 Consider the following information as you work with offer decisions:
 
-* The offer decisioning integration works for [!DNL Target] implementations based on the [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). This feature is not available when implementing [!DNL Target] with at.js or other [!DNL Target] SDKs.
+* The offer decisioning integration works for [!DNL Target] implementations based on the [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/). This feature is not available when implementing [!DNL Target] with at.js or other [!DNL Target] SDKs.
 
 * The Target/Adobe Journey Optimizer integration supports [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) and [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This feature is not available for other activity types.
 

@@ -18,6 +18,6 @@ The following sections contain more information:
 - [Visitor profile lifetime](visitor-profile-lifetime.md)
 - [Profile attributes](profile-parameters.md)
 - [Category affinity](category-affinity.md)
-- [Customer attributes](working-with-customer-attributes.md)
+- [Customer attributes](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
 - [Real-time profile syncing for mbox3rdPartyID](3rd-party-id.md)
 - [Profile and variable glossary](variables-profiles-parameters-methods.md)

@@ -72,7 +72,7 @@ Use the Target Visual Experience Composer (VEC) to create a Recommendations acti
 
    >[!NOTE]
    >
-   >Not every criteria will run correctly on every page. The page or mbox must pass in `entity.id` or `entity.categoryId` for current item/current category recommendations to be compatible. In general, it is best to show only compatible criteria. However, if you want incompatible criteria to be available for the activity, clear the **[!UICONTROL Compatible]** check box. The [!UICONTROL Compatible] option might not display, depending on your Recommendations settings ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). For more information, see [Settings](/help/main/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84).
+   >Not every criteria will run correctly on every page. The page or mbox must pass in `entity.id` or `entity.categoryId` for current item/current category recommendations to be compatible. In general, it is best to show only compatible criteria. However, if you want incompatible criteria to be available for the activity, clear the **[!UICONTROL Compatible]** check box. The [!UICONTROL Compatible] option might not display, depending on your Recommendations settings ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). For more information, see [Settings](https://developer.adobe.com/target/implement/recommendations/).
 
    ![Select Criteria dialog box](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 

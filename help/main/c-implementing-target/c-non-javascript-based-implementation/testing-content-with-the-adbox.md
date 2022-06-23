@@ -12,7 +12,7 @@ Use an AdBox to deliver images in an off-site implementation using Adobe Target.
 
 An AdBox is like an mbox, but it is controlled by a URL rather than JavaScript. AdBoxes are created with a special AdBox URL that loads an "ad" mbox (or AdBox) into your Adobe account. Use this AdBox in place of the mbox in your activities. Use the AdBox URL instead of a direct image reference in email or other non-JavaScript implementations.
 
-For help selecting the right setup see [Non-JavaScript-Based Implementations](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4). 
+For help selecting the right setup see [Non-JavaScript-Based Implementations](https://developer.adobe.com/target/implement/email/). 
 
 1. Create the AdBox URL:
 
@@ -42,7 +42,7 @@ For help selecting the right setup see [Non-JavaScript-Based Implementations](/h
 
 1. Create the activity.
 
-   See [Non-JavaScript-Based Implementations](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) for the right set up to meet your goals. 
+   See [Non-JavaScript-Based Implementations](https://developer.adobe.com/target/implement/email/) for the right set up to meet your goals. 
 1. Complete QA on the activity.
 
    As best practice, create a dummy page and verify that all experiences, default content, and reports act as expected on all browser types, for all of your environments. 

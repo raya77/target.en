@@ -20,8 +20,8 @@ A key difference between plug-ins and response tokens is that plug-ins deliver J
 
 | Target SDK | Suggested actions |
 |--- |--- |
-|[Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)|Ensure that you are using Platform Web SDK version 2.6.0 or later. For information about downloading the latest version of Platform Web SDK, see [Install the SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) in the *Platform Web SDK overview* guide. For information about new functionality in each version of the Platform Web SDK, see [Release notes](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) in the *Platform Web SDK overview* guide.|
-|[at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)|Ensure that you are using at.js version 1.1 or later. For information about downloading the latest version of at.js, see [Download at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). For information about new functionality in each version of at.js, see [at.js Version Details](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).<br>Customers using at.js are encouraged to use response tokens and move away from plugins. Some plugins that rely on internal methods that existed in mbox.js (now deprecated), but not in at.js, are delivered but fail.|
+|[Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/)|Ensure that you are using Platform Web SDK version 2.6.0 or later. For information about downloading the latest version of Platform Web SDK, see [Install the SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) in the *Platform Web SDK overview* guide. For information about new functionality in each version of the Platform Web SDK, see [Release notes](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) in the *Platform Web SDK overview* guide.|
+|[at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)|Ensure that you are using at.js version 1.1 or later. For information about downloading the latest version of at.js, see [Download at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/). For information about new functionality in each version of at.js, see [at.js Version Details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).<br>Customers using at.js are encouraged to use response tokens and move away from plugins. Some plugins that rely on internal methods that existed in mbox.js (now deprecated), but not in at.js, are delivered but fail.|
 
 ## Using response tokens {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -30,7 +30,7 @@ A key difference between plug-ins and response tokens is that plug-ins deliver J
    For more information:
    
    * **Platform Web SDK**: See [Install the SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) in the *Platform Web SDK overview* guide.
-   * **at.js**: See [Download at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2). 
+   * **at.js**: See [Download at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/). 
 
 1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
@@ -143,7 +143,7 @@ The following response example adds a [!DNL Platform Web SDK] custom event handl
 
 ### ![at.js badge](/help/main/assets/atjs.png) at.js using custom events
 
-Use [at.js custom events](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) to listen for the [!DNL Target] response and read the response tokens.
+Use [at.js custom events](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-custom-events/) to listen for the [!DNL Target] response and read the response tokens.
 
 The following code sample adds an [!DNL at.js] custom event handler directly to the HTML page:
 

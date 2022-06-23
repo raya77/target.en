@@ -63,8 +63,8 @@ targetPageParams (appends the parameters to the global mbox on the page):
 
 ## Links to relevant information
 
-Recommendations: [Implementation According to Page Type](/help/main/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC)
+Recommendations: [Implementation According to Page Type](https://developer.adobe.com/target/implement/recommendations/)
 
-Order confirmation: [Track Conversions](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)
+Order confirmation: [Track Conversions](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/)
 
 Category affinity: [Category Affinity](/help/main/c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC)

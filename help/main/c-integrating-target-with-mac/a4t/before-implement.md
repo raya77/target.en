@@ -25,7 +25,7 @@ This A4T integration requires that you implement the following library versions 
 
 >[!NOTE]
 >
->The following requirements list the *minimum* versions of at.js needed to implement A4T. The [!DNL Target] team maintains only two versions of [!DNL at.js]—the current version and the second-latest version. Please upgrade [!DNL at.js] as necessary to ensure that you are running a supported version. For more information about what's in each version, see [at.js Version Details](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+>The following requirements list the *minimum* versions of at.js needed to implement A4T. The [!DNL Target] team maintains only two versions of [!DNL at.js]—the current version and the second-latest version. Please upgrade [!DNL at.js] as necessary to ensure that you are running a supported version. For more information about what's in each version, see [at.js Version Details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
 
 ### Requirements needed if *not* using redirect offers with A4T
 
@@ -35,7 +35,7 @@ This integration requires that you implement the following library versions (or 
 * [!DNL Adobe Target]: at.js version 0.9.1
 * Adobe Analytics: appMeasurement.js version 1.7.0
 
-For information about implementing A4T with the [!DNL Platform Web SDK], see [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
+For information about implementing A4T with the [!DNL Platform Web SDK], see [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/).
 
 ### Requirements needed if using redirect offers with A4T
 
@@ -53,7 +53,7 @@ To use redirect offers with A4T, you must implement the following library versio
 
 Download and deployment instructions are listed in [Analytics for Target Implementation](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
 
-For information about implementing A4T with the [!DNL Platform Web SDK], see [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
+For information about implementing A4T with the [!DNL Platform Web SDK], see [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/).
 
 ## Things to know before you implement {#section_50D49CC52E11414089C89FB67F9B88F5}
 

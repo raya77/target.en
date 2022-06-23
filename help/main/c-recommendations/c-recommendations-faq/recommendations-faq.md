@@ -88,7 +88,7 @@ If the location on which you're applying this criteria doesn't contain the categ
 
 If you use a location where category Id is present in the mbox, the criteria picker contains all applicable criteria.
 
-[!DNL Target] has a [Filter Incompatible Criteria](/help/main/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) setting to control intelligent filtering of the algorithm picker.
+[!DNL Target] has a [Filter Incompatible Criteria](https://developer.adobe.com/target/implement/recommendations/) setting to control intelligent filtering of the algorithm picker.
 
 >[!NOTE]
 >

@@ -29,12 +29,12 @@ This release contains the following enhancements and fixes:
 
 This release contains the following enhancements and fixes:
 
-* Added [User Agent Client Hints](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) support.
+* Added [User Agent Client Hints](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/) support.
 * Fixed an issue that intermittently caused timeouts when rendering [!UICONTROL Offer Decisions] in [!UICONTROL Experience Targeting] (XT) activities. (TNT-44611)
 
 ## at.js version 2.9.0 (May 27, 2022) 
 
-* Added [User Agent Client Hints](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) support.
+* Added [User Agent Client Hints](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/) support.
 * Fixed a bug where multiple mbox requests on the same page have different impression IDs.
 
 ## Additional release notes and version details
@@ -42,7 +42,7 @@ This release contains the following enhancements and fixes:
 |Resource|Details|
 |--- |--- |
 |[Release notes: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en)|Details about changes in each version of the Platform Web SDK.|
-|[at.js version details](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Details about changes in each version of the [!DNL Adobe Target] at.js JavaScript library.|
+|[at.js version details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)|Details about changes in each version of the [!DNL Adobe Target] at.js JavaScript library.|
 
 ## Documentation Changes, Past Release Notes, and Experience Cloud Release Notes
 

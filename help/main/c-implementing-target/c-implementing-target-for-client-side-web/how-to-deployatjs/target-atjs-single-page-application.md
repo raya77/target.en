@@ -181,7 +181,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
 ## at.js 2.x system diagrams
 
-The following diagrams help you understand the workflow of at.js 2.x with Views and how this enhances the SPA integration. To get a better introduction of the concepts used in at.js 2.x, see [Single Page Application implementation](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
+The following diagrams help you understand the workflow of at.js 2.x with Views and how this enhances the SPA integration. To get a better introduction of the concepts used in at.js 2.x, see [Single Page Application implementation](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/).
 
 ![Target flow with at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
@@ -227,7 +227,7 @@ As best practices related to SPAs:
 * Fire a custom event before the view starts rendering
 * Fire a custom event when the view finishes rendering
 
-at.js 2.x added a new API [triggerView()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) function. You should use `triggerView()` to notify at.js that a view will start rendering.
+at.js 2.x added a new API [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/) function. You should use `triggerView()` to notify at.js that a view will start rendering.
 
 To see how to combine custom events, at.js 2.x, and Analytics, let's see an example. This example assumes that the HTML page contains the Visitor API, followed by at.js 2.x, followed by AppMeasurement.
 
@@ -262,7 +262,7 @@ document.addEventListener("at-view-end", function(e) {
 >
 >You must fire the `at-view-start` and `at-view-end` events. These events are not part of at.js custom events.
 
-Although these examples use JavaScript code, all this can be simplified if you are using a tag manager, such as tags in [Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
+Although these examples use JavaScript code, all this can be simplified if you are using a tag manager, such as tags in [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/).
 
 If the preceding steps are followed you should have a robust A4T solution for SPAs.
 

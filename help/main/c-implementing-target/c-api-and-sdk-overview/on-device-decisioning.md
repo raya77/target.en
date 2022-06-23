@@ -10,7 +10,10 @@ exl-id: ae782511-6f32-4123-be76-838584e05b39
 
 On-device decisioning provides the ability to cache your [!DNL Adobe Target] [!UICONTROL A/B Test] and [!UICONTROL Experience Targeting] (XT) activities on your server and perform in-memory decisioning at near-zero latency, without blocking network requests to the [!DNL Adobe Target] Edge Network.
 
-For more information, see [Introduction to on-device decisioning](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) in the *[Adobe Target SDKs documentation](https://adobetarget-sdks.gitbook.io/docs/)*.
+For more information, see topics:
+
+* [On-device decisioning for client-side](https://developer.adobe.com/target/implement/client-side/){target=_blank}
+* [On-device decisioning for server-side](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/){target=_blank}
 
 ## Webinar: Personalize and test at zero latency with on-device decisions from [!DNL Adobe Target]
 

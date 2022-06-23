@@ -19,7 +19,7 @@ See [Custom attributes](https://experienceleague.adobe.com/docs/target/using/aud
 
 **Good to know**: Because [!DNL Target] is an open and agnostic platform that works well with different technologies, you can add CRM or purchased data in many different ways. That means you can choose a method that works best for your organization.
 
-See [Methods to get data into Target](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md) for more information.
+See [Methods to get data into Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/) for more information.
 
 ## Tip 2: Personalize more deeply by blending [!DNL Target] audiences with other Adobe Experience Cloud audiences.
 

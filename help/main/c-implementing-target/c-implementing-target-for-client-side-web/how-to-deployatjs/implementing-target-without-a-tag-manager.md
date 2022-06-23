@@ -12,7 +12,7 @@ Information about implementing [!DNL Adobe Target] without using a tag manager o
 
 >[!NOTE]
 >
->Tags in [Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) is the preferred method for implementing [!DNL Target] and the at.js library. The following information is not applicable when using tags in [!DNL Adobe Experience Platform] to implement [!DNL Target].
+>Tags in [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) is the preferred method for implementing [!DNL Target] and the at.js library. The following information is not applicable when using tags in [!DNL Adobe Experience Platform] to implement [!DNL Target].
 
 To access the [!UICONTROL Implementation] page, click **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
@@ -26,7 +26,7 @@ You can specify the following settings on this page:
 
 >[!NOTE]
 >
->You can override settings in the at.js library, rather than configuring the settings in the [!DNL Target Standard/Premium] UI or by using REST APIs. For more information, see [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
+>You can override settings in the at.js library, rather than configuring the settings in the [!DNL Target Standard/Premium] UI or by using REST APIs. For more information, see [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
 
 ## Account details
 
@@ -36,7 +36,7 @@ You can view the following account details. These settings cannot be changed.
 | --- | --- |
 |[!UICONTROL Client Code]|The client code is a client-specific sequence of characters often required when using the [!DNL Target] APIs.|
 |[!UICONTROL IMS Organization ID]|This ID ties your implementation to your [!DNL Adobe Experience Cloud] account.|
-|[!UICONTROL On-Device Decisioning]|To enable on-device decisioning, slide the toggle to the "on" position.<br>On-device decisioning lets you cache your A/B and [!UICONTROL Experience Targeting] (XT) campaigns on your server and perform in-memory decisioning at near-zero latency. For more information, see [Introduction to on-device decisioning](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) in the *[!DNL Adobe Target] SDKs* guide.|
+|[!UICONTROL On-Device Decisioning]|To enable on-device decisioning, slide the toggle to the "on" position.<br>On-device decisioning lets you cache your A/B and [!UICONTROL Experience Targeting] (XT) campaigns on your server and perform in-memory decisioning at near-zero latency. For more information, see [Introduction to on-device decisioning](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/) in the *[!DNL Adobe Target] SDKs* guide.|
 |[!UICONTROL Include all existing on-device decisioning qualified activities in the artifact.]|(Conditional) This option displays if you enable on-device decisioning.<br>Slide the toggle to the "on" position if you want all your live Target activities that qualify for on-device decisioning to be automatically included in the artifact.<br>Leaving this toggle off means you must re-create and activate any on-device decisioning activities in order for them to be included in the generated rules artifact.|
 
 ## Implementation methods
@@ -53,7 +53,7 @@ The following settings can be configured in the Implementation methods panel:
 | --- | --- |
 |Page load enabled (Auto-create global mbox|Select whether to embed the global mbox call in the at.js file to automatically fire on each page load.|
 |Global mbox|Select a name for the global mbox. By default, this name is  target-global-mbox.<br>Special characters, including ampersands (&), can be used in mbox names with at.js.|
-|Timeout (seconds)|If [!DNL Target] does not respond with content within the defined period, the server call times out and default content is displayed. Additional calls continue to be attempted during the visitor's session. The default is 5 seconds.<br>The at.js library uses the timeout setting in `XMLHttpRequest`. The timeout starts when the request is fired and stops when [!DNL Target] gets a response from the server. For more information, see [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) on the Mozilla Developer Network.<br>If the specified timeout occurs before receiving the response, default content is shown and the visitor might be counted as a participant in an activity because all data collection happens on the [!DNL Target] edge. If the request reaches the [!DNL Target] edge, the visitor is counted.<br>Consider the following when configuring the timeout setting:<ul><li>If the value is too low, users might see default content most of the time, although the visitor could be counted as a participant in the activity.</li><li>If the value is too high, visitors might see blank regions on your web page or blank pages if you use body hiding for extended periods of time.</li></ul>To get a better understanding of mbox response times, look at the Network tab in your browser's Developer Tools. You can also use third-party web performance monitoring tools, such as Catchpoint.<br>**Note**: The [visitorApiTimeout](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) setting ensures that [!DNL Target] doesn't wait for the Visitor API response for too long. This setting and the Timeout setting for at.js described here do not affect each other.|
+|Timeout (seconds)|If [!DNL Target] does not respond with content within the defined period, the server call times out and default content is displayed. Additional calls continue to be attempted during the visitor's session. The default is 5 seconds.<br>The at.js library uses the timeout setting in `XMLHttpRequest`. The timeout starts when the request is fired and stops when [!DNL Target] gets a response from the server. For more information, see [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) on the Mozilla Developer Network.<br>If the specified timeout occurs before receiving the response, default content is shown and the visitor might be counted as a participant in an activity because all data collection happens on the [!DNL Target] edge. If the request reaches the [!DNL Target] edge, the visitor is counted.<br>Consider the following when configuring the timeout setting:<ul><li>If the value is too low, users might see default content most of the time, although the visitor could be counted as a participant in the activity.</li><li>If the value is too high, visitors might see blank regions on your web page or blank pages if you use body hiding for extended periods of time.</li></ul>To get a better understanding of mbox response times, look at the Network tab in your browser's Developer Tools. You can also use third-party web performance monitoring tools, such as Catchpoint.<br>**Note**: The [visitorApiTimeout](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) setting ensures that [!DNL Target] doesn't wait for the Visitor API response for too long. This setting and the Timeout setting for at.js described here do not affect each other.|
 |Profile Lifetime|This setting determines how long visitor profiles are stored. By default, profiles are stored for two weeks. This setting can be increased up to 90 days.<br>To change the  Profile Lifetime  setting, contact [Client Care](https://helpx.adobe.com/contact/enterprise-support.ec.html).|
 
 ### Main implementation method
@@ -81,21 +81,16 @@ In addition to the settings explained above, the following specific at.js settin
 
 Starting with version 2.5.0, at.js offers on-device decisioning. On-device decisioning lets you cache your [A/B Test](/help/main/c-activities/t-test-ab/test-ab.md) and [Experience Targeting](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities on the browser to perform in-memory decisioning without a blocking network request to the [!DNL Adobe Target] Edge Network. 
 
-For more information, see:
+For more information, see topics:
 
-* Client-side: [On-device decisioning for at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
-* Server-side: [Introduction to on-device decisioning](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
-* Server-side: [On-device decisioning](/help/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md){target=_blank}
-* Node.js: [Enable On-Device Decisioning for your organization](https://adobetarget-sdks.gitbook.io/docs/getting-started/node.js){target=_blank}
-* Java: [Enable On-Device Decisioning for your organization](https://adobetarget-sdks.gitbook.io/docs/getting-started/java){target=_blank}
-* .NET: [Enable On-Device Decisioning for your organization](https://adobetarget-sdks.gitbook.io/docs/getting-started/dotnet){target=_blank}
-* Python: [Enable On-Device Decisioning for your organization](https://adobetarget-sdks.gitbook.io/docs/getting-started/python){target=_blank}
+* [On-device decisioning for client-side](https://developer.adobe.com/target/implement/client-side/){target=_blank}
+* [On-device decisioning for server-side](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/){target=_blank}
 
 ### Profile API
 
 Enable or disable authentication for batch updates via API and generate a profile authentication token.
 
-For more information, see [Profile API settings](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md).
+For more information, see [Profile API settings](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/profile-api-settings/).
 
 ### Debugger tools
 
@@ -113,11 +108,11 @@ Choose the desired setting from the Obfuscate Visitor IP address drop-down list:
 * Entire IP obfuscation
 * None
 
-For more information, see [Privacy](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).
+For more information, see [Privacy](https://developer.adobe.com/target/before-implement/privacy/privacy/).
 
 >[!NOTE]
 >
->The Legacy Browser Support option was available in at.js version 0.9.3 and earlier. This option was removed in at.js version 0.9.4. For a list of browsers supported by at.js, see [Supported Browsers](/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).<br>Legacy browsers are older browsers that do not fully support CORS (Cross Origin Resource Sharing). These browsers include: Internet Explorer browsers earlier than version 11 and Safari versions 6 and below. If Legacy Browser Support was disabled, Target did not deliver content or count visitors in reports on these browsers. If this option was enabled, it is recommended to do quality assurance across older browsers to ensure a good customer experience.
+>The Legacy Browser Support option was available in at.js version 0.9.3 and earlier. This option was removed in at.js version 0.9.4. For a list of browsers supported by at.js, see [Supported Browsers](https://developer.adobe.com/target/before-implement/supported-browsers/).<br>Legacy browsers are older browsers that do not fully support CORS (Cross Origin Resource Sharing). These browsers include: Internet Explorer browsers earlier than version 11 and Safari versions 6 and below. If Legacy Browser Support was disabled, Target did not deliver content or count visitors in reports on these browsers. If this option was enabled, it is recommended to do quality assurance across older browsers to ensure a good customer experience.
 
 ## Download at.js {#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
 
@@ -125,9 +120,9 @@ Instructions to download the library using the [!DNL Target] interface or the Do
 
 >[!NOTE]
 >
->* [[!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) is the preferred method for implementing [!DNL Target] and the at.js library. The following information is not applicable when using tags in [!DNL Adobe Experience Platform] to implement [!DNL Target].
+>* [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) is the preferred method for implementing [!DNL Target] and the at.js library. The following information is not applicable when using tags in [!DNL Adobe Experience Platform] to implement [!DNL Target].
 >
->* The [!DNL Target] team supports both at.js 1.*x* and at.js 2.*x*. Please upgrade to the most recent update of either major version of at.js to ensure that you are running a supported version. For more information about what's in each version, see [at.js Version Details](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+>* The [!DNL Target] team supports both at.js 1.*x* and at.js 2.*x*. Please upgrade to the most recent update of either major version of at.js to ensure that you are running a supported version. For more information about what's in each version, see [at.js Version Details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
 
 ### Download at.js using the [!DNL Target] interface {#section_1F5EE401C2314338910FC57F9592894E}
 
@@ -178,7 +173,7 @@ To download [!DNL at.js] using the API.
 
     >[!IMPORTANT]
     >
-    >The Target team maintains only two versions of [!DNL at.js]—the current version and the second-latest version. Please upgrade [!DNL at.js] as necessary to ensure that you are running a supported version. For more information about what's in each version, see [at.js Version Details](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+    >The Target team maintains only two versions of [!DNL at.js]—the current version and the second-latest version. Please upgrade [!DNL at.js] as necessary to ensure that you are running a supported version. For more information about what's in each version, see [at.js Version Details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
 
    Loading this URL starts the download of your customized [!DNL at.js] file.
 
@@ -186,7 +181,7 @@ To download [!DNL at.js] using the API.
 
 at.js should be implemented in the `<head>` element of every page of your website. 
 
-A typical implementation of Target not using a tag manager, such as tags in [[!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) looks like this:
+A typical implementation of Target not using a tag manager, such as tags in [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) looks like this:
 
 ```
 <!doctype html> 
@@ -245,7 +240,7 @@ Consider the following important notes:
 * The HTML5 Doctype (for example, `<!doctype html>`) should be used. Unsupported or older doctypes could result in Target not being able to make a request. 
 * Preconnect and Prefetch are options that might help your web pages load faster. If you use these configurations, ensure that you replace `<client code>` with your own client code, which you can obtain from the **[!UICONTROL Administration]** > **[!UICONTROL Implementation] page. 
 * If you have a data layer, it is optimal to define as much of it as possible in the `<head>` of your pages before at.js loads. This placement provides the maximum ability to use this information in Target for personalization. 
-* Special Target functions, such as `targetPageParams()`, `targetPageParamsAll()`, Data Providers, and `targetGlobalSettings()` should be defined after your data layer and before at.js loads. Alternatively, these functions could be saved in the [!UICONTROL Library Header] section of the [!UICONTROL Edit at.js Settings] page and saved as part of the at.js library itself. For more information on these functions, see [at.js functions](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md). 
+* Special Target functions, such as `targetPageParams()`, `targetPageParamsAll()`, Data Providers, and `targetGlobalSettings()` should be defined after your data layer and before at.js loads. Alternatively, these functions could be saved in the [!UICONTROL Library Header] section of the [!UICONTROL Edit at.js Settings] page and saved as part of the at.js library itself. For more information on these functions, see [at.js functions](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/). 
 * If you use JavaScript helper libraries, such as jQuery, include them before Target so you can use their syntax and methods when building Target experiences. 
 * Include at.js in the `<head>` of your pages.
 

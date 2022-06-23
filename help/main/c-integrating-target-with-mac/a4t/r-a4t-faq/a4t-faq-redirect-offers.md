@@ -48,7 +48,7 @@ Consider the following:
 
 ## Why are page views on the original page and on the redirect page sometimes counted? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
-When using at.js version 1.6.3 or later, counting page views on both pages is not an issue. This race condition affects only customers using earlier versions. The Target team maintains two versions of at.js: the current version and the second-latest version. Upgrade at.js as necessary to ensure that you are running a [supported version](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+When using at.js version 1.6.3 or later, counting page views on both pages is not an issue. This race condition affects only customers using earlier versions. The Target team maintains two versions of at.js: the current version and the second-latest version. Upgrade at.js as necessary to ensure that you are running a [supported version](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
 
 If you are using an earlier, non-supported version of at.js, there is a possibility that a race condition can occur that might cause the Analytics call to fire before the redirect executes on the first page. This situation can cause page views on the original page and on the redirect page to all be counted. This situation results in an extra page view on the first page, when the visitor never really "saw" this first page.
 

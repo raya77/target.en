@@ -12,7 +12,7 @@ exl-id: 22d29bfe-e022-44b2-913f-c8c32c65bc48
 
 >[!NOTE]
 >
->The information in this article applies to [at.js version 2.9.0](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) (or later).
+>The information in this article applies to [at.js version 2.9.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) (or later).
 
 
 Each time a web browser makes a request to a server, included in the header of the request is information about the browser and the environment where the browser runs. Since the early days of the Internet, this data has been aggregated in a single string called the user-agent. 
@@ -220,4 +220,4 @@ Starting with at.js 2.9.0, User Agent Client Hints will be collected automatical
 
 ### Server-side SDKs
 
-For more information on how to pass client hints via server-side SDKs, see [Client Hints](https://adobetarget-sdks.gitbook.io/docs/core-principles/audience-targeting#client-hints){target=_blank} in the *Adobe Target SDKs* documentation.
+For more information on how to pass client hints via server-side SDKs, see [Client Hints](https://developer.adobe.com/target/implement/server-side/sdk-guides/core-principles/audience-targeting/){target=_blank} under *Audience Targeting* in the *Adobe Target SDKs* documentation.
