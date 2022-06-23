@@ -16,7 +16,7 @@ Only one global mbox is supported across your account.
 
 You can limit where your activities run by adding URL rules to your activities. For more information, see [Include the Same Experience on Similar Pages](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781).
 
-You could also pass a parameter on the page using [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank} and then select those parameters in the "configure URL" section in the [!UICONTROL Visual Experience Composer] (VEC) or by adding the parameters as "refinements" in the Form-Based Experience Composer.
+You could also pass a parameter on the page using [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank} and then select those parameters in the "configure URL" section in the [!UICONTROL Visual Experience Composer] (VEC){target=_blank} or by adding the parameters as "refinements" in the Form-Based Experience Composer.
 
 ## How do I pass revenue data on a [!DNL Target] global mbox? {#section_17AEA933BADA4D169CCEDF5833C41306}
 
@@ -24,7 +24,7 @@ To collect revenue and order information on the target-global-mbox, "mbox parame
 
 For the `orderConfirmPage`, you should pass in `orderTotal`, `orderId`, and `productPurchasedId`.
 
-These parameters must be sent to the target-global-mbox via `targetPageParams()`. For more information, see [Passing Parameters to a Global mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/).
+These parameters must be sent to the target-global-mbox via `targetPageParams()`. For more information, see [Passing Parameters to a Global mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank}.
 
 You'll also want to add targeting to the conversion piece so that Target only counts conversions on the target-global-mbox when the order confirmation page has been viewed, as shown below:
 

@@ -13,7 +13,7 @@ If you are using an older version of at.js, you must specify an Analytics tracki
 >
 >You do not need to specify a tracking server during activity creation if you are using at.js version 0.9.1 (or later). The at.js library automatically sends tracking server values to [!DNL Target]. During activity creation, you can leave the [!UICONTROL Tracking Server] field empty on the [!UICONTROL Goals & Settings] page.
 >
->The [!DNL Target] team supports both at.js 1.*x* and at.js 2.*x*. Upgrade to the most recent update of either major version of at.js to ensure that you are running a supported version. For more information, see [at.js version details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
+>The [!DNL Target] team supports both at.js 1.*x* and at.js 2.*x*. Upgrade to the most recent update of either major version of at.js to ensure that you are running a supported version. For more information, see [at.js version details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 To ensure that data from [!DNL Target] goes to the correct location in [!DNL Analytics], A4T requires an Analytics tracking server to be sent in all calls to Modstats from [!DNL Target]. For implementations using multiple tracking servers, use the [!DNL Adobe Experience Platform Debugger] or your browser's Developer Tools to determine the correct tracking server for your activity.
 

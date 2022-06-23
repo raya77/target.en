@@ -246,7 +246,7 @@ Consider the following when using or configuring properties and permissions in [
 
   In a future release, Target will work on pages where no `at_property` token is present or pages where a different `at_property` token is present.
 
-* The Enterprise User Permissions functionality is not supported in [Adobe I/O API calls](https://developer.adobe.com/target/).
+* The Enterprise User Permissions functionality is not supported in [Adobe I/O API calls](https://developer.adobe.com/target/){target=_blank}.
 
 ## Frequently Asked Questions {#faqs}
 

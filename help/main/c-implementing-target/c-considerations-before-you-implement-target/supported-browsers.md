@@ -10,7 +10,7 @@ exl-id: 8a366c79-d944-4d44-be5a-7c4f65385beb
 
 The [!DNL Adobe Target] application and content delivery has been tested across a wide range of browsers and devices.
 
-For more important information about TLS, see [TLS (Transport Layer Security) Encryption Changes](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/).
+For more important information about TLS, see [TLS (Transport Layer Security) Encryption Changes](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank}.
 
 ## [!DNL Target] Standard/Premium interface {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
 
@@ -28,7 +28,7 @@ Content delivery has been tested across the following browsers and devices:
 | Device Type | Browser Version |
 |--- |--- |
 |Windows|<ul><li>Microsoft Internet Explorer 9 and 10. Tested in emulation mode.<br>**Note**: Content delivery on IE 9 is no longer supported with at.js 1.3.0 (and later). Content delivery on IE 10, 11, and all older versions is no longer supported with at.js 2.5.0 (and later).</li><li>Internet Explorer 11<br>**Note**: Content delivery on IE 10, 11, and all older versions is no longer supported with at.js 2.5.0 (and later).</li><li>Microsoft Edge</li><li>Chrome (latest, latest minus 1)</li><li>Firefox (latest, latest minus 1)</li></ul>|
-|Mac|<ul><li>Apple Safari (Latest)<br>**Note**: For more information about how Safari handles first- and third-party cookies, see [Target Cookie](https://developer.adobe.com/target/before-implement/privacy/cookie-behavior/).</li><li>Firefox (latest, latest minus 1)</li><li>Chrome (latest, latest minus 1)</li></ul>|
+|Mac|<ul><li>Apple Safari (Latest)<br>**Note**: For more information about how Safari handles first- and third-party cookies, see [Target Cookie](https://developer.adobe.com/target/before-implement/privacy/cookie-behavior/){target=_blank}.</li><li>Firefox (latest, latest minus 1)</li><li>Chrome (latest, latest minus 1)</li></ul>|
 |Mobile/Tablet|<ul><li>Apple iOS (latest)</li><li>Android devices and tablets (Android 4 and later)</li><li>Microsoft Surface (Windows 8.1)</li></ul>|
 
 Note the following:

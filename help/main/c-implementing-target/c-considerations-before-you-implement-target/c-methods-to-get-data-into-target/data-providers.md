@@ -16,7 +16,7 @@ Note: Data providers require at.js 1.3 or later.
 
 The `window.targetGlobalSettings.dataProviders` setting is an array of data providers.
 
-For more information about the structure for each data provider, see [Data Providers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+For more information about the structure for each data provider, see [Data Providers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ## Example use cases
 
@@ -38,7 +38,7 @@ at.js does not try to cache the data. If the data provider fetches data only onc
 
 ## Code examples
 
-Several examples can be found in [Data Providers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+Several examples can be found in [Data Providers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ## Links to relevant information
 

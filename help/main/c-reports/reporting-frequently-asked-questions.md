@@ -100,6 +100,6 @@ For example, I set the traffic split to be 50/50 or 25/25/25/25 but I'm seeing a
 * The best practice for A/B and MVT tests is to keep traffic splits even. Changing the traffic distribution between experiences (say from 90/10 to 50/50) during a test can lead to uneven visitors across experiences. The lower traffic experience might never "catch up."
 * If you are following the above best practices and the traffic split does not normalize over time, you should check the following:
 
-  * Are you using the latest at.js library? For more information about the current version and associated release notes, see [at.js version details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
+  * Are you using the latest at.js library? For more information about the current version and associated release notes, see [at.js version details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
   * Is it a redirect test? Incorrect timing of tags firing on the page can lead to uneven traffic splits, especially when using [!DNL Analytics] as the data source for a [!DNL Target] activity. For details to remedy uneven traffic distribution on a redirect activity with Analytics for Target (A4T), see [Redirect offers - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).

@@ -47,6 +47,6 @@ The [!DNL Adobe Target] server-side SDK documentation portal helps you implement
 
 ## Target Recommendations APIs
 
-Link: [Target Recommendations APIs](https://developer.adobe.com/target/).
+Link: [Target Recommendations APIs](https://developer.adobe.com/target/){target=_blank}.
 
 The Recommendations APIs let you programmatically interact with [!DNL Target] recommendations servers. These APIs can be integrated with a range of application stacks to perform functions that you would typically do via the [!DNL Target] user interface.

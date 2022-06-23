@@ -22,7 +22,7 @@ Use the Redirector to do the following:
 
 * Find which landing page leads to the most conversions
 
-For help deciding the right setup see [Non-JavaScript-Based Implementations](https://developer.adobe.com/target/implement/email/). 
+For help deciding the right setup see [Non-JavaScript-Based Implementations](https://developer.adobe.com/target/implement/email/){target=_blank}. 
 
 ## Create a redirector {#redirector}
 

@@ -105,7 +105,7 @@ The Adobe Experience Cloud Debugger makes it fast and easy to understand your Ta
 
 For more information, see the training videos below:
 
-For more detailed information, see [Debug at.js using the Adobe Experience Cloud Debugger](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/).
+For more detailed information, see [Debug at.js using the Adobe Experience Cloud Debugger](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/){target=_blank}.
 
 ## Top sellers are not appearing in Recommendations {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -121,7 +121,7 @@ Target no longer supports IE 8.
 
 ## Target cookie does not get set {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-If your site has a sub domain, such as [!DNL us.domain.com], but you need the Target cookie set on [!DNL domain.com] (instead of [!DNL us.domain.com]), you must override the `cookieDomain` setting. For more information, see [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+If your site has a sub domain, such as [!DNL us.domain.com], but you need the Target cookie set on [!DNL domain.com] (instead of [!DNL us.domain.com]), you must override the `cookieDomain` setting. For more information, see [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ## Target content flickers or is not shown if an element is also part of Adobe Experience Manager personalization. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 

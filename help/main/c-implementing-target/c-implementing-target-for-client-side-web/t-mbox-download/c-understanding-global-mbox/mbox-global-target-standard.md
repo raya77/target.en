@@ -38,4 +38,4 @@ The following FAQs can be used to troubleshoot your global mbox implementation:
 
 ### Why is the global mbox not loading, or why is there latency in loading the global mbox when the page loads?
 
-Make sure the at.js reference is the first JavaScript call on the page. For other solutions to this problem, see [Global mbox Frequently Asked Questions](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/).
+Make sure the at.js reference is the first JavaScript call on the page. For other solutions to this problem, see [Global mbox Frequently Asked Questions](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/){target=_blank}.
