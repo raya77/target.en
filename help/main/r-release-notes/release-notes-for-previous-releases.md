@@ -254,7 +254,7 @@ This release contains the following new features and enhancements. The issue num
 
 The new [!DNL Adobe Target] Python SDK with on-device decisioning capabilities is now available. This newest addition bolsters the [!DNL Target] suite of server-side SDKs. These SDKS help you integrate with [!DNL Target] and expedite your time to value, in the language of your choice. Server-side integrations are becoming a popular choice given that the market is shifting to a cookie-less world in which first-party data is valuable. Target SDKs are available in the most popular programming languages in the market (Python, Java, JavaScript, C# / .Net).
 
-For more information, see the [Python SDK documentation](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk) in the [Adobe Target SDKs guide](https://adobetarget-sdks.gitbook.io/docs/).
+For more information, see the [Python SDK documentation](https://developer.adobe.com/target/implement/server-side/python/) in the [Adobe Target Developer Guide](https://developer.adobe.com/target/).
 
 ### Target Standard/Premium 21.5.1 (June 7, 2021)
 
@@ -366,7 +366,7 @@ This release contains the following new features:
 
 |Feature|Details|
 | --- | --- |
-|[On-device decisioning](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)|On-device decisioning lets both marketers and product developers deliver experimentation and Machine Learning-driven personalization from within a user's device, across channels, at near-zero latency.<br>Speed and performance matters--in customer insights and user satisfaction.<br>On-device decisioning lets you compile key personalization and experimentation instructions in A/B Test and Experience Targeting (XT) activity types into "optimization artifacts:" JSON objects that are loaded onto customer devices via the CDN. And because on-device decisioning connects natively with [!DNL Adobe Experience Cloud] products, [!DNL Target] users get rapid analysis and faster experience iterations.<br>For more information, see *[On-device decisioning](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/on-device-decisioning/).|
+|On-device decisioning|On-device decisioning lets both marketers and product developers deliver experimentation and Machine Learning-driven personalization from within a user's device, across channels, at near-zero latency.<br>Speed and performance matters--in customer insights and user satisfaction.<br>On-device decisioning lets you compile key personalization and experimentation instructions in A/B Test and Experience Targeting (XT) activity types into "optimization artifacts:" JSON objects that are loaded onto customer devices via the CDN. And because on-device decisioning connects natively with [!DNL Adobe Experience Cloud] products, [!DNL Target] users get rapid analysis and faster experience iterations.<br>For more information, see *[On-device decisioning for at.js](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/on-device-decisioning/) and [Introduction to on-device decisioning](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/){target=_blank} for server-side.|
 
 This release contains the following enhancements, fixes, and changes:
 

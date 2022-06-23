@@ -220,4 +220,4 @@ Starting with at.js 2.9.0, User Agent Client Hints will be collected automatical
 
 ### Server-side SDKs
 
-For more information on how to pass client hints via server-side SDKs, see [Client Hints](https://adobetarget-sdks.gitbook.io/docs/core-principles/audience-targeting#client-hints){target=_blank} in the *Adobe Target SDKs* documentation.
+For more information on how to pass client hints via server-side SDKs, see [Client Hints](https://developer.adobe.com/target/implement/server-side/sdk-guides/core-principles/audience-targeting/){target=_blank} under *Audience Targeting* in the *Adobe Target SDKs* documentation.

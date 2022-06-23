@@ -171,7 +171,7 @@ Character limits and other limits (offer size, audiences, profiles, values, para
 
   If you are using the Batch Delivery API, the limit is 50 mboxes per batch request.
 
-  If you are using the [Batch Delivery API](https://developers.adobetarget.com/api/#server-side-batch-delivery) in the Mobile Services SDK, the limit of 50 mbox parameters, 50 profile parameters, and 50 for other parameter types are limitations of the API itself. It is not possible to send a request containing more that these numbers using the Batch Delivery API. If a request contains more than these limits, the API will return the following error message:
+  If you are using the Batch Delivery API in the Mobile Services SDK, the limit of 50 mbox parameters, 50 profile parameters, and 50 for other parameter types are limitations of the API itself. It is not possible to send a request containing more that these numbers using the Batch Delivery API. If a request contains more than these limits, the API will return the following error message:
 
   "The number of mboxParameters cannot exceed 50."
 

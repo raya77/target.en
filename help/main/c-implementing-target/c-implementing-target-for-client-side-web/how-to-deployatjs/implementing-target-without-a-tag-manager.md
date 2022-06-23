@@ -36,7 +36,7 @@ You can view the following account details. These settings cannot be changed.
 | --- | --- |
 |[!UICONTROL Client Code]|The client code is a client-specific sequence of characters often required when using the [!DNL Target] APIs.|
 |[!UICONTROL IMS Organization ID]|This ID ties your implementation to your [!DNL Adobe Experience Cloud] account.|
-|[!UICONTROL On-Device Decisioning]|To enable on-device decisioning, slide the toggle to the "on" position.<br>On-device decisioning lets you cache your A/B and [!UICONTROL Experience Targeting] (XT) campaigns on your server and perform in-memory decisioning at near-zero latency. For more information, see [Introduction to on-device decisioning](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) in the *[!DNL Adobe Target] SDKs* guide.|
+|[!UICONTROL On-Device Decisioning]|To enable on-device decisioning, slide the toggle to the "on" position.<br>On-device decisioning lets you cache your A/B and [!UICONTROL Experience Targeting] (XT) campaigns on your server and perform in-memory decisioning at near-zero latency. For more information, see [Introduction to on-device decisioning](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/) in the *[!DNL Adobe Target] SDKs* guide.|
 |[!UICONTROL Include all existing on-device decisioning qualified activities in the artifact.]|(Conditional) This option displays if you enable on-device decisioning.<br>Slide the toggle to the "on" position if you want all your live Target activities that qualify for on-device decisioning to be automatically included in the artifact.<br>Leaving this toggle off means you must re-create and activate any on-device decisioning activities in order for them to be included in the generated rules artifact.|
 
 ## Implementation methods
@@ -81,15 +81,10 @@ In addition to the settings explained above, the following specific at.js settin
 
 Starting with version 2.5.0, at.js offers on-device decisioning. On-device decisioning lets you cache your [A/B Test](/help/main/c-activities/t-test-ab/test-ab.md) and [Experience Targeting](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities on the browser to perform in-memory decisioning without a blocking network request to the [!DNL Adobe Target] Edge Network. 
 
-For more information, see:
+For more information, see topics:
 
-* Client-side: [On-device decisioning for at.js](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/on-device-decisioning/)
-* Server-side: [Introduction to on-device decisioning](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
-* Server-side: [On-device decisioning](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/){target=_blank}
-* Node.js: [Enable On-Device Decisioning for your organization](https://adobetarget-sdks.gitbook.io/docs/getting-started/node.js){target=_blank}
-* Java: [Enable On-Device Decisioning for your organization](https://adobetarget-sdks.gitbook.io/docs/getting-started/java){target=_blank}
-* .NET: [Enable On-Device Decisioning for your organization](https://adobetarget-sdks.gitbook.io/docs/getting-started/dotnet){target=_blank}
-* Python: [Enable On-Device Decisioning for your organization](https://adobetarget-sdks.gitbook.io/docs/getting-started/python){target=_blank}
+* [On-device decisioning for client-side](https://developer.adobe.com/target/implement/client-side/){target=_blank}
+* [On-device decisioning for server-side](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/){target=_blank}
 
 ### Profile API
 
