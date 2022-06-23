@@ -227,7 +227,7 @@ As best practices related to SPAs:
 * Fire a custom event before the view starts rendering
 * Fire a custom event when the view finishes rendering
 
-at.js 2.x added a new API [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/) function. You should use `triggerView()` to notify at.js that a view will start rendering.
+at.js 2.x added a new API [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/){target=_blank} function. You should use `triggerView()` to notify at.js that a view will start rendering.
 
 To see how to combine custom events, at.js 2.x, and Analytics, let's see an example. This example assumes that the HTML page contains the Visitor API, followed by at.js 2.x, followed by AppMeasurement.
 

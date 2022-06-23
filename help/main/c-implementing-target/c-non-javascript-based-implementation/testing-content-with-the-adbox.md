@@ -42,7 +42,7 @@ For help selecting the right setup see [Non-JavaScript-Based Implementations](ht
 
 1. Create the activity.
 
-   See [Non-JavaScript-Based Implementations](https://developer.adobe.com/target/implement/email/) for the right set up to meet your goals. 
+   See [Non-JavaScript-Based Implementations](https://developer.adobe.com/target/implement/email/){target=_blank} for the right set up to meet your goals. 
 1. Complete QA on the activity.
 
    As best practice, create a dummy page and verify that all experiences, default content, and reports act as expected on all browser types, for all of your environments. 

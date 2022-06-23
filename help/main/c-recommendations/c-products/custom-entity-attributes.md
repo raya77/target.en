@@ -120,7 +120,7 @@ You can pass multi-value attributes using the Delivery API in an mbox parameter 
   }
 ```
 
-See the [Adobe Recommendations API documentation](https://developer.adobe.com/target/implement/recommendations/) for information about using the Delivery and Save entities APIs.
+See the [Adobe Recommendations API documentation](https://developer.adobe.com/target/implement/recommendations/){target=_blank} for information about using the Delivery and Save entities APIs.
 
 ## Using operators with multi-value attributes {#section_83C2288A805242D9A02EBC4F07DEE945}
 

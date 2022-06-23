@@ -48,7 +48,7 @@ Now, wherever `triggerView()` is implemented on your SPA, the Views and actions 
 
 ## Deploy at.js 2.*x* {#deploy-atjs-200}
 
-1. Deploy at.js 2.*x* via tags in [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) extension. 
+1. Deploy at.js 2.*x* via tags in [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} extension. 
 
    >[!NOTE]
    >
@@ -362,7 +362,7 @@ The following tables explain at.js. 2.*x* compatibility with different activity 
 |[!DNL Adobe Experience Platform] extension|[Yes](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/)|
 |Debugger|Yes|
 |Auditor|Rules have not yet been updated for at.js 2.*x*|
-|Opt-In| No. Opt-in support for [GDPR](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/) is supported in [at.js version 2.1.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).  |
+|Opt-In| No. Opt-in support for [GDPR](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} is supported in [at.js version 2.1.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).  |
 | AEM Enhanced Personalization powered by Adobe Target | No|
 
 ### Features

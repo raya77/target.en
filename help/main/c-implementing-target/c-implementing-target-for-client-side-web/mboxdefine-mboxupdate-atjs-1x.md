@@ -22,7 +22,7 @@ Creates an internal mapping between a nodeId and an mbox name, but does not exec
 
 ## mboxUpdate {#section_D20B3E551884452A996305C12D5959D5}
 
-Executes the request and applies the offer to the element identified by the `nodeId` in the `mboxDefine()`. Can also be used to update an mbox initiated by `mboxCreate`. Built into [!DNL at.js] mostly to ease the transition from [!DNL mbox.js] (now deprecated) to [!DNL at.js]. `mboxDefine()`/ `mboxUpdate()` could be replaced by [adobe.target.getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/) and [adobe.target.applyOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-applyoffer/) using the selector option.
+Executes the request and applies the offer to the element identified by the `nodeId` in the `mboxDefine()`. Can also be used to update an mbox initiated by `mboxCreate`. Built into [!DNL at.js] mostly to ease the transition from [!DNL mbox.js] (now deprecated) to [!DNL at.js]. `mboxDefine()`/ `mboxUpdate()` could be replaced by [adobe.target.getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank} and [adobe.target.applyOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-applyoffer/){target=_blank} using the selector option.
 
 ## Example {#section_9C1E75D9E4BA4DC7879D2B69877EB01A}
 

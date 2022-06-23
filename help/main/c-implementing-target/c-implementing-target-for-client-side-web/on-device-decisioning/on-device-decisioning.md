@@ -33,7 +33,7 @@ For more information, see [Supported features for on-device decisioning](https:/
 
 ## How does on-device decisioning work?
 
-When you deploy and initialize at.js with on-device decisioning enabled, a [rule artifact](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/) that includes your on-device decisioning for A/B and XT activities, audiences, and assets, is downloaded from the closest Akamai CDN to your visitor and cached locally on your visitor's browser. When a request is made from at.js to retrieve an experience, the decision regarding which experience to return is made in-memory, based on the metadata encoded in the cached rule artifact.
+When you deploy and initialize at.js with on-device decisioning enabled, a [rule artifact](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/){target=_blank} that includes your on-device decisioning for A/B and XT activities, audiences, and assets, is downloaded from the closest Akamai CDN to your visitor and cached locally on your visitor's browser. When a request is made from at.js to retrieve an experience, the decision regarding which experience to return is made in-memory, based on the metadata encoded in the cached rule artifact.
 
 ## Decisioning method
 
@@ -216,7 +216,7 @@ To enable on-device decisioning:
 
    Leaving this toggle off means you must re-create and activate any on-device decisioning activities for them to be included in the generated rules artifact. In other words, any activity in live state before turning on the [!UICONTROL On-Device Decisioning] toggle are not included in the rules artifact.
 
-After enabling the [!UICONTROL On-Device Decisioning] toggle, [!DNL Target] begins generating and propagating [rule artifacts](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/) for your client.
+After enabling the [!UICONTROL On-Device Decisioning] toggle, [!DNL Target] begins generating and propagating [rule artifacts](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/){target=_blank} for your client.
 
 >[!IMPORTANT]
 >
@@ -263,7 +263,7 @@ You can configure a default [!UICONTROL Decisioning Method] for all of [!DNL Tar
 
 ### Customized setting
 
-If you set the `decisioningMethod` in `window.targetGlobalSettings`, but would like to override the `decisioningMethod` for each Adobe Target decision according to your use case, you can do this procedure by specifying `decisioningMethod` in At.js2.5.0+’s [getOffers()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/) call.
+If you set the `decisioningMethod` in `window.targetGlobalSettings`, but would like to override the `decisioningMethod` for each Adobe Target decision according to your use case, you can do this procedure by specifying `decisioningMethod` in At.js2.5.0+’s [getOffers()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/){target=_blank} call.
 
 ```javascript
 adobe.target.getOffers({ 

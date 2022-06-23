@@ -60,7 +60,7 @@ To check the TLS version on your website using Firefox (other browsers have simi
 
    ![](assets/firefox_more_info_3.png)
 
-1. If you find that your website is showing TLS 1.0, see [TLS (Transport Layer Security) Encryption Changes](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/) for information about Target's TLS support policy. To remedy the situation for now (valid until September 12, 2018), reach out to [Customer Care](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) for configuration with your TLS version and the domain.
+1. If you find that your website is showing TLS 1.0, see [TLS (Transport Layer Security) Encryption Changes](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank} for information about Target's TLS support policy. To remedy the situation for now (valid until September 12, 2018), reach out to [Customer Care](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) for configuration with your TLS version and the domain.
 
 ## I'm seeing timeouts or "access denied" errors when loading sites with proxy enabled. (EEC only) {#section_60CBB9022DC449F593606C0E6252302D}
 

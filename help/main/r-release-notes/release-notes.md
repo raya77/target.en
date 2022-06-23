@@ -29,12 +29,12 @@ This release contains the following enhancements and fixes:
 
 This release contains the following enhancements and fixes:
 
-* Added [User Agent Client Hints](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/) support.
+* Added [User Agent Client Hints](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank} support.
 * Fixed an issue that intermittently caused timeouts when rendering [!UICONTROL Offer Decisions] in [!UICONTROL Experience Targeting] (XT) activities. (TNT-44611)
 
 ## at.js version 2.9.0 (May 27, 2022) 
 
-* Added [User Agent Client Hints](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/) support.
+* Added [User Agent Client Hints](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank} support.
 * Fixed a bug where multiple mbox requests on the same page have different impression IDs.
 
 ## Additional release notes and version details

@@ -24,7 +24,7 @@ Information to help you customize an [!DNL Adobe Target] global mbox for at.js.
 
 1. Implement the [!DNL at.js] library on your site.
 
-   See [How to deploy at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/) for more information.
+   See [How to deploy at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/){target=_blank} for more information.
 
 1. Time the transition with your release.
 

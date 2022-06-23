@@ -44,7 +44,7 @@ Instructions for working with [!DNL Adobe] Client Care to implement CNAME (Canon
 
    [!DNL Adobe] Client Care notifies you when your implementation is ready.
 
-1. Update the `serverDomain` ([documentation](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)) to the new CNAME hostname and set `overrideMboxEdgeServer` to `false` ([documentation](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)) in your at.js configuration.
+1. Update the `serverDomain` ([documentation](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)){target=_blank} to the new CNAME hostname and set `overrideMboxEdgeServer` to `false` ([documentation](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)){target=_blank} in your at.js configuration.
 
 ## Frequently Asked Questions
 

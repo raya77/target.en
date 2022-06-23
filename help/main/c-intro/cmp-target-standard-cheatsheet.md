@@ -27,7 +27,7 @@ Check out the [Target Community Forum](/help/main/cmp-resources-and-contact-info
 
 **Which browsers does Target support?**
 
-Please read our [Supported Browsers](https://developer.adobe.com/target/before-implement/supported-browsers/) matrix for more details. Notice that there are two aspects: the Target Standard/Premium Experience Cloud interface support and the end-user browser support on desktop/devices.
+Please read our [Supported Browsers](https://developer.adobe.com/target/before-implement/supported-browsers/){target=_blank} matrix for more details. Notice that there are two aspects: the Target Standard/Premium Experience Cloud interface support and the end-user browser support on desktop/devices.
 
 ## Activities {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
