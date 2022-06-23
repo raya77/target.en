@@ -22,7 +22,7 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 
 ## What is the difference between at.js 1.*x* and at.js 2.x workflow diagrams?
 
-See [Upgrading from at.js 1.x to at.js 2.x](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) for more information on the differences that were introduced in 2.O from 1.*x*.
+See [Upgrading from at.js 1.x to at.js 2.x](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} for more information on the differences that were introduced in 2.O from 1.*x*.
 
 From a high level view, there are a couple of differences between the two versions:
 

@@ -31,7 +31,7 @@ This function is built into [!DNL at.js] mostly to ease the transition from [!DN
 
 `mboxCreate()` now uses the "json" endpoint instead of the "standard" endpoint and fires asynchronously. Because of this:
 
-* [Debugging](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/) is a little different. 
+* [Debugging](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/){target=_blank} is a little different. 
 * Avoid offer code requiring synchronous, blocking calls.
 
   For example, offers that set JavaScript variables that are used by site code or other mboxes that come later on the page.

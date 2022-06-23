@@ -119,7 +119,7 @@ Use a:
 
   If this behavior does not match your requirements, consider performing one of the following actions:
 
-  * Pass [mbox parameters](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/) to [!DNL Target] to be used for targeting purposes.
+  * Pass [mbox parameters](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank} to [!DNL Target] to be used for targeting purposes.
   * Use an [A/B Test activity](/help/main/c-activities/t-test-ab/test-ab.md) instead of a landing page activity. A/B Test activities do not switch experiences for the same visitor.
   * Use a [visitor profile](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md) instead.
   

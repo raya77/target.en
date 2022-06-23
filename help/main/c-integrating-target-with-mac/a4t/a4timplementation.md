@@ -110,9 +110,9 @@ This set up has a global effect, which means that every call made by at.js has *
 }
 ```
 
-The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). For Auto-Allocate and Auto-Target activities, you must also forward the sessionId. For more information, see [Analytics for Target (A4T) reporting](https://developer.adobe.com/target/implement/server-side/sdk-guides/integration-with-experience-cloud/a4t-reporting/) in the *Adobe Target SDKs* guide. 
+The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). For Auto-Allocate and Auto-Target activities, you must also forward the sessionId. For more information, see [Analytics for Target (A4T) reporting](https://developer.adobe.com/target/implement/server-side/sdk-guides/integration-with-experience-cloud/a4t-reporting/){target=_blank} in the *Adobe Target SDKs* guide. 
 
-If a global setting is not desired and a more on-demand approach is preferable, use the at.js function [getOffers()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/) by passing in **analyticsLogging: "client_side"**. The analytics payload is returned for this call only and the [!DNL Target] backend does not forward the payload to [!DNL Analytics]. By pursuing this approach, every at.js [!DNL Target] request returns the payload by default, but instead only when desired and specified. 
+If a global setting is not desired and a more on-demand approach is preferable, use the at.js function [getOffers()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/){target=_blank} by passing in **analyticsLogging: "client_side"**. The analytics payload is returned for this call only and the [!DNL Target] backend does not forward the payload to [!DNL Analytics]. By pursuing this approach, every at.js [!DNL Target] request returns the payload by default, but instead only when desired and specified. 
 
 For example:
 

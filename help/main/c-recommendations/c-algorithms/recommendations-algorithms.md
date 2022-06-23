@@ -58,7 +58,7 @@ The logical flow of the actual algorithm implementation is shown in the followin
 
 Details of these steps are as follows:
 
-* **Input data**: Behavioral data, in the form of views and purchases of visitors collected when you [implement Target](https://developer.adobe.com/target/implement/recommendations/) or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **Input data**: Behavioral data, in the form of views and purchases of visitors collected when you [implement Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 * **Model training**:
 
@@ -120,7 +120,7 @@ The logic of model training and scoring steps are shown in the following diagram
 
 Details of these steps are as follows:
 
-* **Input data**: This is identical to item-item collaborative filtering (CF) methods. [!UICONTROL Both Recommended For You] and Cart-Based algorithms use behavioral data, in the form of views and purchases of users collected when you [implement Target](https://developer.adobe.com/target/implement/recommendations/) or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **Input data**: This is identical to item-item collaborative filtering (CF) methods. [!UICONTROL Both Recommended For You] and Cart-Based algorithms use behavioral data, in the form of views and purchases of users collected when you [implement Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 * **Model training**: 
 

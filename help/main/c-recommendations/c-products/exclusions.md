@@ -31,7 +31,7 @@ Some examples of times you would use exclusions include:
 
    ![](assets/exclusions_list.png)
 
-   The "Number of Items" reported for each exclusion on the [!UICONTROL Exclusions] list view is the number of products matching the rules for that exclusion within the configured default Recommendations [host group](/help/main/administrating-target/hosts.md) (environment). See [Settings](https://developer.adobe.com/target/implement/recommendations/) to change the default host group.
+   The "Number of Items" reported for each exclusion on the [!UICONTROL Exclusions] list view is the number of products matching the rules for that exclusion within the configured default Recommendations [host group](/help/main/administrating-target/hosts.md) (environment). See [Settings](https://developer.adobe.com/target/implement/recommendations/){target=_blank} to change the default host group.
 
 1. Click **[!UICONTROL Create Exclusion]**.
 

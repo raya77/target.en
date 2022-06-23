@@ -129,11 +129,11 @@ As known issues above are resolved, they are moved to the following sections. Ad
 
   As a workaround, use a whitespace in the experience content.
 
-  A fix for this issue was included in at.js 2.2.0. Upgrade to the [latest version or at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) or use the workaround mentioned above only for at.js versions earlier than 2.2.0.  (TNT-33366)
+  A fix for this issue was included in at.js 2.2.0. Upgrade to the [latest version or at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or use the workaround mentioned above only for at.js versions earlier than 2.2.0.  (TNT-33366)
 
 * Using at.js versions before 2.2.0, click tracking does not report conversions in [!UICONTROL Analytics for Target] (A4T) if [!DNL Adobe Analytics] code is not present on page elements (such as buttons). 
 
-  A fix was introduced for this issue in at.js 2.2.0. [Please upgrade to the latest at.js version](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) if you experience this problem.
+  A fix was introduced for this issue in at.js 2.2.0. [Please upgrade to the latest at.js version](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} if you experience this problem.
 
 ### GEO targeting
 
