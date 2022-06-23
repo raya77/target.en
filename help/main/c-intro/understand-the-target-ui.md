@@ -86,7 +86,9 @@ The following sections contain information about each tab, and how to configure 
   * `Feed {target.feed.name} has been deactivated`
   * `Feed {target.feed.name} has failed to import from source`
 
-You can mark all notifications as read or view all notifications at the bottom of the panel.
+You can mark individual notifications as read by hovering over the desired notification and then clicking the checkmark. You can mark all notifications as read or view all notifications by clicking [!UICONTROL "Mark as Read"] or [!UICONTROL "View All"] at the bottom of the panel.
+
+You can also set a reminder to be notified again by hovering over a notification, clicking the "[!UICONTROL Remind me]" icon, then selecting when you want to be notified: 5 minutes, 15 minutes, one hour, or tomorrow.
 
 ### Announcements
 
