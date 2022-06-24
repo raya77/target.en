@@ -11,7 +11,7 @@ exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
 
 Before you start using [!DNL Adobe Target], you must implement it on your site.
 
-The [Adobe Target Developer Guide portal](https://developer.adobe.com/target/){target=_blank} contains information you need to know before you implement [!Target]. 
+The [Adobe Target Developer Guide portal](https://developer.adobe.com/target/){target=_blank} contains information you need to know before you implement [!DNL Target]. 
 
 The Developer portal includes information about the following implementation types:
 
