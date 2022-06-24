@@ -5,9 +5,9 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 feature-set: Target
 ---
 
-# Adobe Target Business Practioner Guide {#using}
+# Adobe Target Business Practitioner Guide {#using}
 
-+ [Adobe Target Guide Home](target-home.md)
++ [Adobe Target Business Practitioner Guide Home](target-home.md)
 + Target release notes {#release-notes}
    + [Target announcements and events](/help/main/r-release-notes/target-announcements.md)
    + [Target release notes (current)](r-release-notes/release-notes.md)
