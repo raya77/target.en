@@ -39,7 +39,7 @@ The [!UICONTROL Audiences] list contains the audiences that you can use in your 
 
   >[!NOTE]
   >
-  >The [!DNL Adobe Experience Platform] source is available to all [!DNL Target] customers using the [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/). Audiences available from the [!DNL Adobe Experience Platform] can be used as is or [combined with existing audiences](/help/main/c-target/combining-multiple-audiences.md).
+  >The [!DNL Adobe Experience Platform] source is available to all [!DNL Target] customers using the [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}. Audiences available from the [!DNL Adobe Experience Platform] can be used as is or [combined with existing audiences](/help/main/c-target/combining-multiple-audiences.md).
   >
   >Users must have [!UICONTROL Approver] or above status in [!DNL Target] to configure [!DNL Target] [!UICONTROL Destinations] cards in AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
   >

@@ -27,7 +27,7 @@ To set up profile attributes:
 
    | Parameter Type | Description |
    |--- |--- |
-   |mbox|Passed in directly through page code when creating the mbox. See [Pass Parameters to a Global Mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/).<br>**Note**: [!DNL Target] has a limit of 50 unique profile attributes per mbox call. If you must pass more than 50 profile attributes to [!DNL Target], pass them using the Profile Update API method. For more information, see [Profile Update in the [!DNL Adobe Target] API documentation](https://developers.adobetarget.com/api/#updating-profiles).|
+   |mbox|Passed in directly through page code when creating the mbox. See [Pass Parameters to a Global Mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank}.<br>**Note**: [!DNL Target] has a limit of 50 unique profile attributes per mbox call. If you must pass more than 50 profile attributes to [!DNL Target], pass them using the Profile Update API method. For more information, see [Profile Update in the [!DNL Adobe Target] API documentation](https://developers.adobetarget.com/api/#updating-profiles).|
    |Profile|Defined directly with a JavaScript code snippet. These snippets can store running totals like total money spent by consumer and are executed on each mbox request. See Profile Script Attributes below.|
 
 ## Profile script attributes {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -170,7 +170,7 @@ The following methods can be used to debug profile scripts:
 
 **Is it possible to use profile scripts to capture information from a page that resides in a data layer?**
 
-Profile scripts are unable to read the page directly because they are executed server side. The data must be passed in through an mbox request or through other [methods of getting data into Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/). After the data is in [!DNL Target], profile scripts can read the data as an mbox parameter or profile parameter. 
+Profile scripts are unable to read the page directly because they are executed server side. The data must be passed in through an mbox request or through other [methods of getting data into Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}. After the data is in [!DNL Target], profile scripts can read the data as an mbox parameter or profile parameter. 
 
 ## JavaScript reference for script profile parameters
 

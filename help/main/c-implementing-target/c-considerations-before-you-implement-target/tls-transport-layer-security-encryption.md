@@ -50,7 +50,7 @@ As you plan for this change, consider the following (note that the March 1, 2020
 * Be aware that the number of visitors in your Target reports can potentially see an insignificant drop in the number of visitors. 
 * You might need to change audiences created specifically to target older devices or browsers that do not support TLS 1.2. Delivery to those devices and browsers will no longer work.
 
-For more details about supported browsers and their versions, see [Supported Browsers](https://developer.adobe.com/target/before-implement/supported-browsers/).
+For more details about supported browsers and their versions, see [Supported Browsers](https://developer.adobe.com/target/before-implement/supported-browsers/){target=_blank}.
 
 ## Adobe [!DNL Target] APIs {#section_88797FA5434049EC89F908853CC76903}
 
@@ -62,7 +62,7 @@ Starting March 1, 2020, Target APIs will no longer support TLS 1.1 encryption. C
 
 ## Access to Experience Cloud Solutions interfaces {#section_748870ADE77B4CBEB18518DC784E64E5}
 
-Because the Target Standard/Premium interface already requires a [modern web browser](https://developer.adobe.com/target/before-implement/supported-browsers/), we do not anticipate issues. If you are unable to connect to Target, you should upgrade your browser to the latest version.
+Because the Target Standard/Premium interface already requires a [modern web browser](https://developer.adobe.com/target/before-implement/supported-browsers/){target=_blank}, we do not anticipate issues. If you are unable to connect to Target, you should upgrade your browser to the latest version.
 
 ## How to check which TLS version your browser uses {#section_44716DA2CEFF492BABD95AE32B1A3FC6}
 

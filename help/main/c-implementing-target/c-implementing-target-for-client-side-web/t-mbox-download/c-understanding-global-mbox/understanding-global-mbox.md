@@ -21,4 +21,4 @@ There are several differences between a regular mbox (non-global mbox) and the g
 
 If multiple activities are delivered via the global mbox or via multiple regular mboxes, [!DNL Target] [determines the priority](/help/main/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F) by which the activity (or activities) are delivered to a web page.
 
-Additional page-level data can be sent to [!DNL Target] along with the global mbox by using the `targetPageParams` function. This is similar to the mbox parameter functionality. For more information, see [Passing Parameters to a Global mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/).
+Additional page-level data can be sent to [!DNL Target] along with the global mbox by using the `targetPageParams` function. This is similar to the mbox parameter functionality. For more information, see [Passing Parameters to a Global mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank}.

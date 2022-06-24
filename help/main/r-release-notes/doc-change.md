@@ -13,7 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|June 14|[Plan and implement Recommendations](https://developer.adobe.com/target/implement/recommendations/)|Updated code samples in the following sections:<ul><li>Cart adds/cart views/checkout pages</li><li>Exclude items already in the visitor's cart</li></ul>|
+|June 14|[Plan and implement Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank}|Updated code samples in the following sections:<ul><li>Cart adds/cart views/checkout pages</li><li>Exclude items already in the visitor's cart</li></ul>|
 |June 7|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 22.6.1 release.|
 
 ## Adobe Target Standard/Premium 22.5.1 (staggered release; May 11-13, 2022)
@@ -23,12 +23,12 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 |June 7|[Target release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease information for the [!DNL Target Standard/Premium] 22.6.1 release.|
 |May 31|[Target announcements and events](/help/main/r-release-notes/target-announcements.md#webinar-series)|Added information about the upcoming [!DNL Adobe Target] Community Coffee Break (June 29, 2022)|
 |May 25|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added information about the [!DNL Target] platform release (May 25, 2022) and the at.js 2.9.0 release (May 27, 2022).|
-||[at.js version details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)|Added information about the at.js 2.9.0 release.|
-||[User-agent and Client Hints](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/)|New topic.|
+||[at.js version details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}|Added information about the at.js 2.9.0 release.|
+||[User-agent and Client Hints](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank}|New topic.|
 ||[Target announcements and events](/help/main/r-release-notes/target-announcements.md#webinar-series)|Added link for recording of the following webinar: Dick's Sporting Goods: Personalization and the Changing Landscape in Retail (May 19, 2022)|
 |May 23|[Target release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease notes for at.js version 2.9.0 (May 25, 2022).|
 |May 11|[Target announcements and events](/help/main/r-release-notes/target-announcements.md#webinar-series)|Added information and registration links for the following webinars:<ul><li>Dick's Sporting Goods: Personalization and the Changing Landscape in Retail</li><li>Adobe: Personalization Industry Insider - Financial Services and Insurance</li><li>City National Bank: How to Achieve the Top 1% in Digital Optimization</li><li>Adobe: Personalization with Precision - [!DNL Adobe Analytics] and [!DNL Target]</li><li>City National Bank: Zero to Hero - Starting & Scaling a Personalization Program</li><li>Adobe: Uncover High-Impact Optimization Opportunities</li><li>Adobe: Personalization Industry Insider - Retail</li></ul>Added the recording for the following webinar:<ul><li>Real-Time Personalization with [!DNL Adobe Target]</li></ul>|
-||[Content Security Policy (CSP) directives](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/)|Added FAQ section.|
+||[Content Security Policy (CSP) directives](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/){target=_blank}|Added FAQ section.|
 ||[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added information about the [!DNL Target Standard/Premium] 22.5.1 and Target platform (May 11-13, 2022) releases.|
 
 ## Adobe Target Standard/Premium 22.4.1 (April 28)
@@ -82,12 +82,12 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 | --- | --- | --- |
 |January 31|[Target release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease information about the [!DNL Target Standard/Premium] 22.2.1 release.|
 |January 28|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added information about the at.js 2.8.1 release.|
-||[at.js version details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)|Added information about the at.js 2.8.1 release.|
+||[at.js version details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}|Added information about the at.js 2.8.1 release.|
 |January 27|[AEM experience fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)|Updated topic and added information about [!DNL AEM as a Cloud Service] and [!DNL Adobe I/0].|
 |January 26|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added information about the Target Standard/Premium 22.1.2 release.|
 ||[Create audiences](/help/main/c-target/c-audiences/audiences.md)|Added information about [!DNL Adobe Experience Platform] audiences.|
 ||[Combine multiple audiences](/help/main/c-target/combining-multiple-audiences.md)|Added information about [!DNL Adobe Experience Platform] audiences.|
-|January 21|[at.js version details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)|Added information about the at.js 1.8.3 release.|
+|January 21|[at.js version details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}|Added information about the at.js 1.8.3 release.|
 |January 19|[Upgrading from at.js 1.*x* to at.js 2.*x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} |Added following section: "at.js 2.*x* does not support creating audiences using vst.* parameters"|
 |January 12|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added information about the Target Standard/Premium 22.1.1 release.|
-||[Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/)|Added link to tutorial with instructions to implement [!DNL Adobe Experience Cloud] with Web SDK.|
+||[Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}|Added link to tutorial with instructions to implement [!DNL Adobe Experience Cloud] with Web SDK.|

@@ -59,7 +59,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    ![Implementation details dialog box](/help/main/c-experiences/assets/imp-200.png)
 
-   Download the at.js 2.x via the Adobe Target UI located in [!UICONTROL Administration > Implementation]. at.js 2.x can also be deployed via tags in [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/). However, the Adobe Target extensions are not currently up to date and supported.
+   Download the at.js 2.x via the Adobe Target UI located in [!UICONTROL Administration > Implementation]. at.js 2.x can also be deployed via tags in [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}. However, the Adobe Target extensions are not currently up to date and supported.
 
 1. Implement at.js 2.x’s newest function: [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/){target=_blank} on your sites.
 
@@ -348,7 +348,7 @@ If you want to use Auto-Target A/B activities, you can move all of your actions 
 | --- | --- |
 |[Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md)|Yes|
 |[Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)|Yes|
-|[Customer Attributes](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)|Yes|
+|[Customer Attributes](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/){target=_blank}|Yes|
 |[AEM Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)|Yes|
 
 ## Supported features {#supported-features}

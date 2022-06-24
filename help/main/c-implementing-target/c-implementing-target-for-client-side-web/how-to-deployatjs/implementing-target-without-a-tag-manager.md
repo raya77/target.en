@@ -26,7 +26,7 @@ You can specify the following settings on this page:
 
 >[!NOTE]
 >
->You can override settings in the at.js library, rather than configuring the settings in the [!DNL Target Standard/Premium] UI or by using REST APIs. For more information, see [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+>You can override settings in the at.js library, rather than configuring the settings in the [!DNL Target Standard/Premium] UI or by using REST APIs. For more information, see [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ## Account details
 
@@ -90,7 +90,7 @@ For more information, see topics:
 
 Enable or disable authentication for batch updates via API and generate a profile authentication token.
 
-For more information, see [Profile API settings](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/profile-api-settings/).
+For more information, see [Profile API settings](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/profile-api-settings/){target=_blank}.
 
 ### Debugger tools
 
@@ -108,11 +108,11 @@ Choose the desired setting from the Obfuscate Visitor IP address drop-down list:
 * Entire IP obfuscation
 * None
 
-For more information, see [Privacy](https://developer.adobe.com/target/before-implement/privacy/privacy/).
+For more information, see [Privacy](https://developer.adobe.com/target/before-implement/privacy/privacy/){target=_blank}.
 
 >[!NOTE]
 >
->The Legacy Browser Support option was available in at.js version 0.9.3 and earlier. This option was removed in at.js version 0.9.4. For a list of browsers supported by at.js, see [Supported Browsers](https://developer.adobe.com/target/before-implement/supported-browsers/).<br>Legacy browsers are older browsers that do not fully support CORS (Cross Origin Resource Sharing). These browsers include: Internet Explorer browsers earlier than version 11 and Safari versions 6 and below. If Legacy Browser Support was disabled, Target did not deliver content or count visitors in reports on these browsers. If this option was enabled, it is recommended to do quality assurance across older browsers to ensure a good customer experience.
+>The Legacy Browser Support option was available in at.js version 0.9.3 and earlier. This option was removed in at.js version 0.9.4. For a list of browsers supported by at.js, see [Supported Browsers](https://developer.adobe.com/target/before-implement/supported-browsers/){target=_blank}.<br>Legacy browsers are older browsers that do not fully support CORS (Cross Origin Resource Sharing). These browsers include: Internet Explorer browsers earlier than version 11 and Safari versions 6 and below. If Legacy Browser Support was disabled, Target did not deliver content or count visitors in reports on these browsers. If this option was enabled, it is recommended to do quality assurance across older browsers to ensure a good customer experience.
 
 ## Download at.js {#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
 
@@ -122,7 +122,7 @@ Instructions to download the library using the [!DNL Target] interface or the Do
 >
 >* [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} is the preferred method for implementing [!DNL Target] and the at.js library. The following information is not applicable when using tags in [!DNL Adobe Experience Platform] to implement [!DNL Target].
 >
->* The [!DNL Target] team supports both at.js 1.*x* and at.js 2.*x*. Please upgrade to the most recent update of either major version of at.js to ensure that you are running a supported version. For more information about what's in each version, see [at.js Version Details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
+>* The [!DNL Target] team supports both at.js 1.*x* and at.js 2.*x*. Please upgrade to the most recent update of either major version of at.js to ensure that you are running a supported version. For more information about what's in each version, see [at.js Version Details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 ### Download at.js using the [!DNL Target] interface {#section_1F5EE401C2314338910FC57F9592894E}
 
@@ -173,7 +173,7 @@ To download [!DNL at.js] using the API.
 
     >[!IMPORTANT]
     >
-    >The Target team maintains only two versions of [!DNL at.js]—the current version and the second-latest version. Please upgrade [!DNL at.js] as necessary to ensure that you are running a supported version. For more information about what's in each version, see [at.js Version Details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
+    >The Target team maintains only two versions of [!DNL at.js]—the current version and the second-latest version. Please upgrade [!DNL at.js] as necessary to ensure that you are running a supported version. For more information about what's in each version, see [at.js Version Details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
    Loading this URL starts the download of your customized [!DNL at.js] file.
 
@@ -240,7 +240,7 @@ Consider the following important notes:
 * The HTML5 Doctype (for example, `<!doctype html>`) should be used. Unsupported or older doctypes could result in Target not being able to make a request. 
 * Preconnect and Prefetch are options that might help your web pages load faster. If you use these configurations, ensure that you replace `<client code>` with your own client code, which you can obtain from the **[!UICONTROL Administration]** > **[!UICONTROL Implementation] page. 
 * If you have a data layer, it is optimal to define as much of it as possible in the `<head>` of your pages before at.js loads. This placement provides the maximum ability to use this information in Target for personalization. 
-* Special Target functions, such as `targetPageParams()`, `targetPageParamsAll()`, Data Providers, and `targetGlobalSettings()` should be defined after your data layer and before at.js loads. Alternatively, these functions could be saved in the [!UICONTROL Library Header] section of the [!UICONTROL Edit at.js Settings] page and saved as part of the at.js library itself. For more information on these functions, see [at.js functions](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/). 
+* Special Target functions, such as `targetPageParams()`, `targetPageParamsAll()`, Data Providers, and `targetGlobalSettings()` should be defined after your data layer and before at.js loads. Alternatively, these functions could be saved in the [!UICONTROL Library Header] section of the [!UICONTROL Edit at.js Settings] page and saved as part of the at.js library itself. For more information on these functions, see [at.js functions](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/){target=_blank}. 
 * If you use JavaScript helper libraries, such as jQuery, include them before Target so you can use their syntax and methods when building Target experiences. 
 * Include at.js in the `<head>` of your pages.
 

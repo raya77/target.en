@@ -9,7 +9,7 @@ exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
 
 Custom parameters are mbox parameters in [!DNL Adobe Target]. If you pass any mbox parameters to mboxes, or use the `targetPageParams` function, those parameters appear here for use in audiences.
 
-For more information, see [Pass parameters to a global mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/).
+For more information, see [Pass parameters to a global mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank}.
 
 When creating a custom audience based on an mbox parameter, `mboxParameter` no longer prompts you for `mboxName`. The mbox name is now optional. This change lets you use parameters from multiple mboxes or reference a parameter that has not yet been recorded on the edge.
 

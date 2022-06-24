@@ -20,7 +20,7 @@ You can override the following settings:
 * **Default Value**: body { opacity: 0 } 
 * **Description**: Used only when `globalMboxAutocreate === true` to minimize the chance of flicker.
 
-  For more information, see [How at.js Manages Flicker](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/).
+  For more information, see [How at.js Manages Flicker](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/){target=_blank}.
 
 ### bodyHidingEnabled
 
@@ -149,7 +149,7 @@ You can override the following settings:
 
 * **Type**: Boolean
 * **Default Value**: false
-* **Description**: [!DNL Target] provides opt-in functionality support via [!DNL Adobe Experience Platform] to help support your consent management strategy. Opt-in functionality lets customers control how and when the [!DNL Target] tag is fired. There is also an option via [!DNL Adobe Experience Platform] to pre-approve the [!DNL Target] tag. To enable the ability to use Opt-In in the [!DNL Target] at.js library, add the `optinEnabled=true` setting. In [!DNL Adobe Experience Platform] you must select “enable” from the [!UICONTROL GDPR Opt-In] drop-down list in the extension installation view. See the [Adobe Experience Platform documentation](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} for more details. For more information about this setting as it relates to privacy and data protection regulations, including the European Union’s General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA), see [Privacy and data protection regulations](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/).  
+* **Description**: [!DNL Target] provides opt-in functionality support via [!DNL Adobe Experience Platform] to help support your consent management strategy. Opt-in functionality lets customers control how and when the [!DNL Target] tag is fired. There is also an option via [!DNL Adobe Experience Platform] to pre-approve the [!DNL Target] tag. To enable the ability to use Opt-In in the [!DNL Target] at.js library, add the `optinEnabled=true` setting. In [!DNL Adobe Experience Platform] you must select “enable” from the [!UICONTROL GDPR Opt-In] drop-down list in the extension installation view. See the [Adobe Experience Platform documentation](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} for more details. For more information about this setting as it relates to privacy and data protection regulations, including the European Union’s General Data Protection Regulation (GDPR){target=_blank} and the California Consumer Privacy Act (CCPA), see [Privacy and data protection regulations](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank}.  
 
 ### optoutEnabled
 
@@ -392,7 +392,7 @@ After `cspScriptNonce` and `cspStyleNonce` settings are specified, at.js 2.3.0+ 
 You must have a hybrid integration of [!DNL Target].
   
 * **Server-side**:  You must use the new [delivery API](https://developers.adobetarget.com/api/delivery-api/) or [Target SDKs](https://developers.adobetarget.com/api/delivery-api/#section/SDKs).
-* **Client-side**: You must use [at.js version 2.2 or later](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
+* **Client-side**: You must use [at.js version 2.2 or later](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 ### Code samples
 

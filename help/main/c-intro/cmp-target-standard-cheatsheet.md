@@ -303,10 +303,10 @@ We are sorry to hear that you are having problems. Check out [Troubleshooting Ta
 
 **We have a mobile SKU. Can I create mobile activities?**
 
-For optimization and personalization on mobile, you need to use [form-based activities](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) along with the [Adobe SDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/). Check out more details about [Target for mobile apps](https://developer.adobe.com/target/implement/mobile/).
+For optimization and personalization on mobile, you need to use [form-based activities](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) along with the [Adobe SDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/){target=_blank}. Check out more details about [Target for mobile apps](https://developer.adobe.com/target/implement/mobile/){target=_blank}.
 
 ## Target APIs {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **Where can I learn more about Target APIs?**
 
-We have exhaustive documentation around APIs. See [Delivery APIs, NodeJS SDK, and Recommendations APIs documentation](https://developer.adobe.com/target/implement/server-side/).
+We have exhaustive documentation around APIs. See [Delivery APIs, NodeJS SDK, and Recommendations APIs documentation](https://developer.adobe.com/target/implement/server-side/){target=_blank}.

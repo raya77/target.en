@@ -24,7 +24,7 @@ In general, the display information mbox looks like the following example if you
 
 >[!NOTE]
 >
->If you are using at.js 2.*x*, `mboxCreate` (as used in the  following example) is no longer supported. To pass product or content information to [!DNL Recommendations] using at.js 2.*x*, use [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/). For an example, see [Plan and implement Recommendations](https://developer.adobe.com/target/implement/recommendations/).
+>If you are using at.js 2.*x*, `mboxCreate` (as used in the  following example) is no longer supported. To pass product or content information to [!DNL Recommendations] using at.js 2.*x*, use [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank}. For an example, see [Plan and implement Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 

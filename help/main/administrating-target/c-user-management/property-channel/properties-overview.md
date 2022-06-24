@@ -77,7 +77,7 @@ Users can be part of multiple workspaces and can even have different roles withi
 
 ### Obtain your workspace ID {#workspace-id}
 
-You'll need to pass the workspace ID to leverage Enterprise Permissions in [Target APIs](https://developer.adobe.com/target/implement/server-side/).
+You'll need to pass the workspace ID to leverage Enterprise Permissions in [Target APIs](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
 
 1. In the [Adobe Admin Console](https://adminconsole.adobe.com), click the [!UICONTROL Products] tab, then click the product in the left menu to display the PLC(workspace) list.
 1. Click the desired PLC(workspace), then locate the "profiles" ID in the URL, as shown below.
@@ -152,7 +152,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
       </script>
       ```
 
-      For more information about how to do this with at.js, see [targetPageParamsAll](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparamsall/). 
+      For more information about how to do this with at.js, see [targetPageParamsAll](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparamsall/){target=_blank}. 
 
 ## Step 6: Specify roles and permissions {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 

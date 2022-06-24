@@ -24,7 +24,7 @@ For example, let’s assume you work for a furniture company and uploaded two cu
 
 You could create an audience defined as the propensity to buy dining room furniture is greater than the propensity to buy living room furniture. [!DNL Target] would then dynamically compare the dining room and living room propensity scores for a specific visitor to determine if that visitor qualifies for this audience.
 
-For more information, see [Methods to get Data into Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/).
+For more information, see [Methods to get Data into Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}.
 
 ## Create a profile attribute comparison audience {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 

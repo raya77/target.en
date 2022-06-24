@@ -107,7 +107,7 @@ If you are deploying at.js through an asynchronous [!DNL Adobe Experience Platfo
 
 If you are deploying at.js through a synchronous DTM implementation, the pre-hiding snippet can be added through a Page Load rule triggered at the top of the page.
 
-For more information, see [How at.js manages flicker](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/). 
+For more information, see [How at.js manages flicker](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/){target=_blank}. 
 
 ## Is at.js compatible with the [!DNL Adobe Experience Manager] integration (Experience Manager)? {#section_6177AE10542344239753764C6165FDDC}
 
@@ -115,7 +115,7 @@ For more information, see [How at.js manages flicker](https://developer.adobe.co
 
 ## How can I prevent page-load flicker using at.js? {#section_4D78AAAE73C24E578C974743A3C65919}
 
-Target provides several ways to prevent page-load flicker. For more information, see [Preventing Flicker with at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/).
+Target provides several ways to prevent page-load flicker. For more information, see [Preventing Flicker with at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/){target=_blank}.
 
 ## What is the file size of at.js? {#section_6A25C9A14C66441785A7635FEF5C4475}
 
@@ -155,17 +155,17 @@ Yes, same as with mbox.js.
 
 [!DNL Target] customers sometimes use cloud-based instances with [!DNL Target] for testing or simple proof-of-concept purposes. These domains, and many others, are part of the [Public Suffix List](https://publicsuffix.org/list/public_suffix_list.dat).
 
-Modern browsers do not save cookies if you are using these domains unless you customize the `cookieDomain` setting using targetGlobalSettings(). For more information, see [Using Cloud-Based Instances with Target](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/targeting-using-cloud-based-instances/).
+Modern browsers do not save cookies if you are using these domains unless you customize the `cookieDomain` setting using targetGlobalSettings(). For more information, see [Using Cloud-Based Instances with Target](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/targeting-using-cloud-based-instances/){target=_blank}.
 
 ## Can IP addresses be used as the cookie domain when using at.js? {#section_8BEEC91A3410459D9E442840A3C88AF7}
 
-Yes, if you are using [at.js version 1.2 or later](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/). [!DNL Adobe] strongly recommends that you keep current with the latest version, however.
+Yes, if you are using [at.js version 1.2 or later](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}. [!DNL Adobe] strongly recommends that you keep current with the latest version, however.
 
 >[!NOTE]
 >
 >The following examples are not necessary if you are using at.js version 1.2 or later.
 
-Depending on how you use [targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/), you might need to make additional modifications to the code after downloading at.js. For example, if you needed slightly different settings for your [!DNL Target] implementations on various websites and were unable to define these settings dynamically using custom JavaScript, make these customizations manually after downloading the file and before uploading to the respective website.
+Depending on how you use [targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}, you might need to make additional modifications to the code after downloading at.js. For example, if you needed slightly different settings for your [!DNL Target] implementations on various websites and were unable to define these settings dynamically using custom JavaScript, make these customizations manually after downloading the file and before uploading to the respective website.
 
 The following examples let you use the `targetGlobalSettings()` at.js function to insert a code snippet to support IP addresses:
 
@@ -196,10 +196,10 @@ The following are possible root causes if you see this warning message:
 * The page is being built dynamically and at.js cannot find the element.
 * The page is being built slowly (due to a slow network) and at.js cannot find the selector in the DOM.
 * The page structure that activit[!UICONTROL y is running on has been changed. If you reopen the activity in the ]Visual Experience Composer (VEC), you should get a warning message. Update the activity so that all the necessary elements can be found. 
-* The underlying page is part of a [!UICONTROL Single Page Application] (SPA) or the page contains elements that appear farther down the page and the [!DNL at.js] "selector polling mechanism" cannot find those elements. Increasing the `selectorsPollingTimeout` might help. For more information, see [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/). 
+* The underlying page is part of a [!UICONTROL Single Page Application] (SPA) or the page contains elements that appear farther down the page and the [!DNL at.js] "selector polling mechanism" cannot find those elements. Increasing the `selectorsPollingTimeout` might help. For more information, see [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}. 
 * Any click-tracking metric tries to add itself to every page, regardless of the URL on which the metric was set up. Although harmless, this situation makes many of these messages display.
   
-  For best results, please download and use the latest version of [!DNL at.js]. For more information, see [at.js Version Details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} and [Download at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/).
+  For best results, please download and use the latest version of [!DNL at.js]. For more information, see [at.js Version Details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} and [Download at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/){target=_blank}.
 
 ## What is the domain tt.omtrdc.net that [!DNL Target] server calls go to? {#section_999C29940E8B4CAD8A957A6B1D440317}
 

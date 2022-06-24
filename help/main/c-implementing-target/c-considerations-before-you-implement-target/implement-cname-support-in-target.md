@@ -44,7 +44,7 @@ Instructions for working with [!DNL Adobe] Client Care to implement CNAME (Canon
 
    [!DNL Adobe] Client Care notifies you when your implementation is ready.
 
-1. Update the `serverDomain` ([documentation](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)){target=_blank} to the new CNAME hostname and set `overrideMboxEdgeServer` to `false` ([documentation](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)){target=_blank} in your at.js configuration.
+1. Update the `serverDomain` ([documentation](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}){target=_blank} to the new CNAME hostname and set `overrideMboxEdgeServer` to `false` ([documentation](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}){target=_blank} in your at.js configuration.
 
 ## Frequently Asked Questions
 
@@ -74,7 +74,7 @@ No, [!DNL Target] requires a separate hostname and certificate.
 
 ### Is my current implementation of [!DNL Target] impacted by ITP 2.x?
 
-Apple Intelligent Tracking Prevention (ITP) version 2.3 introduced its CNAME Cloaking Mitigation feature, which is able to detect [!DNL Adobe Target] CNAME implementations and reduces the cookie's expiration to seven days. Currently [!DNL Target] has no workaround for ITP's CNAME Cloaking Mitigation. For more information about ITP, see [Apple Intelligent Tracking Prevention (ITP) 2.x](https://developer.adobe.com/target/before-implement/privacy/apple-itp-2x/).
+Apple Intelligent Tracking Prevention (ITP) version 2.3 introduced its CNAME Cloaking Mitigation feature, which is able to detect [!DNL Adobe Target] CNAME implementations and reduces the cookie's expiration to seven days. Currently [!DNL Target] has no workaround for ITP's CNAME Cloaking Mitigation. For more information about ITP, see [Apple Intelligent Tracking Prevention (ITP) 2.x](https://developer.adobe.com/target/before-implement/privacy/apple-itp-2x/){target=_blank}.
 
 ### What kind of service disruptions can I expect when my CNAME implementation is deployed?
 
@@ -330,7 +330,7 @@ Use the following set of commands (in the macOS or Linux command-line terminal, 
 If you are using CNAME, the opt-out link should contain the "client=`clientcode` parameter, for example:
 `https://my.cname.domain/optout?client=clientcode`.
 
-Replace `clientcode` with your client code, then add the text or image to be linked to the [opt-out URL](https://developer.adobe.com/target/before-implement/privacy/privacy/).
+Replace `clientcode` with your client code, then add the text or image to be linked to the [opt-out URL](https://developer.adobe.com/target/before-implement/privacy/privacy/){target=_blank}.
 
 ## Known limitations
 

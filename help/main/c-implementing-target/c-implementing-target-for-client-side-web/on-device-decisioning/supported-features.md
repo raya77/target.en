@@ -45,7 +45,7 @@ The following table indicates which audience rules are supported or not supporte
 
 ### Geo targeting for on-device decisioning
 
-To maintain minimal latency for on-device decisioning activities with geo-based audiences, Adobe recommends you provide the geo values yourself in the call to [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/). Set the Geo object in the Context of the request. This means from the browser, a way to determine the location of each visitor. For example, you can perform an IP-to-Geo lookup, using a service you configure. Some hosting providers, such as Google Cloud, provide this functionality via custom headers in each `HttpServletRequest`.
+To maintain minimal latency for on-device decisioning activities with geo-based audiences, Adobe recommends you provide the geo values yourself in the call to [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/){target=_blank}. Set the Geo object in the Context of the request. This means from the browser, a way to determine the location of each visitor. For example, you can perform an IP-to-Geo lookup, using a service you configure. Some hosting providers, such as Google Cloud, provide this functionality via custom headers in each `HttpServletRequest`.
 
 ```javascript
 window.adobe.target.getOffers({ 

@@ -32,7 +32,7 @@ The following illustration shows the Hide Body and Show Body calls in both at.js
 
 ![](assets/target-flow2.png)
 
-For more information about the `bodyHiddenStyle` override, see [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+For more information about the `bodyHiddenStyle` override, see [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ## Managing flicker when loading at.js asynchronously
 
