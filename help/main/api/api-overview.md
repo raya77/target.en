@@ -17,7 +17,7 @@ The Developer portal includes information about the following implementation typ
 * Client-side, including information about implementing using the [!DNL Adobe Experience Platform Web SDK] or the [!DNL Target Web SDK] (at.js).
 * Server-side, including information about implementing about using the Node.JS, JAVA, .NET, and Python SDKs.
 * Hybrid, information to help you implement if you use a combination of client-side and server-side implementations.
-* Recommendations, information to help you implement [!DNL Recommendations], a [Target Premium](/main/c-intro/intro.md#premium) offering.
+* Recommendations, information to help you implement [!DNL Recommendations], a [Target Premium](/help/main/c-intro/intro.md#premium) offering.
 * Mobile apps.
 * Email.
  
