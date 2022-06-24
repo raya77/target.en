@@ -15,12 +15,19 @@ The [Adobe Target Developer Guide portal](https://developer.adobe.com/target/){t
 
 The Developer portal includes information about the following implementation types:
 
-* Client-side, including information about implementing using the [!DNL Adobe Experience Platform Web SDK] or the [!DNL Target Web SDK] (at.js).
-* Server-side, including information about implementing about using the Node.JS, JAVA, .NET, and Python SDKs.
-* Hybrid, information to help you implement if you use a combination of client-side and server-side implementations.
-* Recommendations, information to help you implement [!DNL Recommendations], a [Target Premium](/help/main/c-intro/intro.md#premium) offering.
-* Mobile apps.
-* Email.
+* Client-side: Information about implementing using the [!DNL Adobe Experience Platform Web SDK] or the [!DNL Target Web SDK] (at.js).
+* Server-side: Information about implementing about using the Node.JS, JAVA, .NET, and Python SDKs.
+* Hybrid: Information about implementing if you use a combination of client-side and server-side implementations.
+* Recommendations: Information to help you implement [!DNL Recommendations], a [Target Premium](/help/main/c-intro/intro.md#premium) offering.
+* Mobile apps: Information to help you implement using [!DNL Adobe Experience Platform Mobile] SDKs.
+* Email: Information to help you implement [!DNL Target] in emails.
+
+For more information, see the [Adobe Target Developer Guide portal](https://developer.adobe.com/target/){target=_blank}.
+
+>[!NOTE]
+>
+>All information that was previously included in the *Implement Target* section in this guide (the *Adobe Target Practitioner Guide*) is now included in the Developer portal.
+
 
 
 
