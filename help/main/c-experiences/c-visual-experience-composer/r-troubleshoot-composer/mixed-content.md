@@ -1,7 +1,7 @@
 ---
 keywords: mixed content;secure;insecure;chrome;troubleshooting;vec;visual experience composer;unsecure;http;https;firefox;internet explorer
-description: Some browsers block the display of a page if secure content is mixed with insecure content. Learn how to enable mixed content in Chrome, Firefox, and Edge.
-title: How Do I Enable Mixed Content in My Browser?
+description: Learn how to enabled mixed content in Chrome, Firefox, and Edge. You can enable mixed content when a browser blocks the display of a page because secure content is mixed with insecure content.
+title: How to enable mixed content in my browser
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
 ---
@@ -11,7 +11,7 @@ Mixed content occurs if the initial request is secure over HTTPS, but HTTPS *and
 
 Modern browsers might block the display of a page or display warning messages if secure content is mixed with insecure content.
 
-A warning message displays if the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] tries to open a page containing mixed content. This message informs you how to disable blocking in your browser. Disabling blocking lets you open an HTTP site or a site that has mixed calls (HTTPS and HTTP).
+A warning message displays if the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] tries to open a page containing mixed content. This message informs you how to disable blocking in your browser. Disabling blocking lets you open an HTTP site or a site that has mixed calls (HTTPS and HTTP).
 
 ![Mixed content warning](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
