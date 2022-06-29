@@ -11,4 +11,4 @@ Before you start using [!DNL Adobe Target Recommendations], you must complete se
 
 The [Adobe Target Developer Guide portal](https://developer.adobe.com/target/){target=_blank} contains information about how to implement [!DNL Recommendations] on your site, as well as how to implement [!DNL Target].
 
-For more information and step-by-step instructions, see [Plan and implement Recommendations](https://developer-stage.adobe.com/target/implement/recommendations/){target=_blank} in the *Adobe Target Developer Guide* portal.
+For more information and step-by-step instructions, see [Plan and implement Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank} in the *Adobe Target Developer Guide* portal.
