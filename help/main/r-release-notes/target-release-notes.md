@@ -9,13 +9,18 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: June 23, 2022**
+**Last Updated: June 30, 2022**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages could be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## [!DNL Target Standard/Premium] 22.6.2 (June 24, 2022)
+## [!DNL Target Standard/Premium] 22.6.2 (June 30, 2022)
 
-This release contains the following enhancements and fixes:
+This release contains the following features, enhancements, and fixes:
+
+|Feature|Description|
+| --- | ---  |
+|In-product notifications|Get the following relevant in-product notifications:<ul><li>**Activities**: Notifications for all activity types when an activity is approved or deactivated, either manually or when it reaches its start or end date. The notification includes the name of the activity with a link to the activity’s overview page.</li><li>**Profile scripts** Notifications when a profile script is activated or deactivated, either manually or by Target.</li><li>**Recommendations feeds**: Notifications when a Recommendations feed is activated or deactivated, either manually or by Target. Notifications are also sent when a Recommendations feed fails.</li></ul> By default, notifications are received by product admins, publishers, and approvers. Notifications are configurable inside Experience Cloud preferences.<br>For more information see [Notifications and announcements](/help/main/c-intro/understand-the-target-ui.md#notifications-announcements).|
+|*Adobe Target Developer Guide*|The *Adobe Target Developer Guide* consolidates all [!DNL Target] developer content in one convenient guide. The guide includes information about implementing [!DNL Target] and [!DNL Recommendations], [!DNL Target] SDKs, and [!DNL Target] APIs.<br>For more information, see [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.|
 
 * Users with the [!UICONTROL Editor] role can no longer edit audiences in live activities. (TGT-43582)
 * A warning message displays if a customer attempts to save an audience with an exclamation mark ( ! ) as the first character of the audience's name (for example !London). (TGT-43643)

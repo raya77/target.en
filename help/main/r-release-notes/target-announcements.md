@@ -9,30 +9,42 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 
 Announcements and information about upcoming [!DNL Adobe Target] events, including [!DNL Target] Coffee Break sessions, [!DNL Target] webinar series, [!DNL Target] Skill Builder sessions, developer chats, and more. Links to past recordings are included if available.
 
-## Adobe Target Community Coffee Break (June 29, 2022)
-
-+++Click me
-
-* **Wednesday, June 29, 2022**
-* **8:00 to 9:00 a.m. (PDT, UTC-7)**
-* **[More information and registration information](https://adobe.ly/3wKhcQS){target=_blank}**
-
-We'll be joined by Jordan Ison, Kati McKinney, Justine Lee, and Kaela Cusack of the Adobe Solutions Consulting team, to chat directly with you pertaining to their areas of expertise. They will also answer any questions related to topics covered during the 6/2/22 Personalization with Precision: Adobe Analytics & Target Webinar (more info below):
-
-* How marketers, developers, and product teams can open the ‘black box’ of AI to drive future testing and personalization strategies
-* How to overcome challenges in optimizing web, mobile app, email, IoT and each digital touchpoint for higher conversion and engagement
-* Adobe Analytics and Adobe Target workflows for personalization, targeting, and testing
-* Understanding use cases to unlock what attributes predict visitor behavior, and which attributes are most important for key visualizations and segmentation analysis
-
-+++
-
 ## [!DNL Adobe Target] webinar series {#webinar-series}
 
 Register for the following webinars to see how customers are using [!DNL Adobe Target] to achieve their personalization and optimization goals:
 
+### Adobe: Personalization Industry Insider - Retail (August 11, 2022)
+
+2022 has given businesses a dynamic and rapidly changing environment to run and operate. Learn how industry experts are seeing new consumer trends take shape while life begins to return back to normal for workers and travelers.
+
++++Click me
+
+* **Thursday, June 21, 2022**
+* **1:00 to 2:00 p.m. (EDT, UTC-4)**
+* **[More information and registration information](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
+Join Michael Klein (Director, Industry Strategy Retail) and Leina Betzer (Target Consultant, Adobe Premier Support) to discuss how retail ecommerce sales are skyrocketing as consumer buying patterns and behaviors shift, with higher demand for goods and services in certain markets.
++++
+
+### Planned webinar series
+
+The following webinar series are planned for the near future:
+
+* Industry Insiders: Personalization Industry Insider: Travel and Hospitality
+* Industry Insiders: Personalization Industry Insider: Media and Entertainment
+* Skill Builders: New, Premium Users/Product Managers, Mobile Developers, Marketers, Analysts, Business Users
+
+ Watch for dates and registration information in the [Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}.
+
+## Recordings of past webinars and skill-builder sessions
+
+Access recordings of past events:
+
 ### Adobe: Personalization with Precision - [!DNL Adobe Analytics] and [!DNL Target] (June 2, 2022) 
 
 Learn how Artificial Intelligence continues to redefine consumer expectations as machine learning models and data insights open new doors for marketers, developers, and product owners to engage consumers with personalized experiences that matter. Take a step-by-step tour of [!DNL Adobe Analytics] + [!DNL Adobe Target] workflows for personalization, targeting, and testing.
+
+* [Recording link](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}
  
 +++Click me
 
@@ -53,6 +65,8 @@ Join Jordan Ison (Principal Expert Solution Consultant at [!DNL Adobe]) to discu
 
 Learn best practices how to become a 'relationship bank' to increase brand loyalty. Discover how to drive people and processes to build and scale successful personalization programs.
 
+* [Recording link](https://zero-to-hero.dxfieldmarketing.adobeevents.com/){target=_blank}
+
 +++Click me
 
 * **Thursday, June 9, 2022**
@@ -64,7 +78,9 @@ Join Heather Adkins (SVP Marketing Technology) to learn best practices to become
 
 ### Adobe: Uncover High-Impact Optimization Opportunities (June 16, 2022)
 
-Learn how as we enter the new normal—one that is more digital than ever before—it is crucial that organizations take advantage of every opportunity to deliver exceptional digital experiences. Good enough is no longer truly good enough. It takes great experiences to stay competitive. 
+Learn how as we enter the new normal—one that is more digital than ever before—it is crucial that organizations take advantage of every opportunity to deliver exceptional digital experiences. Good enough is no longer truly good enough. It takes great experiences to stay competitive.
+
+* [Recording link](https://optimization.dxfieldmarketing.adobeevents.com/){target=_blank}
 
 +++Click me
 
@@ -80,23 +96,6 @@ Join Kaitlin White (Adobe Product Marketing Manager) as we share tried-and-true 
 * And many more ideas to help you uncover high-impact opportunities at your organization
 
 +++
-
-### Adobe: Personalization Industry Insider - Retail (June 21, 2022)
-
-2022 has given businesses a dynamic and rapidly changing environment to run and operate. Learn how industry experts are seeing new consumer trends take shape while life begins to return back to normal for workers and travelers. 
-
-+++Click me
-
-* **Thursday, June 21, 2022**
-* **1:00 to 2:00 p.m. (EDT, UTC-4)**
-* **[More information and registration information](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
-Join Michael Klein (Director, Industry Strategy Retail) and Leina Betzer (Target Consultant, Adobe Premier Support) to discuss how retail ecommerce sales are skyrocketing as consumer buying patterns and behaviors shift, with higher demand for goods and services in certain markets.
-+++
-
-## Recordings of past webinars and skill-builder sessions
-
-Access recordings of past events:
 
 ### Dick's Sporting Goods: Personalization and the Changing Landscape in Retail (May 19, 2022)
 

@@ -13,8 +13,9 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|June 24|[Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}|Launched the *Adobe Target Developer Guide* to consolidate all [!DNL Target] developer content in one convenient portal. The portal includes information about implementing [!DNL Target] and [!DNL Recommendations], [!DNL Target] SDKs, and [!DNL Target] APIs.|
+|June 30|[Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}|Launched the *Adobe Target Developer Guide* to consolidate all [!DNL Target] developer content in one convenient portal. The portal includes information about implementing [!DNL Target] and [!DNL Recommendations], [!DNL Target] SDKs, and [!DNL Target] APIs.|
 ||[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 22.6.2 release.|
+||[Target announcements and events](/help/main/r-release-notes/target-announcements.md)|Added recording links for past webinar sessions.|
 |June 14|[Plan and implement Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank}|Updated code samples in the following sections:<ul><li>Cart adds/cart views/checkout pages</li><li>Exclude items already in the visitor's cart</li></ul>|
 |June 7|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 22.6.1 release.|
 

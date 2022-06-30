@@ -35,7 +35,7 @@ The Help icon lets you access information, videos, blogs, and more to help you u
 
 ![Help](/help/main/c-intro/assets/help.png)
 
-## Notifications and announcements
+## Notifications and announcements {#notifications-announcements}
 
 The [!UICONTROL Notifications] and [!UICONTROL Announcements] panels help keep you up to date about all things [!DNL Adobe Target]. Proactive notifications help keep you abreast of the status of [!DNL Adobe Experience Cloud] solutions and [!DNL Target] events. Proactive announcements alert you to outage events and maintenance events.
 
