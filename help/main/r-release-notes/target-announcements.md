@@ -19,7 +19,7 @@ Register for the following webinars to see how customers are using [!DNL Adobe T
 
 +++Click me
 
-* **Thursday, June 21, 2022**
+* **Thursday, August 11, 2022**
 * **1:00 to 2:00 p.m. (EDT, UTC-4)**
 * **[More information and registration information](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
