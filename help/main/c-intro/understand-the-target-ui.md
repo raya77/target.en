@@ -1,5 +1,5 @@
 ---
-keywords: target user interface;user interface;ui;announcements;events
+keywords: target user interface;user interface;ui;announcements;events;notifications
 description: Familiarize yourself with the user interface and find links to more in-depth information to help you get the most out of [!DNL Target].
 title: How Do I Use the [!DNL Target] UI?
 feature: Overview
@@ -47,7 +47,7 @@ The panel contains tabs for [!UICONTROL Notifications] and [!UICONTROL Announcem
 
 ![Notifications](assets/notifications.png)
 
-The following sections contain information about each tab, and how to configure notifications and announcements.
+The following sections contain information about each tab, and how to configure notifications and announcements:
 
 ### Notifications
 
