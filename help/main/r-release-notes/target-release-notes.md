@@ -9,9 +9,18 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: June 30, 2022**
+**Last Updated: July 18, 2022**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages could be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
+
+## [!DNL Target Standard/Premium] 22.7.1 (July 20, 2022)
+
+This release contains the following features, enhancements, and fixes:
+
+|Feature|Description|
+| --- | --- |
+|Improved audience evaluation accuracy and end-user latency through IPv6 support|Visitors' geo-locations are now determined by IPv6 addresses, if available, as opposed to only IPv4 addresses. Delivery APIs also support IPv6 input parameters. Filtering and allow-listing support both IPv4 and IPv6 addresses. This IPv6 support in this release means visitors will be more accurately included in audiences (more accurately qualify for activities or be included in filtering criteria). It also improves data latency, as IPv6 clients will route directly, avoiding the overhead of the the IPv6-to-IPv4 gateway.|
+|A4T client-side payload handling enhancement|With A4T server-side integration, if Adobe Target identifies a request as coming from a bot, it does not forward the payload to Analytics, and there is no mod_stats event in recorded in the Target logs. Prior to this release, A4T client-side integrations would forward the payload to Analytics, even when it had been identified as bot traffic. This inconsistency between server- versus client-side would lead to discrepancies, as A4T reports for the latter included the bot traffic. Furthermore, bot traffic was not necessarily identified nor flagged, meaning it was not possible to disambiguate or remove the bot traffic from the rest of the traffic. And even if a customer did account for bot traffic on their own, it would not necessarily match the set of traffic that Target identified and excluded as bot traffic, thus leading to split discrepancies or other issues. With this release, A4T client-side logging has been enhanced so that the behavior regarding the A4T payload is the same as with A4T server-side: Visitors that are identified as bots are excluded from Target counting/reporting, for both server-side and client-side implementations.|
 
 ## [!DNL Target Standard/Premium] 22.6.2 (June 30, 2022)
 
