@@ -98,6 +98,10 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 
 **To consume experience fragments using the VEC:**
 
+>[!NOTE]
+>
+>Experience fragments exported as JSON in [!DNL Target] cannot be used in activities created using the VEC; only HTML experience fragments are supported in VEC-based activities. If you would like to use JSON experience fragments, use them in activities created using the [Form-based experience composer](/help/main/c-experiences/form-experience-composer.md).
+
 1. In [!DNL Target], while creating or editing an experience in the [Visual Experience Composer](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), click the location on the page where you want to insert [!DNL AEM] content, then select the desired option to display the [!UICONTROL Choose an Experience Fragment] list.
 
    * [!UICONTROL Insert Before]
@@ -139,7 +143,7 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 ## Considerations {#considerations}
 
 * [!DNL Target] currently looks for experience fragments to import every ten minutes. The imported experience fragment should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
-* The experience fragment is imported into [!DNL Target] as an HTML offer. The experience fragment "primary" version remains in [!DNL AEM]. You cannot edit the experience fragment in [!DNL Target].
+* The experience fragment is imported into [!DNL Target] as an HTML or JSON offer. The experience fragment "primary" version remains in [!DNL AEM]. You cannot edit the experience fragment in [!DNL Target].
 * You cannot create experience fragments using [!DNL Adobe I/O]. Create experience fragments using AEM, as explained above.
 * If you update your experience fragment in AEM, the experience fragment must be published and exported to [!DNL Target] again so [!DNL Target] can use the latest changes.
 
