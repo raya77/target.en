@@ -84,7 +84,7 @@ After performing the preceding tasks, the experience fragment displays on the [!
 >
 >* [!DNL Target] currently looks for experience fragments to import every ten minutes. The imported experience fragment should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
 >
->* The experience fragment is imported into [!DNL Target] as an HTML offer. That experience fragment "primary" version remains in [!DNL AEM]. You cannot edit the experience fragment in [!DNL Target].
+>* The experience fragment is imported into [!DNL Target] as an HTML or JSON offer. That experience fragment "primary" version remains in [!DNL AEM]. You cannot edit the experience fragment in [!DNL Target].
 
 You can hover over an experience fragment in the list, then click the [!UICONTROL View] icon ![View icon](assets/icon_info.png) to see additional information about the experience fragment, including its public offer delivery URL and its [!DNL AEM] path.
 
@@ -97,10 +97,6 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 >Experience fragments are not supported in [!DNL Recommendations] activities. However, to use experience fragments for recommendations you can create an [!UICONTROL A/B Test] activity (including [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target]) or an [!UICONTROL Experience Targeting] (XT) activity and [include recommendations as an offer](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). 
 
 **To consume experience fragments using the VEC:**
-
->[!NOTE]
->
->Experience fragments exported as JSON in [!DNL Target] cannot be used in activities created using the VEC; only HTML experience fragments are supported in VEC-based activities. If you would like to use JSON experience fragments, use them in activities created using the [Form-based experience composer](/help/main/c-experiences/form-experience-composer.md).
 
 1. In [!DNL Target], while creating or editing an experience in the [Visual Experience Composer](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), click the location on the page where you want to insert [!DNL AEM] content, then select the desired option to display the [!UICONTROL Choose an Experience Fragment] list.
 
@@ -128,6 +124,10 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
     * **Experience Targeting (XT):** [Create an Experience Targeting Activity](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765) 
     * **Multivariate Test (MVT):** [Create a Multivariate Test](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710) 
     * **Recommendations:** [Create a Recommendations Activity](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+
+>[!NOTE]
+>
+>Experience fragments exported as JSON in [!DNL Target] cannot be used in activities created using the VEC; only HTML experience fragments are supported in VEC-based activities. If you would like to use JSON experience fragments, use them in activities created using the [Form-based experience composer](/help/main/c-experiences/form-experience-composer.md).
 
 **To consume experience fragments using the Form-based Experience Composer:**
 
