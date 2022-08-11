@@ -204,6 +204,12 @@ To resynchronize and correct your reporting:
 
 (TGT-38522, CSO 20201006007)
 
+### Auto-Target and Automated Personalization model availability indicator {#at-ap-model}
+
+The Model Availability functionality for Auto-Target and Automated Personalization activities failed intermittently from June 1, 2022 through July 19, 2022. This meant the Target reporting UI may have failed to show a green checkmark indicating that a model was successfully built, even though experiences or offers were being served on a personalized basis in either Auto-Target or Automated Personalization activities. 
+ 
+Note that **personalized model building itself** was not affected, and models were successfully built throughout the entire period. Only the model availability system was affected by this error. **Reporting data was also not affected**. In other words, performance (visits, conversions, and conversion rates) of experiences and offers was not affected. Only the green check mark indicating personalized model availability may have failed to appear. 
+
 ### Reporting {#conversions-audiences}
 
 Conversions currently increment differently based on which audience is used.
