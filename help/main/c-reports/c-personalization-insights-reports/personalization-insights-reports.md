@@ -51,6 +51,8 @@ There are two types of attributes represented in [!UICONTROL Personalization Ins
 |Page Parameters (also called “mbox parameters”)|Name/value pairs passed in directly through page code that are not stored in the visitor's profile for future use.|`Custom - Mbox Parameter - [parameter name]`|
 |Customer Attributes|Customer attributes let you upload visitor profile data via FTP to the Experience Cloud. Once uploaded, leverage the data in Adobe Analytics and Adobe Target.|`Custom - Customer Attributes - [parameter name]`|
 |Shared Audiences (Adobe Audience Manager or Adobe Analytics)|Audiences created through Adobe Audience Manager or Adobe Analytics and shared with Target.|`Custom - Experience Cloud Segment - [segment name]`|
+|Shared Audiences (Adobe Experience Platform/Real-time CDP)|Audiences created through Adobe Experience Platform/Real-time CDP and shared with Target via Destinations.|`Custom - Adobe Experience Platform Segment - [segment name]`|
+|Shared Attributes (Adobe Experience Platform/Real-time CDP)|Attributes created through Adobe Experience Platform/Real-time CDP and shared with Target via Destinations. This feature is currently in Beta.|`Custom - Adobe Experience Platform Attribute - [attribute name]]`|
 |In-Activity Reporting Audiences/ Segments|Audiences defined in your AP or Auto Target activity during setup in “Goals & Metrics.”|`Custom - Reporting Segment - [segment name]`|
 
 ## Frequently Asked Questions
