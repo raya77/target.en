@@ -15,7 +15,7 @@ Gartner has named [!DNL Adobe Target] a leader in its latest Magic Quadrant for 
 
 For more information, see the [Adobe Experience Cloud Blog post](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
-## [!DNL Adobe Target] Community Q&A coffee break
+## [!DNL Adobe Target] Community Q&A coffee break (August 31, 2022)
 
 * **Wednesday, August 31, 2022**
 * **9:00 to 10:00 a.m. (PDT, UTC-7)**
@@ -52,7 +52,7 @@ Let's explore ideas on:
 * Creating hyper-personalized experiences
 +++
 
-## [!DNL Adobe Target] Skill Builders – Mobile Experience Optimization (September 6, 2022)
+### [!DNL Adobe Target] Skill Builders – Mobile Experience Optimization (September 6, 2022)
 
 Mobile experiences are fueling innovation in how marketing and engineering teams are leveraging product-led strategies for cross-channel personalization in web and app. Join the [!DNL Adobe] Skill Builders session and learn how [!DNL Adobe Target] unlocks new potential engagement and revenue growth for marketers, developers, and product owners to build thriving product communities.
 
@@ -63,7 +63,7 @@ Mobile experiences are fueling innovation in how marketing and engineering teams
 * **[More information and registration information](https://adobe-target-skill-builders-expedition-series.dxfieldmarketing.adobeevents.com/){target=_blank}**
 +++
 
-## [!DNL Adobe Target] Skill Builders – AI-Driven Personalization and Recommendations (September 15, 2022)
+### [!DNL Adobe Target] Skill Builders – AI-Driven Personalization and Recommendations (September 15, 2022)
 
 Automation in experimentation and personalization continues to drive the highest conversions and ROI for marketing, engineering, and product teams. Join the [!DNL Adobe] Skill Builders session and learn how to use [!DNL Adobe Target] advanced AI-driven use cases and capabilities with product and content recommendations to stay ahead of competition and win on every experience.
 
