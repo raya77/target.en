@@ -164,10 +164,6 @@ For more information about choosing a [!UICONTROL Recommendation Key], see [Base
 
    For more details, see [Specify inclusion rules](#inclusion) below.
 
-1. (Optional) Slide the **[!UICONTROL Recommend Previously Purchased Items]** toggle to the "on" position.
-
-   This setting is based on the `productPurchasedId`. The default behavior is to not recommend previously purchased items. In most cases you do not want to promote items a customer has recently purchased. It is useful if you sell items that people typically purchase only once, such as kayaks. If you sell items that people come back to purchase again on a repeated basis, such as shampoo or other personal items, you should enable this option.
-
 ## Content Similarity {#similarity}
 
 Use [!UICONTROL Content Similarity] rules to make recommendations based on item or media attributes.
@@ -213,6 +209,10 @@ Inclusion rule options vary by industry vertical. By default, inclusion rules ar
 The inclusion rules are joined with an AND. All rules must be met to include an item in a recommendation. 
 
 To create a simple inclusion rule, as mentioned previously, to display only women's shoes that have an inventory of more than 50 and a price between $25 and $45, perform the following steps: 
+
+1. (Conditional) Slide the **[!UICONTROL Allow recently purchased items to be recommended?]** toggle to the “on” position.
+
+   This setting is based on the `productPurchasedId`. The default behavior is to not recommend previously purchased items. In most cases you do not want to promote items a customer has recently purchased. It is useful if you sell items that people typically purchase only once, such as kayaks. If you sell items that people come back to purchase again on a repeated basis, such as shampoo or other personal items, you should enable this option.
 
 1. Set a price range for the products you want to recommend.
 1. Set the minimum inventory amount for the products you want to recommend.
