@@ -14,7 +14,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 |Date|Topic|Changes|
 | --- | --- | --- |
 |August 22|[[!DNL Adobe Target] announcements and events](/help/main/r-release-notes/target-announcements.md)|Added the information about the following announcement:<ul><li>[!DNL Target] named leader in Gartner Magic Quadrant for Personalization Engines (2022)</li></ul>Added information about the following upcoming events:<ul><li>[!DNL Adobe Target] Community Q&A coffee break (August 31, 2022)</li><li>Chef's Collection: Recipes for Personalization (August 30, 2022)</li><li>[!DNL Adobe Target] Skill Builders – Mobile Experience Optimization (September 6, 2022)</li><li>[!DNL Adobe Target] Skill Builders – AI-Driven Personalization and Recommendations (September 15, 2022)</li></ul>Added recording link for the following past webinar session:<ul><li>Adobe: Personalization Industry Insider - Retail (August 11, 2022)</li></ul>|
-|August 22[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 22.8.1 release.|
+|August 22|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 22.8.1 release.|
 
 ## Adobe Target Standard/Premium 22.6.1 (staggered release: June 7-9, 2022)
 
