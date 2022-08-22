@@ -21,7 +21,7 @@ Revenue metrics that are set to "[!UICONTROL Increment count & keep user in acti
 
 >[!NOTE]
 >
->For activities using [Analytics as the reporting source](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) the the goal metric will always use the "[!UICONTROL Increment Count & Keep User in Activity]" and "[!UICONTROL On Every Impression]" settings. This is *not* configurable.
+>For activities using [Analytics as the reporting source](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), the goal metric will always use the "[!UICONTROL Increment Count & Keep User in Activity]" and "[!UICONTROL On Every Impression]" settings. This is *not* configurable.
 
 The following success metrics are available:
 
