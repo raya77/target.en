@@ -5,11 +5,11 @@ title: Where Can I find [!DNL Target] Announcements and Events?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 ---
-# Target announcements and events
+# [!DNL Adobe Target] announcements and events
 
 Announcements and information about upcoming [!DNL Adobe Target] events, including [!DNL Target] Coffee Break sessions, [!DNL Target] webinar series, [!DNL Target] Skill Builder sessions, developer chats, and more. Links to past recordings are included if available.
 
-## Target named leader in Gartner Magic Quadrant for Personalization Engines (2022)
+## [!DNL Target] named leader in Gartner Magic Quadrant for Personalization Engines (2022)
 
 Gartner has named [!DNL Adobe Target] a leader in its latest Magic Quadrant for Personalization Engines (PE) for the fifth year in a row. [!DNL Adobe] also received top scores and significant year-over-year increases across all three primary use cases: Digital Marketing, Digital Commerce, and Service and Support. [!DNL Target] also received the highest scores for our testing capabilities among all vendors evaluated.
 
