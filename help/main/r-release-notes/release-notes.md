@@ -12,6 +12,10 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Target Standard/Premium] 22.8.1 (staggered release August 17-18, 2022)
+
+This maintenance release includes backend and localization fixes.
+
 ## [!DNL Target] platform release (July 20, 2022)
 
 This release contains the following features, enhancements, and fixes:
