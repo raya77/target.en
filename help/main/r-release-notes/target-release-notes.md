@@ -9,19 +9,26 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: July 20, 2022**
+**Last Updated: August 29, 2022**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages could be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## [!DNL Target] platform release (July 20, 2022)
+## [!DNL Target] Standard/Premium 22.9.1 (staggered release September 6-8, 2022)
 
-This release contains the following features, enhancements, and fixes:
+This release will be available according to the following staggered schedule:
 
-|Feature|Description|
-| --- | --- |
-|Improved audience evaluation accuracy and reduced end-user latency through IPv6 support (TNT-43364, TNT-44692) |Visitors' geo-locations are now determined by IPv6 addresses, if available, as opposed to only IPv4 addresses. Delivery APIs also support IPv6 input parameters. Filtering and allow-listing support both IPv4 and IPv6 addresses. The IPv6 support in this release means visitors will be more accurately included in audiences (more accurately qualify for activities or be included in filtering criteria). It also improves data latency, as IPv6 clients will route directly, avoiding the overhead of the the IPv6-to-IPv4 gateway.|
-|Fixed A4T client-side payload handling issue (TNT-44926)|With A4T server-side integration, if Adobe Target identifies a request as coming from a bot, it does not forward the payload to Analytics, and there is no mod_stats event in recorded in the [!DNL Target] logs. With this release, A4T client-side logging has been enhanced so that the behavior regarding the A4T payload is the same as with A4T server-side: Visitors that are identified as bots are excluded from [!DNL Target] counting/reporting. (Note the issue in question was limited to implementations that used client-side payload handling; server-side was not impacted. With this release, the behavior is now consistent for both server-side and client-side payload handling.)|
+* **September 6**: Europe, Middle East, and Africa (EMEA) region
+* **September 7**: Americas region
+* **September 8**: Asia-Pacific (APAC) region
 
+This release contains the following enhancements and fixes:
+
+* Added cross-domain support in at.js version 2.9.0.
+* Fixed an issue that caused [!UICONTROL Decision Offers] to not work properly within the [!UICONTROL Visual Experience Composer] (VEC). (TGT-43866)
+* Fixed an issue that caused an error message to display when selecting the [!UICONTROL Clicked an Element] conversion goal while creating an [!UICONTROL Multivariate Testing] (MVT) activity. (TGT-43842)
+* Fixed an issue that prevented the [!UICONTROL Impressions] column from displaying in the downloaded CSV report file for [!UICONTROL Automated Personalization] (AP) activities. (TGT-43780)
+* Fixed an issue that prevented customers from editing HTML/JSON offers after duplicating experiences when using the [!UICONTROL Form-Based Experience Composer]. (TGT-43633)
+* Fixed an issue that prevented customers from copying an [!UICONTROL A/B Test] activity from a non-default workspace to another non-default workspace. (TGT-41910)
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 
