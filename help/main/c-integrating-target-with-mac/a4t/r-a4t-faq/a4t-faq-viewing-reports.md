@@ -72,15 +72,15 @@ In case classification was done for that activity, and you still see an "Unspeci
 
 The [!DNL Target] variable sent to [!DNL Analytics] has a default 90-day expiration period. This expiration period can be adjusted by Customer Care if needed. This setting is global for all activities, however, so it should not be adjusted for one case.
 
-You might see [!DNL Target] variables sent to [!DNL Analytics] after the expiration period because the expiration is 90 days, but only if that user never sees another A4T-enabled [!DNL Target] activity. If a user comes back to the site on day 45 and sees another activity, the entire A4T eVar value has its counter reset to 90 days. That means the first campaign from day 1 now could be persisting for up to 45 + 90 = 135 days. If the user keeps coming back, you might get to the point where you see metrics sent to [!DNL Analytics] in your reporting from much older activities. As users delete cookies and don’t return to the site, the numbers in that activity drop, but you can still see them.
+You might see [!DNL Target] variables sent to [!DNL Analytics] after the expiration period because the expiration is 90 days, but only if that user never sees another A4T-enabled [!DNL Target] activity. If a user comes back to the site on day 45 and sees another activity, the entire A4T eVar value has its counter reset to 90 days. That means the first campaign from day 1 now could be persisting for up to 45 + 90 = 135 days. If the user keeps coming back, you might get to the point where you see metrics sent to [!DNL Analytics] in your reporting from much older activities. As users delete cookies and don't return to the site, the numbers in that activity drop, but you can still see them.
 
 This means that activities continue to get page views, visits, and so forth, for up to 90 days after the activity ends for visitors that became part of the activity while it was active. However, if you look at the [!UICONTROL Activity Impressions] metric, you should not see any impressions after the activity ended.
 
 This is normal and expected behavior. The A4T variable functions like any other eVar—the value is associated with the user until it hits the expiration time period (90 days). As a result, if an activity is active for only two weeks, the value is still associated with the user for at least the next 90 days.
 
-Best practice is view reports for that activity only for the time period the activity was live. The dates should be set correctly by default when you view the activity in [!DNL Analytics], so unless you have manually extended the date this shouldn’t be an issue from a reporting standpoint.
+Best practice is view reports for that activity only for the time period the activity was live. The dates should be set correctly by default when you view the activity in [!DNL Analytics], so unless you have manually extended the date this shouldn't be an issue from a reporting standpoint.
 
-As an example, let’s assume that the A4T variable expires after 90 days and the test is active from January 1 through January 15.
+As an example, let's assume that the A4T variable expires after 90 days and the test is active from January 1 through January 15.
 
 On January 1, the user comes to the site and sees activity XYZ once and has five page views after that. In the next two weeks, the user never returns to the site. The data would look like this for this user:
 
@@ -88,7 +88,7 @@ On January 1, the user comes to the site and sees activity XYZ once and has five
 |--- |--- |--- |--- |--- |
 |XYZ|1|5|1|1|
 
-The user returns on February 1, views five more pages, and doesn’t encounter any more Target activities and the original activity is no longer active. Even though the activity is no longer active, it is still following the user via eVar persistence. The data now looks like this:
+The user returns on February 1, views five more pages, and doesn't encounter any more Target activities and the original activity is no longer active. Even though the activity is no longer active, it is still following the user via eVar persistence. The data now looks like this:
 
 | Activity Name | Instances (Impressions) | Page Views | Visits | Unique Visitors |
 |--- |--- |--- |--- |--- |
@@ -109,7 +109,7 @@ The user then comes back on April 1, views another five pages, and makes a purch
 |ABC|1|10|2|1|1|
 |Total|2|20|3|1|1|
 
-Because both experiences were seen before the conversion, they both get “credit” for the order. But, only one order took place in the system and the total reflects that. For [!DNL Target] reporting, because you aren’t putting a [!DNL Target] activity against another activity to see which is more successful, it doesn’t matter that all activities the user saw got credit. You’re comparing the results of two items within the single activity. It's not possible for a user to see different experiences in the same activity so you don’t have to worry about cross-contamination of order credit.
+Because both experiences were seen before the conversion, they both get "credit" for the order. But, only one order took place in the system and the total reflects that. For [!DNL Target] reporting, because you aren't putting a [!DNL Target] activity against another activity to see which is more successful, it doesn't matter that all activities the user saw got credit. You're comparing the results of two items within the single activity. It's not possible for a user to see different experiences in the same activity so you don't have to worry about cross-contamination of order credit.
 
 For more information, see [Conversion Variables (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) in the *Analytics Admin Guide*.
 
@@ -119,13 +119,13 @@ A source of impressions to an A4T activity's report after deactivation can be QA
 
 ## Why do Analytics and Analytics for Adobe Target (A4T) calculate numbers for the Unique Visitors metric differently? {#section_0C3B648AB54041F9A2AA839D51791883}
 
-When you run an A/B test, which uses the Students t-test (the confidence metric) to choose a winner of a test, one of the assumptions is that there is a fixed time horizon. The test isn’t statistically valid unless you are looking at that fixed sample size.
+When you run an A/B test, which uses the [Welch's t-test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} (the confidence metric) to choose a winner of a test, one of the assumptions is that there is a fixed time horizon. The test isn't statistically valid unless you are looking at that fixed sample size.
 
-The [!UICONTROL Unique Visitors] metric is different in [!DNL Analytics] and [!DNL Target] only when you are looking at a period that is shorter than the actual test. If you haven’t reached your sample size, the test isn’t as reliable. See [How Not to Run an A/B Test](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) on [Evan Miller's website](https://www.evanmiller.org/index.html) for more information.
+The [!UICONTROL Unique Visitors] metric is different in [!DNL Analytics] and [!DNL Target] only when you are looking at a period that is shorter than the actual test. If you haven't reached your sample size, the test isn't as reliable. See [How Not to Run an A/B Test](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) on [Evan Miller's website](https://www.evanmiller.org/index.html) for more information.
 
 The [!UICONTROL Unique Visitors] metric displays the number of people who have been exposed to the test who have visited the site during the specified time period. Those people are part of the test and should be counted. If you want to see only the number of people who were exposed during a single week, you can create a segment of visitors who had an activity impression and apply it to the report.
 
-You can shorten the amount of time the [!DNL Target] variable persists down to a session; however, that is problematic for tests where the conversion event isn’t as likely to happen within the same session.
+You can shorten the amount of time the [!DNL Target] variable persists down to a session; however, that is problematic for tests where the conversion event isn't as likely to happen within the same session.
 
 ## Why is the same visitor sometimes counted in multiple experiences in Analytics? {#section_1397E972D31C4207A142E4D2D6D794A2}
 
