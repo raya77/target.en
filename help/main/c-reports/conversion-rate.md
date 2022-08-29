@@ -92,9 +92,9 @@ To calculate these calculated metrics, download the Target's [Complete Confidenc
 
 You can perform offline calculations for A4T, but it requires a step with data exports in [!DNL Analytics].
 
-For A4T, we use a Student's t-test calculation for continuous variables (rather than binary metrics). In Analytics, a visitor is always tracked, and every action taken is counted. Therefore, if the visitor purchases multiple times or visit a success metric multiple times, those additional hits are counted. This makes the metric a continuous variable. To perform the Student's t-test calculation, the "sum of squares" is required to calculate the variance, which is used in the denominator of the t-statistic. [This document explains the details](/help/main/assets/statistical-calculations.pdf) of the mathematical formulas used. The sum of squares can be retrieved from [!DNL Analytics]. To get the sum of squares data, you need to perform a visitor-level export for the metric you are optimizing to, for a sample time period.
+For A4T, we use a [Welch's t-test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} calculation for continuous variables (rather than binary metrics). In Analytics, a visitor is always tracked, and every action taken is counted. Therefore, if the visitor purchases multiple times or visit a success metric multiple times, those additional hits are counted. This makes the metric a continuous variable. To perform the Welch's t-test calculation, the "sum of squares" is required to calculate the variance, which is used in the denominator of the t-statistic. [This document explains the details](/help/main/assets/statistical-calculations.pdf) of the mathematical formulas used. The sum of squares can be retrieved from [!DNL Analytics]. To get the sum of squares data, you need to perform a visitor-level export for the metric you are optimizing to, for a sample time period.
 
-For example, if you’re optimizing to page views per visitor, you’d export a sample of the total number of page views on a per visitor basis for a specified time frame, perhaps a couple of days (a few thousand data points is all you need). You would then square each value and sum the totals (the order of operations is critical here). This "sum of squares" value is then used in the Complete Confidence Calculator. Use the "revenue" section of that spreadsheet for these values.
+For example, if you're optimizing to page views per visitor, you'd export a sample of the total number of page views on a per visitor basis for a specified time frame, perhaps a couple of days (a few thousand data points is all you need). You would then square each value and sum the totals (the order of operations is critical here). This "sum of squares" value is then used in the Complete Confidence Calculator. Use the "revenue" section of that spreadsheet for these values.
 
 **To use the [!DNL Analytics] data export feature to do this:**
 
@@ -107,9 +107,9 @@ For example, if you’re optimizing to page views per visitor, you’d export a 
    | Field | Instructions |
    |--- |--- |
    |Request Name|Specify a name for your request.|
-   |Reporting Date|Specify a time period and granularity.<br>As best practice, choose no more than an hour or one day of data for your first request.  Data Warehouse files take longer to process the longer the time period requested, so it is always a best practice to request a small time period data first to make sure your file returns the expected result. Then, go to the Request Manager, duplicate your request, and ask for more data the second time. Also, if you toggle granularity to anything other than “None,” the file size will increase drastically.<br>![Data Warehouse](/help/main/c-reports/assets/datawarehouse.png)|
+   |Reporting Date|Specify a time period and granularity.<br>As best practice, choose no more than an hour or one day of data for your first request.  Data Warehouse files take longer to process the longer the time period requested, so it is always a best practice to request a small time period data first to make sure your file returns the expected result. Then, go to the Request Manager, duplicate your request, and ask for more data the second time. Also, if you toggle granularity to anything other than "None," the file size will increase drastically.<br>![Data Warehouse](/help/main/c-reports/assets/datawarehouse.png)|
    |Available Segments|Apply a segment, as needed.|
-   |Breakdowns|Select the desired dimensions:  Standard is out-of-the-box (OOTB), while Custom includes eVars & props. It is recommended you use “Visitor ID” if visitor ID level information is needed, rather than “Experience Cloud Visitor ID.”<ul><li>Visitor ID is the final ID used by Analytics. It will either be AID (if the customer is legacy) or MID (if the customer is new or cleared cookies since the MC visitor ID service was launched).</li><li>Experience Cloud Visitor ID will only be set for customers who are new or cleared cookies since the MC visitor ID service was launched.</li></ul>|
+   |Breakdowns|Select the desired dimensions:  Standard is out-of-the-box (OOTB), while Custom includes eVars & props. It is recommended you use "Visitor ID" if visitor ID level information is needed, rather than "Experience Cloud Visitor ID."<ul><li>Visitor ID is the final ID used by Analytics. It will either be AID (if the customer is legacy) or MID (if the customer is new or cleared cookies since the MC visitor ID service was launched).</li><li>Experience Cloud Visitor ID will only be set for customers who are new or cleared cookies since the MC visitor ID service was launched.</li></ul>|
    |Metrics|Select your desired metrics. Standard is OOTB, while Custom includes custom events.|
    |Report Preview|Review your settings before scheduling the report.<br>![Data Warehouse 2](/help/main/c-reports/assets/datawarehouse2.png)|
    |Schedule Delivery|Enter an email address to deliver the file to, name the file, then select [!UICONTROL Send Immediately].<br>Note: The file can be delivered via FTP under [!UICONTROL Advanced Delivery Options]<br>![Schedule Delivery](/help/main/c-reports/assets/datawarehouse3.png).|
@@ -118,7 +118,7 @@ For example, if you’re optimizing to page views per visitor, you’d export a 
 
    File delivery can take up to 72 hours, depending on the amount of data requested. You can check on the progress of your request at any time by clicking [!UICONTROL Tools] > [!UICONTROL Data Warehouse] > [!UICONTROL Request Manager].
 
-   If you would like to re-request data that you’ve requested in the past, you can duplicate an old request from the [!UICONTROL Request Manager] as needed.
+   If you would like to re-request data that you've requested in the past, you can duplicate an old request from the [!UICONTROL Request Manager] as needed.
 
 For more information about [!DNL Data Warehouse], see the following links in the [!DNL Analytics] Help documentation:
 
@@ -162,7 +162,7 @@ You can view reports by the following counting methodologies:
 >
 >Usually, counts are determined by cookies and session activity. However, if you reach the final conversion point of an activity and then re-enter the activity, you are considered a new entrant and a new visit to the activity. This is true even if your PCID and `sessionID` values do not change.
 
-## Why does [!DNL Target] recommend using Student's t-tests? {#t-test}
+## Why does [!DNL Target] recommend using Welch's t-tests? {#t-test}
 
 A/B tests are experiments to compare the mean value of some business metric in a control variant (also known as an experience) to the mean value of that same metric in one or more alternate experiences.
 
