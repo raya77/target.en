@@ -23,7 +23,7 @@ This release will be available according to the following staggered schedule:
 
 This release contains the following enhancements and fixes:
 
-* Added a [!UICONTROL Cross-Domain] option when downloading at.js 2.9.1 (and later) to allow or disable setting 3rd-party cookies (TGT-43674)
+* Added a [!UICONTROL Cross-Domain] option when downloading at.js 2.9.1 (and later) to allow or disable setting 3rd-party cookies. (TGT-43674)
 * Updated notifications in the [!DNL Target] UI to inform customers that activities have been enabled, disabled, and have reached goal and lift thresholds. (TGT-35811)
 * Added the ability to block-list attributes via API in [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto Target] activities.
 * Fixed an issue that caused [!UICONTROL Decision Offers] to not work properly within the [!UICONTROL Visual Experience Composer] (VEC). (TGT-43866)
