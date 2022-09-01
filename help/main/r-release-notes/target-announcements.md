@@ -15,42 +15,11 @@ Gartner has named [!DNL Adobe Target] a leader in its latest Magic Quadrant for 
 
 For more information, see the [Adobe Experience Cloud Blog post](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
-## [!DNL Adobe Target] Community Q&A coffee break (August 31, 2022)
-
-* **Wednesday, August 31, 2022**
-* **9:00 to 10:00 a.m. (PDT, UTC-7)**
-* **[Registration information](https://adobe.ly/3buoDUt){target=_blank}**
-
-We'll be joined by Senior [!DNL Adobe] Premier Support Consultant Moses Maxen to chat about your [!DNL Adobe Target] questions pertaining to the topics covered in the recent [8/11/22 Retail Personalization Industry Insiders Webinar](https://video.tv.adobe.com/v/346323){target=_blank}, as well as his areas of expertise with [!DNL Target]:
-
-* How retail e-commerce sales are skyrocketing as consumer buying patterns and behaviors have shifted over the past several months, with higher demand for goods and services in certain markets including consumer packaged goods
-* Related optimization and personalization strategies
-* [!DNL Target] Implementation
-* [!DNL Adobe] Sensei features
-* Core UI workflows
 
 ## [!DNL Adobe Target] webinar series {#webinar-series}
 
 Register for the following webinars to see how customers are using [!DNL Adobe Target] to achieve their personalization and optimization goals:
 
-### Chef's Collection: Recipes for Personalization (August 30, 2022)
-
-Join the [!DNL Adobe Target] [!DNL ]team as they serve up some fresh ideas on how you can get the most value out of Target. Based on our newest eBook, “Chef’s Collection: Ideas for Personalization”.
-
-+++Click me
-
-* **Thursday, August 30, 2022**
-* **1:00 to 2:00 p.m. (EDT, UTC-4)**
-* **[More information and registration information](https://chefs-collection-webinar.dxfieldmarketing.adobeevents.com/register/registration/form){target=_blank}**
-
-We’ll be digging into the stories of our customer “chefs” and what they’ve cooked up in their own personalization kitchens. 
-
-Let's explore ideas on:
-
-* How to use personalization to build loyalty
-* Optimizing for a competitive advantage
-* Creating hyper-personalized experiences
-+++
 
 ### [!DNL Adobe Target] Skill Builders – Mobile Experience Optimization (September 6, 2022)
 
@@ -78,6 +47,25 @@ Automation in experimentation and personalization continues to drive the highest
 
 Access recordings of past events (when available):
 
+### Chef's Collection: Recipes for Personalization (August 30, 2022)
+
+Join the [!DNL Adobe Target] [!DNL ]team as they serve up some fresh ideas on how you can get the most value out of Target. Based on our newest eBook, "Chef's Collection: Ideas for Personalization".
+
++++Click me
+
+* **Thursday, August 30, 2022**
+* **1:00 to 2:00 p.m. (EDT, UTC-4)**
+* **[More information and registration information](https://chefs-collection-webinar.dxfieldmarketing.adobeevents.com/register/registration/form){target=_blank}**
+
+We'll be digging into the stories of our customer "chefs" and what they've cooked up in their own personalization kitchens. 
+
+Let's explore ideas on:
+
+* How to use personalization to build loyalty
+* Optimizing for a competitive advantage
+* Creating hyper-personalized experiences
++++
+
 ### Real Time Loyalty Activation (August 25, 2022)
 
 Growing loyalty in a time of accelerated supply chain issues, service failures, and limited staffing is a challenge most travel, hospitality and dining brands are facing. In the age of AI, how do brands scale experiences without the needed resources that have left the industry. Digital progress has accelerated 20-25 faster to support not only accelerated customer expectations, but also to scale teams through automation.
@@ -90,7 +78,7 @@ Growing loyalty in a time of accelerated supply chain issues, service failures, 
 
 In 2022, systems have reached a tipping point in the ability to provide continuous intelligence to deliver on real time loyalty activation.
 
-Topics we’ll explore:
+Topics we'll explore:
 
 * The acceleration of digital disruption & rise of AI 
 * Why early adopters are winning in both top-line and bottom-line growth 
@@ -127,7 +115,7 @@ Learn how Artificial Intelligence continues to redefine consumer expectations as
 
 Join Jordan Ison (Principal Expert Solution Consultant at [!DNL Adobe]) to discuss: 
 
-* How marketers, developers, and product teams can open the ‘black box’ of AI to drive future testing and personalization strategies 
+* How marketers, developers, and product teams can open the 'black box' of AI to drive future testing and personalization strategies 
 * Overcome challenges in optimizing web, mobile app, email, IoT, and each digital touchpoint for higher conversion and engagement 
 * Step-by-step guided tour of [!DNL Adobe Analytics] and [!DNL Target] workflows for personalization, targeting, and testing 
 * Top use cases to unlock which attributes predict visitor behavior and which attributes are most important for key visualizations and segmentation analysis
@@ -180,7 +168,7 @@ Learn best practices on ramping up personalization programs at scale. See how Di
 
 Join Shawn Wilkinson (eCommerce Personalization Manager) to learn how [!DNL Target] is helping Dick's Sporting Goods turn average visitors into returning athletes.
 
-Learn how Dick’s Sporting Goods is driving double-digit growth as we unpack:
+Learn how Dick's Sporting Goods is driving double-digit growth as we unpack:
 
 * How to plan and launch a high-performance personalization program for retail
 * Why getting buy-in across the organization is critical to overcome roadblocks and obstacles
@@ -240,7 +228,7 @@ In this session, learn how [!DNL Adobe Target] bridges the gap on combining data
 
 +++Click me
 
-More than ever, marketers, product owners, and developers are being tasked with optimizing the overall customer experience on sites, in apps, and everywhere else they connect with their customers. Multiple tools with data silos and complicated implementations won’t cut it.
+More than ever, marketers, product owners, and developers are being tasked with optimizing the overall customer experience on sites, in apps, and everywhere else they connect with their customers. Multiple tools with data silos and complicated implementations won't cut it.
 
 In this recorded webinar, Adobe Target product experts discuss how moving critical experience optimization decisions on-device to execute locally with zero latency can open doors to exciting new use cases while improving site performance for your customers.
 +++
@@ -251,17 +239,17 @@ In this recorded webinar, Adobe Target product experts discuss how moving critic
 
 +++Click me
 
-McKinsey Digital reports that “we have vaulted five years forward in consumer and business digital adoption in a matter of around eight weeks.” *
+McKinsey Digital reports that "we have vaulted five years forward in consumer and business digital adoption in a matter of around eight weeks." *
 
 Consumer demands are rapidly evolving, and HSBC has embraced optimization with Adobe Target to quickly test and personalize new customer journeys, reducing certain development and launches from 6 months down to 1 week!
 
 Join Adobe and HSBC for this webinar to learn:
 
-* How HSBC’s optimization and personalization efforts drive rapid change in the organization
+* How HSBC's optimization and personalization efforts drive rapid change in the organization
 * How AI & Analytics accelerate their efforts and provide clear, significant business impact
 * How HSBC has built a successful program at scale delivering 3000+ activities
 
-*McKinsey article: “[The COVID-19 recovery will be digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),” May 2020
+*McKinsey article: "[The COVID-19 recovery will be digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)," May 2020
 +++
 
 ### Adobe [!DNL Target] Skill Builder: Developer chat, migrate Adobe [!DNL Target]'s mbox.js to at.js {#skill-builder}
