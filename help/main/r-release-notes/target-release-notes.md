@@ -9,7 +9,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: September 1, 2022**
+**Last Updated: September 6, 2022**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages could be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
@@ -25,7 +25,6 @@ This release contains the following enhancements and fixes:
 
 * Added a [!UICONTROL Cross-Domain] option when downloading at.js 2.9.1 (and later) to allow or disable setting 3rd-party cookies. (TGT-43674)
 * Updated notifications in the [!DNL Target] UI to inform customers that activities have been enabled, disabled, and have reached goal and lift thresholds. (TGT-35811)
-* Added the ability to block-list attributes via API in [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto Target] activities.
 * Fixed an issue that caused [!UICONTROL Decision Offers] to not work properly within the [!UICONTROL Visual Experience Composer] (VEC). (TGT-43866)
 * Fixed an issue that caused an error message to display when selecting the [!UICONTROL Clicked an Element] conversion goal while creating an [!UICONTROL Multivariate Testing] (MVT) activity. (TGT-43842)
 * Fixed an issue that prevented the [!UICONTROL Impressions] column from displaying in the downloaded CSV report file for [!UICONTROL Automated Personalization] (AP) activities. (TGT-43780)
