@@ -23,7 +23,7 @@ This release will be available according to the following staggered schedule:
 
 This release contains the following enhancements and fixes:
 
-* Added a [!UICONTROL Cross-Domain] option when downloading at.js 2.9.1 (and later) to allow or disable setting 3rd-party cookies. (TGT-43674)
+* Added a [!UICONTROL Cross-Domain] option when downloading at.js 2.10.0 (and later) to allow or disable setting 3rd-party cookies. (TGT-43674)
 * Updated notifications in the [!DNL Target] UI to inform customers that activities have been enabled, disabled, and have reached goal and lift thresholds. (TGT-35811)
 * Fixed an issue that caused [!UICONTROL Decision Offers] to not work properly within the [!UICONTROL Visual Experience Composer] (VEC). (TGT-43866)
 * Fixed an issue that caused an error message to display when selecting the [!UICONTROL Clicked an Element] conversion goal while creating an [!UICONTROL Multivariate Testing] (MVT) activity. (TGT-43842)
