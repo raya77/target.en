@@ -29,6 +29,7 @@ Automation in experimentation and personalization continues to drive the highest
 * **Thursday, September 15, 2022**
 * **1:00 to 2:00 p.m. (EDT, UTC-4)**
 * **[More information and registration information](https://adobe-target-skill-builders-expedition-series.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
 +++
 
 ## Recordings of past webinars and skill-builder sessions
@@ -39,30 +40,18 @@ Access recordings of past events (when available):
 
 Mobile experiences are fueling innovation in how marketing and engineering teams are leveraging product-led strategies for cross-channel personalization in web and app. Join the [!DNL Adobe] Skill Builders session and learn how [!DNL Adobe Target] unlocks new potential engagement and revenue growth for marketers, developers, and product owners to build thriving product communities.
 
-+++Details
-
-* **Thursday, September 6, 2022**
-* **1:00 to 2:00 p.m. (EDT, UTC-4)**
-* **[More information and registration information](https://adobe-target-skill-builders-expedition-series.dxfieldmarketing.adobeevents.com/){target=_blank}**
-+++
-
 ### Chef's Collection: Recipes for Personalization (August 30, 2022)
 
 Join the [!DNL Adobe Target] [!DNL ]team as they serve up some fresh ideas on how you can get the most value out of Target. Based on our newest eBook, "Chef's Collection: Ideas for Personalization".
 
 +++Details
 
-* **Thursday, August 30, 2022**
-* **1:00 to 2:00 p.m. (EDT, UTC-4)**
-* **[More information and registration information](https://chefs-collection-webinar.dxfieldmarketing.adobeevents.com/register/registration/form){target=_blank}**
-
-We'll be digging into the stories of our customer "chefs" and what they've cooked up in their own personalization kitchens. 
-
-Let's explore ideas on:
+Explore ideas on:
 
 * How to use personalization to build loyalty
 * Optimizing for a competitive advantage
 * Creating hyper-personalized experiences
+
 +++
 
 ### Real Time Loyalty Activation (August 25, 2022)
@@ -70,10 +59,6 @@ Let's explore ideas on:
 Growing loyalty in a time of accelerated supply chain issues, service failures, and limited staffing is a challenge most travel, hospitality and dining brands are facing. In the age of AI, how do brands scale experiences without the needed resources that have left the industry. Digital progress has accelerated 20-25 faster to support not only accelerated customer expectations, but also to scale teams through automation.
 
 +++Details
-
-* **Thursday, August 25, 2022**
-* **10:00 to 11:00 p.m. (PDT, UTC-7)**
-* **[More information and registration information](https://dxfieldmarketing.adobeevents.com/api/redirect_to_page?page=registration&event_id=e54793e9-107f-4e4e-8373-5a380974392b){target=_blank}**
 
 In 2022, systems have reached a tipping point in the ability to provide continuous intelligence to deliver on real time loyalty activation.
 
@@ -83,6 +68,7 @@ Topics we'll explore:
 * Why early adopters are winning in both top-line and bottom-line growth 
 * Automating personalization in travel 
 * Real Time Loyalty Activation in action
+
 +++
 
 ### [!DNL Adobe]: Personalization Industry Insider - Retail (August 11, 2022)
@@ -93,11 +79,8 @@ Topics we'll explore:
 
 +++Details
 
-* **Thursday, August 11, 2022**
-* **1:00 to 2:00 p.m. ()**
-* **[More information and registration information](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
 Join Michael Klein (Director, Industry Strategy Retail) and Leina Betzer (Target Consultant, Adobe Premier Support) to discuss how retail ecommerce sales are skyrocketing as consumer buying patterns and behaviors shift, with higher demand for goods and services in certain markets.
+
 +++
 
 ### [!DNL Adobe]: Personalization with Precision - [!DNL Adobe Analytics] and [!DNL Target] (June 2, 2022) 
@@ -105,12 +88,8 @@ Join Michael Klein (Director, Industry Strategy Retail) and Leina Betzer (Targe
 Learn how Artificial Intelligence continues to redefine consumer expectations as machine learning models and data insights open new doors for marketers, developers, and product owners to engage consumers with personalized experiences that matter. Take a step-by-step tour of [!DNL Adobe Analytics] + [!DNL Adobe Target] workflows for personalization, targeting, and testing.
 
 * [Recording link](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}
- 
-+++Details
 
-* **Thursday, June 2, 2022**
-* **1:00 to 2:00 p.m. (EDT, UTC-4)**
-* **[More information and registration information](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}**
++++Details
 
 Join Jordan Ison (Principal Expert Solution Consultant at [!DNL Adobe]) to discuss: 
 
@@ -129,11 +108,8 @@ Learn best practices how to become a 'relationship bank' to increase brand loyal
 
 +++Details
 
-* **Thursday, June 9, 2022**
-* **1:00 to 2:00 p.m. (EDT, UTC-4)**
-* **[More information and registration information](https://zero-to-hero.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
 Join Heather Adkins (SVP Marketing Technology) to learn best practices to become a "relationship bank" to increase brand loyalty and how to drive people and processes to build and scale successful personalization programs.
+
 +++
 
 ### [!DNL Adobe]: Uncover High-Impact Optimization Opportunities (June 16, 2022)
@@ -143,10 +119,6 @@ Learn how as we enter the new normal—one that is more digital than ever before
 * [Recording link](https://optimization.dxfieldmarketing.adobeevents.com/){target=_blank}
 
 +++Details
-
-* **Thursday, June 16, 2022**
-* **1:00 to 2:00 p.m. (EDT, UTC-4)**
-* **[More information and registration information](https://optimization.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
 Join Kaitlin White (Adobe Product Marketing Manager) as we share tried-and-true strategies to help you kickstart your personalization program, including: 
 
@@ -185,7 +157,8 @@ Learn how financial services companies are supporting and informing customers us
 +++Details
 
 Join Christopher Young (Director, Industry Strategy Financial Services) and James Capasso (Target Consultant, Adobe Premier Support), to learn how brands are responding to immediate changes in demand while putting personalization at the center of their customer engagements. Learn how financial services companies are supporting and informing customers all over the world who are concerned about recent inflation patterns and circumstances on their investments.
-+++ 
+
++++
 
 ### City National Bank: How to Achieve the Top 1% in Digital Optimization (May 26, 2022)
 
@@ -230,6 +203,7 @@ In this session, learn how [!DNL Adobe Target] bridges the gap on combining data
 More than ever, marketers, product owners, and developers are being tasked with optimizing the overall customer experience on sites, in apps, and everywhere else they connect with their customers. Multiple tools with data silos and complicated implementations won't cut it.
 
 In this recorded webinar, Adobe Target product experts discuss how moving critical experience optimization decisions on-device to execute locally with zero latency can open doors to exciting new use cases while improving site performance for your customers.
+
 +++
 
 ### Webinar: How HSBC leverages Adobe [!DNL Target] and AI to rapidly optimize and deliver personalization at scale
@@ -249,6 +223,7 @@ Join Adobe and HSBC for this webinar to learn:
 * How HSBC has built a successful program at scale delivering 3000+ activities
 
 *McKinsey article: "[The COVID-19 recovery will be digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)," May 2020
+
 +++
 
 ### [!DNL Adobe Target] Skill Builder: Developer chat, migrate [!DNL Adobe Target]'s mbox.js to at.js {#skill-builder}
