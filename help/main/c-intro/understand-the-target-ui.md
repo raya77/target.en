@@ -49,7 +49,7 @@ The panel contains tabs for [!UICONTROL Notifications] and [!UICONTROL Announcem
 
 The following sections contain information about each tab, and how to configure notifications and announcements:
 
-### Notifications
+### Notifications {#notifications}
 
 [!DNL Target] event notifications include the following:
 
@@ -80,6 +80,7 @@ The following sections contain information about each tab, and how to configure 
 
   * `Feed  {target.feed.name} has been activated`
   * `Feed {target.feed.name} has been deactivated`
+  * `Feed {target.feed.name} has failed`
   * `Feed {target.feed.name} has failed to import from source`
 
 You can mark individual notifications as read by hovering over the desired notification and then clicking the checkmark. You can mark all notifications as read or view all notifications by clicking [!UICONTROL "Mark as Read"] or [!UICONTROL "View All"] at the bottom of the panel.
