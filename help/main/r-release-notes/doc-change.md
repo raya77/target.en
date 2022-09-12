@@ -9,6 +9,13 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 
 This page lists significant changes made to the [!DNL Adobe Target] product documentation.
 
+## [!DNL Adobe Target] Standard/Premium 22.9.1 (staggered release September 13-15, 2022)
+
+|Date|Topic|Changes|
+| --- | --- | --- |
+|August 22|[Understand the [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)|Added information about notifications when a [!DNL Recommendations] feed fails.|
+||[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 22.9.1 release.|
+
 ## Adobe Target Standard/Premium 22.8.1 (staggered release: August 17-18, 2022)
 
 |Date|Topic|Changes|

@@ -17,6 +17,57 @@ Release notes are arraigned in descending order by month and year of release.
 
 ## Release notes - 2022
 
+### [!DNL Target Standard/Premium] 22.8.1 (staggered release August 17-18, 2022)
+
+This maintenance release includes backend and localization fixes.
+
+### [!DNL Target] platform release (July 20, 2022)
+
+This release contains the following features, enhancements, and fixes:
+
+|Feature|Description|
+| --- | --- |
+|Improved audience evaluation accuracy and reduced end-user latency through IPv6 support (TNT-43364, TNT-44692) |Visitors' geo-locations are now determined by IPv6 addresses, if available, as opposed to only IPv4 addresses. Delivery APIs also support IPv6 input parameters. Filtering and allow-listing support both IPv4 and IPv6 addresses. The IPv6 support in this release means visitors will be more accurately included in audiences (more accurately qualify for activities or be included in filtering criteria). It also improves data latency, as IPv6 clients will route directly, avoiding the overhead of the the IPv6-to-IPv4 gateway.|
+|Fixed A4T client-side payload handling issue (TNT-44926)|With A4T server-side integration, if Adobe Target identifies a request as coming from a bot, it does not forward the payload to Analytics, and there is no mod_stats event in recorded in the [!DNL Target] logs. With this release, A4T client-side logging has been enhanced so that the behavior regarding the A4T payload is the same as with A4T server-side: Visitors that are identified as bots are excluded from [!DNL Target] counting/reporting. (Note the issue in question was limited to implementations that used client-side payload handling; server-side was not impacted. With this release, the behavior is now consistent for both server-side and client-side payload handling.)|
+
+### [!DNL Target Standard/Premium] 22.6.2 (June 30, 2022)
+
+This release contains the following features, enhancements, and fixes:
+
+|Feature|Description|
+| --- | ---  |
+|In-product notifications|Get the following relevant in-product notifications:<ul><li>**Activities**: Notifications for all activity types when an activity is approved or deactivated, either manually or when it reaches its start or end date. The notification includes the name of the activity with a link to the activity's overview page.</li><li>**Profile scripts** Notifications when a profile script is activated or deactivated, either manually or by Target.</li><li>**Recommendations feeds**: Notifications when a Recommendations feed is activated or deactivated, either manually or by Target. Notifications are also sent when a Recommendations feed fails.</li></ul> By default, notifications are received by product admins, publishers, and approvers. Notifications are configurable inside Experience Cloud preferences.<br>For more information see [Notifications and announcements](/help/main/c-intro/understand-the-target-ui.md#notifications-announcements).|
+|*Adobe Target Developer Guide*|The *Adobe Target Developer Guide* consolidates all [!DNL Target] developer content in one convenient guide. The guide includes information about implementing [!DNL Target] and [!DNL Recommendations], [!DNL Target] SDKs, and [!DNL Target] APIs.<br>For more information, see [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.|
+
+* Users with the [!UICONTROL Editor] role can no longer edit audiences in live activities. (TGT-43582)
+* A warning message displays if a customer attempts to save an audience with an exclamation mark ( ! ) as the first character of the audience's name (for example !London). (TGT-43643)
+* Fixed an issue that caused audiences definition details cards for some customers to indicate that an ended activity is still live. (TGT-43527)
+
+### [!DNL Target Standard/Premium] 22.6.1 (staggered release: June 7-9, 2022)
+
+This release will be available according to the following staggered schedule:
+
+* **June 7**: Asia-Pacific (APAC) region
+* **June 8**: Americas region
+* **June 9**: Europe, Middle East, and Africa (EMEA) region
+
+This release contains the following enhancements and fixes:
+
+* An enhancement was delivered for the new [!UICONTROL Audiences] page to prevent an inconsistent state between the old database where the audiences were stored in the past and the new architecture that is retrieving the information directly from the backend. (TGT-43552)
+* Fixed an issue that prevented some customers from saving combined audiences caused by the Target UI creating "empty" containers. (TGT-43588)
+
+### Target platform release (May 25, 2022)
+
+This release contains the following enhancements and fixes:
+
+* Added [User Agent Client Hints](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank} support.
+* Fixed an issue that intermittently caused timeouts when rendering [!UICONTROL Offer Decisions] in [!UICONTROL Experience Targeting] (XT) activities. (TNT-44611)
+
+### at.js version 2.9.0 (May 27, 2022) 
+
+* Added [User Agent Client Hints](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank} support.
+* Fixed a bug where multiple mbox requests on the same page have different impression IDs.
+
 ### [!DNL Target Standard/Premium] 22.5.1 (staggered release; May 11-13, 2022)
 
 This release will be available according to the following staggered schedule:
