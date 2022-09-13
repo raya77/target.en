@@ -34,7 +34,7 @@ This release contains the following enhancements and fixes:
 * Made UI updates to ensure that certain drag-and-drop actions are accessible by keyboard. (TGT-42969)
 * Made UI updates to ensure that text stings are properly localized.
 
-## at.js version 2.10.0
+## at.js version 2.10.0 (September 13, 2022)
 
 * Added a [!UICONTROL Cross-Domain] option when downloading at.js 2.10.0 (and later) to allow or disable setting 3rd-party cookies. (TGT-43674)
 
