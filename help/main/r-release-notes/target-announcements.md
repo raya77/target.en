@@ -32,6 +32,29 @@ Automation in experimentation and personalization continues to drive the highest
 
 +++
 
+### Fine-Tuning AI-Powered Personalization: New Features in [!DNL Adobe Target] (October 11, 2022)
+
+Please join us for this special product announcement webinar!  
+  
+We are excited to share some "very big," ground-breaking news in terms of personalization at scale with [!DNL Adobe Target]: new filtering and intelligence that will enhance the ability of [!DNL Target] users to fine-tune AI-powered personalization activities in order to directly impact the business metrics that matter most on a per activity basis.
+
++++Details
+
+This new product announcement is timely and hyper-critical, as we've seen the need for personalization ratchet up, regardless of industry, in the past few years. It has become a means for companies to critically differentiate themselves from the competition throughout their customer journey. Personalization can be highly effective "everywhere:" beginning at a visitor's first touch, leveraging basic data for acquisition use cases, all the way through to customer service and loyalty use cases.
+
+In this session, learn how you can super-charge conversion lift by taking advantage of [!DNL Adobe Target]'s new features as we discuss:
+
+* Enhanced model controls within [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] activities
+* Unlocking the ability to evaluate profile attributes and high-value segments from [!DNL Adobe]'s [!DNL Real-Time Customer Data Platform]
+* How brands can deliver faster speeds and decisioning by fine-tuning their AI-powered algorithms
+* Unique use cases for delivering 1-to-1 personalization
+
+* **Tuesday, October 11, 2022**
+* **1:00 to 2:00 p.m. (EDT, UTC-4)**
+* **[More information and registration information](https://fine-tuning-ai-powered-personalization-in-adobe-target.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
++++
+
 ## Recordings of past webinars and skill-builder sessions
 
 Access recordings of past events (when available):
