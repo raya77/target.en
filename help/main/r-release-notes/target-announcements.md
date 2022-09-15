@@ -63,9 +63,13 @@ Access recordings of past events (when available):
 
 Mobile experiences are fueling innovation in how marketing and engineering teams are leveraging product-led strategies for cross-channel personalization in web and app. Join the [!DNL Adobe] Skill Builders session and learn how [!DNL Adobe Target] unlocks new potential engagement and revenue growth for marketers, developers, and product owners to build thriving product communities.
 
+* [Recording link](https://video.tv.adobe.com/v/347360){target=_blank}
+
 ### Chef's Collection: Recipes for Personalization (August 30, 2022)
 
 Join the [!DNL Adobe Target] [!DNL ]team as they serve up some fresh ideas on how you can get the most value out of Target. Based on our newest eBook, "Chef's Collection: Ideas for Personalization".
+
+* [Recording link](https://video.tv.adobe.com/v/346970/){target=_blank}
 
 +++Details
 
