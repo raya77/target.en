@@ -13,7 +13,8 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|August 22|[Understand the [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)|Added information about notifications when a [!DNL Recommendations] feed fails.|
+|September 15|[[!DNL Adobe Target] announcements and events](/help/main/r-release-notes/target-announcements.md)|Added information about the following webinar:<ul><li>Fine-Tuning AI-Powered Personalization: New Features in [!DNL Adobe Target] (October 11, 2022)</li></ul>|
+|September 13|[Understand the [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)|Added information about notifications when a [!DNL Recommendations] feed fails.|
 ||[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 22.9.1 release.|
 
 ## Adobe Target Standard/Premium 22.8.1 (staggered release: August 17-18, 2022)
