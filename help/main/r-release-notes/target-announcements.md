@@ -85,18 +85,18 @@ Explore ideas on:
 
 Growing loyalty in a time of accelerated supply chain issues, service failures, and limited staffing is a challenge most travel, hospitality and dining brands are facing. In the age of AI, how do brands scale experiences without the needed resources that have left the industry. Digital progress has accelerated 20-25 faster to support not only accelerated customer expectations, but also to scale teams through automation.
 
-+++Details
+* +++Details
 
-In 2022, systems have reached a tipping point in the ability to provide continuous intelligence to deliver on real time loyalty activation.
+  In 2022, systems have reached a tipping point in the ability to provide continuous intelligence to deliver on real time loyalty activation.
 
-Topics we'll explore:
+  Topics we'll explore:
 
-* The acceleration of digital disruption & rise of AI 
-* Why early adopters are winning in both top-line and bottom-line growth 
-* Automating personalization in travel 
-* Real Time Loyalty Activation in action
+  * The acceleration of digital disruption & rise of AI 
+  * Why early adopters are winning in both top-line and bottom-line growth 
+  * Automating personalization in travel 
+  * Real Time Loyalty Activation in action
 
-+++
+  +++
 
 ### [!DNL Adobe]: Personalization Industry Insider - Retail (August 11, 2022)
 
@@ -104,11 +104,11 @@ Topics we'll explore:
 
 * [Recording link](https://video.tv.adobe.com/v/346323){target=_blank}
 
-+++Details
+* +++Details
 
-Join Michael Klein (Director, Industry Strategy Retail) and Leina Betzer (Target Consultant, Adobe Premier Support) to discuss how retail ecommerce sales are skyrocketing as consumer buying patterns and behaviors shift, with higher demand for goods and services in certain markets.
+  Join Michael Klein (Director, Industry Strategy Retail) and Leina Betzer (Target Consultant, Adobe Premier Support) to discuss how retail ecommerce sales are skyrocketing as consumer buying patterns and behaviors shift, with higher demand for goods and services in certain markets.
 
-+++
+  +++
 
 ### [!DNL Adobe]: Personalization with Precision - [!DNL Adobe Analytics] and [!DNL Target] (June 2, 2022) 
 
