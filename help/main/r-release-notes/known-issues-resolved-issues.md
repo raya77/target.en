@@ -21,12 +21,6 @@ The following sections list the known issues for [!DNL Target]:
 
 Avoid deleting locations in an activity created in the Form-Based Experience Composer if those locations use ad-hoc offers (offers created inside the activity). Deleting locations can cause the activity to become corrupt. The [!DNL Target] team is working on a fix for this. As a workaround, you can create global offers from the [!UICONTROL Offer library] and use them with locations, or you can create new experiences, if needed. (KB-2014)
 
-### Analytics for Adobe Target (A4T) metrics for Auto-Allocate and Auto-Target activities
-
-The [!DNL Target] UI lets users select unsupported engagement and revenue metrics as the primary goal metric for optimization in [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities. Conversion metrics are supported; engagement and revenue metrics are *not* supported. If you select engagement or revenue goal metrics, an optimization model is not built.
-
-For a list of supported and unsupported goal metrics, see [A4T support for Auto-Allocate and Auto-Target activities](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
-
 ### The Enhanced Experience Composer (EEC) does not support PUT requests.
 
 An issue with the EEC currently prevents it from supporting PUT requests and results in a 504 timeout error. (TGT-41493)
@@ -116,6 +110,12 @@ The source of truth is always the displayed report in the [!DNL Target] UI.
 ## Resolved Issues {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 As known issues above are resolved, they are moved to the following sections. Additional notes, if necessary, are added.
+
+### Analytics for Adobe Target (A4T) metrics for Auto-Allocate and Auto-Target activities
+
+The [!DNL Target] UI lets users select unsupported engagement and revenue metrics as the primary goal metric for optimization in [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities. Conversion metrics are supported; engagement and revenue metrics are *not* supported. If you select engagement or revenue goal metrics, an optimization model is not built.
+
+For a list of supported and unsupported goal metrics, see [A4T support for Auto-Allocate and Auto-Target activities](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
 
 ### Traffic distribution of [!DNL Auto-Allocate] activities using A4T {#aa-a4t}
 
