@@ -21,12 +21,6 @@ The following sections list the known issues for [!DNL Target]:
 
 Avoid deleting locations in an activity created in the Form-Based Experience Composer if those locations use ad-hoc offers (offers created inside the activity). Deleting locations can cause the activity to become corrupt. The [!DNL Target] team is working on a fix for this. As a workaround, you can create global offers from the [!UICONTROL Offer library] and use them with locations, or you can create new experiences, if needed. (KB-2014)
 
-### Traffic distribution of Auto-Allocate activities using A4T {#aa-a4t}
-
-In some cases, the traffic distribution of [!UICONTROL Auto-Allocate] activities using [!UICONTROL Analytics for Target] (A4T) might vary from what should occur based on the reported conversion rate of each experience. This occurs more often for activities with a high proportion of return visitor traffic. Affected customers will be notified about affected activities.
-
-Until this issue is resolved, use [!UICONTROL Auto-Allocate] with standard [!DNL Target] reporting or use standard A/B tests with [!DNL Analytics] reporting as an alternative to [!UICONTROL Auto-Allocate] with [!DNL Analytics] reporting. (TOP-131)
-
 ### Analytics for Adobe Target (A4T) metrics for Auto-Allocate and Auto-Target activities
 
 The [!DNL Target] UI lets users select unsupported engagement and revenue metrics as the primary goal metric for optimization in [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities. Conversion metrics are supported; engagement and revenue metrics are *not* supported. If you select engagement or revenue goal metrics, an optimization model is not built.
@@ -123,6 +117,10 @@ The source of truth is always the displayed report in the [!DNL Target] UI.
 
 As known issues above are resolved, they are moved to the following sections. Additional notes, if necessary, are added.
 
+### Traffic distribution of [!DNL Auto-Allocate] activities using A4T {#aa-a4t}
+
+In some cases, the traffic distribution of [!UICONTROL Auto-Allocate] activities using [!UICONTROL Analytics for Target] (A4T) might vary from what should occur based on the reported conversion rate of each experience. This occurs more often for activities with a high proportion of return visitor traffic. (TOP-131)
+
 ### at.js
 
 * If you create an experience with no modifications using at.js 2.1.1 or earlier (for example, a default experience), the experience might not be counted in reports, Analytics for Target (A4T), Adobe Analytics, or Google Analytics. In addition, the ttMeta plug-in might not work correctly.
@@ -155,9 +153,9 @@ This issue was fixed in January 2022. (TNT-37455)
 
 If you add a template rule, such as URL contains (/checkout, /cart) in [page delivery](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), extra spaces are prefixed to your rules. These extra spaces are cosmetic and do not affect audience-definition creation and offer delivery. (TGT-35920)
 
-### Image offers showing “Processing” label
+### Image offers showing "Processing" label
 
-Image offers on the Offers page sometimes retain the “processing” label for several hours after the images were uploaded. In most cases this is an issue with the label only: the image offers can still be used in activities and be delivered. (MCUI-10264, TGT-37458)
+Image offers on the Offers page sometimes retain the "processing" label for several hours after the images were uploaded. In most cases this is an issue with the label only: the image offers can still be used in activities and be delivered. (MCUI-10264, TGT-37458)
 
 This issue was fixed in the Target Standard/Premium 20.10.1 release.
 
@@ -194,7 +192,7 @@ If you have further questions, reach out to your Customer Success Manager (CSM) 
 
 ### Auto-Target reporting {#at-metrics}
 
-An issue has been resolved that impacted [!DNL Adobe Target Premium] users’ [!UICONTROL Auto-Target] reporting from September 15, 2:30 p.m. (PDT) to October 6, 9:25 a.m. (PDT). When viewing reports for the impacted conversion metrics (configured using either the "[!UICONTROL Viewed a page]” or “[!UICONTROL Clicked on mbox]” option), the conversions rates are incorrectly reported. There is no known delivery issue at this time.
+An issue has been resolved that impacted [!DNL Adobe Target Premium] users' [!UICONTROL Auto-Target] reporting from September 15, 2:30 p.m. (PDT) to October 6, 9:25 a.m. (PDT). When viewing reports for the impacted conversion metrics (configured using either the "[!UICONTROL Viewed a page]" or "[!UICONTROL Clicked on mbox]" option), the conversions rates are incorrectly reported. There is no known delivery issue at this time.
 
 To resynchronize and correct your reporting:
 
@@ -230,7 +228,7 @@ This issue was resolved.
 
 ### Pages not loading in the Visual Experience Composer (VEC) or Enhanced Experience Composer (EEC) when using Google Chrome version 80+
 
-This known issue is regarding Google's decision in changing the default behavior of cookies without the SameSite Attribute starting with Chrome version 80. Before the change Chrome defaulted all cookies without the SameSite attribute to “SameSite=None” and now it defaults to “SameSite=Lax” and this changes the way cookies are sent on GET and POST requests. See [SameSite Updates](https://www.chromium.org/updates/same-site).
+This known issue is regarding Google's decision in changing the default behavior of cookies without the SameSite Attribute starting with Chrome version 80. Before the change Chrome defaulted all cookies without the SameSite attribute to "SameSite=None" and now it defaults to "SameSite=Lax" and this changes the way cookies are sent on GET and POST requests. See [SameSite Updates](https://www.chromium.org/updates/same-site).
 
 For more information and a fix, see "How do the recently announced Google Chrome SameSite cookie enforcement policies impact the VEC and EEC?" in [Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
@@ -402,7 +400,7 @@ A fix for this issue has been made to at.js version 0.9.7 released May 22, 2017.
 
 ### Reporting: A/B and Experience Targeting (XT) activities
 
-Between April 27 at 9:00 p.m. PST and May 5 at 6:00 a.m. PST, A/B and XT activities created or edited with any metrics using the “Viewed a Page” conversion action (that were not based on other metrics), might have incorrectly recorded conversions. This issue is now resolved; however, reporting on the “Viewed a Page” conversion action for these activities during the impacted time period might not be accurate and, unfortunately, cannot be corrected. We recommend that for any decisions based on “Viewed a Page” conversion actions for these activities you rely only on data recorded before or after the impacted period.
+Between April 27 at 9:00 p.m. PST and May 5 at 6:00 a.m. PST, A/B and XT activities created or edited with any metrics using the "Viewed a Page" conversion action (that were not based on other metrics), might have incorrectly recorded conversions. This issue is now resolved; however, reporting on the "Viewed a Page" conversion action for these activities during the impacted time period might not be accurate and, unfortunately, cannot be corrected. We recommend that for any decisions based on "Viewed a Page" conversion actions for these activities you rely only on data recorded before or after the impacted period.
 
 Reporting data for other metrics can still be used because they were not impacted.
 
