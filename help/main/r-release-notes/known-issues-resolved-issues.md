@@ -17,10 +17,6 @@ Information about known issues for [!DNL Adobe Target]. Also includes informatio
 
 The following sections list the known issues for [!DNL Target]:
 
-### Deleting locations that have ad-hoc offers in activities created in the Form-Based Experience Composer {#ad-hoc}
-
-Avoid deleting locations in an activity created in the Form-Based Experience Composer if those locations use ad-hoc offers (offers created inside the activity). Deleting locations can cause the activity to become corrupt. The [!DNL Target] team is working on a fix for this. As a workaround, you can create global offers from the [!UICONTROL Offer library] and use them with locations, or you can create new experiences, if needed. (KB-2014)
-
 ### The Enhanced Experience Composer (EEC) does not support PUT requests.
 
 An issue with the EEC currently prevents it from supporting PUT requests and results in a 504 timeout error. (TGT-41493)
@@ -110,6 +106,10 @@ The source of truth is always the displayed report in the [!DNL Target] UI.
 ## Resolved Issues {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 As known issues above are resolved, they are moved to the following sections. Additional notes, if necessary, are added.
+
+### Deleting locations that have ad-hoc offers in activities created in the Form-Based Experience Composer {#ad-hoc}
+
+Avoid deleting locations in an activity created in the Form-Based Experience Composer if those locations use ad-hoc offers (offers created inside the activity). Deleting locations can cause the activity to become corrupt. The [!DNL Target] team is working on a fix for this. As a workaround, you can create global offers from the [!UICONTROL Offer library] and use them with locations, or you can create new experiences, if needed. (KB-2014)
 
 ### Analytics for Adobe Target (A4T) metrics for Auto-Allocate and Auto-Target activities
 
