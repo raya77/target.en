@@ -93,10 +93,6 @@ When using Target activity impressions and conversions in Analysis Workspace, ap
 
 All current Analytics packages can add this model with Attribution IQ. If you do not have access to Attribution IQ, please rely on A4T data in Reports & Analytics.
 
-### Target APIs
-
-Customers cannot perform CRUD operations on Auto-Allocate activities through the v3 version of the A/B Activities API on Adobe I/O.
-
 ### Reporting - Inconsistent data in the downloadable .csv report versus the displayed report in the [!DNL Target] UI. {#csv}
 
 Reports generated for download as .csv files are inconsistent if the activity uses more than one metric. The downloadable report is generated based on the report settings only and considers the same value for any other metrics used.
