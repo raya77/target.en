@@ -293,8 +293,8 @@ The following size limits apply to offers:
 
   This refers to the number of line-separated values in the targeting text area. For example, entering 1,000 zip codes into a zip code target.
 
-### Targeting rules
+### Targeting rules {#targeting}
 
 * **Recommended limit**: 2,500 characters per targeting rule value.
-* **Recommended limit**: 30,000 unique values per audience across targeting rules.
+* **Recommended limit**: 50,000 unique values per audience across targeting rules.
 * **Recommended limit**: 100,000 unique targeting rule values per activity.
