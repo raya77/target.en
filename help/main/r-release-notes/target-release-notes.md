@@ -9,7 +9,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: September 7, 2022**
+**Last Updated: September 27, 2022**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages could be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
@@ -34,7 +34,7 @@ This release contains the following new features, enhancements, and fixes:
 * Fixed an issue that prevented some customers from archiving [!UICONTROL A/B Test] activities that use [!UICONTROL Auto-Target]. (TGT-40978)
 * Added the ability to automatically use a single offer in multiple locations within a single reporting group. (TGT-43974)
 * Added the ability to filter experience fragments by type (HTML or JSON) in the [!UICONTROL Offers] list. (TGT-43121)
-* Fixed an issue that allowed customers to insert JSON [!UICONTROL Experience Fragment] offers when using the VEC. JSON offers can only be inserted using the [!UICONTROL Form-Based Experience] composer. (TGT-43846)
+* Fixed an issue that allowed customers to insert JSON [!UICONTROL Experience Fragment] offers when using the VEC, which is not supported. JSON offers can be inserted only when using the [!UICONTROL Form-Based Experience] composer. (TGT-43846)
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 
