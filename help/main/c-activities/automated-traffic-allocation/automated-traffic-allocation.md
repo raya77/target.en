@@ -23,7 +23,7 @@ Standard A/B tests have an inherent cost. You must spend traffic to measure perf
 
 A normal A/B test in [!DNL Target] shows only pairwise comparisons of challengers with control. For example, if an activity has experiences: A, B, C, and D where A is the control, a normal [!DNL Target] A/B test would compare A versus B, A versus C, and A versus D.
 
-In such tests, most products, including [!DNL Target], use a Student's t-test to produce p-value-based confidence. This confidence value is then used to determine if the challenger is sufficiently different from the control. However, [!DNL Target] doesn't automatically perform the implicit comparisons (B versus C, B versus D, and C versus D) that are required in order to find the "best" experience. As a result, the marketer must manually analyze the results to determine the "best" experience.
+In such tests, most products, including [!DNL Target], use a [Welch's t-test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} to produce p-value-based confidence. This confidence value is then used to determine if the challenger is sufficiently different from the control. However, [!DNL Target] doesn't automatically perform the implicit comparisons (B versus C, B versus D, and C versus D) that are required in order to find the "best" experience. As a result, the marketer must manually analyze the results to determine the "best" experience.
 
 [!UICONTROL Auto-Allocate] performs all implicit comparisons across experiences and produces a "true" winner. There is no notion of a "control" experience in the test.
 

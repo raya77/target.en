@@ -84,7 +84,7 @@ After performing the preceding tasks, the experience fragment displays on the [!
 >
 >* [!DNL Target] currently looks for experience fragments to import every ten minutes. The imported experience fragment should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
 >
->* The experience fragment is imported into [!DNL Target] as an HTML offer. That experience fragment "primary" version remains in [!DNL AEM]. You cannot edit the experience fragment in [!DNL Target].
+>* The experience fragment is imported into [!DNL Target] as an HTML or JSON offer. That experience fragment "primary" version remains in [!DNL AEM]. You cannot edit the experience fragment in [!DNL Target].
 
 You can hover over an experience fragment in the list, then click the [!UICONTROL View] icon ![View icon](assets/icon_info.png) to see additional information about the experience fragment, including its public offer delivery URL and its [!DNL AEM] path.
 
@@ -125,6 +125,10 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
     * **Multivariate Test (MVT):** [Create a Multivariate Test](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710) 
     * **Recommendations:** [Create a Recommendations Activity](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
+>[!NOTE]
+>
+>Experience fragments exported as JSON in [!DNL Target] cannot be used in activities created using the VEC; only HTML experience fragments are supported in VEC-based activities. If you would like to use JSON experience fragments, use them in activities created using the [Form-based experience composer](/help/main/c-experiences/form-experience-composer.md).
+
 **To consume experience fragments using the Form-based Experience Composer:**
 
 1. In [!DNL Target], while creating or editing an experience in the [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), select the location on the page where you want to insert [!DNL AEM] content, then select **[!UICONTROL Change Experience Fragment]** to display the [!UICONTROL Choose an Experience Fragment] list.
@@ -139,7 +143,7 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 ## Considerations {#considerations}
 
 * [!DNL Target] currently looks for experience fragments to import every ten minutes. The imported experience fragment should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
-* The experience fragment is imported into [!DNL Target] as an HTML offer. The experience fragment "primary" version remains in [!DNL AEM]. You cannot edit the experience fragment in [!DNL Target].
+* The experience fragment is imported into [!DNL Target] as an HTML or JSON offer. The experience fragment "primary" version remains in [!DNL AEM]. You cannot edit the experience fragment in [!DNL Target].
 * You cannot create experience fragments using [!DNL Adobe I/O]. Create experience fragments using AEM, as explained above.
 * If you update your experience fragment in AEM, the experience fragment must be published and exported to [!DNL Target] again so [!DNL Target] can use the latest changes.
 

@@ -12,52 +12,31 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## [!DNL Target] platform release (July 20, 2022)
-
-This release contains the following features, enhancements, and fixes:
-
-|Feature|Description|
-| --- | --- |
-|Improved audience evaluation accuracy and reduced end-user latency through IPv6 support (TNT-43364, TNT-44692) |Visitors' geo-locations are now determined by IPv6 addresses, if available, as opposed to only IPv4 addresses. Delivery APIs also support IPv6 input parameters. Filtering and allow-listing support both IPv4 and IPv6 addresses. The IPv6 support in this release means visitors will be more accurately included in audiences (more accurately qualify for activities or be included in filtering criteria). It also improves data latency, as IPv6 clients will route directly, avoiding the overhead of the the IPv6-to-IPv4 gateway.|
-|Fixed A4T client-side payload handling issue (TNT-44926)|With A4T server-side integration, if Adobe Target identifies a request as coming from a bot, it does not forward the payload to Analytics, and there is no mod_stats event in recorded in the [!DNL Target] logs. With this release, A4T client-side logging has been enhanced so that the behavior regarding the A4T payload is the same as with A4T server-side: Visitors that are identified as bots are excluded from [!DNL Target] counting/reporting. (Note the issue in question was limited to implementations that used client-side payload handling; server-side was not impacted. With this release, the behavior is now consistent for both server-side and client-side payload handling.)|
-
-## [!DNL Target Standard/Premium] 22.6.2 (June 30, 2022)
-
-This release contains the following features, enhancements, and fixes:
-
-|Feature|Description|
-| --- | ---  |
-|In-product notifications|Get the following relevant in-product notifications:<ul><li>**Activities**: Notifications for all activity types when an activity is approved or deactivated, either manually or when it reaches its start or end date. The notification includes the name of the activity with a link to the activity’s overview page.</li><li>**Profile scripts** Notifications when a profile script is activated or deactivated, either manually or by Target.</li><li>**Recommendations feeds**: Notifications when a Recommendations feed is activated or deactivated, either manually or by Target. Notifications are also sent when a Recommendations feed fails.</li></ul> By default, notifications are received by product admins, publishers, and approvers. Notifications are configurable inside Experience Cloud preferences.<br>For more information see [Notifications and announcements](/help/main/c-intro/understand-the-target-ui.md#notifications-announcements).|
-|*Adobe Target Developer Guide*|The *Adobe Target Developer Guide* consolidates all [!DNL Target] developer content in one convenient guide. The guide includes information about implementing [!DNL Target] and [!DNL Recommendations], [!DNL Target] SDKs, and [!DNL Target] APIs.<br>For more information, see [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.|
-
-* Users with the [!UICONTROL Editor] role can no longer edit audiences in live activities. (TGT-43582)
-* A warning message displays if a customer attempts to save an audience with an exclamation mark ( ! ) as the first character of the audience's name (for example !London). (TGT-43643)
-* Fixed an issue that caused audiences definition details cards for some customers to indicate that an ended activity is still live. (TGT-43527)
-
-## [!DNL Target Standard/Premium] 22.6.1 (staggered release: June 7-9, 2022)
+## [!DNL Target] Standard/Premium 22.9.1 (staggered release September 13-15, 2022)
 
 This release will be available according to the following staggered schedule:
 
-* **June 7**: Asia-Pacific (APAC) region
-* **June 8**: Americas region
-* **June 9**: Europe, Middle East, and Africa (EMEA) region
+* **September 13**: Europe, Middle East, and Africa (EMEA) region
+* **September 14**: Americas region
+* **September 15**: Asia-Pacific (APAC) region
 
 This release contains the following enhancements and fixes:
 
-* An enhancement was delivered for the new [!UICONTROL Audiences] page to prevent an inconsistent state between the old database where the audiences were stored in the past and the new architecture that is retrieving the information directly from the backend. (TGT-43552)
-* Fixed an issue that prevented some customers from saving combined audiences caused by the Target UI creating "empty" containers. (TGT-43588)
+* Added a [!UICONTROL Cross-Domain] option when downloading at.js 2.10.0 (and later) to allow or disable setting 3rd-party cookies. (TGT-43674)
+* Updated notifications in the [!DNL Target] UI to inform customers if the import of [!DNL Recommendations] feeds fails. (TGT-35811)
+* Fixed an issue that caused [!UICONTROL Decision Offers] to not work properly within the [!UICONTROL Visual Experience Composer] (VEC). (TGT-43866)
+* Fixed an issue that caused an error message to display when selecting the [!UICONTROL Clicked an Element] conversion goal while creating an [!UICONTROL Multivariate Testing] (MVT) activity. (TGT-43842)
+* Fixed an issue that prevented the [!UICONTROL Impressions] column from displaying in the downloaded CSV report file for [!UICONTROL Automated Personalization] (AP) activities. (TGT-43780)
+* Fixed an issue that prevented customers from editing HTML/JSON offers after duplicating experiences when using the [!UICONTROL Form-Based Experience Composer]. (TGT-43633)
+* Fixed an issue that prevented customers from copying an [!UICONTROL A/B Test] activity from a non-default workspace to another non-default workspace. (TGT-41910)
+* Fixed an issue to ensure that customers can properly display usages of [!DNL Recommendations] objects (designs, criteria, collections, and so forth) in [!UICONTROL A/B Test] and [!UICONTROL Experience Targeting] (XT) activities that contain recommendations and also delete criteria objects that are no longer in use from [!DNL Target] UI and [!DNL Recommendations] backend. (TGT-42331)
+* Fixed an issue that causes a network timeout alert to appear in the [!DNL Target] UI when fetching parameters. (TGT-43737)
+* Made UI updates to ensure that certain drag-and-drop actions are accessible by keyboard. (TGT-42969)
+* Made UI updates to ensure that text stings are properly localized.
 
-## Target platform release (May 25, 2022)
+## at.js version 2.10.0 (September 13, 2022)
 
-This release contains the following enhancements and fixes:
-
-* Added [User Agent Client Hints](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank} support.
-* Fixed an issue that intermittently caused timeouts when rendering [!UICONTROL Offer Decisions] in [!UICONTROL Experience Targeting] (XT) activities. (TNT-44611)
-
-## at.js version 2.9.0 (May 27, 2022) 
-
-* Added [User Agent Client Hints](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank} support.
-* Fixed a bug where multiple mbox requests on the same page have different impression IDs.
+* Added a [!UICONTROL Cross-Domain] option when downloading at.js 2.10.0 (and later) to allow or disable setting 3rd-party cookies. (TGT-43674)
 
 ## Additional release notes and version details
 
