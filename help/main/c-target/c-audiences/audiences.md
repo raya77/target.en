@@ -113,10 +113,10 @@ This integration unlocks key use cases with Real-time CDP:
 Key features include:
 
 * Direct Target integration with Real-time CDP/[!DNL Adobe Experience Platform] on the Edge (removing dependency on [!DNL Audience Core services] - AAM)
-* [!UICONTROL Target Edge Destinations Card] with governance enforcement
+* [!UICONTROL Target Edge Destinations Card] with governance and policy enforcement
 * Real-time CDP Segments and Shared Profile Attributes
 
-Real-time CDP Profile Attribute's feature limitations and considerations:
+Real-time CDP Profile Attributes feature limitations and considerations:
 
 * Attributes within a given offer must be from the same AEP Sandbox. (In other words, an offer cannot contain attributes from different AEP Sandboxes.)
 * Attributes within a given offer may come from different Sources; namely, the Target profile and the AEP profile.(In other words, you can combine attributes whether they come from Target or from the AEP profile.)
