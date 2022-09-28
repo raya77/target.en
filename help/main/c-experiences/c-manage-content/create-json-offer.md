@@ -125,6 +125,16 @@ adobe.target.getOffer({
 });
 ```
 
+## JSON offer example using Real-time CDP Profile Attributes
+
+Real-time CDP Profile Attributes may be shared with Target for use in HTML offer and JSON offers. (Note this feature is currently in Beta.)
+
+Sample use case: As an online marketer, Grace wants the AEP/Unified Profile to share attribute values with Target in order to provide real-time personalization. By using Real-time CDP Profile Attributes, Grace can display the value of the AEP attribute in a Target offer using token replace. For example, she can personalize according to a customer's favorite color using `${aep.profile.favoriteColor}`, or their loyalty tier and loyalty point value using the tokens `${aep.loyalty.tier}` and `${aep.loyalty.points}`.
+
+![](assets/offer-json-aep-shared-attribute.png)
+
+In the example shown above, note that assigning default values is optional.
+
 ## Filtering offers by the JSON offer type {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
 You can filter the [!UICONTROL Offers] library by the JSON offer type by clicking the **[!UICONTROL Type]** drop-down list, then by selecting the **[!UICONTROL JSON]** checkbox.

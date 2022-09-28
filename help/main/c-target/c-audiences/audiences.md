@@ -102,19 +102,31 @@ Keep the following points in mind as you work with imported audiences:
 ## Use audiences from [!DNL Adobe Experience Platform] {#aep}
 
 Using audiences created in [!DNL Adobe Experience Platform] provide richer customer data that leads to more impactful personalization. The [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCDP), built on [!DNL Adobe Experience Platform], helps companies bring together known and anonymous data from multiple enterprise sources. This process lets you create customer profiles that can be used to provide personalized customer experiences across all channels and devices in real time.
++
+By connecting [!DNL Target] to the [!DNL Real-time Customer Data Platform], customers can enrich their web personalization by unlocking new segments that might have been previously inaccessible to [!DNL Target] to enable real-time millisecond personalization on the first page of a customer's web visit. Using audiences and profile attributes created in [!DNL Adobe Experience Platform] lets you expand the available data points for richer personalization. 
 
-By connecting [!DNL Target] to the [!DNL Real-time Customer Data Platform], customers can enrich their web personalization by unlocking new segments that might have been previously inaccessible to [!DNL Target] to enable real-time millisecond personalization on the first page of a customer's web visit. Using audiences created in [!DNL Adobe Experience Platform] lets you expand the available data points for richer personalization.
-
-This integration unlocks key use cases with RTCDP:
+This integration unlocks key use cases with Real-time CDP:
 
 * Same-page / Next Hit personalization
-* First-time / Unknown users personalization 
+* First-time / Unknown users personalization
 
 Key features include:
 
-* Direct Target integration with RTCDP/[!DNL Adobe Experience Platform] on the Edge (removing dependency on [!DNL Audience Core services] - AAM)
-* [!UICONTROL Target Edge Destinations Card] with governance enforcement
-* Edge Segmentation and Edge Profile with Unified Profile
+* Direct Target integration with Real-time CDP/[!DNL Adobe Experience Platform] on the Edge (removing dependency on [!DNL Audience Core services] - AAM)
+* [!UICONTROL Target Edge Destinations Card] with governance and policy enforcement
+* Real-time CDP Segments and Shared Profile Attributes
+
+Real-time CDP Profile Attributes feature limitations and considerations:
+
+* Attributes within a given offer must be from the same AEP Sandbox. (In other words, an offer cannot contain attributes from different AEP Sandboxes.)
+* Attributes within a given offer may come from different Sources; namely, the Target profile and the AEP profile.(In other words, you can combine attributes whether they come from Target or from the AEP profile.)
+* When defining an offer, you may assign default values for Real-time CDP Profile Attributes, in case the attribute does not have an explicit value. For example, if a consent or governance policy blocks the attribute being used in the personalization service, the default value may be used instead.
+* When shared, Real-time CDP Profile Attributes are used in the Artificial Intelligence/Machine Learning personalization models for Auto-Target and Automated Personalization.
+
+>[!NOTE]
+>
+>The Real-time CDP Profile Attributes feature is currently available in Beta for HTML Offers and [JSON Offers](/help/main/c-experiences/c-manage-content/create-json-offer.md).
+
 
 For more information, see the following topics:
 
