@@ -18,14 +18,14 @@ The [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] browser ext
 * The website is in an iframe.
 * The customer's QA or stage site is not available to the outside world (the site is internal).
 
-The [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] browser extension for Chrome solves site-loading issues for which customers now rely on the [!DNL Target] [!UICONTROL [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec)] or third-party extensions, such as Requestly.
+The [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] browser extension for Chrome solves site-loading issues for which customers now rely on the [!DNL Target] [!UICONTROL [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) or third-party extensions, such as Requestly.
 
 ## Benefits of using the [!UICONTROL Visual Editing Helper] extension
 
 * All iframe busting headers, such as `X-Frame-Options` and `Content-Security-Policy`, are implicitly removed from the website. There is no need to create complicated Requestly rules.
 * If a webpage does not yet contain the [!DNL Target] at.js library, you can use the extension to inject the library so you can author experiences for the website. You can then create activities and QA them using preview links.
 
-Note that using the [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec)], the extension does not inject at.js, but the SameSite Cookie functionality is still present. To inject at.js on the webpage, turn off the EEC.
+Note that using the [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec), the extension does not inject at.js, but the SameSite Cookie functionality is still present. To inject at.js on the webpage, turn off the EEC.
 
 * [Mobile viewports](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) are supported even without the [!UICONTROL Enhanced Experience Composer] (EEC).
 * Customers new to [!DNL Target] can use the extension to experiment with [!DNL Target] even if their IT developers have not yet implemented [!DNL Target] on their websites.
