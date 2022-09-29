@@ -5,7 +5,7 @@ title: How Do I Troubleshoot Issues Related to the Visual Experience Composer an
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
 ---
-# Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer
+# Troubleshooting issues related to the [!UICONTROL Visual Experience Composer] and [!UICONTROL Enhanced Experience Composer]
 
 Display problems and other issues sometimes occur in the [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) and the [!UICONTROL Enhanced Experience Composer] (EEC) under certain conditions.
 
@@ -29,7 +29,7 @@ Be aware of the changes that impact the VEC and EEC when using the following Chr
 
 **Chrome 80 (August 2020)**: With the changes implemented in August 2020, all users with Chrome 80+ browser versions:
 
-* Will *not* be able to download [!DNL Target] libraries while editing an activity (when these aren’t already on the site). This is because the download call is made from the customer domain towards a secured [!DNL Adobe] domain and is rejected as unauthenticated.
+* Will *not* be able to download [!DNL Target] libraries while editing an activity (when these aren't already on the site). This is because the download call is made from the customer domain towards a secured [!DNL Adobe] domain and is rejected as unauthenticated.
 * The EEC will *not* function for all users because it is not able to set the SameSite attribute for cookies on `adobemc.com domain`. Without this attribute, the browser rejects these cookies, causing the EEC to fail.
 
 ### Determine which cookies are blocked
