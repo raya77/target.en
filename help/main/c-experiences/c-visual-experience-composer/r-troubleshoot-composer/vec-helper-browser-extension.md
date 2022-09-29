@@ -9,9 +9,11 @@ exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
 
 The [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper browser extension for Google Chrome lets you load websites reliably within the VEC to rapidly author and QA web experiences.
 
->[!NOTE]
+The VEC Helper browser is a Chrome extension. This extension is not necessary when using Mozilla Firefox.
+
+>[!IMPORTANT]
 >
->The VEC Helper browser is a Chrome extension. This extension is not necessary when using Mozilla Firefox.
+>Starting in January 2023, the current [!DNL Target] VEC Helper extension will stop working in Google Chrome because Google won't allow extensions using Manifest V2. Download the new extension to continue to visually author your websites in [!DNL Target] starting with the new year. For more information, see [Visual Editing Helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension).
 
 ## Reasons why some websites might not open reliably in the VEC
 
@@ -25,7 +27,7 @@ A SW is a web technology that can be used to intercept requests for the domain t
 
 The SW can control the caching; can cache the web page itself, static resources like JS, CSS, IMG, AJAX requests, their contents, and their response headers, including the ones that our [Target VEC Helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) tries to remove, like X-Frame-Options: SAMEORIGIN, CSP (Content-Security-Policy), or Set-Cookie.
 
-Unfortunately, the Chrome extension APIs that intercept web requests don’t receive the requests that were intercepted and handled by a SW. Therefore, the extension can’t fix the headers and the cookies if the web page request was served from a cache by a SW because the web page won’t load inside the VEC because of the X-Frame-Options or CSP headers that were also cached.
+Unfortunately, the Chrome extension APIs that intercept web requests don't receive the requests that were intercepted and handled by a SW. Therefore, the extension can't fix the headers and the cookies if the web page request was served from a cache by a SW because the web page won't load inside the VEC because of the X-Frame-Options or CSP headers that were also cached.
 
 As a potential workaround, you can disable Service Workers from the Chrome Developer Tools > Application tab, then to enable the "Bypass for network" checkbox under the Service Workers section.
 
@@ -60,7 +62,7 @@ The VEC Helper browser extension for Chrome solves site-loading issues for which
 
    ![VEC helper 2](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-helper.png)
 
-1. (Conditional) Slide the **[!UICONTROL Cookies]** toggle to the “on” position to automatically add the `SameSite=None` attribute browser fix.
+1. (Conditional) Slide the **[!UICONTROL Cookies]** toggle to the "on" position to automatically add the `SameSite=None` attribute browser fix.
 
    ![Cookies toggle in the VEC helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
