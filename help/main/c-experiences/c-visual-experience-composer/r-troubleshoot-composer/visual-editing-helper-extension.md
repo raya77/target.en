@@ -18,7 +18,7 @@ The [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] browser ext
 * The website is in an iframe.
 * The customer's QA or stage site is not available to the outside world (the site is internal).
 
-The [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] browser extension for Chrome solves site-loading issues for which customers now rely on the [!DNL Target] [!UICONTROL [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) or third-party extensions, such as Requestly.
+The [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] browser extension for Chrome solves site-loading issues for which customers now rely on the [!DNL Target] [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) or third-party extensions, such as Requestly.
 
 ## Benefits of using the [!UICONTROL Visual Editing Helper] extension
 
