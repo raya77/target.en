@@ -252,6 +252,8 @@ feature-set: Target
       + [Average lift, lift bounds, and confidence interval](c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)
       + [View multiple metrics in a report](c-reports/c-report-settings/view-multiple-metrics.md)
       + [Exclude extreme values](c-reports/c-report-settings/excluding-extreme-orders.md)
+   + Statistical methodology {#statistical-methodology}
+      + Statistical calculations in A/Bn tests
    + [Auto-Target Summary report](c-reports/auto-target-summary-report.md)
    + [Automated Personalization Summary reports](c-reports/reports-ap.md)
    + Personalization Insights report {#insights}
