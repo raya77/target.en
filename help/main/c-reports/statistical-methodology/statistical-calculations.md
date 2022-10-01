@@ -24,8 +24,10 @@ The conversion rate or **mean**, *μ<sub>ν</sub>*, for each experience *ν* in 
 
 Here, 
 
-* *Y<sub>iν</sub>* is the value of the metric for each unit *i*, that has been assigned to a given experience *ν*. 
-* The sum over units *i* depends on the choice of counting methodology. 
+* *Y<sub>iν</sub>* is the value of the metric for each unit *i*, that has been assigned to a given experience *ν*.
+
+* The sum over units *i* depends on the choice of counting methodology.
+
     * If *Visitors* is used as the counting methodology, each unit is a unique visitor defined as a unique participant in the activity for the life of the activity.
     * If *Visits* is used as the counting methodology, each unit is a unique visit defined as a unique participant in an experience during a [!DNL Target] session (with a unique `sessionId`). When the `sessionId` changes, or the visitor reaches the conversion step, a new visit is counted.
     * If *Activity Impressions* is used as the counting methodology, each unit is a unique impression defined as each time a visitor loads any page of the activity.
@@ -64,7 +66,9 @@ The lift between a experience  *ν*, and the control experience *ν<sub>0</sub>*
 
 where the individual conversion rates are as defined above. More simply, 
 
-`Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performance_Control`
+```
+Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performance_Control
+```
 
 If conversion rate of the control experience *ν<sub>0</sub>* is 0, there is no lift. 
 
