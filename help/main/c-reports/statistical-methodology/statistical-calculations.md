@@ -35,6 +35,7 @@ Here,
 
 ## Confidence Interval of Mean/Conversion Rate
 
+
 The confidence interval of the conversion rate is intuitively defined as range of possible conversion rates that is consistent with the underlying data. 
 
 When running experiments, the conversion rate we observe for a given experience is an _estimate_ of the "true" conversion rate. To quantify the uncertainty in this estimate, we can use a confidence interval. [!DNL Target] always reports a 95% confidence interval, which means that in the long run, 95% of confidence intervals calculated include the true conversion rate of the experience. 
@@ -57,6 +58,7 @@ Note that when the campaign is a conversion rate campaign (i.e., the conversion 
 
 
 ## Lift
+
 
 The following illustration shows Lift and Confidence Interval of Lift in a [!DNL Target] Report. The number represents the average of the range of the lift bounds, and the arrow reflects if the lift is positive or negative. The arrow displays in grey until the confidence passes 95%. After confidence passes the threshold, the arrow is green or red based on a positive or negative lift. 
 
