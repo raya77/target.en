@@ -32,6 +32,7 @@ Here,
     * If *Visits* is used as the counting methodology, each unit is a unique visit defined as a unique participant in an experience during a [!DNL Target] session (with a unique `sessionId`). When the `sessionId` changes, or the visitor reaches the conversion step, a new visit is counted.
     * If *Activity Impressions* is used as the counting methodology, each unit is a unique impression defined as each time a visitor loads any page of the activity.
 
+
 ## Confidence Interval of Mean/Conversion Rate
 
 The confidence interval of the conversion rate is intuitively defined as range of possible conversion rates that is consistent with the underlying data. 
@@ -53,6 +54,7 @@ where an unbiased estimate of the sample standard deviation is used:
 Note that when the campaign is a conversion rate campaign (i.e., the conversion metric is binary), the standard error reduces to:
 
 <p style="text-align:center;"><img width=150px src="img/se_conv.png"></p>
+
 
 ## Lift
 
