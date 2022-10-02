@@ -6,15 +6,17 @@ feature: Reports
 ---
 # Statistical calculations in A/Bn tests
 
-This page documents the detailed statistical calculations used in manual A/Bn tests in [!DNL Adobe Target]. Definitions are provided for Conversion Rate, Confidence Interval of Conversion Rate, Lift, Confidence Interval for Lift, and Confidence. 
+This page documents the detailed statistical calculations used in manual A/Bn tests in [!DNL Adobe Target]. Definitions are provided for Conversion Rate, Confidence Interval of Conversion Rate, Lift, Confidence Interval for Lift, and Confidence.
 
-<p style="text-align:center;"><img width=100% src="img/target_report.png"></p>
+![Target report showing the Conversion Rate, Average Lift and Confidence Interval, and Confidence of an A/B Test activity.](/help/main/c-reports/statistical-methodology/img/target_report.png)
 
 ## Mean performance
 
+The following section explains the calculations used in the previous illustration.
+
 ### Conversion Rate and Revenue Per Visitor (RPV) Campaigns
 
-The following illustration shows Conversion Rate, Confidence Interval of Conversion Rate, and the number of Conversions in a [!DNL Target] report. For example, the first line shows that for Experience A: the conversion rate is 25.81% with a Confidence Interval of ±7.7% and 32 conversions were recorded. Given that 124 Visitors saw the experience, this equates to 32/124 = 25.81%.
+The following illustration shows [!UICONTROL Conversion Rate], [!UICONTROL Confidence Interval of Conversion Rate], and the number of [!UICONTROL Conversions] in a [!DNL Target] report. For example, the first line shows that for Experience A: the [!UICONTROL Conversion Rate] is 25.81% with a [!UICONTROL Confidence Interval] of ±7.7% and 32 conversions were recorded. Given that 124 Visitors saw the experience, this equates to 32/124 = 25.81%.
 
 <p style="text-align:center;"><img width=25% src="img/conv_rate.png"></p>
 
@@ -32,13 +34,11 @@ Here,
     * If *Visits* is used as the counting methodology, each unit is a unique visit defined as a unique participant in an experience during a [!DNL Target] session (with a unique `sessionId`). When the `sessionId` changes, or the visitor reaches the conversion step, a new visit is counted.
     * If *Activity Impressions* is used as the counting methodology, each unit is a unique impression defined as each time a visitor loads any page of the activity.
 
-
 ## Confidence Interval of Mean/Conversion Rate
-
 
 The confidence interval of the conversion rate is intuitively defined as range of possible conversion rates that is consistent with the underlying data. 
 
-When running experiments, the conversion rate we observe for a given experience is an _estimate_ of the "true" conversion rate. To quantify the uncertainty in this estimate, we can use a confidence interval. [!DNL Target] always reports a 95% confidence interval, which means that in the long run, 95% of confidence intervals calculated include the true conversion rate of the experience. 
+When running experiments, the conversion rate we observe for a given experience is an *estimate* of the "true" conversion rate. To quantify the uncertainty in this estimate, we can use a confidence interval. [!DNL Target] always reports a 95% confidence interval, which means that in the long run, 95% of confidence intervals calculated include the true conversion rate of the experience. 
 
 A 95% confidence interval of conversion rate *μ<sub>ν</sub>* is defined as the range of values:
 
@@ -56,9 +56,7 @@ Note that when the campaign is a conversion rate campaign (i.e., the conversion 
 
 <p style="text-align:center;"><img width=150px src="img/se_conv.png"></p>
 
-
 ## Lift
-
 
 The following illustration shows Lift and Confidence Interval of Lift in a [!DNL Target] Report. The number represents the average of the range of the lift bounds, and the arrow reflects if the lift is positive or negative. The arrow displays in grey until the confidence passes 95%. After confidence passes the threshold, the arrow is green or red based on a positive or negative lift. 
 
