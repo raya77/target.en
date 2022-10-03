@@ -35,11 +35,11 @@ In different activities, different attributes are more, or less, important to ho
 
    The [Automated Personalization Summary](/help/main/c-reports/reports-ap.md) or [Auto-Target Summary](/help/main/c-reports/auto-target-summary-report.md) report displays, which provides information about the performance of your activities, represented by the first screen icon. The two additional icons represent the two [!UICONTROL Personalization Insights] reports: [!UICONTROL Automated Segments] and [!UICONTROL Important Attributes]. 
    
-   ![Summary report for Automated Personalization activity](assets/summary-report-ap.png)
+   ![Summary report for Automated Personalization activity](/help/main/c-reports/assets/summary-report-ap.png)
    
    Note that [!UICONTROL Auto-Target] has an additional graph icon for the graphical view of the [!UICONTROL Summary] report.
 
-   ![Summary report for Auto-Target activity](assets/personalization_insights.png)
+   ![Summary report for Auto-Target activity](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
