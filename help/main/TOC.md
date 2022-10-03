@@ -255,16 +255,16 @@ feature-set: Target
    + Statistical methodology {#statistical-methodology}
       + [Statistical calculations in A/Bn tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
    + Personalization reports {#personalization-reports}
-      + [Auto-Target Summary report](c-reports/auto-target-summary-report.md)
-      + [Automated Personalization Summary reports](c-reports/reports-ap.md)
-      + [Offer reporting groups in Automated Personalization](c-reports/offer-reporting-groups-in-automated-personalization.md)
+      + [Auto-Target Summary report](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
+      + [Automated Personalization Summary reports](/help/main/c-reports/personalization-reports/reports-ap.md)
+      + [Offer reporting groups in Automated Personalization](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md)
    + Personalization Insights report {#insights}
       + [Personalization Insights reports overview](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [Automated Segments report](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [Important Attributes report](c-reports/c-personalization-insights-reports/important-attributes-report.md)
-   + Multivariate Test reports {multivariate-test-reports}
-      + [Experience Performance report (MVT)](c-reports/experience-performance-report.md)
-      + [Location Contribution report (MVT)](c-reports/location-contribution-report.md)
+   + Multivariate Test reports {#multivariate-test-reports}
+      + [Experience Performance report (MVT)](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)
+      + [Location Contribution report (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)
    + [Analytics for Target (A4T) reporting](c-reports/analytics-for-target-a4t-reporting.md)
    + [Reporting FAQ](c-reports/reporting-frequently-asked-questions.md)
 + Recommendations {#recommendations}   

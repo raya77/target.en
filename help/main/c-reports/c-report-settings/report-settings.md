@@ -186,7 +186,7 @@ You can view the report in various formats, depending on the activity type. Sele
 
 Reports include several data points and visualization representations that understand the lift bounds and confidence level associated with your activity. This helps you more accurately determine a winner.
 
-For more information, see [Average Lift, Lift Bounds, and Confidence Interval](/help/main/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129).
+For more information, see [Statistical calculations in A/Bn tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 Consider the following:
 
