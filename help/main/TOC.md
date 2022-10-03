@@ -249,22 +249,23 @@ feature-set: Target
    + [Reports overview](c-reports/reports.md)
    + Report settings {#settings}
       + [Report settings overview](c-reports/c-report-settings/report-settings.md)
-      + [Average lift, lift bounds, and confidence interval](c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)
       + [View multiple metrics in a report](c-reports/c-report-settings/view-multiple-metrics.md)
       + [Exclude extreme values](c-reports/c-report-settings/excluding-extreme-orders.md)
+      + [Downloading data in a CSV file](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
    + Statistical methodology {#statistical-methodology}
       + [Statistical calculations in A/Bn tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
-   + [Auto-Target Summary report](c-reports/auto-target-summary-report.md)
-   + [Automated Personalization Summary reports](c-reports/reports-ap.md)
+   + Personalization reports {#personalization-reports}
+      + [Auto-Target Summary report](c-reports/auto-target-summary-report.md)
+      + [Automated Personalization Summary reports](c-reports/reports-ap.md)
+      + [Offer reporting groups in Automated Personalization](c-reports/offer-reporting-groups-in-automated-personalization.md)
    + Personalization Insights report {#insights}
       + [Personalization Insights reports overview](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [Automated Segments report](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [Important Attributes report](c-reports/c-personalization-insights-reports/important-attributes-report.md)
-   + [Offer reporting groups in Automated Personalization](c-reports/offer-reporting-groups-in-automated-personalization.md)
-   + [Experience Performance report (MVT)](c-reports/experience-performance-report.md)
-   + [Location Contribution report (MVT)](c-reports/location-contribution-report.md)
+   + Multivariate Test reports {multivariate-test-reports}
+      + [Experience Performance report (MVT)](c-reports/experience-performance-report.md)
+      + [Location Contribution report (MVT)](c-reports/location-contribution-report.md)
    + [Analytics for Target (A4T) reporting](c-reports/analytics-for-target-a4t-reporting.md)
-   + [Downloading data in a CSV file](c-reports/downloading-data-in-csv-file.md)
    + [Reporting FAQ](c-reports/reporting-frequently-asked-questions.md)
 + Recommendations {#recommendations}   
    + [Recommendations overview](c-recommendations/recommendations.md)
