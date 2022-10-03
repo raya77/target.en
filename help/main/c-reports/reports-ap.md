@@ -32,7 +32,7 @@ The [!UICONTROL Activity Level] report compares the aggregate performance of usi
 
 ![Activity Level Report](/help/main/c-reports/assets/box_plot_ap.png)
 
-The standard rules of results interpretation for A/B testing still apply, including lift, confidence, trending, duration, and so on. For more information about interpreting results, see [About the Conversion Rate](/help/main/c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844).
+The standard rules of results interpretation for A/B testing still apply, including lift, confidence, trending, duration, and so on. For more information about interpreting results, see [Statistical calculations in A/Bn tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Offer Level report {#section_CAA6409879E349C6906E2BE8156D87A1}
 
@@ -68,9 +68,9 @@ For more information, see [Important Attributes report](/help/main/c-reports/c-p
 
 ### Why are there differences in data between the Activity Level and Offer Level reports?
 
-**[!UICONTROL Activity Level] report**: Visits recorded on the [!UICONTROL Activity Level] report capture the number of visits to the control experience(s) vs. “targeted” traffic. Targeted traffic includes a mix of exploration traffic and personalized traffic.
+**[!UICONTROL Activity Level] report**: Visits recorded on the [!UICONTROL Activity Level] report capture the number of visits to the control experience(s) vs. "targeted" traffic. Targeted traffic includes a mix of exploration traffic and personalized traffic.
 
-**Offer Level report**: Impressions recorded on the [!UICONTROL Offer Level] report capture the number of impressions for each offer. Therefore, in an activity with more than one location, the total number of visits recorded in the [!UICONTROL Offer Level] report across all Reporting Groups is equal to the multiple of the number of visits recorded for Control or Targeted traffic in the [!UICONTROL Activity Level] report times the total number of locations in the activity. Impressions of default content occurring in locations where default content was an available option are recorded in the “Default Content” offer group. Impressions of offers that were unassigned to a reporting group are recorded in the “Ungrouped” offer group.
+**Offer Level report**: Impressions recorded on the [!UICONTROL Offer Level] report capture the number of impressions for each offer. Therefore, in an activity with more than one location, the total number of visits recorded in the [!UICONTROL Offer Level] report across all Reporting Groups is equal to the multiple of the number of visits recorded for Control or Targeted traffic in the [!UICONTROL Activity Level] report times the total number of locations in the activity. Impressions of default content occurring in locations where default content was an available option are recorded in the "Default Content" offer group. Impressions of offers that were unassigned to a reporting group are recorded in the "Ungrouped" offer group.
 
 >[!NOTE]
 >

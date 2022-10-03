@@ -82,7 +82,7 @@ The *confidence interval* is a range of estimates within which the true value of
 
 The [downloaded CSV report](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) includes only raw data and does not include calculated metrics, such as revenue per visitor, lift, or confidence used for A/B tests.
 
-To calculate these calculated metrics, download the Target's [Complete Confidence Calculator](/help/main/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](/help/main/assets/statistical-calculations.pdf).
+To calculate these calculated metrics, download the Target's [Complete Confidence Calculator](/help/main/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review [Statistical calculations in A/Bn tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 >[!NOTE]
 >
@@ -92,7 +92,7 @@ To calculate these calculated metrics, download the Target's [Complete Confidenc
 
 You can perform offline calculations for A4T, but it requires a step with data exports in [!DNL Analytics].
 
-For A4T, we use a [Welch's t-test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} calculation for continuous variables (rather than binary metrics). In Analytics, a visitor is always tracked, and every action taken is counted. Therefore, if the visitor purchases multiple times or visit a success metric multiple times, those additional hits are counted. This makes the metric a continuous variable. To perform the Welch's t-test calculation, the "sum of squares" is required to calculate the variance, which is used in the denominator of the t-statistic. [This document explains the details](/help/main/assets/statistical-calculations.pdf) of the mathematical formulas used. The sum of squares can be retrieved from [!DNL Analytics]. To get the sum of squares data, you need to perform a visitor-level export for the metric you are optimizing to, for a sample time period.
+For A4T, we use a [Welch's t-test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} calculation for continuous variables (rather than binary metrics). In Analytics, a visitor is always tracked, and every action taken is counted. Therefore, if the visitor purchases multiple times or visit a success metric multiple times, those additional hits are counted. This makes the metric a continuous variable. To perform the Welch's t-test calculation, the "sum of squares" is required to calculate the variance, which is used in the denominator of the t-statistic. [Statistical calculations in A/Bn tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md) explains the details of the mathematical formulas used. The sum of squares can be retrieved from [!DNL Analytics]. To get the sum of squares data, you need to perform a visitor-level export for the metric you are optimizing to, for a sample time period.
 
 For example, if you're optimizing to page views per visitor, you'd export a sample of the total number of page views on a per visitor basis for a specified time frame, perhaps a couple of days (a few thousand data points is all you need). You would then square each value and sum the totals (the order of operations is critical here). This "sum of squares" value is then used in the Complete Confidence Calculator. Use the "revenue" section of that spreadsheet for these values.
 

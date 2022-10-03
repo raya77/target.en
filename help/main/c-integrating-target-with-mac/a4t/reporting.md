@@ -69,8 +69,39 @@ Click to view the full [!DNL Analytics] report directly from the activity report
 
 During activity creation, you must specify a goal for the activity on the [!UICONTROL Settings] page. This goal becomes the default metric for the report and is always listed as the first option in the metrics selector. You cannot select segments for reporting like you would for a regular Target activity. A test with [!DNL Analytics] uses [!DNL Adobe Analytics] segments rather than [!DNL Target] audiences.
 
-## Performing offline calculations for Analytics for Adobe Target (A4T) {#section_33A97A691F3A45D497DAF57A844388F0}
+## Performing Offline Calculations for Analytics for Adobe Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
 
 You can perform offline calculations for A4T, but it requires a step with data exports in [!DNL Analytics].
 
-For more information, see [Performing Offline Calculations for Analytics for Target (A4T)](/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+For A4T, we use a [Welch's t-test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} calculation for continuous variables (rather than binary metrics). In Analytics, a visitor is always tracked, and every action taken is counted. Therefore, if the visitor purchases multiple times or visit a success metric multiple times, those additional hits are counted. This makes the metric a continuous variable. To perform the Welch's t-test calculation, the "sum of squares" is required to calculate the variance, which is used in the denominator of the t-statistic. [Statistical calculations in A/Bn tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md) explains the details of the mathematical formulas used. The sum of squares can be retrieved from [!DNL Analytics]. To get the sum of squares data, you need to perform a visitor-level export for the metric you are optimizing to, for a sample time period.
+
+For example, if you're optimizing to page views per visitor, you'd export a sample of the total number of page views on a per visitor basis for a specified time frame, perhaps a couple of days (a few thousand data points is all you need). You would then square each value and sum the totals (the order of operations is critical here). This "sum of squares" value is then used in the Complete Confidence Calculator. Use the "revenue" section of that spreadsheet for these values.
+
+**To use the [!DNL Analytics] data export feature to do this:**
+
+1. Log in to [!DNL Adobe Analytics]. 
+1. Click **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**. 
+1. On the **[!UICONTROL Data Warehouse Request]** tab, fill in the fields.
+
+   For more information about each field, see "Data Warehouse Descriptions" in [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html).
+
+   | Field | Instructions |
+   |--- |--- |
+   |Request Name|Specify a name for your request.|
+   |Reporting Date|Specify a time period and granularity.<br>As best practice, choose no more than an hour or one day of data for your first request.  Data Warehouse files take longer to process the longer the time period requested, so it is always a best practice to request a small time period data first to make sure your file returns the expected result. Then, go to the Request Manager, duplicate your request, and ask for more data the second time. Also, if you toggle granularity to anything other than "None," the file size will increase drastically.<br>![Data Warehouse](/help/main/c-reports/assets/datawarehouse.png)|
+   |Available Segments|Apply a segment, as needed.|
+   |Breakdowns|Select the desired dimensions:  Standard is out-of-the-box (OOTB), while Custom includes eVars & props. It is recommended you use "Visitor ID" if visitor ID level information is needed, rather than "Experience Cloud Visitor ID."<ul><li>Visitor ID is the final ID used by Analytics. It will either be AID (if the customer is legacy) or MID (if the customer is new or cleared cookies since the MC visitor ID service was launched).</li><li>Experience Cloud Visitor ID will only be set for customers who are new or cleared cookies since the MC visitor ID service was launched.</li></ul>|
+   |Metrics|Select your desired metrics. Standard is OOTB, while Custom includes custom events.|
+   |Report Preview|Review your settings before scheduling the report.<br>![Data Warehouse 2](/help/main/c-reports/assets/datawarehouse2.png)|
+   |Schedule Delivery|Enter an email address to deliver the file to, name the file, then select [!UICONTROL Send Immediately].<br>Note: The file can be delivered via FTP under [!UICONTROL Advanced Delivery Options]<br>![Schedule Delivery](/help/main/c-reports/assets/datawarehouse3.png).|
+
+1. Click **[!UICONTROL Request this Report]**.
+
+   File delivery can take up to 72 hours, depending on the amount of data requested. You can check on the progress of your request at any time by clicking [!UICONTROL Tools] > [!UICONTROL Data Warehouse] > [!UICONTROL Request Manager].
+
+   If you would like to re-request data that you've requested in the past, you can duplicate an old request from the [!UICONTROL Request Manager] as needed.
+
+For more information about [!DNL Data Warehouse], see the following links in the [!DNL Analytics] Help documentation:
+
+* [Create a Data Warehouse request](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html) 
+* [Data Warehouse best practices](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)

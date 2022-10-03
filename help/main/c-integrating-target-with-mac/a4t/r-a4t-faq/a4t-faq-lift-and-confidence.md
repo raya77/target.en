@@ -11,7 +11,7 @@ This topic contains answers to questions that are frequently asked about lift an
 
 ## Can I perform offline calculations for A4T? {#section_55B5B750E17D414CAECBEECE27B15D81}
 
-You can perform offline calculations for A4T, but it requires a step with data exports in [!DNL Analytics]. For more information, see "Performing Offline Calculations for Analytics for Target (A4T)" in [Confidence Level and Confidence Interval](/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+You can perform offline calculations for A4T, but it requires a step with data exports in [!DNL Analytics]. For more information, see [Statistical calculations in A/Bn tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## How is lift calculated? {#section_8CAE788EED5646C4B1D64A0D22070734}
 
@@ -19,7 +19,7 @@ Lift is the percent difference between your control page results and a successfu
 
 ## How is confidence calculated? {#section_97DB24D833E742988318CA65DA65DAD9}
 
-The confidence level is a probability, expressed as a percentage, that is equal to `1 - p-value`, where the `p-value` is computed from a t-test. See [Conversion rate](/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+The confidence level is a probability, expressed as a percentage, that is equal to `1 - p-value`, where the `p-value` is computed from a t-test. See [Statistical calculations in A/Bn tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Why can't I see lift and confidence on calculated metrics? {#lift-confidence}
 

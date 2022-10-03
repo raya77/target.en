@@ -264,7 +264,6 @@ feature-set: Target
    + [Experience Performance report (MVT)](c-reports/experience-performance-report.md)
    + [Location Contribution report (MVT)](c-reports/location-contribution-report.md)
    + [Analytics for Target (A4T) reporting](c-reports/analytics-for-target-a4t-reporting.md)
-   + [Conversion rate](c-reports/conversion-rate.md)
    + [Downloading data in a CSV file](c-reports/downloading-data-in-csv-file.md)
    + [Reporting FAQ](c-reports/reporting-frequently-asked-questions.md)
 + Recommendations {#recommendations}   
