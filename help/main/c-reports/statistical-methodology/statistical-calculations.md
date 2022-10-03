@@ -1,5 +1,5 @@
 ---
-keywords: Target;reports;statistical methodology;statistical calculations;stats;mean;conversion rate;revenue per visitor;rpv;confidence interval;lift;welch t-test;offline calculations
+keywords: reports;statistical methodology;statistical calculations;stats;mean;conversion rate;revenue per visitor;rpv;confidence interval;lift;welch t-test;offline calculations
 description: Learn about the statistical calculations used in manual [!UICONTROL A/B Test] activities in [!DNL Adobe Target].
 title: How Can I Learn About the Statistical Calculations Used in [!UICONTROL A/B Test] Activities?
 feature: Reports
