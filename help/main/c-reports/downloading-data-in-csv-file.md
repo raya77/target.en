@@ -34,7 +34,7 @@ Data is saved until the end of the activity.
 
 >[!NOTE]
 >
->The CSV report includes only raw data and does not include calculated metrics such as revenue per visitor, lift, or confidence used for A/B tests. To calculate these calculated metrics, download the Target's [Complete Confidence Calculator](/help/main/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](/help/main/assets/statistical-calculations.pdf).
+>The CSV report includes only raw data and does not include calculated metrics such as revenue per visitor, lift, or confidence used for A/B tests. To calculate these calculated metrics, download the Target's [Complete Confidence Calculator](/help/main/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review [Statistical calculations in A/Bn tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Export Order Details to CSV {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 

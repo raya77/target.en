@@ -93,7 +93,7 @@ For more information, see [Auto-Allocate can give you faster test results and hi
 
 The following advanced metric settings are not supported: [!UICONTROL Increment Count], [!UICONTROL Release User], [!UICONTROL Allow Reentry and Increment Count], and [!UICONTROL Release User and Bar from Reentry]. 
 
-**Frequent return visitors can inflate experience conversion-rates.** 
+**Frequent return visitors can inflate experience conversion rates.** 
 
 If a visitor who sees experience A returns frequently and converts several times, the Conversion Rate (CR) of experience A is artificially increased. Compare this result to experience B, where visitors convert but do not return often. As a result, the CR of experience A looks better than the CR of experience B, so new visitors are more likely to be allocated to A than to B. If you choose to count once per entrant, the CR of A and CR of B might be identical.
 
