@@ -39,8 +39,8 @@ Tips to help you improve performance, avoid issues, and correct known issues tha
 
 ## Analyze {#section_9A2118CF1039451681C13D9AE79A58AB}
 
-* Make frequent use of the [Location Contribution report](/help/main/c-reports/location-contribution-report.md) to monitor the performance of each location and each offer. 
-* In the [Experience Performance report](/help/main/c-reports/experience-performance-report.md), base your decisions on the data shown using the Best 5 and Worst 5 filters.
+* Make frequent use of the [Location Contribution report](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) to monitor the performance of each location and each offer. 
+* In the [Experience Performance report](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md), base your decisions on the data shown using the Best 5 and Worst 5 filters.
 
   The [!UICONTROL All] filter makes it difficult to extract the desired information, and not all experiences can display in the graph. Use the [!UICONTROL All] filter if you want to look at a specific experience that is not in the best or worst five.
 

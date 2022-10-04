@@ -160,7 +160,7 @@ Check out [Template Rules](/help/main/c-experiences/c-visual-experience-composer
 
 **I am tired of the "allow your browser to load scripts" message when I attempt to load my page in the Visual Experience Composer (VEC). How can I avoid this?**
 
-This is because your site has mixed content—it’s a site that fetches both HTTP and HTTPS resources. Request that your IT team move to HTTPS completely.
+This is because your site has mixed content—it's a site that fetches both HTTP and HTTPS resources. Request that your IT team move to HTTPS completely.
 
 Until this happens, follow the instructions in [Enabling Mixed Content in Your Browser](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) to allow your browser to load mixed content. This is a security feature of most modern browsers.
 
@@ -273,7 +273,7 @@ This is where [Analytics for Target (A4T)](/help/main/c-integrating-target-with-
 
 **Can I perform offline reporting calculations?**
 
-Use the [Export Reports to CSV and Download Order Details to CSV options](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) on the Reports page to download the desired reporting data.
+Use the [Export Reports to CSV and Download Order Details to CSV options](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) on the Reports page to download the desired reporting data.
 
 **Can I change the control experience for evaluating reports or change the counting methodology from Visitors to Visits?**
 

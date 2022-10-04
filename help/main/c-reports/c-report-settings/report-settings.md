@@ -161,7 +161,7 @@ Click the **[!UICONTROL Download]** icon to download report data in a [!DNL .csv
 
 ![Download icon](/help/main/c-reports/c-report-settings/assets/download-icon.png)
 
-For more information, see [Downloading Data in a CSV File](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75).
+For more information, see [Downloading Data in a CSV File](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md).
 
 ## Refresh {#section_E203729F2F314DF3856D2EE67C60B370}
 

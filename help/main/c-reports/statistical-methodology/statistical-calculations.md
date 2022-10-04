@@ -126,6 +126,6 @@ Finally, the Confidence reported in [!DNL Target] is defined as:
 
 ## Performing Calculations offline
 
-The [downloaded CSV report](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) includes only raw data and does not include calculated metrics, such as revenue per visitor, lift, or confidence used for A/B tests.
+The [downloaded CSV report](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) includes only raw data and does not include calculated metrics, such as revenue per visitor, lift, or confidence used for A/B tests.
 
 To compute these statistical quantities, download the Target's [Complete Confidence Calculator](/help/main/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value.
