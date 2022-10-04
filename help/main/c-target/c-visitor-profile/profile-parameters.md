@@ -102,11 +102,11 @@ Click **[!UICONTROL View full details]** to see the audiences and activities tha
 
 When a profile script is disabled, a yellow alert icon displays next to the profile script in the Target UI, as illustrated below:
 
-![](assets/profile_script_invalid.png)
+![profile_script_invalid image](assets/profile_script_invalid.png)
 
 On hover, details on the error display, as illustrated below:
 
-![](assets/profile_script_hover.png)
+![profile_script_hover image](assets/profile_script_hover.png)
 
 Typical reasons for the system to disable profile scripts include the following:
 
@@ -154,7 +154,7 @@ The following methods can be used to debug profile scripts:
 
   Anytime you load a page for your site with [!DNL Target] on it, part of the response from [!DNL Target] contains your value for the given profile script, as shown below:
 
-  ![](assets/debug_profile_script_1.png)
+  ![debug_profile_script_1 image](assets/debug_profile_script_1.png)
 
 * **Use the mboxTrace debugging tool to debug profile scripts.**
 
@@ -164,7 +164,7 @@ The following methods can be used to debug profile scripts:
 
   Adding these parameters is a little more informative than the response token because you get a before-executed snapshot and an after-snapshot of your profile. It also shows all your available profiles.
 
-  ![](assets/debug_profile_script_2.png)
+  ![debug_profile_script_2 image](assets/debug_profile_script_2.png)
 
 ## Profile script FAQ {#section_1389497BB6D84FC38958AE43AAA6E712}
 

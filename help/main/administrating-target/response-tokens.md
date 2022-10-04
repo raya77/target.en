@@ -34,7 +34,7 @@ A key difference between plug-ins and response tokens is that plug-ins deliver J
 
 1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
-   ![](assets/response_tokens-new.png)
+   ![response_tokens-new image](assets/response_tokens-new.png)
 
 1. Activate the desired response tokens, such as `activity.id` and `offer.id`.
 
@@ -66,7 +66,7 @@ A key difference between plug-ins and response tokens is that plug-ins deliver J
 
    Click **[!UICONTROL Add Response Token]**, provide the token name, then click **[!UICONTROL Activate]**.
 
-   ![](assets/response_token_create.png)
+   ![response_token_create image](assets/response_token_create.png)
 
 1. Create an activity.
 

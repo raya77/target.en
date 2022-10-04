@@ -29,7 +29,7 @@ The Traffic Estimator also provides feedback that lets you know whether you have
 
    The Traffic Estimator opens. You can click the **[!UICONTROL Traffic]** icon again to hide the Traffic Estimator.
 
-   ![](assets/estimatorempty.png)
+   ![estimatorempty image](assets/estimatorempty.png)
 
 1. Provide the typical conversion rate, estimated visitors per day, and test duration.
 
@@ -42,7 +42,7 @@ The Traffic Estimator also provides feedback that lets you know whether you have
 
    Near the top of the Traffic Estimator, the values you entered are calculated and the results are shown.
 
-   ![](assets/estimatorinsufficient.png)
+   ![estimatorinsufficient image](assets/estimatorinsufficient.png)
 
    As you change the numbers, the estimate changes. For example, if you are testing a large number of experiences and your conversion rate and impressions are too low, the Traffic Estimator shows how long the test will need to run to be successful. Or, if your traffic is low, the Traffic Estimator might suggest a lower number of experiences so you can run the test the desired number of days.
 
@@ -53,4 +53,4 @@ The Traffic Estimator also provides feedback that lets you know whether you have
 
    Adjust the numbers until the Traffic Estimator says you have sufficient traffic, then design your test accordingly.
 
-   ![](assets/estimatorok.png)
+   ![estimatorok image](assets/estimatorok.png)

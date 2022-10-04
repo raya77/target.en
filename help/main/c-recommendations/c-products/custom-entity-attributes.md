@@ -22,7 +22,7 @@ Multi-value entity custom attributes can contain no more than 500 values. Each i
 
 Custom entity attributes can contain a single value or multiple values. Entity attribute values are displayed in the product view.
 
-![](assets/multi-value_product.png)
+![multi-value_product image](assets/multi-value_product.png)
 
 A custom entity attribute with a single value is formed the same way as a single-value predefined entity attribute:
 
@@ -87,11 +87,11 @@ You can manage your CSV files in raw form using a text editor, or you can use sp
 
 The raw CSV will look like this:
 
-![](assets/multi-value_example_raw.png)
+![multi-value_example_raw image](assets/multi-value_example_raw.png)
 
 The same catalog will look like this in a spreadsheet:
 
-![](assets/multi-value_example_excel.png)
+![multi-value_example_excel image](assets/multi-value_example_excel.png)
 
 When converting to .csv format, the spreadsheet software adds double quotation marks around cell contents to prevent commas within the cell from acting as column separators. It also adds double quotation marks around JSON string values you include in custom multi-value attributes. This can make working directly with the raw file unwieldy. For example:
 

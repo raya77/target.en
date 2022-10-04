@@ -178,7 +178,7 @@ Using content similarity to generate recommendations is especially effective for
 
 When you select **[!UICONTROL Item-Based]**/ **[!UICONTROL Media with Similar Attributes]**, you have the option to create rules to increase or decrease the importance of specific item attributes in determining recommendations. For items such as books, you might want to boost the importance of attributes like *genre*, *author*, *series*, and so on, to recommend similar books.
 
-![](assets/ContentSimilarity.png)
+![ContentSimilarity image](assets/ContentSimilarity.png)
 
 Because content similarity uses keywords to compare items, some attributes, such as *message* or *description*, can introduce "noise" into the comparison. You can create rules to ignore these attributes. 
 
@@ -218,7 +218,7 @@ To create a simple inclusion rule, as mentioned previously, to display only wome
 1. Set the minimum inventory amount for the products you want to recommend.
 1. Configure the recommendation to display items only when they meet certain criteria.
 
-   ![](assets/Recs_InclusionRules.png)
+   ![Recs_InclusionRules image](assets/Recs_InclusionRules.png)
 
    You can specify that items are included only when one of the attributes in the list meets or does not match one or more specified conditions. 
 
@@ -248,7 +248,7 @@ For example, you can apply a higher weighting to on-sale items so they appear mo
 
    For example, the complete rule might be "Category contains substring shoes." 
 
-   ![](assets/Recs_AttributeWeighting.png)
+   ![Recs_AttributeWeighting image](assets/Recs_AttributeWeighting.png)
 
 1. Select the weight to assign to the rule.
 

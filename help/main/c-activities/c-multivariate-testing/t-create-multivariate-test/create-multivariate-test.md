@@ -82,11 +82,11 @@ The [!UICONTROL Multivariate Test] (MVT) takes a page-first report. In other wor
 
    The following illustration indicates that the activity has insufficient traffic.
 
-   ![](assets/estimator.png)
+   ![estimator image](assets/estimator.png)
 
    The following illustration indicates that the activity has insufficient traffic.
 
-   ![](assets/estimator2.png)
+   ![estimator2 image](assets/estimator2.png)
 
 1. Click **[!UICONTROL Next]** to advance to the [!UICONTROL Targeting] page.
 

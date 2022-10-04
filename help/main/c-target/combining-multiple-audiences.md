@@ -49,7 +49,7 @@ You can create an ad hoc combined audience on the activity's [!UICONTROL Target]
 
        For example, suppose in the previous example, you now want to include Safari users in the combined audience. Search for and drag the "Safari Browser" audience into the "Firefox Browser" box on the right side, as in the following example:
 
-       ![](assets/combine_multiple_audiences3.png)
+       ![combine_multiple_audiences3 image](assets/combine_multiple_audiences3.png)
 
        Notice that the operator between the two browser-type audiences is "AND." Select the [!UICONTROL And] drop-down list and change it to "OR" to create a new combined audience for new visitors using either Firefox or Safari. Be careful to avoid creating rules that exclude all potential audience members. For example, it is not possible for someone to visit a page using Firefox and Safari simultaneously.
 
@@ -59,7 +59,7 @@ You can create an ad hoc combined audience on the activity's [!UICONTROL Target]
 
     1. To add an exclusion to a rule, click **[!UICONTROL Exclude]**.
 
-       ![](assets/combine_multiple_audiences3a.png)
+       ![combine_multiple_audiences3a image](assets/combine_multiple_audiences3a.png)
 
        Drag and drop an audience.
 
@@ -80,12 +80,12 @@ You can create an ad hoc combined audience on the activity's [!UICONTROL Goals &
 1. While editing or creating an [activity](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), on the **[!UICONTROL Goals & Settings]** page, select **[!UICONTROL Conversion]** for the success metric, then select **[!UICONTROL Viewed an Mbox]** as the action. 
 1. Select the desired mbox in the **[!UICONTROL Search mbox]** field.
 
-   ![](assets/combine_multiple_audiences4.png)
+   ![combine_multiple_audiences4 image](assets/combine_multiple_audiences4.png)
 
 1. Click the gear icon, then click **[!UICONTROL Add Audience Targeting]**. 
 1. Click the **[!UICONTROL Add Audience/Targeting Condition]** link to display the [!UICONTROL Choose Audience] dialog box.
 
-   ![](assets/combine_multiple_audiences5.png)
+   ![combine_multiple_audiences5 image](assets/combine_multiple_audiences5.png)
 
 1. Proceed with [Step 2](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) under "Create a Combined Audience While Creating an Activity" to create the combined audience.
 
@@ -95,7 +95,7 @@ You can create an ad hoc combined audience on the activity's [!UICONTROL Goals &
 
 1. While editing or creating an [activity](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), on the **[!UICONTROL Goals & Settings]** page, click the **[!UICONTROL Add Audience]** icon under [!UICONTROL Audiences for Reporting] to display the [!UICONTROL Choose Audience] page.
 
-   ![](assets/combine_multiple_audiences6.png)
+   ![combine_multiple_audiences6 image](assets/combine_multiple_audiences6.png)
 
 1. Proceed with [Step 2](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) under "Create a Combined Audience While Creating an Activity" to create the combined audience.
 

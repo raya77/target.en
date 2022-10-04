@@ -15,7 +15,7 @@ For example, using the [combined, ad hoc audiences feature](/help/main/c-target/
 1. Name the audience and add an optional description. 
 1. Drag and drop **[!UICONTROL Time Frame]** into the audience builder pane.
 
-   ![](assets/target_timeframe_dialog.png)
+   ![target_timeframe_dialog image](assets/target_timeframe_dialog.png)
 
 1. Specify the [!UICONTROL Start] and [!UICONTROL End] dates and times for the audience.
 

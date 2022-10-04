@@ -27,7 +27,7 @@ The debugger should be viewed on a page where the activity is delivered to ensur
 
 1. Click **[!UICONTROL Analytics]** in the left navigation menu.
 
-   ![](assets/Screen_DebuggerTrackServ.png)
+   ![Screen_DebuggerTrackServ image](assets/Screen_DebuggerTrackServ.png)
 
    The [!DNL Analytics] tracking server is found in the [!UICONTROL Hostname] section of the debugger.
 

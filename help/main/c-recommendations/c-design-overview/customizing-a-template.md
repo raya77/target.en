@@ -61,7 +61,7 @@ If you use a profile script in your design, the $ preceding the script name must
 
 For example, if you want a design that displays something similar to this:
 
-![](assets/velocity_example.png)
+![velocity_example image](assets/velocity_example.png)
 
 you can use the following code:
 
@@ -197,7 +197,7 @@ To do this, create a column in your design that uses the `$key` attribute you ar
 
 The result is a design like the following, where one column shows the key item.
 
-![](assets/rec_key.png)
+![rec_key image](assets/rec_key.png)
 
 When you are creating your [!DNL Recommendations] activity, if the key item is taken from the visitor's profile, such as "last purchased item," [!DNL Target] displays a random product in the [!UICONTROL Visual Experience Composer] (VEC). This is because a profile is not available while you design the activity. When visitors view the page, they will see the expected key item.
 

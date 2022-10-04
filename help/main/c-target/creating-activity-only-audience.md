@@ -22,7 +22,7 @@ Activity-only audiences provide the following benefits:
 
 1. Click **[!UICONTROL This activity only]**.
 
-   ![](assets/activity-only-aud.png)
+   ![activity-only-aud image](assets/activity-only-aud.png)
  
 1. Type a descriptive audience name. 
 1. Drag and drop the desired attributes into the audience builder.

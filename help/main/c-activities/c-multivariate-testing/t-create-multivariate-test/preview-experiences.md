@@ -13,7 +13,7 @@ Because a [!UICONTROL Multivariate Test] in [!DNL Adobe Target] compares multipl
 
    A list of all experiences appears.
 
-   ![](assets/preview.png)
+   ![preview image](assets/preview.png)
 
 1. Click an experience in the list to view that experience.
 

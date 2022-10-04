@@ -33,7 +33,7 @@ In this case, what you need are geo-specific versions of the experience, so you 
 
 1. Click **[!UICONTROL Add Audience]**, then select the first audience you want to target. Repeat for each audience.
 
-   ![](assets/exp-versions.png)
+   ![exp-versions image](assets/exp-versions.png)
 
    If the audience does not yet exist, click [Create Audience](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) and set it up.
 

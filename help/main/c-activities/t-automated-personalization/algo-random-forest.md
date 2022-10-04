@@ -28,13 +28,13 @@ Let's say zip code is most predictive. This variable would then form the first "
 
 This action would result in the first layer of our decision tree:
 
-![](assets/decsion_tree_1.png)
+![decsion_tree_1 image](assets/decsion_tree_1.png)
 
 The decision tree would ask the question, "What is the most predictive variable?" In our example, we only have two variables, so the answer here is clearly gender. The tree now will look to complete a similar exercise to split the data *within each branch*. First, let's consider the 11111, 22222, and 33333 branch. In these zip codes, if there is a difference in conversion between men and women, then there would be two leaves (men and women), and this branch would be complete. In the other branch, 44444 and 55555, let's assume there is no statistical difference between how women and men convert. In this case, the first branch becomes the final split.
 
 Our example would result in the below tree:
 
-![](assets/decsion_tree_2.png)
+![decsion_tree_2 image](assets/decsion_tree_2.png)
 
 ## How are decision trees used by Random Forest? {#section_536C105EF9F540C096D60450CAC6F627}
 
@@ -46,7 +46,7 @@ Decision trees can be a powerful statistical tool. However, they have some disad
 
 The following diagram summarizes how models are built for Auto-Target or Automated Personalization activities:
 
-![](assets/random_forest_flow.png)
+![random_forest_flow image](assets/random_forest_flow.png)
 
 1. Target collects data on visitors while randomly serving experiences / offers 
 1. After Target hits a critical mass of data, it performs feature engineering 

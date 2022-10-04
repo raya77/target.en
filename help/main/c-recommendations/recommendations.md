@@ -26,7 +26,7 @@ exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
 
 The following illustration shows recommendations on a web page:
 
-![](assets/velocity_example.png)
+![velocity_example image](assets/velocity_example.png)
 
 A recommendation determines how a product is suggested to a visitor, depending on that visitor's activities on the site. For example:
 

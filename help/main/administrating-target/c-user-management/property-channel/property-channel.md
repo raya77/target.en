@@ -99,13 +99,13 @@ The following information explains the way permissions were enforced previously 
 
 The new [!UICONTROL Permissions] functionality lets you create different projects (called "Product Profiles" in the [!DNL Adobe Admin Console for Enterprise]). Projects allow you to assign different permissions for a single user that dictate that user's access rights for each project. These distinct projects can be compared to the way that report suites work in [!DNL Adobe Analytics]. Each project can have specific users with specific roles that apply to a set of properties. The result is that customers are able to restrict the view, edit, and approval access to their users based on region, environment (dev/stage/prod), channel, or other custom criteria, as shown below:
 
-![](assets/permissions.png)
+![permissions image](assets/permissions.png)
 
 For example, a specific user might have "approval" access on the Americas websites but only "view" access on the European mobile app. That same user might not have any access to even view the activities offered on web and mobile properties in the APAC region.
 
 The current [!DNL Target] [!UICONTROL Permissions] model has three permission roles (Observer, Editor, and Approver), as shown in the following illustration:
 
-![](assets/permissions_1.png)
+![permissions_1 image](assets/permissions_1.png)
 
 Each role has different levels of permissions:
 
@@ -118,17 +118,17 @@ Each role has different levels of permissions:
 
 It is important to note that each user's role applies to every page, property, or site in your account that includes [!DNL Target] tags, as shown below:
 
-![](assets/permissions_2.png)
+![permissions_2 image](assets/permissions_2.png)
 
 The new [!DNL Target] [!UICONTROL Permissions] model has the same three permission roles (Observer, Editor, and Approver); however, you can assign a user's permissions roles separately for individual pages, properties, or sites, as shown below:
 
-![](assets/permissions_3.png)
+![permissions_3 image](assets/permissions_3.png)
 
 In this example, Jan has Approver permissions to the US Homepage and the US Site and Observer permissions to the France Site.
 
 Furthermore, Jan cannot see pages, properties, or sites in [!DNL Target] that she doesn't have permissions to see, as shown below:
 
-![](assets/permissions_4.png)
+![permissions_4 image](assets/permissions_4.png)
 
 In this example, Jan cannot see the Product Pages, Russia Site, and the Careers Site.
 
@@ -185,18 +185,18 @@ The new Permissions functionality can be seen in various places in the [!DNL Tar
 
 * **Workspace (Product Profile) drop-down list:** The Workspace drop-down list displays at the top of the [!UICONTROL Activities], [!UICONTROL Audiences], and [!UICONTROL Offers] pages. Select the desired workspace to filter the list to display only items in the selected workspace.
 
-  ![](assets/workspace_drop-down.png)
+  ![workspace_drop-down image](assets/workspace_drop-down.png)
 
 * **Activity Creation:** When you create an activity, it is created in the currently selected workspace. You see channel selection options in the first dialog box that lets you choose the desired channel for the activity: Web, Mobile App, Email, or Other/API.
 
-  ![](assets/channel_options.png)
+  ![channel_options image](assets/channel_options.png)
 
 * **Audience Creation:** When you create an audience, it is created in the currently selected workspace.
 * **Audience list:** You can move audiences between workspaces by using the [!UICONTROL More Actions] > [!DNL Move] option on the [!UICONTROL Audiences] page.
 * **Offer Creation:** When you create an offer, it is created in the currently selected workspace. 
 * **Properties page (Administration > Properties):** You can use the [!UICONTROL Search] box to search the [!UICONTROL Property] list.
 
-  ![](assets/properties_list.png)
+  ![properties_list image](assets/properties_list.png)
 
 ## Caveats {#section_9714311B1CD9497A86F4910F8AE635E2}
 

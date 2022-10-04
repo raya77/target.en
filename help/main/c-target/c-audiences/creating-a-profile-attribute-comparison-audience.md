@@ -51,7 +51,7 @@ For more information, see [Methods to get Data into Target](https://developer.ad
 
 1. Choose the additional attribute you want to compare to your initial attribute.
 
-   ![](assets/propensity_score_4.png)
+   ![propensity_score_4 image](assets/propensity_score_4.png)
 
 1. Click **[!UICONTROL Done]**.
 

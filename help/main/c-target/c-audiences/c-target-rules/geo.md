@@ -39,7 +39,7 @@ Geo location parameters let you target activities and experiences based on your 
 
 The following illustration shows an audience that targets users accessing the activity from a latitude greater than 44° and a longitude less than 22°.
 
-![](assets/target_geo.png)
+![target_geo image](assets/target_geo.png)
 
 ## Accuracy {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 

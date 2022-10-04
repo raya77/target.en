@@ -75,11 +75,11 @@ If neither the Visual Experience Composer nor the Enhanced Experience Composer w
 
         * Change **[!UICONTROL Equals]** to **[!UICONTROL Contains]** as the condition for the source URL and enter the URL of the activity that you are trying to load in the VEC.
 
-      ![](assets/chrome_extension.png)
+      ![chrome_extension image](assets/chrome_extension.png)
 
 1. Click **[!UICONTROL Save]**.
 
-   ![](assets/requestly.png)
+   ![requestly image](assets/requestly.png)
 
    You should now be able to load the page quickly with the Visual Experience Composer.
 
@@ -94,7 +94,7 @@ If neither the Visual Experience Composer nor the Enhanced Experience Composer w
 1. Click **[!UICONTROL Add]**. 
 1. Click **[!UICONTROL Start]**.
 
-![](assets/firefox_extension.png)
+![firefox_extension image](assets/firefox_extension.png)
 
 After setting up an extension, open Target. Your pages should now load in the Visual Experience Composer, even if the Enhanced Experience Composer is disabled.
 

@@ -134,7 +134,7 @@ Dynamic remote offers use your dynamic page technology to pass values to the off
 
 The offer is executed after you render the page. An invisible iframe gathers the data, copies it out of the frame, and inserts in on the page, loading your passed values.
 
-![](assets/remote_offer_howitworks_2.jpeg)
+![remote_offer_howitworks_2 image](assets/remote_offer_howitworks_2.jpeg)
 
 ## Remote offer selection matrix {#reference_B23BEDD29DDD47709A7651AFD27E776B}
 

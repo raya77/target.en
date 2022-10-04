@@ -40,7 +40,7 @@ The following steps assume you access the [!UICONTROL Create Criteria Sequence] 
 
 1. Click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**.
 
-   ![](assets/CreateCriteriaSequence.png)
+   ![CreateCriteriaSequence image](assets/CreateCriteriaSequence.png)
 
 1. Fill in the information in the [Basic Information](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info) section.
 

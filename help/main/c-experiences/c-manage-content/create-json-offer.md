@@ -30,7 +30,7 @@ Consider the following information as you work with JSON offers:
    
 1. Click **[!UICONTROL Create]** > **[!UICONTROL JSON Offer]**.
 
-   ![](assets/offer-json.png)
+   ![offer-json image](assets/offer-json.png)
 
 1. Type an offer name. 
 1. Type or paste your JSON code in the **[!UICONTROL Code]** box. 
@@ -131,7 +131,7 @@ Real-time CDP Profile Attributes may be shared with Target for use in HTML offer
 
 Sample use case: As an online marketer, Grace wants the AEP/Unified Profile to share attribute values with Target in order to provide real-time personalization. By using Real-time CDP Profile Attributes, Grace can display the value of the AEP attribute in a Target offer using token replace. For example, she can personalize according to a customer's favorite color using `${aep.profile.favoriteColor}`, or their loyalty tier and loyalty point value using the tokens `${aep.loyalty.tier}` and `${aep.loyalty.points}`.
 
-![](assets/offer-json-aep-shared-attribute.png)
+![offer-json-aep-shared-attribute image](assets/offer-json-aep-shared-attribute.png)
 
 In the example shown above, note that assigning default values is optional.
 
@@ -139,4 +139,4 @@ In the example shown above, note that assigning default values is optional.
 
 You can filter the [!UICONTROL Offers] library by the JSON offer type by clicking the **[!UICONTROL Type]** drop-down list, then by selecting the **[!UICONTROL JSON]** checkbox.
 
-![](assets/offer-json-filter.png)
+![offer-json-filter image](assets/offer-json-filter.png)

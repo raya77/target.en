@@ -11,7 +11,7 @@ The conversion rate, lift, confidence and confidence interval are reported for e
 
 The following illustration shows the chart header for a sample activity with the [!UICONTROL Conversion Rate], [!UICONTROL Lift], and [!UICONTROL Confidence] headers highlighted.
 
-![](assets/conversion-rate.jpg)
+![conversion-rate image](assets/conversion-rate.jpg)
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ Shows the median conversion rate, confidence, interval, and the number of conver
 
 For example, examine the following Conversion Rate report column:
 
-![](assets/conversion-rate-detail.jpg)
+![conversion-rate-detail image](assets/conversion-rate-detail.jpg)
 
 The first line is the control experience. It shows a 15% conversion rate, with three conversions. The second line, Experience B, shows a 15% conversion rate, with a confidence interval of plus or minus 15.65% and three conversions.
 
@@ -56,7 +56,7 @@ The confidence of an experience or offer that is displayed is a probability (exp
 
 The confidence rounds up to 100.00% when the confidence is greater than or equal to 99.995%. 
 
-![](assets/conf_report.png)  ![](assets/conf_report_detail.png)
+![conf_report image](assets/conf_report.png)  ![conf_report_detail image](assets/conf_report_detail.png)
 
 Before making any business decisions, try to wait until your sample size is large enough and that the four bars of confidence on one or more experiences stays consistent for a continuous length of time to ensure the results are stable.
 
@@ -69,7 +69,7 @@ Before making any business decisions, try to wait until your sample size is larg
 
 The *confidence interval* is a range of estimates within which the true value of the metric can be found at a given confidence level. Target always displays 95% confidence intervals. The confidence interval appears as a light gray +/- percentage in the Conversion Rate column. In the example below, the confidence interval for Experience B's lift is plus or minus 15.65%.
 
-![](assets/conversion_rate.png)
+![conversion_rate image](assets/conversion_rate.png)
 
 **Example:** An experience's observed RPV is $10, and its 95% **confidence interval** is $5 to $15. Unknown to us, its true RPV is $12. Then, if we ran this test multiple times, 95% of the time the confidence interval we calculate will contain the _true_ value of the RPV of $12. 
 

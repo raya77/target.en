@@ -110,7 +110,7 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
    >
    >The [!UICONTROL Swap with Experience Fragment] option is not available for images. If you want to use this option with an image, click the container element that contains the desired image.
 
-   ![](assets/experience_fragment_list.png)
+   ![experience_fragment_list image](assets/experience_fragment_list.png)
 
 1. Select the desired experience fragment, then click **[!UICONTROL Done]**. 
 1. Finish configuring the activity.
@@ -133,7 +133,7 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 
 1. In [!DNL Target], while creating or editing an experience in the [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), select the location on the page where you want to insert [!DNL AEM] content, then select **[!UICONTROL Change Experience Fragment]** to display the [!UICONTROL Choose an Experience Fragment] list.
 
-   ![](assets/experience_fragment_list.png)
+   ![experience_fragment_list image](assets/experience_fragment_list.png)
 
    The [!UICONTROL Experience Fragment] list displays the content created in [!DNL AEM] that is now natively available from within [!DNL Target]. 
 

@@ -17,7 +17,7 @@ You can combine multiple traffic sources to create a complex targeting rule.
 1. 1. Name the audience and add an optional description. 
 1. Drag and drop **[!UICONTROL Traffic Sources]** into the audience builder pane.
 
-   ![](assets/target_traffic_source.png)
+   ![target_traffic_source image](assets/target_traffic_source.png)
 
 1. Click **[!UICONTROL Select]**, then select one of the following options:
 

@@ -51,18 +51,18 @@ The lift bounds represent the 95% confidence intervals of the lift that the spec
 
 The lift bounds are calculated using the following formula:
 
-![](assets/lift_diagram.png)
+![lift_diagram image](assets/lift_diagram.png)
 
 There is some additional calculation to arrive at the input to our lift bounds:
 
 * **t-value:** The critical statistic for our 95% confidence level is 1.96. You can learn more about [t-values here](https://en.wikipedia.org/wiki/T-statistic). 
 * **Lift Variance:** The Standard Error of Experience N’s success metric and the Standard Error of the Control Experience’s success metric are needed to determine the lift variance, which is calculated using the following formula (illustrated in the case the success metric is conversion).
 
-  ![](assets/lift_variance.png)
+  ![lift_variance image](assets/lift_variance.png)
 
 * **Conversion Rate / Success Metric Standard Error:** Standard error is calculated in the same way for Experience N and the Control, using the following formula (illustrated in the case the success metric is conversion). You can learn more about [standard error here](https://en.wikipedia.org/wiki/Standard_error).
 
-  ![](assets/standard_error.png)
+  ![standard_error image](assets/standard_error.png)
 
   >[!NOTE]
   >
@@ -81,25 +81,25 @@ Based on our formulas, we can calculate the inputs we need for the lift bounds.
 
 **Standard Error for Experience A (Control)**
 
-![](assets/standard_error_A.png)
+![standard_error_A image](assets/standard_error_A.png)
 
 **Standard Error for Experience B**
 
-![](assets/standard_error_B.png)
+![standard_error_B image](assets/standard_error_B.png)
 
 **Lift Variance for Experience B**
 
-![](assets/lift_variance_B.png)
+![lift_variance_B image](assets/lift_variance_B.png)
 
 **Lift Bounds for Experience B**
 
 Expected Lift for Experience B:
 
-![](assets/lift_bounds_B.png)
+![lift_bounds_B image](assets/lift_bounds_B.png)
 
 Therefore, the lift bounds for Experience B would be:
 
-![](assets/lift_bounds_B2.png)
+![lift_bounds_B2 image](assets/lift_bounds_B2.png)
 
 >[!NOTE]
 >

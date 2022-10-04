@@ -83,11 +83,11 @@ If your website's CSP headers block Target libraries, then loads the website but
 >
 >In addition to the following information, you can use the [Adobe Target VEC Helper browser extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) for Google Chrome.
 
-![](assets/cps_headers.png)
+![cps_headers image](assets/cps_headers.png)
 
 As a workaround, you can configure a Requestly rule to remove CSP headers, as shown below:
 
-![](assets/cps_headers_2.png)
+![cps_headers_2 image](assets/cps_headers_2.png)
 
 You can configure a similar Requestly rule for any header that causes a resource to not load inside the VEC.
 

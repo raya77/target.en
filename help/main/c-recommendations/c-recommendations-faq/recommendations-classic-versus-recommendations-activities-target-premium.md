@@ -40,7 +40,7 @@ For more information, see [Recommendations as an offer](/help/main/c-recommendat
 
 [!DNL Target Recommendations] includes a criteria library containing prepackaged sets of rules and configurations. In [!DNL Recommendations Classic], each recommendation was built manually by filling out a form and choosing from the large list of rules. Now, when creating a [!DNL Recommendations] activity, you simply choose a pre-configured criteria set. You can still create custom recommendations, but the criteria library contains many of the most common configurations, pre-built to simplify the process, and using language that people understand. These prepackaged criteria can be used as is, or they can be copied and edited to fit your specific needs.
 
-![](assets/overview_criteria.png)
+![overview_criteria image](assets/overview_criteria.png)
 
 Criteria are pre-configured and sorted by industry verticals, page types, and implementation. For example, you can look for the criteria that apply to the retail vertical, for use on a product page, showing products from within a particular category (as defined by the `entity.categoryID` parameter).
 
@@ -62,10 +62,10 @@ You can preview your recommendations after you set them up and make any necessar
 
 In [!DNL Recommendations Classic], there were six targeting options. Recommendations activities use Target's full range of targeting options. Define an audience using either [!DNL Target] or other [!DNL Adobe Experience Cloud] audiences (such as [!DNL Audience Manager] and [!DNL Analytics]), then select the percentage of activity entrants who see each design, and the percentages who see the control.
 
-![](assets/overview_targeting.png)
+![overview_targeting image](assets/overview_targeting.png)
 
 ## Reporting {#section_25C2FCCE4BC1488496C517C0470B5CD6}
 
 In [!DNL Target], [!DNL Recommendations] provides improved reporting that takes advantage of the capabilities provided by [!DNL Target] and the [!DNL Experience Cloud]. Rather than simply showing the lift provided by [!DNL Recommendations] compared to the results without them, you can view complete information about your [!DNL Recommendations] activity.
 
-![](assets/overview_report.png)
+![overview_report image](assets/overview_report.png)

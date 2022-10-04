@@ -13,7 +13,7 @@ You can find basic information about CSS selectors in the [Selectors](https://de
 
 You can set whether to use element classed or element IDs in your account preferences. Click **[!UICONTROL Administration > Visual Experience Composer]**, then choose your preferred CSS selectors.
 
-![](assets/css_selectors.png)
+![css_selectors image](assets/css_selectors.png)
 
 >[!NOTE]
 >

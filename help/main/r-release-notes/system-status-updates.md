@@ -19,7 +19,7 @@ Access the [!UICONTROL System Status] page by going to the following URL:
 
 To see the status of [!DNL Experience Cloud] solutions, including [!DNL Target], click the [!UICONTROL Experience Cloud] tab.
 
-![](assets/system_status.png)
+![system_status image](assets/system_status.png)
 
 The top of the page contains information about maintenance events in progress and includes a link to subscribe for updates for individual solutions.
 
@@ -29,7 +29,7 @@ An in-product notification always displays during the monthly [!DNL Target] rele
 
 The bottom of the page contains a calendar of the last seven days with statuses for each solution per day. Hover over a status indicator for more information:
 
-![](assets/system_status_indicator.png)
+![system_status_indicator image](assets/system_status_indicator.png)
 
 ## Proactive notifications
 
