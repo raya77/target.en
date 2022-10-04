@@ -12,31 +12,28 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## [!DNL Target] Standard/Premium 22.9.1 (staggered release September 13-15, 2022)
+## [!DNL Target] Standard/Premium 22.10.1 (staggered release October 5-7, 2022)
 
 This release will be available according to the following staggered schedule:
 
-* **September 13**: Europe, Middle East, and Africa (EMEA) region
-* **September 14**: Americas region
-* **September 15**: Asia-Pacific (APAC) region
+* **October 5**: Asia-Pacific (APAC) region
+* **October 6**: Americas region
+* **October 7**: Europe, Middle East, and Africa (EMEA) region
 
-This release contains the following enhancements and fixes:
+This release contains the following new features, enhancements, and fixes:
 
-* Added a [!UICONTROL Cross-Domain] option when downloading at.js 2.10.0 (and later) to allow or disable setting 3rd-party cookies. (TGT-43674)
-* Updated notifications in the [!DNL Target] UI to inform customers if the import of [!DNL Recommendations] feeds fails. (TGT-35811)
-* Fixed an issue that caused [!UICONTROL Decision Offers] to not work properly within the [!UICONTROL Visual Experience Composer] (VEC). (TGT-43866)
-* Fixed an issue that caused an error message to display when selecting the [!UICONTROL Clicked an Element] conversion goal while creating an [!UICONTROL Multivariate Testing] (MVT) activity. (TGT-43842)
-* Fixed an issue that prevented the [!UICONTROL Impressions] column from displaying in the downloaded CSV report file for [!UICONTROL Automated Personalization] (AP) activities. (TGT-43780)
-* Fixed an issue that prevented customers from editing HTML/JSON offers after duplicating experiences when using the [!UICONTROL Form-Based Experience Composer]. (TGT-43633)
-* Fixed an issue that prevented customers from copying an [!UICONTROL A/B Test] activity from a non-default workspace to another non-default workspace. (TGT-41910)
-* Fixed an issue to ensure that customers can properly display usages of [!DNL Recommendations] objects (designs, criteria, collections, and so forth) in [!UICONTROL A/B Test] and [!UICONTROL Experience Targeting] (XT) activities that contain recommendations and also delete criteria objects that are no longer in use from [!DNL Target] UI and [!DNL Recommendations] backend. (TGT-42331)
-* Fixed an issue that causes a network timeout alert to appear in the [!DNL Target] UI when fetching parameters. (TGT-43737)
-* Made UI updates to ensure that certain drag-and-drop actions are accessible by keyboard. (TGT-42969)
-* Made UI updates to ensure that text stings are properly localized.
-
-## at.js version 2.10.0 (September 13, 2022)
-
-* Added a [!UICONTROL Cross-Domain] option when downloading at.js 2.10.0 (and later) to allow or disable setting 3rd-party cookies. (TGT-43674)
+|Feature|Details|
+| --- | --- |
+|[!DNL Adobe Experience Manager] (AEM) experience fragments|Updates to the AEM experience fragments functionality include the following:<ul><li>Added the ability to filter AEM experience fragments by type (HTML or JSON) in the [!UICONTROL Offers] list. (TGT-43121)</li><li>Fixed an issue that allowed customers to insert JSON [!UICONTROL Experience Fragment] offers when using the VEC, which is not supported. JSON offers can be inserted only when using the [!UICONTROL Form-Based Experience] composer. (TGT-43846)</li></ul>For more information, see AEM [experience fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).|
+|New [!UICONTROL Visual Experience Composer] extension for Google Chrome|A new [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) extension for Chrome is available in the Chrome Web Store.<br>Starting in January 2023, the current [!DNL Target] VEC Helper extension will stop working in Google Chrome because Google won't allow extensions using Manifest V2. Download the new extension to continue to visually author your websites in [!DNL Target] starting with the new year.<br>The following links show the two extensions in the Chrome Web Store:<ul><li>[New extension](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}</li><li>[Old Extension](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak){target=_blank}</li></ul>For more information, see [Visual Editing Helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).|
+|Optimized A4T metrics for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target]<br>(Exact release date to be determined.)|Be aware of the following changes:<ul><li>Added support for binary and maximization metrics in [!UICONTROL Analytics for Target] A4T reporting for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities</li><li>Preserved behavior for existing activities until February 20, 2023. After this date, activities will be discontinued to force existing activity migration to new behavior</li><li>Starting February 20, 2023, support for `averagetimespentonsite`, `bouncerate`, and `entries` metrics in [!DNL Target] activities will be deprecated.</li></ul>|
+|Documentation updates|Notable documentation updates not related to this release include the following:<ul><li>[Statistical calculations in A/Bn tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md)<br>This article documents the detailed statistical calculations used in manual A/Bn tests in [!DNL Adobe Target]. Definitions are provided for [!UICONTROL Conversion Rate], [!UICONTROL Confidence Interval of Conversion Rate], [!UICONTROL Lift], [!UICONTROL Confidence Interval for Lift], and [!UICONTROL Confidence].</li><li>[Delivery API](https://developer.adobe.com/target/implement/delivery-api/){target=_blank}<br>The Delivery API documentation is now available in the *[!DNL Adobe Target] Developer Guide*. </li></ul>|
+ 
+* Fixed an issue that prevented audience rule information from displaying properly in the [!UICONTROL Audiences Refinements] information window. (TGT-43917)
+* Improved the performance of the [!DNL Target] UI when loading audiences that approach the [recommended limit of targeting rules](/help/main/r-troubleshooting-target/target-limits.md#targeting-rules). (TGT-43675)
+* Fixed an issue that caused some components to not display properly in the [!UICONTROL Modifications] panel on the [!UICONTROL Experiences] page when creating or editing activities in the VEC after switching from [!UICONTROL Compose] to [!UICONTROL Browse] mode. (TGT-43300)
+* Fixed an issue that prevented some customers from archiving [!UICONTROL A/B Test] activities that use [!UICONTROL Auto-Target]. (TGT-40978)
+* Added the ability to automatically use a single offer in multiple locations within a single reporting group. (TGT-40689)
 
 ## Additional release notes and version details
 
