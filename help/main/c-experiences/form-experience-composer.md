@@ -23,7 +23,7 @@ If you are creating a [!UICONTROL Recommendations] activity, there are no experi
 
    The [!UICONTROL Form-Based Experience Composer] opens.
 
-   ![](assets/location_refinements.png)
+   ![location_refinements image](assets/location_refinements.png)
 
    This screen is different if you are creating a [!UICONTROL Recommendations] activity. [!UICONTROL Recommendations] activities do not include experiences.
 
@@ -40,13 +40,13 @@ If you are creating a [!UICONTROL Recommendations] activity, there are no experi
    
 1. Click **[!UICONTROL Add Audience Refinements]**, choose one or more [audience](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) for this activity, then click **[!UICONTROL Done]**.
 
-   ![](assets/location_refinements_2.png)
+   ![location_refinements_2 image](assets/location_refinements_2.png)
 
    In the [!UICONTROL Form-based Experience Composer], refinements have been replaced with full audience functionality. Refinements for existing activities have been migrated to [activity-only audiences](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 
 1. Select the type of content you want to appear in that location.
 
-   ![](assets/form_content.png)
+   ![form_content image](assets/form_content.png)
 
 1. For the content type you selected, specify the content.
 
@@ -90,11 +90,11 @@ If you are creating a [!UICONTROL Recommendations] activity, there are no experi
 
    While selecting Recommendations criteria in the Form-Based Experience Composer, there is now a direct link to the selected Criteria card so you can quickly and easily edit the criteria.
 
-   ![](assets/change_criteria.png)
+   ![change_criteria image](assets/change_criteria.png)
 
    From the Targeting page of the Target three-step guided workflow:
 
-   ![](assets/change_criteria_2.png)
+   ![change_criteria_2 image](assets/change_criteria_2.png)
 
    **Add Offer Decision:**
 

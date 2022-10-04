@@ -15,7 +15,7 @@ The Goals and Settings page in Adobe Target is where you enter information about
 
 The available settings depend on whether you use Target or Analytics as the data source.
 
-![](assets/mvt_settings.png)
+![mvt_settings image](assets/mvt_settings.png)
 
 ## Activity Settings {#section_DCBDC354261F420EBD4B43EA34947BAC}
 

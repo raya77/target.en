@@ -40,11 +40,11 @@ You can create a design based on a default design or you can create a custom des
 
 1. Mouse over the card for the design you want to create, then click the **[!UICONTROL Copy]** icon.
 
-   ![](assets/Card_CopyDesign.png)
+   ![Card_CopyDesign image](assets/Card_CopyDesign.png)
 
    The [!UICONTROL Create Design] dialog box displays.
 
-   ![](assets/createDesign.png)
+   ![createDesign image](assets/createDesign.png)
 
 1. In the **[!UICONTROL Information]** panel, add a **[!UICONTROL Content Name]** and optional preview image to display on the design card.
 
@@ -98,7 +98,7 @@ The following example shows how JSON responses can be returned when configuring 
 
 1. Ensure that the "HTML Design" option is turned off:
 
-   ![](assets/html_design_toggle.png)
+   ![html_design_toggle image](assets/html_design_toggle.png)
 
 1. The following code is an example of what you could paste into your design:
 
@@ -163,7 +163,7 @@ The following example shows how JSON responses can be returned when configuring 
 
 After your algorithm has run, and you have results, your response should look something like this:
 
-![](assets/json_recommendation.png){width="575px"}
+![json_recommendation image](assets/json_recommendation.png){width="575px"}
 
 ## Additional JSON object tips and tricks {#section_C305673C68944749969DB239E3221DC2}
 

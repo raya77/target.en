@@ -60,7 +60,7 @@ As more visitors enter the activity, some experiences start to become more succe
 
 The following illustration represents how the algorithm might perform during a test with four experiences:
 
-![](assets/auto-allocate.png)
+![auto-allocate image](assets/auto-allocate.png)
 
 The illustration shows how the traffic allocated to each experience progresses over several rounds of the activity lifetime until a clear winner is determined.
 

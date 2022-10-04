@@ -113,7 +113,7 @@ Excluding default content is a great way to change the look and feel of the rest
 
    You can see the experiences created from the offers you specified under [!UICONTROL Manage Content]. You'll notice no experiences are created in [!UICONTROL Manage Content] using the default offer you excluded. 
 
-   ![](assets/exclude_content_vec_4.png)
+   ![exclude_content_vec_4 image](assets/exclude_content_vec_4.png)
 
 **To exclude default content using the Form-Based Experience Composer:** 
 
@@ -124,14 +124,14 @@ Excluding default content is a great way to change the look and feel of the rest
 
    For Text/HTML content: 
 
-   ![](assets/exclude_content_form_1.png)
+   ![exclude_content_form_1 image](assets/exclude_content_form_1.png)
 
    For Image/Video content: 
 
-   ![](assets/exclude_content_form_2.png)
+   ![exclude_content_form_2 image](assets/exclude_content_form_2.png)
 
 1. Click **[!UICONTROL Save]**. 
 
    You can see the experiences created from the offers you specified under [!UICONTROL Manage Content]. You'll notice no experiences are created in [!UICONTROL Manage Content] using the default offer you excluded. 
 
-   ![](assets/exclude_content_form_3.png)
+   ![exclude_content_form_3 image](assets/exclude_content_form_3.png)

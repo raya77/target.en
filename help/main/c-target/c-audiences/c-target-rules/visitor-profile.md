@@ -15,7 +15,7 @@ Create audiences in [!DNL Adobe Target] to target visitors who meet specific pro
 
 1. Click **[!UICONTROL Select]**, then select one of the following options:
 
-   ![](assets/target_visitor_profile.png)
+   ![target_visitor_profile image](assets/target_visitor_profile.png)
 
    Visitor profile parameters are passed via the mbox (profile). You can target either new or returning visitors, or include all users.
 

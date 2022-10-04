@@ -69,7 +69,7 @@ To minimize partial-data hits, you can make your page load faster, update to the
 
 The following illustration shows for the segment definition for the virtual report suite:
 
-![](assets/ts_a4t.png)
+![ts_a4t image](assets/ts_a4t.png)
 
 When creating the virtual report suite, specify the following configuration for the segment definition (as shown in the above illustration):
 

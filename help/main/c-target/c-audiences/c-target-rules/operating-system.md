@@ -23,7 +23,7 @@ You can target visitors using [!DNL Adobe Target] who use a certain operating sy
 
 The following illustration shows an audience targeting visitors using a Macintosh OS.
 
-![](assets/target_os.png)
+![target_os image](assets/target_os.png)
 
 ## Training video: Creating Audiences
 

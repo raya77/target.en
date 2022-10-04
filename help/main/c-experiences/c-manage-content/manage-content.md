@@ -19,7 +19,7 @@ Use the [!UICONTROL Offers] library in [!DNL Adobe Target] to manage your code o
 
 1. (Optional) Click the **[!UICONTROL Type]** drop-down list to filter offers by type (HTML Offer, [Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [Redirect Offer](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Remote Offer](/help/main/c-experiences/c-manage-content/about-remote-offers.md), [JSON Offers](/help/main/c-experiences/c-manage-content/create-json-offer.md), and [Folders](/help/main/c-experiences/c-manage-content/create-content-folder.md)).
 
-   ![](assets/offers_filter.png)
+   ![offers_filter image](assets/offers_filter.png)
 
 1. (Optional) Click the **[!UICONTROL Source]** drop-down list to filter offers by source (Adobe Target, Adobe Target Classic, and Adobe Experience Manager).
 
@@ -60,7 +60,7 @@ You can view offer definition details on a pop-up card in the [!UICONTROL Offers
 
 For example, the following offer definition card for an HTML offer is accessed by hovering over an offer on the [!UICONTROL Content] list, then clicking the information icon:
 
-![](assets/offer-card-html.png)
+![offer-card-html image](assets/offer-card-html.png)
 
 The following information is available:
 
@@ -73,11 +73,11 @@ The following information is available:
 
 Click the [!UICONTROL Offer Usage] tab to view the activities that reference a code offer in each offer's definition pop-up card. This functionality does not apply to image offers. This way you can avoid impact to other activities while editing offers. Information includes [!UICONTROL Live Activities] and [!UICONTROL Inactive Activities].
 
-![](assets/offer-card-usage.png)
+![offer-card-usage image](assets/offer-card-usage.png)
 
 The following offer definition card for a Redirect offer:
 
-![](assets/offer-card-redirect.png)
+![offer-card-redirect image](assets/offer-card-redirect.png)
 
 The following information is available:
 
@@ -93,7 +93,7 @@ The following information is available:
 
 The following offer definition card for a Remote offer:
 
-![](assets/offer-card-remote.png)
+![offer-card-remote image](assets/offer-card-remote.png)
 
 The following information is available:
 

@@ -30,7 +30,7 @@ You can change your [!UICONTROL Reporting Settings] options in [!UICONTROL Admin
 1. In [!DNL Target], click **[!UICONTROL Administration]**. 
 1. In the **[!UICONTROL Experience Cloud solution used for reporting]** drop-down list, click **[!UICONTROL Select per Activity]**.
 
-![](assets/select-per-activity.png)
+![select-per-activity image](assets/select-per-activity.png)
 
 The **[!UICONTROL Reporting Source]** drop-down list is enabled in the **[!UICONTROL Goal & Settings]** screen for creating and editing activities.
 

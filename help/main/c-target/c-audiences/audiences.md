@@ -80,7 +80,7 @@ The audience usage information can help you avoid accidental impact to other act
 
 If an audience is [combined with another audience](/help/main/c-target/combining-multiple-audiences.md) and the combined audience is used to create an activity, the usage information for both audiences lists that newly created activity.
 
-![](assets/audience_definition_list_usage.png)
+![audience_definition_list_usage image](assets/audience_definition_list_usage.png)
 
 <!--The following audience definition card is for an audience imported from the Adobe Experience Cloud. In this instance, the audience was imported from Adobe Audience Manager (AAM).
 

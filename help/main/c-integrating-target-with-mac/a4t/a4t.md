@@ -73,15 +73,15 @@ You can toggle between the [!UICONTROL Table View] and [!UICONTROL Graph View] o
 
 The following illustration shows the [!UICONTROL Graph View] of an A4T report with the [!UICONTROL Report Metric] drop-down list displaying the available [!DNL Analytics] goal metrics:
 
-![](assets/a4t_report_graph1.png)
+![a4t_report_graph1 image](assets/a4t_report_graph1.png)
 
 The following illustration shows the [!UICONTROL Graph View] of an A4T report with the [!UICONTROL Audience] drop-down list displaying the available [!DNL Analytics] audiences:
 
-![](assets/a4t_report_graph2.png)
+![a4t_report_graph2 image](assets/a4t_report_graph2.png)
 
 The following illustration shows the [!UICONTROL Table View] of an A4T report:
 
-![](assets/a4t_report_table.png)
+![a4t_report_table image](assets/a4t_report_table.png)
 
 To view the report in [!DNL Analytics] rather than in [!DNL Target], click **[!UICONTROL View in Analytics]** along the top of the report. 
 

@@ -13,7 +13,7 @@ Designs in [!DNL Adobe Target Recommendations] define how recommendations appear
 
 [!DNL Target] can deliver the complete look and feel of your recommendations as shown in the following illustration. The design can include HTML, JavaScript, and CSS. This design is called a 4 x 1 design: four spaces in one row. 
 
-![](assets/velocity_example.png)
+![velocity_example image](assets/velocity_example.png)
 
 Target can also send your recommendations as JSON objects that can be used in email messages, IoT (Internet of Things) devices, console, or voice use cases (Amazon Alexa or Google Home).
 

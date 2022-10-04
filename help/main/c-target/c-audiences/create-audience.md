@@ -31,7 +31,7 @@ For example, the following rule targets visitors who use either Chrome *or* Fire
 
 1. Click **[!UICONTROL Audiences]** in the top menu bar.
 
-   ![](assets/audiences_list.png)
+   ![audiences_list image](assets/audiences_list.png)
 
 1. From the [!UICONTROL Audiences] list, click **[!UICONTROL Create Audience]**.
 

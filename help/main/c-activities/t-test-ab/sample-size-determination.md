@@ -55,11 +55,11 @@ There are five user-defined parameters that define an A/B test. These parameters
 
 For an A/B test, the statistical significance, statistical power, minimum reliably detectable lift, and baseline conversion rate are set by the analyst and then the required number of visitors is calculated from these numbers. This article discusses these elements and gives guidelines for how to determine these metrics for a specific test.
 
-![](assets/samplesize.png)
+![samplesize image](assets/samplesize.png)
 
 The figure below illustrates the four possible outcomes of an A/B test:
 
-![](assets/outcomes.png)
+![outcomes image](assets/outcomes.png)
 
 It is desirable to get no false positives or false negatives. However, obtaining zero false positives can never be guaranteed by a statistical test. It is always possible that observed trends are not representative of the underlying conversion rates. For example, in a test to see if heads or tails on a coin flip was more likely, even with a fair coin, you could get ten heads on ten tosses just by chance. The statistical significance and power help us quantify the false positive and false negative rates and allow us to keep them at reasonable levels for a given test.
 
@@ -103,11 +103,11 @@ For example, suppose that two offers (A and B) have true conversion rates of 10%
 
 The figure below shows these probability distributions.
 
-![](assets/probability_distributions.png)
+![probability_distributions image](assets/probability_distributions.png)
 
 Because of the large overlap between the two ranges, the test cannot determine whether the conversion rates are different. Therefore, this test with 100 visitors cannot distinguish between the two offers. However, if Target exposes the offers to 5,000 visitors each, then there is a 95% chance that the observed conversion rates fall in the ranges of 9% to 11% and 14% to 16%, respectively.
 
-![](assets/probability_distributions2.png)
+![probability_distributions2 image](assets/probability_distributions2.png)
 
 In this case, it is unlikely that the test comes to a wrong conclusion, so the test with 5,000 visitors can distinguish between the two offers. The test with 5,000 visitors has a confidence interval of approximately +/-1%. This means the test can detect differences of about 1%. Therefore, even more visitors would be needed if the true conversion rates of the offers were, for example, 10% and 10.5% instead of 10% and 15%.
 
@@ -125,7 +125,7 @@ The sample size calculator (link provided above) asks you to decide on the stati
 
 There is a trade-off between the minimum lift that can be reliably identified by the test and the required number of visitors. The figure below, which is valid for a baseline (control) conversion rate of 5%, shows strong diminishing returns for increasing the number of visitors. The minimum lift that can be reliably detected improves tremendously when adding the first few visitors to the test, but it takes an increasingly larger number of visitors to improve the test. The figure helps in finding an adequate tradeoff between the time required to run the test (as determined by the number of visitors required and the site traffic) and the minimum lift that can be reliably detected by the test.
 
-![](assets/samplesizecontrol.png)
+![samplesizecontrol image](assets/samplesizecontrol.png)
 
 In this example, you might decide that being able to detect a lift of 5% (corresponding to a conversion rate of the alternative offer of (100%+5%)&#42;5% = 5.25%) in 80 out of 100 tests is adequate, so you need a sample size of 100,000 visitors to each offer. If the site has 20,000 visitors per day and you are testing two offers, the test should be allowed to run for 2&#42;100,000/20,000 = 10 days before it can be determined whether the alternative offer is statistically significantly superior to the control offer. 
 

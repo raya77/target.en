@@ -51,7 +51,7 @@ Use QA URLs in [!DNL Adobe Target] to perform easy end-to-end activity QA with p
    
    You can navigate the site to see the other pages because the [!UICONTROL Activity QA] mode is sticky. This situation is true for at.js implementations with version 2.*x* or later. For at.js 1.*x* implementations, this situation is true only if the visitor's browser doesn't block third-party cookies.
 
-1. To see reports generated from activity link URLs, click the activity's **[!UICONTROL Reports]** page, click the **[!UICONTROL Settings]** icon (  ![](assets/icon_gear.png) ), then select **[!UICONTROL QA Mode Traffic]** from the **[!UICONTROL Environment]** drop-down list.
+1. To see reports generated from activity link URLs, click the activity's **[!UICONTROL Reports]** page, click the **[!UICONTROL Settings]** icon (  ![icon_gear image](assets/icon_gear.png) ), then select **[!UICONTROL QA Mode Traffic]** from the **[!UICONTROL Environment]** drop-down list.
 
 ## Considerations {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 

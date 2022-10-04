@@ -96,7 +96,7 @@ If you use a location where category Id is present in the mbox, the criteria pic
 
 To access the [!UICONTROL Filter Incompatible Criteria] setting, click [!UICONTROL Recommendations] > [!UICONTROL Settings]:
 
-![](assets/recs_settings_filter.png)
+![recs_settings_filter image](assets/recs_settings_filter.png)
 
 If the [!UICONTROL Filter Incompatible Criteria] setting is NOT enabled, [!DNL Target] does not filter algorithms in the Algorithm Picker and all algorithms are displayed.
 
@@ -104,7 +104,7 @@ If the [!UICONTROL Filter Incompatible Criteria] setting is enabled, in VEC acti
 
 If the [!UICONTROL Filter Incompatible Criteria] setting is enabled, you can still view non-compatible algorithms by deselecting the [!UICONTROL Compatible] checkbox while selecting criteria.
 
-![](assets/compatible_checkbox.png)
+![compatible_checkbox image](assets/compatible_checkbox.png)
 
 The following list contains special cases in which [!DNL Target] does not display the [!UICONTROL Compatible] checkbox:
 
@@ -120,7 +120,7 @@ Consider the following information if you see a collection go to zero that previ
 * You can resave the collection and see if it updates the number. By resaving, the collection reruns all algorithms that are using that collection. 
 * Are you looking at the right environment? Go to [!DNL /target/products.html#recsSettings] to double check (as shown below).
 
-  ![](assets/product_catalog.png)
+  ![product_catalog image](assets/product_catalog.png)
 
 * Is your index up to date? Go t o [!DNL /target/products.html#productSearch] and check how many hours old the index is (for example, “Indexed 3 hours ago”). You can refresh the index as needed. 
 * Did you change something in the feed or the data layer that resulted in your entities no longer matching the collection rules? Make sure your CASE matches (case-sensitive). 
@@ -133,13 +133,13 @@ Attribute weighting exists in two forms: "standard attribute weighting" and "con
 
 "Standard attribute weighting" applies to most, if not all, criteria types (not just Content Similarity). This type of weighting gives more weight to certain attribute values. In the following example, Nike products get a bump in the output recommendations.
 
-![](assets/attribute_weighting_example.png)
+![attribute_weighting_example image](assets/attribute_weighting_example.png)
 
 "Content similarity attribute weighting” applies to Content Similarity criteria only.
 
 This type of weighting is more dynamic, and is based on the current “recommendation key” (the currently viewed item). In the following example (brand x 16), if a visitor were viewing Nike sneakers, that visitor is more likely to be recommended other Nike products (not necessarily only sneakers) rather than competitors’ sneakers. If a visitor is viewing Adidas sneakers, that visitor is more likely to be recommended Adidas products.
 
-![](assets/content_similarity_example.png)
+![content_similarity_example image](assets/content_similarity_example.png)
 
 ## Why is [!DNL Target] sometimes unable to show recommendations? {#section_DB3F40673AED42228E407C05437D99E9}
 

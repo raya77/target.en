@@ -16,7 +16,7 @@ The process for creating and using inclusion rules for criteria and promotions i
 
 While you are [creating criteria](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE), click **[!UICONTROL Add Filtering Rule]** under **[!UICONTROL Inclusion Rules]**.
 
-![](assets/inclusion_options_new.png)
+![inclusion_options_new image](assets/inclusion_options_new.png)
 
 The available options vary depending on the selected industry vertical and recommendation key.
 
@@ -24,7 +24,7 @@ The available options vary depending on the selected industry vertical and recom
 
 While [creating a promotion](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14), select **[!UICONTROL Promote by Attribute]**, then click **[!UICONTROL Add Filtering Rule]**.
 
-![](assets/inclusion_options.png)
+![inclusion_options image](assets/inclusion_options.png)
 
 ## Filter Types {#section_0125F1ED10A84C0EB45325122460EBCD}
 
@@ -87,9 +87,9 @@ You can choose several options to handle empty values when filtering by [!UICONT
 
 Previously, no results were returned if a value was empty. The "If *x* is Empty" drop-down list lets you choose the appropriate action to perform if the criteria has empty values, as shown in the following illustration:
 
-![](assets/empty_value.png)
+![empty_value image](assets/empty_value.png)
 
-To select the desired action, hover over the gear icon (![](assets/icon_gear.png)), then choose the desired action:
+To select the desired action, hover over the gear icon (![icon_gear image](assets/icon_gear.png)), then choose the desired action:
 
 | Action | Available For | Details |
 |--- |--- |--- |
@@ -104,7 +104,7 @@ To select the desired action, hover over the gear icon (![](assets/icon_gear.png
 >
 >Different data type attributes might not be compatible in dynamic criteria or promotions during runtime with the "equals" and "does not equal" operators. Use [!UICONTROL Value], [!UICONTROL Margin], [!UICONTROL Inventory], and [!UICONTROL Environment] values wisely on the right-hand side if the left hand side has predefined attributes or custom attributes.
 
-![](assets/left_right.png)
+![left_right image](assets/left_right.png)
 
 The following table shows effective rules and rules that might not be compatible during runtime:
 

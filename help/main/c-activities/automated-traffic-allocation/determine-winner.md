@@ -23,7 +23,7 @@ When using the [!UICONTROL Auto-Allocate] feature, [!DNL Target] displays a badg
 
 When a clear winner is declared, [!DNL Target] displays "Winner: Experience X."
 
-![](assets/winner.png)
+![winner image](assets/winner.png)
 
 >[!NOTE]
 >

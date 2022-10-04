@@ -21,7 +21,7 @@ Be aware of the following information as you work with multiple metrics in repor
 1. To display a report, click **[!UICONTROL Activities]**, click the desired activity from the list, then click the **[!UICONTROL Reports]** tab. 
 1. Click the **[!UICONTROL Report Metric]** drop-down list to display the [!UICONTROL Shown Metrics] and [!UICONTROL Hidden Metrics] lists.
 
-   ![](assets/multiple_metrics.png)
+   ![multiple_metrics image](assets/multiple_metrics.png)
 
    You can use the [!UICONTROL Search] box to quickly find available metrics to add to the [!UICONTROL Shown Metrics] list.
 
@@ -40,10 +40,10 @@ Be aware of the following information as you work with multiple metrics in repor
 1. Click **[!UICONTROL Save]** when finished. 
 1. (Conditional) While viewing the report in the [!UICONTROL Table View], hover your mouse pointer on any metric's column header to display a blue arrow. Click the arrow to expand the table to display the [!UICONTROL Lift] and [!UICONTROL Confidence] for that metric.
 
-   ![](assets/multiple_metrics_table.png)
+   ![multiple_metrics_table image](assets/multiple_metrics_table.png)
 
    You can expand only one metric/column at a time. Click the arrow again to collapse the columns. 
 
 1. (Conditional) While viewing the report in the Graph View, you can select individual metrics to display from the drop-down list:
 
-   ![](assets/multiple_metrics_graph.png)
+   ![multiple_metrics_graph image](assets/multiple_metrics_graph.png)

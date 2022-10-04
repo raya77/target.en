@@ -11,7 +11,7 @@ The Capture Score engagement metric in [!DNL Adobe Target] calculates an aggrega
 
 The following example shows how score engagement is calculated in a campaign that tests two experiences, one with a cat image, and one with a dog image.
 
-![](assets/example_score.png)
+![example_score image](assets/example_score.png)
 
 In this example, the first visitor experiences the cat experience. Assume that a global [!DNL Target] request passes in a page score based on the value of the page. If the marketer has captured page count engagement on a success metric associated with `**any Target request**`, the visit score accumulates for any request seen after the display request around the cat image.
 
@@ -19,7 +19,7 @@ The first page adds 1 to the score, the second page 0.25, the third 0.10, and th
 
 You can take into account acquisition costs and affiliate link revenue by passing adboxes and redirectors, as depicted in the following page flow. Notice that, in this example, both [!DNL Target] requests on the article page pass a score, possibly representing a known CPM.
 
-![](assets/example_score2.png)
+![example_score2 image](assets/example_score2.png)
 
 ## Assigning a page score
 

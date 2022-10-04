@@ -2191,7 +2191,7 @@ This [!DNL Target] release includes the following enhancements and fixes: :
 * The [!DNL Target] user interface has been updated to support redirect offers in activities that use [!UICONTROL Analytics for Target] (A4T) as the reporting source. This functionality will require [!DNL at.js] 0.9.6, which will be available soon. 
 * The [!DNL Target] user interface was updated in some places:
 
-    * In reports and activities, some options ( [!UICONTROL Edit], [!UICONTROL Share to Feed], [!UICONTROL View Experience URLs], etc.) are now accessed by clicking the [!UICONTROL More Options] icon (  ![](assets/icon_more_options.png)    
+    * In reports and activities, some options ( [!UICONTROL Edit], [!UICONTROL Share to Feed], [!UICONTROL View Experience URLs], etc.) are now accessed by clicking the [!UICONTROL More Options] icon (  ![icon_more_options image](assets/icon_more_options.png)    
     
       ). 
     * In the [!UICONTROL Offers] library, offers now display in a list rather as cards. Other minor UI changes were made throughout the [!UICONTROL Offers] library UI.

@@ -26,7 +26,7 @@ To add pages to a test:
 
    A navigation bar appears on the left of the screen.
 
-   ![](assets/multipage_nav.png)
+   ![multipage_nav image](assets/multipage_nav.png)
 
 1. Use that navigational bar to specify your pages and to set the default page.
 
@@ -34,7 +34,7 @@ To add pages to a test:
 
    Click the three vertical ellipses icon to display an action menu:
 
-   ![](assets/multipage_menu.png)
+   ![multipage_menu image](assets/multipage_menu.png)
 
    Use this menu to rename the pages, perform a redirect test from within the multipage activity or delete the page. 
 

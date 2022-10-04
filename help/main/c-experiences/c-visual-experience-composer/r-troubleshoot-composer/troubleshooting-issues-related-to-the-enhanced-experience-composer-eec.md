@@ -29,7 +29,7 @@ You might see the following error message in [!DNL Target]:
 
 `Error: Your website domain (ISP) is blocking the [!UICONTROL Enhanced Experience Composer]. You can allowlist the [!UICONTROL Enhanced Experience Composer]'s IP addresses or turn off [!UICONTROL Enhanced Experience Composer] in [!UICONTROL Configure] > [!UICONTROL Page Delivery] menu.`
 
-![](assets/EEC_error.png)
+![EEC_error image](assets/EEC_error.png)
 
 The following are reasons that you might see this error message and remedies to fix the situation:
 
@@ -50,15 +50,15 @@ To check the TLS version on your website using Firefox (other browsers have simi
 1. Open the affected website in Firefox. 
 1. Click the **[!UICONTROL Show Site Information]** icon on the browser's address bar.
 
-   ![](assets/firefox_more_info.png)
+   ![firefox_more_info image](assets/firefox_more_info.png)
 
 1. Click **[!UICONTROL Show Connection Details]** > **[!UICONTROL More Information]**.
 
-   ![](assets/firefox_more_info_2.png)
+   ![firefox_more_info_2 image](assets/firefox_more_info_2.png)
 
 1. Examine the TLS version information under Technical Details:
 
-   ![](assets/firefox_more_info_3.png)
+   ![firefox_more_info_3 image](assets/firefox_more_info_3.png)
 
 1. If you find that your website is showing TLS 1.0, see [TLS (Transport Layer Security) Encryption Changes](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank} for information about Target's TLS support policy. To remedy the situation for now (valid until September 12, 2018){target=_blank}, reach out to [Customer Care](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) for configuration with your TLS version and the domain.
 

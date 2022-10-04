@@ -27,7 +27,7 @@ You can use a simple search or an advanced search to locate items in your catalo
 
 1. (Optional) You can refine your search by selecting a search option from the options menu that displays when you click the down arrow in the search field.
 
-   ![](assets/searchproductsmenu.png)
+   ![searchproductsmenu image](assets/searchproductsmenu.png)
 
    Search options include the following:
 
