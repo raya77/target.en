@@ -80,7 +80,7 @@ The [!UICONTROL Automated Personalization] (AP) activity workflow in [!DNL Adobe
 
 1. (Conditional) Click **[!UICONTROL Offers]** to select pieces of content and assign them to reporting groups or only allow certain visitors to see certain offers with targeting.
 
-   For more information, see [Offer Reporting Groups in Automated Personalization](/help/main/c-reports/offer-reporting-groups-in-automated-personalization.md#concept_194128C0B56B4B26AAB57DB49892960C).
+   For more information, see [Offer Reporting Groups in Automated Personalization](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md).
 
    Use the [!UICONTROL Location] list to filter offers by location. Use the [!UICONTROL Report Group] list to filter offers by reporting groups. You can also use the [!UICONTROL Report Group] list to filter for [!UICONTROL Unassigned Offers] so you can assign a reporting group to an offer that is not currently assigned to any reporting group.
 
@@ -114,8 +114,8 @@ The [!UICONTROL Automated Personalization] (AP) activity workflow in [!DNL Adobe
 
    ![Traffic Allocation Goal drop-down list](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
 
-   * **Evaluate Personalization Algorithm (50/50):** If your goal is to test the algorithm, use a 50/50 percent split of visitors between the control and the targeted algorithm. This split gives the most accurate estimate of the lift. Suggested for use with “random experiences” as your control.
-   * **Maximizing Personalization Traffic (90/10):** If your goal is to create an “always on” activity, put 10% of the visitors into the control to ensure there is enough data for the algorithms to continue learning over time. Note the tradeoff here is that in exchange for personalizing a larger proportion of your traffic, you will have less precision in what the exact lift is. No matter your goal, this is the recommended traffic split when using a specific experience as the control.
+   * **Evaluate Personalization Algorithm (50/50):** If your goal is to test the algorithm, use a 50/50 percent split of visitors between the control and the targeted algorithm. This split gives the most accurate estimate of the lift. Suggested for use with "random experiences" as your control.
+   * **Maximizing Personalization Traffic (90/10):** If your goal is to create an "always on" activity, put 10% of the visitors into the control to ensure there is enough data for the algorithms to continue learning over time. Note the tradeoff here is that in exchange for personalizing a larger proportion of your traffic, you will have less precision in what the exact lift is. No matter your goal, this is the recommended traffic split when using a specific experience as the control.
    * **Custom Allocation** Manually split the percentage as desired.
 
 1. (Conditional) From the [!UICONTROL Control] drop-down list, [select a specific experience to be used as control](/help/main/c-activities/t-automated-personalization/experience-as-control.md) or select [!UICONTROL Random Experience.]
@@ -158,4 +158,4 @@ The [!UICONTROL Automated Personalization] (AP) activity workflow in [!DNL Adobe
 
 After you click **[!UICONTROL Create]**, the Activity Summary appears. Click **Preview Experiences** to preview how your experiences will look when delivered. A pop-up appears that you can use to view and share links to your AP experiences on your site to get a "true preview" of the experiences outside of Target's Visual Experience Composer. You must share the links from the message to share the preview. Clicking a link and then copying the URL directly from the page won't work because the URL contains a parameter that only displays the page correctly when you access the page from the link in the message. 
 
-For information about reporting, see [Automated Personalization Reports](/help/main/c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A).
+For information about reporting, see [Automated Personalization Reports](/help/main/c-reports/personalization-reports/reports-ap.md).

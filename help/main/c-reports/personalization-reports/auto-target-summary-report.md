@@ -47,7 +47,7 @@ Some tips and considerations as you interpret your [!UICONTROL Auto-Target] repo
 
 * Comparing the conversion rate of experience A with that of experience B is not the right comparison in [!UICONTROL Auto-Target]. The question is whether experience A performs better when served in an intelligent way versus a random way (in other words, versus the control). Marketers should also use caution about interpreting the lifts of individual experiences because the personalization algorithm is attempting to optimize for the success metric over the entire activity, not over each individual experience. 
 * Experiences with the highest lift can be understood as having the highest differentiation within the population. That is the algorithm has found a segment that likes that particular experience the most.
-* The various columns in the table show the number of visits, conversion rate, average lift and confidence level, and confidence. For more information, see [Average Lift, Lift Bounds, and Confidence Interval](/help/main/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md).
+* The various columns in the table show the number of visits, conversion rate, average lift and confidence level, and confidence. For more information, see [Statistical calculations in A/B tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Graph View
 

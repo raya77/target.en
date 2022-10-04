@@ -40,7 +40,7 @@ The [!UICONTROL Offer Level] report for the Random Forest experience compares th
 
 Click the experience algorithm (Random Forest or control) to view the [!UICONTROL Offer Level] report.
 
-![](assets/ap_OfferLevelRpt.png)
+![](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
 
 Offers can be shown within report groups, and these report groups can be collapsed and expanded. Select [!UICONTROL Reporting Group] in the drop-down list to view rolled-up information by reporting groups, rather than by offers.
 

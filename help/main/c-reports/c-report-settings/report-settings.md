@@ -161,7 +161,7 @@ Click the **[!UICONTROL Download]** icon to download report data in a [!DNL .csv
 
 ![Download icon](/help/main/c-reports/c-report-settings/assets/download-icon.png)
 
-For more information, see [Downloading Data in a CSV File](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75).
+For more information, see [Downloading Data in a CSV File](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md).
 
 ## Refresh {#section_E203729F2F314DF3856D2EE67C60B370}
 
@@ -186,7 +186,7 @@ You can view the report in various formats, depending on the activity type. Sele
 
 Reports include several data points and visualization representations that understand the lift bounds and confidence level associated with your activity. This helps you more accurately determine a winner.
 
-For more information, see [Average Lift, Lift Bounds, and Confidence Interval](/help/main/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129).
+For more information, see [Statistical calculations in A/Bn tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 Consider the following:
 

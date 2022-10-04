@@ -57,7 +57,7 @@ The following terms are useful when discussing [!UICONTROL Auto-Target]:
 |---|---|
 |  Multi-armed bandit  | A multi-armed bandit approach to optimization balances exploratory learning and exploitation of that learning.  |
 |  Random Forest  |Random Forest is a leading machine learning approach. In data-science speak, it is an ensemble classification, or regression method, that works by constructing many decision trees based on visitor and visit attributes. Within Target, Random Forest is used to determine which experience is expected to have the highest likelihood of conversion (or highest revenue per visit) for each specific visitor. For more information about Random Forest in Target, see [Random Forest Algorithm](/help/main/c-activities/t-automated-personalization/algo-random-forest.md).  |
-|  Thompson Sampling  |The goal of Thompson Sampling is to determine which experience is the best overall (non-personalized), while minimizing the “cost” of finding that experience. Thompson sampling always picks a winner, even if there is no statistical difference between two experiences. For more information, see [Thompson Sampling](https://en.wikipedia.org/wiki/Thompson_sampling).  |
+|  Thompson Sampling  |The goal of Thompson Sampling is to determine which experience is the best overall (non-personalized), while minimizing the "cost" of finding that experience. Thompson sampling always picks a winner, even if there is no statistical difference between two experiences. For more information, see [Thompson Sampling](https://en.wikipedia.org/wiki/Thompson_sampling).  |
 
 ## How [!UICONTROL Auto-Target] Works {#section_77240E2DEB7D4CD89F52BE0A85E20136}
 
@@ -83,8 +83,8 @@ The [!UICONTROL Custom Allocation] drop-down list lets you choose from the follo
 
 | Activity Goal | Suggested Traffic Allocation | Tradeoffs |
 |--- |--- |--- |
-|**Evaluate Personalization Algorithm (50/50)**: If your goal is to test the algorithm, use a 50/50 percent split of visitors between the control and the targeted algorithm. This split gives the most accurate estimate of the lift. Suggested for use with “random experiences” as your control.|50% Control / 50% Personalized Experience split|<ul><li>Maximizes accuracy of lift between control and personalized</li><li>Relatively fewer visitors have a personalized experience</li></ul>|
-|**Maximize Personalization Traffic (90/10)**: If your goal is to create an “always on” activity, put 10% of the visitors into the control to ensure there is enough data for the algorithms to continue learning over time. Note the tradeoff here is that in exchange for personalizing a larger proportion of your traffic, you have less precision in what the exact lift is. No matter your goal, this is the recommended traffic split when using a specific experience as the control.|Best practice is to use a 10% - 30% Control / 70% - 90% Personalized Experience split|<ul><li>Maximizes number of visitors who have a personalized experience</li><li>Maximizes lift</li><li>Less accuracy as to what the lift is for the activity</li></ul>|
+|**Evaluate Personalization Algorithm (50/50)**: If your goal is to test the algorithm, use a 50/50 percent split of visitors between the control and the targeted algorithm. This split gives the most accurate estimate of the lift. Suggested for use with "random experiences" as your control.|50% Control / 50% Personalized Experience split|<ul><li>Maximizes accuracy of lift between control and personalized</li><li>Relatively fewer visitors have a personalized experience</li></ul>|
+|**Maximize Personalization Traffic (90/10)**: If your goal is to create an "always on" activity, put 10% of the visitors into the control to ensure there is enough data for the algorithms to continue learning over time. Note the tradeoff here is that in exchange for personalizing a larger proportion of your traffic, you have less precision in what the exact lift is. No matter your goal, this is the recommended traffic split when using a specific experience as the control.|Best practice is to use a 10% - 30% Control / 70% - 90% Personalized Experience split|<ul><li>Maximizes number of visitors who have a personalized experience</li><li>Maximizes lift</li><li>Less accuracy as to what the lift is for the activity</li></ul>|
 |**Custom Allocation**|Manually split the percentage as desired.|<ul><li>You might not achieve the desired results. If you are unsure, follow the suggestions for either of the preceding options</li></ul>|
 
 To adjust the Control percentage, click the icons in the Allocation column. You cannot decrease the control group to less than 10%.
@@ -107,7 +107,7 @@ There are several scenarios where you might prefer to use [!UICONTROL Auto-Targe
 
 * The algorithm predicts a visitor's propensity for conversion (or estimated revenue from conversion) in order to serve the best experience. 
 * A visitor is eligible for a new experience upon the end of an existing session (unless the visitor is in the control group, in which case the experience that visitor is assigned on the first visit remains the same for subsequent visits). 
-* Within a session, the prediction doesn’t change, to maintain visual consistency.
+* Within a session, the prediction doesn't change, to maintain visual consistency.
 
 **The algorithm adapts to changes in visitor behavior.**
 
@@ -153,7 +153,7 @@ For [!UICONTROL Auto-Target], simple rules of thumb can be used to understand tr
 
 ## Reporting and [!UICONTROL Auto-Target] {#section_42EE7F5E65E84F89A872FE9921917F76}
 
-For more information, see [Auto-Target Summary Report](/help/main/c-reports/auto-target-summary-report.md) in the [Reports](/help/main/c-reports/reports.md) section.
+For more information, see [Auto-Target Summary Report](/help/main/c-reports/personalization-reports/auto-target-summary-report.md).
 
 ## Training video: Understanding Auto-Target Activities ![Overview badge](/help/main/assets/overview.png)
 

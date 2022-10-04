@@ -11,7 +11,7 @@ The Experience Performance report shows how each experience in the activity perf
 
 You can select one or more experiences to compare them. Click on an experience and select **[!UICONTROL Preview]** to open the experience in a browser tab.
 
-![](assets/experienceperformancetable.png)
+![](/help/main/c-reports/assets/experienceperformancetable.png)
 
 The top of the report shows the metric, start and end dates, and audience used in the report. You can change any of these factors.
 

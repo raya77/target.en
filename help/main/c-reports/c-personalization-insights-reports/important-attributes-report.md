@@ -33,13 +33,13 @@ In different activities, different attributes are more, or less, important to ho
 
 1. Click **[!UICONTROL Reports]**.
 
-   The [Automated Personalization Summary](/help/main/c-reports/reports-ap.md) or [Auto-Target Summary](/help/main/c-reports/auto-target-summary-report.md) report displays, which provides information about the performance of your activities, represented by the first screen icon. The two additional icons represent the two [!UICONTROL Personalization Insights] reports: [!UICONTROL Automated Segments] and [!UICONTROL Important Attributes]. 
+   The [Automated Personalization Summary](/help/main/c-reports/personalization-reports/reports-ap.md) or [Auto-Target Summary](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) report displays, which provides information about the performance of your activities, represented by the first screen icon. The two additional icons represent the two [!UICONTROL Personalization Insights] reports: [!UICONTROL Automated Segments] and [!UICONTROL Important Attributes]. 
    
-   ![Summary report for Automated Personalization activity](assets/summary-report-ap.png)
+   ![Summary report for Automated Personalization activity](/help/main/c-reports/assets/summary-report-ap.png)
    
    Note that [!UICONTROL Auto-Target] has an additional graph icon for the graphical view of the [!UICONTROL Summary] report.
 
-   ![Summary report for Auto-Target activity](assets/personalization_insights.png)
+   ![Summary report for Auto-Target activity](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
@@ -47,7 +47,7 @@ In different activities, different attributes are more, or less, important to ho
 
 1. After 15 days from activating the activity, click the **[!UICONTROL Important Attributes]** icon.
 
-   ![](assets/model_attribute_ranking.png)
+   ![](/help/main/c-reports/assets/model_attribute_ranking.png)
 
 1. Select the desired date range.
 
@@ -59,16 +59,15 @@ In different activities, different attributes are more, or less, important to ho
    
    These fixed date ranges allow [!UICONTROL Personalization Insights] to use a large enough range of data to reduce the likelihood that you derive insights from a short-lived pattern in your activity. The two decisions you can make for your date range is the "End Date" and the "Duration." You'll notice that the "Start" is greyed out. The start date automatically changes based on your selections for the end date and duration.
 
-   ![](assets/personalization_insights_calendar_1.png)
+   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    You can access the available fixed date ranges from the [!UICONTROL Choose Duration] drop-down list.
 
-   ![](assets/personalization_insights_calendar_2.png)
+   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. Review the [!UICONTROL Important Attributes] report data.
 
-   ![](assets/model_attribute_ranking_report.png)
-
+   ![](/help/main/c-reports/assets/model_attribute_ranking_report.png)
 
 1. (Optional) [Download the report in CSV format](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) for analysis in Excel and other tools.
 
@@ -111,7 +110,7 @@ Personalization Insights reporting (both [!UICONTROL Automated Segments] and [!U
 
 **How is [!UICONTROL Personalization Insights] created?**
 
-[!UICONTROL Personalization Insights] is created using an Adobe patent-pending technique called MAGIX (Model Agnostic Globally Interpretable Explanations). You can learn more about MAGIX in the Adobe research team’s published paper on the [arXiv.org website](https://arxiv.org/abs/1706.07160).
+[!UICONTROL Personalization Insights] is created using an Adobe patent-pending technique called MAGIX (Model Agnostic Globally Interpretable Explanations). You can learn more about MAGIX in the Adobe research team's published paper on the [arXiv.org website](https://arxiv.org/abs/1706.07160).
 
 **Is [!UICONTROL Personalization Insights] available for revenue-based modeling goals/primary goal?**
 
@@ -129,7 +128,7 @@ There are several potential reasons why you might see more visits to a lower-con
 * Lower-volume activities in which certain offers or experiences do not have models built. 
 * Lower-volume activities in which models were built sooner for some offers/experiences than others. For example, suppose an additional model was built on day 22, and you are looking at data from days 10-24.
 * Targeting rules on a specific offer that limit which visitors can see which offers/experiences.
-* There are no confidence intervals in the insight reporting. However, if conversion rates are close enough, the model might serve traffic so that it is higher in the point amount, but they aren’t “statistically different” numbers.
+* There are no confidence intervals in the insight reporting. However, if conversion rates are close enough, the model might serve traffic so that it is higher in the point amount, but they aren't "statistically different" numbers.
 
 Knowing how the model works that serves traffic can be helpful. Each individual is served based on his or her total profile. However, the Insights reports generalize this behavior to make it more interpretable by a human. As a result, segments are not mutually exclusive. This can lead to individual segments displaying this type of behavior because the same person can appear in multiple segments.
 
