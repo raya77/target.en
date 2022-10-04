@@ -9,6 +9,13 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 
 This page lists significant changes made to the [!DNL Adobe Target] product documentation.
 
+## [!DNL Adobe Target] Standard/Premium 22.10.1 (staggered release October 5-7, 2022)
+
+|Date|Topic|Changes|
+| --- | --- | --- |
+|October 4|[Statistical calculations in A/Bn tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md)|New topic.<br>The information in this article replaces the *Adobe Target Calculations for A/B Testing* pdf file that was previously available for download on this site.|
+||[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 22.10.1 release.|
+
 ## [!DNL Adobe Target] Standard/Premium 22.9.1 (staggered release September 13-15, 2022)
 
 |Date|Topic|Changes|
