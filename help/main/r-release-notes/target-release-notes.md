@@ -13,13 +13,13 @@ This article contains prerelease information. Release dates, features, and other
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages could be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## [!DNL Target] Standard/Premium 22.10.1 (staggered release October 6-10, 2022)
+## [!DNL Target] Standard/Premium 22.10.1 (staggered release October 10-13, 2022)
 
 This release will be available according to the following staggered schedule:
 
-* **October 6**: Americas region
-* **October 7**: Europe, Middle East, and Africa (EMEA) region
 * **October 10**: Asia-Pacific (APAC) region
+* **October 11**: Americas region
+* **October 13**: Europe, Middle East, and Africa (EMEA) region
 
 This release contains the following new features, enhancements, and fixes:
 
