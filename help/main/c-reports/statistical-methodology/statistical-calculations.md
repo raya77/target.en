@@ -6,7 +6,7 @@ feature: Reports
 ---
 # Statistical calculations in A/Bn tests
 
-This page documents the detailed statistical calculations used in manual A/Bn tests in [!DNL Adobe Target]. Definitions are provided for [!UICONTROL Conversion Rate], [!UICONTROL Confidence Interval of Conversion Rate], [!UICONTROL Lift], [!UICONTROL Confidence Interval for Lift], and [!UICONTROL Confidence].
+This article documents the detailed statistical calculations used in manual A/Bn tests in [!DNL Adobe Target]. Definitions are provided for [!UICONTROL Conversion Rate], [!UICONTROL Confidence Interval of Conversion Rate], [!UICONTROL Lift], [!UICONTROL Confidence Interval for Lift], and [!UICONTROL Confidence].
 
 >[!NOTE]
 >
