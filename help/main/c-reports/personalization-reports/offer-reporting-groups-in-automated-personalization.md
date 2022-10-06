@@ -28,16 +28,16 @@ This approach works well if visitors respond the same way to all offers in a gro
 
 1. On the [!UICONTROL Experiences] page of an AP activity, click the **[!UICONTROL Manage Content]** icon.
 
-   ![](/help/main/c-reports/assets/ap_manage_content.png)
+   ![Manage Content icon](/help/main/c-reports/assets/ap_manage_content.png)
 
 1. Click the **[!UICONTROL Offers]** tab at the top of the [!UICONTROL Manage Content] dialog box. 
 1. (Conditional) Add specific experiences to a reporting group by hovering over the desired offer and then by clicking the **[!UICONTROL Reporting Group]** folder icon.
 
-   ![](/help/main/c-reports/assets/ap_manage_content_2.png)
+   ![Reporting Group icon](/help/main/c-reports/assets/ap_manage_content_2.png)
 
 1. (Conditional) Batch include experiences in a reporting group by selecting the checkbox for the relevant experiences and then by clicking the **[!UICONTROL Reporting Group]** folder icon in the top right corner of the dialog box.
 
-   ![](/help/main/c-reports/assets/ap_manage_content_3.png)
+   ![Reporting Group icon](/help/main/c-reports/assets/ap_manage_content_3.png)
 
 1. (Conditional) To assign the selected offer to an existing reporting group, select **[!UICONTROL Existing]**, select the desired reporting group from the drop-down list, then click **[!UICONTROL Apply]**.
 
@@ -45,4 +45,4 @@ This approach works well if visitors respond the same way to all offers in a gro
 
    To create a new reporting group to assign the selected offer to, select **[!UICONTROL New]**, name the new reporting group, then click **[!UICONTROL Apply]**.
 
-   ![](/help/main/c-reports/assets/ap_reporting_groups.png)
+   ![New icon to create a new reporting group](/help/main/c-reports/assets/ap_reporting_groups.png)

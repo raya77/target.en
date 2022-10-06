@@ -47,7 +47,7 @@ In different activities, different attributes are more, or less, important to ho
 
 1. After 15 days from activating the activity, click the **[!UICONTROL Important Attributes]** icon.
 
-   ![](/help/main/c-reports/assets/model_attribute_ranking.png)
+   ![Important Attributes icon in an Adobe Target report](/help/main/c-reports/assets/model_attribute_ranking.png)
 
 1. Select the desired date range.
 
@@ -59,15 +59,15 @@ In different activities, different attributes are more, or less, important to ho
    
    These fixed date ranges allow [!UICONTROL Personalization Insights] to use a large enough range of data to reduce the likelihood that you derive insights from a short-lived pattern in your activity. The two decisions you can make for your date range is the "End Date" and the "Duration." You'll notice that the "Start" is greyed out. The start date automatically changes based on your selections for the end date and duration.
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
+   ![Calendar in an Adobe Target report](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    You can access the available fixed date ranges from the [!UICONTROL Choose Duration] drop-down list.
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   ![Choose Duration drop-down list in a report](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. Review the [!UICONTROL Important Attributes] report data.
 
-   ![](/help/main/c-reports/assets/model_attribute_ranking_report.png)
+   ![Important Attributes report in Adobe Target](/help/main/c-reports/assets/model_attribute_ranking_report.png)
 
 1. (Optional) [Download the report in CSV format](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) for analysis in Excel and other tools.
 
