@@ -18,7 +18,7 @@ To view information about the current release, see [Target Release Notes](releas
 This release will be available according to the following staggered schedule:
 
 * **October 10**: Asia-Pacific (APAC) region
-* **October 11**: Americas region
+* **October 12**: Americas region
 * **October 13**: Europe, Middle East, and Africa (EMEA) region
 
 This release contains the following new features, enhancements, and fixes:
