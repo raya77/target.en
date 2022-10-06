@@ -9,7 +9,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 
 This page lists significant changes made to the [!DNL Adobe Target] product documentation.
 
-## [!DNL Adobe Target] Standard/Premium 22.10.1 (staggered release October 5-7, 2022)
+## [!DNL Adobe Target] Standard/Premium 22.10.1 (staggered release October 10-13, 2022)
 
 |Date|Topic|Changes|
 | --- | --- | --- |
