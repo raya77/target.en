@@ -5,7 +5,7 @@ title: What Is the Automated Segments Report?
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Automated Segments report
+# ![PREMIUM](/help/main/assets/premium.png) [!UICONTROL Automated Segments] report
 
 Information about the [!UICONTROL Automated Segments] report, one of the two specialized reports available to users of [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] (AT) activities.
 
@@ -35,7 +35,7 @@ Different visitors respond differently to the offers/experiences in your AP/AT a
 
    The [Automated Personalization Summary](/help/main/c-reports/personalization-reports/reports-ap.md) or [Auto-Target Summary](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) report displays, which provides information about the performance of your activities, represented by the first screen icon. The two additional icons represent the two Personalization Insights reports: Automated Segments and Important Attributes. Auto-Target has an extra graph icon for the graphical view of the [!UICONTROL Summary] report.
 
-   ![](/help/main/c-reports/assets/personalization_insights.png)
+   ![Personalization Insights report in Adobe Target](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
@@ -49,11 +49,11 @@ Different visitors respond differently to the offers/experiences in your AP/AT a
 
    Unlike the [!UICONTROL Summary] report (performance reporting), [!UICONTROL Personalization Insights], including [!UICONTROL Automated Segments], is available only for fixed date ranges: 15 days, 30 days, and 60 days. These fixed date ranges allow [!UICONTROL Personalization Insights] to use a large enough range of data to reduce the likelihood that you derive insights from a short-lived pattern in your activity. The two decisions you can make for your date range is the "End Date" and the "Duration." You'll notice that the "Start" is grayed out. The start date automatically changes based on your selections for the end date and duration.
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
+   ![Calendar in Adobe Target report](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    You can access the available fixed date ranges from the [!UICONTROL Choose Duration] drop-down list.
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   ![Duration drop-down list in Adobe Target](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. Review the [!UICONTROL Automated Segments] report data.
 

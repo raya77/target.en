@@ -42,21 +42,21 @@ Here,
 
 The confidence interval of the conversion rate is intuitively defined as range of possible conversion rates that is consistent with the underlying data. 
 
-When running experiments, the conversion rate for a given experience is an *estimate* of the "true" conversion rate. To quantify the uncertainty in this estimate, [!DNL Target] uses a confidence interval. [!DNL Target] always reports a 95% confidence interval, which means that in the long run, 95% of confidence intervals calculated include the true conversion rate of the experience. 
+When running experiments, the conversion rate for a given experience is an *estimate* of the "true" conversion rate. To quantify the uncertainty in this estimate, [!DNL Target] uses a confidence interval. [!DNL Target] always reports a 95% confidence interval, which means that in the end, 95% of confidence intervals calculated include the true conversion rate of the experience. 
 
 A 95% confidence interval of conversion rate *μ<sub>ν</sub>* is defined as the range of values:
 
 <p style="text-align:center;"><img width=30% src="img/confidence_interval.png"></p>
 
-where the standard error for the mean is defined as
+Where the standard error for the mean is defined as
 
 <p style="text-align:center;"><img width=75px src="img/se_conv_continuous.png"></p>
 
-where an unbiased estimate of the sample standard deviation is used:
+Where an unbiased estimate of the sample standard deviation is used:
 
 <p style="text-align:center;"><img width=200px src="img/stdev_definition.png"></p>
 
-Note that when the campaign is a conversion rate campaign (i.e., the conversion metric is binary), the standard error reduces to:
+When the campaign is a conversion rate campaign (i.e., the conversion metric is binary), the standard error reduces to:
 
 <p style="text-align:center;"><img width=150px src="img/se_conv.png"></p>
 
@@ -70,7 +70,7 @@ The lift between an experience  *ν*, and the control experience *ν<sub>0</sub>
 
 <p style="text-align:center;"><img width=15% src="img/lift_definition.png"></p>
 
-where the individual conversion rates are as defined above. More simply, 
+Where the individual conversion rates are as defined above. More simply, 
 
 ```
 Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performance_Control
@@ -80,7 +80,7 @@ If the conversion rate of the control experience *ν<sub>0</sub>* is 0, there is
 
 ## [!DNL Confidence Interval of Lift]
 
-The boxplot graph in the [!UICONTROL Average Lift and Confidence Interval] column represents the average value and 95% [!UICONTROL Confidence Interval of Lift]. The boxplot is grey when there is any overlap in the confidence interval of a given non-control experience with the confidence interval of control experience, and is in green or red when the range of given experience's confidence interval is above or below the confidence interval of control experience.
+The boxplot graph in the [!UICONTROL Average Lift and Confidence Interval] column represents the average value and 95% [!UICONTROL Confidence Interval of Lift]. The boxplot is grey when there is any overlap in the confidence interval of a given non-control experience with the confidence interval of control experience. The boxplot is green or red when the range of given experience's confidence interval is above or below the confidence interval of control experience.
 
 The standard error of the lift between an experience  *ν*, and the control experience  *ν<sub>0</sub>* is defined as:
 
@@ -94,7 +94,7 @@ This calculation uses the "Delta" method, and is described [in more detail in th
 
 ## [!UICONTROL Confidence]
 
-The last column shows the confidence in a [!DNL Target] report. The confidence of an experience is a probability (denoted as a percentage) of obtaining a result less extreme than the one that is actually observed, given the null hypothesis is true. In terms of p-values, the confidence displayed is *1 - p-value*. Intuitively, higher confidence means that it is less likely that the control and non-control experience have equal conversion rates. 
+The last column shows the confidence in a [!DNL Target] report. The confidence of an experience is a probability (denoted as a percentage) of obtaining a result less extreme than the one that is observed, given the null hypothesis is true. In terms of p-values, the confidence displayed is *1 - p-value*. Intuitively, higher confidence means that it is less likely that the control and non-control experience have equal conversion rates. 
 
 In [!DNL Target], a two-tailed **Welch's t-test** is performed between the test experience and the control experience to test if the means of test and control experiences are the same. Because we usually do not know if sample sizes and variances of two groups are the same before running the experiment, and [!DNL Target] also allows you to have unequal percentages of traffic sent to each experience, we do not assume that the variance for each experience is equal. Thus, Welch's t-test is chosen instead of Student's t-test. 
 
@@ -104,17 +104,17 @@ The *t*-statistic is defined to be the difference of the means of any two indepe
 
 <p style="text-align:center;"><img width=100px src="img/t_value.png"></p>
 
-where *μ<sub>v</sub>* and *μ<sub>v0</sub>* are the means of *ν*  and *ν<sub>0</sub>* respectively, and the standard error of the difference between *μ<sub>v</sub>* and *μ<sub>v0</sub>* are given by:
+Where *μ<sub>v</sub>* and *μ<sub>v0</sub>* are the means of *ν*  and *ν<sub>0</sub>* respectively, and the standard error of the difference between *μ<sub>v</sub>* and *μ<sub>v0</sub>* are given by:
 
 <p style="text-align:center;"><img width=150px src="img/standard_error_diff.png"></p>
 
-where *σ<sup>2</sup><sub>v</sub>* and *σ<sup>2</sup><sub>v<sub>0</sub></sub>* are the variances of two experiences *ν*  and *ν<sub>0</sub>* respectively, and *N<sub>v</sub>* and *N<sub>v<sub>0</sub></sub>* are sample sizes for *ν* and *ν<sub>0</sub>* respectively. 
+Where *σ<sup>2</sup><sub>v</sub>* and *σ<sup>2</sup><sub>v<sub>0</sub></sub>* are the variances of two experiences *ν*  and *ν<sub>0</sub>* respectively, and *N<sub>v</sub>* and *N<sub>v<sub>0</sub></sub>* are sample sizes for *ν* and *ν<sub>0</sub>* respectively. 
 
 For Welch's t-test, the degree of freedom is calculated as following:
 
 <p style="text-align:center;"><img width=180px src="img/degree_of_freedom.png"></p>
 
-and degree of freedom for *ν*  and *ν<sub>0</sub>* are defined as:
+And degree of freedom for *ν*  and *ν<sub>0</sub>* are defined as:
 
 <p style="text-align:center;"><img width=100px src="img/df_v.png"></p>
 
