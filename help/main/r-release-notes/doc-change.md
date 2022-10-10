@@ -14,6 +14,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 |Date|Topic|Changes|
 | --- | --- | --- |
 |October 10|[[!UICONTROL Visual Editing Helper] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)|New article.|
+||[Troubleshooting issues related to the Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)|Updated the "[My page does not display in the VEC (VEC only)](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load)" section.|
 |October 4|[Statistical calculations in A/Bn tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md)|New topic.<br>The information in this article replaces the *Adobe Target Calculations for A/B Testing* pdf file that was previously available for download on this site.|
 ||[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 22.10.1 release.|
 

@@ -98,7 +98,7 @@ If neither the Visual Experience Composer nor the Enhanced Experience Composer w
 
 After setting up an extension, open Target. Your pages should now load in the Visual Experience Composer, even if the Enhanced Experience Composer is disabled.
 
-## My page does not display in the VEC (VEC only) {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
+## My page does not display in the VEC (VEC only) {#does-not-load}
 
 * The browser is not supported. 
 * The browser is blocking a non-secure page on a secure site.
@@ -107,7 +107,11 @@ After setting up an extension, open Target. Your pages should now load in the Vi
 * You entered an invalid URL. 
 * You have not entered a default URL in your account setup page.
 
-Ensure that this setting is enabled, then download and update at.js on your website.
+  Ensure that this setting is enabled, then download and update at.js on your website.
+
+* If you try using the [new [!UICONTROL Visual Editing Helper] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) and then go back to the [old extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) and [!DNL Target] fails to load your website, clear all browser data and disable the new extension.
+
+* If your website fails to load in the VEC, or behaves unexpectedly, a potential fix is to accept cookies on your website in the browser before trying to load the website in [!DNL Target].
 
 ## The VEC appears broken when I use browse mode. (VEC only) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
