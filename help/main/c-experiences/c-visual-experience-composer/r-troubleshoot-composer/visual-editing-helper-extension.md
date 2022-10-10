@@ -22,10 +22,10 @@ The [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] browser ext
 
 ## Benefits of using the [!UICONTROL Visual Editing Helper] extension
 
-* All iframe busting headers, such as `X-Frame-Options` and `Content-Security-Policy`, are implicitly removed from the website. There is no need to create complicated Requestly rules.
+* All iframe-busting headers, such as `X-Frame-Options` and `Content-Security-Policy`, are implicitly removed from the website. There is no need to create complicated Requestly rules.
 * If a webpage does not yet contain the [!DNL Target] at.js library, you can use the extension to inject the library so you can author experiences for the website. You can then create activities and QA them using preview links.
 
-Note that using the [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec), the extension does not inject at.js, but the SameSite Cookie functionality is still present. To inject at.js on the webpage, turn off the EEC.
+Using the [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec), the extension does not inject at.js, but the SameSite Cookie functionality is still present. To inject at.js on the webpage, turn off the EEC.
 
 * [Mobile viewports](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) are supported even without the [!UICONTROL Enhanced Experience Composer] (EEC).
 * Customers new to [!DNL Target] can use the extension to experiment with [!DNL Target] even if their IT developers have not yet implemented [!DNL Target] on their websites.
@@ -50,6 +50,8 @@ Note that using the [Enhanced Experience Composer](/help/main/administrating-tar
 
   * If you attempt to load a website using the VEC that fails to load, a message displays suggesting that you install the [!UICONTROL Visual Editing Helper] browser extension.
   * If at.js or alloy.js is not yet implemented on the website, a message displays in the VEC suggesting that you install the extension.
+* If you try using the new extension and then go back to the [old extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) and [!DNL Target] fails to load your website, clear all browser data and disable the new extension.
+
 
 
 
