@@ -93,12 +93,6 @@ When using Target activity impressions and conversions in Analysis Workspace, ap
 
 All current Analytics packages can add this model with Attribution IQ. If you do not have access to Attribution IQ, please rely on A4T data in Reports & Analytics.
 
-### Reporting - Inconsistent data in the downloadable .csv report versus the displayed report in the [!DNL Target] UI. {#csv}
-
-Reports generated for download as .csv files are inconsistent if the activity uses more than one metric. The downloadable report is generated based on the report settings only and considers the same value for any other metrics used.
-
-The source of truth is always the displayed report in the [!DNL Target] UI.
-
 ## Resolved Issues {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 As known issues above are resolved, they are moved to the following sections. Additional notes, if necessary, are added.
