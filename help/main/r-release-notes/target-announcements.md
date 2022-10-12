@@ -15,28 +15,6 @@ Gartner has named [!DNL Adobe Target] a leader in its latest Magic Quadrant for 
 
 For more information, see the [Adobe Experience Cloud Blog post](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
-
-## [!DNL Adobe Target] Community Q&A Coffee Break (September 28, 2022)
-
-Join Gentry Lin and Brent Kostak to reply in real-time to questions posted by [!DNL Adobe Target] customers in the event-specific [!UICONTROL Target Community] discussion thread. This coffee break will be an extension of the webinar Q&A conversation from the recent [!DNL Adobe Target] Skill Builders – Mobile Experience Optimization webinar.
-
-+++Details
-
-* **Wednesday, September 28, 2022**
-* **8:00 to 9:00 a.m. (PDT, UTC-7)**
-* **[Register link](https://adobe.ly/3pYkmMG){target=_blank}**
-
-You are invited to post questions pertaining to the topics covered during the [[!DNL Adobe Target] Skill Builder Expedition Series Webinar on Mobile Experience Optimization](https://video.tv.adobe.com/v/347360){target=_blank}, as well as others related to Gentry's and Brent's areas of expertise with [!DNL Target]:
-
-* [!UICONTROL A/B Test], [!UICONTROL Multivariate Test] (MVT), [!UICONTROL Experience Targeting] (XT) activities, automated testing, and personalization
-* Step-by-step activity setup workflows
-* Batch-experience prefetch, enabling always-on personalization for mobile
-* Lifecycle metrics for testing and targeting across customer experiences, mobile SDKs and APIs, and iOS and Android platform implementations
-* Core web authoring workflows
-* [!DNL Adobe Experience Cloud] integrations
-
-+++
-
 ## [!DNL Adobe Target] webinar series {#webinar-series}
 
 Register for the following webinars to see how customers are using [!DNL Adobe Target] to achieve their personalization and optimization goals:
