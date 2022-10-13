@@ -65,3 +65,7 @@ To check the TLS version on your website using Firefox (other browsers have simi
 ## I'm seeing timeouts or "access denied" errors when loading sites with proxy enabled. (EEC only) {#section_60CBB9022DC449F593606C0E6252302D}
 
 Make sure proxy IPs are not blocked in your environment.
+
+## Known  issues
+
+* An issue with the EEC currently prevents it from supporting PUT requests and results in a 504 timeout error. (TGT-41493)

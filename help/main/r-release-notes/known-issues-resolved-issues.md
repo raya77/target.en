@@ -17,21 +17,9 @@ Information about known issues for [!DNL Adobe Target]. Also includes informatio
 
 The following sections list the known issues for [!DNL Target]:
 
-### The Enhanced Experience Composer (EEC) does not support PUT requests.
-
-An issue with the EEC currently prevents it from supporting PUT requests and results in a 504 timeout error. (TGT-41493)
-
-### [!DNL Adobe Experience Platform] segment names do not display in the [!UICONTROL Important Attributes] report.
-
-[!DNL Adobe Experience Platform] segment names do not display in the [!UICONTROL Important Attributes] report for [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] (AT) activities. (TOP-3813)
-
 ### Archiving [!UICONTROL Auto-Target] activities might cause sync issues
 
 Attempting to archive inactive [!UICONTROL Auto-Target] activities might lead to synchronization issues. Until this issue is fixed, do not archive [!UICONTROL Auto-Target] activities. Leave them in the [!UICONTROL Inactive] state. (TGT-40885)
-
-### Redirect offers {#redirect}
-
-* Redirect activities in at.js implementations might cause the preview URL to enter into a loop (the offer is delivered repeatedly). You can use [QA Mode](/help/main/c-activities/c-activity-qa/activity-qa.md) instead to perform Preview and QA. This issue does not impact the actual delivery of the offer. (TGT-23019)
 
 ### Cancel loading of a page within the Visual Experience Composer (VEC) {#cancel}
 
@@ -80,12 +68,6 @@ The following are known issues with at.js:
 * at.js might not work with Cordova/Hybrid apps because first-party cookies are not currently supported in them. (TNT-26166)
 
   **Workaround**: Configure at.js with the "x-only" option enabled and pass `mboxThirdPartyId` in calls to manage users.
-
-### Success metrics
-
-Success metrics with the advanced option "How will the count be incremented" set to "every impression" or "every impression (excluding refreshes)" cannot be used as a success metric that another metric depends on.
-
-When a success metric is set to increment on every impression, Target counts the visitor again every time the visitor visits this success metric. Target then resets the success metric "membership" to 0 so it can count again on the next impression. Thus, if another metric requires this metric to have been seen first, Target never recognizes that the user has seen the first metric.
 
 ### Analytics for [!DNL Target] (A4T)
 

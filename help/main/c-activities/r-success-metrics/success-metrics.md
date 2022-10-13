@@ -71,8 +71,8 @@ Dependency functionality is *not* supported for the following:
 
 * [!UICONTROL Recommendations] activities. This functionality is supported for all other activity types.
 * If you use [Analytics as your reporting source](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
-* The “Viewed a Page” metric type.
-* The “Clicked an Element” metric type for Visual Experience Composer (VEC) activities.
+* The "Viewed a Page" metric type.
+* The "Clicked an Element" metric type for Visual Experience Composer (VEC) activities.
 
 Dependent success metrics will not convert in the following cases:
 
@@ -100,6 +100,12 @@ Choose the desired behavior:
 * Once per entrant
 * On every impression (Excluding page refreshes)
 * On every impression
+
+## Known issues
+
+* Success metrics with the advanced option "How will the count be incremented" set to "every impression" or "every impression (excluding refreshes)" cannot be used as a success metric that another metric depends on.
+
+When a success metric is set to increment on every impression, [!DNL Target] counts the visitor again every time the visitor visits this success metric. [!DNL Target] then resets the success metric "membership" to 0 so it can count again on the next impression. Thus, if another metric requires this metric to have been seen first, [!DNL Target] never recognizes that the user has seen the first metric.
 
 ## Training video: Activity Metrics
 

@@ -47,3 +47,7 @@ To create a redirect offer:
    * mbox Parameter
 
    Additional rules can be joined to the Activity URL with AND or OR. All rules you add are evaluated against each other with AND.
+
+## Known issues
+
+* Redirect activities in at.js implementations might cause the preview URL to enter into a loop (the offer is delivered repeatedly). You can use [QA Mode](/help/main/c-activities/c-activity-qa/activity-qa.md) instead to perform Preview and QA. This issue does not impact the actual delivery of the offer. (TGT-23019)
