@@ -141,3 +141,9 @@ Knowing how the model works that serves traffic can be helpful. Each individual 
 * Understand what attributes were most critical to how the model learned. 
 * See which attributes are used in the personalization models and how important they are. 
 * Identify opportunities for additional data points you can pass into Target to further inform your personalization.
+
+## Known issues
+
+The following issue is currently being investigated by the [!DNL Target] engineering team. 
+
+* [!DNL Adobe Experience Platform] segment names do not display in the [!UICONTROL Important Attributes] report for [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] (AT) activities. (TOP-3813)
