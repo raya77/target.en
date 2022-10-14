@@ -15,9 +15,23 @@ Gartner has named [!DNL Adobe Target] a leader in its latest Magic Quadrant for 
 
 For more information, see the [Adobe Experience Cloud Blog post](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
+## [!DNL Adobe Target] Community Q&A Coffee Break
+
+Drew Burns, Group Product Marketing Manager for [!DNL Adobe Target], will answer your [!DNL Target] questions related to the latest exciting announcement about recently enhanced intelligence and control of AI features, as well as all things personalization.
+
+* **Wednesday, October 26**
+* **9:00 to 10:00 a.m. (PDT, UTC -7)**
+* **[Registration information](https://adobe.ly/3e6gqHe){target=_blank}**
+
 ## [!DNL Adobe Target] webinar series {#webinar-series}
 
 Register for the following webinars to see how customers are using [!DNL Adobe Target] to achieve their personalization and optimization goals:
+
+None scheduled at this time.
+
+## Recordings of past webinars and skill-builder sessions
+
+Access recordings of past events (when available):
 
 ### Fine-Tuning AI-Powered Personalization: New Features in [!DNL Adobe Target] (October 11, 2022)
 
@@ -25,38 +39,26 @@ Please join us for this special product announcement webinar!
   
 We are excited to share some "very big," ground-breaking news in terms of personalization at scale with [!DNL Adobe Target]: new filtering and intelligence that will enhance the ability of [!DNL Target] users to fine-tune AI-powered personalization activities in order to directly impact the business metrics that matter most on a per activity basis.
 
-+++Details
+* [Recording link](https://video.tv.adobe.com/v/3410117){target=_blank}
 
-This new product announcement is timely and hyper-critical, as we've seen the need for personalization ratchet up, regardless of industry, in the past few years. It has become a means for companies to critically differentiate themselves from the competition throughout their customer journey. Personalization can be highly effective "everywhere:" beginning at a visitor's first touch, leveraging basic data for acquisition use cases, all the way through to customer service and loyalty use cases.
+  +++Details
 
-In this session, learn how you can super-charge conversion lift by taking advantage of [!DNL Adobe Target]'s new features as we discuss:
+  This new product announcement is timely and hyper-critical, as we've seen the need for personalization ratchet up, regardless of industry, in the past few years. It has become a means for companies to critically differentiate themselves from the competition throughout their customer journey. Personalization can be highly effective "everywhere:" beginning at a visitor's first touch, leveraging basic data for acquisition use cases, all the way through to customer service and loyalty use cases.
 
-* Enhanced model controls within [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] activities
-* Unlocking the ability to evaluate profile attributes and high-value segments from [!DNL Adobe]'s [!DNL Real-Time Customer Data Platform]
-* How brands can deliver faster speeds and decisioning by fine-tuning their AI-powered algorithms
-* Unique use cases for delivering 1-to-1 personalization
+  In this session, learn how you can super-charge conversion lift by taking advantage of [!DNL Adobe Target]'s new features as we discuss:
 
-* **Tuesday, October 11, 2022**
-* **1:00 to 2:00 p.m. (EDT, UTC-4)**
-* **[More information and registration information](https://fine-tuning-ai-powered-personalization-in-adobe-target.dxfieldmarketing.adobeevents.com/){target=_blank}**
+  * Enhanced model controls within [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] activities
+  * Unlocking the ability to evaluate profile attributes and high-value segments from [!DNL Adobe]'s [!DNL Real-Time Customer Data Platform]
+  * How brands can deliver faster speeds and decisioning by fine-tuning their AI-powered algorithms
+  * Unique use cases for delivering 1-to-1 personalization
 
-+++
-
-## Recordings of past webinars and skill-builder sessions
-
-Access recordings of past events (when available):
+  +++
 
 ### [!DNL Adobe Target] Skill Builders – AI-Driven Personalization and Recommendations (September 15, 2022)
 
 Automation in experimentation and personalization continues to drive the highest conversions and ROI for marketing, engineering, and product teams. Join the [!DNL Adobe] Skill Builders session and learn how to use [!DNL Adobe Target] advanced AI-driven use cases and capabilities with product and content recommendations to stay ahead of competition and win on every experience.
 
-  +++Details
-
-  * **Thursday, September 15, 2022**
-  * **1:00 to 2:00 p.m. (EDT, UTC-4)**
-  * **[More information and registration information](https://adobe-target-skill-builders-expedition-series.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
-  +++
+* [Recording link](https://video.tv.adobe.com/v/3409352/){target=_blank}
 
 ### [!DNL Adobe Target] Skill Builders – Mobile Experience Optimization (September 6, 2022)
 
