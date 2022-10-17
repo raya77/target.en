@@ -13,7 +13,6 @@ feature-set: Target
    + [Target release notes (current)](r-release-notes/release-notes.md)
    + [Target release notes (prerelease)](r-release-notes/target-release-notes.md)
    + [Target documentation overview](/help/main/r-release-notes/target-documentation.md)
-   + [Target Insider newsletter](/help/main/r-release-notes/target-insider-newsletter.md)
    + [Known issues and resolved issues](r-release-notes/known-issues-resolved-issues.md)
    + [System status updates and proactive notifications](r-release-notes/system-status-updates.md)
    + [Documentation changes](r-release-notes/doc-change.md)
