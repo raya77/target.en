@@ -71,7 +71,7 @@ During activity creation, you must specify a goal for the activity on the [!UICO
 
 ## Performing Offline Calculations for Analytics for Adobe Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
 
-You can perform offline calculations for A4T, but it requires a step with data exports in [!DNL Analytics].
+You can perform offline calculations for confidence and confidence intervals for A4T using the [!DNL Target] [Complete Confidence Calculator](/help/main/assets/complete_confidence_calculator.xlsx) Excel file, but it requires a step with data exports in [!DNL Analytics].
 
 For A4T, we use a [Welch's t-test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} calculation for continuous variables (rather than binary metrics). In Analytics, a visitor is always tracked, and every action taken is counted. Therefore, if the visitor purchases multiple times or visit a success metric multiple times, those additional hits are counted. This makes the metric a continuous variable. To perform the Welch's t-test calculation, the "sum of squares" is required to calculate the variance, which is used in the denominator of the t-statistic. [Statistical calculations in A/Bn tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md) explains the details of the mathematical formulas used. The sum of squares can be retrieved from [!DNL Analytics]. To get the sum of squares data, you need to perform a visitor-level export for the metric you are optimizing to, for a sample time period.
 

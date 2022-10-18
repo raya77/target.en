@@ -64,7 +64,7 @@ The [!UICONTROL Automated Personalization] (AP) activity workflow in [!DNL Adobe
 
    >[!NOTE]
    >
-   >Although you can create up to 30,000 experiences in an AP activity, the activity performs best when fewer than 5,000 experiences are used.
+   >Although you can create up to 30,000 experiences in an AP activity, the activity performs best when fewer than 5,000 experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Dissalow Duplicates] option.
 
    The [!UICONTROL Experiences] list shows each piece of content selected for the activity and the location it is assigned to. 
    
@@ -100,7 +100,7 @@ The [!UICONTROL Automated Personalization] (AP) activity workflow in [!DNL Adobe
 
    ![Exclusion Groups tab of Manage Content dialog box](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
-   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used.
+   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Dissalow Duplicates] option.
 
    If you do not currently have any exclusion groups included in your activity, click **Create Exclusion Group**. You can filter to create a list that shows only the combinations you want to exclude. Name your exclusion group and click **Save**.
 
