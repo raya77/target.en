@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|October 19|[Category affinity](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9)|Added a note explaining scoring when several categories are are passed within a single mbox call.|
 |October 18|[Create an [!UICONTROL Automated Personalization] activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)|Updated text to indicate that although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Dissalow Duplicates] option.|
 ||[Automated Personalization FAQs](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md)|Updated text to indicate that although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Dissalow Duplicates] option.|
 |October 14|[[!DNL Adobe Target] announcements and events](/help/main/r-release-notes/target-announcements.md)|Added registration information about the [!DNL Adobe Target] Community Q&A Coffee Break (October 26, 2022).|
