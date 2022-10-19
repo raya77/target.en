@@ -44,6 +44,10 @@ The category affinity algorithm works as follows:
 * If a sixth new category is clicked, the lowest scored category of the first five categories is dropped from the calculation
 * At end of session, divide all values by 2
 
+>[!NOTE]
+>
+>When several categories are passed within a single mbox call, the order of categories in `categoryAffinities` is not guaranteed. An arbitrary category is recorded first and receives a score of 10.
+
 ### Example: category affinity algorithm
 
 For example, viewing the `mens-clothing` category, then `accessories`, then `jewelry`, then `accessories` again in a session results in affinities of:

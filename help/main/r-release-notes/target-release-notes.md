@@ -25,11 +25,14 @@ This release contains the following new features, enhancements, and fixes:
 
 |Feature|Details|
 | --- | --- |
-|Continuous metrics|Added the ability to use continuous metrics, such as revenue, in [!UICONTROL Auto-Target] and [!UICONTROL Allocate-Allocate] activities.<br>Previously, [!UICONTROL Auto-Target] and [!UICONTROL Auto-Allocate] models were optimized to work with binary (conversion-based) metrics only. (TGT-43649 & TGT-43649)|
-|[!DNL Recommendations] friendly names|Added friendly names in [!UICONTROL Analytics for Target] A4T reporting. Previously, [!DNL Target] listed experience IDs. This enhancement helps customers streamline building reports in A4T. (TGT-41853|
+|Continuous metrics|Added the ability to use continuous metrics, such as revenue, in [!UICONTROL Auto-Target] and [!UICONTROL Allocate-Allocate] activities.<br>Previously, [!UICONTROL Auto-Target] and [!UICONTROL Auto-Allocate] models were optimized to work with binary (conversion-based) metrics only. (TGT-43649 & TGT-43649)<BR>Note that this feature is available for select customers only. This feature will be available to all customers in a future release.|
+|[!DNL Recommendations] friendly names|Added friendly names in [!UICONTROL Analytics for Target] A4T reporting. Previously, [!DNL Target] listed experience IDs only. This enhancement aligns reporting between [!DNL Adobe Analytics] and [!DNL Target] and helps customers streamline building reports in A4T. (TGT-41853|
 
-* Added tooltips in the [!DNL Target] UI to help customers navigate the audience builder more efficiently. (TGT-44139)
-* Added functionality to prevent customers from editing an activity that was disabled by [!DNL Target] because it uses unsupported metrics. A message in the UI directs customers to duplicate the activity and then update the conversion metric. (TGT-43860, TGT-43861, & TGT-43650)
+* Added tooltips in the [!DNL Target] UI to help customers navigate the audience builder more efficiently and to learn how to use features that might be unfamiliar. (TGT-44139)
+* Added functionality to prevent customers from editing an activity that was disabled by [!DNL Target] because it uses unsupported metrics. A message in the UI directs customers to duplicate the activity and then update the conversion metric.
+
+  With this release `averagetimespentonsite`, `bouncerate`, and `entries` metrics in [!DNL Target] activities will be deprecated for new activities. Existing activities can continue using these metrics until February 6, 2023. (TGT-43860, TGT-43861, & TGT-43650)
+
 * Added a tooltip in the [!DNL Target] UI to help customers select an optimization criteria while creating or editing an [!UICONTROL Auto-Target] activity that uses A4T. (TGT-43713) 
 
 ## Additional release notes and version details
