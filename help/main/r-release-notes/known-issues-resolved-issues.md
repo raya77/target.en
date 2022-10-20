@@ -21,32 +21,16 @@ The following sections list the known issues for [!DNL Target]:
 
 Attempting to archive inactive [!UICONTROL Auto-Target] activities might lead to synchronization issues. Until this issue is fixed, do not archive [!UICONTROL Auto-Target] activities. Leave them in the [!UICONTROL Inactive] state. (TGT-40885)
 
-### Cancel loading of a page within the Visual Experience Composer (VEC) {#cancel}
-
-* The following known issue currently exists when cancelling the loading of an [!UICONTROL A/B Test] or [!UICONTROL Experience Targeting] (XT) activity within the VEC that contains a redirect URL.
-
-  In step one of the VEC guided workflow, when you cancel page loading, the [!UICONTROL Modifications] panel in the VEC displays and the redirect to URL template is applied on the experience (for example, "Experience B). When you progress to steps two or three and then come back to step one, the following situation occurs.
-
-  On "Experience B," by default, the cancelled website loading template renders and the [!UICONTROL Modifications] panel is accessible, which should not be the case because this experience has a redirect to URL template applied. The redirect to URL template should display.
-
-  To show the correct state of the experience in the VEC:
-
-  If you switch to another experience, and then switch back to "Experience B," [!DNL Target] displays the redirect to URL template applied on this experience and the [!UICONTROL Modifications] panel is not accessible. (TGT-32138)
-
-* For the Single Page Application (SPA) websites, cancelling loading does not allow you to edit actions under the [!UICONTROL Modifications] panel.
-
 ### Recommendations
 
 The following are known issues with [!UICONTROL Recommendations] activities:
 
 * When [!DNL Target] returns a JSON offer with getOffer(), it returns with type of JSON. However, if you return a JSON Recommendations design it returns with a type of HTML.
-* Entities are correctly expired after 60 days of receiving no updates via feed or API; however, the expired entities are not removed from the Catalog Search index after expiration. (IRI-857)
-* The "Usage Info" overlays for Criteria and Designs do not reflect their usage in A/B and Experience Targeting activities (TGT-34331)
+* Expired entities are correctly expired after 60 days of receiving no updates via feed or API; however, the expired entities are not removed from the Catalog Search index after expiration. Entities deleted via feed or API are also not currently removed from the Catalog Search index. (IRI-857)
 * Recommendations Offers in A/B and Experience Targeting activities do not show a visual preview of the Recommendations tray (TGT-33426)
 * Collections, exclusions, criteria, and designs created via API are not visible in the Target user interface and can be edited only via API. Likewise, if you create any of these items in the Target UI and later edit them via API, those changes are not reflected in the Target UI. Items edited via API should continue to be edited via API to avoid loss of any modifications. (TGT-35777)
 * Recommendations activities created via API can be viewed in the user interface, but can only be edited via API.
 * The Custom Criteria feed status displayed in the Criteria list (card) view is refreshed every ten minutes and might be more than ten minutes out of date in rare circumstances. The status displayed in the Custom Criteria edit view is fetched in real time and is always up to date. (TGT-35896, TGT-36173)
-* Criteria and design cards do not show the correct number of activities in which they are being used. If the criteria or design is used in an A/B activity, the card might incorrectly show that the design or criteria is not used, even when the design or criteria is used in the activity. (TGT-36621, TGT-37217)
 
 ### Multivariate Test (MVT) activities
 
