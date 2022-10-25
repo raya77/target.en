@@ -12,6 +12,28 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Target] Standard/Premium 22.10.3 (staggered release October 25-27, 2022)
+
+This release will be available according to the following staggered schedule:
+
+* **October 25**: Europe, Middle East, and Africa (EMEA) region
+* **October 26**: Asia-Pacific (APAC) region
+* **October 27**: Americas region
+
+This release contains the following new features, enhancements, and fixes:
+
+|Feature|Details|
+| --- | --- |
+|[!DNL Recommendations]|Added friendly names in [!UICONTROL Analytics for Target] A4T reporting. Previously, [!DNL Target] listed experience IDs only. This enhancement aligns reporting between [!DNL Adobe Analytics] and [!DNL Target] and helps customers streamline building reports in A4T. (TGT-41853)|
+|Optimized A4T metrics for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target]<br>(Available to select customers for testing. Will be available to all customers in a future release.)|Be aware of the following changes:<ul><li>Added support for binary and maximization metrics in [!UICONTROL Analytics for Target] A4T reporting for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities</li><li>Preserved behavior for existing activities until February 2023. After this date, activities will be discontinued to force existing activity migration to new behavior</li><li>Starting February 20, 2023, support for `averagetimespentonsite`, `bouncerate`, and `entries` metrics in [!DNL Target] activities will be deprecated.</li></ul>|
+
+* Added tooltips in the [!DNL Target] UI to help customers navigate the audience builder more efficiently and to learn how to use features that might be unfamiliar. (TGT-44139)
+* Added functionality to prevent customers from editing an activity that was disabled by [!DNL Target] because it uses unsupported metrics. A message in the UI directs customers to duplicate the activity and then update the conversion metric.
+
+  With this release `averagetimespentonsite`, `bouncerate`, and `entries` metrics in [!DNL Target] activities will be deprecated for new activities. Existing activities can continue using these metrics until February 2023. (TGT-43860, TGT-43861, & TGT-43650)
+
+* Added a tooltip in the [!DNL Target] UI to help customers select an optimization criteria while creating or editing an [!UICONTROL Auto-Target] activity that uses A4T. (TGT-43713) 
+
 ## [!DNL Target] Standard/Premium 22.10.1 (staggered release October 10-13, 2022)
 
 This release will be available according to the following staggered schedule:
