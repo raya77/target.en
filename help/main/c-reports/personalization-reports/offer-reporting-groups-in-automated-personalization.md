@@ -1,22 +1,22 @@
 ---
-keywords: automated personalization;offer;reporting;group;reporting group
-description: Learn how to use offer reporting groups in Adobe [!DNL Target] Automated Personalization activities. Using reporting groups, [!DNL Target] creates only one personalization model for each reporting group.
+keywords: automated personalization;offer;reporting;group;reporting group;ap
+description: Learn how to use offer reporting groups in Adobe [!DNL Target] [!UICONTROL Automated Personalization] activities.
 title: Can I Use Offer Reporting Groups in Automated Personalization Activities?
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Offer reporting groups in Automated Personalization
+# ![PREMIUM](/help/main/assets/premium.png) Offer reporting groups in [!UICONTROL Automated Personalization]
 
-Information about using reporting groups in [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) activities.
+Information about using reporting groups in [!DNL Adobe Target] [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) activities.
 
 Reporting groups perform two key functions:
 
-* They let you see your offers grouped in AP activity reporting. 
-* They play a key role with how the [!DNL Target] personalization models function.
+* Reporting groups let you see your offers grouped in AP activity reporting. 
+* Reporting groups play a key role with how the [!DNL Target] personalization models function.
 
-When you use reporting groups, [!DNL Target] creates only one personalization model for each reporting group instead of each offer in your AP activity using the data from all offers in that group.
+When you use reporting groups, [!DNL Target] creates one personalization model for each reporting group using the data from all offers in that group. Without reporting groups, [!DNL Target] creates a personalization model for each offer in your AP activity.
 
-If your activity setup doesn't have enough data for a personalization model to be built per offer, reporting groups can help reduce the data requirements to use Automated Personalization. Reporting groups can also help solve the "cold start" problem for new offers by grouping similar offers so that each model gets more data to train on. Modeling groups can also be used for activities where new offers are being introduced regularly to your AP activity.
+If your activity setup doesn't have enough data for a personalization model to be built per offer, reporting groups can help reduce the data requirements to use [!UICONTROL Automated Personalization]. Reporting groups can also help solve the "cold start" problem for new offers by grouping similar offers so that each model gets more data to train on. Modeling groups can also be used for activities where new offers are introduced regularly to your AP activity.
 
 This approach works well if visitors respond the same way to all offers in a group. Best practice is to group offers that similar groups of visitors respond to in a similar way. In order words, group offers with similar conversion rates. You should never put all offers into a single reporting group. Grouping all offers or grouping offers with very different conversion rates likely reduces the effectiveness of the [!DNL Target] personalization models.
 
@@ -26,7 +26,7 @@ This approach works well if visitors respond the same way to all offers in a gro
 
 **To set up reporting groups:**
 
-1. On the [!UICONTROL Experiences] page of an AP activity, click the **[!UICONTROL Manage Content]** icon.
+1. On the **[!UICONTROL Experiences]** page of an AP activity, click the **[!UICONTROL Manage Content]** icon.
 
    ![Manage Content icon](/help/main/c-reports/assets/ap_manage_content.png)
 
@@ -39,7 +39,7 @@ This approach works well if visitors respond the same way to all offers in a gro
 
    ![Reporting Group icon](/help/main/c-reports/assets/ap_manage_content_3.png)
 
-1. (Conditional) To assign the selected offer to an existing reporting group, select **[!UICONTROL Existing]**, select the desired reporting group from the drop-down list, then click **[!UICONTROL Apply]**.
+1. To assign the selected offer to an existing reporting group, select **[!UICONTROL Existing]**, select the desired reporting group from the drop-down list, then click **[!UICONTROL Apply]**.
 
    Or
 
