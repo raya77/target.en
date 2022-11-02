@@ -24,7 +24,7 @@ This approach works well if visitors respond the same way to all offers in a gro
 >
 >If an offer is removed or replaced from a particular modeling group, the historical traffic that saw that specific offer is also deleted from the modeling group. In other words, deleted offers do not contribute to what data is used for the [!DNL Target] personalization models to learn.
 
-**To set up reporting groups:**
+## Set up reporting groups
 
 1. On the **[!UICONTROL Experiences]** page of an AP activity, click the **[!UICONTROL Manage Content]** icon.
 
@@ -46,3 +46,17 @@ This approach works well if visitors respond the same way to all offers in a gro
    To create a new reporting group to assign the selected offer to, select **[!UICONTROL New]**, name the new reporting group, then click **[!UICONTROL Apply]**.
 
    ![New icon to create a new reporting group](/help/main/c-reports/assets/ap_reporting_groups.png)
+
+## View offers in a reporting group 
+
+1. Click **[!UICONTROL Activities]**, click the desired [!UICONTROL Automated Personalization] activity from the list, then click the **[!UICONTROL Reports]** tab to display the [Offer Level](/help/main/c-reports/personalization-reports/reports-ap.md) report.
+
+   If you have many activities, you can filter the list by selecting [!UICONTROL Automated Personalization] from the [!UICONTROL Type] drop-down list.
+
+1. Click **[!UICONTROL Control]** or **[!UICONTROL Targeted]** in the table to display the ungrouped offers and offers inside reporting groups.
+
+   ![Offer groups: Control and Targeted](/help/main/c-reports/c-report-settings/assets/offer-groups.png)
+
+For information about using [!UICONTROL Automated Personalization] reports (including the [!UICONTROL Offer Level] report), see [Automated Personalization Summary reports](/help/main/c-reports/personalization-reports/reports-ap.md).
+
+
