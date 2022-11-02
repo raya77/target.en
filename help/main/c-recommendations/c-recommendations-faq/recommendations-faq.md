@@ -52,16 +52,16 @@ The following changes are not reflected until the next algorithm run occurs (wit
 * A change to the promotion settings can take up to five hours to be reflected onsite.
 * A change to other criteria settings might not be reflected until the next algorithm run:
 
-  * Some criteria settings (for example, “addition of a dynamic inclusion rule”) are reflected instantly.
-  * Other criteria settings (for example “removal of a dynamic inclusion rule”, change of lookback window, and so forth) can’t be incorporated until the next algorithm run.
+  * Some criteria settings (for example, "addition of a dynamic inclusion rule") are reflected instantly.
+  * Other criteria settings (for example "removal of a dynamic inclusion rule", change of lookback window, and so forth) can't be incorporated until the next algorithm run.
   * Algorithm runs are triggered by these changes but can take up to 24 hours to be completed. Algorithms also run on a scheduled basis every 12-24 hours.
 
-## How long does it take for a user’s behavior (for example, clicking product A and buying product B) to be reflected in the recommendations *that* user receives?
+## How long does it take for a user's behavior (for example, clicking product A and buying product B) to be reflected in the recommendations *that* user receives?
 
 *  Currently viewed/purchased product/content influence the recommendations the user receives on the same pageview/[!DNL Target] content request.
-* Historical user behavior, such as “last viewed product,” “most viewed product,” and overall viewing/purchasing history is updated with that request and influence the recommendations that user receives on the next pageview/[!DNL Target] content request. For example, “Recently Viewed Items” and “Recommended For You” algorithms update with each product view/purchase and are reflected on the subsequent content request.
+* Historical user behavior, such as "last viewed product," "most viewed product," and overall viewing/purchasing history is updated with that request and influence the recommendations that user receives on the next pageview/[!DNL Target] content request. For example, "Recently Viewed Items" and "Recommended For You" algorithms update with each product view/purchase and are reflected on the subsequent content request.
 
-## How long does it take for a user’s behavior (for example, clicking product A and buying product B) to be reflected in the recommendations *other* users receive?
+## How long does it take for a user's behavior (for example, clicking product A and buying product B) to be reflected in the recommendations *other* users receive?
 
 The behavior of users in aggregate is incorporated into offline algorithm processing with every algorithm run occurring every 12-24 hours.
 
@@ -122,10 +122,10 @@ Consider the following information if you see a collection go to zero that previ
 
   ![product_catalog image](assets/product_catalog.png)
 
-* Is your index up to date? Go t o [!DNL /target/products.html#productSearch] and check how many hours old the index is (for example, “Indexed 3 hours ago”). You can refresh the index as needed. 
+* Is your index up to date? Go t o [!DNL /target/products.html#productSearch] and check how many hours old the index is (for example, "Indexed 3 hours ago"). You can refresh the index as needed. 
 * Did you change something in the feed or the data layer that resulted in your entities no longer matching the collection rules? Make sure your CASE matches (case-sensitive). 
 * Did your feed run successfully? Did someone change the FTP directory, password, and so forth? 
-* [!DNL Target] does its best to make updates to the delivery (on the customer’s page/app) happen as quickly as possible. Yet, [!DNL Target] also has to provide some representation in the UI for the marketer. [!DNL Target] does not delay delivery updates to wait for the UI updates to be in sync. You can use [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) to see what is in the system at the time a request comes in.
+* [!DNL Target] does its best to make updates to the delivery (on the customer's page/app) happen as quickly as possible. Yet, [!DNL Target] also has to provide some representation in the UI for the marketer. [!DNL Target] does not delay delivery updates to wait for the UI updates to be in sync. You can use [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) to see what is in the system at the time a request comes in.
 
 ## What's the difference between general Attribute Weighting and Content Similarity-specific attribute weighting? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
@@ -135,9 +135,9 @@ Attribute weighting exists in two forms: "standard attribute weighting" and "con
 
 ![attribute_weighting_example image](assets/attribute_weighting_example.png)
 
-"Content similarity attribute weighting” applies to Content Similarity criteria only.
+"Content similarity attribute weighting" applies to Content Similarity criteria only.
 
-This type of weighting is more dynamic, and is based on the current “recommendation key” (the currently viewed item). In the following example (brand x 16), if a visitor were viewing Nike sneakers, that visitor is more likely to be recommended other Nike products (not necessarily only sneakers) rather than competitors’ sneakers. If a visitor is viewing Adidas sneakers, that visitor is more likely to be recommended Adidas products.
+This type of weighting is more dynamic, and is based on the current "recommendation key" (the currently viewed item). In the following example (brand x 16), if a visitor were viewing Nike sneakers, that visitor is more likely to be recommended other Nike products (not necessarily only sneakers) rather than competitors' sneakers. If a visitor is viewing Adidas sneakers, that visitor is more likely to be recommended Adidas products.
 
 ![content_similarity_example image](assets/content_similarity_example.png)
 
@@ -244,8 +244,8 @@ An algorithm created in [!DNL Recommendations Classic] is not supported in [!DNL
 Some customers in media and publishing want to ensure that recommended items include only the newest articles or videos. As an example, a [!DNL Target] customer used the following approach to recommend articles fewer than 60 days old:
 
 1. Pass the article publish date, in YYMMDDD format, as a custom entity attribute.
-1. Create a profile script that is today’s date minus 60 days, also in YYYYMMDD format.
-1. Use a dynamic inclusion filter in the criteria so that `publish date > today’s date minus 60 days`.
+1. Create a profile script that is today's date minus 60 days, also in YYYYMMDD format.
+1. Use a dynamic inclusion filter in the criteria so that `publish date > today's date minus 60 days`.
 
 ### Pass the publish date as a custom entity attribute:
 
@@ -268,3 +268,14 @@ Some customers in media and publishing want to ensure that recommended items inc
 >[!NOTE]
 >
 >This example could also be accomplished using parameter matching and passing the `priorDate60` value as an mbox parameter.
+
+### What are some known issues when using [!DNL Recommendations] activities?
+
+The following are known issues with [!UICONTROL Recommendations] activities:
+
+* When [!DNL Target] returns a JSON offer with getOffer(), it returns with type of JSON. However, if you return a JSON Recommendations design it returns with a type of HTML.
+* Expired entities are correctly expired after 60 days of receiving no updates via feed or API; however, the expired entities are not removed from the Catalog Search index after expiration. Entities deleted via feed or API are also not currently removed from the Catalog Search index. (IRI-857)
+* Recommendations Offers in A/B and Experience Targeting activities do not show a visual preview of the Recommendations tray (TGT-33426)
+* Collections, exclusions, criteria, and designs created via API are not visible in the Target user interface and can be edited only via API. Likewise, if you create any of these items in the Target UI and later edit them via API, those changes are not reflected in the Target UI. Items edited via API should continue to be edited via API to avoid loss of any modifications. (TGT-35777)
+* Recommendations activities created via API can be viewed in the user interface, but can only be edited via API.
+* The Custom Criteria feed status displayed in the Criteria list (card) view is refreshed every ten minutes and might be more than ten minutes out of date in rare circumstances. The status displayed in the Custom Criteria edit view is fetched in real time and is always up to date. (TGT-35896, TGT-36173)

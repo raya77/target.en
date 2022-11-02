@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|November 2|Known issues and resolved issues|Removed page and relocated relevant issues to the appropriate pages so that information will be in context.|
 |October 25|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 22.10.3 release.|
 |October 19|[Category affinity](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9)|Added a note explaining scoring when several categories are are passed within a single mbox call.|
 |October 18|[Create an [!UICONTROL Automated Personalization] activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)|Updated text to indicate that although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Dissalow Duplicates] option.|
@@ -97,7 +98,6 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 |March 22|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release information about the [!DNL Target Standard/Premium] customer engineering fixes release.|
 ||[Target release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease information about the [!DNL Target Standard/Premium] 22.3.1 release.|
 |March 17|[Target release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease information about the [!DNL Target Standard/Premium] customer engineering fixes release.|
-|March 9|[Known issues and resolved issues](/help/main/r-release-notes/known-issues-resolved-issues.md#ad-hoc)|Added the following known issue:<ul><li>Deleting locations that have ad-hoc offers in activities created in the Form-Based Experience Composer</li></ul>|
 ||[Real-time profile syncing for mbox3rdPartyId](/help/main/c-target/c-visitor-profile/3rd-party-id.md)|Updated following sentence regarding profile syncing: "Updates are synced with the profile store every 5-10 minutes."|
 |March 8|[Target announcements and events](/help/main/r-release-notes/target-announcements.md)|Added information about the following event:<ul><li>[!DNL Adobe Target] Community Q&A Coffee Break (March 30, 2022)</li></ul>|
 |March 7|[Create audiences](/help/main/c-target/c-audiences/audiences.md#aep)|Added new section under "Use audiences from [!DNL Adobe Experience Platform]:"<ul><li>Personalization use cases</li></ul>|

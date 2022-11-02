@@ -21,10 +21,6 @@ Here are a few scenarios in which you can experience expected data variance:
 
   Adobe hopes to address this issue in the future as Adobe teams work toward A4T on the Adobe Experience Platform. Adobe teams are determining how to handle these different events occurring at different times on the page.
 
-  >[!NOTE]
-  >
-  >A known issue exits that is causing a limited number of customers using redirects with A4T to see a higher percentage of unstitched hit rates. See [Known issues and resolved issues](/help/main/r-release-notes/known-issues-resolved-issues.md#redirect).
-
 ## Expected data variance when *not using* A4T {#expected-not-using-a4t}
 
 Variances of 15-20% are normal, even with similar data sets. Systems that count differently can result in much higher data variances, as much as 35-50%. Sometimes, variances can be even higher.

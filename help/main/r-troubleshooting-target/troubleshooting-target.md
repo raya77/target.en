@@ -118,10 +118,6 @@ The following sections contain troubleshooting information about implementing Ta
 * [at.js version details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)
 * "Office Hours" video, an initiative led by the Adobe Customer Care team.
 
-## Known issues
-
-* [Known issues and resolved issues](/help/main/r-release-notes/known-issues-resolved-issues.md)
-
 ## Mobile Apps
 
 * [Target for mobile apps FAQ](https://developer.adobe.com/target/implement/mobile/mobile-faq/)
