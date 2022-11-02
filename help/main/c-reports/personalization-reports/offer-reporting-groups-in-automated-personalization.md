@@ -18,7 +18,7 @@ When you use reporting groups, [!DNL Target] creates one personalization model f
 
 If your activity setup doesn't have enough data for a personalization model to be built per offer, reporting groups can help reduce the data requirements to use [!UICONTROL Automated Personalization]. Reporting groups can also help solve the "cold start" problem for new offers by grouping similar offers so that each model gets more data to train on. Modeling groups can also be used for activities where new offers are introduced regularly to your AP activity.
 
-This approach works well if visitors respond the same way to all offers in a group. Best practice is to group offers that similar groups of visitors respond to in a similar way. In order words, group offers with similar conversion rates. You should never put all offers into a single reporting group. Grouping all offers or grouping offers with very different conversion rates likely reduces the effectiveness of the [!DNL Target] personalization models.
+This approach works well if visitors respond the same way to all offers in a group. Best practice is to group offers that similar groups of visitors respond to in a similar way. In order words, group offers with similar conversion rates. You should never put all offers into a single reporting group. Grouping all offers or grouping offers with different conversion rates likely reduces the effectiveness of the [!DNL Target] personalization models.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ This approach works well if visitors respond the same way to all offers in a gro
 
    ![Reporting Group icon](/help/main/c-reports/assets/ap_manage_content_2.png)
 
-1. (Conditional) Batch include experiences in a reporting group by selecting the checkbox for the relevant experiences and then by clicking the **[!UICONTROL Reporting Group]** folder icon in the top right corner of the dialog box.
+1. (Conditional) Batch include experiences in a reporting group by selecting the checkbox for the relevant experiences and then by clicking the **[!UICONTROL Reporting Group]** folder icon in the top-right corner of the dialog box.
 
    ![Reporting Group icon](/help/main/c-reports/assets/ap_manage_content_3.png)
 
@@ -43,9 +43,17 @@ This approach works well if visitors respond the same way to all offers in a gro
 
    Or
 
-   To create a new reporting group to assign the selected offer to, select **[!UICONTROL New]**, name the new reporting group, then click **[!UICONTROL Apply]**.
+   To create a reporting group to assign the selected offer to, select **[!UICONTROL New]**, name the new reporting group, then click **[!UICONTROL Apply]**.
 
    ![New icon to create a new reporting group](/help/main/c-reports/assets/ap_reporting_groups.png)
+
+You can use the [!UICONTROL Location] list to filter offers by location. Use the [!UICONTROL Report Group] list to filter offers by reporting groups. You can also use the [!UICONTROL Report Group] list to filter for [!UICONTROL Unassigned Offers] so you can assign a reporting group to an offer that is not currently assigned to any reporting group.
+
+For information about targeting an offer to specific audiences, see [Target AP Offers](/help/main/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
+
+## Caveats
+
+* It is important to understand that reporting groups impact how [!DNL Target] builds its models. As a result, [!DNL Adobe] recommends that you use reporting groups only if you plan to replace or add new offers while an activity is live. If a new offer is introduced into a live activity, putting the new offer into a group with existing similar offers allows the machine to use the data already collected for the other offers in its group to learn about the new offer. You should never put all offers into a single reporting group.
 
 ## View offers in a reporting group 
 
