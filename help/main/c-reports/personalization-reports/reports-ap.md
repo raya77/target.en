@@ -42,11 +42,11 @@ Click the experience algorithm (Random Forest or control) to view the [!UICONTRO
 
 ![Offer Level report in Adobe Target](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
 
-Offers can be shown within report groups, and these report groups can be collapsed and expanded. Select [!UICONTROL Reporting Group] in the drop-down list to view rolled-up information by reporting groups, rather than by offers.
-
 >[!NOTE]
 >
->The clock icon indicates that the algorithm model is still building. The check mark icon indicates that the base algorithm has been established.
+>A clock icon indicates that the algorithm model is still building. A check mark icon indicates that the base algorithm has been established.
+
+Offers can be shown within [reporting groups](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md), and these reporting groups can be collapsed and expanded. Click **[!UICONTROL Control]** or **[!UICONTROL Targeted]** in the table to view rolled-up information by reporting groups, rather than by offers.
 
 ## Automated Segments
 
