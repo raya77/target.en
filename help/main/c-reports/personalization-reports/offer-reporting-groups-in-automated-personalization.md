@@ -49,7 +49,7 @@ This approach works well if visitors respond the same way to all offers in a gro
 
 ## View offers in a reporting group 
 
-1. Click **[!UICONTROL Activities]**, click the desired [!UICONTROL Automated Personalization] activity from the list, then click the **[!UICONTROL Reports]** tab to display the [!UICONTROL Offer Level](/help/main/c-reports/personalization-reports/reports-ap.md) report.
+1. Click **[!UICONTROL Activities]**, click the desired [!UICONTROL Automated Personalization] activity from the list, then click the **[!UICONTROL Reports]** tab to display the [Offer Level](/help/main/c-reports/personalization-reports/reports-ap.md) report.
 
    If you have many activities, you can filter the list by selecting [!UICONTROL Automated Personalization] from the [!UICONTROL Type] drop-down list.
 
