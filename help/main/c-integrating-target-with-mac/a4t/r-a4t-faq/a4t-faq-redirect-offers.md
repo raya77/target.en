@@ -13,10 +13,6 @@ This topic contains answers to questions that are frequently asked about using r
 
 Yes, if your implementation uses [!DNL at.js]. However, your implementation must meet the minimum requirements listed below in order to use [redirect offers](/help/main/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) in activities that use Analytics as the reporting source.
 
->[!NOTE]
->
->A known issue exits that is causing a limited number of customers using redirects with A4T to see a higher percentage of unstitched hit rates. See [Known issues and resolved issues](/help/main/r-release-notes/known-issues-resolved-issues.md#redirect).
-
 ## What are the minimum requirements to use redirect offers with A4T? {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
 Your implementation must meet the following minimum requirements:
@@ -54,9 +50,7 @@ If you are using an earlier, non-supported version of at.js, there is a possibil
 
 Using the form-based composer to build a redirect activity is recommended to increase the speed of the page redirect because of where the code gets executed on the page. Also, creating a redirect offer for every experience, even the default experience, where the redirect would return the original page is recommended. Creating a redirect offer for each experience ensures that if mis-counting occurs, it happens across all experiences. Reporting and analysis are still valid for the test.
 
-One reason you might want to use redirect offers for all experiences in the activity, including the default (control) experience, is to put the same conditions on all experiences. For example, if the default experience does not have a redirect offer but the other experiences have redirect offers, the speed of the experience without the redirect offer has an inherent advantage. Redirect offers are recommended for temporary scenarios only, such as testing. Redirect offers are not recommended for permanent scenarios, such as personalization. After you determine the “winner,” you should remove the redirect to improve page-load performance.
-
-For more information about this issue, see the "Redirect offers" information in [Known Issues](/help/main/r-release-notes/known-issues-resolved-issues.md#redirect).
+One reason you might want to use redirect offers for all experiences in the activity, including the default (control) experience, is to put the same conditions on all experiences. For example, if the default experience does not have a redirect offer but the other experiences have redirect offers, the speed of the experience without the redirect offer has an inherent advantage. Redirect offers are recommended for temporary scenarios only, such as testing. Redirect offers are not recommended for permanent scenarios, such as personalization. After you determine the "winner," you should remove the redirect to improve page-load performance.
 
 ## Are both the Visual Experience Composer (VEC) and Form-Based Experience Composer supported? {#section_FDA26FE7909B48539DA770559E687677}
 
@@ -123,4 +117,4 @@ Yes, the [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-vi
 
 ### Can I use custom/HTML redirect offers with the [!DNL Platform Web SDK]? 
 
-No, you must use a built-in redirect offer for activities that use A4T. From the [!DNL Target] perspective, HTML offers are opaque. [!DNL Target] can’t know that a particular piece of HTML contains JavaScript that instantiates a redirect.
+No, you must use a built-in redirect offer for activities that use A4T. From the [!DNL Target] perspective, HTML offers are opaque. [!DNL Target] can't know that a particular piece of HTML contains JavaScript that instantiates a redirect.
