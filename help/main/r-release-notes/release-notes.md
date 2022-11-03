@@ -24,7 +24,6 @@ This release contains the following new features, enhancements, and fixes:
 
 |Feature|Details|
 | --- | --- |
-|[!DNL Recommendations]|Added friendly names in [!UICONTROL Analytics for Target] A4T reporting. Previously, [!DNL Target] listed experience IDs only. This enhancement aligns reporting between [!DNL Adobe Analytics] and [!DNL Target] and helps customers streamline building reports in A4T. (TGT-41853)|
 |Optimized A4T metrics for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target]<br>(Available to select customers for testing. Will be available to all customers in a future release.)|Be aware of the following changes:<ul><li>Added support for binary and maximization metrics in [!UICONTROL Analytics for Target] A4T reporting for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities</li><li>Preserved behavior for existing activities until February 2023. After this date, activities will be discontinued to force existing activity migration to new behavior</li><li>Starting February 20, 2023, support for `averagetimespentonsite`, `bouncerate`, and `entries` metrics in [!DNL Target] activities will be deprecated.</li></ul>|
 
 * Added tooltips in the [!DNL Target] UI to help customers navigate the audience builder more efficiently and to learn how to use features that might be unfamiliar. (TGT-44139)
