@@ -128,6 +128,7 @@ feature-set: Target
       + [Preview experiences for an Automated Personalization test](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [Target Automated Personalization offers](c-activities/t-automated-personalization/ap-target-offers.md)
       + [Manage exclusions](c-activities/t-automated-personalization/managing-exclusions.md)
+      + [Offer reporting groups in Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
       + [Select the control for your Automated Personalization or Auto-Target activity](c-activities/t-automated-personalization/experience-as-control.md)
       + [Automated Personalization FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [Preview Automated Personalization activities with experience preview URLs](c-activities/t-automated-personalization/experience-preview.md)
@@ -255,7 +256,6 @@ feature-set: Target
    + Personalization reports {#personalization-reports}
       + [Auto-Target Summary report](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Automated Personalization Summary reports](/help/main/c-reports/personalization-reports/reports-ap.md)
-      + [Offer reporting groups in Automated Personalization](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md)
    + Personalization Insights report {#insights}
       + [Personalization Insights reports overview](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [Automated Segments report](c-reports/c-personalization-insights-reports/automated-segments-report.md)

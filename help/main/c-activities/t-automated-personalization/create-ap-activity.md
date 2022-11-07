@@ -82,7 +82,7 @@ The [!UICONTROL Automated Personalization] (AP) activity workflow in [!DNL Adobe
 
 1. (Conditional) Click **[!UICONTROL Offers]** to select pieces of content and assign them to reporting groups or only allow certain visitors to see certain offers with targeting.
 
-   For more information about reporting groups, see [Offer Reporting Groups in Automated Personalization](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md).
+   For more information about reporting groups, see [Offer Reporting Groups in Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md).
 
 1. (Conditional) Click **[!UICONTROL Exclusion Groups]** to choose any combinations of elements that you want to exclude from the activity.
 
