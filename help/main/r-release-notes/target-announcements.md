@@ -15,14 +15,6 @@ Gartner has named [!DNL Adobe Target] a leader in its latest Magic Quadrant for 
 
 For more information, see the [Adobe Experience Cloud Blog post](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
-## [!DNL Adobe Target] Community Q&A Coffee Break
-
-Drew Burns, Group Product Marketing Manager for [!DNL Adobe Target], will answer your [!DNL Target] questions related to the latest exciting announcement about recently enhanced intelligence and control of AI features, as well as all things personalization.
-
-* **Wednesday, October 26**
-* **9:00 to 10:00 a.m. (PDT, UTC -7)**
-* **[Registration information](https://adobe.ly/3e6gqHe){target=_blank}**
-
 ## [!DNL Adobe Target] webinar series {#webinar-series}
 
 Register for the following webinars to see how customers are using [!DNL Adobe Target] to achieve their personalization and optimization goals:
